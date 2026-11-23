@@ -42,8 +42,7 @@ export function CoursePicker({ add }: { add: (course: PlannedCourse) => void }) 
     };
   }, [query, offered]);
 
-  return <section className={styles.card}>
-    <h2>Find a course</h2>
+  return <div className={styles.stack}>
     <label>Course code or name
       <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="CS 3780 or machine learning" type="search" maxLength={100} />
     </label>
@@ -71,7 +70,7 @@ export function CoursePicker({ add }: { add: (course: PlannedCourse) => void }) 
           </li>))}
         </ul>}
     </div>}
-  </section>;
+  </div>;
 }
 
 function requirementName(requirement: CourseRequirement): string {
@@ -151,13 +150,41 @@ function Sections({ detail, entry, update }: { detail: CourseDetail; entry: Plan
   </div>;
 }
 
-export function CourseCard({ entry, update, remove, prior, simultaneous, detail, approvals }: {
+const courseViews = ["Overview", "Sections", "Requirements", "Plan details"] as const;
+export type CourseView = typeof courseViews[number];
+
+export function CourseEditor({ entry, update, remove, prior, simultaneous, detail, approvals, initialView = "Overview" }: {
   entry: PlannedCourse; update: (changes: Partial<PlannedCourse>) => void; remove: () => void;
-  prior: Set<string>; simultaneous: Set<string>; detail?: CourseDetail; approvals: string[];
+  prior: Set<string>; simultaneous: Set<string>; detail?: CourseDetail | null; approvals: string[]; initialView?: CourseView;
 }) {
-  return <details className={styles.courseCard}>
-    <summary><strong>{entry.code}</strong> {entry.title} <small>{entry.term} · {entry.credits} cr · {entry.status.replace("_", " ")}</small></summary>
-    <div className={styles.courseForm}>
+  const [view, setView] = useState<CourseView>(initialView);
+  return <div className={styles.editor}>
+    <div className={styles.courseTitle}>
+      <h3>{entry.code}</h3>
+      <p>{detail?.course.title ?? entry.title}</p>
+      <small>{entry.term} · {entry.credits} credits · {entry.status.replace("_", " ")}</small>
+    </div>
+    <div className={styles.editorTabs} role="group" aria-label="Course details views">
+      {courseViews.map((item) => <button key={item} type="button" aria-pressed={view === item} onClick={() => setView(item)}>{item}</button>)}
+    </div>
+    {view === "Overview" && <div className={styles.stack}>
+      {detail?.offering?.description && <p className={styles.courseDescription}>{detail.offering.description}</p>}
+      {detail === undefined && <p role="status">Loading course details…</p>}
+      {detail === null && <p>Course details are unavailable.</p>}
+      {detail?.offering && <button className={styles.primaryButton} type="button" onClick={() => setView("Sections")}>Choose sections</button>}
+      {detail?.course && <div className={styles.sources}>
+        <a href={detail.offering ? rosterLink(entry.code) : catalogLink(detail.course)} target="_blank" rel="noreferrer">{detail.offering ? "Cornell roster and syllabus" : "Cornell course catalog"}</a>
+        {detail.offering?.syllabus_url?.startsWith("https://") && <a href={detail.offering.syllabus_url} target="_blank" rel="noreferrer">Syllabus PDF</a>}
+      </div>}
+    </div>}
+    {view === "Sections" && (detail?.offering ? <Sections key={entry.term + entry.code} detail={detail} entry={entry} update={update} /> :
+      <p>{detail === undefined ? "Loading sections…" : "Section selection is available for Spring 2027 offerings."}</p>)}
+    {view === "Requirements" && (detail?.offering ? <>
+      {detail.rules?.prerequisites.status === "not_listed" && detail.rules?.corequisites.status === "not_listed" &&
+        <p>Cornell’s roster lists no prerequisites or corequisites for this offering.</p>}
+      <Conditions detail={detail} prior={prior} simultaneous={simultaneous} />
+    </> : <p>{detail === undefined ? "Loading requirements…" : "Check the course catalog for requirements in this term."}</p>)}
+    {view === "Plan details" && <div className={styles.courseForm}>
       <div className={styles.formGrid}>
         <label>Term <input key={entry.term} defaultValue={entry.term} maxLength={4} pattern="PRE|(?:FA|SP|WI|SU)[0-9]{2}" onBlur={(event) => {
           const term = event.target.value.toUpperCase().trim();
@@ -187,15 +214,9 @@ export function CourseCard({ entry, update, remove, prior, simultaneous, detail,
           }} /> {approval === "repeat-credit-confirmed" ? "This repeated course earned separate credit" : approval.replaceAll("-", " ")}
         </label>)}</div>
       </details>
-      {detail?.offering && <Sections key={entry.term + entry.code} detail={detail} entry={entry} update={update} />}
-      {detail && <Conditions detail={detail} prior={prior} simultaneous={simultaneous} />}
-      {detail?.course && <div className={styles.row}>
-        <a href={detail.offering ? rosterLink(entry.code) : catalogLink(detail.course)} target="_blank" rel="noreferrer">{detail.offering ? "Cornell roster and syllabus" : "Cornell course catalog"}</a>
-        {detail.offering?.syllabus_url?.startsWith("https://") && <a href={detail.offering.syllabus_url} target="_blank" rel="noreferrer">Syllabus PDF</a>}
-      </div>}
       <button type="button" onClick={remove}>Remove course</button>
-    </div>
-  </details>;
+    </div>}
+  </div>;
 }
 
 export function loadCourseDetail(entry: Pick<PlannedCourse, "code" | "term">) {

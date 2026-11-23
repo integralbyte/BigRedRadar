@@ -97,7 +97,7 @@ export default function Shell({ children }: { children: React.ReactNode }) {
 
       <Account />
 
-      <main className="main">
+      <main className={`main ${pathname === '/' || onPlan ? 'wideContent' : ''}`}>
         <div className="inner">
           <div className="topbar">
             <button className="hamburger" onClick={() => setDrawer(true)} aria-label="Menu">&#9776;</button>
