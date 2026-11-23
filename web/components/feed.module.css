@@ -129,6 +129,7 @@
 .dayEvents > h3 { padding: 7px 0 4px; }
 .dayEvents > p, .empty { color: var(--muted); }
 .empty { text-align: center; padding: 27px 0; }
+.empty h2 { margin: 0; color: var(--ink); font: 700 21px/1.2 var(--display); }
 .empty p { margin-bottom: 13px; }
 
 @media (max-width: 640px) {
