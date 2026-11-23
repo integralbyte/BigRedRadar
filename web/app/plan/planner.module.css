@@ -1,0 +1,88 @@
+.planner {
+  display: grid;
+  gap: 18px;
+  padding-block: 38px 56px;
+}
+
+.header, .planBar, .row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header h1 { margin: 0; font: 700 clamp(25px, 4vw, 40px)/1.1 var(--display); }
+.planner h2, .planner h3, .planner h4 { margin: 0; font-family: var(--display); line-height: 1.3; }
+.planner h2 { font-size: 21px; }
+.planner h3 { font-size: 17px; }
+.planner h4 { font-size: 15px; }
+.planner p { margin: 4px 0; color: var(--muted); }
+.planner a { color: var(--red); text-underline-offset: 3px; }
+.planner small { display: block; font-size: 12px; line-height: 1.4; color: var(--muted); }
+
+.planner button, .import {
+  border: 1px solid var(--tick);
+  border-radius: 5px;
+  color: var(--ink);
+  background: var(--raised);
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.planner button:hover, .import:hover { border-color: var(--red); color: var(--red); }
+.planner button:disabled { opacity: .55; cursor: default; }
+.planner input:not([type="checkbox"]), .planner select {
+  width: 100%;
+  min-width: 0;
+  margin: 3px 0;
+  padding: 7px 8px;
+  border: 1px solid var(--tick);
+  border-radius: 5px;
+  background: var(--raised);
+  color: var(--ink);
+  font: inherit;
+}
+.planner input[type="checkbox"] { margin: 0; accent-color: var(--red); }
+.planner label { font-size: 13px; font-weight: 500; }
+.planBar { padding: 12px 15px; border-radius: 6px; background: var(--surface); justify-content: flex-start; }
+.planBar p { margin-left: auto; font-size: 12px; }
+.inline, .checklist { display: flex; gap: 7px; align-items: center; }
+.checklist { align-items: start; margin: 7px 0; }
+.checklist input { margin-top: 4px !important; }
+.import { position: relative; display: inline-flex; align-items: center; }
+.import input { opacity: 0; position: absolute; inset: 0; cursor: pointer; }
+.import:focus-within { outline: 2px solid var(--red); outline-offset: 2px; }
+
+.tabs { display: flex; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--tick); }
+.tabs button[aria-current] { background: var(--red); border-color: var(--red); color: white; }
+.columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); align-items: start; gap: 16px; }
+.card { display: grid; gap: 12px; padding: 16px; border: 1px solid var(--tick); border-radius: 8px; background: var(--raised); min-width: 0; }
+.stack { display: grid; gap: 14px; }
+.results { padding: 0; margin: 0; list-style: none; }
+.results li { display: flex; justify-content: space-between; gap: 8px; align-items: center; border-top: 1px solid var(--tick); padding: 8px 0; }
+.courseCard { padding: 9px 0; border-top: 1px solid var(--tick); }
+.courseCard summary { cursor: pointer; }
+.courseForm, .sectionPicker, .approvals { display: grid; gap: 9px; margin-top: 12px; }
+.courseForm button { justify-self: start; }
+.formGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(155px, 100%), 1fr)); gap: 7px 12px; }
+.conditions { border-left: 2px solid var(--tick); padding-inline-start: 10px; display: grid; gap: 7px; font-size: 13px; }
+.progress { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; }
+.progress th, .progress td { padding: 7px; border-bottom: 1px solid var(--tick); }
+.progress th[scope="row"] { font-weight: 500; }
+.sources { display: flex; flex-wrap: wrap; gap: 12px; }
+.week { display: grid; grid-template-columns: repeat(7, minmax(95px, 1fr)); gap: 5px; overflow-x: auto; }
+.day { min-height: 120px; padding: 8px; background: var(--surface); border-radius: 4px; }
+.day h3 { font-size: 13px; margin-bottom: 6px; }
+.meeting, .conflict { padding: 5px; margin-top: 4px; background: var(--raised); border-left: 2px solid var(--tick); overflow-wrap: anywhere; }
+.conflict { border-left-color: var(--red); }
+
+@media (max-width: 850px) {
+  .columns { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .planner { padding-top: 12px; }
+  .planBar p { margin-left: 0; }
+}

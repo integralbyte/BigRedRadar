@@ -31,6 +31,7 @@ export default function Shell({ children }: { children: React.ReactNode }) {
   const n = followedCount()
   const onFeed = pathname === '/' || pathname.startsWith('/clubs')
   const onExplore = pathname.startsWith('/explore')
+  const onPlan = pathname.startsWith('/plan')
 
   return (
     <div className={`app ${collapsed ? 'collapsed' : ''}`}>
@@ -80,6 +81,15 @@ export default function Shell({ children }: { children: React.ReactNode }) {
             <path d="M10.8 5.2 9.2 9.2 5.2 10.8 6.8 6.8Z" fill="currentColor" stroke="none" />
           </svg>
           <span className="lbl">Explore</span>
+        </Link>
+
+        <Link className={`navbtn ${onPlan ? 'on' : ''}`} href="/plan">
+          <svg className="ic" width="16" height="16" viewBox="0 0 16 16" fill="none"
+               stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" aria-hidden="true">
+            <rect x="2.5" y="3.5" width="11" height="10" rx="1" />
+            <path d="M5.5 1.5v4m5-4v4M2.5 7h11" />
+          </svg>
+          <span className="lbl">Planner</span>
         </Link>
       </aside>
 

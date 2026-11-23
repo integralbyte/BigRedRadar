@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "ingest": "tsx --env-file=.env.local scripts/ingest.ts"
+    "ingest": "tsx --env-file=.env.local scripts/ingest.ts",
+    "academics:package": "tsx scripts/package-academics.ts",
+    "academics:refresh": "python3 scripts/refresh-academics.py"
   },
   "dependencies": {
     "google-auth-library": "^11.0.2",
