@@ -1,0 +1,106 @@
+{
+  "programId": "german-studies-ba",
+  "name": "German Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eight German Studies courses plus the one-credit major research project.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/german-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intensive",
+      "label": "Intensive German-language courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "GERST"
+          ],
+          "numberMin": 3000,
+          "numberMax": 3209,
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Advanced German Studies courses",
+      "unit": "courses",
+      "need": 6,
+      "options": [
+        {
+          "subjects": [
+            "GERST"
+          ],
+          "numberMin": 3210,
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "approval": "gerst-approved-advanced",
+          "minCredits": 3,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research project in German",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "gerst-research-credit",
+          "minCredits": 1,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "german-credits",
+      "label": "German Studies program credits",
+      "unit": "credits",
+      "need": 25
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "intensive",
+        "upper"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "partitionBy": "term",
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "german-research",
+      "label": "German-language research project",
+      "instruction": "Confirm the one-credit project accompanies a 3210-level or higher course in the junior or senior year and meets the department’s paper requirements."
+    }
+  ]
+}

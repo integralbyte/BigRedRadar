@@ -1,0 +1,142 @@
+{
+  "programId": "soil-science-minor",
+  "name": "Soil Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Soil Science and GIS foundations, plus eight further approved credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/soil-science-minor/#curriculumtext",
+    "https://cals.cornell.edu/school-integrative-plant-science/degrees-programs/undergraduate-plant-sciences-major/sips-undergraduate-minors"
+  ],
+  "slots": [
+    {
+      "id": "plsci-2600",
+      "label": "PLSCI 2600",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2600"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 2600"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-2200",
+      "label": "PLSCI 2200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2200"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 2200"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Soil Science electives",
+      "unit": "credits",
+      "need": 8,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 3210",
+            "PLSCI 3630",
+            "PLSCI 3650",
+            "PLSCI 4720"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 4660"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "soil-science-ecology-lab"
+        },
+        {
+          "codes": [
+            "PLSCI 3210",
+            "PLSCI 3630",
+            "PLSCI 3650",
+            "PLSCI 4660",
+            "PLSCI 4720"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "format",
+      "label": "In-person instruction, approvals and exclusive credits",
+      "instruction": "Use in-person coursework, confirm equivalents and laboratory requirements with SIPS, and keep the courses separate from your major. Complete at most one SIPS minor."
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "plant-sciences-minor",
+    "crop-management-minor",
+    "fungal-biology-minor",
+    "horticulture-minor",
+    "plant-breeding-minor"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

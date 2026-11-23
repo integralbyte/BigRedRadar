@@ -1,0 +1,137 @@
+{
+  "programId": "religious-studies-ba",
+  "name": "Religious Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Ten courses and 30 credits across the three advisor-approved categories.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/religious-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "methods",
+      "label": "Approaches, methods and theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "relst-methods",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "breadth",
+      "label": "Breadth across religious traditions",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "approval": "relst-breadth",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Focused coursework",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "approval": "relst-focus",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Additional Religious Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "B-"
+        },
+        {
+          "approval": "relst-approved-elective",
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "credits",
+      "label": "Religious Studies credits",
+      "unit": "credits",
+      "need": 30
+    },
+    {
+      "id": "focus-upper",
+      "label": "Advanced course in the focus area",
+      "slots": [
+        "focus"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 4000
+        }
+      ]
+    },
+    {
+      "id": "upper-two",
+      "label": "Advanced courses in breadth or focus",
+      "slots": [
+        "breadth",
+        "focus"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 4000
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "methods",
+        "breadth",
+        "focus",
+        "additional"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "relst-language-petition"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approved-plan",
+      "label": "Advisor-reviewed course categories",
+      "instruction": "Confirm diversity of traditions, the coherence of your focus, petitioned language credit and any use of honors work."
+    },
+    {
+      "id": "admission",
+      "label": "Declare the major",
+      "instruction": "Complete one Religious Studies content course and confirm the plan with the program advisor."
+    }
+  ]
+}

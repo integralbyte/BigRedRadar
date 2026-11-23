@@ -1,0 +1,215 @@
+{
+  "programId": "fgss-ba",
+  "name": "Feminist, Gender & Sexuality Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Nine courses and three distinct focus areas. The department confirms the focus of each selected course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fgss-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to FGSS",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FGSS 2010"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Feminist theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FGSS 3000"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "label": "Senior seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FGSS 4000"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "lgbt",
+      "label": "LGBT studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-lgbt"
+        }
+      ]
+    },
+    {
+      "id": "intersectionality",
+      "label": "Intersectionality",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-intersectionality"
+        }
+      ]
+    },
+    {
+      "id": "geopolitics",
+      "label": "Geopolitics and transnationality",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-geopolitics"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional FGSS courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "intro",
+        "theory",
+        "senior",
+        "lgbt",
+        "intersectionality",
+        "geopolitics",
+        "electives"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "fgss-second-major-overlap"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "declaration",
+      "label": "Major admission",
+      "instruction": "Complete two FGSS or cross-listed courses graded C- or above before applying. First-year writing seminars can count for admission only."
+    },
+    {
+      "id": "topic-and-overlap",
+      "label": "Topic and second-major approvals",
+      "instruction": "Confirm the category for each selected course and identify any courses also applied to a second major."
+    }
+  ]
+}

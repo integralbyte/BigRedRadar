@@ -1,0 +1,201 @@
+{
+  "programId": "jewish-studies-ba",
+  "name": "Jewish Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory and research courses, upper-level electives and advisor-confirmed historical breadth.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/jewish-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Judaism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "JWST 2644"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Jewish Studies electives",
+      "unit": "courses",
+      "need": 7,
+      "options": [
+        {
+          "subjects": [
+            "JWST"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "JWST 4998",
+            "JWST 4999"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "approval": "jwst-elective-approved",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "label": "Approved course in a related field",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "jwst-related-noncrosslisted",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "research-path",
+      "label": "Jewish Studies research path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Research in Jewish Studies",
+          "slots": [
+            {
+              "id": "research",
+              "label": "Research in Jewish Studies",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "JWST 4769"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors research sequence",
+          "slots": [
+            {
+              "id": "honors-i",
+              "label": "Honors Research I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "JWST 4998"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "honors-ii",
+              "label": "Honors Research II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "JWST 4999"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "upper",
+      "label": "Upper-level Jewish Studies electives",
+      "slots": [
+        "electives"
+      ],
+      "need": 4,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "early",
+      "label": "Jewish history before 1492",
+      "slots": [
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "jwst-before-1492"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "label": "Jewish history since 1492",
+      "slots": [
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "jwst-since-1492"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "jwst-jewish-language"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "breadth-and-language",
+      "label": "Historical breadth and language use",
+      "instruction": "Confirm a distinct approved course for each historical period, and identify up to two Jewish language courses available after the college language requirement is fulfilled."
+    },
+    {
+      "id": "related-approval",
+      "label": "Related coursework",
+      "instruction": "Confirm the only related course is approved and is outside the Jewish Studies cross-listings."
+    }
+  ]
+}

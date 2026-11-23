@@ -1,0 +1,3399 @@
+{
+  "programId": "viticulture-enology-bs",
+  "name": "Viticulture and Enology (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core coursework and 17 elective credits with explicit lecture and laboratory pairs.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/viticulture-enology-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-chem-1560",
+      "label": "CHEM 1560",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1560"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-chem-1561",
+      "label": "CHEM 1561",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1561"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-chem-1570",
+      "label": "CHEM 1570",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1570"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-plsci-1420",
+      "label": "PLSCI 1420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1420"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-biomi-2900",
+      "label": "BIOMI 2900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-plsci-2410",
+      "label": "PLSCI 2410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2410"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-plsci-2600",
+      "label": "PLSCI 2600",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-1104",
+      "label": "VIEN 1104",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 1104"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-1105",
+      "label": "VIEN 1105",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 1105"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-2204",
+      "label": "VIEN 2204",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2204"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-2205",
+      "label": "VIEN 2205",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2205"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-fdsc-2110",
+      "label": "FDSC 2110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FDSC 2110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-2400",
+      "label": "VIEN 2400",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2400"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-3610",
+      "label": "VIEN 3610",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 3610"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-4700",
+      "label": "VIEN 4700",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 4700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-vien-4710",
+      "label": "VIEN 4710",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 4710"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-intro-bio",
+      "label": "Introductory biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 1350",
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOEE 1610",
+            "BIOEE 1780"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-biochemistry",
+      "label": "Introductory biochemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 3300",
+            "BIOMG 3310",
+            "BIOMG 3350",
+            "NS 3200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Introductory statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2100",
+            "STSCI 2200",
+            "STSCI 2150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-advanced-care",
+      "label": "Advanced viticulture or pest management",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 4460",
+            "PLSCI 2440"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "paired-electives",
+      "label": "Electives taken as lecture-and-laboratory pairs",
+      "options": [
+        {
+          "id": "no-pairs",
+          "label": "Standalone electives only",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310",
+          "label": "VIEN 2310 and VIEN 4310",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2360",
+          "label": "VIEN 2360 and VIEN 4360",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2340",
+          "label": "VIEN 2340 and VIEN 4340",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4500",
+          "label": "VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2360",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2360 and VIEN 4360",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2340",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2340 and VIEN 4340",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-4500",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2360-2340",
+          "label": "VIEN 2360 and VIEN 4360 / VIEN 2340 and VIEN 4340",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2360-4500",
+          "label": "VIEN 2360 and VIEN 4360 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2340-4500",
+          "label": "VIEN 2340 and VIEN 4340 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2360-2340",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2360 and VIEN 4360 / VIEN 2340 and VIEN 4340",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2360-4500",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2360 and VIEN 4360 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2340-4500",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2340 and VIEN 4340 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2360-2340-4500",
+          "label": "VIEN 2360 and VIEN 4360 / VIEN 2340 and VIEN 4340 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2310-2360-2340-4500",
+          "label": "VIEN 2310 and VIEN 4310 / VIEN 2360 and VIEN 4360 / VIEN 2340 and VIEN 4340 / VIEN 4500 and VIEN 4510",
+          "slots": [
+            {
+              "id": "vit-elective",
+              "label": "Other listed Viticulture and Enology elective credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911",
+                    "FDSC 2206",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4000",
+                    "FDSC 4010",
+                    "FDSC 4040",
+                    "FDSC 4100",
+                    "FDSC 4170",
+                    "FDSC 4190",
+                    "FDSC 4220",
+                    "NTRES 3240",
+                    "PLSCI 2250",
+                    "PLSCI 2440",
+                    "PLSCI 2940",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3420",
+                    "PLSCI 3421",
+                    "PLSCI 4551",
+                    "PLSCI 4660",
+                    "PLSCI 4720",
+                    "VIEN 3300",
+                    "VIEN 3620",
+                    "VIEN 4400",
+                    "VIEN 4460",
+                    "VIEN 4650",
+                    "VIEN 5660"
+                  ],
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2310",
+              "label": "VIEN 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4310",
+              "label": "VIEN 4310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2360",
+              "label": "VIEN 2360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4360",
+              "label": "VIEN 4360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-2340",
+              "label": "VIEN 2340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 2340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4340",
+              "label": "VIEN 4340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4340"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4500",
+              "label": "VIEN 4500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "vit-elective-vien-4510",
+              "label": "VIEN 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VIEN 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "vit-elective-credits",
+              "label": "Approved Viticulture and Enology elective credits",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 17,
+              "unit": "credits"
+            },
+            {
+              "id": "vit-vien-credits",
+              "label": "VIEN credits within the chosen major electives",
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "need": 5,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "VIEN"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3210",
+                    "PLSCI 4660"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "vit-elective",
+                "vit-elective-vien-2310",
+                "vit-elective-vien-4310",
+                "vit-elective-vien-2360",
+                "vit-elective-vien-4360",
+                "vit-elective-vien-2340",
+                "vit-elective-vien-4340",
+                "vit-elective-vien-4500",
+                "vit-elective-vien-4510"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4551",
+                    "PLSCI 4720"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "vit-core",
+      "label": "Viticulture and Enology core credits",
+      "unit": "credits",
+      "need": 54,
+      "slotPrefix": "core-"
+    }
+  ],
+  "manual": [
+    {
+      "id": "internship",
+      "label": "Supervised internship",
+      "instruction": "Confirm the required internship was completed. VIEN 4960 credit is optional."
+    },
+    {
+      "id": "lab-and-credits",
+      "label": "Required labs and college credits",
+      "instruction": "Confirm grades for all companion lecture and laboratory components, accepted substitutions and the CALS graduation requirements."
+    }
+  ]
+}

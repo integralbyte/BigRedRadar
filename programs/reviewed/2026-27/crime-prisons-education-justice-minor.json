@@ -1,0 +1,88 @@
+{
+  "programId": "crime-prisons-education-justice-minor",
+  "name": "Crime, Prisons, Education, and Justice Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five interdisciplinary courses and an approved engagement experience.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/crime-prisons-education-justice-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Crime and prisons foundation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GOVT 3121",
+            "GOVT 3141",
+            "GOVT 3152"
+          ],
+          "minGrade": "C+",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "label": "Reflecting on work with justice-involved people",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GOVT 3142",
+            "EDUC 3142",
+            "PMA 4681"
+          ],
+          "minGrade": "C+",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "cpej-approved-reflection",
+          "minGrade": "C+"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Three approved interdisciplinary electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "approval": "cpej-elective",
+          "minGrade": "C+"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "partitionBy": "subject",
+      "max": 4,
+      "unit": "courses",
+      "options": [
+        {}
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "engagement",
+      "label": "Approved engagement experience",
+      "instruction": "Complete and verify an approved prison education, parole initiative or other Cornell-based or student-designed project. Confirm final certification and department representation with the Faculty Director."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

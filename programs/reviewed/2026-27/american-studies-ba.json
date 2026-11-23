@@ -1,0 +1,164 @@
+{
+  "programId": "american-studies-ba",
+  "name": "American Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Twelve courses and the major credit, seminar, breadth and concentration checks.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/american-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "amst-coursework",
+      "label": "American Studies coursework",
+      "unit": "courses",
+      "need": 12,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "subjects": [
+            "AMST"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "approval": "amst-approved-outside-course"
+        },
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "amst-approved-study-abroad"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "credits",
+      "label": "American Studies major credits",
+      "slots": [
+        "amst-coursework"
+      ],
+      "need": 42,
+      "unit": "credits"
+    },
+    {
+      "id": "before-1900",
+      "label": "Courses on material before 1900",
+      "slots": [
+        "amst-coursework"
+      ],
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "amst-pre-1900"
+        }
+      ]
+    },
+    {
+      "id": "american-diversity",
+      "label": "US diversity courses",
+      "slots": [
+        "amst-coursework"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "amst-diversity"
+        }
+      ]
+    },
+    {
+      "id": "seminar",
+      "label": "4000-level American Studies seminar",
+      "slots": [
+        "amst-coursework"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "AMST"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "excludeCodes": [
+            "AMST 4998"
+          ],
+          "approval": "amst-seminar"
+        }
+      ]
+    },
+    {
+      "id": "area",
+      "label": "Courses in the approved concentration",
+      "slots": [
+        "amst-coursework"
+      ],
+      "need": 6,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "amst-focus"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "amst-coursework"
+      ],
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "amst-approved-outside-course"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "amst-coursework"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "discipline",
+      "label": "Disciplinary breadth",
+      "instruction": "Confirm no more than six courses in one discipline and at least two disciplines in the six-course focus."
+    },
+    {
+      "id": "focus-and-credit",
+      "label": "Focus and credit approval",
+      "instruction": "Confirm the concentration with the faculty advisor. One semester of study abroad permits up to two approved courses, while a full year can permit three."
+    }
+  ]
+}

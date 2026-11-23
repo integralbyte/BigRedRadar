@@ -1,0 +1,754 @@
+{
+  "programId": "mechanical-engineering-bs",
+  "name": "Mechanical Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Mechanical Engineering core, distinct design and major electives, and probability and statistics.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/mechanical-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/mae/degree/mechanical-engineering-bs-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "core-engrd-2210",
+      "label": "ENGRD 2210",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2210"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-2250",
+      "label": "MAE 2250",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 2250"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-2030",
+      "label": "MAE 2030",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 2030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-3230",
+      "label": "MAE 3230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-3240",
+      "label": "MAE 3240",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 3240"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-3270",
+      "label": "MAE 3270",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 3270"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-3260",
+      "label": "MAE 3260",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 3260"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-4272",
+      "label": "MAE 4272",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 4272"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mae-4300",
+      "label": "MAE 4300",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 4300"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mechatronics",
+      "label": "Mechatronics or circuits",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 3780",
+            "ENGRD 2100",
+            "PHYS 3360"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "distribution-mechanics",
+      "label": "Statics and mechanics of solids",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-wave",
+      "label": "Waves and quantum physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2214",
+            "PHYS 2218"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-electricity",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-mechanics",
+      "label": "Mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112",
+            "PHYS 1116"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-lab",
+      "label": "Introduction to experimental physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2940",
+      "label": "MATH 2940",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "elective-design",
+      "label": "Senior design",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 4021",
+            "MAE 4131",
+            "MAE 4161",
+            "MAE 4221",
+            "MAE 4231",
+            "MAE 4341",
+            "MAE 4351",
+            "MAE 4441",
+            "MAE 4631",
+            "MAE 4641",
+            "MAE 4671",
+            "MAE 4861",
+            "MAE 4871"
+          ],
+          "minCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "MAE 4291"
+          ],
+          "minCredits": 3,
+          "approval": "mae-senior-design-project",
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "elective-approved",
+      "label": "Major-approved electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "MAE 3050",
+            "MAE 3120",
+            "MAE 3130",
+            "MAE 3200",
+            "MAE 3780",
+            "MAE 4020",
+            "MAE 4060",
+            "MAE 4070",
+            "MAE 4080",
+            "MAE 4100",
+            "MAE 4110",
+            "MAE 4130",
+            "MAE 4150",
+            "MAE 4160",
+            "MAE 4180",
+            "MAE 4190",
+            "MAE 4220",
+            "MAE 4230",
+            "MAE 4240",
+            "MAE 4320",
+            "MAE 4341",
+            "MAE 4351",
+            "MAE 4360",
+            "MAE 4440",
+            "MAE 4450",
+            "MAE 4480",
+            "MAE 4510",
+            "MAE 4530",
+            "MAE 4540",
+            "MAE 4580",
+            "MAE 4590",
+            "MAE 4630",
+            "MAE 4640",
+            "MAE 4650",
+            "MAE 4660",
+            "MAE 4670",
+            "MAE 4700",
+            "MAE 4730",
+            "MAE 4760",
+            "MAE 4770",
+            "MAE 4780",
+            "MAE 4810",
+            "MAE 4860",
+            "MAE 4870",
+            "MAE 5010",
+            "MAE 5070",
+            "MAE 5310",
+            "MAE 5350",
+            "MAE 5430",
+            "MAE 5680",
+            "MAE 5910"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "mae-major-elective",
+          "minGrade": "D-",
+          "excludeCodes": [
+            "MAE 4900",
+            "ENGRG 3400",
+            "MAE 4980",
+            "MAE 4610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elective-math",
+      "label": "Approved upper-level mathematics elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2700",
+            "CEE 3040",
+            "ENGRD 2720",
+            "ENGRD 3200",
+            "CS 2800",
+            "ECON 3110",
+            "ECE 3100"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "mae-math-elective",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "elective-technical",
+      "label": "Technical elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1440",
+            "BIOG 1445",
+            "BIOMG 1350",
+            "BIOEE 1610",
+            "BIOSM 1610",
+            "CHEM 2080"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRG 3400"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "codes": [
+            "ENGRD 2700",
+            "ENGRD 2720",
+            "CEE 3040",
+            "ECE 3100",
+            "ECON 3110",
+            "CS 2800"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "origins": [
+            "cornell",
+            "transfer",
+            "study_abroad"
+          ],
+          "excludeCodes": [
+            "MAE 4980",
+            "MAE 4610"
+          ],
+          "excludeSubjects": [
+            "BSOC",
+            "ECON",
+            "AEM",
+            "HADM"
+          ],
+          "approval": "mae-technical-elective"
+        }
+      ]
+    },
+    {
+      "id": "advisor",
+      "label": "Advisor-approved electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ENGRG 3400",
+            "MAE 4900"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "numberMin": 1100,
+          "approval": "mae-advisor-elective",
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "mae-approved-biology-ap-advisor-elective"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "chemistry",
+      "label": "General chemistry",
+      "options": [
+        {
+          "id": "engineering",
+          "label": "Engineering general chemistry and laboratory",
+          "slots": [
+            {
+              "id": "chem-lecture",
+              "label": "Engineering general chemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2090"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "chem-lab",
+              "label": "Engineering general chemistry laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2091"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "placement",
+          "label": "Approved chemistry equivalency",
+          "slots": [
+            {
+              "id": "chem-equivalent",
+              "label": "Approved general chemistry credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "approval": "mae-chemistry-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Probability and statistics",
+      "options": [
+        {
+          "id": "course",
+          "label": "A qualifying elective also meets probability and statistics",
+          "slots": [],
+          "checks": [
+            {
+              "id": "probability-course",
+              "label": "Probability and statistics course",
+              "slots": [
+                "elective-math",
+                "elective-technical",
+                "advisor"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 2700",
+                    "ENGRD 2720",
+                    "CEE 3040",
+                    "ECE 3100",
+                    "ECON 3110",
+                    "CS 2800"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "mae-probability-course"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam",
+          "label": "Accepted AP statistics credit",
+          "slots": [],
+          "totals": [
+            {
+              "id": "probability-exam",
+              "label": "Approved AP Statistics score",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "mae-ap-statistics-4-or-5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "approved-credit",
+      "label": "Major-approved elective credits",
+      "slots": [
+        "elective-approved"
+      ],
+      "need": 9,
+      "unit": "credits"
+    },
+    {
+      "id": "elective-credit",
+      "label": "Total credits in the six major-program electives",
+      "slotPrefix": "elective-",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "elective-upper",
+      "label": "Upper-level major-program elective credits",
+      "slotPrefix": "elective-",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "advisor-credit",
+      "label": "Advisor-approved elective credits",
+      "slots": [
+        "advisor"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ],
+  "manual": [
+    {
+      "id": "sequence",
+      "label": "Sequence and eligibility checks",
+      "instruction": "Take the mathematics elective after MATH 2940. Confirm the second distribution and the technical scope of elective and research coursework. Verify affiliation GPA, placement or approved exceptions and the 127-credit degree total."
+    },
+    {
+      "id": "communications",
+      "label": "Engineering communications",
+      "instruction": "MAE 4272 fulfills the major’s Engineering communications requirement."
+    }
+  ]
+}

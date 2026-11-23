@@ -1,0 +1,172 @@
+{
+  "programId": "entomology-minor",
+  "name": "Entomology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Insect biology with one approved core choice and one specialized elective.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/entomology-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "insect-biology",
+      "label": "Insect biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENTOM 2120"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "specialized",
+      "label": "Group B specialized elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENTOM 2030",
+            "ENTOM 2440",
+            "ENTOM 2300",
+            "ENTOM 2500",
+            "ENTOM 3150",
+            "ENTOM 3350",
+            "ENTOM 3440",
+            "ENTOM 3630",
+            "ENTOM 3690",
+            "ENTOM 3755",
+            "ENTOM 3800",
+            "ENTOM 4000",
+            "ENTOM 4700"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "core-option",
+      "label": "Group A course option",
+      "options": [
+        {
+          "id": "single",
+          "label": "One approved course",
+          "slots": [
+            {
+              "id": "group-a",
+              "label": "Group A core elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030",
+                    "ENTOM 3410",
+                    "ENTOM 4100",
+                    "ENTOM 4550",
+                    "ENTOM 4610",
+                    "ENTOM 4830"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "entom-3310",
+          "label": "ENTOM 3310 with ENTOM 3311",
+          "slots": [
+            {
+              "id": "group-a",
+              "label": "Group A lecture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "group-a-lab",
+              "label": "Companion laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "entom-4520",
+          "label": "ENTOM 4520 with ENTOM 4521",
+          "slots": [
+            {
+              "id": "group-a",
+              "label": "Group A lecture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "group-a-lab",
+              "label": "Companion laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "entomology-bs"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 10,
+      "unit": "credits"
+    }
+  ]
+}

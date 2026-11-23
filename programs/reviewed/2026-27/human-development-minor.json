@@ -1,0 +1,83 @@
+{
+  "programId": "human-development-minor",
+  "name": "Human Development Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One of three introductory courses plus four Human Development courses totaling at least six upper-level credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/human-development-minor/#curriculumtext",
+    "https://psychology.cornell.edu/-human-development-minor-"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introductory Human Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "HD"
+          ],
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "excludeCodes": [
+            "HD 4000",
+            "HD 4010",
+            "HD 4020",
+            "HD 4030"
+          ],
+          "codes": [
+            "HD 1130",
+            "HD 2150",
+            "HD 2170"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Additional Human Development courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "HD"
+          ],
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "excludeCodes": [
+            "HD 4000",
+            "HD 4010",
+            "HD 4020",
+            "HD 4030"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "psychology-ba",
+    "human-development-bs",
+    "psychology-minor"
+  ],
+  "checks": [
+    {
+      "id": "advanced",
+      "label": "3000- or 4000-level Human Development credits",
+      "slots": [
+        "upper"
+      ],
+      "need": 6,
+      "unit": "credits",
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999
+        }
+      ]
+    }
+  ]
+}

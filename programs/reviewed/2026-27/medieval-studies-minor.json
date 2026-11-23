@@ -1,0 +1,61 @@
+{
+  "programId": "medieval-studies-minor",
+  "name": "Medieval Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five upper-level courses across two medieval studies areas and a final statement.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/medieval-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "subject",
+      "label": "Medieval Studies coursework",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "subjects": [
+            "MEDVL"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "medieval-studies-approved-elective",
+          "minGrade": "C-",
+          "numberMin": 2000
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "areas",
+      "label": "Area breadth, petitions and major overlap",
+      "instruction": "Use courses from at least two different areas. Apply at most two courses to both the minor and major. Confirm relevant study abroad and courses outside the MEDVL rubric by petition."
+    },
+    {
+      "id": "statement",
+      "label": "Final-semester exit statement",
+      "instruction": "Submit the brief exit statement describing the intellectual interests developed through the minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

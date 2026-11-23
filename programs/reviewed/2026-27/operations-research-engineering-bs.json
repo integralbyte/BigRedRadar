@@ -1,0 +1,1002 @@
+{
+  "programId": "operations-research-engineering-bs",
+  "name": "Operations Research and Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The major curriculum and approved elective categories, including the undergraduate program’s October 2026 elective list.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/operations-research-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/orie/degree/operations-research-engineering-bs-requirements/",
+    "https://cornell.app.box.com/s/76a0gj9tlat8lkahjqb68jgaf1c3xqo3"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "calc-i",
+      "label": "Calculus for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "calc-ii",
+      "label": "Multivariable calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "linear-algebra",
+      "label": "Linear algebra for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "math-option",
+      "label": "Additional mathematical foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930",
+            "CS 2800",
+            "MATH 3040"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-i",
+      "label": "Mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112",
+            "PHYS 1116"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-lab",
+      "label": "Experimental physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-ii",
+      "label": "Electromagnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Engineering probability and statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "label": "Object-oriented programming and data structures",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2110",
+            "ENGRD 2110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3120",
+      "label": "ORIE 3120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3120"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3300",
+      "label": "ORIE 3300",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3300"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3310",
+      "label": "ORIE 3310",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3310"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3500",
+      "label": "ORIE 3500",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3510",
+      "label": "ORIE 3510",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-4580",
+      "label": "ORIE 4580",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 4580"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "engr-intro",
+      "label": "Introduction to Engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ENGRI"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-option",
+      "label": "Accounting, higher mathematics, or graduate ORIE",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3150"
+          ],
+          "minGrade": "C-"
+        },
+        {
+          "codes": [
+            "MATH 3110",
+            "MATH 4130",
+            "MATH 4310",
+            "MATH 4330"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "subjects": [
+            "ORIE"
+          ],
+          "numberMin": 6000,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "orie-electives",
+      "label": "Operations research electives",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "subjects": [
+            "ORIE"
+          ],
+          "numberMin": 4000,
+          "excludeNumbers": [
+            4152,
+            5142,
+            5920,
+            5925,
+            9000
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "codes": [
+            "ORIE 3320",
+            "ORIE 3741",
+            "ORIE 3800",
+            "CS 4999"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "major-approved",
+      "label": "Major-approved electives",
+      "unit": "credits",
+      "need": 12,
+      "options": [
+        {
+          "codes": [
+            "AEM 4110",
+            "AEP 3630",
+            "AEP 4210",
+            "ASTRO 3340",
+            "BEE 2220",
+            "BEE 3400",
+            "BEE 4710",
+            "BEE 4880",
+            "BIOCB 3620",
+            "BIOMG 3300",
+            "BIOMG 3310",
+            "BIOMG 3320",
+            "CEE 4620",
+            "CEE 4630",
+            "CEE 4665",
+            "CEE 5980",
+            "CEE 6230",
+            "CHEM 2080",
+            "CHEME 3230",
+            "CHEME 3240",
+            "CHEME 3720",
+            "CHEME 4320",
+            "CS 2800",
+            "CS 3420",
+            "CS 3780",
+            "CS 4450",
+            "CS 4740",
+            "CS 4758",
+            "CS 4810",
+            "CS 4813",
+            "CS 4852",
+            "CS 5722",
+            "CS 6840",
+            "EAS 3410",
+            "EAS 3420",
+            "EAS 3520",
+            "EAS 4700",
+            "EAS 4840",
+            "ECE 2100",
+            "ECE 3200",
+            "ECE 3530",
+            "ECE 4450",
+            "ECON 3140",
+            "ECON 3810",
+            "FDSC 2000",
+            "INFO 2950",
+            "INFO 2951",
+            "INFO 3950",
+            "MAE 2030",
+            "MAE 3100",
+            "MAE 3230",
+            "MAE 3260",
+            "MAE 4860",
+            "MAE 5790",
+            "PHYS 3316",
+            "PLSCI 2400",
+            "PLSCI 3420",
+            "PSYCH 4760",
+            "PUBPOL 3100",
+            "PUBPOL 5690",
+            "STSCI 3100",
+            "STSCI 3740",
+            "STSCI 3900",
+            "STSCI 4030",
+            "STSCI 4050",
+            "STSCI 4140",
+            "STSCI 4270",
+            "STSCI 4520",
+            "STSCI 4740",
+            "SYSEN 5300",
+            "SYSEN 5640"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "subjects": [
+            "ENGRD"
+          ],
+          "numberMin": 2000,
+          "excludeCodes": [
+            "ENGRD 2700"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4030,
+            4080,
+            4710,
+            4720,
+            4740
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "subjects": [
+            "ORIE"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4152,
+            5920,
+            5925,
+            9000,
+            9101
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-a",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-a-project",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "codes": [
+            "AEM 3270",
+            "AEM 3360",
+            "AEM 3390",
+            "AEM 4060",
+            "AEM 4150",
+            "AEM 4160",
+            "AEM 4210",
+            "AEM 4230",
+            "AEM 4260",
+            "AEM 4280",
+            "AEM 4290",
+            "AEM 4380",
+            "AEM 4390",
+            "AEM 4400",
+            "AEM 4410",
+            "AEM 4470",
+            "AEM 4510",
+            "AEM 4600",
+            "AEM 4610",
+            "AEM 4615",
+            "AEM 4660",
+            "AEM 4670",
+            "AEM 5241",
+            "AEM 5670",
+            "BEE 3299",
+            "BEE 4010",
+            "BEE 4890",
+            "CEE 3230",
+            "CEE 3510",
+            "CEE 3610",
+            "CEE 4530",
+            "CEE 4640",
+            "CEE 5900",
+            "CEE 5970",
+            "CHEME 4660",
+            "CHEME 5660",
+            "CS 2300",
+            "CS 2850",
+            "ECON 2850",
+            "ECON 4220",
+            "ECON 4610",
+            "ECON 4620",
+            "ECON 4903",
+            "ENGRG 4610",
+            "ENMGT 5900",
+            "HADM 3230",
+            "HADM 3275",
+            "HADM 3430",
+            "HADM 4200",
+            "HADM 4205",
+            "HADM 4250",
+            "HADM 4280",
+            "HADM 4410",
+            "HADM 4470",
+            "INFO 2300",
+            "INFO 2310",
+            "INFO 3140",
+            "INFO 3300",
+            "INFO 3350",
+            "INFO 3450",
+            "INFO 4120",
+            "INFO 4145",
+            "INFO 4240",
+            "INFO 4555",
+            "MAE 2250",
+            "NBA 4120",
+            "NBA 4920",
+            "NBA 5060",
+            "NBA 5061",
+            "NBA 5111",
+            "NBA 5121",
+            "NBA 5220",
+            "NBA 5380",
+            "NBA 5410",
+            "NBA 5420",
+            "NBA 5550",
+            "NBA 6200",
+            "NBA 6730",
+            "NBA 6740",
+            "NBA 6930",
+            "NBA 6940",
+            "NCC 5580",
+            "ORIE 4152",
+            "STSCI 4850",
+            "STSCI 4881",
+            "SYSEN 5650",
+            "SYSEN 5740"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "codes": [
+            "AEM 4231",
+            "AEM 4232"
+          ],
+          "approval": "orie-paired-aem-finance",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-b",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-b-project",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "advisor-approved",
+      "label": "Advisor-approved electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeCodes": [
+            "MATH 1900"
+          ],
+          "approval": "orie-advisor-elective"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "chemistry",
+      "label": "Engineering chemistry",
+      "options": [
+        {
+          "id": "general",
+          "label": "Engineering general chemistry and lab",
+          "slots": [
+            {
+              "id": "chemistry",
+              "label": "Engineering general chemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2090"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-lab",
+              "label": "Engineering chemistry laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2091"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors general and inorganic chemistry",
+          "slots": [
+            {
+              "id": "chemistry",
+              "label": "Honors general and inorganic chemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-science",
+      "label": "Additional science or mathematics",
+      "options": [
+        {
+          "id": "math-physics",
+          "label": "Advanced physics or distinct mathematics",
+          "slots": [
+            {
+              "id": "advanced-science",
+              "label": "Advanced physics or distinct mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214",
+                    "CHEM 2150",
+                    "MATH 2930",
+                    "CS 2800",
+                    "MATH 3040",
+                    "MATH 3110",
+                    "MATH 3360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "label": "General chemistry II and lab",
+          "slots": [
+            {
+              "id": "advanced-science",
+              "label": "General chemistry II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "advanced-science-lab",
+              "label": "General chemistry II lab",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "category-a",
+      "label": "Category A approved credits",
+      "slots": [
+        "major-approved"
+      ],
+      "need": 6,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "AEM 4110",
+            "AEP 3630",
+            "AEP 4210",
+            "ASTRO 3340",
+            "BEE 2220",
+            "BEE 3400",
+            "BEE 4710",
+            "BEE 4880",
+            "BIOCB 3620",
+            "BIOMG 3300",
+            "BIOMG 3310",
+            "BIOMG 3320",
+            "CEE 4620",
+            "CEE 4630",
+            "CEE 4665",
+            "CEE 5980",
+            "CEE 6230",
+            "CHEM 2080",
+            "CHEME 3230",
+            "CHEME 3240",
+            "CHEME 3720",
+            "CHEME 4320",
+            "CS 2800",
+            "CS 3420",
+            "CS 3780",
+            "CS 4450",
+            "CS 4740",
+            "CS 4758",
+            "CS 4810",
+            "CS 4813",
+            "CS 4852",
+            "CS 5722",
+            "CS 6840",
+            "EAS 3410",
+            "EAS 3420",
+            "EAS 3520",
+            "EAS 4700",
+            "EAS 4840",
+            "ECE 2100",
+            "ECE 3200",
+            "ECE 3530",
+            "ECE 4450",
+            "ECON 3140",
+            "ECON 3810",
+            "FDSC 2000",
+            "INFO 2950",
+            "INFO 2951",
+            "INFO 3950",
+            "MAE 2030",
+            "MAE 3100",
+            "MAE 3230",
+            "MAE 3260",
+            "MAE 4860",
+            "MAE 5790",
+            "PHYS 3316",
+            "PLSCI 2400",
+            "PLSCI 3420",
+            "PSYCH 4760",
+            "PUBPOL 3100",
+            "PUBPOL 5690",
+            "STSCI 3100",
+            "STSCI 3740",
+            "STSCI 3900",
+            "STSCI 4030",
+            "STSCI 4050",
+            "STSCI 4140",
+            "STSCI 4270",
+            "STSCI 4520",
+            "STSCI 4740",
+            "SYSEN 5300",
+            "SYSEN 5640"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "ENGRD"
+          ],
+          "numberMin": 2000,
+          "excludeCodes": [
+            "ENGRD 2700"
+          ]
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4030,
+            4080,
+            4710,
+            4720,
+            4740
+          ]
+        },
+        {
+          "subjects": [
+            "ORIE"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4152,
+            5920,
+            5925,
+            9000,
+            9101
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-a"
+        },
+        {
+          "numberMin": 2000,
+          "approval": "orie-category-a-project"
+        }
+      ]
+    },
+    {
+      "id": "outside-orie",
+      "label": "Approved credits outside ORIE",
+      "slots": [
+        "major-approved"
+      ],
+      "need": 6,
+      "unit": "credits",
+      "options": [
+        {
+          "excludeSubjects": [
+            "ORIE"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "orie-electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "codes": [
+            "ORIE 4990"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "orie-electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "codes": [
+            "ORIE 4900",
+            "ORIE 4999",
+            "CS 4999"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "major-approved"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "codes": [
+            "ORIE 4900",
+            "ORIE 4990",
+            "ORIE 4999"
+          ]
+        },
+        {
+          "approval": "orie-category-a-project"
+        },
+        {
+          "approval": "orie-category-b-project"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "major-approved"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 4110",
+            "ECON 3140"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "conditional-electives",
+      "label": "Prerequisite-based electives and petitions",
+      "instruction": "Verify Category A chemistry, computing and physics courses against the published prerequisite conditions. Physics prerequisite electives require an exception for the class of 2030 and later. Confirm joint credit for AEM 4231 and AEM 4232 and any project approvals."
+    },
+    {
+      "id": "ai-focus",
+      "label": "Optional Data, Decisions, and AI focus",
+      "instruction": "For graduates who elect this focus, confirm three approved ORIE electives, CS 3700, an eligible AI minor elective, and CS 1340 under the departmental framework."
+    },
+    {
+      "id": "common-curriculum",
+      "label": "Engineering degree and affiliation requirements",
+      "instruction": "Confirm 125 degree credits, affiliation GPA and academic standing, placement, writing, liberal studies and engineering communications."
+    }
+  ]
+}

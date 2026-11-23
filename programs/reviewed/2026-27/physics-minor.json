@@ -1,0 +1,252 @@
+{
+  "programId": "physics-minor",
+  "name": "Physics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory Physics with special relativity, quantum mechanics, an experimental lab and an additional advanced Physics course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/physics-minor/#curriculumtext",
+    "https://physics.cornell.edu/physics-majors"
+  ],
+  "slots": [
+    {
+      "id": "lab",
+      "label": "Introduction to Experimental Physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "quantum",
+      "label": "Basics of Quantum Mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3316"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "em",
+      "label": "Calculus-based electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2208",
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "intermediate-lab",
+      "label": "Approved intermediate physics lab",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3310",
+            "PHYS 3360",
+            "PHYS 4410",
+            "AEP 3640",
+            "ECE 2100",
+            "BEE 4500",
+            "ASTRO 4410"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Additional advanced Physics course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "PHYS"
+          ],
+          "numberMin": 3000,
+          "minCredits": 3,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "physics-minor-upper-equivalent",
+          "numberMin": 3000,
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "mechanics",
+      "label": "Mechanics and Special Relativity",
+      "options": [
+        {
+          "id": "combined",
+          "label": "Mechanics and Special Relativity in one course",
+          "slots": [
+            {
+              "id": "mechanics",
+              "label": "Mechanics and Special Relativity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1116"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sequence",
+          "label": "Mechanics and a separate relativity course",
+          "slots": [
+            {
+              "id": "mechanics",
+              "label": "Calculus-based mechanics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112",
+                    "PHYS 2207"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "relativity",
+              "label": "Special Relativity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2216"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waves",
+      "label": "Oscillations, waves and laboratory sequence",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Oscillations, Waves, and Quantum Physics",
+          "slots": [
+            {
+              "id": "waves",
+              "label": "Oscillations, Waves, and Quantum Physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Waves and Thermal Physics with laboratory",
+          "slots": [
+            {
+              "id": "waves",
+              "label": "Waves and Thermal Physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2218"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "waves-lab",
+              "label": "Exploring Experimental Physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2210"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "physics-ba"
+  ],
+  "manual": [
+    {
+      "id": "intro",
+      "label": "Introductory grade rule and lab timing",
+      "instruction": "The Catalog specifies B- in two introductory classes and the department describes an average of B- for admission. Confirm an equivalent grade combination or lab timing with Physics. Take PHYS 1110 alongside an accepted introductory class."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

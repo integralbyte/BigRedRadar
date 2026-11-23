@@ -1,0 +1,346 @@
+{
+  "programId": "materials-science-engineering-bs",
+  "name": "Materials Science and Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eleven required MSE courses, a two-course capstone and separate materials and application electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/materials-science-engineering-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "engrd",
+      "label": "Category 2 engineering distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "mse-approved-category-2",
+          "minCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "core-mse-2010",
+      "label": "MSE 2010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 2010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-2020",
+      "label": "MSE 2020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 2020"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-2030",
+      "label": "MSE 2030",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 2030"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-2060",
+      "label": "MSE 2060",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 2060"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-2110",
+      "label": "MSE 2110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 2110"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-3030",
+      "label": "MSE 3030",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 3030"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-3040",
+      "label": "MSE 3040",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 3040"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-3050",
+      "label": "MSE 3050",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 3050"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-3110",
+      "label": "MSE 3110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 3110"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-4020",
+      "label": "MSE 4020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 4020"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-mse-4070",
+      "label": "MSE 4070",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MSE 4070"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "materials-electives",
+      "label": "Materials-related electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "approval": "mse-materials-group-elective",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "applications",
+      "label": "Application-related electives",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "approval": "mse-application-elective",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "Technical elective outside MSE",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "mse-approved-outside-technical",
+          "excludeSubjects": [
+            "MSE"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "capstone",
+      "label": "Materials design or thesis sequence",
+      "options": [
+        {
+          "id": "materials-design",
+          "label": "Senior materials laboratory and design",
+          "slots": [
+            {
+              "id": "capstone-1",
+              "label": "MSE 4030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 4030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "capstone-2",
+              "label": "MSE 4072",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 4072"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thesis",
+          "label": "Senior thesis",
+          "slots": [
+            {
+              "id": "capstone-1",
+              "label": "MSE 4050",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 4050"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "capstone-2",
+              "label": "MSE 4060",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 4060"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "other-schools",
+      "label": "Application electives outside MSE",
+      "slots": [
+        "applications"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "excludeSubjects": [
+            "MSE"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "material-areas",
+      "label": "Different materials and application areas",
+      "instruction": "Confirm the materials electives cover two distinct groups and the application electives cover at least two types of applications."
+    },
+    {
+      "id": "mse-degree",
+      "label": "Engineering Common Curriculum",
+      "instruction": "Confirm 125.5 academic credits and applicable Engineering requirements, and any honors requirements."
+    }
+  ]
+}

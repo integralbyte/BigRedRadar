@@ -1,0 +1,346 @@
+{
+  "programId": "comparative-literature-ba",
+  "name": "Comparative Literature (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Ten graded courses across two tracks, including the 2026–27 designated theory offerings.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/comparative-literature-ba/#curriculumtext",
+    "https://complit.cornell.edu/undergraduate"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "methods",
+      "label": "Methods of Comparison",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COML 3001"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Designated seminar in theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COML 4902"
+          ],
+          "terms": [
+            "FA26"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C"
+        },
+        {
+          "codes": [
+            "COML 2591",
+            "COML 3021",
+            "COML 3300",
+            "COML 4251",
+            "COML 4810",
+            "COML 4842"
+          ],
+          "terms": [
+            "SP27"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C"
+        },
+        {
+          "approval": "coml-designated-theory",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "track",
+      "label": "Comparative Literature track",
+      "options": [
+        {
+          "id": "literary",
+          "label": "Comparative Literary Studies",
+          "slots": [
+            {
+              "id": "coml-courses",
+              "label": "Additional Comparative Literature courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "COML"
+                  ],
+                  "numberMin": 2000,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "maxCredits": 4,
+                  "minGrade": "C"
+                },
+                {
+                  "approval": "coml-department-equivalent",
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "maxCredits": 4,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "original-language",
+              "label": "Literature or humanities in the original language",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "approval": "coml-original-language",
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "maxCredits": 4,
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "major-credits",
+              "label": "Comparative Literature major credits",
+              "slots": [
+                "methods",
+                "theory",
+                "coml-courses",
+                "original-language"
+              ],
+              "need": 30,
+              "unit": "credits"
+            },
+            {
+              "id": "department-five",
+              "label": "Courses listed or cross-listed in Comparative Literature",
+              "slots": [
+                "methods",
+                "theory",
+                "coml-courses",
+                "original-language"
+              ],
+              "need": 5,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "COML"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "coml-department-equivalent"
+                }
+              ]
+            },
+            {
+              "id": "untranslated-five",
+              "label": "Courses with work in the original language",
+              "slots": [
+                "methods",
+                "theory",
+                "coml-courses",
+                "original-language"
+              ],
+              "need": 5,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-original-language"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "methods",
+                "theory",
+                "coml-courses",
+                "original-language"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-advanced-language-course"
+                }
+              ]
+            },
+            {
+              "slots": [
+                "methods",
+                "theory",
+                "coml-courses",
+                "original-language"
+              ],
+              "max": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-double-major-overlap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "visual-media",
+          "label": "Literary, Visual, and Media Studies",
+          "slots": [
+            {
+              "id": "literary-study",
+              "label": "Literary study",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "approval": "coml-literary-study",
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "maxCredits": 4,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "visual-media",
+              "label": "Visual arts or media studies",
+              "unit": "courses",
+              "need": 6,
+              "options": [
+                {
+                  "approval": "coml-visual-media",
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "maxCredits": 4,
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "major-credits",
+              "label": "Comparative Literature major credits",
+              "slots": [
+                "methods",
+                "theory",
+                "literary-study",
+                "visual-media"
+              ],
+              "need": 30,
+              "unit": "credits"
+            },
+            {
+              "id": "department-five",
+              "label": "Courses listed or cross-listed in Comparative Literature",
+              "slots": [
+                "methods",
+                "theory",
+                "literary-study",
+                "visual-media"
+              ],
+              "need": 5,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "COML"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "coml-department-equivalent"
+                }
+              ]
+            },
+            {
+              "id": "untranslated-five",
+              "label": "Courses with work in the original language",
+              "slots": [
+                "methods",
+                "theory",
+                "literary-study",
+                "visual-media"
+              ],
+              "need": 5,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-original-language"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "methods",
+                "theory",
+                "literary-study",
+                "visual-media"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-advanced-language-course"
+                }
+              ]
+            },
+            {
+              "slots": [
+                "methods",
+                "theory",
+                "literary-study",
+                "visual-media"
+              ],
+              "max": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "coml-double-major-overlap"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language-and-overlap",
+      "label": "Original-language and interdisciplinary approvals",
+      "instruction": "Confirm original-language work, theory courses from another edition, courses from an additional literature major, and study abroad credit with the director. The department lists COML 4370 for Fall 2026 while the roster shows the title at COML 6370. Confirm the transcript listing before applying it."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "programId": "history-minor",
+  "name": "History Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five Cornell History courses, including a seminar at the 2000 level or above.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/history-minor/#curriculumtext",
+    "https://history.cornell.edu/undergraduate"
+  ],
+  "slots": [
+    {
+      "id": "seminar",
+      "label": "History seminar at the 2000 level or above",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "HIST"
+          ],
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "numberMin": 2000,
+          "approval": "history-minor-seminar"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Additional History coursework",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "HIST"
+          ],
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "history-ba"
+  ],
+  "manual": [
+    {
+      "id": "seminar",
+      "label": "Seminar classification",
+      "instruction": "Check the instructor or registration format to verify that the advanced History course qualifies as a seminar."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "programId": "psychology-minor",
+  "name": "Psychology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eighteen Psychology credits, with at most six research credits available to eligible students.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/psychology-minor/#curriculumtext",
+    "https://psychology.cornell.edu/minor"
+  ],
+  "slots": [
+    {
+      "id": "coursework",
+      "label": "Eligible Psychology coursework",
+      "unit": "credits",
+      "need": 18,
+      "options": [
+        {
+          "subjects": [
+            "PSYCH"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "codes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "psychology-minor-approved-course",
+          "minGrade": "C-",
+          "origins": [
+            "cornell",
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "codes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludeColleges": [
+    "AS"
+  ],
+  "excludePrograms": [
+    "psychology-ba",
+    "human-development-bs",
+    "human-development-minor"
+  ],
+  "manual": [
+    {
+      "id": "admission",
+      "label": "Admission, eligibility and Psychology breadth",
+      "instruction": "The Catalog lists eligibility outside Arts and Sciences and requires three psychology courses at C+ for regular admission. The department page describes broader eligibility. Confirm admission and external approvals, and build breadth across psychology subfields."
+    }
+  ]
+}

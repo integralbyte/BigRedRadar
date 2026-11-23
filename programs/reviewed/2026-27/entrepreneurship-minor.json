@@ -1,0 +1,220 @@
+{
+  "programId": "entrepreneurship-minor",
+  "name": "Entrepreneurship Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Six course areas, including accounting and practical experience, with Cornell and SC Johnson credit floors.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/entrepreneurship-minor/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "overview",
+      "label": "Entrepreneurship overview",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2220"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "label": "Accounting",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2210",
+            "HADM 2230",
+            "NCC 5500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "HADM 1210"
+          ],
+          "minGrade": "C",
+          "approval": "entrepreneurship-nolan-accounting"
+        },
+        {
+          "codes": [
+            "ORIE 3150"
+          ],
+          "minGrade": "C",
+          "approval": "entrepreneurship-orie-accounting"
+        }
+      ]
+    },
+    {
+      "id": "ideation",
+      "label": "Ideation",
+      "unit": "credits",
+      "need": 1.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 2180",
+            "AEM 3110",
+            "HADM 4144",
+            "NBA 5380",
+            "DEA 2730",
+            "SYSEN 5740"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "label": "Entrepreneurial strategy",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 3249",
+            "AEM 3251",
+            "AEM 4080",
+            "AEM 4650",
+            "HADM 4140",
+            "HADM 4145",
+            "HADM 4432",
+            "NBA 3000",
+            "NBA 6230",
+            "NBA 6330"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "label": "Industries and topics",
+      "unit": "credits",
+      "need": 4.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 3220",
+            "AEM 3275",
+            "AEM 3330",
+            "AEM 3380",
+            "AEM 3385",
+            "AEM 4355",
+            "AEM 4572",
+            "AEM 4615",
+            "AEM 4650",
+            "ENGRG 2270",
+            "FSAD 4444",
+            "FSAD 4660",
+            "HADM 3610",
+            "HADM 4130",
+            "HADM 4315",
+            "HADM 4800",
+            "NBA 4720",
+            "NBA 5070",
+            "NBA 6135",
+            "NBA 6910",
+            "PUBPOL 5813"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "practicum",
+      "label": "Practical experience",
+      "unit": "credits",
+      "need": 1.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 3251",
+            "AEM 3385",
+            "AEM 3255",
+            "AEM 4421",
+            "HADM 4315",
+            "NBA 6230",
+            "NBA 6330"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "AEM 4975"
+          ],
+          "approval": "entrepreneurship-experience-petition",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "applied-economics-management-bs"
+  ],
+  "manual": [
+    {
+      "id": "unique",
+      "label": "Eligibility and credits separate from the major",
+      "instruction": "Confirm eligibility if two or more core courses overlap with the major and keep at least 12 credits outside major core requirements. Declare by semester six."
+    },
+    {
+      "id": "restricted-courses",
+      "label": "Restricted accounting and practicum",
+      "instruction": "HADM 1210 is for Nolan students. ORIE 3150 is for ORIE students. AEM 4975 requires an approved petition."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 16.5,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell-credits",
+      "label": "Cornell coursework",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johnson-credits",
+      "label": "SC Johnson College of Business coursework",
+      "need": 7.5,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

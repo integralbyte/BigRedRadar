@@ -1,0 +1,235 @@
+{
+  "programId": "org-human-resource-management-minor",
+  "name": "Organizations and Human Resource Management Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Managing Talent and electives from ILR Human Resource Studies and Organizational Behavior.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/org-human-resource-management-minor/#curriculumtext"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "foundation-route",
+      "label": "Managing Talent route",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Cornell course or approved pre-matriculation equivalent",
+          "slots": [
+            {
+              "id": "foundation",
+              "label": "Managing Talent",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ILRHR 2600"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "ILRHR 2600"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "minGrade": "D-",
+                  "approval": "labor-minor-pre-matriculation-transfer"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Organizational Behavior or Human Resources electives",
+              "unit": "credits",
+              "need": 12,
+              "options": [
+                {
+                  "subjects": [
+                    "ILRHR",
+                    "ILROB"
+                  ],
+                  "excludeNumberPatterns": [
+                    "49XX",
+                    "59XX"
+                  ],
+                  "excludeApprovals": [
+                    "ilr-minor-independent-credit"
+                  ],
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "ILRID 1700"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "subjects": [
+                    "ILRHR",
+                    "ILROB"
+                  ],
+                  "excludeNumberPatterns": [
+                    "49XX",
+                    "59XX"
+                  ],
+                  "excludeApprovals": [
+                    "ilr-minor-independent-credit"
+                  ],
+                  "minGrade": "D-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "labor-minor-pre-matriculation-transfer"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "slots": [
+                "foundation",
+                "electives"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "origins": [
+                    "transfer"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abroad",
+          "label": "Study-abroad equivalency with repeat-credit restriction",
+          "slots": [
+            {
+              "id": "foundation",
+              "label": "Approved Managing Talent equivalency",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "approval": "ilrhr-2600-study-abroad-equivalent",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-"
+                }
+              ],
+              "allocationGroup": "foundation-abroad"
+            },
+            {
+              "id": "electives",
+              "label": "Organizational Behavior and Human Resources credits beyond the study-abroad course",
+              "unit": "credits",
+              "need": 15,
+              "options": [
+                {
+                  "subjects": [
+                    "ILRHR",
+                    "ILROB"
+                  ],
+                  "excludeNumberPatterns": [
+                    "49XX",
+                    "59XX"
+                  ],
+                  "excludeApprovals": [
+                    "ilr-minor-independent-credit"
+                  ],
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "excludeCodes": [
+                    "ILRHR 2600"
+                  ]
+                },
+                {
+                  "subjects": [
+                    "ILRHR",
+                    "ILROB"
+                  ],
+                  "excludeNumberPatterns": [
+                    "49XX",
+                    "59XX"
+                  ],
+                  "excludeApprovals": [
+                    "ilr-minor-independent-credit"
+                  ],
+                  "minGrade": "D-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "labor-minor-pre-matriculation-transfer",
+                  "excludeCodes": [
+                    "ILRHR 2600"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "origins": [
+                    "transfer"
+                  ]
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "repeat-policy",
+              "label": "Managing Talent repeat-credit verification",
+              "instruction": "Confirm the overseas equivalency and the repeat-credit restriction with ILR. The approved study-abroad credits do not contribute to the credit minimum."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Overlap and pre-matriculation transfer",
+      "instruction": "Apply at most three credits to both the minor and other program requirements. Confirm any pre-matriculation transfer equivalency. Independent study, internships, directed study and honors thesis work are excluded."
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "program",
+      "max": 3,
+      "unit": "credits"
+    }
+  ]
+}

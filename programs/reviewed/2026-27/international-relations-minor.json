@@ -1,0 +1,561 @@
+{
+  "programId": "international-relations-minor",
+  "name": "International Relations Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One core course in each of four areas, then a general or regional expertise track.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/international-relations-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core-1",
+      "label": "International economics and development core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2300",
+            "AEM 4300",
+            "ECON 3545"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "ir-core-1",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-2",
+      "label": "World politics and foreign policy core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GOVT 1817"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "ir-core-2",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-3",
+      "label": "International policy core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2000",
+            "GDEV 1102",
+            "GDEV 2010",
+            "GDEV 3150",
+            "GDEV 3311"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "ir-core-3",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-4",
+      "label": "Regional specialization core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASIAN 2208",
+            "ASIAN 2211",
+            "ASIAN 2218",
+            "ASIAN 2222",
+            "ASIAN 2275",
+            "CAPS 2230",
+            "GOVT 2553",
+            "GOVT 3293",
+            "GOVT 3313",
+            "GOVT 3353",
+            "HIST 1511",
+            "HIST 1590",
+            "HIST 1960",
+            "HIST 2674"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "ir-core-4",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "track",
+      "label": "International Relations track",
+      "options": [
+        {
+          "id": "baseline",
+          "label": "General International Relations",
+          "slots": [
+            {
+              "id": "elective-1",
+              "label": "Approved International Relations elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1500",
+                    "AEM 2000",
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 2805",
+                    "AEM 2816",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4545",
+                    "AEM 4880",
+                    "ANTHR 3255",
+                    "ANTHR 4516",
+                    "ARTH 3566",
+                    "ARTH 3850",
+                    "ARTH 4720",
+                    "ARTH 4816",
+                    "ASIAN 2232",
+                    "ASIAN 3304",
+                    "ASIAN 3309",
+                    "ASIAN 3380",
+                    "ASIAN 3395",
+                    "ASIAN 3396",
+                    "ASIAN 4448",
+                    "ASIAN 4454",
+                    "ASIAN 4494",
+                    "ASRC 2003",
+                    "ASRC 2354",
+                    "ASRC 2515",
+                    "ASRC 2542",
+                    "ASRC 2556",
+                    "ASRC 3330",
+                    "ASRC 4681",
+                    "CAPS 4502",
+                    "CEE 1130",
+                    "CRP 3850",
+                    "ECON 3545",
+                    "ECON 3550",
+                    "ECON 3670",
+                    "ECON 3850",
+                    "ECON 3860",
+                    "ECON 3910",
+                    "GDEV 3010",
+                    "GDEV 3020",
+                    "GDEV 3240",
+                    "GDEV 3311",
+                    "GDEV 4140",
+                    "GDEV 4443",
+                    "GDEV 4721",
+                    "GOVT 2152",
+                    "GOVT 2274",
+                    "GOVT 2553",
+                    "GOVT 2673",
+                    "GOVT 2817",
+                    "GOVT 2847",
+                    "GOVT 3007",
+                    "GOVT 3017",
+                    "GOVT 3044",
+                    "GOVT 3087",
+                    "GOVT 3333",
+                    "GOVT 3384",
+                    "GOVT 3443",
+                    "GOVT 3857",
+                    "GOVT 3947",
+                    "GOVT 4037",
+                    "GOVT 4451",
+                    "HIST 1650",
+                    "HIST 1740",
+                    "HIST 2158",
+                    "HIST 2165",
+                    "HIST 2315",
+                    "HIST 2541",
+                    "HIST 2548",
+                    "HIST 2760",
+                    "HIST 2958",
+                    "HIST 2969",
+                    "HIST 3519",
+                    "HIST 3801",
+                    "HIST 4851",
+                    "ILRGL 2350",
+                    "ILRGL 3385",
+                    "ILRGL 4337",
+                    "ILRGL 4360",
+                    "LATA 2200",
+                    "LATA 2715",
+                    "LATA 2800",
+                    "LATA 4000",
+                    "NES 2722",
+                    "NES 3542",
+                    "NES 3805",
+                    "NES 4337",
+                    "NS 4630",
+                    "PUBPOL 3615",
+                    "PUBPOL 3670",
+                    "PUBPOL 3780",
+                    "RELST 2250"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "ir-elective-1",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Second approved International Relations elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1500",
+                    "AEM 2000",
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 2805",
+                    "AEM 2816",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4545",
+                    "AEM 4880",
+                    "ANTHR 3255",
+                    "ANTHR 4516",
+                    "ARTH 3566",
+                    "ARTH 3850",
+                    "ARTH 4720",
+                    "ARTH 4816",
+                    "ASIAN 2232",
+                    "ASIAN 3304",
+                    "ASIAN 3309",
+                    "ASIAN 3380",
+                    "ASIAN 3395",
+                    "ASIAN 3396",
+                    "ASIAN 4448",
+                    "ASIAN 4454",
+                    "ASIAN 4494",
+                    "ASRC 2003",
+                    "ASRC 2354",
+                    "ASRC 2515",
+                    "ASRC 2542",
+                    "ASRC 2556",
+                    "ASRC 3330",
+                    "ASRC 4681",
+                    "CAPS 4502",
+                    "CEE 1130",
+                    "CRP 3850",
+                    "ECON 3545",
+                    "ECON 3550",
+                    "ECON 3670",
+                    "ECON 3850",
+                    "ECON 3860",
+                    "ECON 3910",
+                    "GDEV 3010",
+                    "GDEV 3020",
+                    "GDEV 3240",
+                    "GDEV 3311",
+                    "GDEV 4140",
+                    "GDEV 4443",
+                    "GDEV 4721",
+                    "GOVT 2152",
+                    "GOVT 2274",
+                    "GOVT 2553",
+                    "GOVT 2673",
+                    "GOVT 2817",
+                    "GOVT 2847",
+                    "GOVT 3007",
+                    "GOVT 3017",
+                    "GOVT 3044",
+                    "GOVT 3087",
+                    "GOVT 3333",
+                    "GOVT 3384",
+                    "GOVT 3443",
+                    "GOVT 3857",
+                    "GOVT 3947",
+                    "GOVT 4037",
+                    "GOVT 4451",
+                    "HIST 1650",
+                    "HIST 1740",
+                    "HIST 2158",
+                    "HIST 2165",
+                    "HIST 2315",
+                    "HIST 2541",
+                    "HIST 2548",
+                    "HIST 2760",
+                    "HIST 2958",
+                    "HIST 2969",
+                    "HIST 3519",
+                    "HIST 3801",
+                    "HIST 4851",
+                    "ILRGL 2350",
+                    "ILRGL 3385",
+                    "ILRGL 4337",
+                    "ILRGL 4360",
+                    "LATA 2200",
+                    "LATA 2715",
+                    "LATA 2800",
+                    "LATA 4000",
+                    "NES 2722",
+                    "NES 3542",
+                    "NES 3805",
+                    "NES 4337",
+                    "NS 4630",
+                    "PUBPOL 3615",
+                    "PUBPOL 3670",
+                    "PUBPOL 3780",
+                    "RELST 2250"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "ir-elective-2",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regional",
+          "label": "Regional expertise",
+          "slots": [
+            {
+              "id": "elective-1",
+              "label": "Approved International Relations elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1500",
+                    "AEM 2000",
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 2805",
+                    "AEM 2816",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4545",
+                    "AEM 4880",
+                    "ANTHR 3255",
+                    "ANTHR 4516",
+                    "ARTH 3566",
+                    "ARTH 3850",
+                    "ARTH 4720",
+                    "ARTH 4816",
+                    "ASIAN 2232",
+                    "ASIAN 3304",
+                    "ASIAN 3309",
+                    "ASIAN 3380",
+                    "ASIAN 3395",
+                    "ASIAN 3396",
+                    "ASIAN 4448",
+                    "ASIAN 4454",
+                    "ASIAN 4494",
+                    "ASRC 2003",
+                    "ASRC 2354",
+                    "ASRC 2515",
+                    "ASRC 2542",
+                    "ASRC 2556",
+                    "ASRC 3330",
+                    "ASRC 4681",
+                    "CAPS 4502",
+                    "CEE 1130",
+                    "CRP 3850",
+                    "ECON 3545",
+                    "ECON 3550",
+                    "ECON 3670",
+                    "ECON 3850",
+                    "ECON 3860",
+                    "ECON 3910",
+                    "GDEV 3010",
+                    "GDEV 3020",
+                    "GDEV 3240",
+                    "GDEV 3311",
+                    "GDEV 4140",
+                    "GDEV 4443",
+                    "GDEV 4721",
+                    "GOVT 2152",
+                    "GOVT 2274",
+                    "GOVT 2553",
+                    "GOVT 2673",
+                    "GOVT 2817",
+                    "GOVT 2847",
+                    "GOVT 3007",
+                    "GOVT 3017",
+                    "GOVT 3044",
+                    "GOVT 3087",
+                    "GOVT 3333",
+                    "GOVT 3384",
+                    "GOVT 3443",
+                    "GOVT 3857",
+                    "GOVT 3947",
+                    "GOVT 4037",
+                    "GOVT 4451",
+                    "HIST 1650",
+                    "HIST 1740",
+                    "HIST 2158",
+                    "HIST 2165",
+                    "HIST 2315",
+                    "HIST 2541",
+                    "HIST 2548",
+                    "HIST 2760",
+                    "HIST 2958",
+                    "HIST 2969",
+                    "HIST 3519",
+                    "HIST 3801",
+                    "HIST 4851",
+                    "ILRGL 2350",
+                    "ILRGL 3385",
+                    "ILRGL 4337",
+                    "ILRGL 4360",
+                    "LATA 2200",
+                    "LATA 2715",
+                    "LATA 2800",
+                    "LATA 4000",
+                    "NES 2722",
+                    "NES 3542",
+                    "NES 3805",
+                    "NES 4337",
+                    "NS 4630",
+                    "PUBPOL 3615",
+                    "PUBPOL 3670",
+                    "PUBPOL 3780",
+                    "RELST 2250"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "ir-elective-1",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "regional-elective",
+              "label": "Regional specialization elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 3255",
+                    "ANTHR 4516",
+                    "ARTH 3566",
+                    "ARTH 3850",
+                    "ARTH 4720",
+                    "ARTH 4816",
+                    "ASIAN 2232",
+                    "ASIAN 3309",
+                    "ASIAN 3380",
+                    "ASIAN 3395",
+                    "ASIAN 3396",
+                    "ASIAN 4454",
+                    "ASIAN 4494",
+                    "ASRC 2003",
+                    "ASRC 2354",
+                    "ASRC 2515",
+                    "ASRC 2542",
+                    "ASRC 2556",
+                    "ASRC 3330",
+                    "ASRC 4681",
+                    "CAPS 4502",
+                    "CRP 3850",
+                    "GOVT 2553",
+                    "GOVT 2673",
+                    "GOVT 2847",
+                    "GOVT 3007",
+                    "GOVT 3017",
+                    "GOVT 3044",
+                    "GOVT 3333",
+                    "GOVT 3443",
+                    "GOVT 4037",
+                    "HIST 1740",
+                    "HIST 2158",
+                    "HIST 2165",
+                    "HIST 2315",
+                    "HIST 2541",
+                    "HIST 2548",
+                    "HIST 2760",
+                    "HIST 2958",
+                    "HIST 3519",
+                    "HIST 3801",
+                    "LATA 2200",
+                    "LATA 2715",
+                    "LATA 2800",
+                    "LATA 4000",
+                    "NES 2722",
+                    "NES 3542",
+                    "NES 3805",
+                    "NES 4337",
+                    "NS 4630",
+                    "RELST 2250"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "ir-regional-elective",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "language",
+              "label": "Regional language study and proficiency",
+              "instruction": "Show proficiency in one relevant language plus a culture course in that language, or demonstrate proficiency in two languages including a language used in your specialization. Take language courses for a letter grade."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Term-specific course approval",
+      "instruction": "Confirm any changing topic, elective approval or study-abroad equivalency with the minor coordinator."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

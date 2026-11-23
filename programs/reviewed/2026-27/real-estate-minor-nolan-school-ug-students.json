@@ -1,0 +1,374 @@
+{
+  "programId": "real-estate-minor-nolan-school-ug-students",
+  "name": "Real Estate Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Nolan and non-Nolan requirements with distinct foundation and elective credit totals.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/real-estate-minor-nolan-school-ug-students/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "advanced-finance",
+      "label": "Advanced real estate finance",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "HADM 4230",
+            "HADM 4280"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "path",
+      "label": "Real Estate Minor program path",
+      "options": [
+        {
+          "id": "nolan",
+          "label": "Nolan School",
+          "slots": [
+            {
+              "id": "accounting",
+              "label": "Financial accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 1210"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 2220"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "real-estate",
+              "label": "Principles of Hospitality Real Estate",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 2221"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nolan-enrichment",
+              "label": "Real estate enrichment electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 4205",
+                    "HADM 4230",
+                    "HADM 4250",
+                    "HADM 4255",
+                    "HADM 4271",
+                    "HADM 4280",
+                    "HADM 4515",
+                    "HADM 4570",
+                    "HADM 6520"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nolan-skills",
+              "label": "Complementary skills electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 3055",
+                    "HADM 3230",
+                    "HADM 3235",
+                    "HADM 3510",
+                    "HADM 3880",
+                    "HADM 4110",
+                    "HADM 4270",
+                    "HADM 4500",
+                    "HADM 4530",
+                    "HADM 4760",
+                    "HADM 4770",
+                    "HADM 4870",
+                    "HADM 6240",
+                    "AEM 3520",
+                    "AEM 4060",
+                    "AEM 4110",
+                    "AEM 4210",
+                    "AEM 4260",
+                    "AEM 4280",
+                    "AEM 4500",
+                    "AEM 4534",
+                    "AEM 4570",
+                    "AEM 4670",
+                    "CEE 5950",
+                    "CRP 3270",
+                    "CRP 3430",
+                    "CRP 3840",
+                    "CRP 3850",
+                    "CRP 4040",
+                    "CRP 4080",
+                    "CRP 4590",
+                    "CRP 5080",
+                    "CRP 5190",
+                    "CRP 5320",
+                    "CRP 5321",
+                    "CRP 5530",
+                    "CRP 5560",
+                    "CRP 6560",
+                    "CRP 6580",
+                    "CRP 6595",
+                    "DEA 3530",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "NBA 5060",
+                    "NBA 5110",
+                    "NBA 5420",
+                    "NBA 6730",
+                    "ORIE 4630",
+                    "ORIE 5582",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "PUBPOL 3100",
+                    "PUBPOL 3250"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Real Estate minor credits",
+              "need": 21,
+              "unit": "credits"
+            },
+            {
+              "id": "elective-credits",
+              "label": "Real Estate elective credits",
+              "slots": [
+                "nolan-enrichment",
+                "nolan-skills"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "label": "Non-Nolan",
+          "slots": [
+            {
+              "id": "accounting",
+              "label": "Financial accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 2210",
+                    "AEM 2225",
+                    "HADM 2230",
+                    "ORIE 3150"
+                  ],
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 2240",
+                    "AEM 2241",
+                    "ECON 4220",
+                    "HADM 2250"
+                  ],
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "real-estate",
+              "label": "Principles of Real Estate",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 4200"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "other-enrichment",
+              "label": "Real estate enrichment electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 4205",
+                    "HADM 4230",
+                    "HADM 4250",
+                    "HADM 4255",
+                    "HADM 4271",
+                    "HADM 4280",
+                    "HADM 4515",
+                    "HADM 4570",
+                    "HADM 6520"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "other-skills",
+              "label": "Complementary skills electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HADM 3055",
+                    "HADM 3230",
+                    "HADM 3235",
+                    "HADM 3510",
+                    "HADM 3880",
+                    "HADM 4110",
+                    "HADM 4270",
+                    "HADM 4500",
+                    "HADM 4530",
+                    "HADM 4760",
+                    "HADM 4770",
+                    "HADM 4870",
+                    "HADM 6240",
+                    "AEM 3520",
+                    "AEM 4060",
+                    "AEM 4110",
+                    "AEM 4210",
+                    "AEM 4260",
+                    "AEM 4280",
+                    "AEM 4500",
+                    "AEM 4534",
+                    "AEM 4570",
+                    "AEM 4670",
+                    "CEE 5950",
+                    "CRP 3270",
+                    "CRP 3430",
+                    "CRP 3840",
+                    "CRP 3850",
+                    "CRP 4040",
+                    "CRP 4080",
+                    "CRP 4590",
+                    "CRP 5080",
+                    "CRP 5190",
+                    "CRP 5320",
+                    "CRP 5321",
+                    "CRP 5530",
+                    "CRP 5560",
+                    "CRP 6560",
+                    "CRP 6580",
+                    "CRP 6595",
+                    "DEA 3530",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "NBA 5060",
+                    "NBA 5110",
+                    "NBA 5420",
+                    "NBA 6730",
+                    "ORIE 4630",
+                    "ORIE 5582",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "PUBPOL 3100",
+                    "PUBPOL 3250"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "hotel-management-bs"
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Real Estate minor credits",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "standard",
+      "label": "Program path, GPA and sequencing",
+      "instruction": "Select the path applicable to your major. Apply after the first year with at least a 3.0 Cornell GPA. Confirm a 3.0 Cornell GPA and a 3.2 minor GPA at graduation. Take accounting and finance before the introductory real estate course."
+    }
+  ]
+}

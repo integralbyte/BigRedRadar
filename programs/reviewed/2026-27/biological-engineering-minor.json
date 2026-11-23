@@ -1,0 +1,478 @@
+{
+  "programId": "biological-engineering-minor",
+  "name": "Biological Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "At least six courses with Biology, Engineering core and focus work.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biological-engineering-minor/#curriculumtext",
+    "https://beadvised.bee.cornell.edu/full-list-of-focus-areas-1-5-fall-2025-or-later/"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "course-mix",
+      "label": "Biology, Engineering core and focus electives",
+      "options": [
+        {
+          "id": "1-1-4",
+          "label": "1 biology, 1 Engineering core, 4 focus electives",
+          "slots": [
+            {
+              "id": "biology",
+              "label": "Biological foundation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3350",
+                    "BIOMG 3850",
+                    "BIOMG 4320",
+                    "BIOMI 4850"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310",
+                    "BIOMG 3320"
+                  ],
+                  "courseWeight": 0.5,
+                  "minGrade": "C-",
+                  "approval": "bee-minor-paired-biochemistry"
+                }
+              ]
+            },
+            {
+              "id": "core",
+              "label": "Biological Engineering core",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2600",
+                    "BEE 3310",
+                    "BEE 3400",
+                    "BEE 3500",
+                    "BEE 3600"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus",
+              "label": "Biological Engineering focus electives",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3280",
+                    "BEE 3400",
+                    "BEE 3600",
+                    "BEE 3900",
+                    "BEE 4310",
+                    "BEE 4530",
+                    "BEE 4550",
+                    "BEE 4560",
+                    "BEE 4590",
+                    "BEE 4630",
+                    "BEE 4850",
+                    "BEE 6400",
+                    "BEE 6740",
+                    "BIOCB 3620",
+                    "BIOEE 3550",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 3110",
+                    "BME 3210",
+                    "BME 5810",
+                    "BME 5830",
+                    "BME 5850",
+                    "BME 6130",
+                    "CEE 4370",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CHEME 4840",
+                    "CHEME 5430",
+                    "CHEME 5440",
+                    "CS 4775",
+                    "EAS 3340",
+                    "MAE 4480",
+                    "MAE 4700",
+                    "MAE 4721",
+                    "MAE 5135",
+                    "MAE 5640",
+                    "MSE 3010",
+                    "MSE 5230",
+                    "MSE 5240",
+                    "MSE 5620",
+                    "NTRES 3100",
+                    "NTRES 4120"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "bee-minor-approved-focus",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            },
+            {
+              "id": "bee-count",
+              "label": "Courses taught in BEE",
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "bee-credits",
+              "label": "Credits taught in BEE",
+              "need": 9,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-2-3",
+          "label": "1 biology, 2 Engineering core, 3 focus electives",
+          "slots": [
+            {
+              "id": "biology",
+              "label": "Biological foundation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3350",
+                    "BIOMG 3850",
+                    "BIOMG 4320",
+                    "BIOMI 4850"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310",
+                    "BIOMG 3320"
+                  ],
+                  "courseWeight": 0.5,
+                  "minGrade": "C-",
+                  "approval": "bee-minor-paired-biochemistry"
+                }
+              ]
+            },
+            {
+              "id": "core",
+              "label": "Biological Engineering core",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2600",
+                    "BEE 3310",
+                    "BEE 3400",
+                    "BEE 3500",
+                    "BEE 3600"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus",
+              "label": "Biological Engineering focus electives",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3280",
+                    "BEE 3400",
+                    "BEE 3600",
+                    "BEE 3900",
+                    "BEE 4310",
+                    "BEE 4530",
+                    "BEE 4550",
+                    "BEE 4560",
+                    "BEE 4590",
+                    "BEE 4630",
+                    "BEE 4850",
+                    "BEE 6400",
+                    "BEE 6740",
+                    "BIOCB 3620",
+                    "BIOEE 3550",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 3110",
+                    "BME 3210",
+                    "BME 5810",
+                    "BME 5830",
+                    "BME 5850",
+                    "BME 6130",
+                    "CEE 4370",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CHEME 4840",
+                    "CHEME 5430",
+                    "CHEME 5440",
+                    "CS 4775",
+                    "EAS 3340",
+                    "MAE 4480",
+                    "MAE 4700",
+                    "MAE 4721",
+                    "MAE 5135",
+                    "MAE 5640",
+                    "MSE 3010",
+                    "MSE 5230",
+                    "MSE 5240",
+                    "MSE 5620",
+                    "NTRES 3100",
+                    "NTRES 4120"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "bee-minor-approved-focus",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            },
+            {
+              "id": "bee-count",
+              "label": "Courses taught in BEE",
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "bee-credits",
+              "label": "Credits taught in BEE",
+              "need": 9,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-1-3",
+          "label": "2 biology, 1 Engineering core, 3 focus electives",
+          "slots": [
+            {
+              "id": "biology",
+              "label": "Biological foundation",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3350",
+                    "BIOMG 3850",
+                    "BIOMG 4320",
+                    "BIOMI 4850"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310",
+                    "BIOMG 3320"
+                  ],
+                  "courseWeight": 0.5,
+                  "minGrade": "C-",
+                  "approval": "bee-minor-paired-biochemistry"
+                }
+              ]
+            },
+            {
+              "id": "core",
+              "label": "Biological Engineering core",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2600",
+                    "BEE 3310",
+                    "BEE 3400",
+                    "BEE 3500",
+                    "BEE 3600"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus",
+              "label": "Biological Engineering focus electives",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3280",
+                    "BEE 3400",
+                    "BEE 3600",
+                    "BEE 3900",
+                    "BEE 4310",
+                    "BEE 4530",
+                    "BEE 4550",
+                    "BEE 4560",
+                    "BEE 4590",
+                    "BEE 4630",
+                    "BEE 4850",
+                    "BEE 6400",
+                    "BEE 6740",
+                    "BIOCB 3620",
+                    "BIOEE 3550",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 3110",
+                    "BME 3210",
+                    "BME 5810",
+                    "BME 5830",
+                    "BME 5850",
+                    "BME 6130",
+                    "CEE 4370",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CHEME 4840",
+                    "CHEME 5430",
+                    "CHEME 5440",
+                    "CS 4775",
+                    "EAS 3340",
+                    "MAE 4480",
+                    "MAE 4700",
+                    "MAE 4721",
+                    "MAE 5135",
+                    "MAE 5640",
+                    "MSE 3010",
+                    "MSE 5230",
+                    "MSE 5240",
+                    "MSE 5620",
+                    "NTRES 3100",
+                    "NTRES 4120"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "bee-minor-approved-focus",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            },
+            {
+              "id": "bee-count",
+              "label": "Courses taught in BEE",
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "bee-credits",
+              "label": "Credits taught in BEE",
+              "need": 9,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "BEE"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "biological-engineering-bs"
+  ],
+  "manual": [
+    {
+      "id": "pairing",
+      "label": "Paired biochemistry and approved course list",
+      "instruction": "Confirm both courses in the biochemistry sequence and eligibility of any additional focus-area courses with BEE."
+    }
+  ]
+}

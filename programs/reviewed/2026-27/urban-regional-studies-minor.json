@@ -1,0 +1,64 @@
+{
+  "programId": "urban-regional-studies-minor",
+  "name": "Urban and Regional Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Nine core credits and nine upper-level elective credits over at least six CRP courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/urban-regional-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Urban and Regional Studies core courses",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "codes": [
+            "CRP 1103",
+            "CRP 1104",
+            "CRP 2100",
+            "CRP 2200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Advanced City and Regional Planning electives",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "subjects": [
+            "CRP"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "urban-regional-studies-bs-urs"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "courses",
+      "label": "At least six City and Regional Planning courses",
+      "need": 6,
+      "unit": "courses"
+    }
+  ]
+}

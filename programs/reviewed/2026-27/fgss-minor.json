@@ -1,0 +1,163 @@
+{
+  "programId": "fgss-minor",
+  "name": "Feminist, Gender and Sexuality Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction, theory, one distribution course and two more FGSS courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fgss-minor/#curriculumtext",
+    "https://fgss.cornell.edu/fgss-undergraduate-experience"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to FGSS",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FGSS 2010"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Feminist theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FGSS 3000"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "label": "Geopolitics, intersectionality or LGBT studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-lgbt"
+        },
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-intersectionality"
+        },
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-",
+          "approval": "fgss-geopolitics"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional FGSS courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "FGSS"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "FGSS 4990",
+            "FGSS 4991"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "fgss-ba"
+  ],
+  "manual": [
+    {
+      "id": "categories",
+      "label": "Course classification and major overlap",
+      "instruction": "Confirm the current distribution list. Keep five courses separate from the major unless FGSS approves the contract-college exception for one course."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

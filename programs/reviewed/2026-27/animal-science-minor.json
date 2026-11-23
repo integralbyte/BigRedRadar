@@ -1,0 +1,92 @@
+{
+  "programId": "animal-science-minor",
+  "name": "Animal Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Fifteen eligible Animal Science credits including at least one foundation course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/animal-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "courses",
+      "label": "Animal Science coursework",
+      "unit": "credits",
+      "need": 15,
+      "options": [
+        {
+          "subjects": [
+            "ANSC"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeNumberPatterns": [
+            "29XX",
+            "39XX",
+            "49XX",
+            "59XX"
+          ],
+          "excludeApprovals": [
+            "animal-science-special-studies"
+          ]
+        },
+        {
+          "codes": [
+            "BIOAP 1100"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "animal-science-bs"
+  ],
+  "manual": [
+    {
+      "id": "credits",
+      "label": "Major and minor overlap",
+      "instruction": "Apply at most one course and three credits to both your major and this minor. Keep these credits separate from other minors. Verify Special Studies exclusions."
+    }
+  ],
+  "checks": [
+    {
+      "id": "core",
+      "label": "One Animal Science foundation",
+      "slots": [
+        "courses"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "BIOAP 1100",
+            "ANSC 2400",
+            "ANSC 2120",
+            "ANSC 2210"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 1,
+      "unit": "courses"
+    },
+    {
+      "with": "major",
+      "max": 3,
+      "unit": "credits"
+    },
+    {
+      "with": "minor",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "programId": "global-development-minor",
+  "name": "Global Development Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two foundations, one natural-systems course, one course with the Cornell community-engaged learning attribute, and two electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/global-development-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "gdev-1102",
+      "label": "Introduction to Global Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 1102"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "gdev-2202",
+      "label": "Ethics of Technology and Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2202"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "natural",
+      "label": "Natural systems and development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2300",
+            "GDEV 1300",
+            "GDEV 3240",
+            "GDEV 2065"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "cel",
+      "label": "Community-engaged learning course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "attributes": [
+            "CU-CEL"
+          ],
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Upper-level Global Development electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "GDEV"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "excludeCodes": [
+            "GDEV 4970",
+            "GDEV 4980",
+            "GDEV 4990"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "global-development-bs"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Major and minor overlap",
+      "instruction": "Confirm the published two-course overlap allowance and its credit treatment with Global Development."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "elective-credits",
+      "label": "Global Development elective credits",
+      "slots": [
+        "electives"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

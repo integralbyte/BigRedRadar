@@ -1,0 +1,323 @@
+{
+  "programId": "aerospace-engineering-minor",
+  "name": "Aerospace Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Aerospace introductory course, three more core courses, and two approved electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/aerospace-engineering-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/mae/degree/aerospace-engineering-minor-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introductory aeronautics or spaceflight",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "codes": [
+            "MAE 3050",
+            "MAE 4060"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Additional core aerospace courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "codes": [
+            "MAE 3050",
+            "MAE 4060",
+            "MAE 4150",
+            "MAE 4160",
+            "MAE 4161",
+            "MAE 5160",
+            "MAE 4230",
+            "MAE 4231",
+            "MAE 5230",
+            "MAE 4440",
+            "MAE 4441",
+            "MAE 5440",
+            "MAE 4510",
+            "MAE 5510",
+            "MAE 4540",
+            "MAE 5540",
+            "MAE 4070",
+            "MAE 5070"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "codes": [
+            "MAE 4900",
+            "MAE 4291",
+            "ENGRG 3400"
+          ],
+          "approval": "aerospace-approved-project"
+        },
+        {
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "aerospace-petition-core"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "major",
+      "label": "Requirements by major",
+      "options": [
+        {
+          "id": "mechanical",
+          "label": "Mechanical Engineering major",
+          "slots": [
+            {
+              "id": "additional",
+              "label": "Additional core or applicable aerospace coursework",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "codes": [
+                    "MAE 3050",
+                    "MAE 4060",
+                    "MAE 4150",
+                    "MAE 4160",
+                    "MAE 4161",
+                    "MAE 5160",
+                    "MAE 4230",
+                    "MAE 4231",
+                    "MAE 5230",
+                    "MAE 4440",
+                    "MAE 4441",
+                    "MAE 5440",
+                    "MAE 4510",
+                    "MAE 5510",
+                    "MAE 4540",
+                    "MAE 5540",
+                    "MAE 4070",
+                    "MAE 5070",
+                    "MAE 4020",
+                    "MAE 4021",
+                    "MAE 5020",
+                    "MAE 4130",
+                    "MAE 4131",
+                    "MAE 4180",
+                    "MAE 5180",
+                    "MAE 4770",
+                    "MAE 5700",
+                    "MAE 4730",
+                    "MAE 5730",
+                    "MAE 5770",
+                    "MAE 4780",
+                    "MAE 5780",
+                    "MAE 5430"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "codes": [
+                    "MAE 4900",
+                    "MAE 4291",
+                    "ENGRG 3400"
+                  ],
+                  "approval": "aerospace-approved-project"
+                },
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "aerospace-petition-group-ab"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "major-distinct",
+              "label": "Two courses from the aerospace elective list outside the major",
+              "instruction": "Verify two Aerospace Engineering major-approved elective courses that are kept separate from Mechanical Engineering degree requirements."
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "label": "Other majors",
+          "slots": [
+            {
+              "id": "additional",
+              "label": "Core, applicable or fundamental aerospace coursework",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "codes": [
+                    "MAE 3050",
+                    "MAE 4060",
+                    "MAE 4150",
+                    "MAE 4160",
+                    "MAE 4161",
+                    "MAE 5160",
+                    "MAE 4230",
+                    "MAE 4231",
+                    "MAE 5230",
+                    "MAE 4440",
+                    "MAE 4441",
+                    "MAE 5440",
+                    "MAE 4510",
+                    "MAE 5510",
+                    "MAE 4540",
+                    "MAE 5540",
+                    "MAE 4070",
+                    "MAE 5070",
+                    "MAE 4020",
+                    "MAE 4021",
+                    "MAE 5020",
+                    "MAE 4130",
+                    "MAE 4131",
+                    "MAE 4180",
+                    "MAE 5180",
+                    "MAE 4770",
+                    "MAE 5700",
+                    "MAE 4730",
+                    "MAE 5730",
+                    "MAE 5770",
+                    "MAE 4780",
+                    "MAE 5780",
+                    "MAE 5430",
+                    "ENGRD 2020",
+                    "MAE 2030",
+                    "ENGRD 2210",
+                    "MAE 3230",
+                    "MAE 3240",
+                    "MAE 3260",
+                    "MAE 3270",
+                    "MAE 3780",
+                    "MAE 3783",
+                    "ECE 2100",
+                    "PHYS 3360"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "codes": [
+                    "MAE 4900",
+                    "MAE 4291",
+                    "ENGRG 3400"
+                  ],
+                  "approval": "aerospace-approved-project"
+                },
+                {
+                  "minGrade": "C-",
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "aerospace-petition-group-abc"
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "mechanical-engineering-bs"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 4900",
+            "MAE 4291",
+            "ENGRG 3400"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Project approval and constraints across programs",
+      "instruction": "Confirm preapproval, aerospace focus for project courses, and the single approved outside course. Keep the courses separate from an early M.Eng. or Mechanical Engineering minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "minor",
+      "max": 0,
+      "unit": "courses",
+      "programIds": [
+        "mechanical-engineering-minor"
+      ]
+    }
+  ]
+}

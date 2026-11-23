@@ -1,0 +1,157 @@
+{
+  "programId": "demography-minor",
+  "name": "Demography Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One introduction, one statistics course, one demographic overview and two population electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/demography-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Demographic introduction",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2010",
+            "PUBPOL 2030",
+            "PUBPOL 3280",
+            "PUBPOL 3620"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ILRST 2100",
+            "PSYCH 2500",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "SOC 3010"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "label": "Demographic overview",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2010",
+            "PUBPOL 2030",
+            "PUBPOL 3280",
+            "PUBPOL 3620",
+            "AMST 3800",
+            "CRP 5250",
+            "GDEV 2130",
+            "GDEV 3140",
+            "GDEV 3240",
+            "GDEV 4080",
+            "PUBPOL 2250",
+            "PUBPOL 2370",
+            "PUBPOL 3120",
+            "PUBPOL 3180",
+            "PUBPOL 3230",
+            "PUBPOL 3250",
+            "PUBPOL 3360",
+            "PUBPOL 3710",
+            "PUBPOL 3810",
+            "SOC 2310",
+            "SOC 2390",
+            "SOC 3030",
+            "SOC 4120",
+            "SOC 4370"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "label": "Additional population coursework",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "AMST 2710",
+            "COMM 3250",
+            "COMM 4760",
+            "CRP 3430",
+            "CRP 3840",
+            "CRP 3900",
+            "CRP 4080",
+            "CRP 4680",
+            "ECON 3440",
+            "ECON 3480",
+            "ECON 3710",
+            "ECON 3711",
+            "GDEV 2130",
+            "GDEV 3060",
+            "GDEV 3390",
+            "GDEV 3700",
+            "GDEV 4080",
+            "GDEV 4770",
+            "PUBPOL 2050",
+            "PUBPOL 2208",
+            "PUBPOL 3011",
+            "PUBPOL 3050",
+            "PUBPOL 3120",
+            "PUBPOL 3151",
+            "PUBPOL 3230",
+            "PUBPOL 3231",
+            "PUBPOL 3320",
+            "PUBPOL 3480",
+            "PUBPOL 3550",
+            "PUBPOL 3580",
+            "PUBPOL 3600",
+            "PUBPOL 3734",
+            "PUBPOL 3840",
+            "PUBPOL 3780",
+            "PUBPOL 4160",
+            "SOC 2250",
+            "SOC 3380",
+            "SOC 3650",
+            "SOC 3580"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Course and program eligibility",
+      "instruction": "Confirm applicable Brooks School declaration and completion forms, and any required cross-listed or topic approval."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

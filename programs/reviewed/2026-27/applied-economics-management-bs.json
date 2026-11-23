@@ -1,0 +1,1885 @@
+{
+  "programId": "applied-economics-management-bs",
+  "name": "Applied Economics and Management (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Economics, management, quantitative methods, Grand Challenges, and one of ten Dyson concentrations.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/applied-economics-management-bs/#curriculumtext",
+    "https://launchpad.dyson.cornell.edu/"
+  ],
+  "colleges": [
+    "AG",
+    "BU"
+  ],
+  "slots": [
+    {
+      "id": "core-econ-1110",
+      "label": "ECON 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-econ-1120",
+      "label": "ECON 1120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2200",
+      "label": "AEM 2200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2225",
+      "label": "AEM 2225",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2225"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2240",
+      "label": "AEM 2240",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2240"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2420",
+      "label": "AEM 2420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2420"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2600",
+      "label": "AEM 2600",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2601",
+      "label": "AEM 2601",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2601"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-2700",
+      "label": "AEM 2700",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-3200",
+      "label": "AEM 3200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 3200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-3205",
+      "label": "AEM 3205",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 3205"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aem-3230",
+      "label": "AEM 3230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-calculus",
+      "label": "Calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1110",
+            "MATH 1120",
+            "MATH 1910",
+            "MATH 1920",
+            "MATH 2210",
+            "MATH 2220",
+            "MATH 2230",
+            "MATH 2310",
+            "MATH 2930",
+            "MATH 2940"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "aem-approved-calculus-exam"
+        }
+      ]
+    },
+    {
+      "id": "core-modeling",
+      "label": "Spreadsheet modeling",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Introductory statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "aem-approved-transfer-statistics"
+        }
+      ]
+    },
+    {
+      "id": "core-quantitative",
+      "label": "Quantitative methods elective",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2830",
+            "AEM 2840",
+            "AEM 2850",
+            "AEM 3100",
+            "AEM 3105",
+            "AEM 4060",
+            "AEM 4110",
+            "AEM 4190",
+            "AEM 4600",
+            "ECON 3120",
+            "ECON 3130",
+            "ECON 3140",
+            "ECON 4020",
+            "STSCI 3080"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-grand-prep",
+      "label": "Grand Challenges project preparation",
+      "unit": "credits",
+      "need": 1.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 3000",
+            "AEM 4401"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-grand-project",
+      "label": "Grand Challenges project",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 3260",
+            "AEM 3385",
+            "AEM 4000",
+            "AEM 4001",
+            "AEM 4002",
+            "AEM 4003",
+            "AEM 4004",
+            "AEM 4006",
+            "AEM 4375",
+            "AEM 4875",
+            "AEM 4876"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Grand Challenges introduction",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "Entered as a first-year student",
+          "slots": [
+            {
+              "id": "core-grand-intro",
+              "label": "Grand Challenges introduction",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1101"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "transfer": false
+        },
+        {
+          "id": "external-transfer",
+          "label": "Entered as an external transfer",
+          "slots": [],
+          "transfer": true
+        },
+        {
+          "id": "internal-transfer",
+          "label": "Entered as an internal transfer",
+          "slots": [],
+          "manual": [
+            {
+              "id": "intro-waiver",
+              "label": "Grand Challenges introduction waiver",
+              "instruction": "Confirm the Dyson transfer waiver for your entry path."
+            }
+          ],
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "id": "applied-core",
+      "label": "Two applied economics categories",
+      "options": [
+        {
+          "id": "sustainable--analysis",
+          "label": "Sustainable business and economic policy / Economic analysis",
+          "slots": [
+            {
+              "id": "core-applied-sustainable",
+              "label": "Sustainable business and economic policy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2500",
+                    "AEM 4500",
+                    "AEM 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-analysis",
+              "label": "Economic analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3105",
+                    "AEM 3310",
+                    "AEM 4100",
+                    "AEM 4140",
+                    "AEM 4160",
+                    "AEM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-sustainable",
+                "core-applied-analysis"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "sustainable--international",
+          "label": "Sustainable business and economic policy / International markets and development",
+          "slots": [
+            {
+              "id": "core-applied-sustainable",
+              "label": "Sustainable business and economic policy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2500",
+                    "AEM 4500",
+                    "AEM 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-international",
+              "label": "International markets and development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-sustainable",
+                "core-applied-international"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "sustainable--food",
+          "label": "Sustainable business and economic policy / Food and agricultural economics",
+          "slots": [
+            {
+              "id": "core-applied-sustainable",
+              "label": "Sustainable business and economic policy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2500",
+                    "AEM 4500",
+                    "AEM 4510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-food",
+              "label": "Food and agricultural economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310",
+                    "AEM 4150",
+                    "AEM 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-sustainable",
+                "core-applied-food"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "analysis--international",
+          "label": "Economic analysis / International markets and development",
+          "slots": [
+            {
+              "id": "core-applied-analysis",
+              "label": "Economic analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3105",
+                    "AEM 3310",
+                    "AEM 4100",
+                    "AEM 4140",
+                    "AEM 4160",
+                    "AEM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-international",
+              "label": "International markets and development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-analysis",
+                "core-applied-international"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "analysis--food",
+          "label": "Economic analysis / Food and agricultural economics",
+          "slots": [
+            {
+              "id": "core-applied-analysis",
+              "label": "Economic analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3105",
+                    "AEM 3310",
+                    "AEM 4100",
+                    "AEM 4140",
+                    "AEM 4160",
+                    "AEM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-food",
+              "label": "Food and agricultural economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310",
+                    "AEM 4150",
+                    "AEM 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-analysis",
+                "core-applied-food"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "international--food",
+          "label": "International markets and development / Food and agricultural economics",
+          "slots": [
+            {
+              "id": "core-applied-international",
+              "label": "International markets and development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-applied-food",
+              "label": "Food and agricultural economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310",
+                    "AEM 4150",
+                    "AEM 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "allowSatisfactory": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "applied-credits",
+              "label": "Applied Economics credits",
+              "slots": [
+                "core-applied-international",
+                "core-applied-food"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "label": "Dyson concentration",
+      "options": [
+        {
+          "id": "accounting",
+          "label": "Accounting",
+          "slots": [
+            {
+              "id": "focus-aem-3360",
+              "label": "AEM 3360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-aem-3370",
+              "label": "AEM 3370",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3370"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Accounting elective credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3520",
+                    "AEM 4225",
+                    "AEM 4520",
+                    "AEM 4521",
+                    "AEM 4530",
+                    "AEM 4531",
+                    "AEM 4532",
+                    "AEM 4533",
+                    "AEM 4534",
+                    "AEM 4560",
+                    "NBA 5090",
+                    "NBA 5110",
+                    "NBA 5350",
+                    "NBA 5355"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": []
+        },
+        {
+          "id": "finance",
+          "label": "Finance",
+          "slots": [
+            {
+              "id": "focus-aem-4570",
+              "label": "AEM 4570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-aem-4670",
+              "label": "AEM 4670",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4670"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Finance elective credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3520",
+                    "AEM 3360",
+                    "AEM 4060",
+                    "AEM 4210",
+                    "AEM 4230",
+                    "AEM 4231",
+                    "AEM 4232",
+                    "AEM 4260",
+                    "AEM 4280",
+                    "AEM 4290",
+                    "AEM 4545",
+                    "AEM 4572",
+                    "AEM 4590",
+                    "AEM 4681",
+                    "HADM 4232"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-electives"
+              ],
+              "max": 3,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3520",
+                    "AEM 3360"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "label": "Food Business Management",
+          "slots": [
+            {
+              "id": "focus-aem-2310",
+              "label": "AEM 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-aem-2480",
+              "label": "AEM 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Food Business Management elective credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2050",
+                    "AEM 3020",
+                    "AEM 3260",
+                    "AEM 3270",
+                    "AEM 3440",
+                    "AEM 3610",
+                    "AEM 4015",
+                    "AEM 4150",
+                    "AEM 4210",
+                    "AEM 4400",
+                    "AEM 4450",
+                    "AEM 4460",
+                    "AEM 4470",
+                    "AEM 4600",
+                    "HADM 3470"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": []
+        },
+        {
+          "id": "applied",
+          "label": "Applied Economics",
+          "slots": [
+            {
+              "id": "focus-macro",
+              "label": "Intermediate macroeconomics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 3040"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Applied economics electives",
+              "unit": "credits",
+              "need": 12,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2310",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 3310",
+                    "AEM 3350",
+                    "AEM 4100",
+                    "AEM 4140",
+                    "AEM 4150",
+                    "AEM 4160",
+                    "AEM 4210",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4545",
+                    "AEM 4550"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-quantitative",
+              "label": "Quantitative methods elect​ive",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2830",
+                    "AEM 2840",
+                    "AEM 2850",
+                    "AEM 3100",
+                    "AEM 3105",
+                    "AEM 4060",
+                    "AEM 4110",
+                    "AEM 4190",
+                    "ECON 3120",
+                    "ECON 3130",
+                    "ECON 3140",
+                    "ECON 4020",
+                    "STSCI 3080"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "analytics",
+          "label": "Business Analytics",
+          "slots": [
+            {
+              "id": "focus-business-statistics-or-introduction-to-econometrics",
+              "label": "Business Statistics or Introduction to Econometrics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3100",
+                    "AEM 4110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-data-analysis-and-visualization",
+              "label": "Data Analysis and Visualization",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2830",
+                    "AEM 2840",
+                    "AEM 2850"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-database-management-systems",
+              "label": "Database Management Systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2820"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Business Analytics electives",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3105",
+                    "AEM 3275",
+                    "AEM 4015",
+                    "AEM 4060",
+                    "AEM 4225",
+                    "AEM 4435",
+                    "AEM 4600",
+                    "HADM 3275",
+                    "NBA 4920",
+                    "STSCI 4060"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "entrepreneurship",
+          "label": "Entrepreneurship",
+          "slots": [
+            {
+              "id": "focus-budgeting",
+              "label": "Entrepreneurial finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-ideation",
+              "label": "Ideation",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2180",
+                    "AEM 3110",
+                    "AEM 3255",
+                    "COGST 1111",
+                    "DEA 2730",
+                    "INFO 3450",
+                    "HADM 4144",
+                    "NBA 5380",
+                    "NBA 6029"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-entrepreneurial-strategy",
+              "label": "Entrepreneurial Strategy",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3249",
+                    "AEM 3251",
+                    "AEM 4650",
+                    "HADM 4145",
+                    "NBA 3000"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-industries-and-topics",
+              "label": "Industries and Topics",
+              "unit": "credits",
+              "need": 4.5,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3220",
+                    "AEM 3330",
+                    "AEM 3385",
+                    "AEM 4080",
+                    "AEM 4421",
+                    "AEM 4572",
+                    "AEM 4615",
+                    "AEM 4620",
+                    "AEM 4650",
+                    "FSAD 4444",
+                    "FSAD 4660",
+                    "HADM 3610",
+                    "HADM 4130",
+                    "HADM 4315",
+                    "HADM 4800",
+                    "NBA 5070"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-practicum",
+              "label": "Practicum",
+              "unit": "credits",
+              "need": 1.5,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3251",
+                    "AEM 3255",
+                    "AEM 3385",
+                    "AEM 4421",
+                    "AEM 4975",
+                    "HADM 4315",
+                    "NBA 6029",
+                    "NBA 6230",
+                    "NBA 6330"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "aem-subject-credits",
+              "label": "AEM department credits within the concentration",
+              "slotPrefix": "focus-",
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "AEM"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "international",
+          "label": "International Markets and Development",
+          "slots": [
+            {
+              "id": "focus-introduction",
+              "label": "International trade or development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-methods",
+              "label": "International markets and development methods and topics",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4005",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4415",
+                    "AEM 4420",
+                    "AEM 4421",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-research",
+              "label": "Graduate research elective allowance",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4110",
+                    "AEM 4415",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "STSCI 3740",
+                    "STSCI 4060"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-organizations",
+              "label": "Consulting or international organizations allowance",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4421",
+                    "ILRGL 2300",
+                    "PUBPOL 5345",
+                    "CRP 6720"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-custom",
+              "label": "Approved foreign language or directed research",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "approval": "aem-international-language-or-research",
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "international-elective-credits",
+              "label": "International Markets and Development elective credits",
+              "slots": [
+                "focus-methods",
+                "focus-research",
+                "focus-organizations",
+                "focus-custom"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-research"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {}
+              ]
+            },
+            {
+              "slots": [
+                "focus-organizations"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {}
+              ]
+            },
+            {
+              "slots": [
+                "focus-custom"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "label": "Marketing",
+          "slots": [
+            {
+              "id": "focus-marketing-strategy",
+              "label": "Marketing strategy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-marketing-research",
+              "label": "Marketing research",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3440",
+                    "HADM 3470"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Marketing electives",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2480",
+                    "AEM 3249",
+                    "AEM 3270",
+                    "AEM 4015",
+                    "AEM 4080",
+                    "AEM 4095",
+                    "AEM 4140",
+                    "AEM 4150",
+                    "AEM 4160",
+                    "AEM 4400",
+                    "AEM 4435",
+                    "AEM 4460",
+                    "AEM 4470",
+                    "AEM 4480",
+                    "AEM 4550",
+                    "HADM 4480",
+                    "NBA 6090"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy",
+          "slots": [
+            {
+              "id": "focus-strategy",
+              "label": "Upper core strategy courses",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3220",
+                    "AEM 4160",
+                    "AEM 4190",
+                    "AEM 4600",
+                    "AEM 4615",
+                    "AEM 4620"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-electives",
+              "label": "Strategy electives",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3010",
+                    "AEM 3050",
+                    "AEM 3110",
+                    "AEM 3220",
+                    "AEM 3245",
+                    "AEM 3249",
+                    "AEM 3260",
+                    "AEM 3270",
+                    "AEM 3320",
+                    "AEM 3350",
+                    "AEM 3610",
+                    "AEM 4015",
+                    "AEM 4080",
+                    "AEM 4160",
+                    "AEM 4190",
+                    "AEM 4421",
+                    "AEM 4550",
+                    "AEM 4585",
+                    "AEM 4600",
+                    "AEM 4615",
+                    "AEM 4620",
+                    "AEM 4650",
+                    "AEM 4665"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sustainable",
+          "label": "Sustainable Business and Economic Policy",
+          "slots": [
+            {
+              "id": "focus-environmental-economics",
+              "label": "Environmental and resource economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-",
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-business-and-management",
+              "label": "Business and management",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2555",
+                    "AEM 4090",
+                    "AEM 4490",
+                    "AEM 4585",
+                    "NBA 6030"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-analytical-electives",
+              "label": "Analytical electives",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4516"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-quantitative-electives",
+              "label": "Quantitative electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2770",
+                    "AEM 2830",
+                    "AEM 2840",
+                    "AEM 2850",
+                    "AEM 3100",
+                    "AEM 4110",
+                    "AEM 6850",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "ILRST 2110",
+                    "STSCI 4060"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "AEM 4970",
+                    "AEM 4980",
+                    "AEM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "core-",
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        },
+        {
+          "passFailOnly": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "sequence",
+      "label": "Grand Challenges sequence and degree policies",
+      "instruction": "Confirm the preparation course precedes the project, prior work and transfer approvals, class standing, CALS degree requirements, and the 120-credit degree total."
+    },
+    {
+      "id": "second-concentration",
+      "label": "Optional second concentration",
+      "instruction": "If you declare a second concentration, confirm its separate requirements and the limit of one shared concentration elective with Dyson."
+    }
+  ]
+}

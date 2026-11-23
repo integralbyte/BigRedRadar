@@ -1,0 +1,356 @@
+{
+  "programId": "history-architecture-urban-development-bs-haud",
+  "name": "History of Architecture and Urban Development (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "HAUD history, writing, distribution and elective plan. Conflicting Catalog details require confirmation.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/history-architecture-urban-development-bs-haud/#curriculumtext"
+  ],
+  "colleges": [
+    "AR"
+  ],
+  "slots": [
+    {
+      "id": "hist-i",
+      "label": "History of architecture I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1801"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hist-ii",
+      "label": "History of architecture II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2802"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hist-electives",
+      "label": "Approved 3000-level history electives",
+      "unit": "courses",
+      "need": 8,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 3810,
+          "numberMax": 3896,
+          "approval": "haud-history-elective",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced history and urban development seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 6800,
+          "numberMax": 6819,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "extra-seminar",
+      "label": "Additional advanced seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 6000,
+          "numberMax": 6999,
+          "approval": "haud-approved-extra-seminar",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "ARCH 4901"
+          ],
+          "approval": "haud-approved-extra-seminar",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Architectural theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3308",
+            "ARCH 4300"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "Approved writing classes",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "ENGL 2880"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam",
+            "transfer"
+          ],
+          "approval": "haud-approved-writing-credit"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Out-of-department humanities and social sciences",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "excludeSubjects": [
+            "ARCH"
+          ],
+          "distributions": [
+            "CA-AS",
+            "CA-AAP",
+            "CA-AG",
+            "CA-HE",
+            "FL-AS",
+            "FL-AAP",
+            "FL-AG",
+            "FL-HE",
+            "HA-AS",
+            "HA-AAP",
+            "HA-AG",
+            "HA-HE",
+            "KCM-AS",
+            "KCM-AAP",
+            "KCM-AG",
+            "KCM-HE",
+            "LA-AS",
+            "LA-AAP",
+            "LA-AG",
+            "LA-HE",
+            "SBA-AS",
+            "SBA-AAP",
+            "SBA-AG",
+            "SBA-HE",
+            "ALC-AS",
+            "ALC-AAP",
+            "ALC-AG",
+            "ALC-HE",
+            "ETM-AS",
+            "ETM-AAP",
+            "ETM-AG",
+            "ETM-HE",
+            "GLC-AS",
+            "GLC-AAP",
+            "GLC-AG",
+            "GLC-HE",
+            "HST-AS",
+            "HST-AAP",
+            "HST-AG",
+            "HST-HE",
+            "SCD-AS",
+            "SCD-AAP",
+            "SCD-AG",
+            "SCD-HE",
+            "SSC-AS",
+            "SSC-AAP",
+            "SSC-AG",
+            "SSC-HE"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "haud-approved-humanities"
+        }
+      ]
+    },
+    {
+      "id": "sciences",
+      "label": "Out-of-department science and quantitative reasoning",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "excludeSubjects": [
+            "ARCH"
+          ],
+          "distributions": [
+            "BIO-AG",
+            "BIO-AS",
+            "BIOLS-AG",
+            "BIONLS-AG",
+            "OPHLS-AG",
+            "PBS",
+            "PBS-AS",
+            "PBS-HE",
+            "PBSS-AS",
+            "PHS-AS",
+            "MQR-AAP",
+            "MQR-AS",
+            "MQR-HE",
+            "SDS-AS",
+            "SMR-AS"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "haud-approved-science"
+        }
+      ]
+    },
+    {
+      "id": "elective-plan",
+      "label": "Advisor-approved elective plan",
+      "unit": "credits",
+      "need": 24,
+      "options": [
+        {
+          "approval": "haud-elective-plan",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "history-credit",
+      "label": "3000-level history elective credits",
+      "slots": [
+        "hist-electives"
+      ],
+      "need": 24,
+      "unit": "credits"
+    },
+    {
+      "id": "seminar-credits",
+      "label": "Advanced seminar credits",
+      "slots": [
+        "advanced",
+        "extra-seminar"
+      ],
+      "need": 12,
+      "unit": "credits"
+    },
+    {
+      "id": "writing-credits",
+      "label": "Approved writing credits",
+      "slots": [
+        "writing"
+      ],
+      "need": 6,
+      "unit": "credits"
+    },
+    {
+      "id": "humanities-credits",
+      "label": "Approved humanities and social science credits",
+      "slots": [
+        "humanities"
+      ],
+      "need": 12,
+      "unit": "credits"
+    },
+    {
+      "id": "science-credits",
+      "label": "Approved science and quantitative credits",
+      "slots": [
+        "sciences"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "writing"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language",
+      "label": "Approved foreign language qualification",
+      "instruction": "Confirm allowed high-school study, Cornell exam or fluency, approved intermediate course or 11 credits in one language."
+    },
+    {
+      "id": "history-requirement",
+      "label": "Confirm history elective and seminar ranges",
+      "instruction": "The 2026–27 summary table and detailed Catalog prose give different history elective ranges. Ask the advisor to confirm the applicable list and approval of ARCH 4901."
+    },
+    {
+      "id": "residency-and-electives",
+      "label": "Degree totals and residency",
+      "instruction": "Check the 120-credit degree, free electives and their S/U cap, transfer status, four Cornell semesters with 60 credits, and applicable AAP residency."
+    }
+  ]
+}

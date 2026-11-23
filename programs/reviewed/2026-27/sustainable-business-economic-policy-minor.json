@@ -1,0 +1,253 @@
+{
+  "programId": "sustainable-business-economic-policy-minor",
+  "name": "Sustainable Business and Economic Policy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Microeconomics, quantitative methods, environmental economics, and sustainable business electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/sustainable-business-economic-policy-minor/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "micro",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "business-minor-ap-equivalent",
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "label": "Analysis, econometrics or statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2770",
+            "AEM 2830",
+            "AEM 2840",
+            "AEM 2850",
+            "AEM 3100",
+            "AEM 4110",
+            "AEM 6850",
+            "ECON 3120",
+            "ECON 3140",
+            "ILRST 2110",
+            "HADM 3740",
+            "PLSCI 2200",
+            "PLSCI 4200",
+            "STSCI 4060",
+            "AEM 2100",
+            "CEE 3040",
+            "CRP 1200",
+            "ECON 3110",
+            "ECON 3120",
+            "ECON 3130",
+            "ENGRD 2700",
+            "ILRST 2100",
+            "ILRST 3080",
+            "ILRST 3110",
+            "MATH 4710",
+            "MATH 4720",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200",
+            "STSCI 3080",
+            "STSCI 3110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "resource-econ",
+      "label": "Environmental and Resource Economics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "theory-route",
+      "label": "Advanced economic theory route",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Managerial Economics",
+          "slots": [
+            {
+              "id": "theory",
+              "label": "Advanced economic theory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2600"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "resource-topics",
+              "label": "Topics in environmental and resource economics",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2555",
+                    "AEM 3115",
+                    "AEM 4090",
+                    "AEM 4490",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4580",
+                    "AEM 4585",
+                    "AEM 4880",
+                    "HADM 4315",
+                    "HADM 4500",
+                    "NBA 6030",
+                    "NBA 6380"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "department-approved",
+          "label": "Economics or Public Policy approved substitution",
+          "slots": [
+            {
+              "id": "theory",
+              "label": "Approved intermediate theory substitution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 3030",
+                    "PUBPOL 2000"
+                  ],
+                  "minGrade": "C",
+                  "approval": "sustainable-business-theory-substitution"
+                }
+              ]
+            },
+            {
+              "id": "resource-topics",
+              "label": "Topics in environmental and resource economics",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2555",
+                    "AEM 3115",
+                    "AEM 4090",
+                    "AEM 4490",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4580",
+                    "AEM 4585",
+                    "AEM 4880",
+                    "HADM 4315",
+                    "HADM 4500",
+                    "NBA 6030",
+                    "NBA 6380"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "applied-economics-management-bs"
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Eligibility, theory substitution and distinct credits",
+      "instruction": "The Environment and Sustainability sustainable-business concentration is ineligible. Confirm core overlap, the Economics or Public Policy substitution, and at least 12 credits outside major core requirements."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell",
+      "label": "Credits from Cornell University",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcb",
+      "label": "SC Johnson College of Business credits",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

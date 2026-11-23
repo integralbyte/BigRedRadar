@@ -1,0 +1,112 @@
+{
+  "programId": "mitws-minor",
+  "name": "Minority, Indigenous and Third World Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five approved full-semester literature courses, including listed cross-listed courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/mitws-minor/#curriculumtext",
+    "https://english.cornell.edu/mitws-minor-eligible-course-sampling"
+  ],
+  "slots": [
+    {
+      "id": "courses",
+      "label": "Eligible literature coursework",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "codes": [
+            "ENGL 2512",
+            "ENGL 2560",
+            "ENGL 2600",
+            "ENGL 2620",
+            "ENGL 2650",
+            "ENGL 2770",
+            "ENGL 3560",
+            "ENGL 3680",
+            "ENGL 3742",
+            "ENGL 3980",
+            "ENGL 3530",
+            "ENGL 4605",
+            "ENGL 4625",
+            "ENGL 4630",
+            "ENGL 4733"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "approval": "mitws-approved-english-topic",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "approval": "mitws-outside-course",
+          "numberMin": 2000
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "mitws-outside-course",
+          "numberMin": 2000
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligible",
+      "label": "Literary subject, term length and external approval",
+      "instruction": "Confirm full-semester status, subject eligibility and the approval for up to one external, independent study or out-of-department course."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

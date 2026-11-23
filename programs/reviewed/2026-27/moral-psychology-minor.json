@@ -1,0 +1,108 @@
+{
+  "programId": "moral-psychology-minor",
+  "name": "Moral Psychology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One core course, one community-engaged course, and three electives including two upper-level courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/moral-psychology-minor/#curriculumtext",
+    "https://psychology.cornell.edu/-moral-psychology-minor",
+    "https://blogs.cornell.edu/moralpsychologyminor/general-requirements-for-the-minor/"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Moral Psychology core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHIL 2415",
+            "PSYCH 3135",
+            "AEM 3205"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "label": "Community-engaged Moral Psychology course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PSYCH 4940",
+            "AEM 3385",
+            "PSYCH 2820",
+            "HD 4390"
+          ],
+          "minGrade": "D-",
+          "minCredits": 2,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "moral-psychology-approved-engagement",
+          "minGrade": "D-",
+          "minCredits": 2
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Moral Psychology electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "ASRC 3434",
+            "ECON 4660",
+            "HD 4250",
+            "PSYCH 4420"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "moral-psychology-approved-elective",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approved",
+      "label": "Advisor-approved plan and certification",
+      "instruction": "Choose a coherent set of electives with the advisor. Confirm any departmental variant, such as an approved AEM engagement course taken with AEM 3205, and submit the certification form."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "Electives at the 3000 or 4000 level",
+      "slots": [
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999
+        }
+      ]
+    }
+  ]
+}

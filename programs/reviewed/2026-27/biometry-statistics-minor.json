@@ -1,0 +1,233 @@
+{
+  "programId": "biometry-statistics-minor",
+  "name": "Biometry and Statistics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Calculus, statistics, probability and three advanced electives, with certain pairs counted together.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biometry-statistics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "calc-one",
+      "label": "Calculus I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "biometry-minor-exam-calc-one"
+        }
+      ]
+    },
+    {
+      "id": "calc-two",
+      "label": "Calculus II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1120",
+            "MATH 1910"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "biometry-minor-exam-calc-two"
+        }
+      ]
+    },
+    {
+      "id": "multivar",
+      "label": "Multivariable calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2220",
+            "MATH 2240",
+            "MATH 1920"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "biometry-minor-exam-multivar"
+        }
+      ]
+    },
+    {
+      "id": "stats-one",
+      "label": "Statistical Methods I or an approved equivalent",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2200",
+            "AEM 2100",
+            "ENGRD 2700",
+            "HADM 2010",
+            "ILRST 2100",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2150"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "biometry-minor-exam-stats-one"
+        }
+      ]
+    },
+    {
+      "id": "stats-two",
+      "label": "Statistical Methods II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Probability",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3080",
+            "MATH 4710",
+            "ECON 3130",
+            "ORIE 3500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Additional Statistics electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3090",
+            "STSCI 3100",
+            "STSCI 3510",
+            "STSCI 3740",
+            "STSCI 3900",
+            "STSCI 4050",
+            "STSCI 4060",
+            "STSCI 4100",
+            "STSCI 4110",
+            "STSCI 4140",
+            "STSCI 4270",
+            "STSCI 4550",
+            "STSCI 4630",
+            "STSCI 4780",
+            "STSCI 5640",
+            "MATH 2210",
+            "MATH 2230",
+            "MATH 2310",
+            "MATH 2940",
+            "STSCI 4030",
+            "STSCI 4090",
+            "STSCI 4520"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "STSCI 3600",
+            "STSCI 4610",
+            "STSCI 4850",
+            "STSCI 4720",
+            "STSCI 4725",
+            "STSCI 4881"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "courseWeight": 0.5
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "biometry-statistics-bs"
+  ],
+  "manual": [
+    {
+      "id": "grade-and-placement",
+      "label": "Placement and elective grades",
+      "instruction": "Confirm approved exam or CASE credit. The Catalog overview specifies C while its electives note specifies C-. Confirm eligibility with Statistics and Data Science when using a C- in an elective."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 20,
+      "unit": "credits"
+    }
+  ]
+}

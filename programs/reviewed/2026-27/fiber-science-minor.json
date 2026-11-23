@@ -1,0 +1,100 @@
+{
+  "programId": "fiber-science-minor",
+  "name": "Fiber Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three required FSAD courses, one 6000-level FSAD course and one further FSAD course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fiber-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "fsad-3350",
+      "label": "Fiber science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 3350"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "fsad-4360",
+      "label": "Fiber materials",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 4360"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "fsad-4460",
+      "label": "Nanotechnology in fibers and textiles",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 4460"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "6000-level Fiber Science and Apparel Design",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 6000,
+          "numberMax": 6999,
+          "minGrade": "B"
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Additional Fiber Science and Apparel Design",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "minGrade": "B"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "fashion-design-management-bs",
+    "fiber-science-bs"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

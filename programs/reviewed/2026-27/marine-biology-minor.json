@@ -1,0 +1,122 @@
+{
+  "programId": "marine-biology-minor",
+  "name": "Marine Biology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Marine biology foundations and advanced topics for a total of 15 credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/marine-biology-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Marine Biology foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1540",
+            "BIOEE 1560",
+            "BIOSM 1500",
+            "BIOSM 1610",
+            "BIOSM 1780"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Advanced Marine Biology courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "BIOAP 3300",
+            "BIOEE 4760",
+            "BIOEE 4761",
+            "BIOEE 4790",
+            "BIOMI 3500",
+            "BIOSM 2500",
+            "BIOSM 2800",
+            "BIOSM 3210",
+            "BIOSM 3290",
+            "BIOSM 3330",
+            "BIOSM 3450",
+            "BIOSM 3650",
+            "BIOSM 3750",
+            "BIOSM 4650",
+            "EAS 3540",
+            "NTRES 3110",
+            "NTRES 3111"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "marine-biology-sea-semester",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "label": "Additional approved Marine Biology credits",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1540",
+            "BIOEE 1560",
+            "BIOSM 1500",
+            "BIOSM 1610",
+            "BIOSM 1780",
+            "BIOAP 3300",
+            "BIOEE 4760",
+            "BIOEE 4761",
+            "BIOEE 4790",
+            "BIOMI 3500",
+            "BIOSM 2500",
+            "BIOSM 2800",
+            "BIOSM 3210",
+            "BIOSM 3290",
+            "BIOSM 3330",
+            "BIOSM 3450",
+            "BIOSM 3650",
+            "BIOSM 3750",
+            "BIOSM 4650",
+            "EAS 3540",
+            "NTRES 3110",
+            "NTRES 3111"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "marine-biology-sea-semester",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Approved fieldwork and credits outside the major",
+      "instruction": "Apply at least two advanced courses to the minor outside your major requirements. Confirm any SEA Semester equivalency and submit the certification form before applying to graduate."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

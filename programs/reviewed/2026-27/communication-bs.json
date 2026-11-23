@@ -1,0 +1,287 @@
+{
+  "programId": "communication-bs",
+  "name": "Communication (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core courses, exam-based statistics, approved electives and the communication practicum.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/communication-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "comm-1101",
+      "label": "Introduction to Communication",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 1101"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "comm-1300",
+      "label": "Visual Communication",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 1300"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "comm-2010",
+      "label": "Oral Communication",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "comm-2310",
+      "label": "Writing About Communication",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2310"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "comm-2820",
+      "label": "Research Methods in Communication Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2820"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics or approved statistics credit",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ILRST 2100",
+            "STSCI 2100"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "transfer",
+            "exam"
+          ],
+          "approval": "comm-approved-statistics"
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Core Communication courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "COMM 2200",
+            "COMM 2450",
+            "COMM 2760",
+            "COMM 2850"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Upper-level Communication electives",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "COMM"
+          ],
+          "numberMin": 3100,
+          "numberMax": 5999,
+          "minGrade": "D-",
+          "excludeCodes": [
+            "COMM 4960",
+            "COMM 4970",
+            "COMM 4980",
+            "COMM 4990"
+          ]
+        },
+        {
+          "codes": [
+            "COMM 2200",
+            "COMM 2450",
+            "COMM 2760",
+            "COMM 2850"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "COMM 4970",
+            "COMM 4990"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "maxCredits": 3
+        },
+        {
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "comm-approved-study-abroad",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "practica",
+      "label": "Communication practica",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "COMM"
+          ],
+          "numberMin": 3000,
+          "numberMax": 3099,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Communication entry path",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "First-year entry",
+          "slots": [
+            {
+              "id": "comm-1111",
+              "label": "Navigating the Communication Major and Beyond",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 1111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "transfer": false
+        },
+        {
+          "id": "transfer",
+          "label": "Transfer student",
+          "slots": [],
+          "transfer": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "COMM 2200",
+            "COMM 2450",
+            "COMM 2760",
+            "COMM 2850"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "COMM 4970",
+            "COMM 4990"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "comm-electives",
+      "label": "Approved transfer, study abroad and repeat credit",
+      "instruction": "Confirm approved study abroad courses or transferred statistics. For COMM 4940, use separate credit only if each topic qualifies."
+    }
+  ]
+}

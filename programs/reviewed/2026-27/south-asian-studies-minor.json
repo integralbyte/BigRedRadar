@@ -1,0 +1,149 @@
+{
+  "programId": "south-asian-studies-minor",
+  "name": "South Asian Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses including an upper-level non-language course, and up to six language credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/south-asian-studies-minor/#curriculumtext",
+    "https://asianstudies.cornell.edu/minors"
+  ],
+  "slots": [
+    {
+      "id": "upper",
+      "label": "Advanced non-language South Asian Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "approval": "south-asian-studies-minor-nonlanguage",
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved regional coursework",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "approval": "south-asian-studies-minor-nonlanguage"
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "HINDI",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAMIL",
+            "URDU"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "approval": "south-asia-nflc-course"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "HINDI",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAMIL",
+            "URDU"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "HINDI",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAMIL",
+            "URDU"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 8,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "asian-studies-language-jumpstart"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "scope",
+      "label": "Regional course and language approval",
+      "instruction": "Confirm non-language content, eligible languages, jumpstart classes and any transfer courses with Asian Studies."
+    },
+    {
+      "id": "nlfc",
+      "label": "Nilgiris Field Learning Center course allowance",
+      "instruction": "Confirm up to three NFLC courses for students who apply before departure. Graduating seniors who discover the minor after attending may have up to four approved courses."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

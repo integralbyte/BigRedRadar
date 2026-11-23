@@ -1,0 +1,267 @@
+{
+  "programId": "media-studies-minor",
+  "name": "Media Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Thinking Media, a Making Media course with colloquium, and three upper-level Media Studies electives under the current Catalog.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/media-studies-minor/#curriculumtext",
+    "https://mediastudies.as.cornell.edu/undergraduate-minor",
+    "https://mediastudies.as.cornell.edu/current-courses"
+  ],
+  "slots": [
+    {
+      "id": "foundations",
+      "label": "Thinking Media",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "GERST 2703",
+            "COML 2703",
+            "ENGL 2703",
+            "MUSIC 2703",
+            "PMA 2703",
+            "SHUM 2703"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "label": "Making Media",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "ANTHR 3110",
+            "ART 2601",
+            "COMM 3050",
+            "CS 3152",
+            "MUSIC 2701",
+            "PMA 3680"
+          ],
+          "allowPassFailOnly": true
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "ANTHR 4401",
+            "ANTHR 7401",
+            "PMA 4401",
+            "PMA 7401",
+            "ART 2701",
+            "PMA 2701",
+            "ART 3104",
+            "ART 5104",
+            "PMA 3104",
+            "PMA 5104",
+            "ART 3307",
+            "ART 5307",
+            "ART 3705",
+            "ART 5705",
+            "ART 3799",
+            "ART 5799",
+            "DESIGN 6152",
+            "INFO 4998",
+            "MUSIC 1105",
+            "MUSIC 7111",
+            "MUSIC 7434",
+            "PMA 3570",
+            "STS 4040"
+          ],
+          "terms": [
+            "SP27"
+          ],
+          "allowPassFailOnly": true
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "media-studies-making",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "colloquium",
+      "label": "Media Studies minor colloquium",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "PMA 2000"
+          ],
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media Studies electives at the 2000 level or above",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "AAS 4040",
+            "AMST 4603",
+            "ARKEO 2812",
+            "CLASS 2641",
+            "COML 2235",
+            "ENGL 3615",
+            "INFO 4260",
+            "PMA 2660"
+          ],
+          "numberMin": 2000
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "ANTHR 4401",
+            "ANTHR 7401",
+            "PMA 4401",
+            "PMA 7401",
+            "ART 2701",
+            "PMA 2701",
+            "ART 3104",
+            "ART 5104",
+            "PMA 3104",
+            "PMA 5104",
+            "ART 3307",
+            "ART 5307",
+            "ART 3705",
+            "ART 5705",
+            "ART 3799",
+            "ART 5799",
+            "AMST 2000",
+            "ARTH 2000",
+            "COML 2000",
+            "VISST 2000",
+            "ARTH 2501",
+            "ARTH 3550",
+            "ARTH 6550",
+            "LATA 3680",
+            "LSP 3551",
+            "ARTH 4155",
+            "ARTH 6155",
+            "LATA 4155",
+            "LATA 6155",
+            "VISST 4155",
+            "VISST 6155",
+            "ARKEO 2812",
+            "CLASS 2812",
+            "LING 2212",
+            "NES 2812",
+            "SHUM 2812",
+            "STS 2812",
+            "VISST 2812",
+            "ARTH 6740",
+            "CLASS 7740",
+            "COML 2241",
+            "SHUM 2241",
+            "COML 2591",
+            "NES 2591",
+            "PMA 2591",
+            "COMM 3400",
+            "COMM 3800",
+            "COMM 4260",
+            "FGSS 4260",
+            "COMM 6580",
+            "COMM 6830",
+            "CRP 3850",
+            "CRP 5850",
+            "DESIGN 6152",
+            "ENGL 3778",
+            "SHUM 3778",
+            "COML 2727",
+            "GERST 2727",
+            "MEDVL 2737",
+            "ARTH 4444",
+            "ARTH 6444",
+            "GERST 4444",
+            "GERST 6444",
+            "PMA 4444",
+            "PMA 6444",
+            "VISST 4444",
+            "VISST 6444",
+            "CS 1340",
+            "INFO 1260",
+            "INFO 2950",
+            "INFO 4998",
+            "INFO 6940",
+            "MUSIC 1105",
+            "AMST 1312",
+            "MUSIC 1312",
+            "MUSIC 2321",
+            "MUSIC 7111",
+            "ARTH 7323",
+            "MUSIC 7323",
+            "MUSIC 7434",
+            "PMA 2401",
+            "COML 2512",
+            "PMA 2512",
+            "VISST 2512",
+            "AMST 3812",
+            "PMA 3441",
+            "VISST 3812",
+            "PMA 3462",
+            "PMA 3482",
+            "PMA 3483",
+            "PMA 3570",
+            "AMST 4412",
+            "PMA 4412",
+            "PMA 6412",
+            "ANTHR 3061",
+            "COMM 3560",
+            "INFO 3561",
+            "STS 3561",
+            "VISST 3560",
+            "STS 4040",
+            "MUSIC 7319",
+            "STS 7319"
+          ],
+          "terms": [
+            "SP27"
+          ],
+          "numberMin": 2000
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "media-studies-approved-elective",
+          "numberMin": 2000
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "coursework",
+      "label": "Catalog requirements, timing and major department",
+      "instruction": "The current Catalog asks for three Media Studies electives, two outside the major department. The program page describes two electives, one outside the major. Confirm your applicable version and take PMA 2000 in the same semester as Making Media when required."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

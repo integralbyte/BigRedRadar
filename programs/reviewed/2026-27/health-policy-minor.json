@@ -1,0 +1,139 @@
+{
+  "programId": "health-policy-minor",
+  "name": "Health Policy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Health care systems, three additional Public Policy credits, and nine Health Care Policy elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/health-policy-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "The U.S. Health Care System",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "PUBPOL 2350"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "label": "Public Policy coursework at the 2000–4000 level",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "subjects": [
+            "PUBPOL"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "excludeCodes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020",
+            "PUBPOL 4030"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-electives",
+      "label": "HCP-EL Health Care Policy electives",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "attributes": [
+            "HCP-EL"
+          ],
+          "excludeCodes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020",
+            "PUBPOL 4030"
+          ]
+        },
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "AMST 3230",
+            "AMST 3261",
+            "ECON 3711",
+            "ECON 3720",
+            "ECON 3910",
+            "FGSS 3260",
+            "GDEV 3280",
+            "GOVT 3251",
+            "NS 4570",
+            "PUBPOL 2050",
+            "PUBPOL 3011",
+            "PUBPOL 3110",
+            "PUBPOL 3180",
+            "PUBPOL 3230",
+            "PUBPOL 3251",
+            "PUBPOL 3260",
+            "PUBPOL 3280",
+            "PUBPOL 3320",
+            "PUBPOL 3350",
+            "PUBPOL 3490",
+            "PUBPOL 3650",
+            "PUBPOL 3720",
+            "PUBPOL 3780",
+            "PUBPOL 3870",
+            "PUBPOL 4110",
+            "PUBPOL 4281",
+            "PUBPOL 4370",
+            "SOC 3180",
+            "SOC 3230"
+          ],
+          "excludeCodes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020",
+            "PUBPOL 4030"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "policy-analysis-management-bs",
+    "public-policy-bs",
+    "public-policy-ba",
+    "health-care-policy-major-bs",
+    "policy-analysis-management-minor"
+  ],
+  "manual": [
+    {
+      "id": "at-completion",
+      "label": "Public Policy cross-listing and elective at completion",
+      "instruction": "Check whether a PUBPOL cross-list existed when the course was completed. Verify the HCP-EL designation for older coursework with Brooks."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

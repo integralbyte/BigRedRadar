@@ -1,0 +1,157 @@
+{
+  "programId": "public-history-minor",
+  "name": "Public History Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One core course and four electives, including at least two courses from the approved History list.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/public-history-minor/#curriculumtext",
+    "https://history.cornell.edu/public-history-initiative-undergrad-minor-course-lists"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Introduction to public history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "HIST 2792",
+            "HIST 2482"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved public history electives",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "AAS 4020",
+            "HIST 2006",
+            "HIST 2010",
+            "HIST 2043",
+            "HIST 2050",
+            "HIST 2195",
+            "HIST 2207",
+            "HIST 2297",
+            "HIST 2391",
+            "HIST 2415",
+            "HIST 2452",
+            "HIST 2481",
+            "HIST 2482",
+            "HIST 2543",
+            "HIST 2765",
+            "HIST 2792",
+            "HIST 3012",
+            "HIST 4041",
+            "HIST 4337",
+            "HIST 4422",
+            "HIST 4634",
+            "HIST 6041",
+            "HIST 6337"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "public-history-approved-elective"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Course list and overlap approval",
+      "instruction": "Check the rest of the department list and petition additions. At most one minor course may also count for the major or an additional minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "history",
+      "label": "At least two approved History courses",
+      "slots": [
+        "core",
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "HIST 2006",
+            "HIST 2010",
+            "HIST 2043",
+            "HIST 2050",
+            "HIST 2195",
+            "HIST 2207",
+            "HIST 2297",
+            "HIST 2391",
+            "HIST 2415",
+            "HIST 2452",
+            "HIST 2481",
+            "HIST 2543",
+            "HIST 2765",
+            "HIST 3012",
+            "HIST 4041",
+            "HIST 6041",
+            "HIST 4337",
+            "HIST 6337",
+            "HIST 4422",
+            "HIST 4634",
+            "HIST 2792",
+            "HIST 2482"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "public-history-approved-history"
+        }
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "program",
+      "max": 1,
+      "unit": "courses"
+    }
+  ]
+}

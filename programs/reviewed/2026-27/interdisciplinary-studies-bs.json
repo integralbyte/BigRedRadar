@@ -1,0 +1,93 @@
+{
+  "programId": "interdisciplinary-studies-bs",
+  "name": "Interdisciplinary Studies (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The CALS individualized major, with oral communication, quantitative work and eight approved focus courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/interdisciplinary-studies-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "oral",
+      "label": "Oral communications",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "ORL-AG"
+          ]
+        },
+        {
+          "approval": "ids-oral"
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "Calculus or statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "ids-calculus-or-statistics"
+        }
+      ]
+    },
+    {
+      "id": "lower-focus",
+      "label": "Lower-level courses in the approved focus",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "numberMin": 1100,
+          "numberMax": 2999,
+          "approval": "ids-focus"
+        }
+      ]
+    },
+    {
+      "id": "upper-focus",
+      "label": "Upper-level courses in the approved focus",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "numberMin": 3000,
+          "approval": "ids-focus"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "lower-focus",
+        "upper-focus"
+      ],
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "subjects": [
+            "INFO"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "cohort-and-plan",
+      "label": "Advisor-approved curriculum and major declaration",
+      "instruction": "Confirm the approved learning objectives and course plan, limits on unstructured work and courses under three credits. This major is an internal change for eligible CALS students. A second major is excluded."
+    }
+  ]
+}

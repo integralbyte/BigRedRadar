@@ -1,0 +1,493 @@
+{
+  "programId": "electrical-computer-engineering-bs",
+  "name": "Electrical and Computer Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "ECE foundations, design, technical electives, and math and physics specified by the major.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/electrical-computer-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/ece/degree/electrical-computer-engineering-bs-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "circuits",
+      "label": "Circuits",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 2100",
+            "ENGRD 2100"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "digital-logic",
+      "label": "Digital logic and computer organization",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 2300",
+            "ENGRD 2300"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "data-science",
+      "label": "Data science for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 2720",
+            "ENGRD 2720"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "label": "Fields or microelectronics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 3030",
+            "ECE 3150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "signals",
+      "label": "Signals or probability",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 3100",
+            "ECE 3250"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "additional-foundation",
+      "label": "Additional foundation course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 3030",
+            "ECE 3150",
+            "ECE 3100",
+            "ECE 3250",
+            "ECE 3140"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "label": "Culminating design experience",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 4530",
+            "ECE 4740",
+            "ECE 4760",
+            "ECE 4670",
+            "ECE 4750"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "subjects": [
+            "ECE"
+          ],
+          "numberMin": 4000,
+          "minGrade": "C-",
+          "approval": "ece-design-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "upper-ece",
+      "label": "ECE electives at 4000 level or above",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ECE"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "ECE 4998",
+            "ECE 4999",
+            "ECE 5830",
+            "ECE 5870",
+            "ECE 5880"
+          ],
+          "excludeApprovals": [
+            "ece-nontechnical"
+          ],
+          "numberMin": 4000
+        },
+        {
+          "codes": [
+            "CS 4120",
+            "CS 4121",
+            "CS 4410",
+            "CS 4411",
+            "CS 4782",
+            "CS 4787",
+            "CS 4789",
+            "CS 5777",
+            "CS 5782",
+            "CS 5789",
+            "CS 6210"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "other-ece",
+      "label": "Additional ECE electives at 3000 level or above",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "ECE"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "ECE 4998",
+            "ECE 4999",
+            "ECE 5830",
+            "ECE 5870",
+            "ECE 5880"
+          ],
+          "excludeApprovals": [
+            "ece-nontechnical"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "codes": [
+            "CS 4120",
+            "CS 4121",
+            "CS 4410",
+            "CS 4411",
+            "CS 4782",
+            "CS 4787",
+            "CS 4789",
+            "CS 5777",
+            "CS 5782",
+            "CS 5789",
+            "CS 6210"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "outside-technical",
+      "label": "Technical electives outside ECE",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "codes": [
+            "CEE 3230",
+            "ORIE 3150",
+            "ECE 5830"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 9999,
+          "approval": "ece-outside-technical",
+          "minGrade": "C-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 1100,
+          "numberMax": 1999,
+          "approval": "ece-outside-tech-lower-level-prerequisite",
+          "minGrade": "C-",
+          "allowPassFailOnly": true
+        },
+        {
+          "numberMin": 3000,
+          "approval": "ece-outside-project-or-study",
+          "minGrade": "C-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "approved-free",
+      "label": "Advisor-approved electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE",
+            "ENGRG"
+          ],
+          "approval": "ece-advisor-elective"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2940",
+      "label": "MATH 2940",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-mechanics",
+      "label": "Mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112",
+            "PHYS 1116"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-electromagnetism",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-waves",
+      "label": "Waves and quantum physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2214",
+            "PHYS 2218"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "ece-elective-credits",
+      "label": "Additional ECE elective credits",
+      "slots": [
+        "upper-ece",
+        "other-ece"
+      ],
+      "need": 17,
+      "unit": "credits"
+    },
+    {
+      "id": "outside-lecture",
+      "label": "Outside ECE upper-level lecture credits",
+      "slots": [
+        "outside-technical"
+      ],
+      "need": 3,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "CEE 3230",
+            "ORIE 3150",
+            "ECE 5830"
+          ]
+        },
+        {
+          "numberMin": 3000,
+          "approval": "ece-outside-lecture"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "outside-technical"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "approval": "ece-outside-project-or-study"
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "advanced-programming",
+      "label": "Advanced programming",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 2400",
+            "ENGRD 2140",
+            "CS 2110",
+            "ENGRD 2110"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "C-"
+        },
+        {
+          "approval": "ece-advanced-programming-substitute",
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "outside-review",
+      "label": "Outside ECE scope and special credit",
+      "instruction": "Confirm the technical scope, use of only one of research or project-team credit, and any advanced ECE course approved outside the student’s focus."
+    },
+    {
+      "id": "design-offerings",
+      "label": "Additional culminating design courses",
+      "instruction": "The department publishes additional CDE options beyond the Catalog list. Confirm their applicability with ECE before counting them."
+    },
+    {
+      "id": "engineering-common",
+      "label": "Engineering common curriculum",
+      "instruction": "Verify the distribution in a second category, lab and communications requirements, placement, affiliation and 126-credit degree total. Count the advanced programming course in an authorized curriculum category."
+    }
+  ]
+}

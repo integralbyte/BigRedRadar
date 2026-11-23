@@ -1,0 +1,67 @@
+{
+  "programId": "independent-major",
+  "name": "Independent Major (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Advisor-approved primary and secondary areas. Engineering common curriculum follows the selected primary area.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/independent-major/#curriculumtext"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "primary",
+      "label": "Approved primary engineering area",
+      "unit": "credits",
+      "need": 32,
+      "options": [
+        {
+          "approval": "independent-engineering-primary",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "secondary",
+      "label": "Approved related secondary area",
+      "unit": "credits",
+      "need": 16,
+      "options": [
+        {
+          "approval": "independent-engineering-secondary",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "primary",
+        "secondary"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "maxGrade": "D+"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "curriculum",
+      "label": "Faculty-approved engineering curriculum",
+      "instruction": "Confirm the two approved areas, advisor approvals, engineering design and synthesis, and the primary area's common curriculum. Computer Science cannot serve as the primary area. Pre-health cannot serve as the secondary area."
+    },
+    {
+      "id": "degree-credits",
+      "label": "Degree credits and engineering requirements",
+      "instruction": "Confirm the 123-credit engineering degree minimum and the applicable common curriculum with Engineering Advising."
+    }
+  ]
+}

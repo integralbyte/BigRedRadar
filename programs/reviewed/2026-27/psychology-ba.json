@@ -1,0 +1,600 @@
+{
+  "programId": "psychology-ba",
+  "name": "Psychology (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Credit, breadth, depth, statistics and research-methods coverage.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/psychology-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "stats",
+      "label": "Statistics proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PSYCH 2500"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "psych-approved-stats-sequence",
+          "minGrade": "C-"
+        },
+        {
+          "approval": "psych-statistics-exemption",
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "label": "Research methods and scientific literacy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "COMM 2820",
+            "GOVT 3999",
+            "HD 4765",
+            "PSYCH 2830",
+            "PSYCH 2930",
+            "PSYCH 3020",
+            "PSYCH 3420",
+            "STS 2011"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "psych-additional",
+      "label": "Psychology major credits",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "subjects": [
+            "PSYCH"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "codes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true
+        },
+        {
+          "approval": "psych-approved-outsider",
+          "minGrade": "C-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "breadth",
+      "label": "Choose three Psychology breadth areas",
+      "options": [
+        {
+          "id": "perception-development-cognitive",
+          "label": "Perception and Cognition / Development / Cognitive and Behavioral Neuroscience",
+          "slots": [
+            {
+              "id": "breadth-1",
+              "label": "Perception and Cognition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "PSYCH 1102",
+                    "PSYCH 2050",
+                    "PSYCH 2150",
+                    "PSYCH 2580",
+                    "PSYCH 3140",
+                    "PSYCH 3190",
+                    "PSYCH 3420",
+                    "PSYCH 4150",
+                    "PSYCH 4270",
+                    "PSYCH 4331"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-2",
+              "label": "Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2180",
+                    "HD 3290",
+                    "PSYCH 1131",
+                    "PSYCH 2090",
+                    "PSYCH 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-3",
+              "label": "Cognitive and Behavioral Neuroscience",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "HD 3530",
+                    "PSYCH 2230",
+                    "PSYCH 3150",
+                    "PSYCH 3220",
+                    "PSYCH 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "depth-i",
+              "label": "3000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000,
+                  "numberMax": 3999
+                }
+              ]
+            },
+            {
+              "id": "depth-ii",
+              "label": "4000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "perception-development-social",
+          "label": "Perception and Cognition / Development / Social and Personality Psychology",
+          "slots": [
+            {
+              "id": "breadth-1",
+              "label": "Perception and Cognition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "PSYCH 1102",
+                    "PSYCH 2050",
+                    "PSYCH 2150",
+                    "PSYCH 2580",
+                    "PSYCH 3140",
+                    "PSYCH 3190",
+                    "PSYCH 3420",
+                    "PSYCH 4150",
+                    "PSYCH 4270",
+                    "PSYCH 4331"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-2",
+              "label": "Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2180",
+                    "HD 3290",
+                    "PSYCH 1131",
+                    "PSYCH 2090",
+                    "PSYCH 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-3",
+              "label": "Social and Personality Psychology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PSYCH 2250",
+                    "PSYCH 2415",
+                    "PSYCH 2650",
+                    "PSYCH 2750",
+                    "PSYCH 2800",
+                    "PSYCH 2940",
+                    "PSYCH 3135",
+                    "PSYCH 3450",
+                    "PSYCH 3820",
+                    "PSYCH 4940"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "depth-i",
+              "label": "3000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000,
+                  "numberMax": 3999
+                }
+              ]
+            },
+            {
+              "id": "depth-ii",
+              "label": "4000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "perception-cognitive-social",
+          "label": "Perception and Cognition / Cognitive and Behavioral Neuroscience / Social and Personality Psychology",
+          "slots": [
+            {
+              "id": "breadth-1",
+              "label": "Perception and Cognition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "PSYCH 1102",
+                    "PSYCH 2050",
+                    "PSYCH 2150",
+                    "PSYCH 2580",
+                    "PSYCH 3140",
+                    "PSYCH 3190",
+                    "PSYCH 3420",
+                    "PSYCH 4150",
+                    "PSYCH 4270",
+                    "PSYCH 4331"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-2",
+              "label": "Cognitive and Behavioral Neuroscience",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "HD 3530",
+                    "PSYCH 2230",
+                    "PSYCH 3150",
+                    "PSYCH 3220",
+                    "PSYCH 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-3",
+              "label": "Social and Personality Psychology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PSYCH 2250",
+                    "PSYCH 2415",
+                    "PSYCH 2650",
+                    "PSYCH 2750",
+                    "PSYCH 2800",
+                    "PSYCH 2940",
+                    "PSYCH 3135",
+                    "PSYCH 3450",
+                    "PSYCH 3820",
+                    "PSYCH 4940"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "depth-i",
+              "label": "3000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000,
+                  "numberMax": 3999
+                }
+              ]
+            },
+            {
+              "id": "depth-ii",
+              "label": "4000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "development-cognitive-social",
+          "label": "Development / Cognitive and Behavioral Neuroscience / Social and Personality Psychology",
+          "slots": [
+            {
+              "id": "breadth-1",
+              "label": "Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2180",
+                    "HD 3290",
+                    "PSYCH 1131",
+                    "PSYCH 2090",
+                    "PSYCH 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-2",
+              "label": "Cognitive and Behavioral Neuroscience",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 2200",
+                    "HD 3530",
+                    "PSYCH 2230",
+                    "PSYCH 3150",
+                    "PSYCH 3220",
+                    "PSYCH 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-3",
+              "label": "Social and Personality Psychology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PSYCH 2250",
+                    "PSYCH 2415",
+                    "PSYCH 2650",
+                    "PSYCH 2750",
+                    "PSYCH 2800",
+                    "PSYCH 2940",
+                    "PSYCH 3135",
+                    "PSYCH 3450",
+                    "PSYCH 3820",
+                    "PSYCH 4940"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "depth-i",
+              "label": "3000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000,
+                  "numberMax": 3999
+                }
+              ]
+            },
+            {
+              "id": "depth-ii",
+              "label": "4000-level Psychology coursework",
+              "slots": [
+                "psych-additional",
+                "breadth-1",
+                "breadth-2",
+                "breadth-3"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "psych-credits",
+      "label": "Eligible Psychology major credits",
+      "need": 40,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "subjects": [
+            "PSYCH"
+          ],
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "approval": "psych-approved-outsider"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "psych-additional"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "PSYCH 4700",
+            "PSYCH 4710"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "proficiency",
+      "label": "Proficiency and approved coursework",
+      "instruction": "Confirm statistics and research methods before senior year, any equivalent six-credit external statistics sequence, and any accepted coursework from outside Psychology."
+    }
+  ]
+}

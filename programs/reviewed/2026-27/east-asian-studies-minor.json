@@ -1,0 +1,160 @@
+{
+  "programId": "east-asian-studies-minor",
+  "name": "East Asian Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses with an advanced non-language course and up to six East Asian language credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/east-asian-studies-minor/#curriculumtext",
+    "https://asianstudies.cornell.edu/minors"
+  ],
+  "slots": [
+    {
+      "id": "advanced",
+      "label": "Advanced non-language East Asian Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "east-asia-nonlanguage",
+          "numberMin": 3000,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "East Asian Studies courses and eligible language courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "codes": [
+            "ASIAN 2211",
+            "ASIAN 2218",
+            "ASIAN 2230",
+            "ASIAN 2231",
+            "ASIAN 2232",
+            "ASIAN 2233",
+            "ASIAN 2250"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "east-asia-nonlanguage",
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "CHIN",
+            "JAPAN",
+            "KOREA"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "ASIAN 2211",
+            "ASIAN 2218",
+            "ASIAN 2230",
+            "ASIAN 2231",
+            "ASIAN 2232",
+            "ASIAN 2233",
+            "ASIAN 2250"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "subjects": [
+            "CHIN",
+            "JAPAN",
+            "KOREA"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "subjects": [
+            "CHIN",
+            "JAPAN",
+            "KOREA"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "subjects": [
+            "CHIN",
+            "JAPAN",
+            "KOREA"
+          ],
+          "approval": "asian-studies-language-jumpstart"
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 8,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "region",
+      "label": "East Asia course classification",
+      "instruction": "Confirm East Asian content and evaluate transfer, graduate, or jumpstart courses with the Department of Asian Studies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

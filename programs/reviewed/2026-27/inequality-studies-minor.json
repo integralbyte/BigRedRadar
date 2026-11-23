@@ -1,0 +1,162 @@
+{
+  "programId": "inequality-studies-minor",
+  "name": "Inequality Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Social Inequality, one overview and four electives, including a Health Equity option.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/inequality-studies-minor/#curriculumtext",
+    "https://inequality.cornell.edu/minor-overview-and-requirements"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Social Inequality",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SOC 2208"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "label": "Inequality Studies overview",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 3700",
+            "GOVT 3251",
+            "PUBPOL 2250",
+            "PUBPOL 2370",
+            "SOC 2220"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "track",
+      "label": "Inequality Studies track",
+      "options": [
+        {
+          "id": "general",
+          "label": "General Inequality Studies",
+          "slots": [
+            {
+              "id": "electives",
+              "label": "Inequality Studies electives",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "codes": [
+                    "ASRC 1500",
+                    "AMST 4051",
+                    "BIONB 3215",
+                    "FGSS 2010",
+                    "GDEV 2710",
+                    "GOVT 3071",
+                    "ILRGL 2350",
+                    "SOC 1101",
+                    "STS 2061",
+                    "AEM 1600",
+                    "ANTHR 2424",
+                    "BSOC 2051",
+                    "NS 1150",
+                    "PUBPOL 3280"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C",
+                  "approval": "inequality-approved-elective"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "label": "Health Equity track",
+          "slots": [
+            {
+              "id": "health",
+              "label": "Health Equity electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1600",
+                    "ANTHR 2424",
+                    "BSOC 2051",
+                    "NS 1150",
+                    "PUBPOL 3280"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C",
+                  "approval": "inequality-approved-het"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Inequality Studies electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ASRC 1500",
+                    "AMST 4051",
+                    "BIONB 3215",
+                    "FGSS 2010",
+                    "GDEV 2710",
+                    "GOVT 3071",
+                    "ILRGL 2350",
+                    "SOC 1101",
+                    "STS 2061",
+                    "AEM 1600",
+                    "ANTHR 2424",
+                    "BSOC 2051",
+                    "NS 1150",
+                    "PUBPOL 3280"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C",
+                  "approval": "inequality-approved-elective"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "breadth",
+      "label": "Elective eligibility and three departments",
+      "instruction": "Use eligible electives for the term. Distribute the overview course and electives among at least three departments, counting ILR as one and considering cross-listed rubrics."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "programId": "computer-science-minor",
+  "name": "Computer Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two computing foundations and four additional CS courses taken at Cornell.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/computer-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "programming",
+      "label": "Data structures or Computer Systems Programming",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "CS 2110",
+            "CS 2112",
+            "ENGRD 2140",
+            "ECE 2400"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "ENGRD"
+          ],
+          "codes": [
+            "CS 2110",
+            "CS 2112"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "advanced-core",
+      "label": "Functional programming, organization or embedded systems",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "CS 3110",
+            "CS 3410",
+            "CS 3420",
+            "ECE 3140"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "ENGRD"
+          ],
+          "codes": [
+            "CS 3110",
+            "CS 3410",
+            "CS 3420"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Mathematical foundations or upper-level CS courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "CS 2800",
+            "CS 2802",
+            "ECE 3140"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "CS"
+          ],
+          "numberMin": 3000,
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998",
+            "CS 4999"
+          ],
+          "excludeApprovals": [
+            "cs-minor-seminar"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "ENGRD"
+          ],
+          "numberMin": 3000,
+          "approval": "cs-minor-engrd-cross-list",
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998",
+            "CS 4999"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "computer-science-ba",
+    "computer-science-bs",
+    "information-science-systems-technology-bs"
+  ],
+  "manual": [
+    {
+      "id": "scope",
+      "label": "Registration rubric and seminar exclusion",
+      "instruction": "Verify that electives are non-seminars. Use the CS rubric except for the listed ECE and ENGRD cross-list exceptions."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "programId": "engineering-management-minor",
+  "name": "Engineering Management Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Engineering economics, accounting, statistics and three electives, with an ORIE-specific substitution.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/engineering-management-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/mem/degree/minor-in-engineering-management-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "engineering-economics",
+      "label": "Engineering economics and management",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3230"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Engineering statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3040",
+            "ENGRD 2700",
+            "ECE 3100"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "program",
+      "label": "Major-specific engineering management requirements",
+      "options": [
+        {
+          "id": "standard",
+          "label": "General path",
+          "slots": [
+            {
+              "id": "accounting",
+              "label": "Financial and managerial accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ORIE 3150"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "additional",
+              "label": "Approved additional courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRG 3600",
+                    "CEE 5900",
+                    "CEE 5930",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "ENMGT 5990",
+                    "NBA 5070"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "engineering-management-elective",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "operations-research-engineering-bs"
+          ]
+        },
+        {
+          "id": "orie",
+          "label": "Operations Research and Engineering",
+          "slots": [
+            {
+              "id": "accounting",
+              "label": "Substitute finance or accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NCC 5560",
+                    "NBA 5000"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "additional",
+              "label": "Approved additional courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRG 3600",
+                    "CEE 5900",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "ENMGT 5990",
+                    "NBA 5070"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "engineering-management-elective",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "confirmation",
+      "label": "Accounting and economics requirements",
+      "instruction": "The department lists CEE 3230 and ORIE 3150 as separate required courses, consistent with its six-course minimum. Confirm the correct interpretation of the compressed Catalog table and any substitution with CEE. Select the ORIE option only if it applies."
+    },
+    {
+      "id": "unique",
+      "label": "Courses separate from major requirements",
+      "instruction": "Keep at least nine credits and three courses distinct from the major. For Civil Engineering, exclude courses used as major-approved or design electives. Independent majors need departmental approval."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

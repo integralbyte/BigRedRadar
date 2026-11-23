@@ -1,0 +1,48 @@
+{
+  "programId": "aap-undergraduate",
+  "name": "Architecture, Art, and Planning college requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "College common course and overall graduation GPA alongside program-specific requirements.",
+  "sources": [
+    "https://catalog.cornell.edu/architecture-art-planning/"
+  ],
+  "slots": [
+    {
+      "id": "common",
+      "label": "The Worlds We Make",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AAP 1100"
+          ]
+        },
+        {
+          "approval": "aap-approved-1100-equivalent",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "AR"
+  ],
+  "layer": "college",
+  "manual": [
+    {
+      "id": "gpa",
+      "label": "College graduation GPA",
+      "instruction": "Confirm a cumulative GPA of at least 2.0 under the AAP grading policy."
+    }
+  ]
+}

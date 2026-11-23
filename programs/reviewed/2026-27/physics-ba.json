@@ -1,0 +1,645 @@
+{
+  "programId": "physics-ba",
+  "name": "Physics (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory sequences, upper-level Physics and either an inside or advisor-approved outside concentration.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/physics-ba/#curriculumtext",
+    "https://physics.cornell.edu/physics-majors",
+    "https://physics.cornell.edu/concentrations"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "math-single-variable-calculus",
+      "label": "Single-Variable Calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1120",
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-multivariable-calculus",
+      "label": "Multivariable Calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920",
+            "MATH 2220",
+            "MATH 2240",
+            "MATH 2130"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-differential-equations",
+      "label": "Differential Equations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930",
+            "MATH 3270"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-linear-algebra",
+      "label": "Linear Algebra",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2210",
+            "MATH 2230",
+            "MATH 2310",
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-3316",
+      "label": "PHYS 3316",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3316"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-3317",
+      "label": "PHYS 3317",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3317"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-3318",
+      "label": "PHYS 3318",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3318"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-3327",
+      "label": "PHYS 3327",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 3327"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "mechanics",
+      "label": "Introductory mechanics path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Mechanics and special relativity",
+          "slots": [
+            {
+              "id": "physics-mechanics",
+              "label": "Mechanics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-relativity",
+              "label": "Special relativity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2216"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-experiment",
+              "label": "Introduction to experimental physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors mechanics with relativity",
+          "slots": [
+            {
+              "id": "physics-mechanics",
+              "label": "Mechanics and relativity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1116"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-experiment",
+              "label": "Introduction to experimental physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-physical",
+          "label": "Physics for the life sciences",
+          "slots": [
+            {
+              "id": "physics-mechanics",
+              "label": "Fundamentals of physics I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-relativity",
+              "label": "Special relativity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2216"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "intro-lab-review",
+              "label": "Experimental physics for the PHYS 2207 path",
+              "instruction": "Confirm how the department applies prior experimental work for students entering via the life sciences."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waves",
+      "label": "Introductory waves course",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Waves and quantum physics",
+          "slots": [
+            {
+              "id": "physics-waves",
+              "label": "Waves and quantum physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors waves and experimental physics",
+          "slots": [
+            {
+              "id": "physics-waves",
+              "label": "Waves and thermal physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2218"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-second-experiment",
+              "label": "Exploring experimental physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "label": "Physics concentration",
+      "options": [
+        {
+          "id": "inside",
+          "label": "Inside Physics",
+          "slots": [
+            {
+              "id": "physics-core-lab",
+              "label": "Approved advanced laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 3640",
+                    "ASTRO 4410",
+                    "BEE 4500",
+                    "BME 3030",
+                    "BME 4390",
+                    "CHEM 3020",
+                    "EAS 4370",
+                    "MAE 3260",
+                    "MAE 3783",
+                    "MAE 4150",
+                    "MAE 4272",
+                    "MAE 4480",
+                    "MSE 5410",
+                    "PHYS 3310",
+                    "PHYS 3330",
+                    "PHYS 3360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-advanced-experimental",
+              "label": "Advanced Experimental Physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-quantum-ii",
+              "label": "Quantum Physics II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-advanced-math",
+              "label": "Two advanced mathematics courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 3200",
+                    "AEP 4200"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "approval": "phys-advanced-math"
+                }
+              ]
+            },
+            {
+              "id": "physics-inside-elective",
+              "label": "Advanced physics electives",
+              "unit": "credits",
+              "need": 7,
+              "options": [
+                {
+                  "subjects": [
+                    "PHYS"
+                  ],
+                  "numberMin": 3001,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 3332",
+                    "ASTRO 4431",
+                    "ASTRO 4432",
+                    "AEP 4340"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "physics-inside-elective"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "inside-credits",
+              "label": "Credits beyond the Physics core",
+              "slots": [
+                "physics-advanced-experimental",
+                "physics-quantum-ii",
+                "physics-advanced-math",
+                "physics-inside-elective"
+              ],
+              "need": 21,
+              "unit": "credits"
+            },
+            {
+              "id": "lab-credits",
+              "label": "Advanced laboratory credits",
+              "slots": [
+                "physics-core-lab",
+                "physics-advanced-experimental"
+              ],
+              "need": 7,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "physics-inside-elective"
+              ],
+              "unit": "credits",
+              "max": 4,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4490",
+                    "PHYS 4498",
+                    "PHYS 4499"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "outside",
+          "label": "Outside Physics",
+          "slots": [
+            {
+              "id": "physics-core-lab",
+              "label": "Intermediate physics laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4410",
+                    "PHYS 3310",
+                    "PHYS 3330",
+                    "PHYS 3360",
+                    "PHYS 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "physics-outside-elective",
+              "label": "Approved outside concentration courses",
+              "unit": "credits",
+              "need": 15,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "approval": "physics-outside-focus"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "outside-upper",
+              "label": "Outside concentration credits above 3000",
+              "slots": [
+                "physics-outside-elective"
+              ],
+              "need": 8,
+              "unit": "credits",
+              "options": [
+                {
+                  "numberMin": 3001
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "physics-outside-elective"
+              ],
+              "unit": "credits",
+              "max": 4,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4490",
+                    "PHYS 4498",
+                    "PHYS 4499"
+                  ]
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "outside-plan",
+              "label": "Approved outside concentration",
+              "instruction": "Confirm the coherence of the plan and that the courses used here aren’t being used toward another major or minor."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "physics-math-credits",
+      "label": "Mathematics core credits",
+      "slotPrefix": "math-",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "manual": [
+    {
+      "id": "physics-core",
+      "label": "Physics core and admission",
+      "instruction": "Confirm the 32-credit core, permitted mixed introductory sequences, placement and transfer equivalencies, and admission grades with Physics advising."
+    }
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "programId": "africana-studies-ba",
+  "name": "Africana Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Published coursework and grade minimum. Confirm departmental category, focus and seminar eligibility.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/africana-studies-ba/#curriculumtext",
+    "https://africana.cornell.edu/procedure-applying-major-africana-studies"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Introduction to Africana Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASRC 1500"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "seminars",
+      "label": "Upper-level Africana Studies seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ASRC"
+          ],
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "approval": "asrc-seminar",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "breadth",
+      "label": "Select three distinct breadth areas",
+      "options": [
+        {
+          "id": "african-african-american-caribbean",
+          "label": "African / African-American / Caribbean",
+          "slots": [
+            {
+              "id": "breadth-african",
+              "label": "African",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-african-american",
+              "label": "African-American",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african-american",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-caribbean",
+              "label": "Caribbean",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-caribbean",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "african-african-american-other-diaspora-studies",
+          "label": "African / African-American / Other Diaspora studies",
+          "slots": [
+            {
+              "id": "breadth-african",
+              "label": "African",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-african-american",
+              "label": "African-American",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african-american",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-other-diaspora-studies",
+              "label": "Other Diaspora studies",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-other-diaspora-studies",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "african-caribbean-other-diaspora-studies",
+          "label": "African / Caribbean / Other Diaspora studies",
+          "slots": [
+            {
+              "id": "breadth-african",
+              "label": "African",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-caribbean",
+              "label": "Caribbean",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-caribbean",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-other-diaspora-studies",
+              "label": "Other Diaspora studies",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-other-diaspora-studies",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "african-american-caribbean-other-diaspora-studies",
+          "label": "African-American / Caribbean / Other Diaspora studies",
+          "slots": [
+            {
+              "id": "breadth-african-american",
+              "label": "African-American",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-african-american",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-caribbean",
+              "label": "Caribbean",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-caribbean",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "breadth-other-diaspora-studies",
+              "label": "Other Diaspora studies",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "approval": "asrc-other-diaspora-studies",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Select two focus topics",
+      "options": [
+        {
+          "id": "history-literature",
+          "label": "History / Literature",
+          "slots": [
+            {
+              "id": "focus-history",
+              "label": "History focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-history",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-literature",
+              "label": "Literature focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-literature",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-politics",
+          "label": "History / Politics",
+          "slots": [
+            {
+              "id": "focus-history",
+              "label": "History focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-history",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-politics",
+              "label": "Politics focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-politics",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-popular-culture",
+          "label": "History / Popular Culture",
+          "slots": [
+            {
+              "id": "focus-history",
+              "label": "History focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-history",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-popular-culture",
+              "label": "Popular Culture focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-popular-culture",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-race-and-inequality",
+          "label": "History / Race and Inequality",
+          "slots": [
+            {
+              "id": "focus-history",
+              "label": "History focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-history",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-race-and-inequality",
+              "label": "Race and Inequality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-race-and-inequality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-gender-and-sexuality",
+          "label": "History / Gender and Sexuality",
+          "slots": [
+            {
+              "id": "focus-history",
+              "label": "History focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-history",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-gender-and-sexuality",
+              "label": "Gender and Sexuality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-gender-and-sexuality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "literature-politics",
+          "label": "Literature / Politics",
+          "slots": [
+            {
+              "id": "focus-literature",
+              "label": "Literature focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-literature",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-politics",
+              "label": "Politics focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-politics",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "literature-popular-culture",
+          "label": "Literature / Popular Culture",
+          "slots": [
+            {
+              "id": "focus-literature",
+              "label": "Literature focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-literature",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-popular-culture",
+              "label": "Popular Culture focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-popular-culture",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "literature-race-and-inequality",
+          "label": "Literature / Race and Inequality",
+          "slots": [
+            {
+              "id": "focus-literature",
+              "label": "Literature focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-literature",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-race-and-inequality",
+              "label": "Race and Inequality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-race-and-inequality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "literature-gender-and-sexuality",
+          "label": "Literature / Gender and Sexuality",
+          "slots": [
+            {
+              "id": "focus-literature",
+              "label": "Literature focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-literature",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-gender-and-sexuality",
+              "label": "Gender and Sexuality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-gender-and-sexuality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-popular-culture",
+          "label": "Politics / Popular Culture",
+          "slots": [
+            {
+              "id": "focus-politics",
+              "label": "Politics focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-politics",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-popular-culture",
+              "label": "Popular Culture focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-popular-culture",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-race-and-inequality",
+          "label": "Politics / Race and Inequality",
+          "slots": [
+            {
+              "id": "focus-politics",
+              "label": "Politics focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-politics",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-race-and-inequality",
+              "label": "Race and Inequality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-race-and-inequality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-gender-and-sexuality",
+          "label": "Politics / Gender and Sexuality",
+          "slots": [
+            {
+              "id": "focus-politics",
+              "label": "Politics focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-politics",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-gender-and-sexuality",
+              "label": "Gender and Sexuality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-gender-and-sexuality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "popular-culture-race-and-inequality",
+          "label": "Popular Culture / Race and Inequality",
+          "slots": [
+            {
+              "id": "focus-popular-culture",
+              "label": "Popular Culture focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-popular-culture",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-race-and-inequality",
+              "label": "Race and Inequality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-race-and-inequality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "popular-culture-gender-and-sexuality",
+          "label": "Popular Culture / Gender and Sexuality",
+          "slots": [
+            {
+              "id": "focus-popular-culture",
+              "label": "Popular Culture focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-popular-culture",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-gender-and-sexuality",
+              "label": "Gender and Sexuality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-gender-and-sexuality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "race-and-inequality-gender-and-sexuality",
+          "label": "Race and Inequality / Gender and Sexuality",
+          "slots": [
+            {
+              "id": "focus-race-and-inequality",
+              "label": "Race and Inequality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-race-and-inequality",
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-gender-and-sexuality",
+              "label": "Gender and Sexuality focus courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ASRC"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "approval": "asrc-focus-gender-and-sexuality",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "major-credits",
+      "label": "Credits across the selected Africana Studies courses",
+      "need": 36,
+      "unit": "credits"
+    }
+  ],
+  "manual": [
+    {
+      "id": "credits-and-electives",
+      "label": "Major credits and electives outside Africana",
+      "instruction": "The department's application page asks single-major students to verify four to five electives outside the major with at least 15 credits."
+    },
+    {
+      "id": "declaration",
+      "label": "Declare the major",
+      "instruction": "Submit the department application and confirm the proposed area of study with an advisor."
+    }
+  ]
+}

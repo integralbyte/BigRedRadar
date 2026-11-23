@@ -1,0 +1,191 @@
+{
+  "programId": "china-asia-pacific-studies-minor",
+  "name": "China and Asia-Pacific Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "A gateway, two core courses, two approved electives and Chinese proficiency.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/china-asia-pacific-studies-minor/#curriculumtext",
+    "https://caps.cornell.edu/minor",
+    "https://catalog.cornell.edu/programs/china-asia-pacific-studies-ba/#curriculumtext",
+    "https://caps.cornell.edu/chinese-language-requirements"
+  ],
+  "slots": [
+    {
+      "id": "gateway",
+      "label": "CAPS gateway course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CAPS 2132",
+            "CAPS 2232",
+            "CAPS 2435",
+            "CAPS 3967"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "CAPS core coursework",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4001",
+            "CAPS 4002",
+            "CAPS 4003",
+            "CAPS 4030",
+            "CAPS 4049",
+            "CAPS 4127",
+            "CAPS 4827",
+            "CAPS 4931",
+            "CAPS 4963",
+            "CAPS 4998"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CAPS 4999"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 3,
+          "approval": "caps-core-approval"
+        },
+        {
+          "approval": "caps-core-approval",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved CAPS electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4001",
+            "CAPS 4002",
+            "CAPS 4003",
+            "CAPS 4030",
+            "CAPS 4049",
+            "CAPS 4127",
+            "CAPS 4827",
+            "CAPS 4931",
+            "CAPS 4963",
+            "CAPS 4998"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "caps-elective-approval",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "language",
+      "label": "Chinese language proficiency route",
+      "options": [
+        {
+          "id": "intermediate",
+          "label": "Complete intermediate Chinese",
+          "slots": [
+            {
+              "id": "intermediate",
+              "label": "Second-year Chinese or approved equivalent",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHIN 2202",
+                    "CHIN 2210"
+                  ],
+                  "minGrade": "C"
+                },
+                {
+                  "approval": "caps-second-year-chinese",
+                  "minGrade": "C"
+                }
+              ],
+              "allocationGroup": "language"
+            }
+          ]
+        },
+        {
+          "id": "placed-advanced",
+          "label": "Placement beyond second-year Chinese",
+          "slots": [
+            {
+              "id": "advanced",
+              "label": "Advanced Chinese course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "CHIN"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C"
+                },
+                {
+                  "approval": "caps-advanced-chinese",
+                  "minGrade": "C"
+                }
+              ],
+              "allocationGroup": "language"
+            }
+          ]
+        },
+        {
+          "id": "exempt",
+          "label": "Department-approved exemption",
+          "slots": [],
+          "manual": [
+            {
+              "id": "exemption",
+              "label": "High-school or placement exemption",
+              "instruction": "Confirm the approved Chinese language exemption with Asian Studies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "elective-approval",
+      "label": "Elective and language approval",
+      "instruction": "Confirm the current recommended electives and proficiency with CAPS. An elective is usually advanced Chinese, and internship work must be separately approved as academic credit."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits in CAPS coursework",
+      "slots": [
+        "gateway",
+        "core",
+        "electives"
+      ],
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

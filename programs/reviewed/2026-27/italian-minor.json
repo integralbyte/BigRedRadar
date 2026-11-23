@@ -1,0 +1,176 @@
+{
+  "programId": "italian-minor",
+  "name": "Italian Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Italian IV, literary or visual culture, three more Italian Studies course equivalents, and at least one elective taught in Italian.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/italian-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "language",
+      "label": "Italian IV",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "codes": [
+            "ITAL 2202"
+          ]
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "approval": "italian-minor-italian-iv"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "Italian culture or cinema",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "codes": [
+            "ITAL 2900",
+            "ITAL 2204"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Italian Studies elective taught in Italian",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "approval": "italian-minor-taught-in-italian"
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 1.5,
+          "approval": "italian-minor-taught-in-italian",
+          "maxCredits": 2,
+          "courseWeight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Other Italian Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "subjects": [
+            "ITAL"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "approval": "italian-minor-related-content"
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 3,
+          "approval": "italian-minor-taught-in-italian"
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 1.5,
+          "subjects": [
+            "ITAL"
+          ],
+          "acceptCrossListings": true,
+          "maxCredits": 2,
+          "courseWeight": 0.5
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 1.5,
+          "approval": "italian-minor-related-content",
+          "maxCredits": 2,
+          "courseWeight": 0.5
+        },
+        {
+          "minGrade": "B-",
+          "allowSatisfactory": true,
+          "minCredits": 1.5,
+          "approval": "italian-minor-taught-in-italian",
+          "maxCredits": 2,
+          "courseWeight": 0.5
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        },
+        {
+          "passFailOnly": true
+        }
+      ]
+    },
+    {
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Outside department courses and half-credit options",
+      "instruction": "Confirm courses in Italian and approved external or cross-department work. Combine two 1.5- or 2-credit classes for each course equivalent. Confirm which courses count as an elective taught in Italian."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

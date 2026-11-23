@@ -1,0 +1,81 @@
+{
+  "programId": "labor-social-justice-minor",
+  "name": "Labor and Social Justice Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Fifteen ILRGL credits with a limited approved pre-matriculation transfer allowance.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/labor-social-justice-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "credits",
+      "label": "Global Labor and Work courses",
+      "unit": "credits",
+      "need": 15,
+      "options": [
+        {
+          "subjects": [
+            "ILRGL"
+          ],
+          "minGrade": "D-",
+          "excludeApprovals": [
+            "labor-minor-independent-credit"
+          ],
+          "excludeNumberPatterns": [
+            "49XX",
+            "59XX"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "subjects": [
+            "ILRGL"
+          ],
+          "minGrade": "D-",
+          "excludeApprovals": [
+            "labor-minor-independent-credit"
+          ],
+          "excludeNumberPatterns": [
+            "49XX",
+            "59XX"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "labor-minor-pre-matriculation-transfer"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Credit overlap and transfer timing",
+      "instruction": "Apply no more than three credits to both this minor and any other program requirement. Confirm that any transfer equivalent was completed before matriculation. Independent study, internships, directed study and honors thesis work are excluded."
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "program",
+      "max": 3,
+      "unit": "credits"
+    }
+  ]
+}

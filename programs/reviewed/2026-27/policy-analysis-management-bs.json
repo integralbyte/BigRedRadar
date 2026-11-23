@@ -1,0 +1,535 @@
+{
+  "programId": "policy-analysis-management-bs",
+  "name": "Policy Analysis and Management (BS) · teach-out",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Brooks’ published teach-out curriculum for students who matriculated in August 2022 or January 2023. The last published graduation term is Spring 2027.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/policy-analysis-management-bs/policy-analysis-management-bs.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "colleges": [
+    "PP"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "cohort",
+      "label": "Policy Analysis and Management entry cohort",
+      "options": [
+        {
+          "id": "2022-23",
+          "label": "Matriculated in August 2022 or January 2023",
+          "slots": [
+            {
+              "id": "orientation",
+              "label": "Building Success at Brooks",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 1111",
+                    "PAM 1111"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "population",
+              "label": "Population and public policy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2030",
+                    "PAM 2030"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "public-sector",
+              "label": "Economics of the public sector",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2040",
+                    "PAM 2040"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics for public policy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2101",
+                    "PAM 2101"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "analysis",
+              "label": "Introduction to policy analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2300",
+                    "PAM 2300"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "microeconomics",
+              "label": "Introductory microeconomics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 1110"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "government",
+              "label": "Introduction to American government and politics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GOVT 1111"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upper",
+              "label": "Upper-level Policy Analysis and Management electives",
+              "unit": "credits",
+              "need": 21,
+              "options": [
+                {
+                  "subjects": [
+                    "PUBPOL",
+                    "PAM"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "subjects": [
+                    "PUBPOL",
+                    "PAM"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "pam-approved-abroad"
+                }
+              ]
+            },
+            {
+              "id": "elective",
+              "label": "Additional policy or macroeconomics elective",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "PUBPOL",
+                    "PAM"
+                  ],
+                  "numberMin": 1100,
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "subjects": [
+                    "PUBPOL",
+                    "PAM"
+                  ],
+                  "numberMin": 1100,
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "pam-approved-abroad"
+                },
+                {
+                  "codes": [
+                    "ECON 1120",
+                    "ECON 3040"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "intermediate-micro",
+              "label": "Intermediate microeconomics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2000",
+                    "PAM 2000",
+                    "ECON 3030"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sociology",
+              "label": "Introduction to sociology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "SOC 1101",
+                    "DSOC 1101",
+                    "PUBPOL 2250",
+                    "PAM 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "mathematics",
+              "label": "Quantitative and analytical mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 1100,
+                  "excludeNumbers": [
+                    1101,
+                    1710
+                  ],
+                  "minCredits": 3,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "pam-ap-calculus-bc"
+                }
+              ]
+            },
+            {
+              "id": "science-one",
+              "label": "First natural science course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1140",
+                    "BIOG 1440",
+                    "BIOG 1445",
+                    "BIOMG 1350",
+                    "BIOEE 1610",
+                    "CHEM 1560",
+                    "CHEM 2070",
+                    "CHEM 2080",
+                    "PHYS 1101",
+                    "PHYS 1102",
+                    "PHYS 2207",
+                    "PHYS 2208"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "pam-natural-science-ap-five"
+                }
+              ]
+            },
+            {
+              "id": "science-two",
+              "label": "Second natural science course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "distributions": [
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AS",
+                    "PHS-AS",
+                    "BIOLS-AG",
+                    "BIONLS-AG"
+                  ],
+                  "minCredits": 3,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ethics",
+              "label": "Approved ethics course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3205",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "COMM 4300",
+                    "COMM 4350",
+                    "ECE 3600",
+                    "ILRLR 3830",
+                    "ILRGL 4820",
+                    "ILRGL 4880",
+                    "ILRLR 4075",
+                    "INFO 1200",
+                    "INFO 2750",
+                    "NTRES 2320",
+                    "PHIL 1440",
+                    "PHIL 1450",
+                    "PHIL 2410",
+                    "PHIL 2415",
+                    "PHIL 2420",
+                    "PHIL 2455",
+                    "PHIL 3410",
+                    "PHIL 3460",
+                    "PHIL 3480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "additional-distribution",
+              "label": "Additional distribution credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "distributions": [
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "SBA-AG",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "KCM-AG",
+                    "KCM-HE",
+                    "KCM-AAP",
+                    "MQR-HE",
+                    "MQR-AAP",
+                    "LA-AG",
+                    "LA-AAP",
+                    "CA-AG",
+                    "CA-HE",
+                    "CA-AAP",
+                    "HA-AG",
+                    "HA-HE",
+                    "HA-AAP"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "approval": "pam-approved-distribution",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "writing",
+              "label": "First-year writing seminars",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "approval": "as-writing-seminar",
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "pam-approved-writing-exam"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "upper",
+                "elective"
+              ],
+              "unit": "credits",
+              "max": 8,
+              "partitionBy": "term",
+              "options": [
+                {
+                  "origins": [
+                    "study_abroad"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "writing"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "brooks-cohort",
+      "label": "Brooks teach-out and college requirements",
+      "instruction": "Confirm the applicable historical curriculum with Brooks. Verify degree total, Human Ecology credits where required, residence, transfer limits, and approved substitutions."
+    }
+  ]
+}

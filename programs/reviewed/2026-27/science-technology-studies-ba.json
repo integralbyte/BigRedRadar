@@ -1,0 +1,79 @@
+{
+  "programId": "science-technology-studies-ba",
+  "name": "Science & Technology Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The introductory course, eight approved theme courses, and three science courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/science-technology-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "sts2011",
+      "label": "What Is Science?",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STS 2011"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "theme",
+      "label": "Faculty-approved STS theme courses",
+      "unit": "courses",
+      "need": 8,
+      "options": [
+        {
+          "subjects": [
+            "STS"
+          ],
+          "acceptCrossListings": true,
+          "approval": "sts-approved-theme-course"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Approved science and engineering coursework",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "approval": "sts-approved-science-course"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "advanced-sts",
+      "label": "4000-level STS theme course",
+      "slots": [
+        "theme"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 4000
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "science-and-theme",
+      "label": "Theme and additional science approval",
+      "instruction": "Confirm the Science, Technology and Society theme and the three additional science or engineering courses. The science courses are separate from the college's science requirements."
+    }
+  ]
+}

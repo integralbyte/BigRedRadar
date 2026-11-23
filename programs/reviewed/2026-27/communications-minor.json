@@ -1,0 +1,165 @@
+{
+  "programId": "communications-minor",
+  "name": "Communication Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory Communication, one core course, two breadth courses and three upper-level electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/communications-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to communication",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 1101"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Communication core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2200",
+            "COMM 2450",
+            "COMM 2760",
+            "COMM 2850"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "breadth",
+      "label": "Communication breadth",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "COMM 1300",
+            "COMM 2010",
+            "COMM 2310",
+            "COMM 3010",
+            "COMM 3020",
+            "COMM 3040",
+            "COMM 3050",
+            "COMM 3065",
+            "COMM 3070",
+            "COMM 2820"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Upper-level Communication electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "COMM"
+          ],
+          "numberMin": 3100,
+          "numberMax": 4990,
+          "excludeNumbers": [
+            4950,
+            4951,
+            4952,
+            4960,
+            4980
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "codes": [
+            "COMM 2200",
+            "COMM 2450",
+            "COMM 2760",
+            "COMM 2850",
+            "MUSIC 2703",
+            "COMM 2179"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "comm-minor-approved-elective"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "communication-bs"
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "breadth"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2310"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "COMM"
+          ],
+          "numberMin": 3000,
+          "numberMax": 3099,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "equivalency",
+      "label": "Communication elective and transfer equivalencies",
+      "instruction": "Confirm transfer equivalencies and any alternate cross-listing with the department."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 21,
+      "unit": "credits"
+    }
+  ]
+}

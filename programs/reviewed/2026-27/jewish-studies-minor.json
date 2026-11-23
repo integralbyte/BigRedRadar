@@ -1,0 +1,120 @@
+{
+  "programId": "jewish-studies-minor",
+  "name": "Jewish Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory survey, two historical periods, and an advanced Jewish Studies course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/jewish-studies-minor/#curriculumtext",
+    "https://jewishstudies.cornell.edu/undergraduate-minor"
+  ],
+  "slots": [
+    {
+      "id": "survey",
+      "label": "Introductory Jewish Studies survey",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "codes": [
+            "JWST 2644",
+            "JWST 2676"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "jewish-studies-approved-survey"
+        }
+      ]
+    },
+    {
+      "id": "ancient",
+      "label": "Jewish history from 3000 BCE to 600 CE",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "approval": "jewish-studies-early-period"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "label": "Jewish history from 600 CE to the present",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "approval": "jewish-studies-later-period"
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Advanced Jewish Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "subjects": [
+            "JWST"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "approval": "jewish-studies-upper-content"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Additional approved Jewish Studies credit",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "subjects": [
+            "JWST"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "jewish-studies-approved-course"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "courses",
+      "label": "Historical periods and 18 total credits",
+      "instruction": "Confirm the historical breadth designations and which extra Jewish Studies credits count if the four required courses total less than 18 credits."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

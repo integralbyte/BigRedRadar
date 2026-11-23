@@ -1,0 +1,114 @@
+{
+  "programId": "latin-american-studies-minor",
+  "name": "Latin American Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Spanish or Portuguese proficiency followed by 15 approved credits across two departments.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/latin-american-studies-minor/#curriculumtext",
+    "https://einaudi.cornell.edu/learn/academics/latin-american-studies-undergraduate-minor"
+  ],
+  "slots": [
+    {
+      "id": "language",
+      "label": "Spanish or Portuguese proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2095",
+            "PORT 2010",
+            "PORT 2020"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "lacs-approved-higher-language"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "lacs-case-proficiency"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Latin American and Caribbean Studies coursework",
+      "unit": "credits",
+      "need": 15,
+      "options": [
+        {
+          "minGrade": "B",
+          "acceptCrossListings": true,
+          "subjects": [
+            "LATA"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "B",
+          "acceptCrossListings": true,
+          "codes": [
+            "QUECH 1210",
+            "QUECH 1220"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "B",
+          "acceptCrossListings": true,
+          "approval": "lacs-approved-elective"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "departments",
+      "label": "Department breadth and overlap",
+      "instruction": "Use courses from two different departments, excluding LATA 4000 from the breadth calculation. Confirm language placement and electives that require approval. At most two electives may also count for Caribbean Studies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "advanced",
+      "label": "Advanced Latin American Studies elective",
+      "slots": [
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "excludeCodes": [
+            "LATA 4000"
+          ]
+        }
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "minor",
+      "max": 2,
+      "unit": "courses",
+      "slots": [
+        "electives"
+      ],
+      "programIds": [
+        "caribbean-studies-minor"
+      ]
+    }
+  ]
+}

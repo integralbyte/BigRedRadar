@@ -1,0 +1,522 @@
+{
+  "programId": "classics-ba",
+  "name": "Classics (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "All four paths and the 27-credit minimum. Confirm subject-area eligibility and the seminar paper.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/classics-ba/#curriculumtext",
+    "https://classics.cornell.edu/classics-majors-requirements"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "classics-track",
+      "label": "Classics track",
+      "options": [
+        {
+          "id": "classics-greek",
+          "label": "Classics with Greek emphasis",
+          "slots": [
+            {
+              "id": "classics-language",
+              "label": "Intermediate and advanced Greek or Latin",
+              "unit": "courses",
+              "need": 6,
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK",
+                    "LATIN"
+                  ],
+                  "numberMin": 2101,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-courses",
+              "label": "Additional CLASS courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "CLASS"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "primary-language",
+              "label": "Greek advanced courses",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "secondary-language",
+              "label": "Latin advanced course",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "LATIN"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-credits",
+              "label": "Classics major credits",
+              "slots": [
+                "classics-language",
+                "classics-courses"
+              ],
+              "need": 27,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "classics-latin",
+          "label": "Classics with Latin emphasis",
+          "slots": [
+            {
+              "id": "classics-language",
+              "label": "Intermediate and advanced Greek or Latin",
+              "unit": "courses",
+              "need": 6,
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK",
+                    "LATIN"
+                  ],
+                  "numberMin": 2101,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-courses",
+              "label": "Additional CLASS courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "CLASS"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "primary-language",
+              "label": "Latin advanced courses",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "LATIN"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "secondary-language",
+              "label": "Greek advanced course",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-credits",
+              "label": "Classics major credits",
+              "slots": [
+                "classics-language",
+                "classics-courses"
+              ],
+              "need": 27,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "greek",
+          "label": "Greek",
+          "slots": [
+            {
+              "id": "intro-language",
+              "label": "Greek intermediate sequence entry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GREEK 2101"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "subjects": [
+                    "GREEK"
+                  ],
+                  "approval": "class-homeric-sequence",
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-language",
+              "label": "Remaining intermediate and advanced Greek",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK"
+                  ],
+                  "numberMin": 2102,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-courses",
+              "label": "Additional CLASS courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "CLASS"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "advanced-language",
+              "label": "Advanced Greek",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GREEK"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-credits",
+              "label": "Classics major credits",
+              "slots": [
+                "intro-language",
+                "classics-language",
+                "classics-courses"
+              ],
+              "need": 27,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "latin",
+          "label": "Latin",
+          "slots": [
+            {
+              "id": "intro-language",
+              "label": "Latin intermediate sequence entry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "LATIN 1205",
+                    "LATIN 2201"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-language",
+              "label": "Remaining intermediate and advanced Latin",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "subjects": [
+                    "LATIN"
+                  ],
+                  "numberMin": 2202,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classics-courses",
+              "label": "Additional CLASS courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "CLASS"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "advanced-language",
+              "label": "Advanced Latin",
+              "slots": [
+                "classics-language"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "LATIN"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-credits",
+              "label": "Classics major credits",
+              "slots": [
+                "intro-language",
+                "classics-language",
+                "classics-courses"
+              ],
+              "need": 27,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "classical-civilization",
+          "label": "Classical Civilization",
+          "slots": [
+            {
+              "id": "ancient-history",
+              "label": "Ancient history",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "numberMin": 2000,
+                  "approval": "class-ancient-history",
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "material-culture",
+              "label": "Classical art or archaeology",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "numberMin": 2000,
+                  "approval": "class-material-culture",
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "literature-translation",
+              "label": "Ancient literature in translation",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "numberMin": 2000,
+                  "approval": "class-literature-translation",
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "classical-electives",
+              "label": "Additional classical civilization courses",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "subjects": [
+                    "CLASS"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 4999,
+                  "minGrade": "C-"
+                },
+                {
+                  "numberMin": 2000,
+                  "approval": "class-related-course",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "civilization-upper",
+              "label": "Upper-level courses",
+              "slots": [
+                "ancient-history",
+                "material-culture",
+                "literature-translation",
+                "classical-electives"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "major-credits",
+              "label": "Classics major credits",
+              "slots": [
+                "ancient-history",
+                "material-culture",
+                "literature-translation",
+                "classical-electives"
+              ],
+              "need": 27,
+              "unit": "credits"
+            },
+            {
+              "id": "before-alexander",
+              "label": "Course on a period before 323 BCE",
+              "slots": [
+                "ancient-history",
+                "material-culture",
+                "literature-translation",
+                "classical-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "class-pre-323"
+                }
+              ]
+            },
+            {
+              "id": "after-alexander",
+              "label": "Course on a period after 323 BCE",
+              "slots": [
+                "ancient-history",
+                "material-culture",
+                "literature-translation",
+                "classical-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "class-post-323"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "seminar-paper",
+      "label": "Director-approved seminar paper",
+      "instruction": "Complete a qualifying research paper of at least 3,000 words by the end of the first semester of senior year and obtain approval. Confirm the correct Homeric Greek sequence or, for Classical Civilization, approved category assignments."
+    }
+  ]
+}

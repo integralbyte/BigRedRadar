@@ -1,0 +1,103 @@
+{
+  "programId": "german-studies-minor",
+  "name": "German Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "GERST 2000 or equivalent as the declaration prerequisite, plus four German Studies courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/german-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "prerequisite",
+      "label": "GERST 2000 or approved equivalent",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GERST 2000"
+          ]
+        },
+        {
+          "approval": "german-2000-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "german-taught",
+      "label": "3000-level or higher course taught in German",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "GERST"
+          ],
+          "numberMin": 3000,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "taught-in-german"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional German Studies courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "GERST"
+          ],
+          "numberMin": 2010,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "german-minor-outside-department"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "german-minor-outside-department"
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "partitionBy": "term",
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language",
+      "label": "German-language instruction and external coursework",
+      "instruction": "Confirm the language of instruction for the advanced course and whether an approved course outside the department has substantial German content. Confirm how the declaration prerequisite applies to your credit total."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

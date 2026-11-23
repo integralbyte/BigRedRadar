@@ -1,0 +1,290 @@
+{
+  "programId": "landscape-architecture-bs",
+  "name": "Landscape Architecture (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The studio and technical sequences, history and theory, and confirmed directed study.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/landscape-architecture-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "studio-1",
+      "label": "Studio sequence · LA 1410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 1410"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-2",
+      "label": "Studio sequence · LA 1420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 1420"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-3",
+      "label": "Studio sequence · LA 2010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 2010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-4",
+      "label": "Studio sequence · LA 2020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 2020"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-5",
+      "label": "Studio sequence · LA 3010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 3010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-6",
+      "label": "Studio sequence · LA 3020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 3020"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-7",
+      "label": "Studio sequence · LA 4010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 4010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "studio-8",
+      "label": "Studio sequence · LA 4020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 4020"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "tech-4910",
+      "label": "Plants in practice",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 4910"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "tech-3160",
+      "label": "Site engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 3160"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "tech-3180",
+      "label": "Site assembly",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 3180"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "tech-4120",
+      "label": "Professional practice",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 4120"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Landscape design history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 2910"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "history-elective",
+      "label": "History and theory elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 3430",
+            "LA 4070",
+            "LA 4930",
+            "LA 4941"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-"
+        },
+        {
+          "approval": "la-history-elective",
+          "minCredits": 3,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "directed-study",
+      "label": "Directed study seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LA 4030"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "directed-electives",
+      "label": "Courses in the approved directed-study focus",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "approval": "la-approved-directed-study",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "major-credits",
+      "label": "Landscape Architecture major credits",
+      "need": 71,
+      "unit": "credits"
+    },
+    {
+      "id": "directed-credits",
+      "label": "Approved directed-study elective credits",
+      "slots": [
+        "directed-electives"
+      ],
+      "need": 9,
+      "unit": "credits"
+    }
+  ],
+  "manual": [
+    {
+      "id": "studio-timing",
+      "label": "Sequential studio progression",
+      "instruction": "Follow the listed studio order and confirm that each prerequisite studio received at least C- before proceeding. Confirm approved exchanges and the restriction on study abroad in the final spring."
+    },
+    {
+      "id": "directed-focus",
+      "label": "Directed study approval",
+      "instruction": "Agree on the focus with the advisor and complete the three related courses before the senior spring directed-study seminar."
+    }
+  ]
+}

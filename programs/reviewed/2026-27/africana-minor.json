@@ -1,0 +1,103 @@
+{
+  "programId": "africana-minor",
+  "name": "Africana Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Africana Studies introduction, three regional areas, and an upper-level African Diaspora course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/africana-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Africana Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASRC 1500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "african",
+      "label": "African Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ASRC"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "approval": "africana-african"
+        }
+      ]
+    },
+    {
+      "id": "african-american",
+      "label": "African American Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ASRC"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "approval": "africana-african-american"
+        }
+      ]
+    },
+    {
+      "id": "caribbean",
+      "label": "Caribbean Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ASRC"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "approval": "africana-caribbean"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced African Diaspora topic",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ASRC"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "approval": "africana-diaspora-topic"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "classifications",
+      "label": "Africana course classifications",
+      "instruction": "Confirm the regional category of each course and choose an approved advanced topic in the African Diaspora."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "programId": "landscape-studies-minor",
+  "name": "Landscape Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Fifteen approved Landscape Architecture credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/landscape-studies-minor/#curriculumtext",
+    "https://cals.cornell.edu/landscape-architecture/programs/landscape-studies-minor"
+  ],
+  "slots": [
+    {
+      "id": "credits",
+      "label": "Landscape Architecture coursework",
+      "unit": "credits",
+      "need": 15,
+      "options": [
+        {
+          "subjects": [
+            "LA"
+          ],
+          "minGrade": "C",
+          "allowPassFailOnly": true
+        },
+        {
+          "codes": [
+            "LA 4830"
+          ],
+          "minGrade": "C",
+          "allowSatisfactory": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "landscape-architecture-bs"
+  ]
+}

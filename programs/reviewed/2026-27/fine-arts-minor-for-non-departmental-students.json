@@ -1,0 +1,114 @@
+{
+  "programId": "fine-arts-minor-for-non-departmental-students",
+  "name": "Fine Arts Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three upper-level studios and one studio or Visual Studies elective for students outside the Department of Art.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fine-arts-minor-for-non-departmental-students/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "2000-studios",
+      "label": "Two 2000-level art studios",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ART"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 4,
+          "numberMin": 2000,
+          "numberMax": 2999,
+          "approval": "fine-arts-studio"
+        }
+      ]
+    },
+    {
+      "id": "3000-studio",
+      "label": "3000-level art studio",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ART"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 4,
+          "numberMin": 3000,
+          "numberMax": 3999,
+          "approval": "fine-arts-studio"
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Additional art studio or Visual Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ART"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "numberMin": 1000,
+          "numberMax": 3999,
+          "approval": "fine-arts-studio"
+        },
+        {
+          "subjects": [
+            "VISST"
+          ],
+          "numberMin": 2000,
+          "numberMax": 3999,
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "art-bfa"
+  ],
+  "manual": [
+    {
+      "id": "studio-and-overlap",
+      "label": "Studio course and overlap approval",
+      "instruction": "Check each studio designation with the Department of Art. Keep the selected courses separate from specific major requirements."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

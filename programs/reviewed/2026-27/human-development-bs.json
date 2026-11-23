@@ -1,0 +1,442 @@
+{
+  "programId": "human-development-bs",
+  "name": "Human Development (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core and distribution coursework with depth, breadth and cap on supervised coursework.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/human-development-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "hd-intro",
+      "label": "Introduction to Human Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HD 1130"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-development",
+      "label": "Developmental psychology",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "HD 2090",
+            "HD 2150",
+            "HD 2170",
+            "HD 2180",
+            "HD 2510"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-depth-i",
+      "label": "3000-level Human Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "HD"
+          ],
+          "numberMin": 3000,
+          "numberMax": 3999,
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-depth-ii",
+      "label": "4000-level Human Development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "HD"
+          ],
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "HD 4000",
+            "HD 4010",
+            "HD 4020",
+            "HD 4030",
+            "HD 4990"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-breadth",
+      "label": "Human Development breadth course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1500",
+            "HD 2090",
+            "HD 2150",
+            "HD 2170",
+            "HD 2180",
+            "HD 2230",
+            "HD 2250",
+            "HD 2600",
+            "HD 3190",
+            "HD 3290",
+            "HD 3300",
+            "HD 3310",
+            "HD 3455",
+            "HD 3530",
+            "HD 4210",
+            "HD 4250",
+            "HD 4260",
+            "HD 4440",
+            "HD 4490",
+            "HD 4540",
+            "HD 4550",
+            "HD 4940",
+            "PSYCH 2150",
+            "PSYCH 4150",
+            "PSYCH 4270",
+            "PSYCH 4320",
+            "PSYCH 4500",
+            "PSYCH 4770"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-additional",
+      "label": "Additional Human Development coursework",
+      "unit": "credits",
+      "need": 14,
+      "options": [
+        {
+          "subjects": [
+            "HD"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "HD 4030"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hd-methods",
+      "label": "Research methods or scientific literacy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "COMM 2820",
+            "GOVT 3999",
+            "HD 2830",
+            "HD 2930",
+            "HD 4765",
+            "INFO 2950",
+            "PSYCH 3020",
+            "PSYCH 3240",
+            "STS 2011"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "hd-statistics",
+      "label": "Quantitative analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ECON 3110",
+            "ECON 3130",
+            "ILRST 2100",
+            "ILRST 3110",
+            "PSYCH 2500",
+            "PUBPOL 2100",
+            "SOC 3010",
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social science distribution",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "excludeSubjects": [
+            "HD"
+          ],
+          "distributions": [
+            "SSC-AS",
+            "ETM-AS",
+            "SBA-AG",
+            "SBA-HE",
+            "KCM-AG",
+            "KCM-HE"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Humanities distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "ALC-AAP",
+            "ALC-AS",
+            "ALC-HA",
+            "LA-AG",
+            "LAD-HE",
+            "CA-AG",
+            "CA-HE"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "natural-i",
+      "label": "Natural science I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOMG 1350"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "hd-ap-biology-five"
+        }
+      ]
+    },
+    {
+      "id": "natural-ii",
+      "label": "Natural science II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "PBS-HE",
+            "BIO-AS",
+            "PHS-AS",
+            "BIOLS-AG",
+            "BIONLS-AG",
+            "BSC-AG",
+            "PSC-AG"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "excludeSubjects": [
+            "HD"
+          ],
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "additional-distribution",
+      "label": "Additional distribution credits",
+      "unit": "credits",
+      "need": 12,
+      "options": [
+        {
+          "distributions": [
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "ALC-AAP",
+            "ALC-AS",
+            "ALC-HA",
+            "LA-AG",
+            "LAD-HE",
+            "CA-AG",
+            "CA-HE",
+            "PBS-HE",
+            "ETM-AS",
+            "SCD-AS",
+            "SSC-AS",
+            "SDS-AS",
+            "SMR-AS",
+            "BIOLS-AG",
+            "BIONLS-AG",
+            "BSC-AG",
+            "PSC-AG",
+            "SBA-AG",
+            "SBA-HE",
+            "KCM-AG",
+            "KCM-HE",
+            "MQR-HE"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "hd-language-distribution",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "hd-credits",
+      "label": "Human Development major coursework credits",
+      "need": 40,
+      "unit": "credits",
+      "slotPrefix": "hd-"
+    }
+  ],
+  "totals": [
+    {
+      "id": "outside",
+      "label": "Coursework outside Human Development",
+      "unit": "credits",
+      "need": 11,
+      "options": [
+        {
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "D-",
+          "subjects": [
+            "HE"
+          ],
+          "numberMin": 1500
+        },
+        {
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "D-",
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "NS",
+            "PUBPOL"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "hd-additional"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "HD 4000",
+            "HD 4010",
+            "HD 4020",
+            "HD 4030",
+            "HD 4990"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Outside credit overlap and academic credit",
+      "instruction": "Confirm the allowed additional-distribution overlaps, excluded Human Development cross-listings, and Human Ecology AP and study-away caps."
+    }
+  ]
+}

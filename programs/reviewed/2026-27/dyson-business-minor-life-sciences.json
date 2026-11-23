@@ -1,0 +1,248 @@
+{
+  "programId": "dyson-business-minor-life-sciences",
+  "name": "Dyson Business for Life Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Microeconomics and five business areas, including the simulation capstone and a career-goal elective.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/dyson-business-minor-life-sciences/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "micro",
+      "label": "Introductory microeconomics",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110",
+            "ECON 3030",
+            "PUBPOL 2000"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "business-minor-ap-equivalent",
+          "origins": [
+            "exam"
+          ]
+        },
+        {
+          "approval": "business-minor-transfer-equivalent",
+          "origins": [
+            "transfer"
+          ],
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "label": "Management or marketing",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 1200",
+            "AEM 2400",
+            "HADM 1810",
+            "HADM 2410",
+            "ILRID 1700",
+            "NCC 4530",
+            "NCC 5530",
+            "NCC 5540"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "dyson-life-management",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "label": "Financial accounting",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2210",
+            "HADM 2230",
+            "NCC 5500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "dyson-life-accounting",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2241",
+            "AEM 5241",
+            "HADM 2250",
+            "NCC 5560"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "dyson-life-finance",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Business simulation capstone",
+      "unit": "credits",
+      "need": 1.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 4661"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "dyson-life-capstone",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "label": "Career-goal electives",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2220",
+            "AEM 3110",
+            "AEM 3249",
+            "AEM 3251",
+            "AEM 4355",
+            "NBA 5070",
+            "NBA 6650",
+            "AEM 1600",
+            "AEM 4485",
+            "PUBPOL 2350",
+            "PUBPOL 3110",
+            "PUBPOL 3280",
+            "GDEV 3280",
+            "PUBPOL 3870",
+            "PUBPOL 5870",
+            "PUBPOL 5630",
+            "AEM 3205",
+            "AEM 3230",
+            "NBA 6720",
+            "NCC 5540",
+            "AEM 2011",
+            "AEM 3310",
+            "AEM 4190"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "dyson-life-career",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "onlyWhenDeclared": [
+    "agricultural-sciences-bs",
+    "animal-science-bs",
+    "atmospheric-science-bs",
+    "biological-engineering-bs",
+    "biological-sciences-ba",
+    "biological-sciences-bs",
+    "biology-society-ba",
+    "biometry-statistics-bs",
+    "earth-climate-sciences-ecsag-bs",
+    "entomology-bs",
+    "environment-sustainability-ba",
+    "environment-sustainability-bs",
+    "food-science-bs",
+    "global-public-health-sciences-bs",
+    "interdisciplinary-studies-bs",
+    "nutritional-sciences-bs",
+    "plant-sciences-bs",
+    "viticulture-enology-bs",
+    "global-public-health-sciences-hum-ecol-bs",
+    "human-biology-health-society-bs",
+    "human-development-bs",
+    "health-care-policy-major-bs"
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Major and minor eligibility",
+      "instruction": "Confirm eligibility with the Business Minors office if you entered the former International Agriculture and Rural Development program. Complete introductory microeconomics by semester six."
+    },
+    {
+      "id": "unique",
+      "label": "Credits separate from the major",
+      "instruction": "Confirm that at least 12 credits used for business minor requirements are outside the core of the major. Verify authorized substitutions and transfer credit with the Business Minors office."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 16.5,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell-credits",
+      "label": "Cornell coursework",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johnson-credits",
+      "label": "SC Johnson College of Business coursework",
+      "need": 7.5,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

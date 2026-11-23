@@ -1,0 +1,195 @@
+{
+  "programId": "anthropology-ba",
+  "name": "Anthropology (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Ten courses, the three subfields and one senior research seminar.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/anthropology-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "sociocultural",
+      "label": "Sociocultural anthropology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 1400",
+            "ANTHR 2400",
+            "ANTHR 2468"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "archaeology",
+      "label": "Anthropological archaeology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 1200",
+            "ANTHR 2245",
+            "ANTHR 2430",
+            "ANTHR 2729"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "biological",
+      "label": "Biological anthropology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 1300",
+            "ANTHR 2310",
+            "ANTHR 3235"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Anthropological theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 3000"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "other-3000s",
+      "label": "Additional 3000-level Anthropology courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "ANTHR"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "numberMin": 3000,
+          "numberMax": 3999
+        }
+      ]
+    },
+    {
+      "id": "other-4000s",
+      "label": "4000-level Anthropology courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "ANTHR"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-",
+          "numberMin": 4000,
+          "numberMax": 4999
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Anthropology or approved cognate electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "ANTHR"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-",
+          "approval": "anthr-cognate"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "senior-seminar",
+      "label": "Senior research seminar",
+      "slots": [
+        "other-4000s"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "anthr-senior-seminar",
+          "excludeCodes": [
+            "ANTHR 4263"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "exceptions",
+      "label": "Senior project and approved credit",
+      "instruction": "Confirm the seminar was taken in the senior year and included a research paper or project. Confirm exceptions and transfer credits with the director."
+    }
+  ]
+}

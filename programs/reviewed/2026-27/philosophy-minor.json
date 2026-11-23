@@ -1,0 +1,129 @@
+{
+  "programId": "philosophy-minor",
+  "name": "Philosophy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five eligible Philosophy courses, with two advanced courses and the history of philosophy before 1900.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/philosophy-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "historical",
+      "label": "History of philosophy before 1900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "PHIL 1110",
+            "PHIL 1111",
+            "PHIL 1112"
+          ],
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "philosophy-minor-before-1900"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Additional Philosophy courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "PHIL 1110",
+            "PHIL 1111",
+            "PHIL 1112"
+          ],
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "approval": "philosophy-minor-approved-external",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "philosophy-ba"
+  ],
+  "manual": [
+    {
+      "id": "admission",
+      "label": "Admission and historical coursework",
+      "instruction": "Confirm two Philosophy courses graded B or higher before applying, and verify pre-1900 course content or external equivalencies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "upper",
+      "label": "Philosophy courses at the 3000 level or above",
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    }
+  ]
+}

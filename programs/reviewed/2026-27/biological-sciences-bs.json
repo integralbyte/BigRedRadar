@@ -1,0 +1,4161 @@
+{
+  "programId": "biological-sciences-bs",
+  "name": "Biological Sciences (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "2026–27 CALS biological sciences foundation and 14 concentration options. Adviser-dependent overlap, petitions and college rules are explicit checks.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biological-sciences-bs/#curriculumtext",
+    "https://cals.cornell.edu/biological-sciences/undergraduate-program/concentrations"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "excludePrograms": [
+    "biology-society-ba"
+  ],
+  "slots": [
+    {
+      "id": "investigative-lab",
+      "label": "Investigative biology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "label": "Evolutionary biology and diversity",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOEE 1781"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOEE 1781"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOEE 1781"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "label": "Calculus I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1106",
+            "MATH 1110"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "MATH 1106",
+            "MATH 1110"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "MATH 1106",
+            "MATH 1110"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        },
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "bio-calculus-credit"
+        }
+      ]
+    },
+    {
+      "id": "additional-math",
+      "label": "Additional mathematics or statistics course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ECON 3130",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2150",
+            "STSCI 2200",
+            "MATH 1120",
+            "MATH 1910",
+            "MATH 1105"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "AEM 2100",
+            "ECON 3130",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2150",
+            "STSCI 2200",
+            "MATH 1120",
+            "MATH 1910",
+            "MATH 1105"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "AEM 2100",
+            "ECON 3130",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2150",
+            "STSCI 2200",
+            "MATH 1120",
+            "MATH 1910",
+            "MATH 1105"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        },
+        {
+          "codes": [
+            "MATH 1120"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "bio-calculus-credit"
+        },
+        {
+          "codes": [
+            "STSCI 2100"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "bio-ap-statistics"
+        }
+      ]
+    },
+    {
+      "id": "genetics",
+      "label": "Genetics lecture",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 2800"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "BIOMG 2800"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "BIOMG 2800"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        }
+      ]
+    },
+    {
+      "id": "genetics-lab",
+      "label": "Genetics laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 2801"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": false
+        },
+        {
+          "codes": [
+            "BIOMG 2801"
+          ],
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "bio-approved-study-abroad",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "BIOMG 2801"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "bio-transfer-equivalency"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "concentration",
+      "label": "Biological Sciences concentration",
+      "options": [
+        {
+          "id": "animal-physiology",
+          "label": "Animal Physiology",
+          "slots": [
+            {
+              "id": "animal-principles",
+              "label": "Principles of animal physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3110"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOAP 3110"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "animal-cellular",
+              "label": "Cellular physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3160"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOAP 3160"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "animal-electives",
+              "label": "Physiology lecture and laboratory credits",
+              "unit": "credits",
+              "need": 7,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "ANSC 3410",
+                    "ANSC 4270",
+                    "BIOAP 2140",
+                    "BIOAP 4000",
+                    "BIOAP 4140",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4390",
+                    "BIOMS 4150",
+                    "BIONB 3220",
+                    "BIONB 3920",
+                    "NS 3310",
+                    "BIOAP 3200",
+                    "BIOAP 4130",
+                    "BIOAP 3190",
+                    "BIOMG 4400",
+                    "BIONB 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "ANSC 3410",
+                    "ANSC 4270",
+                    "BIOAP 2140",
+                    "BIOAP 4000",
+                    "BIOAP 4140",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4390",
+                    "BIOMS 4150",
+                    "BIONB 3220",
+                    "BIONB 3920",
+                    "NS 3310",
+                    "BIOAP 3200",
+                    "BIOAP 4130",
+                    "BIOAP 3190",
+                    "BIOMG 4400",
+                    "BIONB 4300"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-lab",
+              "label": "Laboratory credits within physiology electives",
+              "slots": [
+                "animal-electives"
+              ],
+              "need": 4,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3200",
+                    "BIOAP 4130",
+                    "BIOAP 3190",
+                    "BIOMG 4400",
+                    "BIONB 4300"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biochemistry",
+          "label": "Biochemistry",
+          "slots": [
+            {
+              "id": "bc-organic-lab",
+              "label": "Organic chemistry laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2510"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "CHEM 2510"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bc-bio-lab",
+              "label": "Biochemistry and molecular biology laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 4400"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bc-elective",
+              "label": "Additional biochemical or biophysical credits",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4380",
+                    "BIOMG 6310",
+                    "CHEM 3880",
+                    "CHEM 4500"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 4380",
+                    "BIOMG 6310",
+                    "CHEM 3880",
+                    "CHEM 4500"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-biochemistry-research"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biodiversity-and-systematics",
+          "label": "Biodiversity and Systematics",
+          "slots": [
+            {
+              "id": "biodiversity-credits",
+              "label": "Biodiversity and systematics credits",
+              "unit": "credits",
+              "need": 13,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOMI 2911",
+                    "BIOMS 3310",
+                    "PLSCI 2300",
+                    "PLSCI 2410",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "ENTOM 2120",
+                    "ENTOM 2150",
+                    "ENTOM 3150",
+                    "ENTOM 3310",
+                    "ENTOM 3311",
+                    "PLSCI 4300",
+                    "PLSCI 3190",
+                    "BIOEE 4530",
+                    "BIOEE 4790",
+                    "EAS 2250",
+                    "EAS 2680",
+                    "EAS 3010",
+                    "ENTOM 4610",
+                    "PLSCI 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOMI 2911",
+                    "BIOMS 3310",
+                    "PLSCI 2300",
+                    "PLSCI 2410",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "ENTOM 2120",
+                    "ENTOM 2150",
+                    "ENTOM 3150",
+                    "ENTOM 3310",
+                    "ENTOM 3311",
+                    "PLSCI 4300",
+                    "PLSCI 3190",
+                    "BIOEE 4530",
+                    "BIOEE 4790",
+                    "EAS 2250",
+                    "EAS 2680",
+                    "EAS 3010",
+                    "ENTOM 4610",
+                    "PLSCI 4400"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 4,
+                  "approval": "bio-biodiversity-research"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "biodiversity-a",
+              "label": "Group A credits",
+              "slots": [
+                "biodiversity-credits"
+              ],
+              "need": 7,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOMI 2911",
+                    "BIOMS 3310",
+                    "PLSCI 2300",
+                    "PLSCI 2410",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "ENTOM 2120",
+                    "ENTOM 2150",
+                    "ENTOM 3150",
+                    "ENTOM 3310",
+                    "ENTOM 3311",
+                    "PLSCI 4300",
+                    "PLSCI 3190",
+                    "BIOG 4990"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "biodiversity-b",
+              "label": "Group B credits",
+              "slots": [
+                "biodiversity-credits"
+              ],
+              "need": 3,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4530",
+                    "BIOEE 4790",
+                    "EAS 2250",
+                    "EAS 2680",
+                    "EAS 3010",
+                    "ENTOM 4610",
+                    "PLSCI 4400"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "biodiversity-labs",
+              "label": "Laboratory courses",
+              "slots": [
+                "biodiversity-credits"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2911",
+                    "PLSCI 2410",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "ENTOM 2120",
+                    "ENTOM 3311",
+                    "PLSCI 3190",
+                    "PLSCI 4400"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PLSCI 2300"
+                  ],
+                  "minCredits": 5
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "approval": "bio-biodiversity-lab"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "biodiversity-research",
+              "label": "Lab research approval",
+              "instruction": "Where research supplies laboratory credit, have the advisor confirm the recognized laboratory component."
+            }
+          ]
+        },
+        {
+          "id": "computational-biology",
+          "label": "Computational Biology",
+          "slots": [
+            {
+              "id": "comp-intro",
+              "label": "Introduction to computational biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 2010"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOCB 2010"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "comp-math",
+              "label": "Mathematics or programming",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 1110",
+                    "CS 1112",
+                    "CS 2024",
+                    "STSCI 3080",
+                    "MATH 2210",
+                    "MATH 2310",
+                    "MATH 2940",
+                    "MATH 4200",
+                    "MATH 4210",
+                    "MATH 4710",
+                    "MATH 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "CS 1110",
+                    "CS 1112",
+                    "CS 2024",
+                    "STSCI 3080",
+                    "MATH 2210",
+                    "MATH 2310",
+                    "MATH 2940",
+                    "MATH 4200",
+                    "MATH 4210",
+                    "MATH 4710",
+                    "MATH 4740"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "comp-core",
+              "label": "Computational biology core",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 3620",
+                    "BIOCB 4100",
+                    "BIOCB 4350",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOCB 3620",
+                    "BIOCB 4100",
+                    "BIOCB 4350",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "comp-additional",
+              "label": "Additional core or bridging course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 3620",
+                    "BIOCB 4100",
+                    "BIOCB 4350",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIOMG 4870",
+                    "BIONB 3300",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "NTRES 3100",
+                    "NTRES 4120",
+                    "PLSCI 4000"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOCB 3620",
+                    "BIOCB 4100",
+                    "BIOCB 4350",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIOMG 4870",
+                    "BIONB 3300",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "NTRES 3100",
+                    "NTRES 4120",
+                    "PLSCI 4000"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "comp-credits",
+              "label": "Computational biology concentration credits",
+              "slots": [
+                "comp-intro",
+                "comp-math",
+                "comp-core",
+                "comp-additional"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "ecology-and-evolutionary-biology",
+          "label": "Ecology and Evolutionary Biology",
+          "slots": [
+            {
+              "id": "eeb-credits",
+              "label": "Ecology and evolutionary biology credits",
+              "unit": "credits",
+              "need": 13,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 3610",
+                    "BIOEE 4460",
+                    "BIOEE 4550",
+                    "BIOEE 4560",
+                    "BIOEE 4570",
+                    "BIOEE 4660",
+                    "BIOEE 4780",
+                    "NTRES 3100",
+                    "BIOEE 4530",
+                    "BIOEE 4800",
+                    "BIOMG 4610",
+                    "ENTOM 4610",
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4500",
+                    "BIOEE 4700",
+                    "BIOEE 4701",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOEE 4762",
+                    "ENTOM 3310",
+                    "PLSCI 2480",
+                    "PLSCI 4300",
+                    "PLSCI 6300",
+                    "BIOEE 1560",
+                    "BIOEE 2150",
+                    "BIOEE 2526",
+                    "BIOEE 3611",
+                    "BIOEE 3233",
+                    "BIOEE 3780",
+                    "BIOEE 4461",
+                    "BIOEE 4571",
+                    "BIOEE 4661",
+                    "BIOEE 4751",
+                    "BIOEE 4761",
+                    "EAS 4795",
+                    "ENTOM 3311",
+                    "NTRES 3400",
+                    "PLSCI 2301",
+                    "PLSCI 2410",
+                    "PLSCI 3190",
+                    "BIOEE 1150",
+                    "BIOEE 1540",
+                    "BIOEE 1760",
+                    "BIOEE 2233",
+                    "BIOEE 2525",
+                    "BIOEE 2527",
+                    "BIOEE 3250",
+                    "BIOEE 3550",
+                    "BIOEE 3690",
+                    "BIOEE 4000",
+                    "BIOEE 4610",
+                    "BIOEE 4690",
+                    "BIOEE 4790",
+                    "BIOEE 6000",
+                    "BIOEE 6550",
+                    "BIOEE 6900",
+                    "BIOEE 7500",
+                    "BIOEE 7640",
+                    "NTRES 2830",
+                    "NTRES 3110",
+                    "NTRES 4100",
+                    "PLSCI 2300",
+                    "PLSCI 3440",
+                    "PLSCI 4400",
+                    "PLSCI 4220",
+                    "PLSCI 4730"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 3610",
+                    "BIOEE 4460",
+                    "BIOEE 4550",
+                    "BIOEE 4560",
+                    "BIOEE 4570",
+                    "BIOEE 4660",
+                    "BIOEE 4780",
+                    "NTRES 3100",
+                    "BIOEE 4530",
+                    "BIOEE 4800",
+                    "BIOMG 4610",
+                    "ENTOM 4610",
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4500",
+                    "BIOEE 4700",
+                    "BIOEE 4701",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOEE 4762",
+                    "ENTOM 3310",
+                    "PLSCI 2480",
+                    "PLSCI 4300",
+                    "PLSCI 6300",
+                    "BIOEE 1560",
+                    "BIOEE 2150",
+                    "BIOEE 2526",
+                    "BIOEE 3611",
+                    "BIOEE 3233",
+                    "BIOEE 3780",
+                    "BIOEE 4461",
+                    "BIOEE 4571",
+                    "BIOEE 4661",
+                    "BIOEE 4751",
+                    "BIOEE 4761",
+                    "EAS 4795",
+                    "ENTOM 3311",
+                    "NTRES 3400",
+                    "PLSCI 2301",
+                    "PLSCI 2410",
+                    "PLSCI 3190",
+                    "BIOEE 1150",
+                    "BIOEE 1540",
+                    "BIOEE 1760",
+                    "BIOEE 2233",
+                    "BIOEE 2525",
+                    "BIOEE 2527",
+                    "BIOEE 3250",
+                    "BIOEE 3550",
+                    "BIOEE 3690",
+                    "BIOEE 4000",
+                    "BIOEE 4610",
+                    "BIOEE 4690",
+                    "BIOEE 4790",
+                    "BIOEE 6000",
+                    "BIOEE 6550",
+                    "BIOEE 6900",
+                    "BIOEE 7500",
+                    "BIOEE 7640",
+                    "NTRES 2830",
+                    "NTRES 3110",
+                    "NTRES 4100",
+                    "PLSCI 2300",
+                    "PLSCI 3440",
+                    "PLSCI 4400",
+                    "PLSCI 4220",
+                    "PLSCI 4730"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-ecology-research"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "eeb-ecology",
+              "label": "Ecology core course",
+              "slots": [
+                "eeb-credits"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 3610",
+                    "BIOEE 4460",
+                    "BIOEE 4550",
+                    "BIOEE 4560",
+                    "BIOEE 4570",
+                    "BIOEE 4660",
+                    "BIOEE 4780",
+                    "NTRES 3100"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eeb-evolution",
+              "label": "Evolutionary biology core course",
+              "slots": [
+                "eeb-credits"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4530",
+                    "BIOEE 4800",
+                    "BIOMG 4610",
+                    "ENTOM 4610"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eeb-biodiversity",
+              "label": "Biodiversity core course",
+              "slots": [
+                "eeb-credits"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4500",
+                    "BIOEE 4700",
+                    "BIOEE 4701",
+                    "BIOEE 4750",
+                    "BIOEE 4752",
+                    "BIOEE 4760",
+                    "BIOEE 4762",
+                    "ENTOM 3310",
+                    "PLSCI 2480",
+                    "PLSCI 4300",
+                    "PLSCI 6300"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eeb-field",
+              "label": "Field or laboratory course",
+              "slots": [
+                "eeb-credits"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1560",
+                    "BIOEE 2150",
+                    "BIOEE 2526",
+                    "BIOEE 2740",
+                    "BIOEE 3610",
+                    "BIOEE 3611",
+                    "BIOEE 3233",
+                    "BIOEE 3780",
+                    "BIOEE 4461",
+                    "BIOEE 4571",
+                    "BIOEE 4661",
+                    "BIOEE 4701",
+                    "BIOEE 4751",
+                    "BIOEE 4761",
+                    "EAS 4795",
+                    "ENTOM 3310",
+                    "ENTOM 3311",
+                    "NTRES 3400",
+                    "PLSCI 2301",
+                    "PLSCI 2410",
+                    "PLSCI 3190"
+                  ]
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "eeb-overlap",
+              "label": "Category overlap",
+              "instruction": "Verify any proposed course serving multiple ecology core or field categories with the advisor."
+            }
+          ]
+        },
+        {
+          "id": "general-biology",
+          "label": "General Biology",
+          "slots": [
+            {
+              "id": "general-credits",
+              "label": "Approved general biology credits",
+              "unit": "credits",
+              "need": 13,
+              "options": [
+                {
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "bio-general-concentration",
+                  "excludeCodes": [
+                    "BIOG 2990",
+                    "BIOG 4980",
+                    "BIOG 4990"
+                  ]
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "bio-general-research",
+                  "maxCountedCredits": 3,
+                  "minCredits": 2
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "general-upper",
+              "label": "Upper-level biology courses",
+              "slots": [
+                "general-credits"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000,
+                  "minCredits": 2
+                }
+              ]
+            },
+            {
+              "id": "general-lab",
+              "label": "Advisor-approved biology laboratory or field course",
+              "slots": [
+                "general-credits"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "bio-general-lab",
+                  "excludeCodes": [
+                    "BIOG 1500",
+                    "BIOMG 2801",
+                    "CHEM 2510",
+                    "BIOEE 1560"
+                  ]
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "general-three-concentrations",
+              "label": "Three distinct concentrations",
+              "instruction": "Verify three listed courses from distinct concentrations and any permitted overlap. Research credit cannot represent a concentration."
+            }
+          ]
+        },
+        {
+          "id": "genetics-genomics-and-development",
+          "label": "Genetics, Genomics and Development",
+          "slots": [
+            {
+              "id": "ggd-credits",
+              "label": "Genetics, genomics and development credits",
+              "unit": "credits",
+              "need": 13,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 4770",
+                    "BIOMG 4880",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "PLSCI 3430",
+                    "BIOMG 4000",
+                    "BIOMG 4870",
+                    "BIOCB 4830",
+                    "BIOMG 3850",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "PLSCI 4220",
+                    "BIOEE 4530",
+                    "BIOMG 4810",
+                    "NTRES 3400",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 6330",
+                    "BIOMG 6390",
+                    "BIOMG 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 4770",
+                    "BIOMG 4880",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "PLSCI 3430",
+                    "BIOMG 4000",
+                    "BIOMG 4870",
+                    "BIOCB 4830",
+                    "BIOMG 3850",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "PLSCI 4220",
+                    "BIOEE 4530",
+                    "BIOMG 4810",
+                    "NTRES 3400",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 6330",
+                    "BIOMG 6390",
+                    "BIOMG 4400"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-ggd-research"
+                },
+                {
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "bio-ggd-petition",
+                  "maxCountedCredits": 3
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "ggd-petition-limit",
+              "label": "Petitioned credit limit",
+              "instruction": "Confirm the maximum of three petitioned credits when using courses outside the published list."
+            }
+          ]
+        },
+        {
+          "id": "human-nutrition",
+          "label": "Human Nutrition",
+          "slots": [
+            {
+              "id": "nutrition-core",
+              "label": "Human nutrition and nutrient metabolism",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "NS 3310"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "nutrition-other",
+              "label": "Biological aspects of nutrition credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3320",
+                    "NS 3410",
+                    "NS 3420",
+                    "NS 3450",
+                    "NS 4140",
+                    "NS 4200",
+                    "NS 4210",
+                    "NS 4300",
+                    "NS 4330",
+                    "NS 4410",
+                    "NS 4430",
+                    "NS 5510",
+                    "NS 6310",
+                    "NS 6320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3320",
+                    "NS 3410",
+                    "NS 3420",
+                    "NS 3450",
+                    "NS 4140",
+                    "NS 4200",
+                    "NS 4210",
+                    "NS 4300",
+                    "NS 4330",
+                    "NS 4410",
+                    "NS 4430",
+                    "NS 5510",
+                    "NS 6310",
+                    "NS 6320"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "nutritional-sciences-bs"
+          ]
+        },
+        {
+          "id": "immunology-in-health-disease",
+          "label": "Immunology in Health & Disease",
+          "slots": [
+            {
+              "id": "immun-essential",
+              "label": "Essential immunology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMS 4150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMS 4150"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "immun-applied",
+              "label": "Applied immunology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMS 4250"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMS 4250"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "immun-a",
+              "label": "Immunology Group A credits",
+              "unit": "credits",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3700",
+                    "BIOMG 4380",
+                    "BIOMG 4880",
+                    "BIOMI 3210",
+                    "BIOMI 4310",
+                    "BIOMS 3160",
+                    "BIOMS 4040",
+                    "BIOMS 4090",
+                    "BIOMS 4340",
+                    "FDSC 4260",
+                    "NS 4200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "ANSC 3700",
+                    "BIOMG 4380",
+                    "BIOMG 4880",
+                    "BIOMI 3210",
+                    "BIOMI 4310",
+                    "BIOMS 3160",
+                    "BIOMS 4040",
+                    "BIOMS 4090",
+                    "BIOMS 4340",
+                    "FDSC 4260",
+                    "NS 4200"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "immun-b",
+              "label": "Immunology Group B credits",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 3250",
+                    "BIOEE 4000",
+                    "BIOMG 4870",
+                    "BIOMI 2950",
+                    "NS 3090",
+                    "NS 3600"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 3250",
+                    "BIOEE 4000",
+                    "BIOMG 4870",
+                    "BIOMI 2950",
+                    "NS 3090",
+                    "NS 3600"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-immunology-research"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "marine-biology",
+          "label": "Marine Biology",
+          "slots": [
+            {
+              "id": "marine-intro",
+              "label": "Introductory marine biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1540",
+                    "BIOEE 1560",
+                    "BIOSM 1500",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 1540",
+                    "BIOEE 1560",
+                    "BIOSM 1500",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "marine-electives",
+              "label": "Marine electives from Groups A and B",
+              "unit": "credits",
+              "need": 12,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3300",
+                    "BIOEE 3730",
+                    "BIOMI 3500",
+                    "BIOSM 3210",
+                    "BIOSM 3330",
+                    "BIOSM 3450",
+                    "BIOSM 4650",
+                    "EAS 3555",
+                    "BIOEE 4570",
+                    "BIOEE 4571",
+                    "BIOSM 2800",
+                    "BIOSM 3340",
+                    "BIOSM 3750",
+                    "NTRES 3110",
+                    "NTRES 3111"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOAP 3300",
+                    "BIOEE 3730",
+                    "BIOMI 3500",
+                    "BIOSM 3210",
+                    "BIOSM 3330",
+                    "BIOSM 3450",
+                    "BIOSM 4650",
+                    "EAS 3555",
+                    "BIOEE 4570",
+                    "BIOEE 4571",
+                    "BIOSM 2800",
+                    "BIOSM 3340",
+                    "BIOSM 3750",
+                    "NTRES 3110",
+                    "NTRES 3111"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOSM 1610",
+                    "BIOEE 1610"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "bio-marine-foundations"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "marine-a",
+              "label": "Marine Group A course",
+              "slots": [
+                "marine-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3300",
+                    "BIOEE 3730",
+                    "BIOMI 3500",
+                    "BIOSM 3210",
+                    "BIOSM 3330",
+                    "BIOSM 3450",
+                    "BIOSM 4650",
+                    "EAS 3555",
+                    "BIOSM 1610",
+                    "BIOEE 1610"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "marine-b",
+              "label": "Marine Group B course",
+              "slots": [
+                "marine-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4570",
+                    "BIOEE 4571",
+                    "BIOSM 2800",
+                    "BIOSM 3340",
+                    "BIOSM 3750",
+                    "NTRES 3110",
+                    "NTRES 3111"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "marine-total",
+              "label": "Marine concentration credits",
+              "slots": [
+                "marine-intro",
+                "marine-electives"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ],
+          "manual": [
+            {
+              "id": "marine-fields",
+              "label": "Field and introductory overlap",
+              "instruction": "Confirm the field requirement. If an introductory course also meets a foundation requirement, the advisor must confirm the introductory slot and exclude its credits from the concentration total."
+            }
+          ]
+        },
+        {
+          "id": "microbiology",
+          "label": "Microbiology",
+          "slots": [
+            {
+              "id": "micro-lectures",
+              "label": "General microbiology lectures",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "micro-lab",
+              "label": "General microbiology laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2911"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2911"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "micro-other",
+              "label": "Additional microbiology credits",
+              "unit": "credits",
+              "need": 7,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 3500",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4200",
+                    "BIOMI 4300",
+                    "BIOMI 4310",
+                    "BIOMI 4850",
+                    "BIOMI 6200",
+                    "BIOMI 6300",
+                    "BIOMS 4340",
+                    "CEE 4510",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4260",
+                    "NS 4200",
+                    "PLSCI 4300",
+                    "PLSCI 5700",
+                    "VIEN 4650"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 3500",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4200",
+                    "BIOMI 4300",
+                    "BIOMI 4310",
+                    "BIOMI 4850",
+                    "BIOMI 6200",
+                    "BIOMI 6300",
+                    "BIOMS 4340",
+                    "CEE 4510",
+                    "FDSC 3940",
+                    "FDSC 3950",
+                    "FDSC 4260",
+                    "NS 4200",
+                    "PLSCI 4300",
+                    "PLSCI 5700",
+                    "VIEN 4650"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "molecular-and-cell-biology",
+          "label": "Molecular and Cell Biology",
+          "slots": [
+            {
+              "id": "molecular-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 4320"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "molecular-lab",
+              "label": "Molecular biology laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4400",
+                    "BIONB 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 4400",
+                    "BIONB 4300"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "molecular-other",
+              "label": "Additional molecular biology credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4310",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "BIOMG 4770",
+                    "BIOMG 4810",
+                    "BIOMG 4870",
+                    "BIOMG 4880",
+                    "BIOMS 4150",
+                    "BIOMS 4250",
+                    "BIOMI 4090",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "PLSCI 3420",
+                    "PLSCI 3430",
+                    "PLSCI 4220",
+                    "PLSCI 4540",
+                    "PLSCI 4620"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4310",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "BIOMG 4770",
+                    "BIOMG 4810",
+                    "BIOMG 4870",
+                    "BIOMG 4880",
+                    "BIOMS 4150",
+                    "BIOMS 4250",
+                    "BIOMI 4090",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "PLSCI 3420",
+                    "PLSCI 3430",
+                    "PLSCI 4220",
+                    "PLSCI 4540",
+                    "PLSCI 4620"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "subjects": [
+                    "BIOMG"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "excludeCodes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3320",
+                    "BIOMG 3340",
+                    "BIOMG 3350",
+                    "BIOMG 4980",
+                    "BIOMG 4981",
+                    "BIOMG 4982"
+                  ]
+                },
+                {
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-",
+                  "subjects": [
+                    "BIOMG"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "excludeCodes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3320",
+                    "BIOMG 3340",
+                    "BIOMG 3350",
+                    "BIOMG 4980",
+                    "BIOMG 4981",
+                    "BIOMG 4982"
+                  ]
+                },
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-molecular-research"
+                },
+                {
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "minCredits": 2,
+                  "approval": "bio-molecular-elective"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "molecular-two",
+              "label": "At least two advanced listed courses of two or more credits",
+              "slots": [
+                "molecular-other"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4310",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "BIOMG 4770",
+                    "BIOMG 4810",
+                    "BIOMG 4870",
+                    "BIOMG 4880",
+                    "BIOMS 4150",
+                    "BIOMS 4250",
+                    "BIOMI 4090",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "PLSCI 3420",
+                    "PLSCI 3430",
+                    "PLSCI 4220",
+                    "PLSCI 4540",
+                    "PLSCI 4620"
+                  ],
+                  "minCredits": 2
+                },
+                {
+                  "minCredits": 2,
+                  "approval": "bio-molecular-elective"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "neurobiology-and-behavior",
+          "label": "Neurobiology and Behavior",
+          "slots": [
+            {
+              "id": "neuro-behavior",
+              "label": "Neurobiology and behavior I with discussion",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2210"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "minCredits": 4
+                },
+                {
+                  "codes": [
+                    "BIONB 2210"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-",
+                  "minCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "neuro-brain",
+              "label": "Neurobiology and behavior II with discussion",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "minCredits": 4
+                },
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-",
+                  "minCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "neuro-core",
+              "label": "Advanced Neurobiology and Behavior course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "BIONB"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "excludeCodes": [
+                    "BIONB 3215"
+                  ],
+                  "minCredits": 3,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "neuro-other",
+              "label": "Additional Neurobiology and Behavior credits",
+              "unit": "credits",
+              "need": 4,
+              "options": [
+                {
+                  "subjects": [
+                    "BIONB"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PSYCH 3020",
+                    "PSYCH 4230"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PSYCH 3020",
+                    "PSYCH 4230"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990",
+                    "BIOG 4970"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 4,
+                  "approval": "bio-neurobiology-research"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "neuro-research-limit",
+              "label": "Research and alternative discussion credit",
+              "instruction": "Confirm the combined research limit and any separately arranged discussion component."
+            }
+          ]
+        },
+        {
+          "id": "plant-biology",
+          "label": "Plant Biology",
+          "slots": []
+        }
+      ]
+    },
+    {
+      "id": "intro-cluster",
+      "label": "Select two distinct introductory biology areas",
+      "options": [
+        {
+          "id": "cell-physiology",
+          "label": "Cell and Physiology",
+          "slots": [
+            {
+              "id": "intro-cell",
+              "label": "Cell course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "intro-physiology",
+              "label": "Physiology course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell-ecology",
+          "label": "Cell and Ecology",
+          "slots": [
+            {
+              "id": "intro-cell",
+              "label": "Cell course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "intro-ecology",
+              "label": "Ecology course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology-ecology",
+          "label": "Physiology and Ecology",
+          "slots": [
+            {
+              "id": "intro-physiology",
+              "label": "Physiology course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "intro-ecology",
+              "label": "Ecology course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-chemistry",
+      "label": "General chemistry sequence",
+      "options": [
+        {
+          "id": "genchem",
+          "label": "General Chemistry I and II with laboratories",
+          "slots": [
+            {
+              "id": "genchem-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "bio-general-chemistry-credit"
+                }
+              ]
+            },
+            {
+              "id": "genchem-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "genchem-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "genchem-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chem-honors",
+          "label": "Honors general chemistry",
+          "slots": [
+            {
+              "id": "chem-honors-chem-2150",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organic-chemistry",
+      "label": "Organic chemistry path",
+      "options": [
+        {
+          "id": "intro-organic",
+          "label": "Introductory organic chemistry",
+          "slots": [
+            {
+              "id": "intro-organic-chem-1570",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "concentration": [
+              "biochemistry",
+              "molecular-and-cell-biology"
+            ]
+          }
+        },
+        {
+          "id": "life-organic",
+          "label": "Organic chemistry for life sciences",
+          "slots": [
+            {
+              "id": "life-organic-chem-3570",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "life-organic-chem-3580",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-organic-lab",
+          "label": "First organic chemistry course and experimental laboratory",
+          "slots": [
+            {
+              "id": "life-organic-lab-chem-3570",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "life-organic-lab-chem-2510",
+              "label": "CHEM 2510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2510"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 2510"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2510"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "concentration": [
+              "biochemistry",
+              "molecular-and-cell-biology"
+            ]
+          }
+        },
+        {
+          "id": "honors-organic",
+          "label": "Honors organic chemistry sequence",
+          "slots": [
+            {
+              "id": "honors-organic-chem-3590",
+              "label": "CHEM 3590",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "honors-organic-chem-3600",
+              "label": "CHEM 3600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "label": "Physics sequence",
+      "options": [
+        {
+          "id": "life-physics",
+          "label": "Fundamentals of physics",
+          "slots": [
+            {
+              "id": "life-physics-phys-2207",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "life-physics-phys-2208",
+              "label": "PHYS 2208",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "engineering-physics",
+          "label": "Engineering physics with laboratory",
+          "slots": [
+            {
+              "id": "engineering-physics-phys-1112",
+              "label": "PHYS 1112",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "engineering-physics-phys-1110",
+              "label": "PHYS 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "engineering-physics-phys-2213",
+              "label": "PHYS 2213",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-core",
+      "label": "Biochemistry path",
+      "options": [
+        {
+          "id": "independent",
+          "label": "Individualized biochemistry",
+          "slots": [
+            {
+              "id": "independent-biomg-3300",
+              "label": "BIOMG 3300",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "concentration": [
+              "biochemistry",
+              "molecular-and-cell-biology"
+            ]
+          }
+        },
+        {
+          "id": "two-courses",
+          "label": "Proteins, metabolism and molecular biology",
+          "slots": [
+            {
+              "id": "two-courses-biomg-3310",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "two-courses-biomg-3320",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "one-course",
+          "label": "Combined model",
+          "slots": [
+            {
+              "id": "one-course-biomg-3350",
+              "label": "BIOMG 3350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "concentration": [
+              "biochemistry",
+              "molecular-and-cell-biology"
+            ]
+          }
+        },
+        {
+          "id": "independent-plus",
+          "label": "Individualized biochemistry and molecular graphics",
+          "slots": [
+            {
+              "id": "independent-plus-biomg-3300",
+              "label": "BIOMG 3300",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "independent-plus-biomg-3340",
+              "label": "BIOMG 3340",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3340"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 3340"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 3340"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ],
+          "onlyWhen": {
+            "concentration": [
+              "biochemistry",
+              "molecular-and-cell-biology"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bc-physical",
+      "label": "Physical chemistry path for Biochemistry",
+      "options": [
+        {
+          "id": "bc-standard",
+          "label": "Physical chemistry and cell biology",
+          "slots": [
+            {
+              "id": "bc-standard-chem-3870",
+              "label": "CHEM 3870",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3870"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3870"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3870"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "bc-standard-biomg-4320",
+              "label": "BIOMG 4320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "BIOMG 4320"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOMG 4320"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bc-honors",
+          "label": "Honors physical chemistry",
+          "slots": [
+            {
+              "id": "bc-honors-chem-3890",
+              "label": "CHEM 3890",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3890"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3890"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3890"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            },
+            {
+              "id": "bc-honors-chem-3900",
+              "label": "CHEM 3900",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3900"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": false
+                },
+                {
+                  "codes": [
+                    "CHEM 3900"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 3900"
+                  ],
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "bio-transfer-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "concentration": [
+          "biochemistry"
+        ]
+      }
+    },
+    {
+      "id": "plant-path",
+      "label": "Plant Biology path",
+      "options": [
+        {
+          "id": "evolutionary",
+          "label": "Plant Evolutionary Biology",
+          "slots": [
+            {
+              "id": "plant-plsci-2410",
+              "label": "PLSCI 2410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2410"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 2410"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-plsci-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-plsci-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-additional",
+              "label": "Additional plant biology credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4460",
+                    "BIOEE 4461",
+                    "PLSCI 2300",
+                    "PLSCI 2400",
+                    "PLSCI 2430",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "PLSCI 3430",
+                    "PLSCI 3431",
+                    "PLSCI 3440",
+                    "PLSCI 4220",
+                    "PLSCI 4400",
+                    "PLSCI 4540",
+                    "PLSCI 4620",
+                    "PLSCI 6831",
+                    "PLSCI 6841"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 4460",
+                    "BIOEE 4461",
+                    "PLSCI 2300",
+                    "PLSCI 2400",
+                    "PLSCI 2430",
+                    "PLSCI 2470",
+                    "PLSCI 2480",
+                    "PLSCI 3430",
+                    "PLSCI 3431",
+                    "PLSCI 3440",
+                    "PLSCI 4220",
+                    "PLSCI 4400",
+                    "PLSCI 4540",
+                    "PLSCI 4620",
+                    "PLSCI 6831",
+                    "PLSCI 6841"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990",
+                    "PLSCI 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-plant-research"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "plant-courses",
+              "label": "Additional approved plant courses",
+              "slots": [
+                "plant-additional"
+              ],
+              "need": 3,
+              "unit": "courses"
+            }
+          ]
+        },
+        {
+          "id": "biotechnology",
+          "label": "Plant Biotechnology",
+          "slots": [
+            {
+              "id": "plant-plsci-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-plsci-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-plsci-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "plant-additional",
+              "label": "Additional plant biology credits",
+              "unit": "credits",
+              "need": 7,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4460",
+                    "BIOEE 4461",
+                    "PLSCI 2250",
+                    "PLSCI 3421",
+                    "PLSCI 4030",
+                    "PLSCI 4070",
+                    "PLSCI 4080",
+                    "PLSCI 4220",
+                    "PLSCI 4540",
+                    "PLSCI 4620",
+                    "PLSCI 6841"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                },
+                {
+                  "codes": [
+                    "BIOEE 4460",
+                    "BIOEE 4461",
+                    "PLSCI 2250",
+                    "PLSCI 3421",
+                    "PLSCI 4030",
+                    "PLSCI 4070",
+                    "PLSCI 4080",
+                    "PLSCI 4220",
+                    "PLSCI 4540",
+                    "PLSCI 4620",
+                    "PLSCI 6841"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "bio-approved-study-abroad",
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "BIOG 4990",
+                    "PLSCI 4990"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "maxCountedCredits": 3,
+                  "approval": "bio-plant-research"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "concentration": [
+          "plant-biology"
+        ]
+      }
+    }
+  ],
+  "manual": [
+    {
+      "id": "cals-degree",
+      "label": "CALS degree and cohort requirements",
+      "instruction": "Confirm the 120-credit CALS degree, residence, graded credits, and the distribution rules for your entering cohort and transfer status."
+    },
+    {
+      "id": "bio-foundation",
+      "label": "Foundation credit total and college equivalencies",
+      "instruction": "Confirm the applicable credit total and discuss any accepted substitutions with the Office of Undergraduate Biology."
+    },
+    {
+      "id": "bio-transfer",
+      "label": "Transfer credit and petition review",
+      "instruction": "Confirm approved transfer equivalencies with the Office of Undergraduate Biology.",
+      "when": "transfer"
+    }
+  ]
+}

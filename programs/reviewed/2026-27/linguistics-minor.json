@@ -1,0 +1,143 @@
+{
+  "programId": "linguistics-minor",
+  "name": "Linguistics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction, one foundation and three approved electives with at least one advanced course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/linguistics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Linguistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 1101"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundation",
+      "label": "Approved Linguistics foundation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 3302",
+            "LING 3303",
+            "LING 3314"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Other eligible Linguistics courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "LING"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "linguistics-language-course"
+          ]
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-",
+          "minCredits": 3,
+          "approval": "linguistics-minor-approved-course"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "linguistics-ba"
+  ],
+  "manual": [
+    {
+      "id": "classes",
+      "label": "Course classification and admission",
+      "instruction": "Verify that electives qualify as linguistics study. Courses focused solely on learning a language and First-Year Writing Seminars are excluded. Secure approval for any substitution."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "One additional course at 3000 level or above",
+      "slots": [
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "admission",
+      "label": "Another Linguistics course with a B- or better",
+      "slots": [
+        "foundation",
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "programId": "asl-deaf-studies-minor",
+  "name": "American Sign Language and Deaf Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Language proficiency, linguistics and electives in Deaf Studies across departments.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/asl-deaf-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "asl-proficiency",
+      "label": "ASL IV or approved proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASL 2202"
+          ],
+          "minGrade": "C-"
+        },
+        {
+          "approval": "asl-approved-proficiency"
+        }
+      ]
+    },
+    {
+      "id": "core-asl-2301",
+      "label": "ASL 2301",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASL 2301"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-ling-1101",
+      "label": "LING 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 1101"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "asl-elective",
+      "label": "ASL and Deaf Studies elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASL 3201",
+            "ASL 3215",
+            "ASL 4410"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "interdisciplinary",
+      "label": "Interdisciplinary elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BSOC 2051",
+            "FGSS 4035",
+            "GOVT 3087",
+            "ILRGL 4033",
+            "ILRGL 4360",
+            "LING 2215",
+            "LING 2221",
+            "LING 2223",
+            "LING 3344",
+            "PHIL 2455"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "proficiency-credit",
+      "label": "Approved credits for the proficiency path",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "approval": "asl-proficiency-credit-equivalent"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "asld-standing",
+      "label": "ASL declaration and proficiency",
+      "instruction": "Confirm enrollment in or completion of ASL 1102 before declaring. If you apply proficiency in place of ASL IV, confirm how the department applies the credit minimum."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

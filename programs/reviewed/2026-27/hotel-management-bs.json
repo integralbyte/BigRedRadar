@@ -1,0 +1,1889 @@
+{
+  "programId": "hotel-management-bs",
+  "name": "Hotel Administration (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Nolan core, advanced hospitality electives, distributions and approved experience.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/hotel-management-bs/#curriculumtext",
+    "https://business.cornell.edu/students/by-program/bs-hotel-administration/"
+  ],
+  "colleges": [
+    "HA"
+  ],
+  "slots": [
+    {
+      "id": "core-hadm-1210",
+      "label": "HADM 1210",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1210"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2210",
+      "label": "HADM 2210",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2210"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2220",
+      "label": "HADM 2220",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2220"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2221",
+      "label": "HADM 2221",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2221"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1150",
+      "label": "HADM 1150",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1150"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2810",
+      "label": "HADM 2810",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2810"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-3870",
+      "label": "HADM 3870",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 3870"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1361",
+      "label": "HADM 1361",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1361"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2351",
+      "label": "HADM 2351",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2351"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1740",
+      "label": "HADM 1740",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1740"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1650",
+      "label": "HADM 1650",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1650"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-3650",
+      "label": "HADM 3650",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 3650"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1350",
+      "label": "HADM 1350",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1350"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2011",
+      "label": "HADM 2011",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2011"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2021",
+      "label": "HADM 2021",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2021"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2560",
+      "label": "HADM 2560",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2560"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-1410",
+      "label": "HADM 1410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 1410"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-2430",
+      "label": "HADM 2430",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 2430"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-hadm-4410",
+      "label": "HADM 4410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HADM 4410"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "non-jcb-flex",
+      "label": "Additional non-Business distribution electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "distributions": [
+            "ALC-AAP",
+            "ALC-AS",
+            "BIO-AG",
+            "BIO-AS",
+            "BIOLS-AG",
+            "BIONLS-AG",
+            "BSC-AG",
+            "CA-AAP",
+            "CA-AG",
+            "CA-HE",
+            "CHPH-AG",
+            "D-AG",
+            "D-HE",
+            "DLS-AG",
+            "GLC-AS",
+            "HA-AAP",
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "LA-AAP",
+            "LA-AG",
+            "LAD-HE",
+            "MQR-AAP",
+            "MQR-HE",
+            "PBS-AAP",
+            "PBS-HE",
+            "PHS-AS",
+            "PSC-AG",
+            "SBA-AAP",
+            "SBA-AG",
+            "SBA-HE",
+            "SCD-AS",
+            "SDS-AS",
+            "SMR-AS",
+            "SSC-AS"
+          ],
+          "excludeSubjects": [
+            "AEM",
+            "HADM",
+            "MGMT",
+            "NACCT",
+            "NBA",
+            "NCC",
+            "NMI",
+            "NRE",
+            "NRM",
+            "NSF",
+            "REAL"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "distribution-flex",
+      "label": "Additional distribution electives",
+      "unit": "credits",
+      "need": 18,
+      "options": [
+        {
+          "distributions": [
+            "ALC-AAP",
+            "ALC-AS",
+            "BIO-AG",
+            "BIO-AS",
+            "BIOLS-AG",
+            "BIONLS-AG",
+            "BSC-AG",
+            "CA-AAP",
+            "CA-AG",
+            "CA-HE",
+            "CHPH-AG",
+            "D-AG",
+            "D-HE",
+            "DLS-AG",
+            "GLC-AS",
+            "HA-AAP",
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "LA-AAP",
+            "LA-AG",
+            "LAD-HE",
+            "MQR-AAP",
+            "MQR-HE",
+            "PBS-AAP",
+            "PBS-HE",
+            "PHS-AS",
+            "PSC-AG",
+            "SBA-AAP",
+            "SBA-AG",
+            "SBA-HE",
+            "SCD-AS",
+            "SDS-AS",
+            "SMR-AS",
+            "SSC-AS",
+            "ALC-HA",
+            "ETM-HA",
+            "GLC-HA",
+            "HST-HA",
+            "SCD-HA",
+            "SSC-HA",
+            "SDS-HA",
+            "SMR-HA",
+            "D-HA",
+            "CE-EN",
+            "ETH-AG",
+            "ETM-AS",
+            "FL-AAP",
+            "FL-AG",
+            "FLOPI-AS",
+            "KCM-AAP",
+            "KCM-AG",
+            "KCM-HE",
+            "MQL-AG",
+            "MRQ-HE",
+            "OPHLS-AG",
+            "ORL-AG",
+            "WRT-AG"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "approval": "nolan-approved-language-distribution",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "First-year writing seminar",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "approval": "as-writing-seminar",
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        },
+        {
+          "approval": "nolan-writing-transfer-or-exam"
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics distribution",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "distributions": [
+            "ETM-HA",
+            "ETH-AG"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "diversity",
+      "label": "Diversity and inclusion distribution",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "distributions": [
+            "D-HA"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "free-electives",
+      "label": "Free elective credits",
+      "unit": "credits",
+      "need": 8,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "approval": "nolan-free-elective"
+        },
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "distributions": [
+            "AFS-AG",
+            "DLG-AG",
+            "SCH-AG",
+            "AWI-IL",
+            "ICE-IL",
+            "ICL-IL",
+            "LH-IL",
+            "OCE-IL",
+            "OCL-IL",
+            "QP-IL",
+            "SCT-IL",
+            "SOW-IL",
+            "STA-IL"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "hadm-path",
+      "label": "Hotel Administration elective path",
+      "options": [
+        {
+          "id": "hadm",
+          "label": "Upper-level HADM coursework",
+          "slots": [
+            {
+              "id": "hadm-electives",
+              "label": "Upper-level HADM electives",
+              "unit": "credits",
+              "need": 12,
+              "options": [
+                {
+                  "subjects": [
+                    "HADM"
+                  ],
+                  "numberMin": 3000,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "hadm-electives"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 4910",
+                    "HADM 4970",
+                    "HADM 4971",
+                    "HADM 4980",
+                    "HADM 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate minor as HADM elective credit",
+          "slots": [],
+          "manual": [
+            {
+              "id": "real-estate",
+              "label": "Real Estate minor progress and elective credit",
+              "instruction": "Confirm the completed minor and the credit applied to this requirement with Nolan School Student Services."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "non-jcb-breadth",
+      "label": "Three non-Business distribution areas",
+      "options": [
+        {
+          "id": "arts-literature-and-history--global-citizenship-and-social-difference--social-science",
+          "label": "Arts, literature and history / Global citizenship and social difference / Social science",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-social-science",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "arts-literature-and-history--global-citizenship-and-social-difference--mathematics-and-data-science",
+          "label": "Arts, literature and history / Global citizenship and social difference / Mathematics and data science",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "arts-literature-and-history--global-citizenship-and-social-difference--biological-and-physical-sciences",
+          "label": "Arts, literature and history / Global citizenship and social difference / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "arts-literature-and-history--social-science--mathematics-and-data-science",
+          "label": "Arts, literature and history / Social science / Mathematics and data science",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-social-science",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "arts-literature-and-history--social-science--biological-and-physical-sciences",
+          "label": "Arts, literature and history / Social science / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-social-science",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "arts-literature-and-history--mathematics-and-data-science--biological-and-physical-sciences",
+          "label": "Arts, literature and history / Mathematics and data science / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-arts-literature-and-history",
+              "label": "Arts, literature and history",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "ALC-AS",
+                    "HST-AS",
+                    "HA-HE",
+                    "LAD-HE",
+                    "LA-AAP",
+                    "HA-AAP",
+                    "ALC-AAP",
+                    "HA-AG",
+                    "LA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-arts-literature-and-history",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "global-citizenship-and-social-difference--social-science--mathematics-and-data-science",
+          "label": "Global citizenship and social difference / Social science / Mathematics and data science",
+          "slots": [
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-social-science",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "global-citizenship-and-social-difference--social-science--biological-and-physical-sciences",
+          "label": "Global citizenship and social difference / Social science / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-social-science",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "global-citizenship-and-social-difference--mathematics-and-data-science--biological-and-physical-sciences",
+          "label": "Global citizenship and social difference / Mathematics and data science / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-global-citizenship-and-social-difference",
+              "label": "Global citizenship and social difference",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "GLC-AS",
+                    "SCD-AS",
+                    "CA-HE",
+                    "CA-AAP",
+                    "CA-AG",
+                    "D-HE",
+                    "D-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-global-citizenship-and-social-difference",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "social-science--mathematics-and-data-science--biological-and-physical-sciences",
+          "label": "Social science / Mathematics and data science / Biological and physical sciences",
+          "slots": [
+            {
+              "id": "non-jcb-social-science",
+              "label": "Social science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SSC-AS",
+                    "SBA-HE",
+                    "SBA-AAP",
+                    "SBA-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-mathematics-and-data-science",
+              "label": "Mathematics and data science",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "SMR-AS",
+                    "SDS-AS",
+                    "MQR-AAP",
+                    "MQR-HE",
+                    "DLS-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            },
+            {
+              "id": "non-jcb-biological-and-physical-sciences",
+              "label": "Biological and physical sciences",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "distributions": [
+                    "BIO-AS",
+                    "PHS-AS",
+                    "PBS-HE",
+                    "PBS-AAP",
+                    "BIO-AG",
+                    "BIOLS-AG",
+                    "BIONLS-AG",
+                    "BSC-AG",
+                    "PSC-AG",
+                    "CHPH-AG"
+                  ],
+                  "excludeSubjects": [
+                    "AEM",
+                    "HADM",
+                    "MGMT",
+                    "NACCT",
+                    "NBA",
+                    "NCC",
+                    "NMI",
+                    "NRE",
+                    "NRM",
+                    "NSF",
+                    "REAL"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "non-jcb-total",
+              "label": "Total non-Business distribution credits",
+              "slots": [
+                "non-jcb-social-science",
+                "non-jcb-mathematics-and-data-science",
+                "non-jcb-biological-and-physical-sciences",
+                "non-jcb-flex"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "practice",
+      "label": "Two units of verified practice credit",
+      "instruction": "Complete 800 qualifying work hours in at least two distinct positions, with up to 400 hours credited per position. Confirm employer verification and any same-organization approval."
+    },
+    {
+      "id": "free-and-transfer",
+      "label": "Free electives, external credit and substitutions",
+      "instruction": "Confirm eligibility of courses without a distribution code, any transfer or exam credit and core substitutions, and the permitted pass/fail credits."
+    },
+    {
+      "id": "nolan-standing",
+      "label": "Degree and residence requirements",
+      "instruction": "Confirm 120 academic credits, the 2.0 GPA, required residency and any outstanding incomplete grade with Nolan School Student Services."
+    }
+  ]
+}

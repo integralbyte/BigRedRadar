@@ -1,0 +1,227 @@
+{
+  "programId": "history-art-ba",
+  "name": "History of Art (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The published Fall 2025-and-later structure with an earlier-cohort review path.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/history-art-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "history-art-cohort",
+      "label": "History of Art entry cohort",
+      "options": [
+        {
+          "id": "fall-2025-or-later",
+          "label": "Entered Fall 2025 or later",
+          "slots": [
+            {
+              "id": "gateway",
+              "label": "Art Histories gateway",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARTH 1100"
+                  ],
+                  "minGrade": "B"
+                },
+                {
+                  "subjects": [
+                    "ARTH"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "ARTH 4998"
+                  ],
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ],
+                  "numberMin": 4000,
+                  "numberMax": 4999,
+                  "minGrade": "B",
+                  "approval": "arth-accepted-gateway-tutorial"
+                }
+              ]
+            },
+            {
+              "id": "visual",
+              "label": "Introduction to Visual Studies",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "VISST 2000"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "methods",
+              "label": "History of Art methods",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARTH 4101"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2000",
+              "label": "2000-level History of Art electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ARTH"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "ARTH 4998"
+                  ],
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 2999
+                }
+              ]
+            },
+            {
+              "id": "elective-3000",
+              "label": "3000-level History of Art elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ARTH"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "ARTH 4998"
+                  ],
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 3999
+                }
+              ]
+            },
+            {
+              "id": "elective-4000",
+              "label": "4000-level History of Art electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ARTH"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "ARTH 4998"
+                  ],
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ],
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            },
+            {
+              "id": "extra-upper",
+              "label": "Additional 3000- or 4000-level History of Art electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "ARTH"
+                  ],
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "ARTH 4998"
+                  ],
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ],
+                  "numberMin": 3000,
+                  "numberMax": 4999
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "upper-six",
+              "label": "History of Art courses at 3000 level or above",
+              "slots": [
+                "gateway",
+                "visual",
+                "methods",
+                "elective-2000",
+                "elective-3000",
+                "elective-4000",
+                "extra-upper"
+              ],
+              "need": 6,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "elective-categories",
+              "label": "Four distinct elective categories",
+              "instruction": "Ask the department to confirm four distinct categories across the seven assigned electives."
+            },
+            {
+              "id": "honors-elective",
+              "label": "Honors pathway if elected",
+              "instruction": "Confirm that only ARTH 4999 counts as a major elective and that the extra honors work is recorded."
+            }
+          ]
+        },
+        {
+          "id": "pre-fall-2025",
+          "label": "Entered before Fall 2025",
+          "slots": [],
+          "manual": [
+            {
+              "id": "prior-requirements",
+              "label": "Earlier cohort requirements",
+              "instruction": "Confirm which History of Art curriculum applies to your entry term with the major advisor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

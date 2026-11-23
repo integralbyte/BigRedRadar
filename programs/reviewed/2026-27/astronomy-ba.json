@@ -1,0 +1,500 @@
+{
+  "programId": "astronomy-ba",
+  "name": "Astronomy (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Math and physics foundations with distinct Astrophysics and General Astronomy concentration curricula.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/astronomy-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "core-physics-i",
+      "label": "Mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112",
+            "PHYS 1116"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-physics-ii",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-calculus",
+      "label": "Calculus for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-multivariable",
+      "label": "Multivariable calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920",
+            "MATH 2220",
+            "MATH 2240"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-quantitative",
+      "label": "Differential equations, probability or computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930",
+            "MATH 4710",
+            "ASTRO 3340"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "core-physics-iii",
+      "label": "Third physics course path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Oscillations, waves, and quantum physics",
+          "slots": [
+            {
+              "id": "core-phys-2214",
+              "label": "Physics III",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors physics plus experimental physics",
+          "slots": [
+            {
+              "id": "core-phys-2218",
+              "label": "Physics III",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2218"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "core-phys-2210",
+              "label": "Experimental physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "label": "Astronomy concentration",
+      "options": [
+        {
+          "id": "astrophysics",
+          "label": "Astrophysics",
+          "slots": [
+            {
+              "id": "core-astro-data",
+              "label": "Multiwavelength astronomical techniques",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astro-advanced",
+              "label": "Astrophysics electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4431",
+                    "ASTRO 4432",
+                    "ASTRO 4433",
+                    "ASTRO 4434"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-3316",
+              "label": "PHYS 3316",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 3316"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-3318",
+              "label": "PHYS 3318",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 3318"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-3327",
+              "label": "PHYS 3327",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 3327"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-4443",
+              "label": "PHYS 4443",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4443"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-3200",
+              "label": "AEP 3200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-4200",
+              "label": "AEP 4200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 4200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astro-thermo",
+              "label": "Statistical thermodynamics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4230",
+                    "AEP 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "linear-algebra",
+              "label": "Linear algebra",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 2940",
+                    "MATH 2210",
+                    "MATH 2230"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "physics-ba"
+          ],
+          "checks": [
+            {
+              "id": "astrophysics-min",
+              "label": "Astrophysics concentration credits",
+              "slots": [
+                "astro-advanced",
+                "astrophysics-3316",
+                "astrophysics-3318",
+                "astrophysics-3327",
+                "astrophysics-4443",
+                "astrophysics-3200",
+                "astrophysics-4200",
+                "astro-thermo",
+                "linear-algebra"
+              ],
+              "need": 38,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "general",
+          "label": "General Astronomy",
+          "slots": [
+            {
+              "id": "core-astro-data",
+              "label": "Experimental or data analysis in astronomy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 3310",
+                    "ASTRO 3334",
+                    "ASTRO 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-i",
+              "label": "Stars, galaxies and cosmology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 2211"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-ii",
+              "label": "The solar system",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 2212"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astrophysics-electives",
+              "label": "3000-level astronomy electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3303"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "astronomy-elective",
+              "label": "Additional astronomy elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 2290",
+                    "ASTRO 2299",
+                    "ASTRO 4445",
+                    "ASTRO 4523"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "complementary",
+              "label": "Complementary area coursework",
+              "unit": "credits",
+              "need": 15,
+              "options": [
+                {
+                  "approval": "astro-complementary-area",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "upper-complement",
+              "label": "Upper-level complementary area credits",
+              "slots": [
+                "complementary"
+              ],
+              "need": 8,
+              "unit": "credits",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "complement-courses",
+              "label": "Courses in the complementary area",
+              "slots": [
+                "complementary"
+              ],
+              "need": 4,
+              "unit": "courses"
+            }
+          ],
+          "manual": [
+            {
+              "id": "complementary-plan",
+              "label": "Approved complementary area",
+              "instruction": "Confirm a coherent four- or five-course plan and any overlap with a second major."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "core-credits",
+      "label": "Astronomy core credits",
+      "need": 26,
+      "unit": "credits",
+      "slotPrefix": "core-"
+    }
+  ],
+  "manual": [
+    {
+      "id": "declaration",
+      "label": "Astronomy declaration",
+      "instruction": "Confirm at least two physics and two mathematics core courses and a 2.7 GPA in those courses before declaration. Confirm substitutions and semester sequence with the director."
+    }
+  ]
+}

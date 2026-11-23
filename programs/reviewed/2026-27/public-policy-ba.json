@@ -1,0 +1,363 @@
+{
+  "programId": "public-policy-ba",
+  "name": "Public Policy (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "College-specific core and prerequisite courses, engaged learning and approved elective credit.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/public-policy-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intermediate-micro",
+      "label": "Intermediate microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2000",
+            "ECON 3030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "label": "Population and public policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "public-sector",
+      "label": "Economics of the public sector",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2040"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "race-policy",
+      "label": "Race, racism, and public policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2370"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics and public policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2830"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "regression",
+      "label": "Multiple regression analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 3100"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "micro",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "brooks-approved-microeconomics-exam"
+        }
+      ]
+    },
+    {
+      "id": "sociology",
+      "label": "Introductory sociology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2250",
+            "SOC 1101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "label": "Introductory government",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GOVT 1111",
+            "GOVT 1313",
+            "GOVT 1817"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "public-policy",
+      "label": "Introduction to public policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2301"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "comparative",
+      "label": "Comparative public policy courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2320",
+            "PUBPOL 2857",
+            "PUBPOL 3583"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3110",
+            "ECON 3130",
+            "SOC 3010",
+            "PUBPOL 2101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Public Policy electives",
+      "unit": "credits",
+      "need": 22,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "subjects": [
+            "PUBPOL"
+          ],
+          "numberMin": 2000,
+          "numberMax": 4999,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "PUBPOL 4030",
+            "PUBPOL 4980",
+            "PUBPOL 4990"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "brooks-approved-study-abroad-elective"
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "engaged-learning",
+      "label": "Engaged learning in Public Policy",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "subjects": [
+            "PUBPOL"
+          ],
+          "attributes": [
+            "CU-CEL"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "approval": "brooks-approved-engaged-learning",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "max": 8,
+      "unit": "credits",
+      "partitionBy": "term",
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "electives"
+      ],
+      "max": 3,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "policy-overlap",
+      "label": "Approval for study abroad credit and major overlap",
+      "instruction": "Confirm study-abroad petitions. B.A. students can share up to 12 overlapping credits with Economics, Government or Sociology; verify the allocation with both departments."
+    }
+  ]
+}

@@ -1,0 +1,3542 @@
+{
+  "programId": "information-science-minor",
+  "name": "Information Science Minor · Other Cornell colleges",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "2026–27 concentration lists, special topics, and college-specific course counts.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/information-science-minor/#curriculumtext",
+    "https://infosci.cornell.edu/information-science-minor"
+  ],
+  "variantId": "other",
+  "slots": [
+    {
+      "id": "electives",
+      "label": "Information Science electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "INFO 2450"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 4380"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Human-Algorithm Behavior"
+          ]
+        },
+        {
+          "codes": [
+            "CS 3780"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CS 4740"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3170"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3200"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3300"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3450"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3720"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3950"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4100"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4140"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4240"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4300"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4350"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4360"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4400"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4430"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4450"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4490"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4500"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4505"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Applied Machine Learning: Methods and Applications",
+            "Building Inclusive Computing Organizations",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)",
+            "Neural Networks in Practice",
+            "Technology and Social Change Practicum"
+          ]
+        },
+        {
+          "codes": [
+            "PSYCH 3800"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2950"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2951"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 3150"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 3190"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 4010"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 4860"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "COMM 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Data and Technology for Organizing"
+          ]
+        },
+        {
+          "codes": [
+            "ENGL 3778"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "GOVT 3189"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2770"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3130"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3312"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3350"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3370"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3900"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4120"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4145"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4200"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4250"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4260"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4270"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4310"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4390"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4561"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Advanced NLP for Humanities Research",
+            "Applied Machine Learning: Methods and Applications",
+            "Building Inclusive Computing Organizations",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)",
+            "Neural Networks in Practice",
+            "Technology and Social Change Practicum"
+          ]
+        },
+        {
+          "codes": [
+            "ORIE 3120"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ORIE 3741"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ORIE 4740"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "PUBPOL 3460"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "SOC 3580"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "SOC 4390"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "STSCI 3740"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3561"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2921"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Clockwork: Infrastructure, Work, and Time",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)",
+            "Law, Policy, and Politics of AI"
+          ]
+        },
+        {
+          "codes": [
+            "ART 3705"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ARTH 4151"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "approval": "infosci-arth-topic"
+        },
+        {
+          "codes": [
+            "CS 4620"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CS 4758"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2300"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2310"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3152"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": false
+        },
+        {
+          "codes": [
+            "INFO 3660"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4152"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": false
+        },
+        {
+          "codes": [
+            "INFO 4320"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4420"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Clockwork: Infrastructure, Work, and Time",
+            "Design Thinking, Media, and Community",
+            "Human Centered Design and Engaged Media",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)",
+            "Producing Culture About, With, and Through Tech",
+            "Technology and Social Change Practicum"
+          ]
+        },
+        {
+          "codes": [
+            "STS 4040"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 1200"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 1260"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRG 3605"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "HADM 4890"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 3210"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4113"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4210"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4301"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Clockwork: Infrastructure, Work, and Time",
+            "Technology and Social Change Practicum",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)"
+          ]
+        },
+        {
+          "codes": [
+            "PUBPOL 2300"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "PUBPOL 2301"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Future of Work"
+          ]
+        },
+        {
+          "codes": [
+            "CS 5150"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4340"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4410"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4555"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Human-AI Interaction Design Research"
+          ]
+        },
+        {
+          "codes": [
+            "INFO 3160",
+            "INFO 4470"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 2850"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3120"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3140"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3810"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 4020"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 4610"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 4620"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 4660"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4220"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Applied Machine Learning: Methods and Applications",
+            "Law, Policy, and Politics of Artificial Intelligence (AI)",
+            "Social Dynamics and Network Analytics",
+            "Technology and Social Change Practicum"
+          ]
+        },
+        {
+          "codes": [
+            "ORIE 4350"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "SOC 3080"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "SOC 3490"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4125"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4470"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 4940"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "topics": [
+            "Clockwork: Infrastructure, Work, and Time",
+            "Design Thinking, Media, and Community",
+            "Human-AI Interaction Design Research",
+            "Technology and Social Change Practicum"
+          ]
+        },
+        {
+          "codes": [
+            "PSYCH 3420"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "INFO 1300"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "concentration",
+      "label": "Information Science concentration",
+      "options": [
+        {
+          "id": "behavioral-science",
+          "label": "Behavioral Science",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 2450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 4380"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Human-Algorithm Behavior"
+                  ]
+                },
+                {
+                  "codes": [
+                    "CS 3780"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3170"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3720"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3950"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4100"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4360"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4430"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4490"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4500"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4505"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Applied Machine Learning: Methods and Applications",
+                    "Building Inclusive Computing Organizations",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)",
+                    "Neural Networks in Practice",
+                    "Technology and Social Change Practicum"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PSYCH 3800"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "data-science",
+          "label": "Data Science",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 2950"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2951"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 3190"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4010"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4860"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Data and Technology for Organizing"
+                  ]
+                },
+                {
+                  "codes": [
+                    "CS 3780"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGL 3778"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "GOVT 3189"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2770"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3130"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3312"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3370"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3720"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3900"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3950"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4100"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4145"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4250"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4260"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4270"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4390"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4561"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Advanced NLP for Humanities Research",
+                    "Applied Machine Learning: Methods and Applications",
+                    "Building Inclusive Computing Organizations",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)",
+                    "Neural Networks in Practice",
+                    "Technology and Social Change Practicum"
+                  ]
+                },
+                {
+                  "codes": [
+                    "ORIE 3120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 3741"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "PUBPOL 3460"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "SOC 3580"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "SOC 4390"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "STSCI 3740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "data-science-minor"
+          ]
+        },
+        {
+          "id": "digital-culture-and-production",
+          "label": "Digital Culture and Production",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 3561"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2921"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4260"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4270"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Clockwork: Infrastructure, Work, and Time",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)",
+                    "Law, Policy, and Politics of AI"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ART 3705"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ARTH 4151"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "approval": "infosci-arth-topic"
+                },
+                {
+                  "codes": [
+                    "CS 4620"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4758"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 3190"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2921"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": false
+                },
+                {
+                  "codes": [
+                    "INFO 3200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3660"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": false
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4260"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4270"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4420"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Clockwork: Infrastructure, Work, and Time",
+                    "Design Thinking, Media, and Community",
+                    "Human Centered Design and Engaged Media",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)",
+                    "Producing Culture About, With, and Through Tech",
+                    "Technology and Social Change Practicum"
+                  ]
+                },
+                {
+                  "codes": [
+                    "STS 4040"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "information-ethics-law-and-policy",
+          "label": "Information Ethics, Law, and Policy",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 1200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 1260"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3190"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4010"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Human-Algorithm Behavior"
+                  ]
+                },
+                {
+                  "codes": [
+                    "ENGRG 3605"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "HADM 4890"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2921"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3170"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3210"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3370"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4100"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4113"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4145"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4210"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4250"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4260"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4270"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4301"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4390"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4561"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Clockwork: Infrastructure, Work, and Time",
+                    "Technology and Social Change Practicum",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PUBPOL 2300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "PUBPOL 2301"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "PUBPOL 3460"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Future of Work"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interactive-technologies",
+          "label": "Interactive Technologies",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 4120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "CS 3780"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4620"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4758"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 5150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": false
+                },
+                {
+                  "codes": [
+                    "INFO 4310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4340"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4410"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4430"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4505"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4555"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Human-AI Interaction Design Research"
+                  ]
+                },
+                {
+                  "codes": [
+                    "ORIE 3120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 3741"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "STSCI 3740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3160",
+                    "INFO 4470"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "networks-crowds-and-markets",
+          "label": "Networks, Crowds, and Markets",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 2850"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Human-Algorithm Behavior"
+                  ]
+                },
+                {
+                  "codes": [
+                    "CS 3780"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 4740"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 3120"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 3140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 3810"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 4020"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 4610"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 4620"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECON 4660"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3950"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4140"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4145"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4200"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4220"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4250"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4270"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4300"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Applied Machine Learning: Methods and Applications",
+                    "Law, Policy, and Politics of Artificial Intelligence (AI)",
+                    "Social Dynamics and Network Analytics",
+                    "Technology and Social Change Practicum"
+                  ]
+                },
+                {
+                  "codes": [
+                    "INFO 4360"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 4350"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "PUBPOL 3460"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "SOC 3080"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "SOC 3490"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "user-experience",
+          "label": "User Experience",
+          "slots": [
+            {
+              "id": "core",
+              "label": "Core course for the selected concentration",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "INFO 2450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "concentration-courses",
+              "label": "Courses in the selected concentration",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 4380"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "CS 5150"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 2921"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 3152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": false
+                },
+                {
+                  "codes": [
+                    "INFO 3450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4125"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": false
+                },
+                {
+                  "codes": [
+                    "INFO 4240"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4310"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4320"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4340"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4400"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4410"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4420"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4430"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4450"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4470"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4490"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4505"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "topics": [
+                    "Clockwork: Infrastructure, Work, and Time",
+                    "Design Thinking, Media, and Community",
+                    "Human-AI Interaction Design Research",
+                    "Technology and Social Change Practicum"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PSYCH 3420"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits across Information Science minor courses",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "electives",
+                "core",
+                "concentration-courses"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "information-science-ba",
+    "information-science-bs",
+    "information-science-systems-technology-bs"
+  ],
+  "manual": [
+    {
+      "id": "credit-minimum",
+      "label": "Credit minimum and certification",
+      "instruction": "The Catalog gives a 15–18 credit range. Confirm the applicable college minimum and submit certification by the deadline."
+    }
+  ],
+  "excludeColleges": [
+    "EN",
+    "HA"
+  ]
+}

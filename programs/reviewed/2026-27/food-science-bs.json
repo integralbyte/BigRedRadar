@@ -1,0 +1,1401 @@
+{
+  "programId": "food-science-bs",
+  "name": "Food Science (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Distinct Science, Business and Safety course and credit requirements, including the capstone.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/food-science-bs/#curriculumtext",
+    "https://cals.cornell.edu/education/degrees-programs/food-science-major-minor"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-biology",
+      "label": "Introductory biology credits",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOG 1500",
+            "BIOMG 1350",
+            "BIOEE 1610",
+            "BIOEE 1780",
+            "BIOAP 1100",
+            "PLSCI 1115"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D"
+        }
+      ]
+    },
+    {
+      "id": "core-math-1110",
+      "label": "MATH 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200",
+            "PSYCH 2500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D"
+        }
+      ]
+    },
+    {
+      "id": "core-biochem",
+      "label": "Biochemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 3310",
+            "BIOMG 3350",
+            "NS 3200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D"
+        }
+      ]
+    },
+    {
+      "id": "core-biomi-2900",
+      "label": "BIOMI 2900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D"
+        }
+      ]
+    },
+    {
+      "id": "core-biomi-2911",
+      "label": "BIOMI 2911",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2911"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "physics",
+      "label": "Physics pathway",
+      "options": [
+        {
+          "id": "life",
+          "label": "Physics for the life sciences",
+          "slots": [
+            {
+              "id": "core-physics-1",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "engineering",
+          "label": "Mechanics and experimental physics",
+          "slots": [
+            {
+              "id": "core-physics-1",
+              "label": "PHYS 1112",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-physics-2",
+              "label": "PHYS 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Food Science focus",
+      "options": [
+        {
+          "id": "science",
+          "label": "Science",
+          "slots": [
+            {
+              "id": "core-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-3570",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-3580",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-math-1120",
+              "label": "MATH 1120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1101",
+              "label": "FDSC 1101",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1101"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1102",
+              "label": "FDSC 1102",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1102"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-ns-1150",
+              "label": "NS 1150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2005",
+              "label": "FDSC 2005",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2005"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2100",
+              "label": "FDSC 2100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2110",
+              "label": "FDSC 2110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3940",
+              "label": "FDSC 3940",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3940"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3950",
+              "label": "FDSC 3950",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3950"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3960",
+              "label": "FDSC 3960",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3960"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4000",
+              "label": "FDSC 4000",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4000"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4100",
+              "label": "FDSC 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4170",
+              "label": "FDSC 4170",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4170"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4190",
+              "label": "FDSC 4190",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4190"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4210",
+              "label": "FDSC 4210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4230",
+              "label": "FDSC 4230",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4240",
+              "label": "FDSC 4240",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4240"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional Food Science electives",
+              "unit": "credits",
+              "need": 4,
+              "options": [
+                {
+                  "subjects": [
+                    "FDSC"
+                  ],
+                  "numberMin": 3001,
+                  "excludeNumbers": [
+                    4960,
+                    4970,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "core-credits",
+              "label": "Science core science credits",
+              "slotPrefix": "core-",
+              "need": 44,
+              "unit": "credits"
+            },
+            {
+              "id": "focus-credits",
+              "label": "Science focused curriculum credits",
+              "slotPrefix": "focus-",
+              "need": 43,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "business",
+          "label": "Business",
+          "slots": [
+            {
+              "id": "core-chem-1560",
+              "label": "CHEM 1560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-1561",
+              "label": "CHEM 1561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-1570",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-econ-1110",
+              "label": "ECON 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-aem-1200",
+              "label": "AEM 1200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1101",
+              "label": "FDSC 1101",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1101"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1102",
+              "label": "FDSC 1102",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1102"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-ns-1150",
+              "label": "NS 1150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2005",
+              "label": "FDSC 2005",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2005"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2100",
+              "label": "FDSC 2100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2110",
+              "label": "FDSC 2110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3940",
+              "label": "FDSC 3940",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3940"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3950",
+              "label": "FDSC 3950",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3950"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3960",
+              "label": "FDSC 3960",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3960"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4000",
+              "label": "FDSC 4000",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4000"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4100",
+              "label": "FDSC 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4170",
+              "label": "FDSC 4170",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4170"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4210",
+              "label": "FDSC 4210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4230",
+              "label": "FDSC 4230",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4240",
+              "label": "FDSC 4240",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4240"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional Food Science electives",
+              "unit": "credits",
+              "need": 10,
+              "options": [
+                {
+                  "subjects": [
+                    "FDSC"
+                  ],
+                  "numberMin": 3001,
+                  "excludeNumbers": [
+                    4960,
+                    4970,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "core-credits",
+              "label": "Business core science credits",
+              "slotPrefix": "core-",
+              "need": 33,
+              "unit": "credits"
+            },
+            {
+              "id": "focus-credits",
+              "label": "Business focused curriculum credits",
+              "slotPrefix": "focus-",
+              "need": 53,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "label": "Safety",
+          "slots": [
+            {
+              "id": "core-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-3570",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "core-chem-3580",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1101",
+              "label": "FDSC 1101",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1101"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-1102",
+              "label": "FDSC 1102",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 1102"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-ns-1150",
+              "label": "NS 1150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2005",
+              "label": "FDSC 2005",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2005"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2100",
+              "label": "FDSC 2100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-2110",
+              "label": "FDSC 2110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3940",
+              "label": "FDSC 3940",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3940"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3950",
+              "label": "FDSC 3950",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3950"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-3960",
+              "label": "FDSC 3960",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 3960"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4000",
+              "label": "FDSC 4000",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4000"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4210",
+              "label": "FDSC 4210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4170",
+              "label": "FDSC 4170",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4170"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4230",
+              "label": "FDSC 4230",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4230"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-fdsc-4240",
+              "label": "FDSC 4240",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 4240"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional Food Science electives",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "FDSC"
+                  ],
+                  "numberMin": 3001,
+                  "excludeNumbers": [
+                    4960,
+                    4970,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus-proficiency-epidemiology",
+              "label": "Epidemiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3600",
+                    "PUBPOL 3280",
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-proficiency-microbial-pathogenesis",
+              "label": "Microbial Pathogenesis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMS 4040",
+                    "BIOMS 4090",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "BIOMG 4390"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            },
+            {
+              "id": "focus-proficiency-risk-analysis-and-management",
+              "label": "Risk Analysis and Management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 4240",
+                    "GDEV 4080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "core-credits",
+              "label": "Safety core science credits",
+              "slotPrefix": "core-",
+              "need": 40,
+              "unit": "credits"
+            },
+            {
+              "id": "focus-credits",
+              "label": "Safety focused curriculum credits",
+              "slotPrefix": "focus-",
+              "need": 45,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "assessment",
+      "label": "Focus declaration and sequencing",
+      "instruction": "Confirm the focus and any approved credit substitutions with Food Science. Safety students must meet the separate proficiency requirements, and all students complete the capstone."
+    }
+  ]
+}

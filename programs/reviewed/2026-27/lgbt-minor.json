@@ -1,0 +1,51 @@
+{
+  "programId": "lgbt-minor",
+  "name": "Lesbian, Gay, Bisexual and Transgender Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction and three further courses offered through LGBT Studies.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/lgbt-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Lesbian, Gay, Bisexual and Transgender Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LGBT 2290"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "LGBT Studies courses or cross-listings",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "LGBT"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 12,
+      "unit": "credits"
+    }
+  ]
+}

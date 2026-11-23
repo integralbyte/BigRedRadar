@@ -1,0 +1,86 @@
+{
+  "programId": "food-science-minor",
+  "name": "Food Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Food science foundations, two advanced core courses, and additional Food Science credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/food-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Science and Technology of Raw and Processed Foods",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FDSC 2005"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Food science core choices",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "FDSC 3940",
+            "FDSC 4100",
+            "FDSC 4170",
+            "FDSC 4230"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Food Science electives",
+      "unit": "credits",
+      "need": 5,
+      "options": [
+        {
+          "subjects": [
+            "FDSC"
+          ],
+          "numberMin": 2000,
+          "excludeNumberPatterns": [
+            "49XX",
+            "59XX"
+          ],
+          "minGrade": "D-",
+          "excludeApprovals": [
+            "food-science-special-study"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "food-science-bs"
+  ],
+  "manual": [
+    {
+      "id": "eligible",
+      "label": "Elective eligibility",
+      "instruction": "Verify with Food Science that the electives are regular courses. Complete FDSC 2005 before declaring."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 13,
+      "unit": "credits"
+    }
+  ]
+}

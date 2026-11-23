@@ -1,0 +1,123 @@
+{
+  "programId": "portuguese-brazilian-studies-minor",
+  "name": "Portuguese and Brazilian Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses including Perspectives on Brazil, advanced study, and intermediate Portuguese proficiency.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/portuguese-brazilian-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Perspectives on Brazil",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PORT 2800"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Advanced Portuguese or Brazilian Studies course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "subjects": [
+            "PORT"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "approval": "lusophone-content",
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Portuguese and Brazilian Studies electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "subjects": [
+            "PORT"
+          ],
+          "numberMin": 2020
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "approval": "lusophone-content"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Intermediate Portuguese proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PORT 2020"
+          ],
+          "minGrade": "B-",
+          "minCredits": 3
+        },
+        {
+          "approval": "portuguese-intermediate-equivalent"
+        }
+      ],
+      "allocationGroup": "language"
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "courses",
+      "label": "Language equivalency and eligible thematic courses",
+      "instruction": "Confirm equivalent Portuguese proficiency and the eligibility of courses with a Brazilian, Portuguese or Lusophone African component. For study abroad credit, verify the approved program in Brazil or Portugal."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

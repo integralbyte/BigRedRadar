@@ -1,0 +1,95 @@
+{
+  "programId": "civil-infrastructure-minor",
+  "name": "Civil Infrastructure Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out. Engineering statics and five eligible civil infrastructure electives.",
+  "sources": [
+    "https://courses.cornell.edu/programs/civil-infrastructure-minor/civil-infrastructure-minor.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "excludePrograms": [
+    "civil-engineering-bs"
+  ],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2026",
+          "slots": [
+            {
+              "id": "required",
+              "label": "Statics and Mechanics of Solids",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 2020"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "additional",
+              "label": "Additional Civil Infrastructure coursework",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "CEE 3410",
+                    "CEE 3710",
+                    "CEE 4725",
+                    "CEE 4740",
+                    "CEE 4745",
+                    "CEE 4760",
+                    "CEE 4780",
+                    "CEE 5950",
+                    "MAE 4700"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "subjects": [
+                    "CEE"
+                  ],
+                  "approval": "cee-infrastructure-teachout-petition",
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2026 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "exceptions",
+      "label": "Continuing student courses and petitions",
+      "instruction": "Confirm the governing edition and any replacement CEE courses in advance with Civil and Environmental Engineering."
+    }
+  ]
+}

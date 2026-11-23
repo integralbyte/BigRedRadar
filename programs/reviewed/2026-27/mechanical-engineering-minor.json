@@ -1,0 +1,158 @@
+{
+  "programId": "mechanical-engineering-minor",
+  "name": "Mechanical Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Six courses including engineering foundations, advanced coursework, and an upper-level course meeting prerequisite criteria.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/mechanical-engineering-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/mae/degree/mechanical-engineering-minor-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Statics or Thermodynamics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2020",
+            "ENGRD 2210"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional Mechanical and Aerospace Engineering courses",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "subjects": [
+            "MAE"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "MAE 4980"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "mechanical-engineering-bs"
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "MAE 4900",
+            "MAE 4291"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "course-approval",
+      "label": "Course prerequisites and policy confirmation",
+      "instruction": "Confirm that the qualifying upper-level course has the required prerequisite. The department’s public page mentions transfer by petition while the Catalog excludes transfer credit, so check with the Sibley School before applying external coursework."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "Two courses above the 3000 level",
+      "slots": [
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "MAE"
+          ],
+          "numberMin": 3001,
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "MAE 4980"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prerequisite",
+      "label": "One qualifying upper-level course",
+      "slots": [
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "MAE"
+          ],
+          "numberMin": 5001,
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "MAE 4980"
+          ]
+        },
+        {
+          "subjects": [
+            "MAE"
+          ],
+          "numberMin": 3261,
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "MAE 4980"
+          ],
+          "approval": "me-minor-qualifying-prerequisite"
+        }
+      ]
+    }
+  ]
+}

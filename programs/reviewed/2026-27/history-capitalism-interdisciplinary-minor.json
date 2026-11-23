@@ -1,0 +1,181 @@
+{
+  "programId": "history-capitalism-interdisciplinary-minor",
+  "name": "History of Capitalism Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "An introductory survey, an economics or business course, and three courses from the history department list.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/history-capitalism-interdisciplinary-minor/#curriculumtext",
+    "https://history.cornell.edu/history-capitalism-minor-approved-courses"
+  ],
+  "slots": [
+    {
+      "id": "survey",
+      "label": "Capitalism survey",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "HIST 1540",
+            "HIST 3081"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "capitalism-approved-survey"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Economics or business",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "ECON 1110",
+            "ECON 1120",
+            "ECON 3030",
+            "ECON 3300",
+            "GOVT 3547",
+            "GOVT 3557",
+            "AEM 2241",
+            "HADM 2250"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "capitalism-approved-business"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Approved historical courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "ASRC 3010",
+            "ANTHR 2440",
+            "ECON 3480",
+            "GERST 3610",
+            "GOVT 2225",
+            "GOVT 3303",
+            "GOVT 4021",
+            "HIST 1640",
+            "HIST 1690",
+            "HIST 1950",
+            "HIST 1955",
+            "HIST 1960",
+            "HIST 1986",
+            "HIST 2212",
+            "HIST 2220",
+            "HIST 2452",
+            "HIST 2423",
+            "HIST 2541",
+            "HIST 2581",
+            "HIST 2641",
+            "HIST 2680",
+            "HIST 2885",
+            "HIST 3181",
+            "HIST 3652",
+            "HIST 3740",
+            "HIST 3825",
+            "HIST 4041",
+            "ILRGL 3315",
+            "ILRLR 1100",
+            "ILRIC 2310",
+            "ILRIC 2350",
+            "ILRLR 2810",
+            "ILRLR 3035",
+            "ILRLR 3040",
+            "ILRLR 3065",
+            "ILRLR 3071",
+            "ILRLE 3440",
+            "ILRLR 3880",
+            "ILRLR 3870",
+            "ILRLR 4845"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "capitalism-approved-history"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "historical",
+      "label": "Archived electives and substitutions",
+      "instruction": "Confirm any courses from the department list with unavailable codes or special restrictions, including instructor permission for HIST 6065."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

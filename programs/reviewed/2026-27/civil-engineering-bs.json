@@ -1,0 +1,614 @@
+{
+  "programId": "civil-engineering-bs",
+  "name": "Civil Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Civil Engineering core, alternative distribution assignments, and distinct capstone and design courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/civil-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/cee/degree/civil-engineering-bs-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "core-dynamics",
+      "label": "Structural dynamics or dynamics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 4780",
+            "MAE 2030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "distribution-mechanics",
+      "label": "Statics and mechanics of solids",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-cee-3230",
+      "label": "CEE 3230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-cee-3310",
+      "label": "CEE 3310",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3310"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-cee-3710",
+      "label": "CEE 3710",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3710"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Uncertainty analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3040"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "ENGRD 2700"
+          ],
+          "minGrade": "D-",
+          "approval": "civil-statistics-petition"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Capstone design elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 4210",
+            "CEE 6210",
+            "CEE 4760",
+            "CEE 4565",
+            "CEE 4740"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "label": "Two design electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "BEE 4510",
+            "BEE 4730",
+            "BEE 4880",
+            "CEE 4200",
+            "CEE 4350",
+            "CEE 4640",
+            "CEE 4665",
+            "CEE 4745",
+            "CEE 4795",
+            "CEE 4800",
+            "CEE 4880",
+            "CEE 5710",
+            "CEE 5740",
+            "CEE 5746",
+            "CEE 6648",
+            "MAE 4021",
+            "MSE 5150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "civil-extra-science",
+      "label": "Additional approved science course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "civil-extra-science",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "civil-advisor-elective",
+      "label": "Advisor-approved electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "approval": "civil-advisor-elective",
+          "minGrade": "D-",
+          "numberMin": 1100
+        }
+      ]
+    },
+    {
+      "id": "core-geotechnical",
+      "label": "Geotechnical engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3410"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "CEE 4800"
+          ],
+          "minGrade": "D-",
+          "approval": "civil-geotechnical-substitute"
+        }
+      ]
+    },
+    {
+      "id": "core-transportation",
+      "label": "Transportation engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3610"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "CEE 4725",
+            "MAE 3270"
+          ],
+          "minGrade": "D-",
+          "approval": "civil-transportation-substitute"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "distribution",
+      "label": "Second engineering distribution",
+      "options": [
+        {
+          "id": "other",
+          "label": "Another engineering distribution",
+          "slots": [
+            {
+              "id": "distribution-two",
+              "label": "Second engineering distribution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 2110",
+                    "ENGRD 2112",
+                    "ENGRD 2140",
+                    "ENGRD 2610",
+                    "ENGRD 2620",
+                    "ENGRD 2700",
+                    "ENGRD 2720",
+                    "ENGRD 2100",
+                    "ENGRD 2300",
+                    "ENGRD 2550",
+                    "ENGRD 2111",
+                    "ENGRD 2190",
+                    "ENGRD 2210",
+                    "ENGRD 2250",
+                    "ENGRD 2400",
+                    "ENGRD 2600",
+                    "ENGRD 2202"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-computation",
+              "label": "Engineering computation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-sustainability",
+              "label": "Engineering processes for environmental sustainability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2510",
+                    "ENGRD 2510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CEE 4800",
+                    "CEE 4725",
+                    "MAE 3270"
+                  ],
+                  "minGrade": "D-",
+                  "approval": "civil-sustainability-substitute"
+                }
+              ]
+            },
+            {
+              "id": "civil-major-approved",
+              "label": "Major-approved electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4750",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 4510",
+                    "CEE 4520",
+                    "CEE 4530",
+                    "CEE 4560",
+                    "CEE 4570",
+                    "CEE 4620",
+                    "CEE 4725",
+                    "CEE 4780",
+                    "CEE 4930",
+                    "CEE 5200",
+                    "CEE 5240",
+                    "CEE 5735",
+                    "CEE 5745",
+                    "CEE 5900",
+                    "CEE 5950",
+                    "CEE 5980",
+                    "CEE 6200",
+                    "CEE 6300",
+                    "CEE 6530",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CEE 6590",
+                    "CEE 6640",
+                    "CEE 6790",
+                    "CEE 6930",
+                    "EAS 4570",
+                    "ENMGT 5970",
+                    "MAE 3270",
+                    "MAE 4020",
+                    "MAE 4700",
+                    "ORIE 4330"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "civil-major-elective",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "computation",
+          "label": "Engineering computation as distribution",
+          "slots": [
+            {
+              "id": "distribution-two",
+              "label": "Engineering computation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-sustainability",
+              "label": "Engineering processes for environmental sustainability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2510",
+                    "ENGRD 2510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CEE 4800",
+                    "CEE 4725",
+                    "MAE 3270"
+                  ],
+                  "minGrade": "D-",
+                  "approval": "civil-sustainability-substitute"
+                }
+              ]
+            },
+            {
+              "id": "civil-major-approved",
+              "label": "Major-approved electives and replacement course",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4750",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 4510",
+                    "CEE 4520",
+                    "CEE 4530",
+                    "CEE 4560",
+                    "CEE 4570",
+                    "CEE 4620",
+                    "CEE 4725",
+                    "CEE 4780",
+                    "CEE 4930",
+                    "CEE 5200",
+                    "CEE 5240",
+                    "CEE 5735",
+                    "CEE 5745",
+                    "CEE 5900",
+                    "CEE 5950",
+                    "CEE 5980",
+                    "CEE 6200",
+                    "CEE 6300",
+                    "CEE 6530",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CEE 6590",
+                    "CEE 6640",
+                    "CEE 6790",
+                    "CEE 6930",
+                    "EAS 4570",
+                    "ENMGT 5970",
+                    "MAE 3270",
+                    "MAE 4020",
+                    "MAE 4700",
+                    "ORIE 4330"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "civil-major-elective",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sustainability",
+          "label": "Environmental sustainability as distribution",
+          "slots": [
+            {
+              "id": "distribution-two",
+              "label": "Engineering processes for environmental sustainability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 2510",
+                    "ENGRD 2510"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-computation",
+              "label": "Engineering computation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRD 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "civil-major-approved",
+              "label": "Major-approved electives and replacement course",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4750",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 4510",
+                    "CEE 4520",
+                    "CEE 4530",
+                    "CEE 4560",
+                    "CEE 4570",
+                    "CEE 4620",
+                    "CEE 4725",
+                    "CEE 4780",
+                    "CEE 4930",
+                    "CEE 5200",
+                    "CEE 5240",
+                    "CEE 5735",
+                    "CEE 5745",
+                    "CEE 5900",
+                    "CEE 5950",
+                    "CEE 5980",
+                    "CEE 6200",
+                    "CEE 6300",
+                    "CEE 6530",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CEE 6590",
+                    "CEE 6640",
+                    "CEE 6790",
+                    "CEE 6930",
+                    "EAS 4570",
+                    "ENMGT 5970",
+                    "MAE 3270",
+                    "MAE 4020",
+                    "MAE 4700",
+                    "ORIE 4330"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "civil-major-elective",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "core-",
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "maxGrade": "D+"
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "engineering-communications",
+      "label": "Engineering communications",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRC 3610"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "engineering-communications",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "design-areas",
+      "label": "Design context and substitution conditions",
+      "instruction": "Confirm at least two engineering contexts across the three design courses. Verify companion courses before applying the published Smart Cities or Civil Infrastructure substitutions."
+    },
+    {
+      "id": "common",
+      "label": "Engineering common curriculum",
+      "instruction": "Confirm 125 academic credits, the additional science course, placement, prerequisites and any replacement advisor-approved elective for communications overlap."
+    }
+  ]
+}

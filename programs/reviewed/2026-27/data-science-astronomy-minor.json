@@ -1,0 +1,186 @@
+{
+  "programId": "data-science-astronomy-minor",
+  "name": "Data Science in Astronomy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One astronomy core, two astronomy data courses, one probability or statistics course, and one data structure or algorithms course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/data-science-astronomy-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "astronomy",
+      "label": "Astronomy foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ASTRO 3301",
+            "ASTRO 3302",
+            "ASTRO 3303"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ASTRO 3301",
+            "ASTRO 3302",
+            "ASTRO 3303"
+          ],
+          "numberMax": 2999,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data-oriented astronomy",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ASTRO 3310",
+            "ASTRO 3334",
+            "ASTRO 3340",
+            "ASTRO 4410",
+            "ASTRO 4523"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ASTRO 3310",
+            "ASTRO 3334",
+            "ASTRO 3340",
+            "ASTRO 4410",
+            "ASTRO 4523"
+          ],
+          "numberMax": 2999,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ASTRO 4940"
+          ],
+          "minGrade": "C-",
+          "approval": "astro-data-independent-study",
+          "maxCountedCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Probability and statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 3100",
+            "ENGRD 2700",
+            "MATH 4710",
+            "MATH 4720",
+            "ORIE 3500",
+            "STSCI 3080",
+            "STSCI 4520",
+            "STSCI 4780"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECE 3100",
+            "ENGRD 2700",
+            "MATH 4710",
+            "MATH 4720",
+            "ORIE 3500",
+            "STSCI 3080",
+            "STSCI 4520",
+            "STSCI 4780"
+          ],
+          "numberMax": 2999,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "label": "Data structures and algorithms",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2110",
+            "CS 3110",
+            "ENGRD 2720",
+            "INFO 2950",
+            "ORIE 3120",
+            "ORIE 4740",
+            "ORIE 4742"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CS 2110",
+            "CS 3110",
+            "ENGRD 2720",
+            "INFO 2950",
+            "ORIE 3120",
+            "ORIE 4740",
+            "ORIE 4742"
+          ],
+          "numberMax": 2999,
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "astronomy-ba"
+  ],
+  "limits": [
+    {
+      "max": 4,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "ASTRO 4940"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "astronomy-research",
+      "label": "Approved independent study",
+      "instruction": "Confirm how an approved ASTRO 4940 course applies to the minor with the Astronomy Director of Undergraduate Studies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

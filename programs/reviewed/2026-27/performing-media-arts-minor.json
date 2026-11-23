@@ -1,0 +1,267 @@
+{
+  "programId": "performing-media-arts-minor",
+  "name": "Performing and Media Arts Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction, global study, design, creative authorship, embodied performance, and a production lab.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/performing-media-arts-minor/#curriculumtext",
+    "https://pma.cornell.edu/undergraduate-minor",
+    "https://catalog.cornell.edu/programs/performing-media-arts-ba/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Performing and Media Arts",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "PMA 2100"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global",
+      "label": "Global dance, cinema or theatre",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "PMA 3226",
+            "PMA 3550",
+            "PMA 3750"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de",
+      "label": "Design",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "MUSIC 3431",
+            "PMA 2640",
+            "PMA 3241",
+            "PMA 3614",
+            "PMA 3615",
+            "PMA 3616",
+            "PMA 3630",
+            "PMA 3632",
+            "PMA 3640",
+            "PMA 3660",
+            "PMA 3661",
+            "PMA 3680",
+            "PMA 3691",
+            "PMA 3692"
+          ],
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "approval": "pma-minor-de"
+        }
+      ]
+    },
+    {
+      "id": "au",
+      "label": "Creative Authorship",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "ANTHR 3110",
+            "ANTHR 4401",
+            "ART 3104",
+            "ART 3105",
+            "ART 3786",
+            "PMA 2300",
+            "PMA 3104",
+            "PMA 3105",
+            "PMA 3240",
+            "PMA 3242",
+            "PMA 3243",
+            "PMA 3508",
+            "PMA 3510",
+            "PMA 3531",
+            "PMA 3570",
+            "PMA 3571",
+            "PMA 3580",
+            "PMA 3686",
+            "PMA 3805",
+            "PMA 3880",
+            "PMA 4401",
+            "PMA 4532",
+            "PMA 4585",
+            "PMA 4660",
+            "PMA 4661",
+            "PMA 4880",
+            "VISST 2511",
+            "VISST 3798",
+            "VISST 4260",
+            "VISST 4793"
+          ],
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "approval": "pma-minor-au"
+        }
+      ]
+    },
+    {
+      "id": "ep",
+      "label": "Embodied Performance",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "PMA 1700",
+            "PMA 2221",
+            "PMA 2240",
+            "PMA 2800",
+            "PMA 3210",
+            "PMA 3800",
+            "PMA 3801",
+            "PMA 3841",
+            "PMA 3887",
+            "PMA 4800",
+            "PMA 4801",
+            "SHUM 2240",
+            "VISST 2540"
+          ],
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "approval": "pma-minor-ep"
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "label": "Production laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 2,
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "performing-media-arts-ba"
+  ],
+  "manual": [
+    {
+      "id": "requirements",
+      "label": "Course rubric, PMA instructors and approved study abroad",
+      "instruction": "Confirm that courses have the appropriate rubric and PMA instructors, and verify affiliated study abroad or an approved substitution. Declare before the third week of the final semester."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "programId": "theatre-minor",
+  "name": "Theatre Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Global theatre, acting or design, three approved theatre courses and production lab.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/theatre-minor/#curriculumtext",
+    "https://pma.cornell.edu/undergraduate-minor"
+  ],
+  "slots": [
+    {
+      "id": "global",
+      "label": "Global Theatre and Performance",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ],
+          "codes": [
+            "PMA 3750"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acting-design",
+      "label": "Acting or a PMA Design course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ],
+          "codes": [
+            "PMA 2800",
+            "MUSIC 3431",
+            "PMA 2640",
+            "PMA 3241",
+            "PMA 3614",
+            "PMA 3615",
+            "PMA 3616",
+            "PMA 3630",
+            "PMA 3632",
+            "PMA 3640",
+            "PMA 3660",
+            "PMA 3661",
+            "PMA 3680",
+            "PMA 3691",
+            "PMA 3692"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ],
+          "approval": "pma-minor-de"
+        }
+      ]
+    },
+    {
+      "id": "theatre",
+      "label": "Theatre-focused coursework",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ],
+          "subjects": [
+            "PMA"
+          ],
+          "approval": "pma-theatre-elective",
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "label": "Production laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 2,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ],
+          "codes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Theatre focus, PMA instruction and declaration",
+      "instruction": "Verify theatre focus, cross-listed sections taught by PMA faculty and Cornell-affiliated study abroad. Declare before the third week of your final semester."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

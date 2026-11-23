@@ -1,0 +1,293 @@
+{
+  "programId": "near-eastern-studies-ba",
+  "name": "Near Eastern Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The methods course, temporal breadth, language and 30 major credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/near-eastern-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Theory and method in Near Eastern Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NES 4560"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "pre-600",
+      "label": "Before 600 CE",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "approval": "nes-period-pre-600",
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-category-petition-pre-600",
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "600-to-1800",
+      "label": "600 to 1800 CE",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "approval": "nes-period-600-to-1800",
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-category-petition-600-to-1800",
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "after-1800",
+      "label": "1800 CE to the present",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "approval": "nes-period-after-1800",
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-category-petition-after-1800",
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "extra-nes",
+      "label": "Additional Near Eastern Studies coursework",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-approved-cornell-course",
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-additional-language",
+          "minGrade": "B-"
+        },
+        {
+          "approval": "nes-approved-external",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "language",
+      "label": "Middle Eastern language requirement",
+      "options": [
+        {
+          "id": "modern",
+          "label": "Standard modern language sequence",
+          "slots": [
+            {
+              "id": "language-completion",
+              "label": "Fourth-semester proficiency course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARAB 2202",
+                    "HEBRW 2100",
+                    "PERSN 2322",
+                    "TURK 2332"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "B-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "approved-other",
+          "label": "Ancient language or other approved path",
+          "slots": [],
+          "manual": [
+            {
+              "id": "language-confirm",
+              "label": "Advisor-verified language proficiency",
+              "instruction": "Verify functional proficiency in one Middle Eastern language or the approved exception using two languages."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "credits",
+      "label": "Near Eastern Studies credits",
+      "slots": [
+        "core",
+        "pre-600",
+        "600-to-1800",
+        "after-1800",
+        "extra-nes"
+      ],
+      "need": 30,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "core",
+        "pre-600",
+        "600-to-1800",
+        "after-1800",
+        "extra-nes"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "core",
+        "pre-600",
+        "600-to-1800",
+        "after-1800",
+        "extra-nes"
+      ],
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "nes-independent-study"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "core",
+        "pre-600",
+        "600-to-1800",
+        "after-1800",
+        "extra-nes"
+      ],
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "nes-approved-cornell-course"
+        },
+        {
+          "approval": "nes-category-petition-pre-600",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "nes-category-petition-600-to-1800",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "nes-category-petition-after-1800",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "breadth-and-exceptions",
+      "label": "Chronological and independent-study designations",
+      "instruction": "Confirm the chronological period and flag independent study courses. Only language courses beyond the proficiency requirement can receive major credit."
+    }
+  ]
+}

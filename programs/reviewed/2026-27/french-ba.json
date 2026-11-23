@@ -1,0 +1,342 @@
+{
+  "programId": "french-ba",
+  "name": "French (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eight graded courses with the department’s July 2026 declaration transition.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/french-ba/#curriculumtext",
+    "https://romancestudies.cornell.edu/french-undergraduate"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "french-cohort",
+      "label": "Major declaration date",
+      "options": [
+        {
+          "id": "prior-to-july-2026",
+          "label": "Declared on or before July 1, 2026",
+          "slots": [
+            {
+              "id": "french-survey",
+              "label": "Introduction to French and Francophone Literature and Culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FREN 2310"
+                  ],
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-survey-equivalent",
+                  "minGrade": "B-",
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "french-electives",
+              "label": "Approved French and Francophone coursework",
+              "unit": "courses",
+              "need": 7,
+              "options": [
+                {
+                  "subjects": [
+                    "FREN"
+                  ],
+                  "numberMin": 2095,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-approved-external",
+                  "origins": [
+                    "study_abroad",
+                    "transfer"
+                  ],
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-approved-cornell-outside",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "numberMin": 2095,
+                  "minGrade": "B-",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "french-4000",
+              "label": "4000-level French coursework",
+              "slots": [
+                "french-survey",
+                "french-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            },
+            {
+              "id": "francophone",
+              "label": "Course on the Francophone world beyond France",
+              "slots": [
+                "french-survey",
+                "french-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "fren-francophone-beyond-france"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "french-survey",
+                "french-electives"
+              ],
+              "max": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "fren-approved-cornell-outside"
+                }
+              ]
+            },
+            {
+              "slots": [
+                "french-survey",
+                "french-electives"
+              ],
+              "max": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "fren-taught-in-english"
+                }
+              ]
+            },
+            {
+              "slotPrefix": "french-",
+              "max": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "transfer",
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "post-july-2026",
+          "label": "Declared after July 1, 2026",
+          "slots": [
+            {
+              "id": "french-survey",
+              "label": "Introduction to French and Francophone Literature and Culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FREN 2310"
+                  ],
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-survey-equivalent",
+                  "minGrade": "B-",
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "french-upper",
+              "label": "French courses at 3000 level or above",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "subjects": [
+                    "FREN"
+                  ],
+                  "numberMin": 3000,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-approved-external",
+                  "origins": [
+                    "study_abroad",
+                    "transfer"
+                  ],
+                  "minGrade": "B-",
+                  "minCredits": 3,
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "french-electives",
+              "label": "French electives",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "FREN"
+                  ],
+                  "numberMin": 2095,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "B-",
+                  "minCredits": 3
+                },
+                {
+                  "approval": "fren-approved-external",
+                  "origins": [
+                    "study_abroad",
+                    "transfer"
+                  ],
+                  "minGrade": "B-",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "intro-french-count",
+              "label": "Courses taught in French",
+              "slots": [
+                "french-survey",
+                "french-upper",
+                "french-electives"
+              ],
+              "need": 5,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "FREN 2310"
+                  ]
+                },
+                {
+                  "approval": "fren-taught-in-french"
+                }
+              ]
+            },
+            {
+              "id": "french-upper-language",
+              "label": "Courses taught in French at 3000 level or above",
+              "slots": [
+                "french-upper"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "FREN 2310"
+                  ]
+                },
+                {
+                  "approval": "fren-taught-in-french"
+                }
+              ]
+            },
+            {
+              "id": "french-4000",
+              "label": "4000-level course",
+              "slots": [
+                "french-upper"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 4999
+                }
+              ]
+            },
+            {
+              "id": "francophone",
+              "label": "Course on the Francophone world beyond France",
+              "slots": [
+                "french-survey",
+                "french-upper",
+                "french-electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "fren-francophone-beyond-france"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slotPrefix": "french-",
+              "max": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "transfer",
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language-and-transfer",
+      "label": "Course language, focus and external credit",
+      "instruction": "Confirm the language of instruction and Francophone focus, and obtain approval for equivalents or qualifying transfer and other Cornell courses."
+    }
+  ]
+}

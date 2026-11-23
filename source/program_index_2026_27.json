@@ -1,0 +1,2818 @@
+{
+  "catalog_year": "2026-27",
+  "observed_on": "2026-11-23",
+  "official_index_url": "https://catalog.cornell.edu/programs/",
+  "official_index_section": "Type — Undergraduate Programs and Undergraduate Minors",
+  "programs": [
+    {
+      "id": "africana-studies-ba",
+      "type": "major",
+      "name": "Africana Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/africana-studies-ba/",
+      "workbook_rows": [
+        68
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "agricultural-sciences-bs",
+      "type": "major",
+      "name": "Agricultural Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/agricultural-sciences-bs/",
+      "workbook_rows": [
+        69
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "american-studies-ba",
+      "type": "major",
+      "name": "American Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/american-studies-ba/",
+      "workbook_rows": [
+        2
+      ],
+      "existing_rule_ids": [
+        "maj:AMST"
+      ]
+    },
+    {
+      "id": "animal-science-bs",
+      "type": "major",
+      "name": "Animal Science (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/animal-science-bs/",
+      "workbook_rows": [
+        3
+      ],
+      "existing_rule_ids": [
+        "maj:ANSC"
+      ]
+    },
+    {
+      "id": "anthropology-ba",
+      "type": "major",
+      "name": "Anthropology (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/anthropology-ba/",
+      "workbook_rows": [
+        4
+      ],
+      "existing_rule_ids": [
+        "maj:ANTHR"
+      ]
+    },
+    {
+      "id": "applied-economics-management-bs",
+      "type": "major",
+      "name": "Applied Economics and Management (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/applied-economics-management-bs/",
+      "workbook_rows": [
+        5
+      ],
+      "existing_rule_ids": [
+        "maj:AEM"
+      ]
+    },
+    {
+      "id": "archaeology-ba",
+      "type": "major",
+      "name": "Archaeology (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/archaeology-ba/",
+      "workbook_rows": [
+        70
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "architecture-barch",
+      "type": "major",
+      "name": "Architecture (BAR)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/architecture-barch/",
+      "workbook_rows": [
+        6
+      ],
+      "existing_rule_ids": [
+        "maj:BARCH"
+      ]
+    },
+    {
+      "id": "asian-studies-ba",
+      "type": "major",
+      "name": "Asian Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/",
+      "workbook_rows": [
+        71
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "astronomy-ba",
+      "type": "major",
+      "name": "Astronomy (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/astronomy-ba/",
+      "workbook_rows": [
+        52
+      ],
+      "existing_rule_ids": [
+        "maj:ASTRO"
+      ]
+    },
+    {
+      "id": "atmospheric-science-bs",
+      "type": "major",
+      "name": "Atmospheric Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/atmospheric-science-bs/",
+      "workbook_rows": [
+        53
+      ],
+      "existing_rule_ids": [
+        "maj:AS"
+      ]
+    },
+    {
+      "id": "biological-engineering-bs",
+      "type": "major",
+      "name": "Biological Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biological-engineering-bs/",
+      "workbook_rows": [
+        54
+      ],
+      "existing_rule_ids": [
+        "maj:BE"
+      ]
+    },
+    {
+      "id": "biological-sciences-ba",
+      "type": "major",
+      "name": "Biological Sciences (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biological-sciences-ba/",
+      "workbook_rows": [
+        7
+      ],
+      "existing_rule_ids": [
+        "maj:BIO"
+      ]
+    },
+    {
+      "id": "biological-sciences-bs",
+      "type": "major",
+      "name": "Biological Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biological-sciences-bs/",
+      "workbook_rows": [
+        8
+      ],
+      "existing_rule_ids": [
+        "maj:BIO"
+      ]
+    },
+    {
+      "id": "biology-society-ba",
+      "type": "major",
+      "name": "Biology & Society (BA, BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biology-society-ba/",
+      "workbook_rows": [
+        9
+      ],
+      "existing_rule_ids": [
+        "maj:BSOC"
+      ],
+      "variants": [
+        {
+          "id": "ba",
+          "label": "Arts and Sciences BA"
+        },
+        {
+          "id": "bs",
+          "label": "CALS BS"
+        }
+      ]
+    },
+    {
+      "id": "biomedical-engineering-bs",
+      "type": "major",
+      "name": "Biomedical Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biomedical-engineering-bs/",
+      "workbook_rows": [
+        10
+      ],
+      "existing_rule_ids": [
+        "maj:BME"
+      ]
+    },
+    {
+      "id": "chemical-engineering-bs",
+      "type": "major",
+      "name": "Chemical Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/chemical-engineering-bs/",
+      "workbook_rows": [
+        11
+      ],
+      "existing_rule_ids": [
+        "maj:CHEME"
+      ]
+    },
+    {
+      "id": "chemistry-ba",
+      "type": "major",
+      "name": "Chemistry (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/chemistry-ba/",
+      "workbook_rows": [
+        12
+      ],
+      "existing_rule_ids": [
+        "maj:CHEM"
+      ]
+    },
+    {
+      "id": "china-asia-pacific-studies-ba",
+      "type": "major",
+      "name": "China and Asia-Pacific Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/china-asia-pacific-studies-ba/",
+      "workbook_rows": [
+        72
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "civil-engineering-bs",
+      "type": "major",
+      "name": "Civil Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/civil-engineering-bs/",
+      "workbook_rows": [
+        13
+      ],
+      "existing_rule_ids": [
+        "maj:CE"
+      ]
+    },
+    {
+      "id": "classics-ba",
+      "type": "major",
+      "name": "Classics (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/classics-ba/",
+      "workbook_rows": [
+        73
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "cognitive-science-ba",
+      "type": "major",
+      "name": "Cognitive Science (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/cognitive-science-ba/",
+      "workbook_rows": [
+        14
+      ],
+      "existing_rule_ids": [
+        "maj:COGST"
+      ]
+    },
+    {
+      "id": "college-scholar-ba",
+      "type": "major",
+      "name": "College Scholar (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/college-scholar-ba/",
+      "workbook_rows": [
+        74
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "communication-bs",
+      "type": "major",
+      "name": "Communication (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/communication-bs/",
+      "workbook_rows": [
+        15
+      ],
+      "existing_rule_ids": [
+        "maj:COMM"
+      ]
+    },
+    {
+      "id": "comparative-literature-ba",
+      "type": "major",
+      "name": "Comparative Literature (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/comparative-literature-ba/",
+      "workbook_rows": [
+        75
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "computer-science-ba",
+      "type": "major",
+      "name": "Computer Science (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/computer-science-ba/",
+      "workbook_rows": [
+        16
+      ],
+      "existing_rule_ids": [
+        "maj:CS"
+      ]
+    },
+    {
+      "id": "computer-science-bs",
+      "type": "major",
+      "name": "Computer Science (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/computer-science-bs/",
+      "workbook_rows": [
+        17
+      ],
+      "existing_rule_ids": [
+        "maj:CS"
+      ]
+    },
+    {
+      "id": "design-environmental-analysis-bs",
+      "type": "major",
+      "name": "Design and Environmental Analysis (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/design-environmental-analysis-bs/",
+      "workbook_rows": [
+        55
+      ],
+      "existing_rule_ids": [
+        "maj:DEA"
+      ]
+    },
+    {
+      "id": "earth-climate-sciences-ba",
+      "type": "major",
+      "name": "Earth and Climate Sciences (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ba/",
+      "workbook_rows": [
+        56
+      ],
+      "existing_rule_ids": [
+        "maj:EAS"
+      ],
+      "previous_catalog_url": "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-ba/"
+    },
+    {
+      "id": "earth-climate-sciences-ecsag-bs",
+      "type": "major",
+      "name": "Earth and Climate Sciences (ECSAG-BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ecsag-bs/",
+      "workbook_rows": [
+        57
+      ],
+      "existing_rule_ids": [
+        "maj:EAS"
+      ],
+      "previous_catalog_url": "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-easag-bs/"
+    },
+    {
+      "id": "earth-climate-sciences-ecsen-bs",
+      "type": "major",
+      "name": "Earth and Climate Sciences (ECSEN-BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ecsen-bs/",
+      "workbook_rows": [
+        58
+      ],
+      "existing_rule_ids": [
+        "maj:EAS"
+      ],
+      "previous_catalog_url": "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-easen-bs/"
+    },
+    {
+      "id": "economics-ba",
+      "type": "major",
+      "name": "Economics (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/economics-ba/",
+      "workbook_rows": [
+        18
+      ],
+      "existing_rule_ids": [
+        "maj:ECON"
+      ]
+    },
+    {
+      "id": "electrical-computer-engineering-bs",
+      "type": "major",
+      "name": "Electrical and Computer Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/electrical-computer-engineering-bs/",
+      "workbook_rows": [
+        19
+      ],
+      "existing_rule_ids": [
+        "maj:ECE"
+      ]
+    },
+    {
+      "id": "engineering-physics-bs",
+      "type": "major",
+      "name": "Engineering Physics (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/engineering-physics-bs/",
+      "workbook_rows": [
+        59
+      ],
+      "existing_rule_ids": [
+        "maj:EP"
+      ]
+    },
+    {
+      "id": "english-ba",
+      "type": "major",
+      "name": "English (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/english-ba/",
+      "workbook_rows": [
+        20
+      ],
+      "existing_rule_ids": [
+        "maj:ENGL"
+      ]
+    },
+    {
+      "id": "entomology-bs",
+      "type": "major",
+      "name": "Entomology (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/entomology-bs/",
+      "workbook_rows": [
+        76
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "environment-sustainability-ba",
+      "type": "major",
+      "name": "Environment & Sustainability (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/environment-sustainability-ba/",
+      "workbook_rows": [
+        21
+      ],
+      "existing_rule_ids": [
+        "maj:ENVS"
+      ]
+    },
+    {
+      "id": "environment-sustainability-bs",
+      "type": "major",
+      "name": "Environment & Sustainability (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/environment-sustainability-bs/",
+      "workbook_rows": [
+        22
+      ],
+      "existing_rule_ids": [
+        "maj:ENVS"
+      ]
+    },
+    {
+      "id": "environmental-engineering-bs",
+      "type": "major",
+      "name": "Environmental Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/environmental-engineering-bs/",
+      "workbook_rows": [
+        60
+      ],
+      "existing_rule_ids": [
+        "maj:ENV"
+      ]
+    },
+    {
+      "id": "fashion-design-management-bs",
+      "type": "major",
+      "name": "Fashion Design and Management (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fashion-design-management-bs/",
+      "workbook_rows": [
+        61
+      ],
+      "existing_rule_ids": [
+        "maj:FSAD"
+      ]
+    },
+    {
+      "id": "fgss-ba",
+      "type": "major",
+      "name": "Feminist, Gender, & Sexuality Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fgss-ba/",
+      "workbook_rows": [
+        77
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fiber-science-bs",
+      "type": "major",
+      "name": "Fiber Science (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fiber-science-bs/",
+      "workbook_rows": [
+        78
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "art-bfa",
+      "type": "major",
+      "name": "Fine Arts (BFA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/art-bfa/",
+      "workbook_rows": [
+        23
+      ],
+      "existing_rule_ids": [
+        "maj:BFA"
+      ]
+    },
+    {
+      "id": "food-science-bs",
+      "type": "major",
+      "name": "Food Science (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/food-science-bs/",
+      "workbook_rows": [
+        62
+      ],
+      "existing_rule_ids": [
+        "maj:FDSC"
+      ]
+    },
+    {
+      "id": "french-ba",
+      "type": "major",
+      "name": "French (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/french-ba/",
+      "workbook_rows": [
+        24
+      ],
+      "existing_rule_ids": [
+        "maj:FREN"
+      ]
+    },
+    {
+      "id": "german-studies-ba",
+      "type": "major",
+      "name": "German Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/german-studies-ba/",
+      "workbook_rows": [
+        25
+      ],
+      "existing_rule_ids": [
+        "maj:GERST"
+      ]
+    },
+    {
+      "id": "global-public-health-sciences-bs",
+      "type": "major",
+      "name": "Global & Public Health Sciences (GPHSAG-BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-public-health-sciences-bs/",
+      "workbook_rows": [
+        26
+      ],
+      "existing_rule_ids": [
+        "maj:GPHS"
+      ]
+    },
+    {
+      "id": "global-public-health-sciences-hum-ecol-bs",
+      "type": "major",
+      "name": "Global & Public Health Sciences (GPHSHE-BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-public-health-sciences-hum-ecol-bs/",
+      "workbook_rows": [
+        27
+      ],
+      "existing_rule_ids": [
+        "maj:GPHS"
+      ]
+    },
+    {
+      "id": "global-development-bs",
+      "type": "major",
+      "name": "Global Development (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-development-bs/",
+      "workbook_rows": [
+        28
+      ],
+      "existing_rule_ids": [
+        "maj:GDEV"
+      ]
+    },
+    {
+      "id": "government-ba",
+      "type": "major",
+      "name": "Government (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/government-ba/",
+      "workbook_rows": [
+        29
+      ],
+      "existing_rule_ids": [
+        "maj:GOVT"
+      ]
+    },
+    {
+      "id": "health-care-policy-major-bs",
+      "type": "major",
+      "name": "Health Care Policy (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/health-care-policy-major-bs/",
+      "workbook_rows": [
+        30
+      ],
+      "existing_rule_ids": [
+        "maj:HCP"
+      ]
+    },
+    {
+      "id": "history-ba",
+      "type": "major",
+      "name": "History (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-ba/",
+      "workbook_rows": [
+        31
+      ],
+      "existing_rule_ids": [
+        "maj:HIST"
+      ]
+    },
+    {
+      "id": "history-architecture-urban-development-bs-haud",
+      "type": "major",
+      "name": "History of Architecture and Urban Development (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-architecture-urban-development-bs-haud/",
+      "workbook_rows": [
+        79
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "history-art-ba",
+      "type": "major",
+      "name": "History of Art (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-art-ba/",
+      "workbook_rows": [
+        80
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "hotel-management-bs",
+      "type": "major",
+      "name": "Hotel Administration (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/hotel-management-bs/",
+      "workbook_rows": [
+        32
+      ],
+      "existing_rule_ids": [
+        "maj:HADM"
+      ]
+    },
+    {
+      "id": "human-biology-health-society-bs",
+      "type": "major",
+      "name": "Human Biology, Health, and Society (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/human-biology-health-society-bs/",
+      "workbook_rows": [
+        81
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "human-development-bs",
+      "type": "major",
+      "name": "Human Development (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/human-development-bs/",
+      "workbook_rows": [
+        33
+      ],
+      "existing_rule_ids": [
+        "maj:HD"
+      ]
+    },
+    {
+      "id": "independent-major",
+      "type": "major",
+      "name": "Independent Major (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/independent-major/",
+      "workbook_rows": [
+        82
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "industrial-labor-relations-bs",
+      "type": "major",
+      "name": "Industrial and Labor Relations (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/industrial-labor-relations-bs/",
+      "workbook_rows": [
+        34
+      ],
+      "existing_rule_ids": [
+        "maj:ILR"
+      ]
+    },
+    {
+      "id": "information-science-ba",
+      "type": "major",
+      "name": "Information Science (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/information-science-ba/",
+      "workbook_rows": [
+        35
+      ],
+      "existing_rule_ids": [
+        "maj:INFO"
+      ]
+    },
+    {
+      "id": "information-science-bs",
+      "type": "major",
+      "name": "Information Science (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/information-science-bs/",
+      "workbook_rows": [
+        36
+      ],
+      "existing_rule_ids": [
+        "maj:INFO"
+      ]
+    },
+    {
+      "id": "information-science-systems-technology-bs",
+      "type": "major",
+      "name": "Information Science, Systems, and Technology (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/information-science-systems-technology-bs/",
+      "workbook_rows": [
+        37
+      ],
+      "existing_rule_ids": [
+        "maj:ISST"
+      ]
+    },
+    {
+      "id": "interdisciplinary-studies-bs",
+      "type": "major",
+      "name": "Interdisciplinary Studies in Agriculture & Life Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/interdisciplinary-studies-bs/",
+      "workbook_rows": [
+        83
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "italian-ba",
+      "type": "major",
+      "name": "Italian (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/italian-ba/",
+      "workbook_rows": [
+        84
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "jewish-studies-ba",
+      "type": "major",
+      "name": "Jewish Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/jewish-studies-ba/",
+      "workbook_rows": [
+        38
+      ],
+      "existing_rule_ids": [
+        "maj:JWST"
+      ]
+    },
+    {
+      "id": "landscape-architecture-bs",
+      "type": "major",
+      "name": "Landscape Architecture (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/landscape-architecture-bs/",
+      "workbook_rows": [
+        85
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "latina-o-studies-ba",
+      "type": "major",
+      "name": "Latina/o Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/latina-o-studies-ba/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "linguistics-ba",
+      "type": "major",
+      "name": "Linguistics (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/linguistics-ba/",
+      "workbook_rows": [
+        63
+      ],
+      "existing_rule_ids": [
+        "maj:LING"
+      ]
+    },
+    {
+      "id": "materials-science-engineering-bs",
+      "type": "major",
+      "name": "Materials Science and Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/",
+      "workbook_rows": [
+        64
+      ],
+      "existing_rule_ids": [
+        "maj:MSE"
+      ]
+    },
+    {
+      "id": "mathematics-ba",
+      "type": "major",
+      "name": "Mathematics (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/mathematics-ba/",
+      "workbook_rows": [
+        39
+      ],
+      "existing_rule_ids": [
+        "maj:MATH"
+      ]
+    },
+    {
+      "id": "mechanical-engineering-bs",
+      "type": "major",
+      "name": "Mechanical Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/mechanical-engineering-bs/",
+      "workbook_rows": [
+        40
+      ],
+      "existing_rule_ids": [
+        "maj:ME"
+      ]
+    },
+    {
+      "id": "music-ba",
+      "type": "major",
+      "name": "Music (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/music-ba/",
+      "workbook_rows": [
+        86
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "near-eastern-studies-ba",
+      "type": "major",
+      "name": "Near Eastern Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/near-eastern-studies-ba/",
+      "workbook_rows": [
+        87
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "nutritional-sciences-bs",
+      "type": "major",
+      "name": "Nutritional Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/nutritional-sciences-bs/",
+      "workbook_rows": [
+        41
+      ],
+      "existing_rule_ids": [
+        "maj:NS"
+      ]
+    },
+    {
+      "id": "operations-research-engineering-bs",
+      "type": "major",
+      "name": "Operations Research and Engineering (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/operations-research-engineering-bs/",
+      "workbook_rows": [
+        42
+      ],
+      "existing_rule_ids": [
+        "maj:ORIE"
+      ]
+    },
+    {
+      "id": "performing-media-arts-ba",
+      "type": "major",
+      "name": "Performing and Media Arts (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/performing-media-arts-ba/",
+      "workbook_rows": [
+        88
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "philosophy-ba",
+      "type": "major",
+      "name": "Philosophy (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/philosophy-ba/",
+      "workbook_rows": [
+        43
+      ],
+      "existing_rule_ids": [
+        "maj:PHIL"
+      ]
+    },
+    {
+      "id": "physics-ba",
+      "type": "major",
+      "name": "Physics (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/physics-ba/",
+      "workbook_rows": [
+        44
+      ],
+      "existing_rule_ids": [
+        "maj:PHYS"
+      ]
+    },
+    {
+      "id": "plant-sciences-bs",
+      "type": "major",
+      "name": "Plant Sciences (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/plant-sciences-bs/",
+      "workbook_rows": [
+        89
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "psychology-ba",
+      "type": "major",
+      "name": "Psychology (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/psychology-ba/",
+      "workbook_rows": [
+        45
+      ],
+      "existing_rule_ids": [
+        "maj:PSYCH"
+      ]
+    },
+    {
+      "id": "public-policy-ba",
+      "type": "major",
+      "name": "Public Policy (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/public-policy-ba/",
+      "workbook_rows": [
+        46
+      ],
+      "existing_rule_ids": [
+        "maj:PPBA"
+      ]
+    },
+    {
+      "id": "public-policy-bs",
+      "type": "major",
+      "name": "Public Policy (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/public-policy-bs/",
+      "workbook_rows": [
+        47
+      ],
+      "existing_rule_ids": [
+        "maj:PUBPOL"
+      ]
+    },
+    {
+      "id": "religious-studies-ba",
+      "type": "major",
+      "name": "Religious Studies (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/religious-studies-ba/",
+      "workbook_rows": [
+        90
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "science-technology-studies-ba",
+      "type": "major",
+      "name": "Science, Technology and Society (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/science-technology-studies-ba/",
+      "workbook_rows": [
+        66
+      ],
+      "existing_rule_ids": [
+        "maj:STS"
+      ]
+    },
+    {
+      "id": "sociology-ba",
+      "type": "major",
+      "name": "Sociology (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/sociology-ba/",
+      "workbook_rows": [
+        91
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "spanish-ba",
+      "type": "major",
+      "name": "Spanish (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/spanish-ba/",
+      "workbook_rows": [
+        48
+      ],
+      "existing_rule_ids": [
+        "maj:SPAN"
+      ]
+    },
+    {
+      "id": "statistics-data-science-ba",
+      "type": "major",
+      "name": "Statistical Science (BA)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/statistics-data-science-ba/",
+      "workbook_rows": [
+        49
+      ],
+      "existing_rule_ids": [
+        "maj:STSCI"
+      ]
+    },
+    {
+      "id": "biometry-statistics-bs",
+      "type": "major",
+      "name": "Statistics & Biometry (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biometry-statistics-bs/",
+      "workbook_rows": [
+        50
+      ],
+      "existing_rule_ids": [
+        "maj:STSCI"
+      ]
+    },
+    {
+      "id": "urban-regional-studies-bs-urs",
+      "type": "major",
+      "name": "Urban and Regional Studies (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/urban-regional-studies-bs-urs/",
+      "workbook_rows": [
+        51
+      ],
+      "existing_rule_ids": [
+        "maj:URS"
+      ]
+    },
+    {
+      "id": "viticulture-enology-bs",
+      "type": "major",
+      "name": "Viticulture and Enology (BS)",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/viticulture-enology-bs/",
+      "workbook_rows": [
+        67
+      ],
+      "existing_rule_ids": [
+        "maj:VIEN"
+      ]
+    },
+    {
+      "id": "actuarial-science-minor",
+      "type": "minor",
+      "name": "Actuarial Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/actuarial-science-minor/",
+      "workbook_rows": [
+        126
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "aerospace-engineering-minor",
+      "type": "minor",
+      "name": "Aerospace Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/aerospace-engineering-minor/",
+      "workbook_rows": [
+        103
+      ],
+      "existing_rule_ids": [
+        "min:AEROSPACE"
+      ]
+    },
+    {
+      "id": "africana-minor",
+      "type": "minor",
+      "name": "Africana Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/africana-minor/",
+      "workbook_rows": [
+        127
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "american-indian-indigenous-studies-minor",
+      "type": "minor",
+      "name": "American Indian and Indigenous Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/american-indian-indigenous-studies-minor/",
+      "workbook_rows": [
+        128
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "asl-deaf-studies-minor",
+      "type": "minor",
+      "name": "American Sign Language (ASL)/Deaf Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/asl-deaf-studies-minor/",
+      "workbook_rows": [
+        125
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "american-studies-minor",
+      "type": "minor",
+      "name": "American Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/american-studies-minor/",
+      "workbook_rows": [
+        129
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "animal-science-minor",
+      "type": "minor",
+      "name": "Animal Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/animal-science-minor/",
+      "workbook_rows": [
+        104
+      ],
+      "existing_rule_ids": [
+        "min:ANIMALSCIENCE"
+      ]
+    },
+    {
+      "id": "anthropology-minor",
+      "type": "minor",
+      "name": "Anthropology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/anthropology-minor/",
+      "workbook_rows": [
+        130
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "applied-economics-minor",
+      "type": "minor",
+      "name": "Applied Economics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/applied-economics-minor/",
+      "workbook_rows": [
+        92
+      ],
+      "existing_rule_ids": [
+        "min:APPLIEDECON"
+      ]
+    },
+    {
+      "id": "applied-exercise-science-minor",
+      "type": "minor",
+      "name": "Applied Exercise Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/applied-exercise-science-minor/",
+      "workbook_rows": [
+        131
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "applied-mathematics-minor",
+      "type": "minor",
+      "name": "Applied Mathematics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/applied-mathematics-minor/",
+      "workbook_rows": [
+        105
+      ],
+      "existing_rule_ids": [
+        "min:APPLIEDMATH"
+      ]
+    },
+    {
+      "id": "arabic-minor",
+      "type": "minor",
+      "name": "Arabic",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/arabic-minor/",
+      "workbook_rows": [
+        132
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "archaeology-minor",
+      "type": "minor",
+      "name": "Archaeology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/archaeology-minor/",
+      "workbook_rows": [
+        133
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "architecture-minor-for-non-departmental-students",
+      "type": "minor",
+      "name": "Architecture",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/architecture-minor-for-non-departmental-students/",
+      "workbook_rows": [
+        134
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "artificial-intelligence-minor",
+      "type": "minor",
+      "name": "Artificial Intelligence",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/artificial-intelligence-minor/",
+      "workbook_rows": [
+        93
+      ],
+      "existing_rule_ids": [
+        "min:AI"
+      ]
+    },
+    {
+      "id": "asian-american-studies-minor",
+      "type": "minor",
+      "name": "Asian American Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/asian-american-studies-minor/",
+      "workbook_rows": [
+        135
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "astrobiology-minor",
+      "type": "minor",
+      "name": "Astrobiology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/astrobiology-minor/",
+      "workbook_rows": [
+        136
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "astronomy-minor",
+      "type": "minor",
+      "name": "Astronomy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/astronomy-minor/",
+      "workbook_rows": [
+        106
+      ],
+      "existing_rule_ids": [
+        "min:ASTRO"
+      ]
+    },
+    {
+      "id": "atmospheric-science-minor",
+      "type": "minor",
+      "name": "Atmospheric Sciences",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/atmospheric-science-minor/",
+      "workbook_rows": [
+        137
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "biological-engineering-minor",
+      "type": "minor",
+      "name": "Biological Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biological-engineering-minor/",
+      "workbook_rows": [
+        138
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "biomedical-engineering-minor",
+      "type": "minor",
+      "name": "Biomedical Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biomedical-engineering-minor/",
+      "workbook_rows": [
+        140
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "biomedical-sciences-minor",
+      "type": "minor",
+      "name": "Biomedical Sciences",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biomedical-sciences-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "biometry-statistics-minor",
+      "type": "minor",
+      "name": "Biometry and Statistics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/biometry-statistics-minor/",
+      "workbook_rows": [
+        141
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "business-minor",
+      "type": "minor",
+      "name": "Business",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/business-minor/",
+      "workbook_rows": [
+        94
+      ],
+      "existing_rule_ids": [
+        "min:BU"
+      ]
+    },
+    {
+      "id": "dyson-business-minor-engineers",
+      "type": "minor",
+      "name": "Business Minor for Engineers",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/dyson-business-minor-engineers/",
+      "workbook_rows": [
+        107
+      ],
+      "existing_rule_ids": [
+        "min:DBME"
+      ]
+    },
+    {
+      "id": "caribbean-studies-minor",
+      "type": "minor",
+      "name": "Caribbean Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/caribbean-studies-minor/",
+      "workbook_rows": [
+        143
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "china-asia-pacific-studies-minor",
+      "type": "minor",
+      "name": "China and Asia-Pacific Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/china-asia-pacific-studies-minor/",
+      "workbook_rows": [
+        144
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "classical-civilization-minor",
+      "type": "minor",
+      "name": "Classical Civilization",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/classical-civilization-minor/",
+      "workbook_rows": [
+        146
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "classics-minor",
+      "type": "minor",
+      "name": "Classics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/classics-minor/",
+      "workbook_rows": [
+        147
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "climate-change-minor",
+      "type": "minor",
+      "name": "Climate Change",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/climate-change-minor/",
+      "workbook_rows": [
+        108
+      ],
+      "existing_rule_ids": [
+        "min:CLIMATECHANGE"
+      ]
+    },
+    {
+      "id": "cognitive-science-minor",
+      "type": "minor",
+      "name": "Cognitive Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/cognitive-science-minor/",
+      "workbook_rows": [
+        109
+      ],
+      "existing_rule_ids": [
+        "min:COGSCI"
+      ]
+    },
+    {
+      "id": "communications-minor",
+      "type": "minor",
+      "name": "Communication",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/communications-minor/",
+      "workbook_rows": [
+        148
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "community-food-systems-minor-cfs",
+      "type": "minor",
+      "name": "Community Food Systems",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/community-food-systems-minor-cfs/",
+      "workbook_rows": [
+        149
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "comparative-literature-minor",
+      "type": "minor",
+      "name": "Comparative Literature",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/comparative-literature-minor/",
+      "workbook_rows": [
+        150
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "computer-science-minor",
+      "type": "minor",
+      "name": "Computer Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/computer-science-minor/",
+      "workbook_rows": [
+        95
+      ],
+      "existing_rule_ids": [
+        "min:CS"
+      ]
+    },
+    {
+      "id": "creative-writing-minor",
+      "type": "minor",
+      "name": "Creative Writing",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/creative-writing-minor/",
+      "workbook_rows": [
+        151
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "crime-prisons-education-justice-minor",
+      "type": "minor",
+      "name": "Crime, Prisons, Education, and Justice",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/crime-prisons-education-justice-minor/",
+      "workbook_rows": [
+        152
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "crop-management-minor",
+      "type": "minor",
+      "name": "Crop Management",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/crop-management-minor/",
+      "workbook_rows": [
+        153
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "dance-minor",
+      "type": "minor",
+      "name": "Dance",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/dance-minor/",
+      "workbook_rows": [
+        154
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "data-science-minor",
+      "type": "minor",
+      "name": "Data Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/data-science-minor/",
+      "workbook_rows": [
+        96
+      ],
+      "existing_rule_ids": [
+        "min:DS"
+      ]
+    },
+    {
+      "id": "data-science-astronomy-minor",
+      "type": "minor",
+      "name": "Data Science in Astronomy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/data-science-astronomy-minor/",
+      "workbook_rows": [
+        155
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "demography-minor",
+      "type": "minor",
+      "name": "Demography",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/demography-minor/",
+      "workbook_rows": [
+        97
+      ],
+      "existing_rule_ids": [
+        "min:DEMOG"
+      ]
+    },
+    {
+      "id": "design-environmental-analysis-minor",
+      "type": "minor",
+      "name": "Design and Environmental Analysis",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/design-environmental-analysis-minor/",
+      "workbook_rows": [
+        110
+      ],
+      "existing_rule_ids": [
+        "min:DEA"
+      ]
+    },
+    {
+      "id": "digital-agriculture-minor",
+      "type": "minor",
+      "name": "Digital Agriculture",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/digital-agriculture-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "dyson-business-minor-life-sciences",
+      "type": "minor",
+      "name": "Dyson Business Minor for Life Sciences",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/dyson-business-minor-life-sciences/",
+      "workbook_rows": [
+        142
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "earth-atmospheric-sciences-minor",
+      "type": "minor",
+      "name": "Earth and Climate Sciences",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-minor/",
+      "workbook_rows": [
+        111
+      ],
+      "existing_rule_ids": [
+        "min:EAS"
+      ]
+    },
+    {
+      "id": "east-asian-studies-minor",
+      "type": "minor",
+      "name": "East Asian Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/east-asian-studies-minor/",
+      "workbook_rows": [
+        157
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "education-minor",
+      "type": "minor",
+      "name": "Education",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/education-minor/",
+      "workbook_rows": [
+        158
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "electrical-computer-engineering-minor",
+      "type": "minor",
+      "name": "Electrical and Computer Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/electrical-computer-engineering-minor/",
+      "workbook_rows": [
+        113
+      ],
+      "existing_rule_ids": [
+        "min:ECE"
+      ]
+    },
+    {
+      "id": "engineering-communications-minor",
+      "type": "minor",
+      "name": "Engineering Communications",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/engineering-communications-minor/",
+      "workbook_rows": [
+        159
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "engineering-management-minor",
+      "type": "minor",
+      "name": "Engineering Management",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/engineering-management-minor/",
+      "workbook_rows": [
+        161
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "english-minor",
+      "type": "minor",
+      "name": "English",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/english-minor/",
+      "workbook_rows": [
+        162
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "entomology-minor",
+      "type": "minor",
+      "name": "Entomology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/entomology-minor/",
+      "workbook_rows": [
+        163
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "entrepreneurship-minor",
+      "type": "minor",
+      "name": "Entrepreneurship",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/entrepreneurship-minor/",
+      "workbook_rows": [
+        164
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "environment-sustainability-minor",
+      "type": "minor",
+      "name": "Environment & Sustainability",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/environment-sustainability-minor/",
+      "workbook_rows": [
+        165
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "european-studies-minor",
+      "type": "minor",
+      "name": "European Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/european-studies-minor/",
+      "workbook_rows": [
+        167
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fashion-studies-minor",
+      "type": "minor",
+      "name": "Fashion Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fashion-studies-minor/",
+      "workbook_rows": [
+        168
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fgss-minor",
+      "type": "minor",
+      "name": "Feminist, Gender, & Sexuality Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fgss-minor/",
+      "workbook_rows": [
+        169
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fiber-science-minor",
+      "type": "minor",
+      "name": "Fiber Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fiber-science-minor/",
+      "workbook_rows": [
+        170
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "film-minor",
+      "type": "minor",
+      "name": "Film",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/film-minor/",
+      "workbook_rows": [
+        171
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fine-arts-minor-for-non-departmental-students",
+      "type": "minor",
+      "name": "Fine Arts",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fine-arts-minor-for-non-departmental-students/",
+      "workbook_rows": [
+        172
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "food-agricultural-business-minor",
+      "type": "minor",
+      "name": "Food and Agricultural Business",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/food-agricultural-business-minor/",
+      "workbook_rows": [
+        174
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "food-science-minor",
+      "type": "minor",
+      "name": "Food Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/food-science-minor/",
+      "workbook_rows": [
+        173
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "french-minor",
+      "type": "minor",
+      "name": "French",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/french-minor/",
+      "workbook_rows": [
+        175
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "fungal-biology-minor",
+      "type": "minor",
+      "name": "Fungal Biology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/fungal-biology-minor/",
+      "workbook_rows": [
+        176
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "game-design-minor",
+      "type": "minor",
+      "name": "Game Design",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/game-design-minor/",
+      "workbook_rows": [
+        114
+      ],
+      "existing_rule_ids": [
+        "min:GAMEDESIGN"
+      ]
+    },
+    {
+      "id": "german-studies-minor",
+      "type": "minor",
+      "name": "German Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/german-studies-minor/",
+      "workbook_rows": [
+        177
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "gerontology-minor",
+      "type": "minor",
+      "name": "Gerontology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/gerontology-minor/",
+      "workbook_rows": [
+        178
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "global-asia-studies-minor",
+      "type": "minor",
+      "name": "Global Asia Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-asia-studies-minor/",
+      "workbook_rows": [
+        179
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "global-development-minor",
+      "type": "minor",
+      "name": "Global Development",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-development-minor/",
+      "workbook_rows": [
+        180
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "global-health-minor",
+      "type": "minor",
+      "name": "Global Health",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/global-health-minor/",
+      "workbook_rows": [
+        181
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "health-policy-minor",
+      "type": "minor",
+      "name": "Health Policy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/health-policy-minor/",
+      "workbook_rows": [
+        115
+      ],
+      "existing_rule_ids": [
+        "min:HP"
+      ]
+    },
+    {
+      "id": "healthy-futures-minor",
+      "type": "minor",
+      "name": "Healthy Futures",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/healthy-futures-minor/",
+      "workbook_rows": [
+        182
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "history-minor",
+      "type": "minor",
+      "name": "History",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-minor/",
+      "workbook_rows": [
+        98
+      ],
+      "existing_rule_ids": [
+        "min:HISTM"
+      ]
+    },
+    {
+      "id": "history-art-minor",
+      "type": "minor",
+      "name": "History of Art",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-art-minor/",
+      "workbook_rows": [
+        183
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "history-capitalism-interdisciplinary-minor",
+      "type": "minor",
+      "name": "History of Capitalism",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/history-capitalism-interdisciplinary-minor/",
+      "workbook_rows": [
+        184
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "horticulture-minor",
+      "type": "minor",
+      "name": "Horticulture",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/horticulture-minor/",
+      "workbook_rows": [
+        185
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "human-development-minor",
+      "type": "minor",
+      "name": "Human Development",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/human-development-minor/",
+      "workbook_rows": [
+        116
+      ],
+      "existing_rule_ids": [
+        "min:HD"
+      ]
+    },
+    {
+      "id": "inequality-studies-minor",
+      "type": "minor",
+      "name": "Inequality Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/inequality-studies-minor/",
+      "workbook_rows": [
+        117
+      ],
+      "existing_rule_ids": [
+        "min:INEQ"
+      ]
+    },
+    {
+      "id": "infectious-disease-biology-minor",
+      "type": "minor",
+      "name": "Infectious Disease Biology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/infectious-disease-biology-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "information-science-minor",
+      "type": "minor",
+      "name": "Information Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/information-science-minor/",
+      "workbook_rows": [
+        118
+      ],
+      "existing_rule_ids": [
+        "min:ISST"
+      ]
+    },
+    {
+      "id": "international-markets-development-minor",
+      "type": "minor",
+      "name": "International Markets & Development",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/international-markets-development-minor/",
+      "workbook_rows": [
+        186
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "international-relations-minor",
+      "type": "minor",
+      "name": "International Relations",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/international-relations-minor/",
+      "workbook_rows": [
+        187
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "italian-minor",
+      "type": "minor",
+      "name": "Italian",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/italian-minor/",
+      "workbook_rows": [
+        188
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "jewish-studies-minor",
+      "type": "minor",
+      "name": "Jewish Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/jewish-studies-minor/",
+      "workbook_rows": [
+        189
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "labor-social-justice-minor",
+      "type": "minor",
+      "name": "Labor and Social Justice",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/labor-social-justice-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "landscape-studies-minor",
+      "type": "minor",
+      "name": "Landscape Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/landscape-studies-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "latin-american-studies-minor",
+      "type": "minor",
+      "name": "Latin American Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/latin-american-studies-minor/",
+      "workbook_rows": [
+        190
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "latina-o-studies-minor",
+      "type": "minor",
+      "name": "Latina/o Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/latina-o-studies-minor/",
+      "workbook_rows": [
+        191
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "law-society-minor",
+      "type": "minor",
+      "name": "Law & Society",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/law-society-minor/",
+      "workbook_rows": [
+        99
+      ],
+      "existing_rule_ids": [
+        "min:LAWSOC"
+      ]
+    },
+    {
+      "id": "leadership-minor",
+      "type": "minor",
+      "name": "Leadership",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/leadership-minor/",
+      "workbook_rows": [
+        192
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "lgbt-minor",
+      "type": "minor",
+      "name": "Lesbian, Gay, Bisexual, & Transgender",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/lgbt-minor/",
+      "workbook_rows": [
+        193
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "linguistics-minor",
+      "type": "minor",
+      "name": "Linguistics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/linguistics-minor/",
+      "workbook_rows": [
+        119
+      ],
+      "existing_rule_ids": [
+        "min:LING"
+      ]
+    },
+    {
+      "id": "marine-biology-minor",
+      "type": "minor",
+      "name": "Marine Biology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/marine-biology-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "materials-science-engineering-minor",
+      "type": "minor",
+      "name": "Materials Science and Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-minor/",
+      "workbook_rows": [
+        194
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "mathematics-minor",
+      "type": "minor",
+      "name": "Mathematics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/mathematics-minor/",
+      "workbook_rows": [
+        120
+      ],
+      "existing_rule_ids": [
+        "min:MATH"
+      ]
+    },
+    {
+      "id": "mechanical-engineering-minor",
+      "type": "minor",
+      "name": "Mechanical Engineering",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/mechanical-engineering-minor/",
+      "workbook_rows": [
+        195
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "media-studies-minor",
+      "type": "minor",
+      "name": "Media Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/media-studies-minor/",
+      "workbook_rows": [
+        196
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "medieval-studies-minor",
+      "type": "minor",
+      "name": "Medieval Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/medieval-studies-minor/",
+      "workbook_rows": [
+        197
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "microbial-science-minor",
+      "type": "minor",
+      "name": "Microbial Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/microbial-science-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "migration-studies-minor",
+      "type": "minor",
+      "name": "Migration Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/migration-studies-minor/",
+      "workbook_rows": [
+        198
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "mitws-minor",
+      "type": "minor",
+      "name": "Minority, Indigenous, and Third World Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/mitws-minor/",
+      "workbook_rows": [
+        199
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "moral-psychology-minor",
+      "type": "minor",
+      "name": "Moral Psychology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/moral-psychology-minor/",
+      "workbook_rows": [
+        200
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "music-minor",
+      "type": "minor",
+      "name": "Music",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/music-minor/",
+      "workbook_rows": [
+        201
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "near-eastern-studies-minor",
+      "type": "minor",
+      "name": "Near Eastern Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/near-eastern-studies-minor/",
+      "workbook_rows": [
+        202
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "nutrition-health-minor",
+      "type": "minor",
+      "name": "Nutrition and Health",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/nutrition-health-minor/",
+      "workbook_rows": [
+        203
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "operations-research-management-science-minor",
+      "type": "minor",
+      "name": "Operations Research and Management Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/operations-research-management-science-minor/",
+      "workbook_rows": [
+        121
+      ],
+      "existing_rule_ids": [
+        "min:ORMS"
+      ]
+    },
+    {
+      "id": "org-human-resource-management-minor",
+      "type": "minor",
+      "name": "Organizations and Human Resource Management",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/org-human-resource-management-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "performing-media-arts-minor",
+      "type": "minor",
+      "name": "Performing and Media Arts",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/performing-media-arts-minor/",
+      "workbook_rows": [
+        204
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "philosophy-minor",
+      "type": "minor",
+      "name": "Philosophy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/philosophy-minor/",
+      "workbook_rows": [
+        122
+      ],
+      "existing_rule_ids": [
+        "min:PHIL"
+      ]
+    },
+    {
+      "id": "physics-minor",
+      "type": "minor",
+      "name": "Physics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/physics-minor/",
+      "workbook_rows": [
+        205
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "plant-breeding-minor",
+      "type": "minor",
+      "name": "Plant Breeding",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/plant-breeding-minor/",
+      "workbook_rows": [
+        206
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "plant-sciences-minor",
+      "type": "minor",
+      "name": "Plant Sciences",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/plant-sciences-minor/",
+      "workbook_rows": [
+        207
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "policy-analysis-management-minor",
+      "type": "minor",
+      "name": "Policy Analysis and Management",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/policy-analysis-management-minor/",
+      "workbook_rows": [
+        100
+      ],
+      "existing_rule_ids": [
+        "min:PAM"
+      ]
+    },
+    {
+      "id": "portuguese-brazilian-studies-minor",
+      "type": "minor",
+      "name": "Portuguese and Brazilian Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/portuguese-brazilian-studies-minor/",
+      "workbook_rows": [
+        208
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "psychology-minor",
+      "type": "minor",
+      "name": "Psychology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/psychology-minor/",
+      "workbook_rows": [
+        101
+      ],
+      "existing_rule_ids": [
+        "min:PSYCH"
+      ]
+    },
+    {
+      "id": "public-history-minor",
+      "type": "minor",
+      "name": "Public History",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/public-history-minor/",
+      "workbook_rows": [
+        209
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "public-policy-minor",
+      "type": "minor",
+      "name": "Public Policy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/public-policy-minor/",
+      "workbook_rows": [
+        102
+      ],
+      "existing_rule_ids": [
+        "min:POLICY"
+      ]
+    },
+    {
+      "id": "real-estate-minor-nolan-school-ug-students",
+      "type": "minor",
+      "name": "Real Estate",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/real-estate-minor-nolan-school-ug-students/",
+      "workbook_rows": [
+        211,
+        212
+      ],
+      "existing_rule_ids": [],
+      "variants": [
+        {
+          "id": "nolan",
+          "label": "Nolan School",
+          "minimum_credits": 21
+        },
+        {
+          "id": "non-nolan",
+          "label": "Other Cornell colleges",
+          "minimum_credits": 18
+        }
+      ]
+    },
+    {
+      "id": "religious-studies-minor",
+      "type": "minor",
+      "name": "Religious Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/religious-studies-minor/",
+      "workbook_rows": [
+        213
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "robotics-minor",
+      "type": "minor",
+      "name": "Robotics",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/robotics-minor/",
+      "workbook_rows": [
+        123
+      ],
+      "existing_rule_ids": [
+        "min:ROBOTICS"
+      ]
+    },
+    {
+      "id": "russian-minor",
+      "type": "minor",
+      "name": "Russian",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/russian-minor/",
+      "workbook_rows": [
+        214
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "sanskrit-studies-minor",
+      "type": "minor",
+      "name": "Sanskrit Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/sanskrit-studies-minor/",
+      "workbook_rows": [
+        215
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "science-technology-studies-minor",
+      "type": "minor",
+      "name": "Science & Technology Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/science-technology-studies-minor/",
+      "workbook_rows": [
+        216
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "science-communication-public-engagement-minor",
+      "type": "minor",
+      "name": "Science Communication and Public Engagement",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/science-communication-public-engagement-minor/",
+      "workbook_rows": [
+        217
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "smart-cities-minor",
+      "type": "minor",
+      "name": "Smart Cities",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/smart-cities-minor/",
+      "workbook_rows": [
+        218
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "soil-science-minor",
+      "type": "minor",
+      "name": "Soil Science",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/soil-science-minor/",
+      "workbook_rows": [
+        219
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "south-asian-studies-minor",
+      "type": "minor",
+      "name": "South Asian Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/south-asian-studies-minor/",
+      "workbook_rows": [
+        220
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "southeast-asian-studies-minor",
+      "type": "minor",
+      "name": "Southeast Asian Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/southeast-asian-studies-minor/",
+      "workbook_rows": [
+        221
+      ],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "spanish-minor",
+      "type": "minor",
+      "name": "Spanish",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/spanish-minor/",
+      "workbook_rows": [
+        124
+      ],
+      "existing_rule_ids": [
+        "min:SPAN"
+      ]
+    },
+    {
+      "id": "sustainable-ag-food-system-minor",
+      "type": "minor",
+      "name": "Sustainable Agricultural and Food Systems",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/sustainable-ag-food-system-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "sustainable-business-economic-policy-minor",
+      "type": "minor",
+      "name": "Sustainable Business and Economic Policy",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/sustainable-business-economic-policy-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "sustainable-energy-systems-minor",
+      "type": "minor",
+      "name": "Sustainable Energy Systems",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/sustainable-energy-systems-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "theatre-minor",
+      "type": "minor",
+      "name": "Theatre",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/theatre-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "translational-research-minor",
+      "type": "minor",
+      "name": "Translational Research",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/translational-research-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "urban-regional-studies-minor",
+      "type": "minor",
+      "name": "Urban and Regional Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/urban-regional-studies-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "viking-studies-minor",
+      "type": "minor",
+      "name": "Viking Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/viking-studies-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "visual-studies-minor",
+      "type": "minor",
+      "name": "Visual Studies",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/visual-studies-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "viticulture-enology-minor",
+      "type": "minor",
+      "name": "Viticulture and Enology",
+      "listing": "catalog",
+      "source_url": "https://catalog.cornell.edu/programs/viticulture-enology-minor/",
+      "workbook_rows": [],
+      "existing_rule_ids": []
+    },
+    {
+      "id": "economics-minor-ilr",
+      "type": "minor",
+      "name": "Economics (ILR students only)",
+      "listing": "department",
+      "source_url": "https://economics.cornell.edu/minor",
+      "workbook_rows": [
+        112
+      ],
+      "existing_rule_ids": [
+        "min:ECONILR"
+      ]
+    },
+    {
+      "id": "policy-analysis-management-bs",
+      "type": "major",
+      "name": "Policy Analysis and Management (BS)",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/policy-analysis-management-bs/",
+      "workbook_rows": [
+        65
+      ],
+      "existing_rule_ids": [
+        "maj:PAM"
+      ],
+      "last_admit_term": "SP23",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/",
+      "last_graduation_term": "SP27"
+    },
+    {
+      "id": "biological-sciences-minor",
+      "type": "minor",
+      "name": "Biological Sciences",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/biological-sciences-minor/",
+      "workbook_rows": [
+        139
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP21",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    },
+    {
+      "id": "civil-infrastructure-minor",
+      "type": "minor",
+      "name": "Civil Infrastructure",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/civil-infrastructure-minor/",
+      "workbook_rows": [
+        145
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP26",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    },
+    {
+      "id": "design-innovation-strategy-minor",
+      "type": "minor",
+      "name": "Design Innovation and Strategy",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/design-innovation-strategy-minor/",
+      "workbook_rows": [
+        156
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP26",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    },
+    {
+      "id": "engineering-entrepreneurship-minor",
+      "type": "minor",
+      "name": "Engineering Entrepreneurship",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/engineering-entrepreneurship-minor/",
+      "workbook_rows": [
+        160
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP26",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    },
+    {
+      "id": "environmental-engineering-minor",
+      "type": "minor",
+      "name": "Environmental Engineering",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/environmental-engineering-minor/",
+      "workbook_rows": [
+        166
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP26",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    },
+    {
+      "id": "public-service-studies-minor",
+      "type": "minor",
+      "name": "Public Service Studies",
+      "listing": "teach_out",
+      "source_url": "https://catalog.cornell.edu/programs/public-service-studies-minor/",
+      "workbook_rows": [
+        210
+      ],
+      "existing_rule_ids": [],
+      "last_admit_term": "SP26",
+      "status_source_url": "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+    }
+  ]
+}

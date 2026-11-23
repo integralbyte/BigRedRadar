@@ -1,0 +1,1098 @@
+{
+  "programId": "human-biology-health-society-bs",
+  "name": "Human Biology, Health, and Society (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Coursework, health-focused selective pools and college outside credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/human-biology-health-society-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Human Biology, Health, and Society",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1400"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "survey",
+      "label": "Survey course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1150",
+            "NS 1220"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "biology-lab",
+      "label": "Introductory biology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "label": "Physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2207",
+            "PHYS 2208"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "orgo-lab",
+      "label": "Organic chemistry laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510",
+            "CHEM 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "label": "Physiology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3410",
+            "BIOAP 3110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "fws",
+      "label": "First-year Writing Seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "hbhs-approved-english-exam"
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "label": "Calculus or advanced mathematics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1105",
+            "MATH 1106",
+            "MATH 1110",
+            "MATH 1120"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "hbhs-calculus-ap-five"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2100",
+            "ILRST 2100",
+            "STSCI 2150",
+            "STSCI 2200",
+            "PUBPOL 2100",
+            "AEM 2100",
+            "PSYCH 2500",
+            "SOC 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "biology-electives",
+      "label": "Biology elective credits",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "distributions": [
+            "BSC-AG",
+            "BIO-AS"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030,
+            4990
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "BIOMG 2801",
+            "BIOMG 3340",
+            "BIOMI 4040",
+            "NS 3420"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "health-social",
+      "label": "Social Science Perspective on Health Sciences",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "AEM 4450",
+            "COMM 2850",
+            "COMM 4760",
+            "ECON 3710",
+            "ECON 3910",
+            "GDEV 3020",
+            "GDEV 3111",
+            "HD 2170",
+            "HD 2180",
+            "HD 2250",
+            "HD 2300",
+            "HD 2510",
+            "HD 2600",
+            "HD 3290",
+            "HD 3300",
+            "HD 3490",
+            "HD 3620",
+            "HD 4110",
+            "NS 2450",
+            "NS 4250",
+            "NS 4450",
+            "NS 4480",
+            "NS 4500",
+            "NS 4510",
+            "NS 4570",
+            "PSYCH 2750",
+            "PUBPOL 2350",
+            "PUBPOL 3110",
+            "PUBPOL 3280",
+            "PUBPOL 3320",
+            "PUBPOL 3780",
+            "PUBPOL 3870",
+            "PUBPOL 4280"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "hbhs-approved-health-social",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "health-natural",
+      "label": "Natural Science Perspective on Health Selectives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 4390",
+            "BIOMI 2500",
+            "BIOMI 2600",
+            "BIOMI 2950",
+            "BIOMI 3210",
+            "BIOMI 4040",
+            "BIONB 3215",
+            "BIONB 3920",
+            "BIONB 4560",
+            "BIONB 4750",
+            "ENTOM 4000",
+            "ENTOM 4520",
+            "FDSC 4220",
+            "HD 2200",
+            "HD 3210",
+            "HD 3660",
+            "MSE 4610",
+            "NS 3060",
+            "NS 3150",
+            "NS 3310",
+            "NS 3320",
+            "NS 3450",
+            "NS 4140",
+            "NS 4200",
+            "NS 4300",
+            "NS 4330",
+            "NS 4410",
+            "NS 4420",
+            "NS 4430",
+            "NS 6310",
+            "NS 6320",
+            "PLSCI 2100"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "hbhs-approved-health-natural",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "health-nutritional",
+      "label": "Nutritional Science Perspective on Health Selectives",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "NS 3060",
+            "NS 3150",
+            "NS 4140",
+            "NS 4200",
+            "NS 4210",
+            "NS 4300",
+            "NS 4330",
+            "NS 4410",
+            "NS 4420",
+            "NS 4450",
+            "NS 4480",
+            "NS 4500",
+            "NS 5510"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "hbhs-approved-health-nutritional",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "intro-biology",
+      "label": "Two distinct introductory biology areas",
+      "options": [
+        {
+          "id": "cell-biology-physiology",
+          "label": "Cell biology / Physiology",
+          "slots": [
+            {
+              "id": "biology-area-1",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-cell-biology"
+                }
+              ]
+            },
+            {
+              "id": "biology-area-2",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-physiology"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-area-1",
+                "biology-area-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell-biology-ecology-and-evolution",
+          "label": "Cell biology / Ecology and evolution",
+          "slots": [
+            {
+              "id": "biology-area-1",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-cell-biology"
+                }
+              ]
+            },
+            {
+              "id": "biology-area-2",
+              "label": "Ecology and evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-ecology-and-evolution"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-area-1",
+                "biology-area-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology-ecology-and-evolution",
+          "label": "Physiology / Ecology and evolution",
+          "slots": [
+            {
+              "id": "biology-area-1",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-physiology"
+                }
+              ]
+            },
+            {
+              "id": "biology-area-2",
+              "label": "Ecology and evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-biology-exam-ecology-and-evolution"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-area-1",
+                "biology-area-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "label": "Introductory chemistry",
+      "options": [
+        {
+          "id": "full",
+          "label": "Full general chemistry sequence",
+          "slots": [
+            {
+              "id": "chemistry-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-3",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-4",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "placement",
+          "label": "Approved placement plus General Chemistry II",
+          "slots": [
+            {
+              "id": "chemistry-1",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-2",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-placement",
+              "label": "Approved AP or IB Chemistry score",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-ap-ib-chemistry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Approved placement plus honors chemistry",
+          "slots": [
+            {
+              "id": "chemistry-1",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-placement",
+              "label": "Approved AP or IB Chemistry score",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "hbhs-ap-ib-chemistry"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry lecture",
+      "options": [
+        {
+          "id": "one",
+          "label": "Introductory organic chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "label": "Organic chemistry for the life sciences",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors organic chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3590",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry",
+      "label": "Biochemistry sequence",
+      "options": [
+        {
+          "id": "human",
+          "label": "Human biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "NS 3200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "individual",
+          "label": "Individualized biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3300",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proteins-and-molecular",
+          "label": "Proteins and molecular biology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proteins-and-micro",
+          "label": "Proteins and microbiology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMI 2900",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combined",
+          "label": "Combined biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "outside-hbhs",
+      "label": "Credits outside HBHS",
+      "unit": "credits",
+      "need": 11,
+      "options": [
+        {
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "minGrade": "D-",
+          "subjects": [
+            "HE"
+          ],
+          "numberMin": 1500
+        },
+        {
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "minGrade": "D-",
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "HD",
+            "PUBPOL"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "fws"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approved-credits",
+      "label": "Credits, overlap and exam limits",
+      "instruction": "Confirm the 71-credit major minimum, the approved overlaps for the outside-HBHS requirement, the one-course AP/IB biology limit, and college external-credit caps."
+    },
+    {
+      "id": "cohort-planning",
+      "label": "Health preparation and statistics",
+      "instruction": "Check writing seminar timing, any science sequences needed for pre-health, and the statistics options required before Epidemiology."
+    }
+  ]
+}

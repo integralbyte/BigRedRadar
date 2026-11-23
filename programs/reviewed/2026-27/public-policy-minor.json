@@ -1,0 +1,163 @@
+{
+  "programId": "public-policy-minor",
+  "name": "Public Policy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Government gateway, policy methods and three elective courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/public-policy-minor/#curriculumtext",
+    "https://government.cornell.edu/public-policy-minor"
+  ],
+  "slots": [
+    {
+      "id": "gateway",
+      "label": "Public Policy gateway",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "GOVT 3032",
+            "GOVT 3583"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "label": "Policy methods",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "GOVT 2309",
+            "GOVT 3282",
+            "GOVT 3999"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved public policy electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "GOVT 1313",
+            "GOVT 2323",
+            "GOVT 2857",
+            "GOVT 3091",
+            "GOVT 3121",
+            "GOVT 3131",
+            "GOVT 3977",
+            "GOVT 4037"
+          ],
+          "terms": [
+            "SP27"
+          ]
+        },
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "GOVT 4000"
+          ],
+          "terms": [
+            "SP27"
+          ],
+          "topics": [
+            "Money and Politics",
+            "Inequality & the Welfare State",
+            "Integrating AI into International Governance"
+          ]
+        },
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "GOVT"
+          ],
+          "approval": "public-policy-minor-approved-elective"
+        },
+        {
+          "minGrade": "C+",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "public-policy-minor-approved-outside-department"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "excludeSubjects": [
+            "GOVT"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Government major overlap and current electives",
+      "instruction": "Apply at most one course to both the Government major and this minor. Verify any course not on the department’s published approval list for the relevant term."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "dept",
+      "label": "Courses in the Department of Government",
+      "need": 4,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "GOVT"
+          ]
+        }
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 1,
+      "unit": "courses",
+      "programIds": [
+        "government-ba"
+      ]
+    }
+  ]
+}

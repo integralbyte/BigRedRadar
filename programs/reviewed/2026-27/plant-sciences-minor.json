@@ -1,0 +1,265 @@
+{
+  "programId": "plant-sciences-minor",
+  "name": "Plant Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two foundations, a listed course or lecture/lab pair, and six further Plant Sciences credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/plant-sciences-minor/#curriculumtext",
+    "https://cals.cornell.edu/school-integrative-plant-science/degrees-programs/undergraduate-plant-sciences-major/sips-undergraduate-minors"
+  ],
+  "slots": [
+    {
+      "id": "plsci-1420",
+      "label": "PLSCI 1420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1420"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 1420"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-2410",
+      "label": "PLSCI 2410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2410"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 2410"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Structured Plant Sciences electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "subjects": [
+            "PLSCI"
+          ],
+          "numberMin": 2000,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "PLSCI 2010",
+            "PLSCI 2301",
+            "PLSCI 2302",
+            "PLSCI 2400",
+            "PLSCI 2490",
+            "PLSCI 2940",
+            "PLSCI 3400",
+            "PLSCI 3401",
+            "PLSCI 3402"
+          ],
+          "excludeNumberPatterns": [
+            "29XX",
+            "39XX",
+            "49XX",
+            "59XX"
+          ],
+          "excludeApprovals": [
+            "sips-unstructured"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "subjects": [
+            "PLSCI"
+          ],
+          "numberMin": 2000,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent",
+          "excludeCodes": [
+            "PLSCI 2010",
+            "PLSCI 2301",
+            "PLSCI 2302",
+            "PLSCI 2400",
+            "PLSCI 2490",
+            "PLSCI 2940",
+            "PLSCI 3400",
+            "PLSCI 3401",
+            "PLSCI 3402"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "format",
+      "label": "In-person instruction, approvals and exclusive credits",
+      "instruction": "Use in-person coursework, confirm equivalents and laboratory requirements with SIPS, and keep the courses separate from your major. Complete at most one SIPS minor."
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "crop-management-minor",
+    "fungal-biology-minor",
+    "horticulture-minor",
+    "plant-breeding-minor",
+    "soil-science-minor"
+  ],
+  "choices": [
+    {
+      "id": "selected-elective",
+      "label": "Choose a listed Plant Sciences elective route",
+      "options": [
+        {
+          "id": "single",
+          "label": "One approved standalone course",
+          "slots": [
+            {
+              "id": "listed",
+              "label": "One listed Plant Sciences elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250",
+                    "PLSCI 2430",
+                    "PLSCI 2480",
+                    "PLSCI 2600",
+                    "PLSCI 3010"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plsci-3420",
+          "label": "PLSCI 3420 with PLSCI 3421",
+          "slots": [
+            {
+              "id": "listed",
+              "label": "Listed lecture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "listed-lab",
+              "label": "Companion laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plsci-3430",
+          "label": "PLSCI 3430 with PLSCI 3431",
+          "slots": [
+            {
+              "id": "listed",
+              "label": "Listed lecture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "listed-lab",
+              "label": "Companion laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

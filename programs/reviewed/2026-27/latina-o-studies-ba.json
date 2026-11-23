@@ -1,0 +1,124 @@
+{
+  "programId": "latina-o-studies-ba",
+  "name": "Latina/o Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The 12-course requirement, with up to two advisor-approved outside courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/latina-o-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Latina/o/x Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LSP 2100"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "disciplinary",
+      "label": "Introductory courses in distinct disciplines",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "LSP 1802",
+            "LSP 2031",
+            "LSP 2400",
+            "LSP 2720"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "upper-courses",
+      "label": "3000-level LSP courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "numberMax": 3999,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "upper-seminars",
+      "label": "4000-level LSP seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "approval": "lsp-seminar",
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Additional courses in the selected focus",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "approval": "lsp-approved-outside-course",
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "focus"
+      ],
+      "max": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "lsp-approved-outside-course"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "focus-approval",
+      "label": "Department approval",
+      "instruction": "Verify seminar designations and the focus for any courses that are outside the LSP listings."
+    }
+  ]
+}

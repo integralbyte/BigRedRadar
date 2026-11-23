@@ -1,0 +1,163 @@
+{
+  "programId": "near-eastern-studies-minor",
+  "name": "Near Eastern Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses, at least three at an advanced level, with up to two approved language courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/near-eastern-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "content",
+      "label": "Near Eastern history, archaeology, literature or religion",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "nes-minor-content",
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ]
+        },
+        {
+          "approval": "nes-minor-approved-external-content",
+          "minGrade": "D-"
+        },
+        {
+          "approval": "nes-minor-outside-department-course",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "approval": "nes-minor-independent-study",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Further Near Eastern Studies or language courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "NES"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "nes-minor-content",
+          "excludeCodes": [
+            "NES 4998",
+            "NES 4999"
+          ]
+        },
+        {
+          "approval": "nes-minor-approved-external-content",
+          "minGrade": "D-"
+        },
+        {
+          "approval": "nes-minor-outside-department-course",
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "NES 4998",
+            "NES 4999"
+          ],
+          "approval": "nes-minor-independent-study",
+          "minGrade": "D-"
+        },
+        {
+          "subjects": [
+            "ARAB",
+            "HEBR",
+            "PERSN",
+            "TURK",
+            "AKKAD"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "nes-minor-language"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "nes-minor-independent-study"
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "nes-minor-outside-department-course"
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "topics",
+      "label": "Course content and language continuity",
+      "instruction": "Confirm how each course fits the proposed focus. If applying two language courses, use the same language. Check approved external work and non-NES cross-listings with the department."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "upper",
+      "label": "Courses at the 3000 level or above",
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "programId": "food-agricultural-business-minor",
+  "name": "Food and Agricultural Business Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Microeconomics, two business areas, a food-business core, and six elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/food-agricultural-business-minor/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "micro",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110",
+            "ECON 3030",
+            "PUBPOL 2000"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "HADM 1410"
+          ],
+          "minGrade": "C",
+          "approval": "food-business-nolan-microeconomics"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "business-minor-transfer-equivalent",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "food-business",
+      "label": "Business and Economics of Food",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2310"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Food and agricultural business electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "AEM 2050",
+            "AEM 2480",
+            "AEM 3020",
+            "AEM 3040",
+            "AEM 3270",
+            "AEM 4450",
+            "AEM 3290",
+            "AEM 3385",
+            "AEM 4050",
+            "AEM 4460",
+            "HADM 4315",
+            "HADM 4340"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "business-areas",
+      "label": "Two distinct general business areas",
+      "options": [
+        {
+          "id": "business-management--marketing",
+          "label": "Business Management / Marketing",
+          "slots": [
+            {
+              "id": "business-business-management",
+              "label": "Business Management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 3020",
+                    "AEM 3260",
+                    "HADM 1810"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-marketing",
+              "label": "Marketing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2400",
+                    "AEM 4150",
+                    "HADM 2410"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-business-management",
+                "business-marketing"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "business-management--finance",
+          "label": "Business Management / Finance",
+          "slots": [
+            {
+              "id": "business-business-management",
+              "label": "Business Management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 3020",
+                    "AEM 3260",
+                    "HADM 1810"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2050",
+                    "AEM 2241",
+                    "AEM 5241",
+                    "HADM 2250"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-business-management",
+                "business-finance"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "business-management--accounting",
+          "label": "Business Management / Accounting",
+          "slots": [
+            {
+              "id": "business-business-management",
+              "label": "Business Management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 3020",
+                    "AEM 3260",
+                    "HADM 1810"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-accounting",
+              "label": "Accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2210",
+                    "HADM 2230"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-business-management",
+                "business-accounting"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "marketing--finance",
+          "label": "Marketing / Finance",
+          "slots": [
+            {
+              "id": "business-marketing",
+              "label": "Marketing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2400",
+                    "AEM 4150",
+                    "HADM 2410"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2050",
+                    "AEM 2241",
+                    "AEM 5241",
+                    "HADM 2250"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-marketing",
+                "business-finance"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "marketing--accounting",
+          "label": "Marketing / Accounting",
+          "slots": [
+            {
+              "id": "business-marketing",
+              "label": "Marketing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2400",
+                    "AEM 4150",
+                    "HADM 2410"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-accounting",
+              "label": "Accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2210",
+                    "HADM 2230"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-marketing",
+                "business-accounting"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "finance--accounting",
+          "label": "Finance / Accounting",
+          "slots": [
+            {
+              "id": "business-finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2050",
+                    "AEM 2241",
+                    "AEM 5241",
+                    "HADM 2250"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "business-accounting",
+              "label": "Accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2210",
+                    "HADM 2230"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-credits",
+              "label": "General business and management credits",
+              "slots": [
+                "business-finance",
+                "business-accounting"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 3290",
+            "AEM 3385",
+            "AEM 4050",
+            "AEM 4460",
+            "HADM 4315",
+            "HADM 4340"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "applied-economics-management-bs"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Major and minor overlap",
+      "instruction": "Confirm that 12 credits fall outside major core requirements, and eligibility if two or more core courses overlap. Nolan students may use HADM 1410 and one non-elective core course for both requirements."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell-credits",
+      "label": "Credits taken at Cornell",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johnson-credits",
+      "label": "SC Johnson College of Business credits",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-upper",
+      "label": "Core courses at the 3000 level or above",
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000,
+          "excludeCodes": [
+            "ECON 1110",
+            "ECON 3030",
+            "HADM 1410",
+            "PUBPOL 2000"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-electives",
+      "label": "Two core electives",
+      "slots": [
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "programId": "architecture-minor-for-non-departmental-students",
+  "name": "Architecture Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Design, visual representation, architectural history, and two more Architecture courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/architecture-minor-for-non-departmental-students/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "design",
+      "label": "Architectural design studio",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1110",
+            "ARCH 1104"
+          ],
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "visual",
+      "label": "Visual representation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1501",
+            "ARCH 2502",
+            "ARCH 1510",
+            "ARCH 1518",
+            "ARCH 4500",
+            "ARCH 4509"
+          ],
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Architectural history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1801",
+            "ARCH 2802"
+          ],
+          "minGrade": "C",
+          "minCredits": 3
+        },
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 3819,
+          "numberMax": 3823,
+          "minGrade": "C",
+          "minCredits": 3
+        },
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 6800,
+          "numberMax": 6819,
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Additional Architecture courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "architecture-barch"
+  ],
+  "manual": [
+    {
+      "id": "availability",
+      "label": "Access for non-Architecture majors",
+      "instruction": "Confirm section availability and eligibility to enroll with the Department of Architecture."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "elective-credits",
+      "label": "Additional Architecture credits",
+      "slots": [
+        "elective"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ]
+}

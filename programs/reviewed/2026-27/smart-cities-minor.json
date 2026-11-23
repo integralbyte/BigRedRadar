@@ -1,0 +1,98 @@
+{
+  "programId": "smart-cities-minor",
+  "name": "Smart Cities Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two core offerings and four additional courses in approved Smart Cities areas.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/smart-cities-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/cee/degree/smart-cities-minor-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Smart Cities core courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ORIE 2380",
+            "CEE 4665",
+            "CEE 4795",
+            "CEE 4800",
+            "CEE 4930",
+            "CEE 5735",
+            "CEE 5745"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Core courses and approved focus-area electives",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "codes": [
+            "BEE 4310",
+            "CEE 3230",
+            "CEE 3610",
+            "CEE 4200",
+            "CEE 4210",
+            "CEE 4565",
+            "CEE 4620",
+            "CEE 4640",
+            "CEE 4665",
+            "CEE 4795",
+            "CEE 4800",
+            "CEE 4880",
+            "CEE 4930",
+            "CEE 5420",
+            "CEE 5735",
+            "CEE 5745",
+            "ENMGT 5200",
+            "ENMGT 5940",
+            "INFO 5455",
+            "MAE 4220",
+            "ORIE 2380",
+            "PUBPOL 4640",
+            "PUBPOL 5755",
+            "PUBPOL 5757"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "smart-cities-approved-focus-area",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "civil-engineering-bs"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "manual": [
+    {
+      "id": "plan",
+      "label": "Focus areas, college eligibility and distinct major credits",
+      "instruction": "Keep at least nine credits separate from required major courses. The Catalog specifies Engineering affiliation, while the school page describes broader eligibility. Confirm eligibility and any alternate focus area with CEE."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "programId": "policy-analysis-management-minor",
+  "name": "Policy Analysis and Management Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction to Public Policy, nine advanced credits and two additional Public Policy credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/policy-analysis-management-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Public Policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "PUBPOL 2301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "3000- or 4000-level Public Policy",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "subjects": [
+            "PUBPOL"
+          ],
+          "numberMax": 4999,
+          "excludeCodes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020",
+            "PUBPOL 4030"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Additional Public Policy credits",
+      "unit": "credits",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "subjects": [
+            "PUBPOL"
+          ],
+          "numberMax": 4999,
+          "excludeCodes": [
+            "PUBPOL 4000",
+            "PUBPOL 4010",
+            "PUBPOL 4020",
+            "PUBPOL 4030"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "policy-analysis-management-bs",
+    "public-policy-ba",
+    "public-policy-bs",
+    "health-care-policy-major-bs",
+    "health-policy-minor"
+  ],
+  "manual": [
+    {
+      "id": "cross-list",
+      "label": "Cross-list timing and Brooks requirements",
+      "instruction": "Verify that the PUBPOL cross-list existed when the course was taken and submit Brooks declaration and completion forms."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

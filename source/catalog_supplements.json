@@ -1,0 +1,713 @@
+[
+ {
+  "code": "AEM 2180",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/applied-economics-management-bs/#curriculumtext",
+  "title": "Introduction to Design and Innovation"
+ },
+ {
+  "code": "AMST 3378",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Korean American Literature"
+ },
+ {
+  "code": "AMST 3449",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Race and the American Labor Market in Historical Perspective"
+ },
+ {
+  "code": "AMST 3744",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "America Becomes Modern: The Gilded Age and Progressive Era"
+ },
+ {
+  "code": "ANTHR 2428",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "Slavery and Human Trafficking"
+ },
+ {
+  "code": "ANTHR 4659",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/archaeology-ba/#curriculumtext",
+  "title": "The Idea of Biblical Israel"
+ },
+ {
+  "code": "ARKEO 3035",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "Medieval Archaeology"
+ },
+ {
+  "code": "ARKEO 4659",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/archaeology-ba/#curriculumtext",
+  "title": "The Idea of Biblical Israel"
+ },
+ {
+  "code": "ART 3900",
+  "credits": {
+   "max": 1.5,
+   "min": 1.5
+  },
+  "source_url": "https://catalog.cornell.edu/programs/game-design-minor/#curriculumtext",
+  "title": "Many Art Worlds Are Possible"
+ },
+ {
+  "code": "ART 3901",
+  "credits": {
+   "max": 1.5,
+   "min": 1.5
+  },
+  "source_url": "https://catalog.cornell.edu/programs/game-design-minor/#curriculumtext",
+  "title": "Many Art Worlds Are Possible"
+ },
+ {
+  "code": "ASIAN 2298",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "The Epic of Rama: The Ramayana and its place in Indian Cultural History"
+ },
+ {
+  "code": "ASIAN 3025",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "More-than-Human Worlds:  Ghosts, Animals, and Insects in East Asian Tradition"
+ },
+ {
+  "code": "ASIAN 3501",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Asian Socialist Realism"
+ },
+ {
+  "code": "ASIAN 3502",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Asian Temporalities"
+ },
+ {
+  "code": "ASIAN 3525",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Life and Death in China Under Mao"
+ },
+ {
+  "code": "ASIAN 4075",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Fashion and Politics in Twentieth-Century China"
+ },
+ {
+  "code": "ASIAN 4129",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Advanced Seminar on Modern Japan"
+ },
+ {
+  "code": "ASIAN 6129",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Advanced Seminar on Modern Japan"
+ },
+ {
+  "code": "ASRC 4401",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/performing-media-arts-ba/#curriculumtext",
+  "title": "Black Cult Media"
+ },
+ {
+  "code": "ASTRO 3332",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://courseroster.reg.cornell.edu/courses/roster/SP11/ASTRO/",
+  "title": "Elements of Astrophysics"
+ },
+ {
+  "code": "BIOEE 4762",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/courses/bioee/",
+  "title": "The Biology, Evolution, and Lives of Fishes"
+ },
+ {
+  "code": "BIOSM 2780",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/animal-science-bs/#curriculumtext",
+  "title": "Marine Biodiversity"
+ },
+ {
+  "code": "CAPS 4129",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Advanced Seminar on Modern Japan"
+ },
+ {
+  "code": "CEE 4630",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://classes.cornell.edu/browse/roster/FA14/class/CEE/4630",
+  "title": "Future Transportation, Technologies and Systems"
+ },
+ {
+  "code": "CEE 6230",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://ecommons.cornell.edu/server/api/core/bitstreams/c0651e43-3d79-43ca-af5e-e3ca77d3edfa/content",
+  "title": "Environmental Quality Systems Engineering"
+ },
+ {
+  "code": "CHEME 4430",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/chemical-engineering-bs/#curriculumtext",
+  "title": "Kinetics and Dynamics in Molecular and Cellular Systems"
+ },
+ {
+  "code": "COGST 1700",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/cognitive-science-ba/#curriculumtext",
+  "title": "Understanding Artificial Intelligence"
+ },
+ {
+  "code": "CS 5722",
+  "credits": {
+   "max": 4,
+   "min": 3
+  },
+  "source_url": "https://classes.cornell.edu/browse/roster/FA14/class/CS/5722",
+  "title": "Heuristic Methods for Optimization"
+ },
+ {
+  "code": "DEA 4375",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/design-environmental-analysis-bs/#curriculumtext",
+  "title": "Business Design"
+ },
+ {
+  "code": "ECE 3530",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://www.engineering.cornell.edu/sites/default/files/departments/main%20area/pdf%20files/Fall-2017%20Cornell%20Engineering%20Handbook.pdf",
+  "title": "Introduction to Systems and Synthetic Biology"
+ },
+ {
+  "code": "ENGL 3165",
+  "credits": {
+   "max": 4.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/english-ba/#curriculumtext",
+  "title": "Medieval America"
+ },
+ {
+  "code": "ENGL 3563",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/english-ba/#curriculumtext",
+  "title": "American Writers, American Workers: Exploring Work and Labor through Literature"
+ },
+ {
+  "code": "ENGRC 3030",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://www.duffield.cornell.edu/degree/engineering-communications-requirements-minor/",
+  "title": "Green Business Lab"
+ },
+ {
+  "code": "ENGRC 4900",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://www.duffield.cornell.edu/degree/engineering-communications-requirements-minor/",
+  "title": "Engineering Communication Minor Capstone"
+ },
+ {
+  "code": "ENGRG 2500",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://www.duffield.cornell.edu/degree/engineering-communications-requirements-minor/",
+  "title": "Technology in Society"
+ },
+ {
+  "code": "ENGRG 3010",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://www.duffield.cornell.edu/degree/engineering-communications-requirements-minor/",
+  "title": "Explorations in Leadership"
+ },
+ {
+  "code": "GDEV 2295",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/global-development-bs/#curriculumtext",
+  "title": "Data Science with R"
+ },
+ {
+  "code": "GOVT 2304",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/government-ba/#curriculumtext",
+  "title": "How to Kill Democracy"
+ },
+ {
+  "code": "HADM 3670",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/engineering-communications-minor/#curriculumtext",
+  "title": "Persuasive and Ethical Communication"
+ },
+ {
+  "code": "HIST 2417",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Transnational South Africa: Apartheid and the Global Anti-Apartheid Movement"
+ },
+ {
+  "code": "HIST 2481",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://history.cornell.edu/public-history-initiative-undergrad-minor-course-lists",
+  "title": "Slavery and Public Memory"
+ },
+ {
+  "code": "HIST 2615",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Labor in the Ancient World"
+ },
+ {
+  "code": "HIST 2773",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "Violence and Order in the North"
+ },
+ {
+  "code": "HIST 3022",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://history.cornell.edu/history-capitalism-minor-approved-courses",
+  "title": "Capitalism and American Democracy"
+ },
+ {
+  "code": "HIST 3740",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "America Becomes Modern: The Gilded Age and Progressive Era"
+ },
+ {
+  "code": "HIST 4129",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Advanced Seminar on Modern Japan"
+ },
+ {
+  "code": "HIST 4423",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Women and Gender in African History"
+ },
+ {
+  "code": "HIST 4590",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Reform, Rebellion and Revolution in Latin America"
+ },
+ {
+  "code": "HIST 4735",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Latino Civil Rights Movements"
+ },
+ {
+  "code": "HIST 4760",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "A Usable Past"
+ },
+ {
+  "code": "HIST 6129",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Advanced Seminar on Modern Japan"
+ },
+ {
+  "code": "ILRGL 3345",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "Contemporary Cambodia: Labor, Development and Society"
+ },
+ {
+  "code": "INFO 3720",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/courses/info/",
+  "title": "How LLMs work, their potential and limitations"
+ },
+ {
+  "code": "LATA 4590",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Reform, Rebellion and Revolution in Latin America"
+ },
+ {
+  "code": "LING 2217",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "History of the English Language to 1300"
+ },
+ {
+  "code": "LING 6625",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://medievalstudies.cornell.edu/viking-studies-minor",
+  "title": "Middle Welsh"
+ },
+ {
+  "code": "MAE 3100",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://classes.cornell.edu/browse/roster/FA15/class/MAE/3100",
+  "title": "Introduction to Applied Mathematics"
+ },
+ {
+  "code": "MSE 2010",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/#curriculumtext",
+  "title": "Physics and Chemistry of Materials"
+ },
+ {
+  "code": "MSE 2020",
+  "credits": {
+   "max": 0.5,
+   "min": 0.5
+  },
+  "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/#curriculumtext",
+  "title": "Professional Skills: Design, Ethics, and Communication"
+ },
+ {
+  "code": "MSE 2030",
+  "credits": {
+   "max": 1.0,
+   "min": 1.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/#curriculumtext",
+  "title": "Essential Thermodynamics of Material Systems"
+ },
+ {
+  "code": "MSE 2110",
+  "credits": {
+   "max": 2.0,
+   "min": 2.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/#curriculumtext",
+  "title": "Materials Laboratory I: Characterization"
+ },
+ {
+  "code": "MUSIC 3251",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/music-ba/#curriculumtext",
+  "title": "Music and Madness"
+ },
+ {
+  "code": "NBA 6940",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://ecommons.cornell.edu/server/api/core/bitstreams/f4299a52-3143-42e9-a9f4-061588446cee/content",
+  "title": "Equity Derivatives and Related Products"
+ },
+ {
+  "code": "NS 4140",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/courses/ns/",
+  "title": "Maternal and Child Nutrition and Health"
+ },
+ {
+  "code": "PHIL 3410",
+  "credits": {
+   "max": 4,
+   "min": 4
+  },
+  "source_url": "https://classes.cornell.edu/browse/roster/SP15/class/PHIL/3410",
+  "title": "Ethical Theory"
+ },
+ {
+  "code": "PLSCI 4175",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/agricultural-sciences-bs/#curriculumtext",
+  "title": "Production and Management of Greenhouse Crops"
+ },
+ {
+  "code": "PMA 3469",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/performing-media-arts-ba/#curriculumtext",
+  "title": "Reality TV: The History, The Economics, The Pleasure Without Guilt"
+ },
+ {
+  "code": "PMA 3471",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/performing-media-arts-ba/#curriculumtext",
+  "title": "Plastic Representation"
+ },
+ {
+  "code": "PUBPOL 2070",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/fashion-design-management-bs/#curriculumtext",
+  "title": "Big Data for Big Policy Problems"
+ },
+ {
+  "code": "PUBPOL 3251",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/government-ba/#curriculumtext",
+  "title": "Health Equity, Politics and Policy"
+ },
+ {
+  "code": "PUBPOL 3870",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/human-biology-health-society-bs/#curriculumtext",
+  "title": "Economic Evaluations in Health Care"
+ },
+ {
+  "code": "PUBPOL 4110",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/health-care-policy-major-bs/#curriculumtext",
+  "title": "Pollution, Climate Change, and Health"
+ },
+ {
+  "code": "PUBPOL 5345",
+  "credits": {
+   "max": null,
+   "min": null
+  },
+  "source_url": "https://catalog.cornell.edu/programs/applied-economics-management-bs/#curriculumtext",
+  "title": "Evaluation of International Programs and Projects"
+ },
+ {
+  "code": "PUBPOL 5757",
+  "credits": {
+   "max": 1.5,
+   "min": 1.5
+  },
+  "source_url": "https://catalog.cornell.edu/programs/smart-cities-minor/#curriculumtext",
+  "title": "Infrastructure Project Management and Finance Practicum"
+ },
+ {
+  "code": "PUBPOL 5870",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/courses/pubpol/",
+  "title": "Economic Evaluations in Health Care"
+ },
+ {
+  "code": "RELST 2298",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://catalog.cornell.edu/programs/asian-studies-ba/#curriculumtext",
+  "title": "The Epic of Rama: The Ramayana and its place in Indian Cultural History"
+ },
+ {
+  "code": "SHUM 3265",
+  "credits": {
+   "max": 3.0,
+   "min": 3.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/government-ba/#curriculumtext",
+  "title": "Power and Freedom: Words, Concepts, Politics"
+ },
+ {
+  "code": "SOC 3740",
+  "credits": {
+   "max": 3,
+   "min": 3
+  },
+  "source_url": "https://courses.cornell.edu/courses/soc/",
+  "title": "Analyzing Complex Data Structures: Network, Spatial, Multilevel, and Text Data"
+ },
+ {
+  "code": "SPAN 4595",
+  "credits": {
+   "max": 4.0,
+   "min": 4.0
+  },
+  "source_url": "https://catalog.cornell.edu/programs/history-ba/#curriculumtext",
+  "title": "Reform, Rebellion and Revolution in Latin America"
+ }
+]

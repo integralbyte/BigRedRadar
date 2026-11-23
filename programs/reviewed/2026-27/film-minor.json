@@ -1,0 +1,159 @@
+{
+  "programId": "film-minor",
+  "name": "Film Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Global cinema, production or screenwriting, a production laboratory and three film courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/film-minor/#curriculumtext",
+    "https://pma.cornell.edu/undergraduate-minor"
+  ],
+  "slots": [
+    {
+      "id": "global",
+      "label": "Global Cinema and Media",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "codes": [
+            "PMA 3550"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-approved-abroad",
+          "codes": [
+            "PMA 3550"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "label": "Screenwriting or production",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "codes": [
+            "PMA 3531",
+            "PMA 3570",
+            "PMA 3571",
+            "PMA 3510"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-approved-abroad",
+          "codes": [
+            "PMA 3531",
+            "PMA 3570",
+            "PMA 3571",
+            "PMA 3510"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "label": "Production laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 2,
+          "codes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-electives",
+      "label": "Film-focused electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "subjects": [
+            "PMA"
+          ],
+          "acceptCrossListings": true,
+          "approval": "pma-film-elective",
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-abroad-film-elective",
+          "subjects": [
+            "PMA"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "film-approvals",
+      "label": "Film focus and PMA instruction",
+      "instruction": "Confirm that electives focus on film, cross-listed sections have PMA instructors, and any study abroad is Cornell-approved. Declare before the third week of your final semester."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

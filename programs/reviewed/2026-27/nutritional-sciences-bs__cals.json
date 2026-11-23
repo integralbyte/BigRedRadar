@@ -1,0 +1,1079 @@
+{
+  "programId": "nutritional-sciences-bs",
+  "name": "Nutritional Sciences (BS) · CALS",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Advanced nutrition, introductory sciences and college-specific requirements.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/nutritional-sciences-bs/#curriculumtext",
+    "https://human.cornell.edu/student-services/registrar/degree-progress"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "variantId": "cals",
+  "slots": [
+    {
+      "id": "core-ns-1150",
+      "label": "NS 1150",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ns-2450",
+      "label": "NS 2450",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 2450"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ns-3450",
+      "label": "NS 3450",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3450"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ns-3310",
+      "label": "NS 3310",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3310"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ns-3320",
+      "label": "NS 3320",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3320"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "bio-lab",
+      "label": "Introductory biology lab",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "orgo-lab",
+      "label": "Organic chemistry lab",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510",
+            "CHEM 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "First-year writing seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "ns-approved-english-exam"
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "label": "Calculus or advanced math",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1105",
+            "MATH 1106",
+            "MATH 1110",
+            "MATH 1120"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "ns-calculus-ap-five"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2150",
+            "STSCI 2200",
+            "PUBPOL 2100",
+            "AEM 2100",
+            "ILRST 2100",
+            "STSCI 2100",
+            "PSYCH 2500",
+            "SOC 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "chemistry",
+      "label": "Introductory chemistry",
+      "options": [
+        {
+          "id": "general",
+          "label": "General chemistry I and II with labs",
+          "slots": [
+            {
+              "id": "chem-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-general",
+          "label": "Accepted exam credit and general chemistry II",
+          "slots": [
+            {
+              "id": "chem-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-exam",
+              "label": "AP or IB chemistry credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ns-ap-ib-chemistry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-honors",
+          "label": "Accepted exam credit and honors general chemistry",
+          "slots": [
+            {
+              "id": "chem-chem-2150",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-exam",
+              "label": "AP or IB chemistry credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ns-ap-ib-chemistry"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "label": "Two introductory biology lecture areas",
+      "options": [
+        {
+          "id": "cell--physiology",
+          "label": "Cell biology / Comparative physiology",
+          "slots": [
+            {
+              "id": "bio-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell--ecology-evolution",
+          "label": "Cell biology / Ecology or evolutionary biology",
+          "slots": [
+            {
+              "id": "bio-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-ecology-evolution",
+              "label": "Ecology or evolutionary biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology--ecology-evolution",
+          "label": "Comparative physiology / Ecology or evolutionary biology",
+          "slots": [
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-ecology-evolution",
+              "label": "Ecology or evolutionary biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-cell",
+          "label": "Approved biology exam credit and cell biology",
+          "slots": [
+            {
+              "id": "bio-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-exam",
+              "label": "Approved biology exam credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ns-ap-ib-biology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-physiology",
+          "label": "Approved biology exam credit and comparative physiology",
+          "slots": [
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-exam",
+              "label": "Approved biology exam credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ns-ap-ib-biology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-ecology-evolution",
+          "label": "Approved biology exam credit and ecology or evolutionary biology",
+          "slots": [
+            {
+              "id": "bio-ecology-evolution",
+              "label": "Ecology or evolutionary biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-exam",
+              "label": "Approved biology exam credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ns-ap-ib-biology"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry lecture",
+      "options": [
+        {
+          "id": "intro",
+          "label": "Introduction to organic chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life",
+          "label": "Organic chemistry for life sciences",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors organic chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3590",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "label": "Physiology",
+      "options": [
+        {
+          "id": "ns",
+          "label": "Human anatomy and physiology",
+          "slots": [
+            {
+              "id": "physiology",
+              "label": "Human anatomy and physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Advanced nutrition elective credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "subjects": [
+                    "NS"
+                  ],
+                  "numberMin": 3000,
+                  "excludeCodes": [
+                    "NS 3200",
+                    "NS 3980",
+                    "NS 4030",
+                    "NS 3410"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "NS 4020"
+                  ],
+                  "passFailOnly": true,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "ns-approved-pass-fail-fieldwork"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "advanced"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "NS 4000",
+                    "NS 4010",
+                    "NS 4020",
+                    "NS 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bioap",
+          "label": "Principles of animal physiology",
+          "slots": [
+            {
+              "id": "physiology",
+              "label": "Principles of animal physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Advanced nutrition elective credits",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "subjects": [
+                    "NS"
+                  ],
+                  "numberMin": 3000,
+                  "excludeCodes": [
+                    "NS 3200",
+                    "NS 3980",
+                    "NS 4030"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "NS 4020"
+                  ],
+                  "passFailOnly": true,
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "ns-approved-pass-fail-fieldwork"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "advanced"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "NS 4000",
+                    "NS 4010",
+                    "NS 4020",
+                    "NS 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry",
+      "label": "Biochemistry",
+      "options": [
+        {
+          "id": "ns",
+          "label": "Human biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "NS 3200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "self-paced",
+          "label": "Principles of biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3300",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sequence",
+          "label": "Proteins, metabolism, and molecular biology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "microbiology",
+          "label": "Proteins and metabolism with microbiology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMI 2900",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combined",
+          "label": "Combined protein and molecular biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "major-credits",
+      "label": "Nutritional Sciences major credits",
+      "need": 65,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "writing"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "sequence",
+      "label": "Pre-health and sequence requirements",
+      "instruction": "Confirm writing seminar timing and exam eligibility. Pre-health guidance may require course sequences in place of exam credit. Students planning NS 3600 need STSCI 2150 or 2200."
+    },
+    {
+      "id": "outside-overlap",
+      "label": "Outside credit and college graduation requirements",
+      "instruction": "Apply the college checklist and confirm limits on overlapping outside credits and accepted substitutions."
+    }
+  ]
+}

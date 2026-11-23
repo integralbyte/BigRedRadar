@@ -1,0 +1,2028 @@
+{
+  "programId": "plant-sciences-bs",
+  "name": "Plant Sciences (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory and primary courses, four foundation topics, approved upper-level electives and bookends.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/plant-sciences-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "intro-biology",
+      "label": "Introductory biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOMG 1350"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1570",
+            "CHEM 3570"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENTOM 3030",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "plsc-ap-stats-five"
+        }
+      ]
+    },
+    {
+      "id": "primary-1101",
+      "label": "PLSCI 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "primary-1420",
+      "label": "PLSCI 1420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1420"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "primary-2410",
+      "label": "PLSCI 2410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2410"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "primary-2430",
+      "label": "PLSCI 2430",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2430"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "focused-credits",
+      "label": "Approved, themed upper-level Plant Sciences electives",
+      "unit": "credits",
+      "need": 12,
+      "options": [
+        {
+          "subjects": [
+            "PLSCI"
+          ],
+          "numberMin": 3000,
+          "numberMax": 4939,
+          "excludeCodes": [
+            "PLSCI 3400",
+            "PLSCI 3401",
+            "PLSCI 3402"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "approval": "plsc-themed-elective"
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "label": "Experiential learning reflection",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "label": "Senior seminar in Plant Sciences",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4950"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "general-chemistry",
+      "label": "General chemistry with laboratory",
+      "options": [
+        {
+          "id": "intro",
+          "label": "Introductory general chemistry",
+          "slots": [
+            {
+              "id": "general-chemistry-1",
+              "label": "CHEM 1560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "general-chemistry-2",
+              "label": "CHEM 1561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "intro-credits",
+              "label": "Introductory biology, chemistry and statistics credits",
+              "slots": [
+                "intro-biology",
+                "organic",
+                "statistics",
+                "general-chemistry-1",
+                "general-chemistry-2"
+              ],
+              "need": 14,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "standard",
+          "label": "General Chemistry I",
+          "slots": [
+            {
+              "id": "general-chemistry-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "general-chemistry-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "intro-credits",
+              "label": "Introductory biology, chemistry and statistics credits",
+              "slots": [
+                "intro-biology",
+                "organic",
+                "statistics",
+                "general-chemistry-1",
+                "general-chemistry-2"
+              ],
+              "need": 14,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundation",
+      "label": "Choose four foundational course topics",
+      "options": [
+        {
+          "id": "2250-2480-2600-3010",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 2600 / PLSCI 3010",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-2600",
+                "found-3010"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2480-2600-3420",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 2600 / PLSCI 3420 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-2600",
+                "found-3420",
+                "found-3421"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2480-2600-3430",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 2600 / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-2600",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2480-3010-3420",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 3010 / PLSCI 3420 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-3010",
+                "found-3420",
+                "found-3421"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2480-3010-3430",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 3010 / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-3010",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2480-3420-3430",
+          "label": "PLSCI 2250 / PLSCI 2480 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2480",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2600-3010-3420",
+          "label": "PLSCI 2250 / PLSCI 2600 / PLSCI 3010 / PLSCI 3420 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2600",
+                "found-3010",
+                "found-3420",
+                "found-3421"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2600-3010-3430",
+          "label": "PLSCI 2250 / PLSCI 2600 / PLSCI 3010 / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2600",
+                "found-3010",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-2600-3420-3430",
+          "label": "PLSCI 2250 / PLSCI 2600 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-2600",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2250-3010-3420-3430",
+          "label": "PLSCI 2250 / PLSCI 3010 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2250",
+                "found-3010",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2480-2600-3010-3420",
+          "label": "PLSCI 2480 / PLSCI 2600 / PLSCI 3010 / PLSCI 3420 + lab",
+          "slots": [
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2480",
+                "found-2600",
+                "found-3010",
+                "found-3420",
+                "found-3421"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2480-2600-3010-3430",
+          "label": "PLSCI 2480 / PLSCI 2600 / PLSCI 3010 / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2480",
+                "found-2600",
+                "found-3010",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2480-2600-3420-3430",
+          "label": "PLSCI 2480 / PLSCI 2600 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2480",
+                "found-2600",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2480-3010-3420-3430",
+          "label": "PLSCI 2480 / PLSCI 3010 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2480",
+              "label": "PLSCI 2480",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2480",
+                "found-3010",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2600-3010-3420-3430",
+          "label": "PLSCI 2600 / PLSCI 3010 / PLSCI 3420 + lab / PLSCI 3430 + lab",
+          "slots": [
+            {
+              "id": "found-2600",
+              "label": "PLSCI 2600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3010",
+              "label": "PLSCI 3010",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3420",
+              "label": "PLSCI 3420",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3421",
+              "label": "PLSCI 3421",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3421"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3430",
+              "label": "PLSCI 3430",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "found-3431",
+              "label": "PLSCI 3431",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "foundational-credits",
+              "label": "Foundational Plant Sciences credits",
+              "slots": [
+                "found-2600",
+                "found-3010",
+                "found-3420",
+                "found-3421",
+                "found-3430",
+                "found-3431"
+              ],
+              "need": 16,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry",
+      "label": "Entry path",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "First-year entry",
+          "slots": [
+            {
+              "id": "first-year",
+              "label": "Pathways to Success",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transfer",
+          "label": "Transfer student",
+          "slots": [],
+          "manual": [
+            {
+              "id": "pathways-waiver",
+              "label": "Transfer credit and Pathways waiver",
+              "instruction": "Confirm the waiver and accepted substitutions with CALS."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "upper-focused",
+      "label": "4000-level focused electives",
+      "slots": [
+        "focused-credits"
+      ],
+      "need": 6,
+      "unit": "credits",
+      "options": [
+        {
+          "numberMin": 4000,
+          "numberMax": 4939
+        }
+      ]
+    },
+    {
+      "id": "major-credit-floor",
+      "label": "Plant Sciences coursework credits",
+      "need": 59.5,
+      "unit": "credits"
+    }
+  ],
+  "excludePrograms": [
+    "agricultural-sciences-bs",
+    "plant-sciences-minor",
+    "crop-management-minor",
+    "fungal-biology-minor",
+    "horticulture-minor",
+    "plant-breeding-minor",
+    "soil-science-minor"
+  ],
+  "manual": [
+    {
+      "id": "approved-plan",
+      "label": "Approved focus and applicable minimum",
+      "instruction": "Confirm theme coherence, the applicable 59.5–61.5 total credits and any AP, study-away or overlap approvals."
+    },
+    {
+      "id": "progression",
+      "label": "Progress through the core",
+      "instruction": "Confirm the required first-year, second-year and junior-year course timing with the department."
+    }
+  ]
+}

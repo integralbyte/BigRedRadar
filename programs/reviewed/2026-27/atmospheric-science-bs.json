@@ -1,0 +1,433 @@
+{
+  "programId": "atmospheric-science-bs",
+  "name": "Atmospheric Science (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Six atmospheric science courses, mathematics and supporting science, and six elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/atmospheric-science-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-eas-3050",
+      "label": "EAS 3050",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 3050"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-eas-3410",
+      "label": "EAS 3410",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 3410"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-eas-3420",
+      "label": "EAS 3420",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 3420"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-eas-3520",
+      "label": "EAS 3520",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 3520"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-eas-4470",
+      "label": "EAS 4470",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 4470"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-eas-4510",
+      "label": "EAS 4510",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 4510"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1110",
+      "label": "MATH 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "atmos-calculus-ap"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1120",
+      "label": "MATH 1120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1120"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "chem-chem-2070",
+      "label": "CHEM 2070",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2070"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "CHEM 2070"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "atmos-chemistry-ap"
+        }
+      ]
+    },
+    {
+      "id": "chem-chem-2071",
+      "label": "CHEM 2071",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2071"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "CHEM 2071"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "atmos-chemistry-ap"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "label": "Meteorology programming",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 2900"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "atmos-approved-programming",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 4350",
+            "STSCI 2100"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "atmos-approved-statistics"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "atmos-statistics-ap"
+        }
+      ]
+    },
+    {
+      "id": "physics-i",
+      "label": "First physics course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2207",
+            "PHYS 1112"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "PHYS 2207",
+            "PHYS 1112"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "atmos-physics-ap"
+        }
+      ]
+    },
+    {
+      "id": "physics-ii",
+      "label": "Second physics course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2208",
+            "PHYS 2213"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "elective-path",
+      "label": "Atmospheric Science elective path",
+      "options": [
+        {
+          "id": "standalone",
+          "label": "Standalone electives",
+          "slots": [
+            {
+              "id": "electives",
+              "label": "Additional Atmospheric Science electives",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "EAS 2500",
+                    "EAS 2680",
+                    "EAS 3340",
+                    "EAS 4350",
+                    "EAS 4700",
+                    "EAS 4800",
+                    "EAS 4860",
+                    "EAS 5555"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Atmospheric Science elective credits",
+              "slots": [
+                "electives"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "meteorology-pair",
+          "label": "Meteorology lecture and lab with electives",
+          "slots": [
+            {
+              "id": "electives",
+              "label": "Additional Atmospheric Science electives",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "EAS 2500",
+                    "EAS 2680",
+                    "EAS 3340",
+                    "EAS 4350",
+                    "EAS 4700",
+                    "EAS 4800",
+                    "EAS 4860",
+                    "EAS 5555"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "elective-eas-1310",
+              "label": "EAS 1310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EAS 1310"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "elective-eas-1330",
+              "label": "EAS 1330",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EAS 1330"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Atmospheric Science elective credits",
+              "slots": [
+                "electives",
+                "elective-eas-1310",
+                "elective-eas-1330"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "atmos-accepted-credit",
+      "label": "Approved equivalents and fifth-year courses",
+      "instruction": "Confirm equivalencies and AP credits. The optional experience and research honors are separate from these coursework requirements."
+    }
+  ]
+}

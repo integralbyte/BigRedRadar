@@ -1,0 +1,219 @@
+{
+  "programId": "viking-studies-minor",
+  "name": "Viking Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four approved Viking Studies courses, a capstone and an exit statement.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/viking-studies-minor/#curriculumtext",
+    "https://medievalstudies.cornell.edu/viking-studies-minor"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "capstone",
+      "label": "Viking Studies capstone route",
+      "options": [
+        {
+          "id": "history-literature",
+          "label": "Icelandic literature or Viking history",
+          "slots": [
+            {
+              "id": "main",
+              "label": "Approved Viking Studies courses",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HIST 1660",
+                    "HIST 2082",
+                    "ENGL 3110",
+                    "ENGL 3120",
+                    "ANTHR 1200",
+                    "LING 2217",
+                    "ANTHR 2428",
+                    "NES 2661",
+                    "HIST 2742",
+                    "HIST 2773",
+                    "ARKEO 3035",
+                    "ANTHR 3245",
+                    "HIST 4761",
+                    "HIST 4760",
+                    "LING 6623",
+                    "LING 6624",
+                    "LING 6625",
+                    "ENGL 3080",
+                    "HIST 3200",
+                    "LING 3315",
+                    "LING 3316"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "approval": "viking-approved-course"
+                }
+              ]
+            },
+            {
+              "id": "deep",
+              "label": "History or literature capstone",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGL 3080",
+                    "HIST 3200"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "old-norse-one",
+          "label": "Old Norse I",
+          "slots": [
+            {
+              "id": "main",
+              "label": "Approved Viking Studies courses",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HIST 1660",
+                    "HIST 2082",
+                    "ENGL 3110",
+                    "ENGL 3120",
+                    "ANTHR 1200",
+                    "LING 2217",
+                    "ANTHR 2428",
+                    "NES 2661",
+                    "HIST 2742",
+                    "HIST 2773",
+                    "ARKEO 3035",
+                    "ANTHR 3245",
+                    "HIST 4761",
+                    "HIST 4760",
+                    "LING 6623",
+                    "LING 6624",
+                    "LING 6625"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "approval": "viking-approved-course"
+                }
+              ]
+            },
+            {
+              "id": "deep",
+              "label": "Old Norse I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "LING 3315"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "old-norse-two",
+          "label": "Old Norse II after Old Norse I",
+          "slots": [
+            {
+              "id": "main",
+              "label": "Approved Viking Studies courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HIST 1660",
+                    "HIST 2082",
+                    "ENGL 3110",
+                    "ENGL 3120",
+                    "ANTHR 1200",
+                    "LING 2217",
+                    "ANTHR 2428",
+                    "NES 2661",
+                    "HIST 2742",
+                    "HIST 2773",
+                    "ARKEO 3035",
+                    "ANTHR 3245",
+                    "HIST 4761",
+                    "HIST 4760",
+                    "LING 6623",
+                    "LING 6624",
+                    "LING 6625"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "approval": "viking-approved-course"
+                }
+              ]
+            },
+            {
+              "id": "first-norse",
+              "label": "Old Norse I among the four minor courses",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "LING 3315"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "deep",
+              "label": "Old Norse II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "LING 3316"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "completion",
+      "label": "Capstone eligibility and exit statement",
+      "instruction": "Verify any petition or approved study abroad. Old Norse I is a capstone only if none of the four electives are Old Norse language courses. For Old Norse II, only Old Norse I may be used among the four. Submit the exit statement before graduation."
+    }
+  ]
+}

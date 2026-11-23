@@ -1,0 +1,143 @@
+{
+  "programId": "community-food-systems-minor-cfs",
+  "name": "Community Food Systems Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Practicum coursework, food systems core and three distinct perspectives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/community-food-systems-minor-cfs/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "practicum-prep",
+      "label": "Community Food Systems practicum preparation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2940"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "label": "Post-internship reflection",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 3105"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Agriculture, food, sustainability and social justice",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 3400"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "NS 2450",
+            "GDEV 3030",
+            "ANTHR 3325",
+            "HADM 4315"
+          ],
+          "minGrade": "C",
+          "approval": "community-food-core-exception"
+        }
+      ]
+    },
+    {
+      "id": "ethical-and-epistemic-perspectives",
+      "label": "Ethical and Epistemic Perspectives",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 3385",
+            "AIIS 3330",
+            "ANSC 4140",
+            "BSOC 2061",
+            "PHIL 1440"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "ecological-perspectives",
+      "label": "Ecological Perspectives",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2500",
+            "ANSC 1120",
+            "BEE 3299",
+            "BIOEE 1610",
+            "BIOEE 3611",
+            "FDSC 4880",
+            "PLSCI 3210",
+            "PLSCI 4140",
+            "PLSCI 4730"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "agricultural-perspectives",
+      "label": "Agricultural Perspectives",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 4690",
+            "GDEV 4450",
+            "PLSCI 1900",
+            "PLSCI 3800"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "practicum",
+      "label": "Practicum and course sequence",
+      "instruction": "Confirm the approved food systems practicum and any core substitution with the minor coordinator."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 14,
+      "unit": "credits"
+    }
+  ]
+}

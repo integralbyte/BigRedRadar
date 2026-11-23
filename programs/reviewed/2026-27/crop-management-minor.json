@@ -1,0 +1,123 @@
+{
+  "programId": "crop-management-minor",
+  "name": "Crop Management Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Crop science, soils and plant protection, with at least 15 credits of eligible in-person coursework.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/crop-management-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "crop-science",
+      "label": "Crop Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2110",
+            "PLSCI 4140"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "soil-science",
+      "label": "Soil Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2600",
+            "PLSCI 3210",
+            "PLSCI 3650",
+            "PLSCI 4660",
+            "PLSCI 4720"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "plant-protection-and-pest-management",
+      "label": "Plant Protection and Pest Management",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2440",
+            "PLSCI 3010",
+            "PLSCI 3150"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Additional eligible Crop Management credits",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2110",
+            "PLSCI 2440",
+            "PLSCI 2600",
+            "PLSCI 3010",
+            "PLSCI 3150",
+            "PLSCI 3210",
+            "PLSCI 3650",
+            "PLSCI 4140",
+            "PLSCI 4660",
+            "PLSCI 4720"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "crop-approved-equivalency",
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "plant-sciences-minor",
+    "fungal-biology-minor",
+    "horticulture-minor",
+    "plant-breeding-minor",
+    "soil-science-minor"
+  ],
+  "manual": [
+    {
+      "id": "course-format",
+      "label": "In-person instruction and unique minor credit",
+      "instruction": "Confirm in-person delivery, any approved transfer equivalency and that courses are separate from major requirements and other School of Integrative Plant Science minors."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

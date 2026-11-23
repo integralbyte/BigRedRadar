@@ -1,0 +1,110 @@
+{
+  "programId": "caribbean-studies-minor",
+  "name": "Caribbean Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five approved courses including History. Named courses apply to the terms published by the program.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/caribbean-studies-minor/#curriculumtext",
+    "https://einaudi.cornell.edu/learn/academics/caribbean-studies-minor"
+  ],
+  "slots": [
+    {
+      "id": "history",
+      "label": "Approved History course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HIST 1976",
+            "HIST 2307",
+            "HIST 2381"
+          ],
+          "terms": [
+            "SP25"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "caribbean-approved-history",
+          "minGrade": "B",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Other approved Caribbean Studies courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "codes": [
+            "COML 4334",
+            "LSP 4577",
+            "MUSIC 2361",
+            "HIST 1976",
+            "HIST 2307",
+            "HIST 2381"
+          ],
+          "terms": [
+            "SP25"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "AMST 3679"
+          ],
+          "terms": [
+            "FA25"
+          ],
+          "minGrade": "B",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "caribbean-approved-course",
+          "minGrade": "B",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "approval": "caribbean-approved-history",
+          "minGrade": "B",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "term-and-overlap",
+      "label": "Approved courses and minor overlap",
+      "instruction": "Confirm approvals for terms outside the published lists. At most two of the electives may also count toward another minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "minor",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "programId": "english-minor",
+  "name": "English Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five full-semester courses in Literature in English, including approved cross-listings.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/english-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "courses",
+      "label": "Eligible English courses",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "subjects": [
+            "ENGL"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "ENGL 4930",
+            "ENGL 4950",
+            "ENGL 4980",
+            "ENGL 4990"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "numberMin": 2000,
+          "approval": "english-approved-external"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "english-ba"
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "english-short-course"
+          ],
+          "numberMin": 2000,
+          "approval": "english-approved-external"
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 3,
+      "options": [
+        {
+          "approval": "english-creative-writing"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "english-courses",
+      "label": "Full-semester and creative writing rules",
+      "instruction": "Verify full-semester status and any cross-department or independent study with English. Use no more than three creative writing courses. Count a repeated creative or expository writing course only once."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

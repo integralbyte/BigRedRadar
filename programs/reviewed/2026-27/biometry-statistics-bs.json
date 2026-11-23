@@ -1,0 +1,553 @@
+{
+  "programId": "biometry-statistics-bs",
+  "name": "Statistics & Biometry (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "College-specific core, statistics or data science track, and approved elective pairing.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biometry-statistics-bs/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core-calculus-i",
+      "label": "Calculus I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1110"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "stats-calculus-i-placement"
+        }
+      ]
+    },
+    {
+      "id": "core-calculus-ii",
+      "label": "Calculus II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1120",
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "stats-calculus-ii-placement"
+        }
+      ]
+    },
+    {
+      "id": "core-intro-stats",
+      "label": "Statistical Methods I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ENGRD 2700",
+            "HADM 2010",
+            "ILRST 2100",
+            "MATH 1710",
+            "PSYCH 2500",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "SOC 3010",
+            "STSCI 2150",
+            "STSCI 2200",
+            "HADM 2011",
+            "ILRST 6100",
+            "STSCI 2100"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "stats-ap-statistics-accepted"
+        }
+      ]
+    },
+    {
+      "id": "core-linear",
+      "label": "Linear algebra",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2210",
+            "MATH 2240",
+            "MATH 2310",
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-methods-ii",
+      "label": "Statistical Methods II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3200"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-probability",
+      "label": "Probability",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3080",
+            "ECON 3130",
+            "MATH 4710",
+            "ORIE 3500"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-linear-models",
+      "label": "Linear models",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 4030",
+            "ECON 3140"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-theory",
+      "label": "Theory of statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 4090",
+            "MATH 4720"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-computing",
+      "label": "Statistical computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 4520"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-intro-computing",
+      "label": "Introduction to computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "stats-computing-placement"
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "choices": [
+    {
+      "id": "track",
+      "label": "Statistics track",
+      "options": [
+        {
+          "id": "traditional",
+          "label": "Traditional statistics curriculum",
+          "slots": [
+            {
+              "id": "core-multivariable",
+              "label": "Multivariable calculus",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 2220",
+                    "MATH 2240",
+                    "MATH 1920"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "stats-multivariable-case"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Statistics electives",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "CS 3220",
+                    "CS 3780",
+                    "CS 4220",
+                    "CS 4320",
+                    "CS 4740",
+                    "CS 4787",
+                    "CS 4789",
+                    "ECON 4130",
+                    "INFO 3300",
+                    "INFO 4310",
+                    "MATH 4260",
+                    "MATH 4740",
+                    "ORIE 3120",
+                    "ORIE 3300",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4580",
+                    "ORIE 4742",
+                    "STSCI 3090",
+                    "STSCI 3100",
+                    "STSCI 3740",
+                    "STSCI 3900"
+                  ],
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "subjects": [
+                    "STSCI"
+                  ],
+                  "numberMin": 4000,
+                  "numberMax": 4999,
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "excludeCodes": [
+                    "STSCI 4970",
+                    "STSCI 4980",
+                    "STSCI 4990",
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "stats-approved-elective",
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "excludeCodes": [
+                    "STSCI 4970",
+                    "STSCI 4980",
+                    "STSCI 4990",
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881"
+                  ]
+                },
+                {
+                  "codes": [
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881"
+                  ],
+                  "minCredits": 2,
+                  "minGrade": "C-",
+                  "courseWeight": 0.5,
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "department-electives",
+              "label": "Statistics and Data Science electives",
+              "slots": [
+                "electives"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "STSCI"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "elective-credits",
+              "label": "Statistics elective credits",
+              "slots": [
+                "electives"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "data-science",
+          "label": "Data science track",
+          "slots": [
+            {
+              "id": "core-data-structures",
+              "label": "Object-oriented programming and data structures",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 2110"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "databases",
+              "label": "Introduction to database systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4320"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Other statistics electives",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "CS 3220",
+                    "CS 3780",
+                    "CS 4220",
+                    "CS 4320",
+                    "CS 4740",
+                    "CS 4787",
+                    "CS 4789",
+                    "ECON 4130",
+                    "INFO 3300",
+                    "INFO 4310",
+                    "MATH 4260",
+                    "MATH 4740",
+                    "ORIE 3120",
+                    "ORIE 3300",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4580",
+                    "ORIE 4742",
+                    "STSCI 3090",
+                    "STSCI 3100",
+                    "STSCI 3740",
+                    "STSCI 3900"
+                  ],
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "CS 4320"
+                  ]
+                },
+                {
+                  "subjects": [
+                    "STSCI"
+                  ],
+                  "numberMin": 4000,
+                  "numberMax": 4999,
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "excludeCodes": [
+                    "STSCI 4970",
+                    "STSCI 4980",
+                    "STSCI 4990",
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881",
+                    "CS 4320"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "stats-approved-elective",
+                  "minCredits": 3,
+                  "minGrade": "C-",
+                  "excludeCodes": [
+                    "STSCI 4970",
+                    "STSCI 4980",
+                    "STSCI 4990",
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881",
+                    "CS 4320"
+                  ]
+                },
+                {
+                  "codes": [
+                    "STSCI 3600",
+                    "STSCI 4610",
+                    "STSCI 4720",
+                    "STSCI 4725",
+                    "STSCI 4850",
+                    "STSCI 4881"
+                  ],
+                  "minCredits": 2,
+                  "minGrade": "C-",
+                  "courseWeight": 0.5,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "CS 4320"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "department-electives",
+              "label": "Statistics and Data Science electives",
+              "slots": [
+                "electives"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "STSCI"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "elective-credits",
+              "label": "Statistics elective credits",
+              "slots": [
+                "electives",
+                "databases"
+              ],
+              "need": 15,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "core-credits",
+      "label": "Statistics core coursework credits",
+      "need": 40,
+      "unit": "credits",
+      "slotPrefix": "core-"
+    }
+  ],
+  "manual": [
+    {
+      "id": "admission",
+      "label": "Admission and academic standing",
+      "instruction": "Confirm admission prerequisites, including class standing, the published admission GPA where applicable, and the 2.30 GPA across required and elective coursework."
+    },
+    {
+      "id": "credit-and-course-review",
+      "label": "Approved credits and equivalents",
+      "instruction": "Confirm placements including the CALS AP Statistics score of 5, qualifying transfers, and the multivariable calculus listed for your cohort."
+    }
+  ]
+}

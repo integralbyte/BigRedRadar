@@ -1,0 +1,1142 @@
+{
+  "programId": "biomedical-engineering-minor",
+  "name": "Biomedical Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two biology courses and four Biomedical Engineering courses drawn from at least two categories.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biomedical-engineering-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/bme/degree/biomedical-engineering-minor-requirements/"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "biology",
+      "label": "Biology coursework",
+      "options": [
+        {
+          "id": "intro-advanced",
+          "label": "One introductory and one advanced course",
+          "slots": [
+            {
+              "id": "intro",
+              "label": "Introductory biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445",
+                    "BIOMG 1350",
+                    "BME 1310",
+                    "BME 2010",
+                    "CHEME 2880",
+                    "ENGRI 1310"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "maxCountedCredits": 4
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "bme-minor-ap-biology-five",
+                  "maxCountedCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Advanced biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3160",
+                    "BIOAP 4130",
+                    "BIOMG 2800",
+                    "BIOMG 3300",
+                    "BIOMG 3350",
+                    "BIOMI 2900",
+                    "BIOMS 3160",
+                    "BIOMS 4130",
+                    "BIONB 2220",
+                    "NS 3410"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310",
+                    "BIOMG 3320"
+                  ],
+                  "courseWeight": 0.5,
+                  "minGrade": "C-",
+                  "approval": "bme-minor-paired-biochemistry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Two advanced biology courses",
+          "slots": [
+            {
+              "id": "advanced",
+              "label": "Advanced biology",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3160",
+                    "BIOAP 4130",
+                    "BIOMG 2800",
+                    "BIOMG 3300",
+                    "BIOMG 3350",
+                    "BIOMI 2900",
+                    "BIOMS 3160",
+                    "BIOMS 4130",
+                    "BIONB 2220",
+                    "NS 3410"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMG 3310",
+                    "BIOMG 3320"
+                  ],
+                  "courseWeight": 0.5,
+                  "minGrade": "C-",
+                  "approval": "bme-minor-paired-biochemistry"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "label": "Four Biomedical Engineering courses",
+      "options": [
+        {
+          "id": "0-1-3",
+          "label": "1 Biomedical analysis of physiological systems / 3 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "0-2-2",
+          "label": "2 Biomedical analysis of physiological systems / 2 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "0-3-1",
+          "label": "3 Biomedical analysis of physiological systems / 1 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1-0-3",
+          "label": "1 Molecular and cellular engineering / 3 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1-1-2",
+          "label": "1 Molecular and cellular engineering / 1 Biomedical analysis of physiological systems / 2 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1-2-1",
+          "label": "1 Molecular and cellular engineering / 2 Biomedical analysis of physiological systems / 1 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1-3-0",
+          "label": "1 Molecular and cellular engineering / 3 Biomedical analysis of physiological systems",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2-0-2",
+          "label": "2 Molecular and cellular engineering / 2 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2-1-1",
+          "label": "2 Molecular and cellular engineering / 1 Biomedical analysis of physiological systems / 1 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2-2-0",
+          "label": "2 Molecular and cellular engineering / 2 Biomedical analysis of physiological systems",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "3-0-1",
+          "label": "3 Molecular and cellular engineering / 1 Biomedical Engineering applications",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "applications",
+              "label": "Biomedical Engineering applications",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4500",
+                    "BEE 4530",
+                    "BME 3210",
+                    "BME 3310",
+                    "BME 5780",
+                    "BME 5810",
+                    "BME 6210",
+                    "BME 6350",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "ECE 6690",
+                    "MAE 4530",
+                    "MAE 5680",
+                    "MSE 4610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-applications"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "3-1-0",
+          "label": "3 Molecular and cellular engineering / 1 Biomedical analysis of physiological systems",
+          "slots": [
+            {
+              "id": "molecular",
+              "label": "Molecular and cellular engineering",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3600",
+                    "BIOCB 4840",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 5830",
+                    "BME 5850",
+                    "CHEME 4020",
+                    "CS 4775"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-molecular"
+                }
+              ]
+            },
+            {
+              "id": "physiological",
+              "label": "Biomedical analysis of physiological systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BIONB 3300",
+                    "BIONB 4140",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3410",
+                    "BME 4010",
+                    "BME 4020",
+                    "BME 4640",
+                    "BME 4910",
+                    "COGST 3300",
+                    "ECE 4910",
+                    "MAE 4640",
+                    "MAE 4660",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "bme-minor-approved-physiological"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [],
+  "excludePrograms": [
+    "biomedical-engineering-bs"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Required-major-course overlap and petitions",
+      "instruction": "At most two courses may also be required major courses or their cross-listings. Confirm AP, paired biochemistry and elective substitutions with the department."
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "programId": "art-bfa",
+  "name": "Art (BFA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five studio components, theory, art history and the approved elective plan.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/art-bfa/#curriculumtext"
+  ],
+  "colleges": [
+    "AR"
+  ],
+  "slots": [
+    {
+      "id": "first-studio",
+      "label": "Drawing studio",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 2501"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "advanced-practice",
+      "label": "Advanced practice",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 3006"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "thesis-i",
+      "label": "Thesis I",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 4003"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "thesis-ii",
+      "label": "Thesis II",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 4004"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "theory-first",
+      "label": "First-year studio research workshop",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 2103"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "theory-final",
+      "label": "Senior seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 4100"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "diversity",
+      "label": "Diversity and inclusion",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AAP 1100"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "intro-studios",
+      "label": "Additional 2000-level art studios",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "numberMin": 2000,
+          "numberMax": 2999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "codes": [
+            "ART 2201",
+            "ART 2301",
+            "ART 2401",
+            "ART 2501",
+            "ART 2601",
+            "ART 2701",
+            "ART 3001",
+            "ART 3011",
+            "ART 3201",
+            "ART 3202",
+            "ART 3203",
+            "ART 3205",
+            "ART 3299",
+            "ART 3301",
+            "ART 3305",
+            "ART 3307",
+            "ART 3399",
+            "ART 3404",
+            "ART 3499",
+            "ART 3501",
+            "ART 3502",
+            "ART 3503",
+            "ART 3599",
+            "ART 3699",
+            "ART 3705",
+            "ART 3707",
+            "ART 3708",
+            "ART 3799",
+            "PMA 2701"
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 2999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "attributes": [
+            "ART-STU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper-studios",
+      "label": "Advanced 3000-level art studios",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 3999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "codes": [
+            "ART 2201",
+            "ART 2301",
+            "ART 2401",
+            "ART 2501",
+            "ART 2601",
+            "ART 2701",
+            "ART 3001",
+            "ART 3011",
+            "ART 3201",
+            "ART 3202",
+            "ART 3203",
+            "ART 3205",
+            "ART 3299",
+            "ART 3301",
+            "ART 3305",
+            "ART 3307",
+            "ART 3399",
+            "ART 3404",
+            "ART 3499",
+            "ART 3501",
+            "ART 3502",
+            "ART 3503",
+            "ART 3599",
+            "ART 3699",
+            "ART 3705",
+            "ART 3707",
+            "ART 3708",
+            "ART 3799",
+            "PMA 2701"
+          ]
+        },
+        {
+          "numberMin": 3000,
+          "numberMax": 3999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "attributes": [
+            "ART-STU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elective-studios",
+      "label": "Elective art studios",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "numberMin": 2000,
+          "numberMax": 3999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "codes": [
+            "ART 2201",
+            "ART 2301",
+            "ART 2401",
+            "ART 2501",
+            "ART 2601",
+            "ART 2701",
+            "ART 3001",
+            "ART 3011",
+            "ART 3201",
+            "ART 3202",
+            "ART 3203",
+            "ART 3205",
+            "ART 3299",
+            "ART 3301",
+            "ART 3305",
+            "ART 3307",
+            "ART 3399",
+            "ART 3404",
+            "ART 3499",
+            "ART 3501",
+            "ART 3502",
+            "ART 3503",
+            "ART 3599",
+            "ART 3699",
+            "ART 3705",
+            "ART 3707",
+            "ART 3708",
+            "ART 3799",
+            "PMA 2701"
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 3999,
+          "minCredits": 4,
+          "maxCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ART 2501",
+            "ART 3006"
+          ],
+          "attributes": [
+            "ART-STU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theory-elective",
+      "label": "Theory and criticism elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AMST 2000",
+            "AMST 2160",
+            "ANTHR 3420",
+            "ARCH 3308",
+            "ARCH 3397",
+            "ARCH 5402",
+            "ART 3102",
+            "ART 3104",
+            "ART 3105",
+            "ARTH 2000",
+            "ARTH 3600",
+            "ARTH 4151",
+            "ARTH 4310",
+            "ARTH 4695",
+            "ARTH 4720",
+            "ARTH 4852",
+            "ARTH 5993",
+            "ARTH 5994",
+            "ASIAN 4442",
+            "COML 2000",
+            "ENGL 2160",
+            "FGSS 2010",
+            "FGSS 2160",
+            "FGSS 4835",
+            "JWST 4310",
+            "MEDVL 4310",
+            "NES 4700",
+            "PMA 2540",
+            "PMA 2660",
+            "PMA 3104",
+            "PMA 3105",
+            "PMA 3550",
+            "PMA 4835",
+            "RELST 3420",
+            "RELST 4310",
+            "SPAN 4570",
+            "STS 4511",
+            "VISST 2000",
+            "VISST 2160",
+            "VISST 2174",
+            "VISST 3175",
+            "VISST 3600",
+            "VISST 4151",
+            "VISST 4835",
+            "VISST 4852"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "art-approved-theory-elective",
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "Approved writing classes",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "approval": "as-writing-seminar",
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "ENGL 2880"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "art-approved-writing",
+          "origins": [
+            "exam",
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elective-plan",
+      "label": "Faculty-approved elective curricular plan",
+      "unit": "credits",
+      "need": 34,
+      "options": [
+        {
+          "approval": "art-approved-curriculum-course",
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "label": "Modern or contemporary art history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AMST 2000",
+            "AMST 2760",
+            "ART 3803",
+            "ARTH 1100",
+            "ARTH 2000",
+            "ARTH 2600",
+            "ARTH 2750",
+            "ARTH 3550",
+            "ARTH 3600",
+            "ARTH 3650",
+            "ARTH 3651",
+            "ARTH 4151",
+            "ARTH 4153",
+            "ARTH 4510",
+            "ARTH 4545",
+            "ARTH 4625",
+            "ARTH 4695",
+            "ARTH 4816",
+            "ARTH 4844",
+            "ASIAN 4473",
+            "COML 2000",
+            "ENGL 2761",
+            "INFO 3660",
+            "PMA 2560",
+            "PMA 3550",
+            "SHUM 4916",
+            "VISST 2300",
+            "VISST 3600",
+            "VISST 3650",
+            "VISST 4151"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "art-approved-modern",
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "global",
+      "label": "Global or underrepresented art history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARKEO 2800",
+            "ARKEO 3566",
+            "ART 3804",
+            "ARTH 2255",
+            "ARTH 2550",
+            "ARTH 2800",
+            "ARTH 2805",
+            "ARTH 3250",
+            "ARTH 3565",
+            "ARTH 3566",
+            "ARTH 3651",
+            "ARTH 3803",
+            "ARTH 3850",
+            "ARTH 4153",
+            "ARTH 4155",
+            "ARTH 4556",
+            "ARTH 4695",
+            "ARTH 4816",
+            "ARTH 4852",
+            "ARTH 4855",
+            "ASIAN 2252",
+            "ASIAN 2285",
+            "ASIAN 2288",
+            "ASIAN 3350",
+            "ASIAN 4442",
+            "ASIAN 4487",
+            "LATA 3566",
+            "PMA 2452",
+            "PMA 3550",
+            "PMA 3750",
+            "VISST 2805",
+            "VISST 3566",
+            "VISST 3696",
+            "VISST 4852",
+            "VISST 4855"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "art-approved-global",
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Additional art history or visual studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AMST 2000",
+            "ARCH 3819",
+            "ARCH 3820",
+            "ARCH 3823",
+            "ARKEO 2700",
+            "ART 3105",
+            "ARTH 2000",
+            "ARTH 2200",
+            "ARTH 2355",
+            "ARTH 2400",
+            "ARTH 2500",
+            "COGST 3420",
+            "COML 2000",
+            "PMA 3105",
+            "PSYCH 3420",
+            "VISST 2645",
+            "VISST 3342"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "art-approved-history",
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "subjects": [
+            "ARTH"
+          ],
+          "numberMin": 3000,
+          "minGrade": "D-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "academic-credit",
+      "label": "Academic credits required for the BFA",
+      "need": 120,
+      "unit": "credits"
+    },
+    {
+      "id": "writing-credit",
+      "label": "Approved writing credits",
+      "slots": [
+        "writing"
+      ],
+      "need": 6,
+      "unit": "credits"
+    },
+    {
+      "id": "studio-credit",
+      "label": "Studio credits",
+      "slots": [
+        "first-studio",
+        "intro-studios",
+        "upper-studios",
+        "elective-studios",
+        "advanced-practice",
+        "thesis-i",
+        "thesis-ii"
+      ],
+      "need": 52,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "writing"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "elective-plan"
+      ],
+      "max": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "grades": [
+            "S",
+            "SX"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "studio-order",
+      "label": "Studio, writing and thesis sequence",
+      "instruction": "Confirm the first-year, third-year and thesis sequence and prerequisite studios. Confirm writing credit before any off-campus term."
+    },
+    {
+      "id": "electives",
+      "label": "Approved elective plan",
+      "instruction": "Confirm the applicable elective credit range and approvals with the department."
+    }
+  ]
+}

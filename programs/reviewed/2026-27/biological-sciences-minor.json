@@ -1,0 +1,230 @@
+{
+  "programId": "biological-sciences-minor",
+  "name": "Biological Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out for students matriculated before August 2021. Twenty-one eligible credits including approved laboratory or fieldwork.",
+  "sources": [
+    "https://cals.cornell.edu/sites/default/files/2022-03/oub-bio-minor-new-info-form-10-6-21-ada.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "excludePrograms": [
+    "biology-society-ba",
+    "entomology-bs",
+    "human-biology-health-society-bs",
+    "nutritional-sciences-bs",
+    "plant-sciences-bs"
+  ],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2021",
+          "slots": [
+            {
+              "id": "work",
+              "label": "Approved biological sciences courses",
+              "unit": "credits",
+              "need": 21,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "BIOMS 4400",
+                    "BIOG 2000",
+                    "BIOG 2200",
+                    "BIOG 2990",
+                    "BIOG 3500",
+                    "BIOG 4970",
+                    "BIOG 4980"
+                  ],
+                  "codes": [
+                    "BIOMG 1350",
+                    "BIOG 1440",
+                    "BIOG 1445",
+                    "BIOG 1500",
+                    "BIOSM 1500",
+                    "BIOEE 1540",
+                    "BIOEE 1610",
+                    "BIOSM 1610",
+                    "BIOEE 1780",
+                    "BIOSM 1780",
+                    "BIOEE 1781"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "BIOMS 4400",
+                    "BIOG 2000",
+                    "BIOG 2200",
+                    "BIOG 2990",
+                    "BIOG 3500",
+                    "BIOG 4970",
+                    "BIOG 4980",
+                    "BIOG 4990"
+                  ],
+                  "subjects": [
+                    "BIOAP",
+                    "BIOCB",
+                    "BIOEE",
+                    "BIOG",
+                    "BIOMG",
+                    "BIOMI",
+                    "BIOMS",
+                    "BIONB",
+                    "BIOSM"
+                  ],
+                  "numberMin": 2000
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "BIOMS 4400",
+                    "BIOG 2000",
+                    "BIOG 2200",
+                    "BIOG 2990",
+                    "BIOG 3500",
+                    "BIOG 4970",
+                    "BIOG 4980"
+                  ],
+                  "codes": [
+                    "BIOG 4990"
+                  ],
+                  "maxCountedCredits": 3
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "BIOMS 4400",
+                    "BIOG 2000",
+                    "BIOG 2200",
+                    "BIOG 2990",
+                    "BIOG 3500",
+                    "BIOG 4970",
+                    "BIOG 4980"
+                  ],
+                  "numberMin": 2000,
+                  "approval": "oub-biological-sciences-content"
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "excludeCodes": [
+                    "BIOMS 4400",
+                    "BIOG 2000",
+                    "BIOG 2200",
+                    "BIOG 2990",
+                    "BIOG 3500",
+                    "BIOG 4970",
+                    "BIOG 4980"
+                  ],
+                  "approval": "oub-teachout-approved-equivalent"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "lab",
+              "label": "One qualifying two-credit lab or field course",
+              "slots": [
+                "work"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1500",
+                    "BIOSM 1500",
+                    "BIOG 4990"
+                  ],
+                  "minCredits": 2
+                },
+                {
+                  "minCredits": 2,
+                  "approval": "oub-teachout-approved-lab-field"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "credits",
+              "max": 4,
+              "options": [
+                {
+                  "origins": [
+                    "transfer",
+                    "study_abroad"
+                  ]
+                }
+              ]
+            },
+            {
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 4990"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2021 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "overlap",
+      "label": "Biology major overlap and outside credit",
+      "instruction": "Count at most two courses toward both the major and minor. Confirm eligibility, the four-credit limit on approved courses outside Cornell, and final certification with Undergraduate Biology."
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

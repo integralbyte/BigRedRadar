@@ -1,0 +1,159 @@
+{
+  "programId": "dance-minor",
+  "name": "Dance Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Dance composition, global performance, three approved dance electives and a production lab.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/dance-minor/#curriculumtext",
+    "https://pma.cornell.edu/undergraduate-minor"
+  ],
+  "slots": [
+    {
+      "id": "composition",
+      "label": "Dance composition",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "codes": [
+            "PMA 2300"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-approved-abroad",
+          "codes": [
+            "PMA 2300"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global",
+      "label": "Global dance or performance",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "codes": [
+            "PMA 3226",
+            "PMA 3750"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-approved-abroad",
+          "codes": [
+            "PMA 3226",
+            "PMA 3750"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance-electives",
+      "label": "Dance-focused electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3,
+          "subjects": [
+            "PMA"
+          ],
+          "acceptCrossListings": true,
+          "approval": "pma-dance-elective",
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar",
+            "pma-independent-study"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "minCredits": 3,
+          "approval": "pma-approved-abroad",
+          "subjects": [
+            "PMA"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "label": "Production laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 2,
+          "codes": [
+            "PMA 1410",
+            "PMA 1610"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "dance-approvals",
+      "label": "Dance electives and certification",
+      "instruction": "Confirm course focus, PMA instructor participation and any Cornell-affiliated study abroad with PMA. Confirm the published 18-credit Catalog minimum for your cohort if your approved plan differs."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

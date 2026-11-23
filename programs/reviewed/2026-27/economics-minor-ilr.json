@@ -1,0 +1,96 @@
+{
+  "programId": "economics-minor-ilr",
+  "name": "Economics Minor for ILR Students",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Standard nine-course path, with departmental verification for alternatives that require approval.",
+  "sources": [
+    "https://economics.cornell.edu/minor",
+    "https://economics.cornell.edu/course-policies-minor",
+    "https://economics.cornell.edu/economics-credit-policies"
+  ],
+  "colleges": ["IL"],
+  "slots": [
+    {
+      "id": "micro-intro", "label": "Introductory microeconomics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 1110"], "origins": ["cornell"], "minGrade": "B-"},
+        {"codes": ["ECON 1110"], "origins": ["transfer", "exam"], "approval": "econ-intro-credit"}
+      ]
+    },
+    {
+      "id": "macro-intro", "label": "Introductory macroeconomics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 1120"], "origins": ["cornell"], "minGrade": "B-"},
+        {"codes": ["ECON 1120"], "origins": ["transfer", "exam"], "approval": "econ-intro-credit"}
+      ]
+    },
+    {
+      "id": "micro-core", "label": "Intermediate microeconomics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 3030"], "origins": ["cornell"], "minGrade": "C-"},
+        {"codes": ["ECON 3030"], "origins": ["transfer"], "approval": "econ-core-transfer"}
+      ]
+    },
+    {
+      "id": "macro-core", "label": "Intermediate macroeconomics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 3040"], "origins": ["cornell"], "minGrade": "C-"},
+        {"codes": ["ECON 3040"], "origins": ["transfer"], "approval": "econ-core-transfer"}
+      ]
+    },
+    {
+      "id": "stats", "label": "Probability and statistics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 3110", "ECON 3130"], "origins": ["cornell"], "minGrade": "C-"},
+        {"codes": ["ECON 3110", "ECON 3130"], "origins": ["transfer"], "approval": "econ-core-transfer"}
+      ]
+    },
+    {
+      "id": "econometrics", "label": "Econometrics", "need": 1, "unit": "courses",
+      "options": [
+        {"codes": ["ECON 3120", "ECON 3140"], "origins": ["cornell"], "minGrade": "C-"},
+        {"codes": ["ECON 3120", "ECON 3140"], "origins": ["transfer"], "approval": "econ-core-transfer"}
+      ]
+    },
+    {
+      "id": "advanced", "label": "Advanced economics electives", "need": 2, "unit": "courses",
+      "options": [
+        {"subjects": ["ECON"], "numberMin": 3000, "numberMax": 4999, "origins": ["cornell"], "minGrade": "C-", "excludeCodes": ["ECON 4997", "ECON 4998", "ECON 4999", "ECON 3010", "ECON 3020", "ECON 3030", "ECON 3040", "ECON 3110", "ECON 3130", "ECON 3120", "ECON 3140"]},
+        {"codes": ["ECON 6090", "ECON 6100", "ECON 6110", "ECON 6130", "ECON 6140", "ECON 6170", "ECON 6190", "ECON 6200"], "origins": ["cornell"], "minGrade": "C-", "approval": "econ-graduate-elective"},
+        {"origins": ["transfer", "study_abroad"], "approval": "econ-external-elective"}
+      ]
+    },
+    {
+      "id": "elective", "label": "Additional economics elective", "need": 1, "unit": "courses",
+      "options": [
+        {"subjects": ["ECON"], "numberMin": 2400, "numberMax": 4999, "origins": ["cornell"], "minGrade": "C-", "excludeCodes": ["ECON 4997", "ECON 4998", "ECON 4999", "ECON 3010", "ECON 3020", "ECON 3030", "ECON 3040", "ECON 3110", "ECON 3130", "ECON 3120", "ECON 3140"]},
+        {"codes": ["ECON 2040"], "origins": ["cornell"], "minGrade": "C-"},
+        {"codes": ["ECON 6090", "ECON 6100", "ECON 6110", "ECON 6130", "ECON 6140", "ECON 6170", "ECON 6190", "ECON 6200"], "origins": ["cornell"], "minGrade": "C-", "approval": "econ-graduate-elective"},
+        {"origins": ["transfer", "study_abroad"], "approval": "econ-external-elective"}
+      ]
+    },
+    {
+      "id": "calculus", "label": "Calculus prerequisite", "need": 1, "unit": "courses", "allocationGroup": "eligibility",
+      "options": [
+        {"codes": ["MATH 1110"], "origins": ["cornell"], "minGrade": "C"},
+        {"codes": ["MATH 1110"], "origins": ["transfer", "exam"], "approval": "econ-calculus-credit"}
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "external-credits", "label": "External credit and placement review", "when": "external_credit",
+      "instruction": "Confirm approvals, applicable placement exam rules, and the limit on study abroad or other external courses with the Economics department."
+    },
+    {
+      "id": "transfer-residency", "label": "Transfer student residency check", "when": "transfer",
+      "instruction": "Confirm that at least four of the nine counted Economics courses meet Cornell's residency rule."
+    },
+    {
+      "id": "certification", "label": "Department certification",
+      "instruction": "Confirm any accelerated sequence, approved cross-listing, or other substitution with the department when applying for certification."
+    }
+  ]
+}

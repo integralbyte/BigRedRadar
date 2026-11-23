@@ -1,0 +1,305 @@
+{
+  "programId": "artificial-intelligence-minor",
+  "name": "Artificial Intelligence Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four AI foundations and two named AI electives, all taken at Cornell.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/artificial-intelligence-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "learning",
+      "label": "AI machine learning foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "CS 3780",
+            "ECE 3200",
+            "ORIE 3741",
+            "STSCI 3740",
+            "CS 4780",
+            "ORIE 4741",
+            "STSCI 4740"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "label": "AI reasoning foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "CS 3700",
+            "CS 4700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "AI ethics, governance and policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "ENGRG 3605",
+            "PHIL 2473",
+            "STS 3605",
+            "INFO 1210",
+            "INFO 1260",
+            "CS 1340",
+            "INFO 4210",
+            "PUBPOL 4210"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Artificial Intelligence electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "AMST 4066",
+            "BIONB 3500",
+            "BME 4790",
+            "COGST 2621",
+            "COGST 4240",
+            "COGST 4740",
+            "CS 1340",
+            "CS 4300",
+            "CS 4670",
+            "CS 4701",
+            "CS 4740",
+            "CS 4744",
+            "CS 4745",
+            "CS 4750",
+            "CS 4756",
+            "CS 4758",
+            "CS 4782",
+            "CS 4783",
+            "CS 4787",
+            "CS 4789",
+            "CS 4860",
+            "ECE 4160",
+            "ECE 4180",
+            "ECE 4240",
+            "ECE 4770",
+            "ENGRG 3605",
+            "ILRGL 4066",
+            "INFO 1170",
+            "INFO 1260",
+            "INFO 3160",
+            "INFO 3350",
+            "INFO 3950",
+            "INFO 4120",
+            "INFO 4210",
+            "INFO 4240",
+            "INFO 4260",
+            "INFO 4300",
+            "INFO 4310",
+            "INFO 4410",
+            "INFO 4470",
+            "LING 4424",
+            "LING 4434",
+            "LING 4474",
+            "MAE 4180",
+            "MAE 4760",
+            "MAE 4810",
+            "MATH 4860",
+            "NBA 4920",
+            "ORIE 3320",
+            "ORIE 4570",
+            "ORIE 4740",
+            "ORIE 4742",
+            "PHIL 2473",
+            "PHIL 2621",
+            "PUBPOL 2120",
+            "PUBPOL 3520",
+            "PUBPOL 4210",
+            "STS 3605",
+            "STS 4240",
+            "STS 4260",
+            "STSCI 4030",
+            "STSCI 4520",
+            "STSCI 4750"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "INFO 4940"
+          ],
+          "topics": [
+            "Designing AI Products and Services",
+            "Human-AI Interaction Design",
+            "Advanced NLP for Humanities Research",
+            "Applied Machine Learning: Methods and Applications",
+            "Law, Policy, and Politics of AI",
+            "Neural Networks in Practice"
+          ]
+        },
+        {
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "ORIE 4160"
+          ],
+          "approval": "ai-approved-orie-topic"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "application",
+      "label": "Graduation cohort",
+      "options": [
+        {
+          "id": "winter-2026-spring-2027",
+          "label": "Graduating December 2026 or May 2027",
+          "slots": [
+            {
+              "id": "human",
+              "label": "Human-AI interaction",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "INFO 3160",
+                    "INFO 4240",
+                    "STS 4240",
+                    "INFO 4470"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "topics": [
+                    "Designing AI Products and Services",
+                    "Human-AI Interaction Design"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "INFO 3450"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "later",
+          "label": "Other graduation cohort",
+          "slots": [
+            {
+              "id": "human",
+              "label": "Human-AI interaction",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "INFO 3160",
+                    "INFO 4240",
+                    "STS 4240",
+                    "INFO 4470"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "topics": [
+                    "Designing AI Products and Services",
+                    "Human-AI Interaction Design"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Major core overlap and special topics",
+      "instruction": "Use at most two courses in both the minor and restricted major requirements. Confirm the applicable CS, IS or ISST rules and permitted special topics. Info 3450 applies only to the listed graduation cohort."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

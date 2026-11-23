@@ -1,0 +1,331 @@
+{
+  "programId": "linguistics-ba",
+  "name": "Linguistics (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four foundations, six elective equivalents and ancillary skills.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/linguistics-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "ling-1101",
+      "label": "LING 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 1101"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "ling-3302",
+      "label": "LING 3302",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 3302"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "ling-3303",
+      "label": "LING 3303",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 3303"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "ling-3314",
+      "label": "LING 3314",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LING 3314"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "additional",
+      "label": "Linguistics elective path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Six courses",
+          "slots": [
+            {
+              "id": "ling-additional",
+              "label": "Additional Linguistics courses",
+              "unit": "courses",
+              "need": 6,
+              "options": [
+                {
+                  "subjects": [
+                    "LING"
+                  ],
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "approval": "ling-approved-course",
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                },
+                {
+                  "approval": "ling-approved-external-course",
+                  "minCredits": 3,
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "ling-upper",
+              "label": "3000-level and higher Linguistics coursework",
+              "slots": [
+                "ling-additional"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "regular-cornell",
+              "label": "Regularly scheduled Linguistics courses at Cornell",
+              "slots": [
+                "ling-additional"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "ling-cornell-regular",
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "ling-additional"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 1000,
+                  "numberMax": 1999
+                }
+              ]
+            },
+            {
+              "slots": [
+                "ling-additional"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "ling-approved-external-course"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "with-research",
+          "label": "Five courses plus research credit",
+          "slots": [
+            {
+              "id": "ling-additional",
+              "label": "Additional Linguistics courses",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "subjects": [
+                    "LING"
+                  ],
+                  "minCredits": 3,
+                  "acceptCrossListings": true,
+                  "approval": "ling-approved-course",
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                },
+                {
+                  "approval": "ling-approved-external-course",
+                  "minCredits": 3,
+                  "excludeApprovals": [
+                    "as-writing-seminar"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ling-research",
+              "label": "Approved CU-UGR coursework",
+              "unit": "credits",
+              "need": 4,
+              "options": [
+                {
+                  "approval": "ling-approved-research"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "ling-upper",
+              "label": "3000-level and higher Linguistics coursework",
+              "slots": [
+                "ling-additional",
+                "ling-research"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "regular-cornell",
+              "label": "Regularly scheduled Linguistics courses at Cornell",
+              "slots": [
+                "ling-additional",
+                "ling-research"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "ling-cornell-regular",
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "ling-additional",
+                "ling-research"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 1000,
+                  "numberMax": 1999
+                }
+              ]
+            },
+            {
+              "slots": [
+                "ling-additional",
+                "ling-research"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "approval": "ling-approved-external-course"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "label": "Ancillary skills path",
+      "options": [
+        {
+          "id": "coursework",
+          "label": "Complete ancillary skills courses",
+          "slots": [
+            {
+              "id": "ancillary",
+              "label": "Approved ancillary skills courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "approval": "ling-ancillary-skill",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "approved-waiver",
+          "label": "Approved second-major waiver",
+          "slots": [],
+          "manual": [
+            {
+              "id": "ancillary-waiver",
+              "label": "Ancillary skills waiver",
+              "instruction": "Confirm that the department granted the second-major waiver."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "ling-credits",
+      "label": "Linguistics coursework credits",
+      "need": 37,
+      "unit": "credits",
+      "slotPrefix": "ling-"
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Linguistics elective approval",
+      "instruction": "Confirm the approved list, including excluded language and writing seminars, one allowed petition outside the department, and any registered research designation."
+    }
+  ]
+}

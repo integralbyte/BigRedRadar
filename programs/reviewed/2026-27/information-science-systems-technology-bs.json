@@ -1,0 +1,2190 @@
+{
+  "programId": "information-science-systems-technology-bs",
+  "name": "Information Science, Systems, and Technology (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The 2026–27 current Catalog’s core, one primary and a different secondary concentration, and two major electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/information-science-systems-technology-bs/#curriculumtext",
+    "https://infosci.cornell.edu/current-students"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "core-orie-3500",
+      "label": "ORIE 3500",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-info-1300",
+      "label": "INFO 1300",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 1300"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-orie-3120",
+      "label": "ORIE 3120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ORIE 3120"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-info-2450",
+      "label": "INFO 2450",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 2450"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-info-2850",
+      "label": "INFO 2850",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 2850"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-ethics",
+      "label": "Information ethics, law and policy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 1200",
+            "INFO 1260"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core-machine-learning",
+      "label": "Data science and machine learning",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3780",
+            "ORIE 3741",
+            "ORIE 4740",
+            "STSCI 3740"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "distribution-statistics",
+      "label": "Engineering probability and statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "label": "Object-oriented programming and data structures",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2110",
+            "ENGRD 2110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "discrete",
+      "label": "Mathematical foundations of computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2800"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "advisor-approved",
+      "label": "Advisor-approved electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "approval": "isst-advisor-elective"
+        }
+      ]
+    },
+    {
+      "id": "major-electives",
+      "label": "Major-approved electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "C-",
+          "codes": [
+            "COMM 3150",
+            "COMM 3189",
+            "COMM 3190",
+            "COMM 4010",
+            "COMM 4380",
+            "COMM 4860",
+            "CS 4620",
+            "CS 4740",
+            "CS 4758",
+            "CS 5150",
+            "ECON 3120",
+            "ECON 3140",
+            "ECON 3810",
+            "ECON 4020",
+            "ECON 4610",
+            "ECON 4620",
+            "ECON 4660",
+            "ENGL 3778",
+            "ENGRG 3605",
+            "HADM 4890",
+            "INFO 2300",
+            "INFO 2310",
+            "INFO 2770",
+            "INFO 2921",
+            "INFO 3170",
+            "INFO 3200",
+            "INFO 3210",
+            "INFO 3300",
+            "INFO 3312",
+            "INFO 3350",
+            "INFO 3370",
+            "INFO 3450",
+            "INFO 3660",
+            "INFO 3720",
+            "INFO 3900",
+            "INFO 3950",
+            "INFO 4100",
+            "INFO 4113",
+            "INFO 4120",
+            "INFO 4125",
+            "INFO 4140",
+            "INFO 4145",
+            "INFO 4200",
+            "INFO 4210",
+            "INFO 4220",
+            "INFO 4240",
+            "INFO 4250",
+            "INFO 4260",
+            "INFO 4270",
+            "INFO 4300",
+            "INFO 4301",
+            "INFO 4310",
+            "INFO 4320",
+            "INFO 4340",
+            "INFO 4350",
+            "INFO 4360",
+            "INFO 4390",
+            "INFO 4400",
+            "INFO 4410",
+            "INFO 4420",
+            "INFO 4430",
+            "INFO 4450",
+            "INFO 4470",
+            "INFO 4490",
+            "INFO 4500",
+            "INFO 4505",
+            "INFO 4555",
+            "INFO 4561",
+            "ORIE 3741",
+            "ORIE 4350",
+            "ORIE 4740",
+            "PSYCH 3420",
+            "PSYCH 3800",
+            "PUBPOL 2300",
+            "PUBPOL 2301",
+            "PUBPOL 3460",
+            "SOC 3080",
+            "SOC 3490",
+            "SOC 3580",
+            "SOC 4390",
+            "STS 4040"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "codes": [
+            "INFO 4152"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "codes": [
+            "INFO 4940",
+            "COMM 4940",
+            "ARTH 4151"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "approval": "major-elective-topic",
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "major-elective-transfer",
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "major-elective-abroad",
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        },
+        {
+          "codes": [
+            "INFO 4900"
+          ],
+          "minGrade": "C-",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeCodes": [
+            "INFO 4910",
+            "INFO 4997",
+            "INFO 4998"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "discrete-location",
+      "label": "Place discrete mathematics in the Engineering curriculum",
+      "options": [
+        {
+          "id": "math",
+          "label": "Use CS 2800 for the fourth math course",
+          "slots": [
+            {
+              "id": "advanced-science",
+              "label": "Physics III or approved alternate science course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214",
+                    "PHYS 2218"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "approval": "isst-advanced-science",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "science",
+          "label": "Use CS 2800 in place of the fourth science course",
+          "slots": [
+            {
+              "id": "math-four",
+              "label": "Approved fourth engineering mathematics course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 2930",
+                    "MATH 3040"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "approval": "isst-approved-fourth-math",
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primary",
+      "label": "Primary concentration",
+      "options": [
+        {
+          "id": "data-science",
+          "label": "Data Science",
+          "slots": [
+            {
+              "id": "primary-data-science-a",
+              "label": "Data Analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 3300",
+                    "INFO 3900",
+                    "INFO 3950",
+                    "ORIE 4740"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-data-science-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-data-science-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-data-science-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-data-science-b",
+              "label": "Domain Expertise",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4740",
+                    "INFO 2770",
+                    "INFO 3350",
+                    "INFO 3370",
+                    "INFO 3720",
+                    "INFO 4100",
+                    "INFO 4120",
+                    "INFO 4300",
+                    "INFO 4350"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-data-science-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-data-science-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-data-science-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-data-science-c",
+              "label": "Big Data Ethics, Policy and Society",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4010",
+                    "ENGL 3778",
+                    "INFO 3200",
+                    "INFO 4140",
+                    "INFO 4145",
+                    "INFO 4200",
+                    "INFO 4240",
+                    "INFO 4250",
+                    "INFO 4260",
+                    "INFO 4270",
+                    "INFO 4390",
+                    "INFO 4561",
+                    "PUBPOL 3460"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-data-science-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-data-science-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-data-science-c-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-data-science-d",
+              "label": "Data Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 3150",
+                    "COMM 3189",
+                    "COMM 3190",
+                    "COMM 4860",
+                    "INFO 3312",
+                    "INFO 4310",
+                    "SOC 3580",
+                    "SOC 4390"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-data-science-d-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-data-science-d-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-data-science-d-abroad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interactive",
+          "label": "Interactive Technologies",
+          "slots": [
+            {
+              "id": "primary-interactive-a",
+              "label": "Building with Hardware",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4758",
+                    "INFO 4120",
+                    "INFO 4320"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-interactive-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-interactive-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-interactive-b",
+              "label": "Working with Data/Software",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4620",
+                    "CS 5150",
+                    "INFO 3300",
+                    "INFO 4340",
+                    "INFO 4555",
+                    "ORIE 3741"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-interactive-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-interactive-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-interactive-c",
+              "label": "Context/Application Domains",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4310",
+                    "INFO 4410",
+                    "INFO 4430",
+                    "INFO 4505"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-interactive-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-interactive-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-interactive-c-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-interactive-other",
+              "label": "Additional concentration course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4620",
+                    "CS 4758",
+                    "CS 5150",
+                    "INFO 3300",
+                    "INFO 4120",
+                    "INFO 4310",
+                    "INFO 4320",
+                    "INFO 4340",
+                    "INFO 4410",
+                    "INFO 4430",
+                    "INFO 4505",
+                    "INFO 4555",
+                    "ORIE 3741"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-interactive-other-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-interactive-other-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-interactive-other-abroad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "networks",
+          "label": "Networks, Crowds and Markets",
+          "slots": [
+            {
+              "id": "primary-networks-a",
+              "label": "Models",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 3150",
+                    "ECON 3810",
+                    "ECON 4020",
+                    "ECON 4610",
+                    "ECON 4620",
+                    "ECON 4660",
+                    "INFO 4220",
+                    "INFO 4360",
+                    "ORIE 4350",
+                    "SOC 3080"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-networks-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-networks-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-networks-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-networks-b",
+              "label": "Data",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4740",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "INFO 3300",
+                    "INFO 3950",
+                    "INFO 4300",
+                    "INFO 4350"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-networks-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-networks-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-networks-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "primary-networks-c",
+              "label": "Policy/Values",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4140",
+                    "INFO 4145",
+                    "INFO 4200",
+                    "INFO 4240",
+                    "INFO 4250",
+                    "INFO 4270",
+                    "PUBPOL 3460",
+                    "SOC 3490"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940",
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "primary-networks-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "primary-networks-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "primary-networks-c-abroad"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secondary",
+      "label": "Secondary concentration",
+      "options": [
+        {
+          "id": "data-science",
+          "label": "Data Science",
+          "slots": [
+            {
+              "id": "secondary-data-science-b",
+              "label": "Domain Expertise",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4740",
+                    "INFO 2770",
+                    "INFO 3350",
+                    "INFO 3370",
+                    "INFO 3720",
+                    "INFO 4100",
+                    "INFO 4120",
+                    "INFO 4300",
+                    "INFO 4350"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-data-science-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-data-science-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-data-science-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-data-science-c",
+              "label": "Big Data Ethics, Policy and Society",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4010",
+                    "ENGL 3778",
+                    "INFO 3200",
+                    "INFO 4140",
+                    "INFO 4145",
+                    "INFO 4200",
+                    "INFO 4240",
+                    "INFO 4250",
+                    "INFO 4260",
+                    "INFO 4270",
+                    "INFO 4390",
+                    "INFO 4561",
+                    "PUBPOL 3460"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-data-science-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-data-science-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-data-science-c-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-data-science-d",
+              "label": "Data Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 3150",
+                    "COMM 3189",
+                    "COMM 3190",
+                    "COMM 4860",
+                    "INFO 3312",
+                    "INFO 4310",
+                    "SOC 3580",
+                    "SOC 4390"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-data-science-d-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-data-science-d-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-data-science-d-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "data-science"
+            ]
+          }
+        },
+        {
+          "id": "interactive",
+          "label": "Interactive Technologies",
+          "slots": [
+            {
+              "id": "secondary-interactive-a",
+              "label": "Building with Hardware",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4758",
+                    "INFO 4120",
+                    "INFO 4320"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-interactive-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-interactive-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-interactive-b",
+              "label": "Working with Data/Software",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4620",
+                    "CS 5150",
+                    "INFO 3300",
+                    "INFO 4340",
+                    "INFO 4555",
+                    "ORIE 3741"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-interactive-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-interactive-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-interactive-c",
+              "label": "Context/Application Domains",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4310",
+                    "INFO 4410",
+                    "INFO 4430",
+                    "INFO 4505"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-interactive-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-interactive-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-interactive-c-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "interactive"
+            ]
+          }
+        },
+        {
+          "id": "networks",
+          "label": "Networks, Crowds and Markets",
+          "slots": [
+            {
+              "id": "secondary-networks-a",
+              "label": "Models",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 3150",
+                    "ECON 3810",
+                    "ECON 4020",
+                    "ECON 4610",
+                    "ECON 4620",
+                    "ECON 4660",
+                    "INFO 4220",
+                    "INFO 4360",
+                    "ORIE 4350",
+                    "SOC 3080"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-networks-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-networks-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-networks-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-networks-b",
+              "label": "Data",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4740",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "INFO 3300",
+                    "INFO 3950",
+                    "INFO 4300",
+                    "INFO 4350"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-networks-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-networks-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-networks-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-networks-c",
+              "label": "Policy/Values",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4140",
+                    "INFO 4145",
+                    "INFO 4200",
+                    "INFO 4240",
+                    "INFO 4250",
+                    "INFO 4270",
+                    "PUBPOL 3460",
+                    "SOC 3490"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940",
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-networks-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-networks-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-networks-c-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "networks"
+            ]
+          }
+        },
+        {
+          "id": "behavior",
+          "label": "Behavioral Science",
+          "slots": [
+            {
+              "id": "secondary-behavior-a",
+              "label": "Understanding Social Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4380",
+                    "INFO 3170",
+                    "INFO 4430",
+                    "INFO 4450",
+                    "INFO 4490",
+                    "INFO 4500",
+                    "INFO 4505",
+                    "PSYCH 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-behavior-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-behavior-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-behavior-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-behavior-b",
+              "label": "Social Data Analytics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "CS 4740",
+                    "INFO 3300",
+                    "INFO 3720",
+                    "INFO 3950",
+                    "INFO 4100",
+                    "INFO 4300",
+                    "INFO 4350"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-behavior-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-behavior-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-behavior-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-behavior-c",
+              "label": "Behavior in Sociological, Network, and Design Contexts",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 3200",
+                    "INFO 3450",
+                    "INFO 4140",
+                    "INFO 4240",
+                    "INFO 4360",
+                    "INFO 4400"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940",
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-behavior-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-behavior-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-behavior-c-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "behavior"
+            ]
+          }
+        },
+        {
+          "id": "digital-culture",
+          "label": "Digital Culture and Production",
+          "slots": [
+            {
+              "id": "secondary-digital-culture-a",
+              "label": "Digital Culture and History",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 2921",
+                    "INFO 3200",
+                    "INFO 4140",
+                    "INFO 4260",
+                    "INFO 4270",
+                    "STS 4040"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-digital-culture-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-digital-culture-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-digital-culture-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-digital-culture-b",
+              "label": "Media, Art, Design",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 3450",
+                    "INFO 3660",
+                    "INFO 4240",
+                    "INFO 4400",
+                    "INFO 4420"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940",
+                    "ARTH 4151"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-digital-culture-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-digital-culture-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-digital-culture-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-digital-culture-other",
+              "label": "Additional concentration course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 2921",
+                    "INFO 3200",
+                    "INFO 3450",
+                    "INFO 3660",
+                    "INFO 4140",
+                    "INFO 4240",
+                    "INFO 4260",
+                    "INFO 4270",
+                    "INFO 4400",
+                    "INFO 4420",
+                    "STS 4040"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4152"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940",
+                    "ARTH 4151"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-digital-culture-other-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-digital-culture-other-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-digital-culture-other-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "digital-culture"
+            ]
+          }
+        },
+        {
+          "id": "ethics-policy",
+          "label": "Information Ethics, Law, and Policy",
+          "slots": [
+            {
+              "id": "secondary-ethics-policy-a",
+              "label": "Frameworks and Institutions",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4010",
+                    "HADM 4890",
+                    "INFO 3210",
+                    "INFO 4113",
+                    "INFO 4140",
+                    "INFO 4200",
+                    "INFO 4250",
+                    "INFO 4301",
+                    "PUBPOL 3460"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-ethics-policy-a-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-ethics-policy-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-ethics-policy-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-ethics-policy-b",
+              "label": "Methods and Analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 2921",
+                    "INFO 4240",
+                    "PUBPOL 2300",
+                    "PUBPOL 2301"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-ethics-policy-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-ethics-policy-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-ethics-policy-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-ethics-policy-c",
+              "label": "Cases/Topics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "ENGRG 3605",
+                    "INFO 3170",
+                    "INFO 3200",
+                    "INFO 4145",
+                    "INFO 4210",
+                    "INFO 4260",
+                    "INFO 4390",
+                    "INFO 4561",
+                    "STS 4040"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-ethics-policy-c-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-ethics-policy-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-ethics-policy-c-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "ethics-policy"
+            ]
+          }
+        },
+        {
+          "id": "user-experience",
+          "label": "User Experience Design",
+          "slots": [
+            {
+              "id": "secondary-user-experience-a",
+              "label": "Core Principles of Design",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 3450",
+                    "INFO 4400",
+                    "INFO 4410",
+                    "INFO 4470"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-user-experience-a-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-user-experience-a-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-user-experience-b",
+              "label": "Design in Context",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 2921",
+                    "INFO 4240",
+                    "INFO 4420",
+                    "INFO 4505"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "INFO 4940"
+                  ],
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "secondary-user-experience-b-topic"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-user-experience-b-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-user-experience-b-abroad"
+                }
+              ]
+            },
+            {
+              "id": "secondary-user-experience-c",
+              "label": "Knowing the User",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "codes": [
+                    "COMM 4380",
+                    "INFO 4125",
+                    "INFO 4430",
+                    "INFO 4450",
+                    "INFO 4490",
+                    "PSYCH 3420"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "secondary-user-experience-c-transfer"
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "secondary-user-experience-c-abroad"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "primary": [
+              "user-experience"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "advisor-credits",
+      "label": "Advisor-approved elective credits",
+      "slots": [
+        "advisor-approved"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefixes": [
+        "core-",
+        "primary-",
+        "secondary-",
+        "major-electives"
+      ],
+      "unit": "credits",
+      "max": 18,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "slotPrefixes": [
+        "primary-",
+        "secondary-",
+        "major-electives"
+      ],
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "slotPrefixes": [
+        "primary-",
+        "secondary-"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3780",
+            "ORIE 3741",
+            "STSCI 3740"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "major-electives"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 2300",
+            "INFO 2310"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "major-electives"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "INFO 4900"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "degree",
+      "label": "Engineering curriculum and ISST standing",
+      "instruction": "Confirm required engineering math, physics, chemistry, approved distributions, 129 degree credits, affiliation grades and GPA, and completion of ISST core before the final term."
+    },
+    {
+      "id": "abroad",
+      "label": "Approved study-away courses",
+      "instruction": "Confirm advance approval for concentration and major elective substitutions from the Information Science department."
+    },
+    {
+      "id": "topic",
+      "label": "Elective topics and eligibility",
+      "instruction": "Confirm approved topics and external course equivalencies, and check forbidden overlap with courses already applied elsewhere in the degree."
+    }
+  ]
+}

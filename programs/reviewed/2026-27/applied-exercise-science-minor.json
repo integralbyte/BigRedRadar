@@ -1,0 +1,85 @@
+{
+  "programId": "applied-exercise-science-minor",
+  "name": "Applied Exercise Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Cornell anatomy and physiology and 12 credits at Ithaca College for eligible DNS majors.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/applied-exercise-science-minor/#curriculumtext",
+    "https://human.cornell.edu/degrees/applied-exercise-science-minor"
+  ],
+  "slots": [
+    {
+      "id": "anatomy",
+      "label": "Human anatomy and physiology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3410"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anatomy-lab",
+      "label": "Human anatomy and physiology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3420"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ithaca-college",
+      "label": "Approved Ithaca College Exercise and Sport Sciences credits",
+      "unit": "credits",
+      "need": 12,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "aes-ithaca-college-course"
+        }
+      ]
+    }
+  ],
+  "onlyWhenDeclared": [
+    "nutritional-sciences-bs",
+    "human-biology-health-society-bs",
+    "global-public-health-sciences-bs",
+    "global-public-health-sciences-hum-ecol-bs"
+  ],
+  "manual": [
+    {
+      "id": "catalog-sequence",
+      "label": "Cornell and Ithaca College sequence",
+      "instruction": "The Catalog lists NS 4430 and three named Ithaca College courses. The department lists two Cornell prerequisites and 12 approved Ithaca College credits. Confirm NS 4430, the approved course plan, prerequisites and completion with DNS Student Services."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

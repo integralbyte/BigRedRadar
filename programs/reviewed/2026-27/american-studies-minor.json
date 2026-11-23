@@ -1,0 +1,139 @@
+{
+  "programId": "american-studies-minor",
+  "name": "American Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four advanced American Studies courses in distinct requirement areas, plus the introductory course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/american-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to American Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AMST 1101"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "pre-1900",
+      "label": "Pre-1900 American Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "AMST"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true,
+          "approval": "amst-pre-1900"
+        }
+      ]
+    },
+    {
+      "id": "diversity",
+      "label": "American diversity",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "AMST"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true,
+          "approval": "amst-diversity"
+        }
+      ]
+    },
+    {
+      "id": "seminar",
+      "label": "4000-level American Studies seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "AMST"
+          ],
+          "numberMin": 4000,
+          "minGrade": "C",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true,
+          "numberMax": 4999,
+          "approval": "amst-seminar"
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "American Studies elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "AMST"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true
+        },
+        {
+          "numberMin": 2000,
+          "minGrade": "C",
+          "allowSatisfactory": true,
+          "approval": "amst-approved-elective"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        },
+        {
+          "passFailOnly": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "disciplines",
+      "label": "Discipline limits and approved designations",
+      "instruction": "Confirm no more than two courses in a single discipline and verify the pre-1900, diversity and seminar classifications with American Studies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,2445 @@
+{
+  "programId": "urban-regional-studies-bs-urs",
+  "name": "Urban and Regional Studies (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core, engaged learning, five advanced CRP courses and nine distribution courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/urban-regional-studies-bs-urs/#curriculumtext",
+    "https://aap.cornell.edu/planning/crp-academic-programs/bachelor-of-science-in-urban-and-regional-studies/"
+  ],
+  "colleges": [
+    "AR"
+  ],
+  "slots": [
+    {
+      "id": "core-crp-1103",
+      "label": "CRP 1103",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 1103"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-crp-1104",
+      "label": "CRP 1104",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 1104"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-crp-2100",
+      "label": "CRP 2100",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 2100"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-crp-2200",
+      "label": "CRP 2200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 2200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "First-year writing seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-",
+          "approval": "as-writing-seminar"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "urs-english-ap-five"
+        }
+      ]
+    },
+    {
+      "id": "microeconomics",
+      "label": "Microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "AEM 2500",
+            "CRP 4040",
+            "ECON 3030",
+            "PUBPOL 2000"
+          ],
+          "minGrade": "D-",
+          "approval": "urs-ap-microeconomics"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 1200"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "AEM 3100",
+            "AEM 4110",
+            "ECON 3110",
+            "ECON 3130",
+            "ECON 3140",
+            "MATH 4710",
+            "STSCI 3080"
+          ],
+          "minGrade": "D-",
+          "approval": "urs-ap-statistics"
+        }
+      ]
+    },
+    {
+      "id": "engaged-learning",
+      "label": "Semester-long engaged learning course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 3072",
+            "CRP 3074",
+            "CRP 3076",
+            "CRP 4160",
+            "CRP 5172"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 4,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "CRP"
+          ],
+          "minCredits": 4,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "urs-engaged-learning"
+        }
+      ]
+    },
+    {
+      "id": "crp-advanced",
+      "label": "Additional CRP coursework",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "subjects": [
+            "CRP"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4900,
+            4901,
+            4902,
+            4903,
+            4904,
+            4905,
+            4906,
+            4907,
+            4908,
+            4909,
+            4910,
+            4911,
+            4912,
+            4913,
+            4914,
+            4915,
+            4916,
+            4917,
+            4918,
+            4919,
+            4920,
+            4921,
+            4922,
+            4923,
+            4924,
+            4925,
+            4926,
+            4927,
+            4928,
+            4929,
+            4930,
+            4931,
+            4932,
+            4933,
+            4934,
+            4935,
+            4936,
+            4937,
+            4938,
+            4939,
+            4940,
+            4941,
+            4942,
+            4943,
+            4944,
+            4945,
+            4946,
+            4947,
+            4948,
+            4949,
+            4950,
+            4951,
+            4952,
+            4953,
+            4954,
+            4955,
+            4956,
+            4957,
+            4958,
+            4959,
+            4960,
+            4961,
+            4962,
+            4963,
+            4964,
+            4965,
+            4966,
+            4967,
+            4968,
+            4969,
+            4970,
+            5320,
+            5321,
+            5560,
+            5561
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "ARCH 3820",
+            "ARCH 3823",
+            "CEE 3610",
+            "GDEV 2010",
+            "PUBPOL 4640",
+            "SOC 3250"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CRP 5320",
+            "CRP 5560",
+            "REAL 5320",
+            "REAL 5560"
+          ],
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "approval": "urs-combined-crp-choice"
+        }
+      ]
+    },
+    {
+      "id": "physical",
+      "label": "Physical and biological science distribution",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "BIO-AAP",
+            "BIO-AG",
+            "BIO-AS",
+            "BIO-EN",
+            "BIO-HA",
+            "BIO-HE",
+            "BIO-IL",
+            "OPHLS-AAP",
+            "OPHLS-AG",
+            "OPHLS-AS",
+            "OPHLS-EN",
+            "OPHLS-HA",
+            "OPHLS-HE",
+            "OPHLS-IL",
+            "PBS-AAP",
+            "PBS-AG",
+            "PBS-AS",
+            "PBS-EN",
+            "PBS-HA",
+            "PBS-HE",
+            "PBS-IL",
+            "PBSS-AAP",
+            "PBSS-AG",
+            "PBSS-AS",
+            "PBSS-EN",
+            "PBSS-HA",
+            "PBSS-HE",
+            "PBSS-IL",
+            "PHS-AAP",
+            "PHS-AG",
+            "PHS-AS",
+            "PHS-EN",
+            "PHS-HA",
+            "PHS-HE",
+            "PHS-IL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "Mathematics and quantitative reasoning distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "DLG-AAP",
+            "DLG-AG",
+            "DLG-AS",
+            "DLG-EN",
+            "DLG-HA",
+            "DLG-HE",
+            "DLG-IL",
+            "DLS-AAP",
+            "DLS-AG",
+            "DLS-AS",
+            "DLS-EN",
+            "DLS-HA",
+            "DLS-HE",
+            "DLS-IL",
+            "MQL-AAP",
+            "MQL-AG",
+            "MQL-AS",
+            "MQL-EN",
+            "MQL-HA",
+            "MQL-HE",
+            "MQL-IL",
+            "MQR-AAP",
+            "MQR-AG",
+            "MQR-AS",
+            "MQR-EN",
+            "MQR-HA",
+            "MQR-HE",
+            "MQR-IL",
+            "SDS-AAP",
+            "SDS-AG",
+            "SDS-AS",
+            "SDS-EN",
+            "SDS-HA",
+            "SDS-HE",
+            "SDS-IL",
+            "SMR-AAP",
+            "SMR-AG",
+            "SMR-AS",
+            "SMR-EN",
+            "SMR-HA",
+            "SMR-HE",
+            "SMR-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "codes": [
+            "AEM 2210",
+            "AEM 2225",
+            "HADM 1210",
+            "HADM 2230",
+            "NCC 5500",
+            "AEM 2240",
+            "AEM 2241",
+            "AEM 5241",
+            "HADM 2220",
+            "HADM 2250",
+            "NCC 5560"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stem-flex",
+      "label": "Additional science or mathematics distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "BIO-AAP",
+            "BIO-AG",
+            "BIO-AS",
+            "BIO-EN",
+            "BIO-HA",
+            "BIO-HE",
+            "BIO-IL",
+            "OPHLS-AAP",
+            "OPHLS-AG",
+            "OPHLS-AS",
+            "OPHLS-EN",
+            "OPHLS-HA",
+            "OPHLS-HE",
+            "OPHLS-IL",
+            "PBS-AAP",
+            "PBS-AG",
+            "PBS-AS",
+            "PBS-EN",
+            "PBS-HA",
+            "PBS-HE",
+            "PBS-IL",
+            "PBSS-AAP",
+            "PBSS-AG",
+            "PBSS-AS",
+            "PBSS-EN",
+            "PBSS-HA",
+            "PBSS-HE",
+            "PBSS-IL",
+            "PHS-AAP",
+            "PHS-AG",
+            "PHS-AS",
+            "PHS-EN",
+            "PHS-HA",
+            "PHS-HE",
+            "PHS-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "DLG-AAP",
+            "DLG-AG",
+            "DLG-AS",
+            "DLG-EN",
+            "DLG-HA",
+            "DLG-HE",
+            "DLG-IL",
+            "DLS-AAP",
+            "DLS-AG",
+            "DLS-AS",
+            "DLS-EN",
+            "DLS-HA",
+            "DLS-HE",
+            "DLS-IL",
+            "MQL-AAP",
+            "MQL-AG",
+            "MQL-AS",
+            "MQL-EN",
+            "MQL-HA",
+            "MQL-HE",
+            "MQL-IL",
+            "MQR-AAP",
+            "MQR-AG",
+            "MQR-AS",
+            "MQR-EN",
+            "MQR-HA",
+            "MQR-HE",
+            "MQR-IL",
+            "SDS-AAP",
+            "SDS-AG",
+            "SDS-AS",
+            "SDS-EN",
+            "SDS-HA",
+            "SDS-HE",
+            "SDS-IL",
+            "SMR-AAP",
+            "SMR-AG",
+            "SMR-AS",
+            "SMR-EN",
+            "SMR-HA",
+            "SMR-HE",
+            "SMR-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "codes": [
+            "AEM 2210",
+            "AEM 2225",
+            "HADM 1210",
+            "HADM 2230",
+            "NCC 5500",
+            "AEM 2240",
+            "AEM 2241",
+            "AEM 5241",
+            "HADM 2220",
+            "HADM 2250",
+            "NCC 5560"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humanities-flex",
+      "label": "Additional humanities or social science course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "ALC-AAP",
+            "ALC-AG",
+            "ALC-AS",
+            "ALC-EN",
+            "ALC-HA",
+            "ALC-HE",
+            "ALC-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "codes": [
+            "ARCH 1801",
+            "ARCH 2802",
+            "ARCH 3819"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "ETM-AAP",
+            "ETM-AG",
+            "ETM-AS",
+            "ETM-EN",
+            "ETM-HA",
+            "ETM-HE",
+            "ETM-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "GLC-AAP",
+            "GLC-AG",
+            "GLC-AS",
+            "GLC-EN",
+            "GLC-HA",
+            "GLC-HE",
+            "GLC-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "HST-AAP",
+            "HST-AG",
+            "HST-AS",
+            "HST-EN",
+            "HST-HA",
+            "HST-HE",
+            "HST-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "SCD-AAP",
+            "SCD-AG",
+            "SCD-AS",
+            "SCD-EN",
+            "SCD-HA",
+            "SCD-HE",
+            "SCD-IL"
+          ]
+        },
+        {
+          "excludeSubjects": [
+            "CRP"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "distributions": [
+            "SSC-AAP",
+            "SSC-AG",
+            "SSC-AS",
+            "SSC-EN",
+            "SSC-HA",
+            "SSC-HE",
+            "SSC-IL"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Entry to URS",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "Admitted to URS in the first year",
+          "slots": [
+            {
+              "id": "orientation",
+              "label": "First-year advising seminar",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CRP 1106"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transfer",
+          "label": "Transferred after a full term",
+          "slots": [],
+          "manual": [
+            {
+              "id": "orientation-waiver",
+              "label": "Advising seminar exemption",
+              "instruction": "Confirm the transfer exemption with AAP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Four humanities and social science categories",
+      "options": [
+        {
+          "id": "alc--etm--glc--hst",
+          "label": "ALC / ETM / GLC / HST",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--etm--glc--scd",
+          "label": "ALC / ETM / GLC / SCD",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--etm--glc--ssc",
+          "label": "ALC / ETM / GLC / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--etm--hst--scd",
+          "label": "ALC / ETM / HST / SCD",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--etm--hst--ssc",
+          "label": "ALC / ETM / HST / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--etm--scd--ssc",
+          "label": "ALC / ETM / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--glc--hst--scd",
+          "label": "ALC / GLC / HST / SCD",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--glc--hst--ssc",
+          "label": "ALC / GLC / HST / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--glc--scd--ssc",
+          "label": "ALC / GLC / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alc--hst--scd--ssc",
+          "label": "ALC / HST / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-alc",
+              "label": "Arts, literature and culture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ALC-AAP",
+                    "ALC-AG",
+                    "ALC-AS",
+                    "ALC-EN",
+                    "ALC-HA",
+                    "ALC-HE",
+                    "ALC-IL"
+                  ]
+                },
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "codes": [
+                    "ARCH 1801",
+                    "ARCH 2802",
+                    "ARCH 3819"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "etm--glc--hst--scd",
+          "label": "ETM / GLC / HST / SCD",
+          "slots": [
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "etm--glc--hst--ssc",
+          "label": "ETM / GLC / HST / SSC",
+          "slots": [
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "etm--glc--scd--ssc",
+          "label": "ETM / GLC / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "etm--hst--scd--ssc",
+          "label": "ETM / HST / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-etm",
+              "label": "Ethics and the mind",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "ETM-AAP",
+                    "ETM-AG",
+                    "ETM-AS",
+                    "ETM-EN",
+                    "ETM-HA",
+                    "ETM-HE",
+                    "ETM-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glc--hst--scd--ssc",
+          "label": "GLC / HST / SCD / SSC",
+          "slots": [
+            {
+              "id": "humanities-glc",
+              "label": "Global citizenship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "GLC-AAP",
+                    "GLC-AG",
+                    "GLC-AS",
+                    "GLC-EN",
+                    "GLC-HA",
+                    "GLC-HE",
+                    "GLC-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-hst",
+              "label": "Historical analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "HST-AAP",
+                    "HST-AG",
+                    "HST-AS",
+                    "HST-EN",
+                    "HST-HA",
+                    "HST-HE",
+                    "HST-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-scd",
+              "label": "Social difference",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SCD-AAP",
+                    "SCD-AG",
+                    "SCD-AS",
+                    "SCD-EN",
+                    "SCD-HA",
+                    "SCD-HE",
+                    "SCD-IL"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "humanities-ssc",
+              "label": "Social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "CRP"
+                  ],
+                  "minGrade": "D-",
+                  "minCredits": 3,
+                  "distributions": [
+                    "SSC-AAP",
+                    "SSC-AG",
+                    "SSC-AS",
+                    "SSC-EN",
+                    "SSC-HA",
+                    "SSC-HE",
+                    "SSC-IL"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "writing"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "slotPrefix": "humanities-",
+      "partitionBy": "subject",
+      "unit": "courses",
+      "max": 3,
+      "options": [
+        {}
+      ]
+    },
+    {
+      "slots": [
+        "crp-advanced"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "CRP 3348",
+            "CRP 5348"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "crp-pairs",
+      "label": "Paired CRP and REAL options",
+      "instruction": "Confirm both required components of a combined course and credit it as one additional course. Confirm any substitutions or course repeat credit."
+    },
+    {
+      "id": "degree",
+      "label": "Degree credits and residency",
+      "instruction": "Confirm 120 academic credits, residence, the junior or senior timing of engaged learning and any AP credit forfeitures."
+    }
+  ]
+}

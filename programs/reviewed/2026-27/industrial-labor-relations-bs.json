@@ -1,0 +1,628 @@
+{
+  "programId": "industrial-labor-relations-bs",
+  "name": "Industrial and Labor Relations (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Required courses, two writing designations, science and the ILR advanced elective allocation.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/industrial-labor-relations-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "IL"
+  ],
+  "slots": [
+    {
+      "id": "core-ilrid-1510",
+      "label": "Introduction to Industrial and Labor Relations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRID 1510"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrid-1525",
+      "label": "Psychology of Work",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRID 1525"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrid-1535",
+      "label": "Sociology of Work and Organizations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRID 1535"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrgl-1100",
+      "label": "Introductory U.S. labor history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRGL 1100"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrgl-2010",
+      "label": "Labor and employment law",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRGL 2010"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrgl-2050",
+      "label": "Labor relations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRGL 2050"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-ilrle-2400",
+      "label": "Economics of wages and employment",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRLE 2400"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-econ-1110",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "ilr-approved-econ-1110",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-econ-1120",
+      "label": "Introductory macroeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "ilr-approved-econ-1120",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-diversity",
+      "label": "Diversity, equity and inclusion",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRID 2510",
+            "EDUC 2610"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-comparative",
+      "label": "Introductory comparative labor",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ILRGL 2300",
+            "ILRGL 2350"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Statistics credits",
+      "unit": "credits",
+      "need": 7,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "STA-IL"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "ilr-approved-statistics",
+          "origins": [
+            "exam",
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science and technology credits",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "SCT-IL"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "ilr-approved-science",
+          "origins": [
+            "exam",
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fws",
+      "label": "First-year Writing Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "approval": "as-writing-seminar",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "ilr-approved-fws",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adv-qp",
+      "label": "Quantitative policy",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "QP-IL"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-transfer-qp",
+          "origins": [
+            "transfer"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adv-icl",
+      "label": "International and comparative labor",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "ICL-IL"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-transfer-icl",
+          "origins": [
+            "transfer"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adv-lh",
+      "label": "Labor history",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "LH-IL"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-transfer-lh",
+          "origins": [
+            "transfer"
+          ],
+          "excludeApprovals": [
+            "ilr-applied-advanced-writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adv-in",
+      "label": "Additional in-college ILR electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "ICE-IL"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-exchange",
+          "origins": [
+            "study_abroad"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-in-college-internship",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-in-college-research",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adv-out",
+      "label": "Additional approved out-of-college electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "OCE-IL",
+            "OCL-IL"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-outside-research",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-oce",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "approval": "ilr-approved-ocl",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "soph-writing",
+      "label": "Sophomore Writing Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "SOW-IL"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "ilr-approved-soph-writing"
+        }
+      ]
+    },
+    {
+      "id": "advanced-writing",
+      "label": "Advanced writing-intensive elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "AWI-IL"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "ilr-approved-advanced-writing"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "core-credits",
+      "label": "ILR core credits",
+      "need": 40,
+      "unit": "credits",
+      "slotPrefix": "core-"
+    },
+    {
+      "id": "in-college-credits",
+      "label": "In-college ILR advanced elective credits",
+      "slots": [
+        "adv-qp",
+        "adv-icl",
+        "adv-lh",
+        "adv-in"
+      ],
+      "need": 24,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced-credits",
+      "label": "Advanced ILR elective credits",
+      "slots": [
+        "adv-qp",
+        "adv-icl",
+        "adv-lh",
+        "adv-in",
+        "adv-out"
+      ],
+      "need": 40,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "adv-out"
+      ],
+      "max": 16,
+      "unit": "credits",
+      "options": [
+        {}
+      ]
+    },
+    {
+      "slots": [
+        "adv-out"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "distributions": [
+            "OCL-IL"
+          ]
+        },
+        {
+          "approval": "ilr-approved-ocl"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "adv-in"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "approval": "ilr-approved-in-college-internship"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "adv-in"
+      ],
+      "max": 15,
+      "unit": "credits",
+      "options": [
+        {
+          "approval": "ilr-approved-exchange"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "adv-qp",
+        "adv-icl",
+        "adv-lh",
+        "adv-in",
+        "adv-out"
+      ],
+      "max": 8,
+      "unit": "credits",
+      "options": [
+        {
+          "approval": "ilr-approved-in-college-research"
+        },
+        {
+          "approval": "ilr-approved-outside-research"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "section-and-overlap",
+      "label": "Writing and ILR elective overlap",
+      "instruction": "Confirm the approved section for sophomore writing. Mark a course used for Advanced Writing Intensive so it cannot also fill a specialized policy, comparative labor or history elective."
+    },
+    {
+      "id": "official-record",
+      "label": "ILR degree, transfer and study-abroad credit",
+      "instruction": "Confirm the 86-credit program floor, 120-credit degree, approved transfer designations, GPA, residency and any study-abroad credit limits with the school."
+    }
+  ]
+}

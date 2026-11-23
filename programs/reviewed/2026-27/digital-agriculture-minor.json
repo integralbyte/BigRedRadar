@@ -1,0 +1,207 @@
+{
+  "programId": "digital-agriculture-minor",
+  "name": "Digital Agriculture Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction, computing, ethics, production systems and two electives outside the major.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/digital-agriculture-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "introduction",
+      "label": "Introduction to Digital Agriculture",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ALS 1110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "Data Science or Computer Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1380",
+            "INFO 2950"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        },
+        {
+          "approval": "digital-agriculture-technical",
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethical issues in Digital Agriculture",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRG 3600",
+            "GDEV 3400",
+            "INFO 1200",
+            "INFO 4145"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "digital-agriculture-ethics",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "label": "Agricultural production systems",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANSC 2000",
+            "ANSC 2500",
+            "ANSC 3510",
+            "ENTOM 2030",
+            "PLSCI 3025",
+            "PLSCI 3030",
+            "PLSCI 3350",
+            "PLSCI 4140"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "digital-agriculture-production",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved electives outside the major",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4175",
+            "PLSCI 2110",
+            "PLSCI 4290",
+            "PLSCI 2200",
+            "PLSCI 4200",
+            "PLSCI 4720",
+            "PLSCI 4100",
+            "PLSCI 6200",
+            "PLSCI 4660",
+            "PLSCI 3210",
+            "PLSCI 3650",
+            "PLSCI 3350",
+            "PLSCI 3025",
+            "PLSCI 3420",
+            "PLSCI 3430",
+            "PLSCI 4000",
+            "ANSC 3510",
+            "ANSC 4120",
+            "ANSC 4310",
+            "ANSC 3300",
+            "BEE 2510",
+            "BEE 3299",
+            "BEE 4530",
+            "BEE 3900",
+            "BEE 4550",
+            "CRP 4080",
+            "FDSC 2000",
+            "FDSC 4210",
+            "FDSC 4250",
+            "INFO 2921",
+            "INFO 3950",
+            "INFO 4310",
+            "INFO 4320",
+            "ECE 2720",
+            "ORIE 3120",
+            "ORIE 4580",
+            "ORIE 4820",
+            "ENGRI 1200",
+            "ENGRI 1310",
+            "ENGRI 1130",
+            "ECE 2300",
+            "ECE 4250",
+            "ECE 4760",
+            "ECE 5470",
+            "ECE 3140",
+            "MAE 4180",
+            "CS 4750",
+            "BME 4390",
+            "EAS 3030",
+            "ANSC 4880",
+            "AEM 6455",
+            "INFO 4200",
+            "INFO 4240",
+            "FDSC 3960"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "outside-major",
+      "label": "Elective and program overlap",
+      "instruction": "Keep the two electives outside your major. At most two of the other courses may also count for your major, and keep all minor courses separate from other minors."
+    },
+    {
+      "id": "approval",
+      "label": "Production systems and substitutions",
+      "instruction": "For the production course, verify the minor’s prerequisite depth rule and advisor approvals for alternate courses."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 16,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    },
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses",
+      "slots": [
+        "electives"
+      ]
+    },
+    {
+      "with": "minor",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

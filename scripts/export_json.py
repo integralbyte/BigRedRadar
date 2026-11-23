@@ -3,12 +3,12 @@
 Turn the planner's compact catalog (source/catalog.js) into plain JSON a website can use directly.
 
 Writes
-  data/courses.json             every course in the catalog (18k+), one object each
-  data/programs/majors.json     every major, with full requirements
-  data/programs/minors.json     every minor
-  data/programs/colleges.json   college-level requirements (distributions, FWS, language, ...)
-  data/programs/university.json university-wide requirements (PE, swim test, ...)
-  data/programs/index.json      one line per program: id, name, type, status, file
+  courses.json             catalog courses and published term evidence
+  programs/majors.json     major rules
+  programs/minors.json     minor rules
+  programs/colleges.json   college-level requirements (distributions, FWS, language, ...)
+  programs/university.json university-wide requirements (PE, swim test, ...)
+  programs/index.json      one line per program: id, name, type, status, file
 
 Every requirement slot carries a plain `rule` (what counts) and, when the list is not huge, the exact
 `eligible_courses` resolved against data/courses.json, so a site can show "what counts" without
@@ -16,11 +16,21 @@ re-implementing the matching logic. See README.md for the full schema.
 
 Run after rebuilding source/catalog.js (scripts/rebuild_programs.sh does both).
 """
-import json, os, re, sys
+import argparse, json, os, re, sys
+from pathlib import Path
+
+from catalog_index import add_catalog_supplements, merge_rosters, retain_previous_courses
+from update_rosters import write_json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "source", "catalog.js")
-DATA = os.path.join(ROOT, "data")
+parser = argparse.ArgumentParser()
+parser.add_argument("--courses-only", action="store_true", help="refresh only the course catalog")
+parser.add_argument("--output-dir", type=Path, default=Path(ROOT))
+parser.add_argument("--roster-dir", type=Path, default=Path(ROOT), help="directory containing the staged term snapshots")
+args = parser.parse_args()
+DATA = args.output_dir
+DATA.mkdir(parents=True, exist_ok=True)
 MAX_LIST = 1500   # longer eligible lists are left out (the rule still says what counts)
 
 raw = open(SRC).read()
@@ -30,32 +40,13 @@ CAT, POOLS, CIDS, LINKS = D["cat"], D["pools"], D["cids"], D.get("links", {})
 SEASON = {"F": "Fall", "S": "Spring", "W": "Winter", "U": "Summer"}
 
 # ---------- merge in the pulled rosters (newer courses, current distribution codes) ----------
-# Rows are [subject, number, title, credits_min, credits_max, course_id_index, distributions, offered, last_term, career, attributes].
-def _term_key(t): return (int(t[2:]), {"WI": 0, "SP": 1, "SU": 2, "FA": 3}.get(t[:2], 9))
-_ros_dir = os.path.join(DATA, "rosters")
-_rows = {f"{r[0]} {r[1]}": r for r in CAT}
-_added = 0
-_cid_by_crse = {c: i for i, c in enumerate(CIDS)}
-for fn in sorted((f for f in os.listdir(_ros_dir) if f.endswith(".json") and f != "index.json"), key=lambda f: _term_key(f[:-5])) if os.path.isdir(_ros_dir) else []:
-    term = fn[:-5]
-    for c in json.load(open(os.path.join(_ros_dir, fn))).get("classes", []):
-        cr = [g["credits"] for g in c.get("enroll_groups") or [] if g.get("credits")]
-        lo = min((x["min"] for x in cr if x.get("min") is not None), default=0)
-        hi = max((x["max"] for x in cr if x.get("max") is not None), default=lo)
-        r = _rows.get(c["code"])
-        if r is None:
-            cidx = _cid_by_crse.get(c.get("crse_id"))
-            if cidx is None:
-                CIDS.append(c.get("crse_id")); cidx = len(CIDS) - 1; _cid_by_crse[c.get("crse_id")] = cidx
-            r = [c["subject"], c["number"], c.get("title") or "", lo, hi, cidx, "", "", term, c.get("career") or "", ""]
-            CAT.append(r); _rows[c["code"]] = r; _added += 1
-        if _term_key(term) >= _term_key(r[8] or "WI00"):
-            r[8] = term
-            if c.get("title"): r[2] = c["title"]
-            if c.get("distributions"): r[6] = ",".join(c["distributions"])   # Cornell sometimes leaves these blank; keep older codes then
-            if c.get("attributes"): r[10] = ",".join(c["attributes"])
+history, published_terms = merge_rosters(CAT, CIDS, args.roster_dir)
+previous_catalog = Path(ROOT) / "courses.json"
+retained = set()
+if previous_catalog.exists():
+    with previous_catalog.open(encoding="utf-8") as f:
+        retained = retain_previous_courses(CAT, CIDS, json.load(f)["courses"])
 CAT.sort(key=lambda r: (r[0], r[1]))
-if _added: print(f"added {_added} courses from the pulled rosters")
 split = lambda s: [x for x in (s or "").split(",") if x]
 norm_title = lambda t: re.sub(r"[^a-z0-9]+", " ", str(t or "").lower()).strip()
 
@@ -70,6 +61,8 @@ courses = []
 for r in CAT:
     code = code_of(r)
     linked = sorted({c for x in LINKS.get(str(r[5]), []) for c in codes_for_cid(x)})
+    alternate_codes = [c for c in codes_for_cid(r[5]) if c != code]
+    versions = history.get(code, [])
     courses.append({
         "code": code, "subject": r[0], "number": r[1], "title": r[2],
         "credits": {"min": r[3], "max": r[4]},
@@ -79,9 +72,29 @@ for r in CAT:
         "last_offered": r[8] or None,
         "career": r[9] or None,
         "attributes": split(r[10]),
-        "cross_listed": [c for c in codes_for_cid(r[5]) if c != code],
+        "cross_listed": alternate_codes,
+        "alternate_codes": alternate_codes,
         "same_course_as": linked,
+        "offered_terms": list(dict.fromkeys(v["term"] for v in versions)),
+        "roster_history": versions,
+        **({"catalog_record_source": "previous_catalog"} if code in retained else {}),
     })
+
+with (Path(ROOT) / "source" / "catalog_supplements.json").open(encoding="utf-8") as f:
+    add_catalog_supplements(courses, json.load(f))
+
+meta = {"generated_from": "source/catalog.js", "catalog_built": D.get("built")}
+write_json(DATA / "courses.json", {
+    **meta,
+    "schema_version": 2,
+    "catalog_scope": "Cornell DTI historical catalog seed, Cornell Class Roster snapshots, and individually verified University Catalog entries",
+    "published_terms": published_terms,
+    "count": len(courses),
+    "courses": courses,
+})
+if args.courses_only:
+    print(f"courses: {len(courses)} with {len(published_terms)} published terms")
+    sys.exit(0)
 
 # ---------- matching (same rules as the planner's matchF) ----------
 def pool_cids(i):
@@ -94,20 +107,22 @@ def pool_cids(i):
 
 def row_matches(f, r):
     if "any" in f:
-        return any(row_matches({**g, **({"minCr": f["minCr"]} if "minCr" in f and "minCr" not in g else {})}, r) for g in f["any"])
+        shared = {key: value for key, value in f.items() if key not in ("any", "minCr")}
+        default_credits = {"minCr": f["minCr"]} if "minCr" in f else {}
+        return row_matches(shared, r) and any(row_matches({**default_credits, **choice}, r) for choice in f["any"])
     sibs = by_cid.get(r[5], [r])
     codes = {code_of(x) for x in sibs}
     if f.get("not") and any(x in codes for x in f["not"]): return False
     if f.get("notSubj") and r[0] in f["notSubj"]: return False
     if f.get("titles") and norm_title(r[2]) not in [norm_title(t) for t in f["titles"]]: return False
     if f.get("codes") and not any(re.sub(r"\s+", " ", x.upper()) in codes for x in f["codes"]): return False
-    if f.get("subj"):
+    if f.get("subj") or any(key in f for key in ("lo", "hi", "notNum")):
         ok = False
         for c in codes:
             s, n = c.split(" ", 1)
             try: num = int(re.match(r"\d+", n).group())
             except Exception: continue
-            if s not in f["subj"]: continue
+            if f.get("subj") and s not in f["subj"]: continue
             if f.get("lo") is not None and num < f["lo"]: continue
             if f.get("hi") is not None and num > f["hi"]: continue
             if f.get("notNum") and any(p == n or ("X" in p and len(p) == len(n) and all(a == "X" or a == b for a, b in zip(p, n))) for p in f["notNum"]): continue
@@ -201,8 +216,6 @@ for p in D["progs"]:
     index.append({"id": p["id"], "name": p["name"], "type": p["kind"], "status": doc["status"], "file": f"programs/{KIND[p['kind']]}.json"})
 
 os.makedirs(os.path.join(DATA, "programs"), exist_ok=True)
-meta = {"generated_from": "source/catalog.js", "catalog_built": D.get("built")}
-json.dump({**meta, "count": len(courses), "courses": courses}, open(os.path.join(DATA, "courses.json"), "w"), separators=(",", ":"), ensure_ascii=False)
 for name, items in groups.items():
     items.sort(key=lambda x: (x["status"] != "verified", x["name"]))
     json.dump({**meta, "count": len(items), "programs": items}, open(os.path.join(DATA, "programs", f"{name}.json"), "w"), indent=1, ensure_ascii=False)

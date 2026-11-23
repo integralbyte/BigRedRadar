@@ -1,0 +1,556 @@
+{
+  "programId": "environmental-engineering-minor",
+  "name": "Environmental Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out. Six courses across at least three Environmental Engineering topic areas.",
+  "sources": [
+    "https://courses.cornell.edu/programs/environmental-engineering-minor/environmental-engineering-minor.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "excludePrograms": [
+    "environmental-engineering-bs"
+  ],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2026",
+          "slots": [
+            {
+              "id": "additional",
+              "label": "Additional Environmental Engineering courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "CEE 4880",
+                    "CEE 5420",
+                    "CEE 5200",
+                    "MAE 5010",
+                    "CHEME 6660",
+                    "CHEME 6661",
+                    "CHEME 6670",
+                    "CEE 4210",
+                    "MAE 4020",
+                    "BEE 4590",
+                    "BEE 4800",
+                    "CEE 4510",
+                    "CEE 4530",
+                    "CEE 4535",
+                    "CEE 4555",
+                    "CEE 4570",
+                    "CEE 6585",
+                    "CEE 6590",
+                    "EAS 4570",
+                    "CEE 4565",
+                    "BEE 3710",
+                    "BEE 4270",
+                    "BEE 4710",
+                    "BEE 6740",
+                    "CEE 3410",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 6370",
+                    "CEE 6550",
+                    "CEE 4350",
+                    "BEE 4730",
+                    "BEE 3299",
+                    "BEE 4310",
+                    "CEE 4200",
+                    "CEE 4930",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "PLSCI 4200",
+                    "CEE 4665",
+                    "CEE 4795",
+                    "CEE 4800",
+                    "BEE 4510",
+                    "CEE 4640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1165",
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breadth",
+      "label": "Three distinct course areas",
+      "options": [
+        {
+          "id": "energy--process--water",
+          "label": "Sustainable energy / Environmental processes / Hydrology and environmental fluid mechanics",
+          "slots": [
+            {
+              "id": "energy",
+              "label": "Sustainable energy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CEE 4880",
+                    "CEE 5420",
+                    "CEE 5200",
+                    "MAE 5010",
+                    "CHEME 6660",
+                    "CHEME 6661",
+                    "CHEME 6670",
+                    "CEE 4210",
+                    "MAE 4020"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1165"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "process",
+              "label": "Environmental processes",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4590",
+                    "BEE 4800",
+                    "CEE 4510",
+                    "CEE 4530",
+                    "CEE 4535",
+                    "CEE 4555",
+                    "CEE 4570",
+                    "CEE 6585",
+                    "CEE 6590",
+                    "EAS 4570",
+                    "CEE 4565"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "water",
+              "label": "Hydrology and environmental fluid mechanics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3710",
+                    "BEE 4270",
+                    "BEE 4710",
+                    "BEE 6740",
+                    "CEE 3410",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 6370",
+                    "CEE 6550",
+                    "CEE 4350",
+                    "BEE 4730"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRI 1165",
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "energy--process--systems",
+          "label": "Sustainable energy / Environmental processes / Sustainable systems and environmental analytics",
+          "slots": [
+            {
+              "id": "energy",
+              "label": "Sustainable energy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CEE 4880",
+                    "CEE 5420",
+                    "CEE 5200",
+                    "MAE 5010",
+                    "CHEME 6660",
+                    "CHEME 6661",
+                    "CHEME 6670",
+                    "CEE 4210",
+                    "MAE 4020"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1165"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "process",
+              "label": "Environmental processes",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4590",
+                    "BEE 4800",
+                    "CEE 4510",
+                    "CEE 4530",
+                    "CEE 4535",
+                    "CEE 4555",
+                    "CEE 4570",
+                    "CEE 6585",
+                    "CEE 6590",
+                    "EAS 4570",
+                    "CEE 4565"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "systems",
+              "label": "Sustainable systems and environmental analytics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3299",
+                    "BEE 4310",
+                    "CEE 4200",
+                    "CEE 4930",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "PLSCI 4200",
+                    "CEE 4665",
+                    "CEE 4795",
+                    "CEE 4800",
+                    "BEE 4510",
+                    "CEE 4640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRI 1165",
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "energy--water--systems",
+          "label": "Sustainable energy / Hydrology and environmental fluid mechanics / Sustainable systems and environmental analytics",
+          "slots": [
+            {
+              "id": "energy",
+              "label": "Sustainable energy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CEE 4880",
+                    "CEE 5420",
+                    "CEE 5200",
+                    "MAE 5010",
+                    "CHEME 6660",
+                    "CHEME 6661",
+                    "CHEME 6670",
+                    "CEE 4210",
+                    "MAE 4020"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1165"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "water",
+              "label": "Hydrology and environmental fluid mechanics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3710",
+                    "BEE 4270",
+                    "BEE 4710",
+                    "BEE 6740",
+                    "CEE 3410",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 6370",
+                    "CEE 6550",
+                    "CEE 4350",
+                    "BEE 4730"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "systems",
+              "label": "Sustainable systems and environmental analytics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3299",
+                    "BEE 4310",
+                    "CEE 4200",
+                    "CEE 4930",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "PLSCI 4200",
+                    "CEE 4665",
+                    "CEE 4795",
+                    "CEE 4800",
+                    "BEE 4510",
+                    "CEE 4640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRI 1165",
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "process--water--systems",
+          "label": "Environmental processes / Hydrology and environmental fluid mechanics / Sustainable systems and environmental analytics",
+          "slots": [
+            {
+              "id": "process",
+              "label": "Environmental processes",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4590",
+                    "BEE 4800",
+                    "CEE 4510",
+                    "CEE 4530",
+                    "CEE 4535",
+                    "CEE 4555",
+                    "CEE 4570",
+                    "CEE 6585",
+                    "CEE 6590",
+                    "EAS 4570",
+                    "CEE 4565"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "C-",
+                  "approval": "enve-before-junior-year"
+                }
+              ]
+            },
+            {
+              "id": "water",
+              "label": "Hydrology and environmental fluid mechanics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3710",
+                    "BEE 4270",
+                    "BEE 4710",
+                    "BEE 6740",
+                    "CEE 3410",
+                    "CEE 4330",
+                    "CEE 4370",
+                    "CEE 6370",
+                    "CEE 6550",
+                    "CEE 4350",
+                    "BEE 4730"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "systems",
+              "label": "Sustainable systems and environmental analytics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3299",
+                    "BEE 4310",
+                    "CEE 4200",
+                    "CEE 4930",
+                    "CEE 5970",
+                    "CEE 5980",
+                    "PLSCI 4200",
+                    "CEE 4665",
+                    "CEE 4795",
+                    "CEE 4800",
+                    "BEE 4510",
+                    "CEE 4640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRI 1165",
+                    "ENGRI 1130"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "teach-out": [
+          "documented"
+        ]
+      }
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2026 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "standing",
+      "label": "Minor GPA and major overlap",
+      "instruction": "Confirm at least a 2.0 minor GPA. Civil Engineering majors must keep four of the six courses separate from major-approved and design electives. Biological Engineering majors must keep at least 12 of their 15 focus-area credits separate. Confirm eligible pre-junior ENGRI coursework."
+    }
+  ]
+}

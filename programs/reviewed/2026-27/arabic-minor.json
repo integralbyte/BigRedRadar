@@ -1,0 +1,211 @@
+{
+  "programId": "arabic-minor",
+  "name": "Arabic Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Language prerequisite and five additional Arabic courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/arabic-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core-arab-2202",
+      "label": "ARAB 2202",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARAB 2202"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-arab-3201",
+      "label": "ARAB 3201",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARAB 3201"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-arab-3202",
+      "label": "ARAB 3202",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARAB 3202"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "arabic-elective",
+      "label": "Group A · Course taught in Arabic",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARAB 4203",
+            "ARAB 3700",
+            "ARAB 4200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "english-elective",
+      "label": "Group B · Course with Arabic texts",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARAB 2204"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "prerequisite",
+      "label": "Arabic language prerequisite",
+      "options": [
+        {
+          "id": "sequence",
+          "label": "Complete the introductory Arabic sequence",
+          "slots": [
+            {
+              "id": "prereq-arab-1201",
+              "label": "ARAB 1201",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARAB 1201"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prereq-arab-1202",
+              "label": "ARAB 1202",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARAB 1202"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prereq-arab-1203",
+              "label": "ARAB 1203",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARAB 1203"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "label": "Cornell Arabic course at the 2000 level or higher",
+          "slots": [
+            {
+              "id": "prereq-intermediate",
+              "label": "Qualified course conducted in Arabic",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ARAB"
+                  ],
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "approval": "arabic-language-requirement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "native",
+          "label": "Native-speaker proficiency",
+          "slots": [],
+          "manual": [
+            {
+              "id": "proficiency",
+              "label": "Native-speaker language proficiency",
+              "instruction": "Confirm language proficiency with Near Eastern Studies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Arabic minor credits after its prerequisite",
+      "need": 15,
+      "unit": "credits",
+      "slots": [
+        "core-arab-2202",
+        "core-arab-3201",
+        "core-arab-3202",
+        "arabic-elective",
+        "english-elective"
+      ]
+    }
+  ]
+}

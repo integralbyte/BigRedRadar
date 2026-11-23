@@ -1,0 +1,77 @@
+{
+  "programId": "atmospheric-science-minor",
+  "name": "Atmospheric Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three EAS core courses and three distinct electives, all taken at Cornell.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/atmospheric-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Atmospheric Science core",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "EAS 3410",
+            "EAS 3050",
+            "EAS 2500",
+            "EAS 3420",
+            "EAS 4470"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional Atmospheric Science courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "EAS 1310",
+            "EAS 2500",
+            "EAS 2680",
+            "EAS 3050",
+            "EAS 3340",
+            "EAS 3410",
+            "EAS 3420",
+            "EAS 3520",
+            "EAS 4350",
+            "EAS 4470",
+            "EAS 4510",
+            "EAS 4700",
+            "EAS 4860",
+            "EAS 6860"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "atmospheric-science-bs"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

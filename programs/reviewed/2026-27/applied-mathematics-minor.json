@@ -1,0 +1,369 @@
+{
+  "programId": "applied-mathematics-minor",
+  "name": "Applied Mathematics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Engineering differential equations and linear algebra, then six courses with at least three in advanced mathematics groups.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/applied-mathematics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "differential",
+      "label": "Differential Equations for Engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "label": "Linear Algebra for Engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "group-1",
+      "label": "Analysis",
+      "unit": "courses",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "MATH 4200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "label": "Computational methods",
+      "unit": "courses",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "CS 4210",
+            "ENGRD 3200",
+            "ORIE 3300"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "label": "Probability and statistics",
+      "unit": "courses",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "CEE 3040",
+            "ECE 3100",
+            "ENGRD 2700",
+            "MATH 4710",
+            "ORIE 3500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "group-4",
+      "label": "Applications",
+      "unit": "courses",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "AEP 3330",
+            "CEE 3310",
+            "CEE 3710",
+            "CHEME 3230",
+            "CS 2800",
+            "CS 2850",
+            "ECE 4250",
+            "MAE 3230",
+            "MSE 3030",
+            "MATH 3610"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Mathematics and advanced applied mathematics",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "MATH 4200",
+            "ECE 4110",
+            "ORIE 3510",
+            "CS 4220",
+            "CS 4820",
+            "ORIE 3310",
+            "ORIE 4330",
+            "ORIE 4350",
+            "ORIE 5600",
+            "MAE 4730",
+            "MAE 5730",
+            "ORIE 5610",
+            "MAE 5790",
+            "MATH 4210",
+            "MAE 6700",
+            "MAE 6810"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C",
+          "approval": "applied-math-group-six"
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "limits": [
+    {
+      "slots": [
+        "group-1"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "MATH 4200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-2"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "CS 4210",
+            "ENGRD 3200",
+            "ORIE 3300"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-3"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "CEE 3040",
+            "ECE 3100",
+            "ENGRD 2700",
+            "MATH 4710",
+            "ORIE 3500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-4"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "AEP 3330",
+            "CEE 3310",
+            "CEE 3710",
+            "CHEME 3230",
+            "CS 2800",
+            "CS 2850",
+            "ECE 4250",
+            "MAE 3230",
+            "MSE 3030",
+            "MATH 3610"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 2000,
+          "numberMax": 2999
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "MATH 4200",
+            "MAE 5790",
+            "MATH 4210"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "ECE 4110",
+            "ORIE 3510"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "MATH 3320",
+            "MATH 3360"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "applied-math-major-department"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "categories",
+      "label": "Choice restrictions and offering department",
+      "instruction": "Confirm the Group 6 subject areas, at most one course offered by your major department, and Group 3 interactions with MATH 4710. Confirm the permitted allocation with the program."
+    }
+  ],
+  "checks": [
+    {
+      "id": "courses",
+      "label": "Six courses beyond MATH 2940",
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "need": 6,
+      "unit": "courses"
+    },
+    {
+      "id": "credits",
+      "label": "At least 18 additional credits",
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "advanced"
+      ],
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

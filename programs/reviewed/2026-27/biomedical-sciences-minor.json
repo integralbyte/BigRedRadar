@@ -1,0 +1,109 @@
+{
+  "programId": "biomedical-sciences-minor",
+  "name": "Biomedical Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One required course and four distinct electives across animal physiology and microbiology or immunology.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biomedical-sciences-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Principles of animal physiology or essential immunology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOAP 3110",
+            "BIOMS 4150"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "label": "Animal physiology core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANSC 3410",
+            "BIOAP 3110",
+            "BIOAP 3160",
+            "BIOAP 3190",
+            "BIOAP 3200",
+            "BIOAP 4130",
+            "BIOAP 4140",
+            "BIOAP 4270"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "immunology",
+      "label": "Microbiology and immunology core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMS 4150",
+            "BIOMS 4250",
+            "BIOMI 3210",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "BIOMI 4310",
+            "BIOMS 4340"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional Biomedical Sciences electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ANSC 3410",
+            "BIOAP 3110",
+            "BIOAP 3160",
+            "BIOAP 3190",
+            "BIOAP 3200",
+            "BIOAP 4130",
+            "BIOAP 4140",
+            "BIOAP 4270",
+            "BIOMI 3210",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "BIOMI 4310",
+            "BIOMS 4150",
+            "BIOMS 4250",
+            "BIOMS 4340"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 12,
+      "unit": "credits"
+    }
+  ]
+}

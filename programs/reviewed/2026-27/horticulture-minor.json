@@ -1,0 +1,151 @@
+{
+  "programId": "horticulture-minor",
+  "name": "Horticulture Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two plant science foundations and eight elective credits in Horticulture.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/horticulture-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "plsci-1101",
+      "label": "PLSCI 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1101"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 1101"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-1115",
+      "label": "PLSCI 1115",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1115"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 1115"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Horticulture elective credits",
+      "unit": "credits",
+      "need": 8,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2020",
+            "PLSCI 2930",
+            "PLSCI 3000",
+            "PLSCI 3025",
+            "PLSCI 3050",
+            "PLSCI 3350",
+            "PLSCI 3520",
+            "PLSCI 3550",
+            "PLSCI 4020",
+            "PLSCI 4175",
+            "PLSCI 4500",
+            "PLSCI 4551",
+            "PLSCI 4730",
+            "PLSCI 5850"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "PLSCI 2020",
+            "PLSCI 2930",
+            "PLSCI 3000",
+            "PLSCI 3025",
+            "PLSCI 3050",
+            "PLSCI 3350",
+            "PLSCI 3520",
+            "PLSCI 3550",
+            "PLSCI 4020",
+            "PLSCI 4175",
+            "PLSCI 4500",
+            "PLSCI 4551",
+            "PLSCI 4730",
+            "PLSCI 5850"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "plant-sciences-minor",
+    "crop-management-minor",
+    "fungal-biology-minor",
+    "plant-breeding-minor",
+    "soil-science-minor"
+  ],
+  "manual": [
+    {
+      "id": "delivery",
+      "label": "In-person coursework and exclusive use",
+      "instruction": "Confirm instruction in person and approved transfer credit. Keep the credits separate from the major and pursue at most one SIPS minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

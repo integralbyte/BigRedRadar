@@ -1,0 +1,134 @@
+{
+  "programId": "spanish-minor",
+  "name": "Spanish Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Advanced Spanish proficiency, one Perspectives course, and three eligible electives including one taught in Spanish.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/spanish-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "proficiency",
+      "label": "Advanced Spanish writing or spoken Spanish",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2180",
+            "SPAN 2130"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "label": "Perspectives on Hispanic or Lusophone cultures",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2205",
+            "SPAN 2150",
+            "SPAN 2200",
+            "SPAN 2140",
+            "SPAN 2235",
+            "SPAN 2230",
+            "PORT 2800"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "taught",
+      "label": "Approved elective taught in Spanish",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "subjects": [
+            "SPAN"
+          ],
+          "numberMin": 2096,
+          "excludeCodes": [
+            "SPAN 2130",
+            "SPAN 2180"
+          ],
+          "approval": "spanish-minor-taught-in-spanish"
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "approval": "spanish-minor-external-spanish-language"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Other approved Spanish or Lusophone electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "subjects": [
+            "SPAN"
+          ],
+          "numberMin": 2096,
+          "excludeCodes": [
+            "SPAN 2130",
+            "SPAN 2180"
+          ]
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "subjects": [
+            "PORT"
+          ],
+          "numberMin": 2800
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "approval": "spanish-minor-approved-elective"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "spanish-ba"
+  ],
+  "manual": [
+    {
+      "id": "language",
+      "label": "Eligible electives and language of instruction",
+      "instruction": "Confirm elective content and teaching language, and verify any coursework abroad. Courses below the advanced language minimum do not count towards electives."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

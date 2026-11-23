@@ -1,0 +1,204 @@
+{
+  "programId": "science-communication-public-engagement-minor",
+  "name": "Science Communication and Public Engagement Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "A communication core and three elective areas, with different lists for Communication students.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/science-communication-public-engagement-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Communication, Environment, Science, and Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2850"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "scope",
+      "label": "Communication program affiliation",
+      "options": [
+        {
+          "id": "general",
+          "label": "General course list",
+          "slots": [
+            {
+              "id": "engagement",
+              "label": "Community-engaged learning",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "ALS 4960",
+                    "ALS 4990",
+                    "BME 4440",
+                    "COMM 3760",
+                    "EDUC 3510",
+                    "ENTOM 3350",
+                    "PHYS 4500",
+                    "PSYCH 4500",
+                    "STS 4451"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "applied",
+              "label": "Applied communication",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2700",
+                    "ASTRO 2202",
+                    "BIOG 3500",
+                    "BIOSM 3500",
+                    "COMM 2450",
+                    "COMM 2760",
+                    "COMM 3010",
+                    "COMM 3020",
+                    "COMM 3070",
+                    "COMM 3200",
+                    "COMM 4660",
+                    "ILRGL 3300"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "literacy",
+              "label": "Scientific methods, ethics and literacy",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ALS 1200",
+                    "BSOC 2061",
+                    "COMM 2820",
+                    "COMM 3210",
+                    "COMM 4300",
+                    "COMM 4350",
+                    "PHIL 2455",
+                    "STS 1201",
+                    "STS 2051",
+                    "STS 4041"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "communication-bs",
+            "communication-minor"
+          ]
+        },
+        {
+          "id": "comm",
+          "label": "Communication major or minor",
+          "slots": [
+            {
+              "id": "engagement",
+              "label": "Community-engaged learning",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "ALS 4960",
+                    "ALS 4990",
+                    "BME 4440",
+                    "EDUC 3510",
+                    "ENTOM 3350",
+                    "PHYS 4500",
+                    "PSYCH 4500",
+                    "STS 4451"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "applied",
+              "label": "Applied communication",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2700",
+                    "ASTRO 2202",
+                    "BIOG 3500",
+                    "BIOSM 3500",
+                    "ILRGL 3300"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "literacy",
+              "label": "Scientific methods, ethics and literacy",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ALS 1200",
+                    "BSOC 2061",
+                    "PHIL 2455",
+                    "STS 1201",
+                    "STS 2051",
+                    "STS 4041"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "engineering-communications-minor"
+  ],
+  "manual": [
+    {
+      "id": "separate",
+      "label": "Eight science or engineering credits in another program",
+      "instruction": "Verify at least eight qualifying science or engineering credits for the major or an additional minor. Use courses outside the core and elective lists for those credits. Communication students select the restricted list."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

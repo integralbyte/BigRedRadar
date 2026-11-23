@@ -1,0 +1,248 @@
+{
+  "programId": "dyson-business-minor-engineers",
+  "name": "Business for Engineers Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Microeconomics, business, accounting, finance, a capstone and an upper-level business elective.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/dyson-business-minor-engineers/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "micro",
+      "label": "Introductory microeconomics",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110",
+            "ECON 3030",
+            "PUBPOL 2000"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "label": "Basic business concepts",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 1200",
+            "AEM 2400",
+            "HADM 1810",
+            "HADM 2410",
+            "ILRID 1700",
+            "NCC 4530",
+            "NCC 5530",
+            "NCC 5540",
+            "NCC 5580"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "label": "Accounting principles",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2210",
+            "HADM 2230",
+            "NCC 5500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ORIE 3150"
+          ],
+          "minGrade": "C",
+          "approval": "business-engineers-orie-accounting"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 2241",
+            "AEM 5241",
+            "HADM 2250",
+            "NCC 5560"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Business Simulation",
+      "unit": "credits",
+      "need": 1.5,
+      "options": [
+        {
+          "codes": [
+            "AEM 4660"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "onlyWhenDeclared": [
+    "biological-engineering-bs",
+    "environmental-engineering-bs",
+    "information-science-ba",
+    "information-science-bs",
+    "computer-science-ba",
+    "computer-science-bs",
+    "engineering-physics-bs",
+    "chemical-engineering-bs",
+    "civil-engineering-bs",
+    "electrical-computer-engineering-bs",
+    "operations-research-engineering-bs",
+    "information-science-systems-technology-bs",
+    "earth-climate-sciences-ecsen-bs",
+    "biomedical-engineering-bs",
+    "mechanical-engineering-bs",
+    "materials-science-engineering-bs",
+    "independent-major"
+  ],
+  "choices": [
+    {
+      "id": "program",
+      "label": "Career Goals elective eligibility",
+      "options": [
+        {
+          "id": "general",
+          "label": "Most eligible majors",
+          "slots": [
+            {
+              "id": "career",
+              "label": "Career Goals business elective",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "AEM",
+                    "HADM",
+                    "NBA",
+                    "NCC"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C"
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "operations-research-engineering-bs"
+          ]
+        },
+        {
+          "id": "orie",
+          "label": "Operations Research and Engineering",
+          "slots": [
+            {
+              "id": "career",
+              "label": "Career Goals business elective",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "AEM",
+                    "HADM",
+                    "NBA",
+                    "NCC"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C",
+                  "excludeCodes": [
+                    "AEM 3100"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Eligibility and credits outside the major",
+      "instruction": "Confirm eligibility if two or more core courses overlap with the major, and at least 12 credits separate from major core requirements. Complete the foundation coursework and declare by semester six as applicable."
+    },
+    {
+      "id": "eligibility",
+      "label": "Major eligibility and career goals",
+      "instruction": "Confirm that the major and college are eligible. ORIE students may apply ORIE 3150 to accounting and may not apply AEM 3100 to Career Goals."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 16.5,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell",
+      "label": "Coursework at Cornell",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcb",
+      "label": "SC Johnson College of Business credits",
+      "need": 7.5,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

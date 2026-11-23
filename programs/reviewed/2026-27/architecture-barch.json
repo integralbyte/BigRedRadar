@@ -1,0 +1,1332 @@
+{
+  "programId": "architecture-barch",
+  "name": "Architecture (B.Arch.)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Ten-stage design sequence, three thesis paths, required electives, and college and university credit baskets.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/architecture-barch/#curriculumtext",
+    "https://aap.cornell.edu/architecture/bachelor-of-architecture/"
+  ],
+  "colleges": [
+    "AR"
+  ],
+  "slots": [
+    {
+      "id": "sequence-arch-1101",
+      "label": "ARCH 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1101"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1101"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-1102",
+      "label": "ARCH 1102",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1102"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1102"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2101",
+      "label": "ARCH 2101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2101"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2101"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2102",
+      "label": "ARCH 2102",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2102"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2102"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-3101",
+      "label": "ARCH 3101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3101"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-3101"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-3102",
+      "label": "ARCH 3102",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3102"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-3102"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-4101",
+      "label": "ARCH 4101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 4101"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-4101"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-4102",
+      "label": "ARCH 4102",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 4102"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "C"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-4102"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-1612",
+      "label": "ARCH 1612",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1612"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1612"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2613",
+      "label": "ARCH 2613",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2613"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2613"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-1611",
+      "label": "ARCH 1611",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1611"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1611"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2616",
+      "label": "ARCH 2616",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2616"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2616"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2614",
+      "label": "ARCH 2614",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2614"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2614"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-3615",
+      "label": "ARCH 3615",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3615"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-3615"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2302",
+      "label": "ARCH 2302",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2302"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2302"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-3302",
+      "label": "ARCH 3302",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3302"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-3302"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-1801",
+      "label": "ARCH 1801",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1801"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1801"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2802",
+      "label": "ARCH 2802",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2802"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2802"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-5201",
+      "label": "ARCH 5201",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 5201"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-5201"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-1501",
+      "label": "ARCH 1501",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 1501"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-1501"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-2502",
+      "label": "ARCH 2502",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 2502"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-2502"
+        }
+      ]
+    },
+    {
+      "id": "sequence-arch-5911",
+      "label": "ARCH 5911",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 5911"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "architecture-credit-sequence-arch-5911"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Architectural history electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 3819,
+          "numberMax": 3823,
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 6000,
+          "numberMax": 6999,
+          "minGrade": "D-",
+          "minCredits": 3,
+          "approval": "architecture-history-seminar"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Architectural theory elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 3308",
+            "ARCH 4300"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "building",
+      "label": "Building technology elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "numberMin": 4605,
+          "numberMax": 4619,
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "codes": [
+            "ARCH 4601"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "departmental-free",
+      "label": "Free departmental electives",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "subjects": [
+            "ARCH"
+          ],
+          "excludeCodes": [
+            "ARCH 1901"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "label": "Art studio",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ART 1201",
+            "ART 1501",
+            "ART 1504",
+            "ART 1601",
+            "ART 1602",
+            "ART 1901",
+            "ART 2201",
+            "ART 2301",
+            "ART 2401",
+            "ART 2501",
+            "ART 2601",
+            "ART 2701",
+            "ART 3001",
+            "ART 3011",
+            "ART 3201",
+            "ART 3202",
+            "ART 3203",
+            "ART 3205",
+            "ART 3299",
+            "ART 3301",
+            "ART 3305",
+            "ART 3307",
+            "ART 3399",
+            "ART 3404",
+            "ART 3499",
+            "ART 3501",
+            "ART 3502",
+            "ART 3503",
+            "ART 3599",
+            "ART 3699",
+            "ART 3705",
+            "ART 3707",
+            "ART 3708",
+            "ART 3799",
+            "PMA 2701"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "attributes": [
+            "ART-STU"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "college-free",
+      "label": "Other in-college electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "subjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "architecture-in-college-ap-statistics"
+        }
+      ]
+    },
+    {
+      "id": "uni-writing",
+      "label": "First-year writing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "as-writing-seminar",
+          "minGrade": "D-",
+          "minCredits": 3,
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ]
+        },
+        {
+          "codes": [
+            "ENGL 2880"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uni-math",
+      "label": "Mathematics or quantitative reasoning",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "MQL-AAP",
+            "MQL-AG",
+            "MQL-AS",
+            "MQL-EN",
+            "MQL-HA",
+            "MQL-HE",
+            "MQL-IL",
+            "MQR-AAP",
+            "MQR-AG",
+            "MQR-AS",
+            "MQR-EN",
+            "MQR-HA",
+            "MQR-HE",
+            "MQR-IL",
+            "SDS-AAP",
+            "SDS-AG",
+            "SDS-AS",
+            "SDS-EN",
+            "SDS-HA",
+            "SDS-HE",
+            "SDS-IL",
+            "SMR-AAP",
+            "SMR-AG",
+            "SMR-AS",
+            "SMR-EN",
+            "SMR-HA",
+            "SMR-HE",
+            "SMR-IL"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uni-math-science",
+      "label": "Additional mathematics or physical or biological science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "MQL-AAP",
+            "MQL-AG",
+            "MQL-AS",
+            "MQL-EN",
+            "MQL-HA",
+            "MQL-HE",
+            "MQL-IL",
+            "MQR-AAP",
+            "MQR-AG",
+            "MQR-AS",
+            "MQR-EN",
+            "MQR-HA",
+            "MQR-HE",
+            "MQR-IL",
+            "SDS-AAP",
+            "SDS-AG",
+            "SDS-AS",
+            "SDS-EN",
+            "SDS-HA",
+            "SDS-HE",
+            "SDS-IL",
+            "SMR-AAP",
+            "SMR-AG",
+            "SMR-AS",
+            "SMR-EN",
+            "SMR-HA",
+            "SMR-HE",
+            "SMR-IL",
+            "BIO-AAP",
+            "BIO-AG",
+            "BIO-AS",
+            "BIO-EN",
+            "BIO-HA",
+            "BIO-HE",
+            "BIO-IL",
+            "OPHLS-AAP",
+            "OPHLS-AG",
+            "OPHLS-AS",
+            "OPHLS-EN",
+            "OPHLS-HA",
+            "OPHLS-HE",
+            "OPHLS-IL",
+            "PBS-AAP",
+            "PBS-AG",
+            "PBS-AS",
+            "PBS-EN",
+            "PBS-HA",
+            "PBS-HE",
+            "PBS-IL",
+            "PHS-AAP",
+            "PHS-AG",
+            "PHS-AS",
+            "PHS-EN",
+            "PHS-HA",
+            "PHS-HE",
+            "PHS-IL"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uni-humanities",
+      "label": "Humanities",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "ALC-AAP",
+            "ALC-AG",
+            "ALC-AS",
+            "ALC-EN",
+            "ALC-HA",
+            "ALC-HE",
+            "ALC-IL",
+            "CA-AAP",
+            "CA-AG",
+            "CA-AS",
+            "CA-EN",
+            "CA-HA",
+            "CA-HE",
+            "CA-IL",
+            "ETM-AAP",
+            "ETM-AG",
+            "ETM-AS",
+            "ETM-EN",
+            "ETM-HA",
+            "ETM-HE",
+            "ETM-IL",
+            "FL-AAP",
+            "FL-AG",
+            "FL-AS",
+            "FL-EN",
+            "FL-HA",
+            "FL-HE",
+            "FL-IL",
+            "FLOPI-AAP",
+            "FLOPI-AG",
+            "FLOPI-AS",
+            "FLOPI-EN",
+            "FLOPI-HA",
+            "FLOPI-HE",
+            "FLOPI-IL",
+            "GLC-AAP",
+            "GLC-AG",
+            "GLC-AS",
+            "GLC-EN",
+            "GLC-HA",
+            "GLC-HE",
+            "GLC-IL",
+            "HA-AAP",
+            "HA-AG",
+            "HA-AS",
+            "HA-EN",
+            "HA-HA",
+            "HA-HE",
+            "HA-IL",
+            "HST-AAP",
+            "HST-AG",
+            "HST-AS",
+            "HST-EN",
+            "HST-HA",
+            "HST-HE",
+            "HST-IL",
+            "KCM-AAP",
+            "KCM-AG",
+            "KCM-AS",
+            "KCM-EN",
+            "KCM-HA",
+            "KCM-HE",
+            "KCM-IL",
+            "LA-AAP",
+            "LA-AG",
+            "LA-AS",
+            "LA-EN",
+            "LA-HA",
+            "LA-HE",
+            "LA-IL",
+            "SBA-AAP",
+            "SBA-AG",
+            "SBA-AS",
+            "SBA-EN",
+            "SBA-HA",
+            "SBA-HE",
+            "SBA-IL",
+            "SCD-AAP",
+            "SCD-AG",
+            "SCD-AS",
+            "SCD-EN",
+            "SCD-HA",
+            "SCD-HE",
+            "SCD-IL",
+            "SSC-AAP",
+            "SSC-AG",
+            "SSC-AS",
+            "SSC-EN",
+            "SSC-HA",
+            "SSC-HE",
+            "SSC-IL"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3,
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ]
+        },
+        {
+          "codes": [
+            "ART 3803",
+            "CRP 1103",
+            "CRP 1104"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "codes": [
+            "ART 1201",
+            "ART 1501",
+            "ART 1504",
+            "ART 1601",
+            "ART 1602",
+            "ART 1901",
+            "ART 2201",
+            "ART 2301",
+            "ART 2401",
+            "ART 2501",
+            "ART 2601",
+            "ART 2701",
+            "ART 3001",
+            "ART 3011",
+            "ART 3201",
+            "ART 3202",
+            "ART 3203",
+            "ART 3205",
+            "ART 3299",
+            "ART 3301",
+            "ART 3305",
+            "ART 3307",
+            "ART 3399",
+            "ART 3404",
+            "ART 3499",
+            "ART 3501",
+            "ART 3502",
+            "ART 3503",
+            "ART 3599",
+            "ART 3699",
+            "ART 3705",
+            "ART 3707",
+            "ART 3708",
+            "ART 3799",
+            "PMA 2701"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        },
+        {
+          "attributes": [
+            "ART-STU"
+          ],
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "uni-free",
+      "label": "Free out-of-college electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "excludeSubjects": [
+            "AAP",
+            "ARCH",
+            "ART",
+            "CRP",
+            "DESIGN",
+            "REAL"
+          ],
+          "numberMin": 1100,
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell",
+            "transfer",
+            "study_abroad"
+          ]
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "architecture-outside-exam-credit"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "thesis",
+      "label": "Architectural design thesis",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Standard design and thesis",
+          "slots": [
+            {
+              "id": "sequence-advanced",
+              "label": "Design IX",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5101"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C"
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "architecture-credit-sequence-advanced"
+                }
+              ]
+            },
+            {
+              "id": "sequence-thesis",
+              "label": "Design X thesis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5902"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C"
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "architecture-credit-sequence-thesis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "expanded",
+          "label": "Approved year-long design thesis",
+          "slots": [
+            {
+              "id": "sequence-advanced",
+              "label": "Expanded thesis first term",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5903"
+                  ],
+                  "approval": "architecture-expanded-thesis"
+                }
+              ]
+            },
+            {
+              "id": "sequence-thesis",
+              "label": "Expanded design thesis second term",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5904"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C"
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "architecture-credit-sequence-thesis"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "thesis-petition",
+              "label": "Expanded design thesis approval",
+              "instruction": "Confirm the required prior studio, approved petition and the stated cumulative and studio GPAs."
+            }
+          ]
+        },
+        {
+          "id": "repeat",
+          "label": "Department-approved remedial advanced studio",
+          "slots": [
+            {
+              "id": "sequence-advanced",
+              "label": "Design IX",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5101"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C"
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "architecture-credit-sequence-advanced"
+                }
+              ]
+            },
+            {
+              "id": "sequence-thesis",
+              "label": "Approved Design Xa advanced studio",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ARCH 5104"
+                  ],
+                  "minGrade": "C",
+                  "approval": "architecture-remedial-design"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "degree-exception",
+              "label": "Design Xa approval and credit adjustment",
+              "instruction": "Confirm the Design Xa authorization and the applicable lower total when the original thesis earned an F."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "college-credits",
+      "label": "In-college elective credits, including studio art",
+      "slots": [
+        "art",
+        "college-free"
+      ],
+      "need": 12,
+      "unit": "credits"
+    },
+    {
+      "id": "outside-credits",
+      "label": "University elective credits, including required categories",
+      "slotPrefix": "uni-",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "required-department-credits",
+      "label": "History, theory and building technology elective credits",
+      "slots": [
+        "history",
+        "theory",
+        "building"
+      ],
+      "need": 12,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "history"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMin": 6000
+        }
+      ]
+    },
+    {
+      "slots": [
+        "departmental-free"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "ARCH 5203"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "departmental-free",
+        "college-free",
+        "uni-free"
+      ],
+      "unit": "credits",
+      "max": 8,
+      "options": [
+        {
+          "approval": "architecture-independent-study"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "sequence",
+      "label": "Design sequence, location and thesis submission",
+      "instruction": "Confirm which studios must be in Ithaca, permitted summer and study-away studios, progression grades and required thesis submission. Confirm the 154-credit degree minimum and any approved remedial adjustment."
+    },
+    {
+      "id": "transfer",
+      "label": "Architecture placement and residence",
+      "instruction": "Verify transferred coursework, design placement and any approved substitutions. Transfer students must meet the published 90-credit and six-semester Cornell residence rules, including four design semesters."
+    },
+    {
+      "id": "specializations",
+      "label": "Optional specializations",
+      "instruction": "Confirm any optional departmental specialization, its designated courses and grade requirements with Architecture advising."
+    }
+  ]
+}

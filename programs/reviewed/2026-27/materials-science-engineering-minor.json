@@ -1,0 +1,127 @@
+{
+  "programId": "materials-science-engineering-minor",
+  "name": "Materials Science and Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One materials foundation, two required technical courses, and three advanced electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/materials-science-engineering-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/mse/degree/materials-science-engineering-minor-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Mechanical properties or electronic materials",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2610",
+            "ENGRD 2620"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Required technical courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "MSE 2010",
+            "MSE 2060",
+            "MSE 3010",
+            "MSE 3030",
+            "MSE 3040",
+            "MSE 3050",
+            "MSE 4020"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved advanced Materials Science electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "MSE"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "mse-technical-course"
+        },
+        {
+          "subjects": [
+            "AEP",
+            "BEE",
+            "BME",
+            "CHEME",
+            "CEE",
+            "EAS",
+            "ECE",
+            "MAE",
+            "PHYS",
+            "CHEM"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "mse-outside-elective"
+        },
+        {
+          "subjects": [
+            "MSE"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C",
+          "approval": "mse-approved-research",
+          "maxCountedCredits": 3
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "materials-science-engineering-bs"
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "approval": "mse-approved-research"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Technical electives and research",
+      "instruction": "Confirm that MSE courses are technical, other departments’ electives focus on materials, and approved research accounts for at most three credits."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

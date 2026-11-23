@@ -1,0 +1,241 @@
+{
+  "programId": "climate-change-minor",
+  "name": "Climate Change Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Colloquium and three climate categories with at least 12 upper-level credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/climate-change-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "seminar",
+      "label": "Perspectives on the Climate Change Challenge",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "BEE 2000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical",
+      "label": "Physical science of climate change",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "EAS 4800",
+            "EAS 2680",
+            "EAS 3030",
+            "EAS 3050",
+            "EAS 4860",
+            "PLSCI 3650"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "climate-change-approved-physical"
+        }
+      ]
+    },
+    {
+      "id": "eco",
+      "label": "Ecosystems and water resources",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "BEE 3710",
+            "BEE 4730",
+            "NTRES 3240",
+            "BIOEE 1610",
+            "BIOEE 4780",
+            "NTRES 3220",
+            "EAS 3340",
+            "EAS 3555",
+            "PLSCI 4290"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "climate-change-approved-eco"
+        }
+      ]
+    },
+    {
+      "id": "humans",
+      "label": "Human dimensions of climate change",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AEM 2555",
+            "AEM 4090",
+            "NTRES 3311",
+            "AMST 2581",
+            "ANTHR 2482",
+            "ANTHR 2729",
+            "CLASS 3750",
+            "ENGL 3795",
+            "HIST 4262",
+            "NTRES 3330",
+            "ENGRI 1165",
+            "CRP 5545"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "climate-change-approved-humans"
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "label": "Additional approved Climate Change courses",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AEM 2555",
+            "AEM 4090",
+            "AMST 2581",
+            "ANSC 4880",
+            "ANTHR 2482",
+            "ANTHR 2729",
+            "BEE 3710",
+            "BEE 4730",
+            "BIOEE 1610",
+            "BIOEE 4780",
+            "CEE 4210",
+            "CEE 4640",
+            "CLASS 3750",
+            "CRP 5545",
+            "EAS 1101",
+            "EAS 2680",
+            "EAS 3030",
+            "EAS 3050",
+            "EAS 3340",
+            "EAS 3555",
+            "EAS 4800",
+            "EAS 4860",
+            "ENGL 3795",
+            "ENGRI 1165",
+            "HIST 4262",
+            "NTRES 3220",
+            "NTRES 3240",
+            "NTRES 3311",
+            "NTRES 3330",
+            "PLSCI 3650",
+            "PLSCI 4290"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "climate-change-approved-extra"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "earth-climate-sciences-ba",
+    "earth-climate-sciences-ecsag-bs",
+    "earth-climate-sciences-ecsen-bs"
+  ],
+  "manual": [
+    {
+      "id": "certification",
+      "label": "Climate Change substitutions and certification",
+      "instruction": "Verify special topics, course petitions and final certification with Earth and Atmospheric Sciences."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "Credits at the 3000 level or above",
+      "need": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "numberMin": 3000,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

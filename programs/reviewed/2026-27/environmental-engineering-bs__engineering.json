@@ -1,0 +1,750 @@
+{
+  "programId": "environmental-engineering-bs",
+  "name": "Environmental Engineering (BS) · Engineering",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Joint engineering curriculum with college-specific general chemistry, effective for Fall 2024 and later entrants.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/environmental-engineering-bs/#curriculumtext",
+    "https://cals.cornell.edu/environmental-engineering/student-experience-resources/environmental-engineering-major-handbook/degree-requirements",
+    "https://cals.cornell.edu/environmental-engineering/student-experience-resources/environmental-engineering-major-handbook/approved-laboratory-earth-science-design-major-approved-electives"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "variantId": "engineering",
+  "slots": [
+    {
+      "id": "math-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2940",
+      "label": "MATH 2940",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1112",
+      "label": "PHYS 1112",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1110",
+      "label": "PHYS 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-electricity",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1570",
+            "CHEM 3570"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "label": "Introductory biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1610",
+            "BIOEE 1780",
+            "BIOG 1440",
+            "BIOG 1445",
+            "BIOMG 1350",
+            "BIOSM 1610",
+            "BIOSM 1780"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "enve-approved-biology-exam",
+          "maxCountedCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "env-eng-intro",
+      "label": "Introduction to Engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ENGRI"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-distribution",
+      "label": "Engineering processes for environmental sustainability",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 2510",
+            "ENGRD 2510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "env-computation",
+      "label": "Engineering computation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3200",
+            "ENGRD 3200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-thermodynamics",
+      "label": "Sustainable engineering thermodynamics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 2220"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRD 2210"
+          ],
+          "approval": "enve-approved-thermodynamics",
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "env-uncertainty",
+      "label": "Uncertainty analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3040"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRD 2700"
+          ],
+          "approval": "enve-approved-statistics",
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "env-cee-3230",
+      "label": "CEE 3230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-cee-3310",
+      "label": "CEE 3310",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3310"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-cee-3510",
+      "label": "CEE 3510",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-bee-4750",
+      "label": "BEE 4750",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4750"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-earth-science",
+      "label": "Approved Earth Science course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 3710",
+            "EAS 2250",
+            "EAS 2680",
+            "EAS 3010",
+            "EAS 3030",
+            "EAS 3050",
+            "NTRES 3240",
+            "PLSCI 2600",
+            "PLSCI 3650"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "enve-approved-earth-science",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-lab",
+      "label": "Engineering laboratory experience",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4270",
+            "CEE 4370",
+            "CEE 4530",
+            "CEE 6370"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "enve-approved-lab",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-capstone",
+      "label": "Capstone design elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 4210",
+            "CEE 4565",
+            "BEE 4730"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-design",
+      "label": "Two more design electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "CEE 4210",
+            "CEE 4565",
+            "BEE 4730",
+            "CEE 4880",
+            "CEE 4350",
+            "CEE 6370",
+            "CEE 4200",
+            "CEE 4665",
+            "CEE 4795",
+            "CEE 4800",
+            "CEE 4640"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-approved-elective",
+      "label": "Major-approved electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "CEE 4210",
+            "CEE 4565",
+            "BEE 4730",
+            "CEE 4880",
+            "CEE 4350",
+            "CEE 6370",
+            "CEE 4200",
+            "CEE 4665",
+            "CEE 4795",
+            "CEE 4800",
+            "CEE 4640",
+            "CEE 5200",
+            "MAE 5010",
+            "BEE 4520",
+            "BEE 4590",
+            "BEE 4800",
+            "CEE 4510",
+            "CEE 4535",
+            "CEE 4555",
+            "CEE 4570",
+            "CEE 6590",
+            "EAS 4570",
+            "BEE 4620",
+            "BEE 4710",
+            "BEE 6740",
+            "CEE 3410",
+            "CEE 4370",
+            "CEE 6550",
+            "BEE 3299",
+            "BEE 4310",
+            "BEE 4830",
+            "BEE 4850",
+            "CEE 4930",
+            "CEE 5980",
+            "PLSCI 4200"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "enve-major-approved",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "env-additional",
+      "label": "Other approved environmental engineering electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "approval": "env-additional",
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "orientation",
+      "label": "Engineering orientation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRG 1050"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "enve-advisor-elective",
+      "label": "Advisor-approved electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "approval": "enve-advisor-elective",
+          "minGrade": "D-",
+          "numberMin": 1100
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "chemistry",
+      "label": "General chemistry with lab",
+      "options": [
+        {
+          "id": "general",
+          "label": "General chemistry and lab",
+          "slots": [
+            {
+              "id": "chem-chem-2090",
+              "label": "CHEM 2090",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2090"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-chem-2091",
+              "label": "CHEM 2091",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2091"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors general and inorganic chemistry",
+          "slots": [
+            {
+              "id": "chem-chem-2150",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "label": "Second engineering distribution path",
+      "options": [
+        {
+          "id": "separate",
+          "label": "Separate second distribution",
+          "slots": [
+            {
+              "id": "env-dist-two",
+              "label": "Second engineering distribution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ENGRD"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 2999,
+                  "excludeNumbers": [
+                    2510
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "computation",
+          "label": "Engineering computation used as the second distribution",
+          "slots": [
+            {
+              "id": "env-dist-replace",
+              "label": "Additional engineering credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ENGRD"
+                  ],
+                  "numberMin": 2000,
+                  "minGrade": "D-"
+                },
+                {
+                  "numberMin": 3000,
+                  "minGrade": "D-",
+                  "approval": "enve-engineering-replacement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "field-credit",
+      "label": "Engineering distribution and field credits",
+      "slotPrefix": "env-",
+      "need": 57,
+      "unit": "credits"
+    },
+    {
+      "id": "design-credits",
+      "label": "Design elective credits",
+      "slots": [
+        "env-capstone",
+        "env-design"
+      ],
+      "need": 9,
+      "unit": "credits"
+    },
+    {
+      "id": "approved-credits",
+      "label": "Major-approved elective credits",
+      "slots": [
+        "env-approved-elective"
+      ],
+      "need": 9,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "env-additional"
+      ],
+      "unit": "credits",
+      "max": 4,
+      "options": [
+        {
+          "codes": [
+            "CEE 3090",
+            "CEE 4010"
+          ]
+        },
+        {
+          "subjects": [
+            "BEE"
+          ],
+          "numberMin": 4970,
+          "numberMax": 4990
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "engineering-communications",
+      "label": "Engineering communications",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4730"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "engineering-communications",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "certification",
+      "label": "Lab safety training and degree review",
+      "instruction": "Verify EHS 2555 completion, 125 academic credits, the applicable Engineering liberal studies and writing requirements, and any entry before Fall 2024."
+    },
+    {
+      "id": "overlap",
+      "label": "Elective overlaps and petitions",
+      "instruction": "Confirm any approved design/lab overlap with CEE 6370, lab/elective overlap with CEE 4370 and replacement elective. Confirm multi-module energy electives, project team limits, and any approved placement or substitution."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "programId": "comparative-literature-minor",
+  "name": "Comparative Literature Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four Comparative Literature courses and a fifth course requiring work in an original language.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/comparative-literature-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "coml",
+      "label": "Comparative Literature courses",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "COML"
+          ],
+          "numberMin": 2000,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "original-language",
+      "label": "Original-language literature or comparable coursework",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "maxCredits": 4,
+          "minGrade": "C",
+          "approval": "coml-original-language"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "original-text",
+      "label": "Original-language coursework",
+      "instruction": "Verify that the fifth course requires proficiency to study material in its original language. Introductory language instruction is excluded."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

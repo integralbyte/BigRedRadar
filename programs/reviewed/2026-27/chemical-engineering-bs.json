@@ -1,0 +1,860 @@
+{
+  "programId": "chemical-engineering-bs",
+  "name": "Chemical Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core, engineering distribution, biology and distinct technical tracks.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/chemical-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/cbe/degree/chemical-engineering-bs-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "required-cheme-2200",
+      "label": "CHEME 2200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 2200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3230",
+      "label": "CHEME 3230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-chem-2900",
+      "label": "CHEM 2900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3130",
+      "label": "CHEME 3130",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3130"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3240",
+      "label": "CHEME 3240",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3240"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-chem-2510",
+      "label": "CHEM 2510",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3010",
+      "label": "CHEME 3010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3320",
+      "label": "CHEME 3320",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3320"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3720",
+      "label": "CHEME 3720",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3720"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-3900",
+      "label": "CHEME 3900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 3900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-4320",
+      "label": "CHEME 4320",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 4320"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-cheme-4620",
+      "label": "CHEME 4620",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEME 4620"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "foundation-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "foundation-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "foundation-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "foundation-chem-3890",
+      "label": "CHEM 3890",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 3890"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "foundation-engrd-2190",
+      "label": "ENGRD 2190",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2190"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "required-organic",
+      "label": "Organic chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 3570",
+            "CHEM 3590"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-depth",
+      "label": "Linear algebra or engineering statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940",
+            "CEE 3040",
+            "ENGRD 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "label": "Electricity and magnetism",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213",
+            "PHYS 2217"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "engr-intro",
+      "label": "Introduction to Engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ENGRI"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "cheme-major-elective",
+      "label": "Major-approved technical electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "approval": "cheme-major-elective",
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Approved advanced Chemical Engineering electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "CHEME 2880",
+            "CHEME 5430",
+            "BIOG 1500",
+            "BIOMG 1350",
+            "BIOG 1440",
+            "BIOG 1445",
+            "BIOMI 2900",
+            "BIOMG 3300",
+            "BIOMG 3350",
+            "BIOMG 3310",
+            "BIOMG 3320",
+            "CHEME 4020",
+            "CHEME 4130",
+            "CHEME 4310",
+            "CHEME 4410",
+            "CHEME 4430",
+            "CHEME 4440",
+            "CHEME 4660",
+            "CHEME 4770",
+            "CHEME 4800",
+            "CHEME 4840",
+            "CHEME 5430",
+            "CHEME 5610",
+            "CHEME 6310",
+            "CHEME 6400",
+            "CHEME 6660",
+            "CHEME 6682",
+            "CHEME 6800",
+            "CHEME 6880",
+            "CHEME 6888"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CHEME 6661",
+            "CHEME 6662",
+            "CHEME 6663",
+            "CHEME 6664",
+            "CHEME 6667",
+            "CHEME 6670",
+            "CHEME 6671",
+            "CHEME 6676",
+            "CHEME 6679",
+            "CHEME 6681"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "cheme-complete-energy-modules"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "mechanics",
+      "label": "Mechanics and heat",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Standard mechanics plus lab",
+          "slots": [
+            {
+              "id": "physics-phys-1112",
+              "label": "PHYS 1112",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "physics-phys-1110",
+              "label": "PHYS 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors mechanics",
+          "slots": [
+            {
+              "id": "physics-phys-1116",
+              "label": "PHYS 1116",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1116"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-chemistry",
+      "label": "General chemistry pathway",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Two general chemistry courses and labs",
+          "slots": [
+            {
+              "id": "chemistry-chem-2090",
+              "label": "CHEM 2090",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2090"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2091",
+              "label": "CHEM 2091",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2091"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-general",
+          "label": "AP chemistry and general chemistry II",
+          "slots": [
+            {
+              "id": "chem-exam",
+              "label": "Approved chemistry exam",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "cheme-chemistry-exam"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam-honors",
+          "label": "AP chemistry and honors chemistry",
+          "slots": [
+            {
+              "id": "chem-exam",
+              "label": "Approved chemistry exam",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "cheme-chemistry-exam"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2150",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "label": "Biology elective pathway",
+      "options": [
+        {
+          "id": "single",
+          "label": "Single approved biology elective",
+          "slots": [
+            {
+              "id": "bio-one",
+              "label": "Biology elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEME 2880",
+                    "CHEME 5430",
+                    "BIOMI 2900",
+                    "BIOMG 3300",
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biochemistry",
+          "label": "Biochemistry sequence",
+          "slots": [
+            {
+              "id": "bio-biomg-3310",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-biomg-3320",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "premed",
+          "label": "Pre-health biology sequence",
+          "slots": [
+            {
+              "id": "bio-biog-1500",
+              "label": "BIOG 1500",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-biomg-1350",
+              "label": "BIOMG 1350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam",
+          "label": "AP or IB biology credit",
+          "slots": [
+            {
+              "id": "bio-exam",
+              "label": "Approved biology exam credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "cheme-ap-ib-biology"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "approved-elective-credits",
+      "label": "Credits in three major-approved technical electives",
+      "slots": [
+        "cheme-major-elective"
+      ],
+      "need": 9,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "required-",
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "maxGrade": "D+"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Engineering elective and module approval",
+      "instruction": "Confirm at least 12 total major-approved credits including biology and at least 48 engineering credits. Verify the completed combination of three one-credit energy modules where applicable."
+    },
+    {
+      "id": "standing",
+      "label": "Common curriculum and academic standing",
+      "instruction": "Check the applicable Engineering common requirements, course sequencing, 136-credit degree total, GPA and affiliation. Confirm any advisor-approved elective credit from chemistry or a substitution for the organic chemistry requirement."
+    }
+  ]
+}

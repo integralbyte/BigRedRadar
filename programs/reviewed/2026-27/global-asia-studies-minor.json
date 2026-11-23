@@ -1,0 +1,272 @@
+{
+  "programId": "global-asia-studies-minor",
+  "name": "Global Asia Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses, including advanced non-language study and coverage of multiple Asian subregions.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/global-asia-studies-minor/#curriculumtext",
+    "https://asianstudies.cornell.edu/minors"
+  ],
+  "slots": [
+    {
+      "id": "coursework",
+      "label": "Asian Studies coursework",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "ASIAN"
+          ],
+          "numberMin": 2200
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "approval": "global-asia-elective"
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "BURM",
+            "CHIN",
+            "HINDI",
+            "INDO",
+            "JAPAN",
+            "KHMER",
+            "KOREA",
+            "MALAY",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAG",
+            "TAMIL",
+            "THAI",
+            "TIBET",
+            "URDU",
+            "VIET"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "regional",
+      "label": "Asian subregion coverage",
+      "options": [
+        {
+          "id": "multiregion",
+          "label": "One multiregional course",
+          "slots": [],
+          "checks": [
+            {
+              "id": "multi",
+              "label": "One multiregional ASIAN course",
+              "slots": [
+                "coursework"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "subjects": [
+                    "ASIAN"
+                  ],
+                  "numberMin": 2200,
+                  "approval": "global-asia-multiregional"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "related",
+          "label": "Two courses on different related subregions",
+          "slots": [],
+          "checks": [
+            {
+              "id": "multi",
+              "label": "Two courses on different related subregions",
+              "slots": [
+                "coursework"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "subjects": [
+                    "ASIAN"
+                  ],
+                  "numberMin": 2200,
+                  "approval": "global-asia-related-regions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "ASIAN 2208",
+            "ASIAN 2211",
+            "ASIAN 2218",
+            "ASIAN 2230",
+            "ASIAN 2231",
+            "ASIAN 2232",
+            "ASIAN 2233",
+            "ASIAN 2250"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "BURM",
+            "CHIN",
+            "HINDI",
+            "INDO",
+            "JAPAN",
+            "KHMER",
+            "KOREA",
+            "MALAY",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAG",
+            "TAMIL",
+            "THAI",
+            "TIBET",
+            "URDU",
+            "VIET"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "BENGL",
+            "BURM",
+            "CHIN",
+            "HINDI",
+            "INDO",
+            "JAPAN",
+            "KHMER",
+            "KOREA",
+            "MALAY",
+            "NEPAL",
+            "PUNJB",
+            "SANSK",
+            "SINHA",
+            "TAG",
+            "TAMIL",
+            "THAI",
+            "TIBET",
+            "URDU",
+            "VIET"
+          ],
+          "numberMin": 1100,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "approval": "asian-studies-language-jumpstart"
+        }
+      ]
+    },
+    {
+      "unit": "credits",
+      "max": 8,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "regional-evidence",
+      "label": "Regional coverage and language eligibility",
+      "instruction": "Confirm that the selected course is multiregional or that the two selected courses cover different related regions. If using two language courses, select both in the same Asian language."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "A non-language course at the 3000 level or above",
+      "slots": [
+        "coursework"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "ASIAN"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "approval": "global-asia-nonlanguage-advanced"
+        }
+      ]
+    }
+  ]
+}

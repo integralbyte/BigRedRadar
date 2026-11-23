@@ -1,0 +1,115 @@
+{
+  "programId": "visual-studies-minor",
+  "name": "Visual Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core visual analysis, a hands-on practice course and three advanced courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/visual-studies-minor/#curriculumtext",
+    "https://arthistory.cornell.edu/minor-visual-studies"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Introduction to Visual Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VISST 2000"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "label": "Hands-on visual practice course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "approval": "visual-studies-practice"
+        }
+      ]
+    },
+    {
+      "id": "department",
+      "label": "Advanced History of Art and Visual Studies course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "VISST",
+            "ARTH"
+          ],
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Further advanced Visual Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "VISST",
+            "ARTH"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "approval": "visual-studies-approved-advanced"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "approval": "visual-studies-theory-practice"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "designation",
+      "label": "Practice designation and overlap",
+      "instruction": "Confirm the hands-on and theory-practice designations and department affiliation. Use at most two theory-practice courses and at most two courses shared with the major."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

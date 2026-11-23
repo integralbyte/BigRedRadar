@@ -1,0 +1,3413 @@
+{
+  "programId": "biology-society-ba",
+  "name": "Biology & Society (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Seventeen distinct courses, including specified breadth-depth pairings and the approved theme.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biology-society-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "variantId": "bs",
+  "slots": [
+    {
+      "id": "calc",
+      "label": "College calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1106",
+            "MATH 1110",
+            "MATH 1120",
+            "MATH 1910",
+            "MATH 1920"
+          ],
+          "minGrade": "C-",
+          "minCredits": 3
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "bsoc-calculus-ap"
+        },
+        {
+          "minGrade": "C-",
+          "minCredits": 3,
+          "approval": "bsoc-calculus-higher-or-petition"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ECON 3130",
+            "ILRST 2100",
+            "PUBPOL 2100",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2100",
+            "STSCI 2150"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "transfer",
+            "study_abroad"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics foundation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BSOC 2051",
+            "BSOC 2061"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Biology and Society core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BSOC 2071",
+            "BSOC 2468"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theme-natural",
+      "label": "Natural science theme electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ANSC 2400",
+            "ANTHR 3235",
+            "ANTHR 3390",
+            "BEE 3299",
+            "BIOAP 2140",
+            "BIOAP 3200",
+            "BIOMI 1400",
+            "BIOMI 2600",
+            "BIOMI 2950",
+            "BIOMI 4200",
+            "BIOMS 4150",
+            "BIOMS 4250",
+            "BIONB 3215",
+            "BIONB 4380",
+            "BIONB 4740",
+            "BSOC 2101",
+            "BSOC 3441",
+            "ENTOM 2030",
+            "ENTOM 4520",
+            "HD 2200",
+            "HD 3210",
+            "HD 3320",
+            "HD 4260",
+            "NS 3060",
+            "NS 3150",
+            "NS 3310",
+            "NS 3600",
+            "NTRES 2010",
+            "NTRES 4280",
+            "PLSCI 2020",
+            "PLSCI 2100",
+            "PLSCI 2400",
+            "PLSCI 2440",
+            "PLSCI 2470",
+            "PLSCI 4730",
+            "PSYCH 2230",
+            "PSYCH 2750"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theme-social",
+      "label": "Humanities or social science theme electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "AEM 4500",
+            "ANTHR 2421",
+            "ANTHR 3230",
+            "ANTHR 3390",
+            "ANTHR 4448",
+            "ANTHR 4530",
+            "ANTHR 4610",
+            "ANTHR 4682",
+            "ASRC 4602",
+            "BEE 3299",
+            "BSOC 2101",
+            "BSOC 2350",
+            "BSOC 2561",
+            "BSOC 2581",
+            "BSOC 2640",
+            "BSOC 3181",
+            "BSOC 3311",
+            "BSOC 3460",
+            "BSOC 4101",
+            "BSOC 4131",
+            "BSOC 4227",
+            "BSOC 4351",
+            "BSOC 4412",
+            "BSOC 4413",
+            "BSOC 4634",
+            "BSOC 4682",
+            "BSOC 4691",
+            "BSOC 4911",
+            "DEA 4220",
+            "FGSS 2010",
+            "GDEV 2010",
+            "GDEV 3030",
+            "GDEV 3230",
+            "HD 2150",
+            "HD 2510",
+            "HD 3190",
+            "HD 3320",
+            "HD 3620",
+            "HD 4250",
+            "HD 4260",
+            "HIST 4127",
+            "NS 2600",
+            "NS 3150",
+            "NS 3600",
+            "NS 4450",
+            "NS 4480",
+            "NS 4570",
+            "NTRES 3330",
+            "NTRES 4300",
+            "PLSCI 4230",
+            "PSYCH 2450",
+            "PSYCH 2750",
+            "PSYCH 2800",
+            "PUBPOL 2050",
+            "PUBPOL 2350",
+            "PUBPOL 3180",
+            "PUBPOL 3280",
+            "PUBPOL 3330",
+            "PUBPOL 4370",
+            "SOC 4380",
+            "STS 4041",
+            "STS 4231"
+          ],
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "seminar",
+      "label": "Senior seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 4500",
+            "ANTHR 4448",
+            "ANTHR 4610",
+            "ANTHR 4682",
+            "ASRC 4602",
+            "BSOC 4101",
+            "BSOC 4131",
+            "BSOC 4227",
+            "BSOC 4412",
+            "BSOC 4634",
+            "BSOC 4682",
+            "BSOC 4691",
+            "BSOC 4911",
+            "HD 4250",
+            "HIST 4127",
+            "NS 4450",
+            "NS 4480",
+            "NS 4570",
+            "NTRES 4300",
+            "PLSCI 4230",
+            "SOC 4380",
+            "STS 4041",
+            "STS 4231"
+          ],
+          "minGrade": "C-",
+          "minCredits": 3,
+          "acceptCrossListings": true
+        },
+        {
+          "numberMin": 4000,
+          "minGrade": "C-",
+          "minCredits": 3,
+          "approval": "bsoc-senior-seminar"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "intro-biology",
+      "label": "Two introductory biology subject areas",
+      "options": [
+        {
+          "id": "physiology-ecology",
+          "label": "Comparative physiology / Ecology",
+          "slots": [
+            {
+              "id": "intro-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-ecology",
+              "label": "Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology-cell-biology",
+          "label": "Comparative physiology / Cell biology",
+          "slots": [
+            {
+              "id": "intro-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-cell-biology",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology-evolution",
+          "label": "Comparative physiology / Evolution",
+          "slots": [
+            {
+              "id": "intro-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-evolution",
+              "label": "Evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1780",
+                    "BIOSM 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ecology-cell-biology",
+          "label": "Ecology / Cell biology",
+          "slots": [
+            {
+              "id": "intro-ecology",
+              "label": "Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-cell-biology",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ecology-evolution",
+          "label": "Ecology / Evolution",
+          "slots": [
+            {
+              "id": "intro-ecology",
+              "label": "Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-evolution",
+              "label": "Evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1780",
+                    "BIOSM 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell-biology-evolution",
+          "label": "Cell biology / Evolution",
+          "slots": [
+            {
+              "id": "intro-cell-biology",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "intro-evolution",
+              "label": "Evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1780",
+                    "BIOSM 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-foundation",
+      "label": "Two social science or humanities foundation areas",
+      "options": [
+        {
+          "id": "history-of-science--philosophy-of-science",
+          "label": "History of Science / Philosophy of Science",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-of-science--sociology-of-science",
+          "label": "History of Science / Sociology of Science",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-of-science--politics-of-science",
+          "label": "History of Science / Politics of Science",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-of-science--science-communication",
+          "label": "History of Science / Science Communication",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-of-science--literature-and-science",
+          "label": "History of Science / Literature and Science",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "history-of-science--anthropology-of-science-medicine-and-environment",
+          "label": "History of Science / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-history-of-science",
+              "label": "History of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2071",
+                    "BSOC 2581",
+                    "BSOC 2599",
+                    "BSOC 2640",
+                    "STS 1180",
+                    "STS 2023"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philosophy-of-science--sociology-of-science",
+          "label": "Philosophy of Science / Sociology of Science",
+          "slots": [
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philosophy-of-science--politics-of-science",
+          "label": "Philosophy of Science / Politics of Science",
+          "slots": [
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philosophy-of-science--science-communication",
+          "label": "Philosophy of Science / Science Communication",
+          "slots": [
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philosophy-of-science--literature-and-science",
+          "label": "Philosophy of Science / Literature and Science",
+          "slots": [
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "philosophy-of-science--anthropology-of-science-medicine-and-environment",
+          "label": "Philosophy of Science / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-philosophy-of-science",
+              "label": "Philosophy of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1180",
+                    "PHIL 2455"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sociology-of-science--politics-of-science",
+          "label": "Sociology of Science / Politics of Science",
+          "slots": [
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sociology-of-science--science-communication",
+          "label": "Sociology of Science / Science Communication",
+          "slots": [
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sociology-of-science--literature-and-science",
+          "label": "Sociology of Science / Literature and Science",
+          "slots": [
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sociology-of-science--anthropology-of-science-medicine-and-environment",
+          "label": "Sociology of Science / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-sociology-of-science",
+              "label": "Sociology of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 2101",
+                    "BSOC 2468",
+                    "BSOC 3011",
+                    "GDEV 3400",
+                    "NS 2450",
+                    "NTRES 2201",
+                    "STS 2011",
+                    "STS 3111"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-of-science--science-communication",
+          "label": "Politics of Science / Science Communication",
+          "slots": [
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-of-science--literature-and-science",
+          "label": "Politics of Science / Literature and Science",
+          "slots": [
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "politics-of-science--anthropology-of-science-medicine-and-environment",
+          "label": "Politics of Science / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-politics-of-science",
+              "label": "Politics of Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BSOC 3311",
+                    "PUBPOL 2350",
+                    "PUBPOL 3780",
+                    "STS 3241",
+                    "STS 3911"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "science-communication--literature-and-science",
+          "label": "Science Communication / Literature and Science",
+          "slots": [
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "science-communication--anthropology-of-science-medicine-and-environment",
+          "label": "Science Communication / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-science-communication",
+              "label": "Science Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COMM 3210",
+                    "STS 2851"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "literature-and-science--anthropology-of-science-medicine-and-environment",
+          "label": "Literature and Science / Anthropology of Science, Medicine, and Environment",
+          "slots": [
+            {
+              "id": "social-literature-and-science",
+              "label": "Literature and Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COML 2035",
+                    "ENGL 2350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "social-anthropology-of-science-medicine-and-environment",
+              "label": "Anthropology of Science, Medicine, and Environment",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2201",
+                    "ANTHR 2245",
+                    "ANTHR 2420",
+                    "ANTHR 2424"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology-depth",
+      "label": "Choose the breadth course paired with biology depth",
+      "options": [
+        {
+          "id": "ansc-2400",
+          "label": "ANSC 2400 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Anatomy and Physiology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 5450"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bioap-3110",
+          "label": "BIOAP 3110 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Anatomy and Physiology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3110"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ns-3410",
+          "label": "NS 3410 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Anatomy and Physiology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 4140"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bionb-2210",
+          "label": "BIONB 2210 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Animal Behavior breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 4220",
+                    "BIONB 4260",
+                    "BIONB 4560",
+                    "HD 3220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomg-3300",
+          "label": "BIOMG 3300 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biochemistry, Molecular and Cell Biology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 4000",
+                    "BIOMG 4311",
+                    "BIOMG 4320",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4610",
+                    "NS 3310",
+                    "NS 4300",
+                    "BIOMI 4090",
+                    "BIOMI 4850",
+                    "BIONB 3950",
+                    "BIONB 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomg-3310",
+          "label": "BIOMG 3310 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biochemistry, Molecular and Cell Biology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4000",
+                    "BIOMG 4311",
+                    "BIOMG 4320",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4610",
+                    "BIOMI 4850",
+                    "NS 3310",
+                    "NS 3320",
+                    "BIONB 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomg-3350",
+          "label": "BIOMG 3350 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biochemistry, Molecular and Cell Biology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 4000",
+                    "BIOMG 4311",
+                    "BIOMG 4320",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMG 4610",
+                    "BIOMI 4850",
+                    "PLSCI 4000"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ns-3200",
+          "label": "NS 3200 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biochemistry, Molecular and Cell Biology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3310",
+                    "NS 4300",
+                    "NS 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bioee-2740",
+          "label": "BIOEE 2740 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biological Diversity breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 4700",
+                    "BIOEE 4760"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomi-2900",
+          "label": "BIOMI 2900 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biological Diversity breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 3210",
+                    "BIOMI 3940",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4300",
+                    "BIOMI 4850"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "entom-2120",
+          "label": "ENTOM 2120 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biological Diversity breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 2120"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3150",
+                    "ENTOM 3310",
+                    "ENTOM 3440",
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plsci-2410",
+          "label": "PLSCI 2410 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biological Diversity breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2430",
+                    "PLSCI 2480",
+                    "PLSCI 3420",
+                    "PLSCI 4020"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plsci-3010",
+          "label": "PLSCI 3010 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Biological Diversity breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 5020"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomg-2800",
+          "label": "BIOMG 2800 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Genetics and Development breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3800",
+                    "BIOMG 3850",
+                    "BIOMG 4000",
+                    "BIOMG 4311",
+                    "BIOMG 4320",
+                    "BIOMG 4390",
+                    "BIOMG 4450",
+                    "BIOMG 4610",
+                    "BIOMI 4300",
+                    "BIOMI 4850"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bionb-2220",
+          "label": "BIONB 2220 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Neurobiology breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 3215",
+                    "BIONB 3220",
+                    "BIONB 3280",
+                    "BIONB 3300",
+                    "BIONB 3920",
+                    "BIONB 3950",
+                    "BIONB 4320",
+                    "BIONB 4560",
+                    "BIONB 4740",
+                    "BIONB 4750",
+                    "BIONB 4910"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ns-1150",
+          "label": "NS 1150 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Nutrition breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 2750",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3200",
+                    "NS 3310",
+                    "NS 3320",
+                    "NS 3410",
+                    "NS 3450",
+                    "NS 4200",
+                    "NS 4250",
+                    "NS 4300",
+                    "NS 4410",
+                    "NS 4500"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ns-1220",
+          "label": "NS 1220 and an eligible depth course",
+          "slots": [
+            {
+              "id": "paired-breadth",
+              "label": "Nutrition breadth",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "paired-depth",
+              "label": "Biology depth course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 2750",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3200",
+                    "NS 4140",
+                    "NS 3310",
+                    "NS 3320",
+                    "NS 3410",
+                    "NS 3450",
+                    "NS 4200",
+                    "NS 4250",
+                    "NS 4300",
+                    "NS 4410",
+                    "NS 4420"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology-breadth",
+      "label": "Two other biology foundation areas",
+      "options": [
+        {
+          "id": "anatomy-and-physiology--animal-behavior",
+          "label": "Anatomy and Physiology / Animal Behavior",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "bionb-2210"
+            ]
+          }
+        },
+        {
+          "id": "anatomy-and-physiology--biochemistry-molecular-and-cell-biology",
+          "label": "Anatomy and Physiology / Biochemistry, Molecular and Cell Biology",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200"
+            ]
+          }
+        },
+        {
+          "id": "anatomy-and-physiology--biological-diversity",
+          "label": "Anatomy and Physiology / Biological Diversity",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010"
+            ]
+          }
+        },
+        {
+          "id": "anatomy-and-physiology--genetics-and-development",
+          "label": "Anatomy and Physiology / Genetics and Development",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "biomg-2800"
+            ]
+          }
+        },
+        {
+          "id": "anatomy-and-physiology--neurobiology",
+          "label": "Anatomy and Physiology / Neurobiology",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "bionb-2220"
+            ]
+          }
+        },
+        {
+          "id": "anatomy-and-physiology--nutrition",
+          "label": "Anatomy and Physiology / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-anatomy-and-physiology",
+              "label": "Anatomy and Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400",
+                    "BIOAP 3110",
+                    "NS 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "ansc-2400",
+              "bioap-3110",
+              "ns-3410",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        },
+        {
+          "id": "animal-behavior--biochemistry-molecular-and-cell-biology",
+          "label": "Animal Behavior / Biochemistry, Molecular and Cell Biology",
+          "slots": [
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2210",
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200"
+            ]
+          }
+        },
+        {
+          "id": "animal-behavior--biological-diversity",
+          "label": "Animal Behavior / Biological Diversity",
+          "slots": [
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2210",
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010"
+            ]
+          }
+        },
+        {
+          "id": "animal-behavior--genetics-and-development",
+          "label": "Animal Behavior / Genetics and Development",
+          "slots": [
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2210",
+              "biomg-2800"
+            ]
+          }
+        },
+        {
+          "id": "animal-behavior--neurobiology",
+          "label": "Animal Behavior / Neurobiology",
+          "slots": [
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2210",
+              "bionb-2220"
+            ]
+          }
+        },
+        {
+          "id": "animal-behavior--nutrition",
+          "label": "Animal Behavior / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-animal-behavior",
+              "label": "Animal Behavior",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANTHR 2310",
+                    "BIONB 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2210",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        },
+        {
+          "id": "biochemistry-molecular-and-cell-biology--biological-diversity",
+          "label": "Biochemistry, Molecular and Cell Biology / Biological Diversity",
+          "slots": [
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200",
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010"
+            ]
+          }
+        },
+        {
+          "id": "biochemistry-molecular-and-cell-biology--genetics-and-development",
+          "label": "Biochemistry, Molecular and Cell Biology / Genetics and Development",
+          "slots": [
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200",
+              "biomg-2800"
+            ]
+          }
+        },
+        {
+          "id": "biochemistry-molecular-and-cell-biology--neurobiology",
+          "label": "Biochemistry, Molecular and Cell Biology / Neurobiology",
+          "slots": [
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200",
+              "bionb-2220"
+            ]
+          }
+        },
+        {
+          "id": "biochemistry-molecular-and-cell-biology--nutrition",
+          "label": "Biochemistry, Molecular and Cell Biology / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-biochemistry-molecular-and-cell-biology",
+              "label": "Biochemistry, Molecular and Cell Biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3350",
+                    "BIOMG 4450",
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-3300",
+              "biomg-3310",
+              "biomg-3350",
+              "ns-3200",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        },
+        {
+          "id": "biological-diversity--genetics-and-development",
+          "label": "Biological Diversity / Genetics and Development",
+          "slots": [
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010",
+              "biomg-2800"
+            ]
+          }
+        },
+        {
+          "id": "biological-diversity--neurobiology",
+          "label": "Biological Diversity / Neurobiology",
+          "slots": [
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010",
+              "bionb-2220"
+            ]
+          }
+        },
+        {
+          "id": "biological-diversity--nutrition",
+          "label": "Biological Diversity / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-biological-diversity",
+              "label": "Biological Diversity",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4750",
+                    "BIOEE 4760",
+                    "BIOMI 2900",
+                    "BIOSM 3210",
+                    "BIOSM 3740",
+                    "ENTOM 2120",
+                    "PLSCI 2410",
+                    "PLSCI 2480",
+                    "PLSCI 3010",
+                    "PLSCI 4300"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bioee-2740",
+              "biomi-2900",
+              "entom-2120",
+              "plsci-2410",
+              "plsci-3010",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        },
+        {
+          "id": "genetics-and-development--neurobiology",
+          "label": "Genetics and Development / Neurobiology",
+          "slots": [
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-2800",
+              "bionb-2220"
+            ]
+          }
+        },
+        {
+          "id": "genetics-and-development--nutrition",
+          "label": "Genetics and Development / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-genetics-and-development",
+              "label": "Genetics and Development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 2800",
+                    "NTRES 2830",
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "biomg-2800",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        },
+        {
+          "id": "neurobiology--nutrition",
+          "label": "Neurobiology / Nutrition",
+          "slots": [
+            {
+              "id": "breadth-neurobiology",
+              "label": "Neurobiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIONB 2220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "breadth-nutrition",
+              "label": "Nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 1150",
+                    "NS 1220"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "excludeWhen": {
+            "biology-depth": [
+              "bionb-2220",
+              "ns-1150",
+              "ns-1220"
+            ]
+          }
+        }
+      ],
+      "onlyWhen": {
+        "biology-depth": [
+          "ansc-2400",
+          "bioap-3110",
+          "ns-3410",
+          "bionb-2210",
+          "biomg-3300",
+          "biomg-3310",
+          "biomg-3350",
+          "ns-3200",
+          "bioee-2740",
+          "biomi-2900",
+          "entom-2120",
+          "plsci-2410",
+          "plsci-3010",
+          "biomg-2800",
+          "bionb-2220",
+          "ns-1150",
+          "ns-1220"
+        ]
+      }
+    }
+  ],
+  "manual": [
+    {
+      "id": "theme",
+      "label": "Coherence and senior seminar timing",
+      "instruction": "Confirm that all five electives align with the selected theme. Complete the senior seminar during junior or senior year, and confirm the junior-year targets for ethics and core."
+    },
+    {
+      "id": "depth-review",
+      "label": "Depth substitutions and prerequisites",
+      "instruction": "Verify the documented breadth prerequisite for an unlisted depth substitution with the department."
+    }
+  ]
+}

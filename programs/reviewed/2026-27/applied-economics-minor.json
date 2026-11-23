@@ -1,0 +1,280 @@
+{
+  "programId": "applied-economics-minor",
+  "name": "Applied Economics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Microeconomics, macroeconomics, economic theory and upper-level applied economics topics.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/applied-economics-minor/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "econ-1110",
+      "label": "ECON 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent-econ-1110"
+        }
+      ]
+    },
+    {
+      "id": "econ-1120",
+      "label": "ECON 1120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent-econ-1120"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "major-interest",
+      "label": "Economic theory and applicable major",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Managerial economics and three applied economics topics",
+          "slots": [
+            {
+              "id": "theory",
+              "label": "Managerial Economics",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2600"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "topics",
+              "label": "Applied Economics topics",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4100",
+                    "AEM 4110",
+                    "AEM 4140",
+                    "AEM 4150",
+                    "AEM 4160",
+                    "AEM 4190",
+                    "AEM 4210",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4545",
+                    "AEM 4550",
+                    "AEM 4880"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "economics-ba"
+          ]
+        },
+        {
+          "id": "economics",
+          "label": "Economics major",
+          "slots": [
+            {
+              "id": "theory",
+              "label": "Managerial or Intermediate Microeconomic Theory",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2600",
+                    "ECON 3030"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "topics",
+              "label": "Applied Economics topics",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4100",
+                    "AEM 4110",
+                    "AEM 4140",
+                    "AEM 4150",
+                    "AEM 4160",
+                    "AEM 4190",
+                    "AEM 4210",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4545",
+                    "AEM 4550",
+                    "AEM 4880"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "public-policy",
+          "label": "Public Policy major using a substitution",
+          "slots": [
+            {
+              "id": "theory",
+              "label": "Intermediate Microeconomics",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2000"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "topics",
+              "label": "Applied Economics topics",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4100",
+                    "AEM 4110",
+                    "AEM 4140",
+                    "AEM 4150",
+                    "AEM 4160",
+                    "AEM 4190",
+                    "AEM 4210",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4500",
+                    "AEM 4510",
+                    "AEM 4545",
+                    "AEM 4550",
+                    "AEM 4880"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "applied-economics-management-bs"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Eligibility and credits outside the major",
+      "instruction": "Confirm eligibility if two or more core courses overlap with the major, and at least 12 credits separate from major core requirements. Complete the foundation coursework and declare by semester six as applicable."
+    },
+    {
+      "id": "route",
+      "label": "Major-dependent theory option",
+      "instruction": "Economics majors complete four topics courses. Verify the applicable economics or public policy substitution with the Business Minors office."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell",
+      "label": "Coursework at Cornell",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcb",
+      "label": "SC Johnson College of Business credits",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "programId": "astrobiology-minor",
+  "name": "Astrobiology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Astronomy and interdisciplinary coursework, including biology or geobiology.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/astrobiology-minor/#curriculumtext",
+    "https://astro.cornell.edu/undergraduate"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "course-mix",
+      "label": "Astronomy and interdisciplinary courses",
+      "options": [
+        {
+          "id": "2-astronomy-2-interdisciplinary",
+          "label": "2 Astronomy and 2 interdisciplinary courses",
+          "slots": [
+            {
+              "id": "astronomy",
+              "label": "Astronomy courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ],
+                  "minGrade": "C-",
+                  "approval": "astro-independent-study",
+                  "maxCountedCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "interdisciplinary",
+              "label": "Interdisciplinary courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "astronomy",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Astronomy courses at the 3000 level or higher",
+              "slots": [
+                "astronomy"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "biology",
+              "label": "Biology or geobiology course",
+              "slots": [
+                "interdisciplinary"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "astronomy"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-astronomy-3-interdisciplinary",
+          "label": "2 Astronomy and 3 interdisciplinary courses",
+          "slots": [
+            {
+              "id": "astronomy",
+              "label": "Astronomy courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ],
+                  "minGrade": "C-",
+                  "approval": "astro-independent-study",
+                  "maxCountedCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "interdisciplinary",
+              "label": "Interdisciplinary courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "astronomy",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Astronomy courses at the 3000 level or higher",
+              "slots": [
+                "astronomy"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "biology",
+              "label": "Biology or geobiology course",
+              "slots": [
+                "interdisciplinary"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "astronomy"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3-astronomy-2-interdisciplinary",
+          "label": "3 Astronomy and 2 interdisciplinary courses",
+          "slots": [
+            {
+              "id": "astronomy",
+              "label": "Astronomy courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ],
+                  "minGrade": "C-",
+                  "approval": "astro-independent-study",
+                  "maxCountedCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "interdisciplinary",
+              "label": "Interdisciplinary courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "astronomy",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Astronomy courses at the 3000 level or higher",
+              "slots": [
+                "astronomy"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "biology",
+              "label": "Biology or geobiology course",
+              "slots": [
+                "interdisciplinary"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "astronomy"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3-astronomy-3-interdisciplinary",
+          "label": "3 Astronomy and 3 interdisciplinary courses",
+          "slots": [
+            {
+              "id": "astronomy",
+              "label": "Astronomy courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 1101",
+                    "ASTRO 1102",
+                    "ASTRO 2202",
+                    "ASTRO 2212",
+                    "ASTRO 2299",
+                    "ASTRO 3301",
+                    "ASTRO 3302",
+                    "ASTRO 3310",
+                    "ASTRO 3334"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ],
+                  "minGrade": "C-",
+                  "approval": "astro-independent-study",
+                  "maxCountedCredits": 4
+                }
+              ]
+            },
+            {
+              "id": "interdisciplinary",
+              "label": "Interdisciplinary courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMax": 2999,
+                  "minGrade": "B-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030",
+                    "BIOMG 4380",
+                    "BIOMG 4810",
+                    "COMM 2850",
+                    "COMM 3020",
+                    "COMM 4660",
+                    "EAS 2500",
+                    "EAS 3010",
+                    "EAS 3050"
+                  ],
+                  "numberMin": 3000,
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 15,
+              "unit": "credits",
+              "slots": [
+                "astronomy",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "id": "advanced",
+              "label": "Astronomy courses at the 3000 level or higher",
+              "slots": [
+                "astronomy"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            },
+            {
+              "id": "biology",
+              "label": "Biology or geobiology course",
+              "slots": [
+                "interdisciplinary"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900",
+                    "EAS 2250",
+                    "EAS 3030"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "astronomy"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4940"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "astronomy-ba"
+  ],
+  "manual": [
+    {
+      "id": "advanced-guidance",
+      "label": "Astronomy level and independent study",
+      "instruction": "The department requires two upper-level Astronomy courses. Confirm the applicable policy and approved independent study with Astronomy, as one Catalog table describes a different minimum."
+    }
+  ]
+}

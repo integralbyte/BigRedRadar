@@ -1,0 +1,223 @@
+{
+  "programId": "education-minor",
+  "name": "Education Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Required teaching, policy, direct experience, electives and a culminating discussion or publication.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/education-minor/#curriculumtext",
+    "https://cals.cornell.edu/education/degrees-programs/education-minor"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "The Art of Teaching",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EDUC 2410"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "label": "Education history, policy or philosophy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EDUC 3405",
+            "EDUC 4720"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "EDUC 2710"
+          ],
+          "minGrade": "C",
+          "minCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Education electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "SOC 2210",
+            "SOC 2250",
+            "ENTOM 3350",
+            "ILRLE 3445",
+            "PUBPOL 3231",
+            "PUBPOL 3480",
+            "PUBPOL 3550",
+            "PSYCH 4500",
+            "ANTHR 4790",
+            "PLSCI 4825",
+            "ILRGL 4865"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "EDUC"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "experience",
+      "label": "Direct experience with learners",
+      "options": [
+        {
+          "id": "standard",
+          "label": "One direct-experience course",
+          "slots": [
+            {
+              "id": "experience-course",
+              "label": "Direct experience with learners",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EDUC 2200",
+                    "EDUC 2210",
+                    "EDUC 3110",
+                    "EDUC 4200",
+                    "EDUC 4223"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "EDUC 3142"
+                  ],
+                  "minGrade": "C",
+                  "minCredits": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ta",
+          "label": "EDUC 2155 with a teaching assistantship",
+          "slots": [
+            {
+              "id": "ed-strategies",
+              "label": "Exploring strategies for teaching and learning",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EDUC 2155"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "ta",
+              "label": "Teaching assistantship",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EDUC 4980"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "minCredits": 2
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "ta-timing",
+              "label": "Teaching assistantship timing",
+              "instruction": "Take the two-credit assistantship during EDUC 2155 or in a following semester and apply it to this experience only."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "credits",
+      "max": 4,
+      "options": [
+        {
+          "codes": [
+            "EDUC 4960",
+            "EDUC 4970",
+            "EDUC 4980"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Major and minor overlap",
+      "instruction": "Apply no more than two courses to both programs."
+    },
+    {
+      "id": "capstone",
+      "label": "Final-semester capstone",
+      "instruction": "Complete a structured educator discussion or submit an approved publication in your final semester."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "elective-count",
+      "label": "At least two Education electives",
+      "slots": [
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

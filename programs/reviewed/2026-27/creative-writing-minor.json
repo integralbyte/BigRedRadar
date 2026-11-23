@@ -1,0 +1,129 @@
+{
+  "programId": "creative-writing-minor",
+  "name": "Creative Writing Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four creative-writing requirements and a qualifying literature or cultural studies course.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/creative-writing-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "workshop-engl-2800",
+      "label": "ENGL 2800",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGL 2800"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "workshop-engl-3820",
+      "label": "ENGL 3820",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGL 3820"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "workshop-engl-3840",
+      "label": "ENGL 3840",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGL 3840"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "label": "Advanced creative writing workshop",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGL 4800",
+            "ENGL 4801"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "label": "Literature or cultural studies elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "ENGL"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 1100,
+          "approval": "creative-writing-literature"
+        },
+        {
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "numberMin": 2000,
+          "approval": "creative-writing-approved-other-elective"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "elective",
+      "label": "Literature elective and department certification",
+      "instruction": "Confirm that the elective is a full-semester course and meets the English department’s literature or cultural studies criteria. Confirm any transfer, independent study or cross-departmental work."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

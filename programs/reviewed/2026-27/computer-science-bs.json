@@ -1,0 +1,479 @@
+{
+  "programId": "computer-science-bs",
+  "name": "Computer Science (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "2026–27 major curriculum with separate checks for college graduation, academic standing, and advisor-approved credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/computer-science-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "calculus-i",
+      "label": "Calculus for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "cs-placement-credit"
+        },
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "cs-transfer-credit"
+        }
+      ]
+    },
+    {
+      "id": "calculus-ii",
+      "label": "Multivariable calculus for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "cs-placement-credit"
+        },
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "cs-transfer-credit"
+        }
+      ]
+    },
+    {
+      "id": "linear-algebra",
+      "label": "Linear algebra for engineers",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "cs-transfer-credit"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "cs-placement-credit"
+        },
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "cs-transfer-credit"
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "label": "Object-oriented programming and data structures",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2110",
+            "CS 2112"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "discrete",
+      "label": "Mathematical foundations",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 2800",
+            "CS 2802"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "functional",
+      "label": "Functional programming",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3110"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Computer organization or embedded systems",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3410",
+            "CS 3420"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "AI reasoning or machine learning",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3700",
+            "CS 3780"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "label": "Operating systems or systems programming",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 4410",
+            "CS 4414"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "label": "Algorithms",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 4820"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "project",
+      "label": "Practicum or project",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 3152",
+            "CS 4121",
+            "CS 4152",
+            "CS 4321",
+            "CS 4411",
+            "CS 4621",
+            "CS 4701",
+            "CS 4740",
+            "CS 5121",
+            "CS 5150",
+            "CS 5152",
+            "CS 5321",
+            "CS 5411",
+            "CS 5412",
+            "CS 5414",
+            "CS 5621",
+            "CS 5625",
+            "CS 5643",
+            "CS 5740"
+          ],
+          "minGrade": "C-",
+          "minCredits": 2,
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "upper-cs",
+      "label": "Advanced CS electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "CS"
+          ],
+          "numberMin": 4000,
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998",
+            "CS 4999"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        },
+        {
+          "codes": [
+            "CS 3700",
+            "CS 3780"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "technical-advanced",
+      "label": "Technical electives at 3000 level or above",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "CS"
+          ],
+          "numberMin": 3000,
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        },
+        {
+          "numberMin": 3000,
+          "approval": "cs-technical-elective",
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "technical-flexible",
+      "label": "Third technical elective",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "CS"
+          ],
+          "numberMin": 3000,
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        },
+        {
+          "numberMin": 3000,
+          "approval": "cs-technical-elective",
+          "excludeCodes": [
+            "CS 4090",
+            "CS 4997",
+            "CS 4998"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-"
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 2999,
+          "approval": "cs-technical-elective",
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "external",
+      "label": "External specialization",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "excludeSubjects": [
+            "CS",
+            "PE"
+          ],
+          "numberMin": 3000,
+          "approval": "cs-external-specialization",
+          "minCredits": 3,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "major-elective",
+      "label": "Major-approved elective",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE",
+            "ARMY",
+            "NAVS",
+            "AIRS"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell",
+            "transfer",
+            "study_abroad"
+          ],
+          "approval": "cs-major-elective"
+        },
+        {
+          "numberMin": 3000,
+          "subjects": [
+            "ARMY",
+            "NAVS",
+            "AIRS"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "cs-major-elective"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "degree",
+      "label": "College and university graduation requirements",
+      "instruction": "Confirm the applicable college checklist and the 123 degree-credit minimum under the governing catalog."
+    },
+    {
+      "id": "affiliation",
+      "label": "Affiliation and academic standing",
+      "instruction": "Confirm affiliation grades and GPA, subsequent major and term GPA, and the junior-year core deadline."
+    },
+    {
+      "id": "technical-evidence",
+      "label": "Technical elective exceptions",
+      "instruction": "Confirm that external electives have the required same-term Catalog prerequisite or corequisite. Confirm special approval for non-CS research and the limit of two research courses."
+    },
+    {
+      "id": "external-group",
+      "label": "Specialization coherence and credit overlap",
+      "instruction": "Confirm departmental or approved topic coherence, at most one CS cross-listing, and eligibility of any advisory exceptions."
+    },
+    {
+      "id": "engineering-electives",
+      "label": "Engineering advisor-approved electives",
+      "instruction": "Confirm six Engineering advisor-approved credits and the remaining Engineering common curriculum with the applicable checklist."
+    }
+  ]
+}

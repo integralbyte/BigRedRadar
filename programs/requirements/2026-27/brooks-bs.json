@@ -1,0 +1,323 @@
+{
+  "programId": "brooks-bs",
+  "name": "Brooks Public Policy Bachelor of Science graduation requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "2026–27 distribution requirements and credit minimums for the Public Policy and Health Care Policy BS.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/public-policy-bs/#collegetext",
+    "https://catalog.cornell.edu/programs/health-care-policy-major-bs/#collegetext",
+    "https://publicpolicy.cornell.edu/current-students/undergraduates/advising/requirements/"
+  ],
+  "slots": [
+    {
+      "id": "fws",
+      "label": "First-Year Writing Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "fws-second",
+      "label": "Second First-Year Writing Seminar or approved equivalent",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minCredits": 3
+        },
+        {
+          "approval": "brooks-approved-ap-ib-writing",
+          "origins": [
+            "exam"
+          ],
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "label": "Mathematics",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "MATH"
+          ],
+          "excludeCodes": [
+            "MATH 1101",
+            "MATH 1710"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minCredits": 3
+        },
+        {
+          "approval": "brooks-approved-calculus-or-case",
+          "origins": [
+            "exam"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "approval": "brooks-approved-mathematics-transfer",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Natural Science",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "BIO-AG",
+            "BIO-AS",
+            "BSC-AG",
+            "CHPH-AG",
+            "OPHLS-AG",
+            "PBS-AS",
+            "PBS-AS)",
+            "PBS-HE",
+            "PHS-AS",
+            "PHS-AS)",
+            "PSC-AG"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "approval": "brooks-approved-science-test-credit",
+          "origins": [
+            "exam"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "approval": "brooks-approved-science-transfer",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Historical Analysis",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "HA-AG",
+            "HA-AG)",
+            "HA-AS",
+            "HA-HE",
+            "HA-HE)",
+            "HST-AS",
+            "HST-AS)",
+            "HST-AS) (CA-AG",
+            "HST-AS) (HA-AG",
+            "HST-AS) (KCM-AG"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "approval": "brooks-approved-historical-analysis-transfer",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "PP"
+  ],
+  "layer": "college",
+  "totals": [
+    {
+      "id": "he-electives",
+      "label": "Human Ecology elective credits",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "HD",
+            "HE",
+            "NS"
+          ],
+          "excludeCodes": [
+            "HE 1110",
+            "HE 1112",
+            "HE 1115",
+            "HE 1200"
+          ],
+          "excludeNumbers": [
+            4030
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "codes": [
+            "PSYCH 1101"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "brooks-approved-psychology-credit",
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "label": "Academic credits applicable to graduation",
+      "unit": "credits",
+      "need": 120,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "numberMax": 6999
+        },
+        {
+          "approval": "college-approved-academic-credit"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "degree"
+      ],
+      "unit": "credits",
+      "max": 12,
+      "options": [
+        {
+          "grades": [
+            "S",
+            "Satisfactory"
+          ],
+          "passFailOnly": false
+        }
+      ]
+    },
+    {
+      "slots": [
+        "degree"
+      ],
+      "unit": "credits",
+      "max": 12,
+      "options": [
+        {
+          "components": [
+            "IND",
+            "PRJ",
+            "RSC"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "he-electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "HD",
+            "HE",
+            "NS"
+          ],
+          "approval": "brooks-he-special-study"
+        }
+      ]
+    }
+  ],
+  "onlyWhenDeclared": [
+    "public-policy-bs",
+    "health-care-policy-major-bs"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Distribution and major overlap",
+      "instruction": "Keep courses used for Writing, Mathematics, Natural Science and Historical Analysis distinct from major requirements. Human Ecology elective credits may be applied to the major or distribution where permitted."
+    },
+    {
+      "id": "standing",
+      "label": "Academic standing and approved external credit",
+      "instruction": "Confirm a 2.0 GPA, degree eligibility, first-year or transfer PUBPOL course timing, and any external or special studies credit with Brooks."
+    }
+  ]
+}

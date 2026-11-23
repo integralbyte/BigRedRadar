@@ -1,0 +1,136 @@
+{
+  "programId": "religious-studies-minor",
+  "name": "Religious Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses including three at the 3000 level or above and one at the 4000 level.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/religious-studies-minor/#curriculumtext",
+    "https://religious-studies.cornell.edu/undergraduate"
+  ],
+  "slots": [
+    {
+      "id": "capstone",
+      "label": "4000-level Religious Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "numberMin": 4000,
+          "numberMax": 4999
+        },
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "religious-studies-approved-cornell-program",
+          "numberMin": 4000,
+          "numberMax": 4999
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Other courses at the 3000 level or above",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "numberMin": 3000
+        },
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "religious-studies-approved-cornell-program",
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional Religious Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "subjects": [
+            "RELST"
+          ],
+          "minGrade": "B-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "study_abroad"
+          ],
+          "approval": "religious-studies-approved-cornell-program"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "religious-studies-ba"
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

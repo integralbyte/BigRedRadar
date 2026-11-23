@@ -1,0 +1,141 @@
+{
+  "programId": "public-service-studies-minor",
+  "name": "Public Service Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out. Global engagement, a capstone, relevant Anthropology, approved electives and 160 hours of service learning.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/public-service-studies-minor/public-service-studies-minor.pdf",
+    "https://anthropology.cornell.edu/courses/SP21",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2026",
+          "slots": [
+            {
+              "id": "global",
+              "label": "Global Engagements",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "ANTHR 1900"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "capstone",
+              "label": "Public Service Capstone",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "ANTHR 4100"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "anthropology",
+              "label": "Anthropology related to the service focus",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "subjects": [
+                    "ANTHR"
+                  ],
+                  "numberMin": 2000,
+                  "minCredits": 3,
+                  "approval": "public-service-studies-approved-focus"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Approved public service and engagement electives",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "approval": "public-service-studies-approved-elective"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "cornell",
+              "label": "At least three courses at Cornell",
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "origins": [
+                    "transfer"
+                  ]
+                }
+              ]
+            },
+            {
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "origins": [
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2026 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "framework",
+      "label": "Service learning hours and archived elective count",
+      "instruction": "Complete 160 hours within the agreed reporting, reflection and assessment framework and take the capstone in the spring before graduation. Confirm the elective count with Anthropology because the archived PDF lists five total courses and separately enumerates categories that add to six."
+    }
+  ]
+}

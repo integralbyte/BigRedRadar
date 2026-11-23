@@ -1,0 +1,1517 @@
+{
+  "programId": "arts-sciences-ba",
+  "name": "Arts and Sciences graduation requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Standard BA coursework, writing, language and distributions for the 2026–27 catalog. Confirm posted credits and residency in DUST.",
+  "sources": [
+    "https://catalog.cornell.edu/arts-sciences/",
+    "https://as.cornell.edu/education/degree-requirements",
+    "https://as.cornell.edu/registrar/courses-that-dont-count"
+  ],
+  "layer": "college",
+  "colleges": [
+    "AS"
+  ],
+  "excludePrograms": [
+    "college-scholar-ba"
+  ],
+  "slots": [
+    {
+      "id": "fws",
+      "label": "First-year Writing Seminars",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "as-approved-english-exam-credit"
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "as-approved-writing-transfer"
+        }
+      ],
+      "allocationGroup": "writing"
+    },
+    {
+      "id": "alc",
+      "label": "Arts, Literature, and Culture",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "ALC-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-alc"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "bio",
+      "label": "Biological Sciences",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "BIO-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-bio"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "etm",
+      "label": "Ethics and the Mind",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "ETM-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-etm"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "glc",
+      "label": "Global Citizenship",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "GLC-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-glc"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "hst",
+      "label": "Historical Analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "HST-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-hst"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "phs",
+      "label": "Physical Sciences",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "PHS-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-phs"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "scd",
+      "label": "Social Difference",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "SCD-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-scd"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "ssc",
+      "label": "Social Sciences",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "SSC-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-ssc"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "sds",
+      "label": "Statistics and Data Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "SDS-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-sds"
+        }
+      ],
+      "allocationGroup": "distributions"
+    },
+    {
+      "id": "smr",
+      "label": "Symbolic and Mathematical Reasoning",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "distributions": [
+            "SMR-AS"
+          ],
+          "fixedCredits": true,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "minCredits": 3,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-distribution-smr"
+        }
+      ],
+      "allocationGroup": "distributions"
+    }
+  ],
+  "totals": [
+    {
+      "id": "total-credits",
+      "label": "Academic credits toward the BA",
+      "unit": "credits",
+      "need": 120,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "numberMin": 1100,
+          "excludeNumbers": [
+            4980
+          ],
+          "excludeSubjects": [
+            "PE",
+            "AIRS",
+            "ELSO",
+            "MILS",
+            "NAVS"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ]
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AIRS 4401",
+            "AIRS 4402",
+            "CHEM 4980",
+            "HADM 4980",
+            "MILS 3302",
+            "NAVS 2201",
+            "NAVS 3201",
+            "NAVS 3202",
+            "NAVS 3310",
+            "NAVS 4402",
+            "NAVS 4411",
+            "PUBPOL 4980",
+            "SOC 4980",
+            "STSCI 4980"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ]
+        },
+        {
+          "origins": [
+            "transfer",
+            "study_abroad",
+            "exam"
+          ],
+          "approval": "as-awarded-academic-credit"
+        }
+      ]
+    },
+    {
+      "id": "arts-credits",
+      "label": "Arts and Sciences credits",
+      "unit": "credits",
+      "need": 100,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "numberMin": 1100,
+          "excludeNumbers": [
+            4980
+          ],
+          "excludeSubjects": [
+            "PE",
+            "AIRS",
+            "ELSO",
+            "MILS",
+            "NAVS"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ],
+          "academicColleges": [
+            "AS"
+          ]
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AIRS 4401",
+            "AIRS 4402",
+            "CHEM 4980",
+            "HADM 4980",
+            "MILS 3302",
+            "NAVS 2201",
+            "NAVS 3201",
+            "NAVS 3202",
+            "NAVS 3310",
+            "NAVS 4402",
+            "NAVS 4411",
+            "PUBPOL 4980",
+            "SOC 4980",
+            "STSCI 4980"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ],
+          "academicColleges": [
+            "AS"
+          ]
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-credit-from-other-college"
+        },
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ],
+          "approval": "as-approved-external-credit"
+        }
+      ]
+    },
+    {
+      "id": "letter-credits",
+      "label": "Letter-graded academic credits",
+      "unit": "credits",
+      "need": 80,
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ],
+          "numberMin": 1100,
+          "excludeNumbers": [
+            4980
+          ],
+          "excludeSubjects": [
+            "PE",
+            "AIRS",
+            "ELSO",
+            "MILS",
+            "NAVS"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "AIRS 4401",
+            "AIRS 4402",
+            "CHEM 4980",
+            "HADM 4980",
+            "MILS 3302",
+            "NAVS 2201",
+            "NAVS 3201",
+            "NAVS 3202",
+            "NAVS 3310",
+            "NAVS 4402",
+            "NAVS 4411",
+            "PUBPOL 4980",
+            "SOC 4980",
+            "STSCI 4980"
+          ],
+          "excludeCodes": [
+            "AEM 2700",
+            "AEM 2820",
+            "AEM 4960",
+            "AEM 6980",
+            "ALS 4960",
+            "ALS 6015",
+            "ALS 6016",
+            "ANSC 4960",
+            "ART 1909",
+            "BEE 5980",
+            "BIOMG 4981",
+            "BIOMG 4982",
+            "BIOMG 6980",
+            "BME 4970",
+            "BME 5940",
+            "BME 7030",
+            "BTRY 7980",
+            "CEE 4010",
+            "CHEME 3010",
+            "COMM 4950",
+            "COMM 4960",
+            "COMM 6940",
+            "CRP 1106",
+            "CRP 4940",
+            "CRP 7940",
+            "CS 4090",
+            "CS 5998",
+            "DEA 4030",
+            "EAS 4960",
+            "ECE 4920",
+            "EDUC 4940",
+            "EDUC 4960",
+            "EDUC 4970",
+            "ENGRC 3023",
+            "ENGRG 1152",
+            "ENGRG 2350",
+            "ENGRG 4400",
+            "ENGRG 4800",
+            "ENGRG 4805",
+            "ENGRG 4810",
+            "ENGRG 4815",
+            "ENGRG 4820",
+            "ENGRG 4825",
+            "ENGRG 4830",
+            "ENGRG 4835",
+            "ENGRG 4840",
+            "ENGRG 4845",
+            "ENGRG 4850",
+            "ENGRG 4895",
+            "ENGRG 4990",
+            "ENGRG 5350",
+            "ENGRG 5800",
+            "ENGRG 5805",
+            "ENGRG 5825",
+            "ENGRG 5835",
+            "ENGRG 5895",
+            "ENGRG 6780",
+            "ENMGT 6010",
+            "ENTOM 7090",
+            "ENVS 4960",
+            "FDSC 4960",
+            "FDSC 6960",
+            "FDSC 6980",
+            "FSAD 4030",
+            "GDEV 3106",
+            "GDEV 4940",
+            "GDEV 6980",
+            "GDEV 7910",
+            "HADM 1650",
+            "HADM 1740",
+            "HADM 1910",
+            "HADM 2740",
+            "HADM 3135",
+            "HADM 3650",
+            "HADM 3740",
+            "HADM 4760",
+            "HADM 5760",
+            "HADM 6135",
+            "HADM 6740",
+            "HD 4030",
+            "HD 7060",
+            "HD 8060",
+            "HE 1112",
+            "HE 1115",
+            "HE 1850",
+            "HE 4030",
+            "HE 4050",
+            "ILRGL 4970",
+            "ILRHR 4970",
+            "ILRHR 7980",
+            "ILRID 2660",
+            "ILRID 4699",
+            "ILRID 4970",
+            "ILRID 6990",
+            "ILRLE 4970",
+            "ILROB 4970",
+            "ILRST 4970",
+            "INFO 4910",
+            "INFO 5905",
+            "LA 4940",
+            "LA 4960",
+            "LA 5980",
+            "LA 6940",
+            "LAW 5101",
+            "LAW 6114",
+            "LAW 6861",
+            "LAW 6881",
+            "MATH 5080",
+            "MSE 4950",
+            "MSE 5998",
+            "NBA 5075",
+            "NBA 5925",
+            "NMI 5080",
+            "NS 4020",
+            "NS 4030",
+            "NTRES 4960",
+            "ORIE 4990",
+            "PADM 5920",
+            "PHYS 4484",
+            "PHYS 4485",
+            "PHYS 4486",
+            "PHYS 4487",
+            "PHYS 4500",
+            "PHYS 7684",
+            "PLSCI 4960",
+            "PUBPOL 1111",
+            "PUBPOL 4030",
+            "PUBPOL 5053",
+            "STSCI 4970",
+            "UNIV 3090",
+            "VIEN 4960",
+            "VTMED 5601"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "study_abroad",
+            "transfer"
+          ],
+          "approval": "as-approved-letter-credit",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "arts-credits"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "as-credit-from-other-college"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "total-credits"
+      ],
+      "max": 12,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AIRS",
+            "MILS",
+            "NAVS"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "fws"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "exam"
+          ]
+        }
+      ]
+    }
+  ],
+  "maxDoubleCount": {
+    "distributions": 2
+  },
+  "choices": [
+    {
+      "id": "language-path",
+      "label": "Foreign language path",
+      "options": [
+        {
+          "id": "intermediate",
+          "label": "Intermediate Cornell course",
+          "slots": [
+            {
+              "id": "intermediate-course",
+              "label": "Approved intermediate language course at Cornell",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "cornell"
+                  ],
+                  "distributions": [
+                    "FLOPI-AS"
+                  ],
+                  "minCredits": 3,
+                  "numberMin": 2000,
+                  "minGrade": "D-",
+                  "allowSatisfactory": true
+                },
+                {
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "approval": "as-language-intermediate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sequence",
+          "label": "Eleven credits in one language",
+          "slots": [],
+          "manual": [
+            {
+              "id": "language-sequence",
+              "label": "Single-language course sequence",
+              "instruction": "Verify that 11 or more credits were completed in one language in the correct sequence. Include external courses only when accepted by the college."
+            }
+          ]
+        },
+        {
+          "id": "exemption",
+          "label": "Approved fluency exemption",
+          "slots": [],
+          "manual": [
+            {
+              "id": "approved-language-exemption",
+              "label": "Language exemption",
+              "instruction": "Confirm that the college recorded the foreign language exemption."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "residency",
+      "label": "College residency",
+      "instruction": "Confirm the minimum full-time semesters, time enrolled in Arts and Sciences, and final semester in residence in DUST."
+    },
+    {
+      "id": "credit-audit",
+      "label": "Academic credit exclusions and repeat credit",
+      "instruction": "Confirm college credit, forbidden overlaps, repeatable courses, limits on approved ROTC credit, and any outside course credits in DUST."
+    },
+    {
+      "id": "distribution-transfer",
+      "label": "Check external transfer policy",
+      "instruction": "Confirm applicable coursework on the college's transfer credit evaluation before assigning distribution credit.",
+      "when": "transfer"
+    }
+  ]
+}

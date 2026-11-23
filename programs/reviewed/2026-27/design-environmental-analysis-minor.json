@@ -1,0 +1,130 @@
+{
+  "programId": "design-environmental-analysis-minor",
+  "name": "Design and Environmental Analysis Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two foundations, a design studio, and two advanced thematic courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/design-environmental-analysis-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Design or art and science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "DEA"
+          ],
+          "codes": [
+            "DEA 1110",
+            "DEA 2200"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psych",
+      "label": "Introduction to Environmental Psychology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "DEA"
+          ],
+          "codes": [
+            "DEA 1500"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "label": "Approved Design and Environmental Analysis studio",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "DEA"
+          ],
+          "approval": "dea-minor-studio"
+        }
+      ]
+    },
+    {
+      "id": "thematic",
+      "label": "Advanced DEA thematic courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "minGrade": "B-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "subjects": [
+            "DEA"
+          ],
+          "approval": "dea-minor-thematic"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "passFailOnly": true
+        },
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "design-environmental-analysis-bs"
+  ],
+  "manual": [
+    {
+      "id": "approved",
+      "label": "Eligible studios and thematic courses",
+      "instruction": "Obtain the eligible course list from Human Centered Design. Confirm which version of Environmental Psychology applies, since the Catalog lists DEA 1500 in requirements and DEA 1501 in the declaration instructions."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

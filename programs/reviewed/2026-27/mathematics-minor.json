@@ -1,0 +1,284 @@
+{
+  "programId": "mathematics-minor",
+  "name": "Mathematics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Linear algebra and multivariable calculus for admission, followed by four upper-level Mathematics courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/mathematics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "linear",
+      "label": "Approved linear algebra route",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2210",
+            "MATH 2230",
+            "MATH 2940"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "codes": [
+            "MATH 2310"
+          ],
+          "minGrade": "B+"
+        },
+        {
+          "approval": "math-minor-admission-linear",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ],
+      "allocationGroup": "admission"
+    },
+    {
+      "id": "multi",
+      "label": "Multivariable calculus",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2220",
+            "MATH 2240",
+            "MATH 1920"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "math-minor-first-attempt-placement"
+        },
+        {
+          "approval": "math-minor-admission-multivariable",
+          "origins": [
+            "transfer"
+          ]
+        }
+      ],
+      "allocationGroup": "admission"
+    },
+    {
+      "id": "algebra",
+      "label": "Algebra",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "codes": [
+            "MATH 3320",
+            "MATH 3340",
+            "MATH 3360",
+            "MATH 4310",
+            "MATH 4330",
+            "MATH 4340",
+            "MATH 4370",
+            "MATH 4500"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "codes": [
+            "MATH 3320",
+            "MATH 3340",
+            "MATH 3360",
+            "MATH 4310",
+            "MATH 4330",
+            "MATH 4340",
+            "MATH 4370",
+            "MATH 4500"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "math-minor-transcript-equivalence"
+        },
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 6000,
+          "approval": "math-minor-algebra-graduate"
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "label": "Analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "codes": [
+            "MATH 3110",
+            "MATH 3210",
+            "MATH 3270",
+            "MATH 4130",
+            "MATH 4140",
+            "MATH 4180",
+            "MATH 4200",
+            "MATH 4210",
+            "MATH 4220",
+            "MATH 4250",
+            "MATH 4260",
+            "MATH 4280"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "codes": [
+            "MATH 3110",
+            "MATH 3210",
+            "MATH 3270",
+            "MATH 4130",
+            "MATH 4140",
+            "MATH 4180",
+            "MATH 4200",
+            "MATH 4210",
+            "MATH 4220",
+            "MATH 4250",
+            "MATH 4260",
+            "MATH 4280"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "math-minor-transcript-equivalence"
+        },
+        {
+          "minGrade": "C-",
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 6000,
+          "approval": "math-minor-analysis-graduate"
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "label": "Two additional advanced Mathematics courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "MATH 4900",
+            "MATH 4980",
+            "MATH 4997"
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "MATH 4900",
+            "MATH 4980",
+            "MATH 4997"
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "math-minor-transcript-equivalence"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "mathematics-ba"
+  ],
+  "manual": [
+    {
+      "id": "admission",
+      "label": "Placement, graduate approval and official transfer equivalence",
+      "instruction": "Confirm first-attempt placement and any permission for repeat or graduate coursework. Apply only Mathematics-prefix courses and make sure approved transfer equivalents appear on the Cornell transcript."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 12,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "At least one course at the 4000 level or above",
+      "slots": [
+        "algebra",
+        "analysis",
+        "more"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 4000
+        }
+      ]
+    }
+  ]
+}

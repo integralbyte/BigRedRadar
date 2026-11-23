@@ -1,0 +1,148 @@
+{
+  "programId": "microbial-science-minor",
+  "name": "Microbial Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two foundations and one course in each of two additional areas, totaling at least 15 credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/microbial-science-minor/#curriculumtext",
+    "https://cals.cornell.edu/microbiology/academics/undergraduate/minors/microbial-sciences-minor"
+  ],
+  "slots": [
+    {
+      "id": "fundamental",
+      "label": "Fundamental microbiology",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 1100",
+            "BIOMI 1400",
+            "BIOMI 2900",
+            "BIOMI 2911",
+            "BIOMI 4850"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "microbial-minor-fundamental",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "ecology",
+      "label": "Microbial ecology and diversity",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 1120",
+            "BIOMI 3500",
+            "BIOMI 2970",
+            "BIOMI 4400"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "microbial-minor-ecology",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "applied",
+      "label": "Applied microbiology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2500",
+            "BIOMI 2600",
+            "BIOMI 2950",
+            "BIOMI 3210",
+            "BIOMS 3310",
+            "BIOMI 3940",
+            "FDSC 3950",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "BIOMI 4310",
+            "BIOMS 4340"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "microbial-minor-applied",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other eligible Microbial Sciences credits",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 1100",
+            "BIOMI 1400",
+            "BIOMI 2900",
+            "BIOMI 2911",
+            "BIOMI 4850",
+            "BIOMI 1120",
+            "BIOMI 3500",
+            "BIOMI 2970",
+            "BIOMI 4400",
+            "BIOMI 2500",
+            "BIOMI 2600",
+            "BIOMI 2950",
+            "BIOMI 3210",
+            "BIOMS 3310",
+            "BIOMI 3940",
+            "FDSC 3950",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "BIOMI 4310",
+            "BIOMS 4340"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "minGrade": "C",
+          "approval": "microbial-minor-other"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "coursework",
+      "label": "Laboratory, introductory coursework and major overlap",
+      "instruction": "Confirm the introductory and laboratory choices described by Microbiology. Keep all minor courses separate from your major. If pursuing Biological Sciences with a Microbiology concentration, confirm eligibility with the department."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

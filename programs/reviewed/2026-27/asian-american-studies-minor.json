@@ -1,0 +1,125 @@
+{
+  "programId": "asian-american-studies-minor",
+  "name": "Asian American Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses in Asian American Studies and approved related fields.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/asian-american-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Asian American Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AAS 1100"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "course-mix",
+      "label": "Asian American Studies and related courses",
+      "options": [
+        {
+          "id": "two-aas",
+          "label": "Two AAS electives and two related courses",
+          "slots": [
+            {
+              "id": "aas",
+              "label": "Additional Asian American Studies courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "AAS"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "D-",
+                  "approval": "aas-approved-course"
+                }
+              ]
+            },
+            {
+              "id": "related",
+              "label": "Approved related interdisciplinary courses",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "approval": "aas-related-course",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "three-aas",
+          "label": "Three AAS electives and one related course",
+          "slots": [
+            {
+              "id": "aas",
+              "label": "Additional Asian American Studies courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "AAS"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "D-",
+                  "approval": "aas-approved-course"
+                }
+              ]
+            },
+            {
+              "id": "related",
+              "label": "Approved related interdisciplinary courses",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "approval": "aas-related-course",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "faculty",
+      "label": "Approved minor plan",
+      "instruction": "Confirm the related courses and obtain approval from the Asian American Studies Program faculty advisor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

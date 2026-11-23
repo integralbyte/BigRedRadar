@@ -1,0 +1,316 @@
+{
+  "programId": "international-markets-development-minor",
+  "name": "International Markets and Development Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory economics, a development or trade core, and nine topical elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/international-markets-development-minor/#curriculumtext",
+    "https://business.cornell.edu/admissions/minors/minors-policy/"
+  ],
+  "slots": [
+    {
+      "id": "econ-1110",
+      "label": "ECON 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent"
+        },
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "business-minor-transfer-equivalent",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "econ-1120",
+      "label": "ECON 1120",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "origins": [
+            "exam"
+          ],
+          "approval": "business-minor-ap-equivalent"
+        },
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "origins": [
+            "transfer"
+          ],
+          "approval": "business-minor-transfer-equivalent",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "International trade or development economics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2300",
+            "AEM 2350"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "major",
+      "label": "Major-specific electives",
+      "options": [
+        {
+          "id": "standard",
+          "label": "All eligible majors except Economics",
+          "slots": [
+            {
+              "id": "category-a",
+              "label": "Category A · Topics in international markets",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2000",
+                    "AEM 4005",
+                    "AEM 4290",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4421",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "supplement",
+              "label": "A topic in Categories B, C or D",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4110",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "PLSCI 4200",
+                    "STSCI 3740",
+                    "STSCI 4060",
+                    "AEM 4415",
+                    "AEM 4580",
+                    "AEM 6125",
+                    "ILRGL 2300",
+                    "PUBPOL 5345",
+                    "CRP 6720",
+                    "AEM 4993"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "maxCountedCredits": 3
+                },
+                {
+                  "approval": "international-markets-category-d",
+                  "minGrade": "C",
+                  "maxCountedCredits": 3
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "economics-ba"
+          ],
+          "checks": [
+            {
+              "id": "elective-courses",
+              "label": "Three courses across the elective categories",
+              "slots": [
+                "category-a",
+                "supplement"
+              ],
+              "need": 3,
+              "unit": "courses"
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "label": "Economics major",
+          "slots": [
+            {
+              "id": "category-a",
+              "label": "Category A · Topics in international markets",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2000",
+                    "AEM 4005",
+                    "AEM 4290",
+                    "AEM 4300",
+                    "AEM 4315",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "AEM 4421",
+                    "AEM 4450",
+                    "AEM 4485",
+                    "AEM 4545"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "excludeSubjects": [
+                    "ECON"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "supplement",
+              "label": "A topic in Categories B, C or D",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4110",
+                    "ECON 3120",
+                    "ECON 3140",
+                    "PLSCI 4200",
+                    "STSCI 3740",
+                    "STSCI 4060",
+                    "AEM 4415",
+                    "AEM 4580",
+                    "AEM 6125",
+                    "ILRGL 2300",
+                    "PUBPOL 5345",
+                    "CRP 6720",
+                    "AEM 4993"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true,
+                  "excludeSubjects": [
+                    "ECON"
+                  ],
+                  "maxCountedCredits": 3
+                },
+                {
+                  "approval": "international-markets-category-d",
+                  "minGrade": "C",
+                  "maxCountedCredits": 3
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-courses",
+              "label": "Three courses across the elective categories",
+              "slots": [
+                "category-a",
+                "supplement"
+              ],
+              "need": 3,
+              "unit": "courses"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "applied-economics-management-bs"
+  ],
+  "manual": [
+    {
+      "id": "credits",
+      "label": "Timing, Category D petitions and major overlap",
+      "instruction": "Complete introductory economics before taking the core, declare by semester six, and keep 12 minor credits outside major core requirements. Economics majors should verify exclusion of ECON cross-listings. Confirm how a high-credit course applies to the three-credit supplemental category."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell-credits",
+      "label": "Cornell coursework",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johnson-credits",
+      "label": "SC Johnson College of Business coursework",
+      "need": 9,
+      "unit": "credits",
+      "options": [
+        {
+          "subjects": [
+            "AEM",
+            "HADM",
+            "NBA",
+            "NCC"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

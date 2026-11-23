@@ -1,0 +1,93 @@
+{
+  "programId": "astronomy-minor",
+  "name": "Astronomy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Fifteen approved astronomy credits including six upper-level credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/astronomy-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "credits",
+      "label": "Astronomy coursework",
+      "unit": "credits",
+      "need": 15,
+      "options": [
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "ASTRO"
+          ],
+          "numberMin": 3000,
+          "excludeCodes": [
+            "ASTRO 4940"
+          ],
+          "excludeApprovals": [
+            "astronomy-unapproved-elective"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "codes": [
+            "ASTRO 4940"
+          ],
+          "approval": "astronomy-independent-study",
+          "maxCountedCredits": 4
+        },
+        {
+          "codes": [
+            "ASTRO 2211",
+            "ASTRO 2212",
+            "ASTRO 2290",
+            "ASTRO 2299"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 4,
+      "options": [
+        {
+          "codes": [
+            "ASTRO 4940"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "astronomy-ba"
+  ],
+  "manual": [
+    {
+      "id": "independent",
+      "label": "Independent study and course approval",
+      "instruction": "Confirm the approved ASTRO 4940 experience and any additional course or petition with the Astronomy Director of Undergraduate Studies."
+    }
+  ],
+  "checks": [
+    {
+      "id": "advanced",
+      "label": "Upper-level Astronomy credits",
+      "slots": [
+        "credits"
+      ],
+      "need": 6,
+      "unit": "credits",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    }
+  ]
+}

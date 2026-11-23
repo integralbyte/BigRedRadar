@@ -1,0 +1,986 @@
+{
+  "programId": "biomedical-engineering-bs",
+  "name": "Biomedical Engineering (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Common Biomedical Engineering core and four concentration paths, each with a designated science course and lab.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biomedical-engineering-bs/#curriculumtext",
+    "https://www.duffield.cornell.edu/bme/degree/biomedical-engineering-bs-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "core-bme-2010",
+      "label": "BME 2010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 2010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-2080",
+      "label": "BME 2080",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 2080"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-2000",
+      "label": "BME 2000",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 2000"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-2210",
+      "label": "BME 2210",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 2210"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-3010",
+      "label": "BME 3010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 3010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-3020",
+      "label": "BME 3020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 3020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-3030",
+      "label": "BME 3030",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 3030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-4010",
+      "label": "BME 4010",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 4010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-4020",
+      "label": "BME 4020",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 4020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-4080",
+      "label": "BME 4080",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 4080"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-bme-4090",
+      "label": "BME 4090",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BME 4090"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-biology",
+      "label": "Introductory cell and developmental biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 1350"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "bme-ap-biology-five"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Approved statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2200",
+            "STSCI 2150",
+            "ENGRD 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "distribution-statics",
+      "label": "Statics and mechanics of solids",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "distribution-thermo",
+      "label": "Biomolecular thermodynamics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2111"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2940",
+      "label": "MATH 2940",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1112",
+      "label": "PHYS 1112",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1110",
+      "label": "PHYS 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-2213",
+      "label": "PHYS 2213",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "bme-advisor-elective",
+      "label": "Advisor-approved elective credits",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "approval": "bme-advisor-elective",
+          "minGrade": "D-",
+          "numberMin": 1100
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "chemistry",
+      "label": "General chemistry",
+      "options": [
+        {
+          "id": "engineering",
+          "label": "Engineering general chemistry and lab",
+          "slots": [
+            {
+              "id": "chemistry-chem-2090",
+              "label": "CHEM 2090",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2090"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chemistry-chem-2091",
+              "label": "CHEM 2091",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2091"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam",
+          "label": "Approved chemistry exam or equivalency",
+          "slots": [
+            {
+              "id": "chemistry-exam",
+              "label": "Approved chemistry equivalency",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "approval": "bme-general-chemistry-equivalency"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "label": "Second Engineering distribution",
+      "options": [
+        {
+          "id": "statics",
+          "label": "Use ENGRD 2020 as the second distribution",
+          "slots": []
+        },
+        {
+          "id": "other",
+          "label": "Complete a separate second Engineering distribution",
+          "slots": [
+            {
+              "id": "eng-second-distribution",
+              "label": "Separate second Engineering distribution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "ENGRD"
+                  ],
+                  "numberMin": 2000,
+                  "numberMax": 2999,
+                  "excludeNumbers": [
+                    2020,
+                    2111
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "approval": "bme-second-distribution",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "label": "Biomedical Engineering concentration",
+      "options": [
+        {
+          "id": "mcse",
+          "label": "Molecular, Cellular, and Systems Engineering",
+          "slots": [
+            {
+              "id": "core-concentration-bme-3110",
+              "label": "BME 3110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 3110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-lab",
+              "label": "Concentration laboratory and technical writing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 4190"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-science",
+              "label": "Required concentration science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570",
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "concentration-electives",
+              "label": "Approved concentration elective credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4270",
+                    "BIOAP 4270",
+                    "BIOCB 4381",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOMG 4380",
+                    "BIOMG 4390",
+                    "BIOMI 4090",
+                    "BIOMS 4090",
+                    "BIONB 3950",
+                    "BIONB 4910",
+                    "BIONB 5910",
+                    "BME 4790",
+                    "BME 4910",
+                    "BME 5110",
+                    "BME 5320",
+                    "BME 5830",
+                    "BME 5850",
+                    "BME 6410",
+                    "CHEM 4810",
+                    "CHEME 5430",
+                    "CS 3780",
+                    "CS 4775",
+                    "ECE 3200",
+                    "ECE 4200",
+                    "ECE 5090",
+                    "INFO 3950"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "numberMin": 3000,
+                  "numberMax": 4999,
+                  "minGrade": "C-",
+                  "approval": "bme-mcse-other-concentration"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "concentration-credits",
+              "label": "Concentration credits",
+              "slots": [
+                "core-concentration-bme-3110",
+                "core-concentration-lab",
+                "core-concentration-science",
+                "concentration-electives"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "bmdd",
+          "label": "Biomedical Materials and Drug Delivery",
+          "slots": [
+            {
+              "id": "core-concentration-bme-3210",
+              "label": "BME 3210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 3210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-lab",
+              "label": "Concentration laboratory and technical writing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 4190",
+                    "BME 4490"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-science",
+              "label": "Required concentration science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570",
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "concentration-electives",
+              "label": "Approved concentration elective credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3400",
+                    "BIOAP 4140",
+                    "BIOMS 4140",
+                    "BME 5620",
+                    "BME 5750",
+                    "BME 5760",
+                    "BME 5810",
+                    "BME 5830",
+                    "BME 5850",
+                    "BME 6210",
+                    "CHEME 5430",
+                    "CHEME 6310",
+                    "MAE 4640",
+                    "MAE 4670",
+                    "MAE 5680",
+                    "MAE 6670",
+                    "MSE 4020",
+                    "MSE 4610",
+                    "MSE 5210",
+                    "MSE 5620"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "concentration-credits",
+              "label": "Concentration credits",
+              "slots": [
+                "core-concentration-bme-3210",
+                "core-concentration-lab",
+                "core-concentration-science",
+                "concentration-electives"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "bmii",
+          "label": "Biomedical Imaging and Instrumentation",
+          "slots": [
+            {
+              "id": "core-concentration-bme-3310",
+              "label": "BME 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-lab",
+              "label": "Concentration laboratory and technical writing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 4390"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-science",
+              "label": "Required concentration science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "concentration-electives",
+              "label": "Approved concentration elective credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 4400",
+                    "BIONB 3300",
+                    "BIONB 4320",
+                    "BIONB 4910",
+                    "BME 3300",
+                    "BME 3320",
+                    "BME 4910",
+                    "BME 5780",
+                    "BME 6180",
+                    "BME 6260",
+                    "BME 6320",
+                    "BME 6330",
+                    "BME 6350",
+                    "COGST 3300",
+                    "CS 3110",
+                    "CS 3420",
+                    "CS 3780",
+                    "CS 4670",
+                    "CS 5780",
+                    "ECE 3100",
+                    "ECE 3140",
+                    "ECE 3200",
+                    "ECE 3250",
+                    "ECE 4250",
+                    "ECE 4300",
+                    "ECE 4320",
+                    "ECE 4370",
+                    "ECE 4760",
+                    "ECE 4910",
+                    "ECE 5470",
+                    "ECE 5725",
+                    "ECE 6690",
+                    "HD 4630",
+                    "INFO 3950",
+                    "MAE 4320",
+                    "PHYS 3316",
+                    "PSYCH 3300"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "concentration-credits",
+              "label": "Concentration credits",
+              "slots": [
+                "core-concentration-bme-3310",
+                "core-concentration-lab",
+                "core-concentration-science",
+                "concentration-electives"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "bmmb",
+          "label": "Biomedical Mechanics and Mechanobiology",
+          "slots": [
+            {
+              "id": "core-concentration-bme-3410",
+              "label": "BME 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-lab",
+              "label": "Concentration laboratory and technical writing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BME 4490"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-concentration-science",
+              "label": "Required concentration science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2214",
+                    "CHEM 1570",
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "concentration-electives",
+              "label": "Approved concentration elective credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3310",
+                    "BEE 3500",
+                    "BEE 4530",
+                    "BME 4410",
+                    "BME 4640",
+                    "BME 5810",
+                    "BME 6410",
+                    "BME 6650",
+                    "MAE 3120",
+                    "MAE 3230",
+                    "MAE 3240",
+                    "MAE 3783",
+                    "MAE 4240",
+                    "MAE 4530",
+                    "MAE 4640",
+                    "MAE 4650",
+                    "MAE 4670",
+                    "MAE 4700",
+                    "MAE 5680",
+                    "MAE 6650",
+                    "MAE 6670",
+                    "MSE 4020",
+                    "MSE 4510",
+                    "MSE 6650"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "concentration-credits",
+              "label": "Concentration credits",
+              "slots": [
+                "core-concentration-bme-3410",
+                "core-concentration-lab",
+                "core-concentration-science",
+                "concentration-electives"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "core-",
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "maxGrade": "D+"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "catalog-criteria",
+      "label": "Concentration credits, graduation total and affiliation",
+      "instruction": "Confirm 126 total credits when using ENGRD 2020 as the second distribution or 130 with a separate distribution. Confirm the prerequisite sequence, 2.4 affiliation GPA and any approved placement or exceptions."
+    },
+    {
+      "id": "communications",
+      "label": "Engineering communications",
+      "instruction": "The concentration laboratory supplies the major’s technical writing requirement."
+    }
+  ]
+}

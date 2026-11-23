@@ -1,0 +1,1737 @@
+{
+  "programId": "mathematics-ba",
+  "name": "Mathematics (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Nine major courses across eight concentrations, with separate affiliation prerequisites.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/mathematics-ba/#curriculumtext",
+    "https://math.cornell.edu/major"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "admission-linear",
+      "label": "Linear algebra for admission",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2210",
+            "MATH 2230",
+            "MATH 2940"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "codes": [
+            "MATH 2310"
+          ],
+          "minGrade": "B+"
+        },
+        {
+          "origins": [
+            "exam",
+            "transfer"
+          ],
+          "approval": "math-linear-algebra-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "admission-multivariable",
+      "label": "Multivariable calculus for admission",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920",
+            "MATH 2220",
+            "MATH 2240"
+          ],
+          "minGrade": "B-"
+        },
+        {
+          "origins": [
+            "exam",
+            "transfer"
+          ],
+          "approval": "math-multivariable-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "admission-programming",
+      "label": "Programming for admission",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112",
+            "CS 2110",
+            "CS 2112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "major-algebra",
+      "label": "Algebra",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "MATH 3320",
+            "MATH 3340",
+            "MATH 3360",
+            "MATH 4310",
+            "MATH 4330",
+            "MATH 4340",
+            "MATH 4370",
+            "MATH 4500",
+            "MATH 4430"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 6000,
+          "excludeNumbers": [
+            4900,
+            4980,
+            4997
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "minGrade": "C-",
+          "approval": "math-graduate-algebra"
+        }
+      ]
+    },
+    {
+      "id": "major-analysis",
+      "label": "Analysis",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "MATH 3110",
+            "MATH 3210",
+            "MATH 3270",
+            "MATH 4130",
+            "MATH 4140",
+            "MATH 4180",
+            "MATH 4200",
+            "MATH 4210",
+            "MATH 4220",
+            "MATH 4250",
+            "MATH 4260",
+            "MATH 4280"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 6000,
+          "excludeNumbers": [
+            4900,
+            4980,
+            4997
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "minGrade": "C-",
+          "approval": "math-graduate-analysis"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "concentration",
+      "label": "Mathematics concentration",
+      "options": [
+        {
+          "id": "mathematics",
+          "label": "Mathematics",
+          "slots": [
+            {
+              "id": "major-topology",
+              "label": "Geometry or topology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3210",
+                    "MATH 4500",
+                    "MATH 4520",
+                    "MATH 4530",
+                    "MATH 4540"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 6000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-",
+                  "approval": "math-graduate-topology"
+                }
+              ]
+            },
+            {
+              "id": "major-upper-math",
+              "label": "Additional upper-level mathematics",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-models",
+              "label": "Mathematical modeling",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 4340",
+                    "AEP 4400",
+                    "BIOCB 3620",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "BME 3300",
+                    "CS 3220",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4110",
+                    "CS 4160",
+                    "CS 4210",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "CS 4740",
+                    "CS 4744",
+                    "CS 4756",
+                    "CS 4775",
+                    "CS 4782",
+                    "CS 4783",
+                    "CS 4787",
+                    "CS 4789",
+                    "CS 4810",
+                    "CS 4814",
+                    "CS 4820",
+                    "CS 4830",
+                    "CS 4850",
+                    "CS 4852",
+                    "CS 4860",
+                    "ECON 3130",
+                    "ECON 3140",
+                    "ECON 3810",
+                    "ECON 3825",
+                    "ECON 4020",
+                    "ECON 4130",
+                    "ECON 4140",
+                    "ECON 4410",
+                    "ECON 4620",
+                    "ECON 4907",
+                    "ECON 6090",
+                    "ECON 6100",
+                    "ECON 6130",
+                    "ECON 6140",
+                    "ECON 6190",
+                    "ECON 6200",
+                    "MAE 4700",
+                    "MATH 3610",
+                    "NTRES 4120",
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3500",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4330",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4630",
+                    "ORIE 4740",
+                    "ORIE 4742",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "ORIE 5640",
+                    "PHYS 3316",
+                    "PHYS 3317",
+                    "PHYS 3318",
+                    "PHYS 3327",
+                    "PHYS 4230",
+                    "PHYS 4443",
+                    "PHYS 4444",
+                    "PHYS 4445",
+                    "PHYS 4454",
+                    "PHYS 4481",
+                    "PHYS 4488",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 3510",
+                    "STSCI 3740",
+                    "STSCI 3900",
+                    "STSCI 4030",
+                    "STSCI 4060",
+                    "STSCI 4100",
+                    "STSCI 4110",
+                    "STSCI 4140",
+                    "STSCI 4270",
+                    "STSCI 4520",
+                    "STSCI 4550",
+                    "STSCI 4780",
+                    "CS 2110",
+                    "PHYS 1116",
+                    "PHYS 2208",
+                    "PHYS 2213",
+                    "PHYS 2217"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "excludeCodes": [
+                    "PHYS 2207"
+                  ],
+                  "approval": "math-modeling"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "applied-mathematics",
+          "label": "Applied Mathematics",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-models",
+              "label": "Mathematical modeling",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEP 4340",
+                    "AEP 4400",
+                    "BIOCB 3620",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "BME 3300",
+                    "CS 3220",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4110",
+                    "CS 4160",
+                    "CS 4210",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "CS 4740",
+                    "CS 4744",
+                    "CS 4756",
+                    "CS 4775",
+                    "CS 4782",
+                    "CS 4783",
+                    "CS 4787",
+                    "CS 4789",
+                    "CS 4810",
+                    "CS 4814",
+                    "CS 4820",
+                    "CS 4830",
+                    "CS 4850",
+                    "CS 4852",
+                    "CS 4860",
+                    "ECON 3130",
+                    "ECON 3140",
+                    "ECON 3810",
+                    "ECON 3825",
+                    "ECON 4020",
+                    "ECON 4130",
+                    "ECON 4140",
+                    "ECON 4410",
+                    "ECON 4620",
+                    "ECON 4907",
+                    "ECON 6090",
+                    "ECON 6100",
+                    "ECON 6130",
+                    "ECON 6140",
+                    "ECON 6190",
+                    "ECON 6200",
+                    "MAE 4700",
+                    "MATH 3610",
+                    "NTRES 4120",
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3500",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4330",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4630",
+                    "ORIE 4740",
+                    "ORIE 4742",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "ORIE 5640",
+                    "PHYS 3316",
+                    "PHYS 3317",
+                    "PHYS 3318",
+                    "PHYS 3327",
+                    "PHYS 4230",
+                    "PHYS 4443",
+                    "PHYS 4444",
+                    "PHYS 4445",
+                    "PHYS 4454",
+                    "PHYS 4481",
+                    "PHYS 4488",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 3510",
+                    "STSCI 3740",
+                    "STSCI 3900",
+                    "STSCI 4030",
+                    "STSCI 4060",
+                    "STSCI 4100",
+                    "STSCI 4110",
+                    "STSCI 4140",
+                    "STSCI 4270",
+                    "STSCI 4520",
+                    "STSCI 4550",
+                    "STSCI 4780",
+                    "CS 2110",
+                    "PHYS 1116",
+                    "PHYS 2208",
+                    "PHYS 2213",
+                    "PHYS 2217"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "excludeCodes": [
+                    "PHYS 2207"
+                  ],
+                  "approval": "math-modeling"
+                }
+              ]
+            },
+            {
+              "id": "major-flex",
+              "label": "Further mathematics or modeling",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "codes": [
+                    "AEP 4340",
+                    "AEP 4400",
+                    "BIOCB 3620",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "BME 3300",
+                    "CS 3220",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4110",
+                    "CS 4160",
+                    "CS 4210",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "CS 4740",
+                    "CS 4744",
+                    "CS 4756",
+                    "CS 4775",
+                    "CS 4782",
+                    "CS 4783",
+                    "CS 4787",
+                    "CS 4789",
+                    "CS 4810",
+                    "CS 4814",
+                    "CS 4820",
+                    "CS 4830",
+                    "CS 4850",
+                    "CS 4852",
+                    "CS 4860",
+                    "ECON 3130",
+                    "ECON 3140",
+                    "ECON 3810",
+                    "ECON 3825",
+                    "ECON 4020",
+                    "ECON 4130",
+                    "ECON 4140",
+                    "ECON 4410",
+                    "ECON 4620",
+                    "ECON 4907",
+                    "ECON 6090",
+                    "ECON 6100",
+                    "ECON 6130",
+                    "ECON 6140",
+                    "ECON 6190",
+                    "ECON 6200",
+                    "MAE 4700",
+                    "MATH 3610",
+                    "NTRES 4120",
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3500",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4330",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4630",
+                    "ORIE 4740",
+                    "ORIE 4742",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "ORIE 5640",
+                    "PHYS 3316",
+                    "PHYS 3317",
+                    "PHYS 3318",
+                    "PHYS 3327",
+                    "PHYS 4230",
+                    "PHYS 4443",
+                    "PHYS 4444",
+                    "PHYS 4445",
+                    "PHYS 4454",
+                    "PHYS 4481",
+                    "PHYS 4488",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 3510",
+                    "STSCI 3740",
+                    "STSCI 3900",
+                    "STSCI 4030",
+                    "STSCI 4060",
+                    "STSCI 4100",
+                    "STSCI 4110",
+                    "STSCI 4140",
+                    "STSCI 4270",
+                    "STSCI 4520",
+                    "STSCI 4550",
+                    "STSCI 4780"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "excludeCodes": [
+                    "PHYS 2207",
+                    "CS 2110",
+                    "PHYS 1116",
+                    "PHYS 2208",
+                    "PHYS 2213",
+                    "PHYS 2217"
+                  ],
+                  "approval": "math-modeling"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "computer-science",
+          "label": "Computer Science",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Concentration courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "CS 3220",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4110",
+                    "CS 4160",
+                    "CS 4210",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "CS 4740",
+                    "CS 4744",
+                    "CS 4756",
+                    "CS 4775",
+                    "CS 4782",
+                    "CS 4783",
+                    "CS 4787",
+                    "CS 4789",
+                    "CS 4810",
+                    "CS 4814",
+                    "CS 4820",
+                    "CS 4830",
+                    "CS 4850",
+                    "CS 4852",
+                    "CS 4860"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "subjects": [
+                    "CS"
+                  ],
+                  "numberMin": 5000,
+                  "minGrade": "C-",
+                  "approval": "math-cs-graduate"
+                }
+              ]
+            },
+            {
+              "id": "major-flex",
+              "label": "Additional advanced course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "codes": [
+                    "CS 3220",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4110",
+                    "CS 4160",
+                    "CS 4210",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "CS 4740",
+                    "CS 4744",
+                    "CS 4756",
+                    "CS 4775",
+                    "CS 4782",
+                    "CS 4783",
+                    "CS 4787",
+                    "CS 4789",
+                    "CS 4810",
+                    "CS 4814",
+                    "CS 4820",
+                    "CS 4830",
+                    "CS 4850",
+                    "CS 4852",
+                    "CS 4860"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "subjects": [
+                    "CS"
+                  ],
+                  "numberMin": 5000,
+                  "minGrade": "C-",
+                  "approval": "math-cs-graduate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "label": "Economics",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Concentration courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 3130",
+                    "ECON 6190",
+                    "ECON 3140",
+                    "ECON 6200",
+                    "ECON 3810",
+                    "ECON 3825",
+                    "ECON 4020",
+                    "ECON 4130",
+                    "ECON 4140",
+                    "ECON 4410",
+                    "ECON 4620",
+                    "ECON 4907",
+                    "ECON 6090",
+                    "ECON 6100",
+                    "ECON 6130",
+                    "ECON 6140"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "major-flex",
+              "label": "Additional advanced course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "codes": [
+                    "ECON 3130",
+                    "ECON 6190",
+                    "ECON 3140",
+                    "ECON 6200",
+                    "ECON 3810",
+                    "ECON 3825",
+                    "ECON 4020",
+                    "ECON 4130",
+                    "ECON 4140",
+                    "ECON 4410",
+                    "ECON 4620",
+                    "ECON 4907",
+                    "ECON 6090",
+                    "ECON 6100",
+                    "ECON 6130",
+                    "ECON 6140"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3741",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4740",
+                    "ORIE 5600",
+                    "ORIE 5610"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mathematical-physics",
+          "label": "Mathematical Physics",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Concentration courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 3316",
+                    "PHYS 3317",
+                    "PHYS 3318",
+                    "PHYS 3327",
+                    "PHYS 4230",
+                    "PHYS 4443",
+                    "PHYS 4444",
+                    "PHYS 4445",
+                    "PHYS 4454",
+                    "PHYS 4481",
+                    "PHYS 4488",
+                    "AEP 4340",
+                    "AEP 4400"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "major-flex",
+              "label": "Additional advanced course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "codes": [
+                    "PHYS 3316",
+                    "PHYS 3317",
+                    "PHYS 3318",
+                    "PHYS 3327",
+                    "PHYS 4230",
+                    "PHYS 4443",
+                    "PHYS 4444",
+                    "PHYS 4445",
+                    "PHYS 4454",
+                    "PHYS 4481",
+                    "PHYS 4488",
+                    "AEP 4340",
+                    "AEP 4400"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "operations-research",
+          "label": "Operations Research",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Concentration courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3500",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4330",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4630",
+                    "ORIE 4740",
+                    "ORIE 4742",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "ORIE 5640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "major-flex",
+              "label": "Additional advanced course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                },
+                {
+                  "codes": [
+                    "ORIE 3300",
+                    "ORIE 3310",
+                    "ORIE 3500",
+                    "ORIE 3510",
+                    "ORIE 3741",
+                    "ORIE 4330",
+                    "ORIE 4350",
+                    "ORIE 4580",
+                    "ORIE 4600",
+                    "ORIE 4630",
+                    "ORIE 4740",
+                    "ORIE 4742",
+                    "ORIE 5600",
+                    "ORIE 5610",
+                    "ORIE 5640"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mathematical-biology",
+          "label": "Mathematical Biology",
+          "slots": [
+            {
+              "id": "major-upper-math",
+              "label": "Upper-level mathematics",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Mathematical biology courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 3620",
+                    "BIOCB 4381",
+                    "BIOCB 4810",
+                    "BIOCB 4830",
+                    "BIOCB 4840",
+                    "BIOCB 4910",
+                    "BIOEE 3550",
+                    "BIONB 4220",
+                    "BME 3110",
+                    "BME 3300",
+                    "NTRES 4120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "label": "Statistics",
+          "slots": [
+            {
+              "id": "major-probability",
+              "label": "Probability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4710"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-statistics",
+              "label": "Mathematical statistics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4720"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-upper-math",
+              "label": "Additional upper-level mathematics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "MATH"
+                  ],
+                  "numberMin": 3000,
+                  "excludeNumbers": [
+                    4900,
+                    4980,
+                    4997
+                  ],
+                  "excludeNumberPatterns": [
+                    "5XXX"
+                  ],
+                  "minGrade": "C-"
+                }
+              ]
+            },
+            {
+              "id": "major-focus",
+              "label": "Statistics courses from other departments",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "BIOCB 4381",
+                    "BIOCB 4830",
+                    "CS 3700",
+                    "CS 3780",
+                    "CS 4740",
+                    "CS 4789",
+                    "ECON 3140",
+                    "ORIE 3741",
+                    "ORIE 4740",
+                    "STSCI 3100",
+                    "STSCI 3510",
+                    "STSCI 3740",
+                    "STSCI 3900",
+                    "STSCI 4030",
+                    "STSCI 4060",
+                    "STSCI 4100",
+                    "STSCI 4110",
+                    "STSCI 4140",
+                    "STSCI 4270",
+                    "STSCI 4520",
+                    "STSCI 4550",
+                    "STSCI 4780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slotPrefix": "major-",
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "STSCI 3510",
+                    "ORIE 3510",
+                    "MATH 4740"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "slotPrefix": "major-",
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 3780",
+                    "ORIE 4740",
+                    "STSCI 3740"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "slotPrefix": "major-",
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 3140",
+                    "STSCI 4030"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applied-groups",
+      "label": "Three applied mathematics groups",
+      "options": [
+        {
+          "id": "group-a--group-b--group-c",
+          "label": "Differential Equations / Discrete Mathematics and Combinatorics / Numerical and Computational Methods",
+          "slots": [],
+          "checks": [
+            {
+              "id": "math-group-a",
+              "label": "Differential Equations",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3270",
+                    "MATH 4200",
+                    "MATH 4210",
+                    "MATH 4280"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-a"
+                }
+              ]
+            },
+            {
+              "id": "math-group-b",
+              "label": "Discrete Mathematics and Combinatorics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3360",
+                    "MATH 4370",
+                    "MATH 4410",
+                    "MATH 4420",
+                    "CS 4820",
+                    "ECON 4020",
+                    "ORIE 3300",
+                    "ORIE 4350",
+                    "MATH 4430"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-b"
+                }
+              ]
+            },
+            {
+              "id": "math-group-c",
+              "label": "Numerical and Computational Methods",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4250",
+                    "CS 4210",
+                    "MATH 4260",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "MAE 4700"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-a--group-b--group-d",
+          "label": "Differential Equations / Discrete Mathematics and Combinatorics / Probability and Statistics",
+          "slots": [],
+          "checks": [
+            {
+              "id": "math-group-a",
+              "label": "Differential Equations",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3270",
+                    "MATH 4200",
+                    "MATH 4210",
+                    "MATH 4280"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-a"
+                }
+              ]
+            },
+            {
+              "id": "math-group-b",
+              "label": "Discrete Mathematics and Combinatorics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3360",
+                    "MATH 4370",
+                    "MATH 4410",
+                    "MATH 4420",
+                    "CS 4820",
+                    "ECON 4020",
+                    "ORIE 3300",
+                    "ORIE 4350",
+                    "MATH 4430"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-b"
+                }
+              ]
+            },
+            {
+              "id": "math-group-d",
+              "label": "Probability and Statistics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4710",
+                    "MATH 4720",
+                    "MATH 4740",
+                    "ECON 3130",
+                    "ECON 4130",
+                    "ORIE 3500",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 4030"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-a--group-c--group-d",
+          "label": "Differential Equations / Numerical and Computational Methods / Probability and Statistics",
+          "slots": [],
+          "checks": [
+            {
+              "id": "math-group-a",
+              "label": "Differential Equations",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3270",
+                    "MATH 4200",
+                    "MATH 4210",
+                    "MATH 4280"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-a"
+                }
+              ]
+            },
+            {
+              "id": "math-group-c",
+              "label": "Numerical and Computational Methods",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4250",
+                    "CS 4210",
+                    "MATH 4260",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "MAE 4700"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-c"
+                }
+              ]
+            },
+            {
+              "id": "math-group-d",
+              "label": "Probability and Statistics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4710",
+                    "MATH 4720",
+                    "MATH 4740",
+                    "ECON 3130",
+                    "ECON 4130",
+                    "ORIE 3500",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 4030"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-b--group-c--group-d",
+          "label": "Discrete Mathematics and Combinatorics / Numerical and Computational Methods / Probability and Statistics",
+          "slots": [],
+          "checks": [
+            {
+              "id": "math-group-b",
+              "label": "Discrete Mathematics and Combinatorics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 3360",
+                    "MATH 4370",
+                    "MATH 4410",
+                    "MATH 4420",
+                    "CS 4820",
+                    "ECON 4020",
+                    "ORIE 3300",
+                    "ORIE 4350",
+                    "MATH 4430"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-b"
+                }
+              ]
+            },
+            {
+              "id": "math-group-c",
+              "label": "Numerical and Computational Methods",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4250",
+                    "CS 4210",
+                    "MATH 4260",
+                    "CS 4220",
+                    "CS 4620",
+                    "CS 4670",
+                    "MAE 4700"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-c"
+                }
+              ]
+            },
+            {
+              "id": "math-group-d",
+              "label": "Probability and Statistics",
+              "slotPrefix": "major-",
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "MATH 4710",
+                    "MATH 4720",
+                    "MATH 4740",
+                    "ECON 3130",
+                    "ECON 4130",
+                    "ORIE 3500",
+                    "STSCI 3080",
+                    "STSCI 3100",
+                    "STSCI 4030"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "math-applied-group-d"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "concentration": [
+          "applied-mathematics"
+        ]
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "math-transcript",
+      "label": "3000-level or higher courses with a MATH prefix",
+      "slotPrefix": "major-",
+      "need": 5,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 3000,
+          "excludeNumbers": [
+            4900,
+            4980,
+            4997
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell",
+            "transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-advanced",
+      "label": "4000-level or higher Mathematics courses",
+      "slotPrefix": "major-",
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "MATH"
+          ],
+          "numberMin": 4000,
+          "excludeNumbers": [
+            4900,
+            4980,
+            4997
+          ],
+          "excludeNumberPatterns": [
+            "5XXX"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "major-",
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "math-approvals",
+      "label": "Affiliation, graduate work and equivalencies",
+      "instruction": "Confirm any approved repeats, exact Cornell transfer equivalents, placement score and graduate course or outside modeling approvals."
+    }
+  ]
+}

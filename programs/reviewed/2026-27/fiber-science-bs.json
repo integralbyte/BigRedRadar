@@ -1,0 +1,944 @@
+{
+  "programId": "fiber-science-bs",
+  "name": "Fiber Science (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core and advanced FSAD, STEM foundations, an approved sequence and outside credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fiber-science-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "core-1140",
+      "label": "FSAD 1140",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 1140"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-1350",
+      "label": "FSAD 1350",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 1350"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-1360",
+      "label": "FSAD 1360",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 1360"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-2370",
+      "label": "FSAD 2370",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 2370"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-3200",
+      "label": "FSAD 3200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 3200"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-3320",
+      "label": "FSAD 3320",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 3320"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-3350",
+      "label": "FSAD 3350",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 3350"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-4360",
+      "label": "FSAD 4360",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 4360"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-4460",
+      "label": "FSAD 4460",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 4460"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core-4660",
+      "label": "FSAD 4660",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "FSAD 4660"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "intro-electives",
+      "label": "Introductory Fiber Science and Apparel Design courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 1000,
+          "numberMax": 3999
+        }
+      ]
+    },
+    {
+      "id": "advanced-fsad",
+      "label": "Advanced Fiber Science and Apparel Design",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 4000,
+          "numberMax": 6999,
+          "excludeCodes": [
+            "FSAD 4000",
+            "FSAD 4010",
+            "FSAD 4020",
+            "FSAD 4030",
+            "FSAD 4990"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "label": "Computer science or approved AP credit",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112",
+            "CS 2110",
+            "AEM 2841"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "fiber-ap-computer-science-five"
+        }
+      ]
+    },
+    {
+      "id": "orgo-lab",
+      "label": "Organic chemistry laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 3570",
+            "CHEM 3590"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Humanities distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "ALC-AAP",
+            "ALC-AS",
+            "ALC-HA",
+            "LA-AG",
+            "LAD-HE",
+            "CA-AG",
+            "CA-HE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Cornell statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2100",
+            "AEM 2100",
+            "ILRST 2100",
+            "ENGRD 2700",
+            "PSYCH 2500"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linear-algebra",
+      "label": "Linear algebra",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2210",
+            "MATH 2230",
+            "MATH 2310",
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "general-chemistry",
+      "label": "General chemistry sequence",
+      "options": [
+        {
+          "id": "general-chemistry",
+          "label": "General chemistry and laboratories",
+          "slots": [
+            {
+              "id": "general-chemistry-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "general-chemistry-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "general-chemistry-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "general-chemistry-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors-chemistry",
+          "label": "Honors general and inorganic chemistry",
+          "slots": [
+            {
+              "id": "honors-chemistry-chem-2150",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "label": "Physics sequence",
+      "options": [
+        {
+          "id": "engineers",
+          "label": "Physics for engineering",
+          "slots": [
+            {
+              "id": "engineers-phys-1112",
+              "label": "PHYS 1112",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "engineers-phys-2213",
+              "label": "PHYS 2213",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-science",
+          "label": "Fundamentals of physics",
+          "slots": [
+            {
+              "id": "life-science-phys-2207",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "life-science-phys-2208",
+              "label": "PHYS 2208",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "label": "Calculus path",
+      "options": [
+        {
+          "id": "calculus-standard",
+          "label": "Calculus I and II",
+          "slots": [
+            {
+              "id": "calculus-standard-math-1110",
+              "label": "MATH 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "codes": [
+                    "MATH 1110"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "fiber-calculus-credit-1"
+                }
+              ]
+            },
+            {
+              "id": "calculus-standard-math-1120",
+              "label": "MATH 1120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1120"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "codes": [
+                    "MATH 1120"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "fiber-calculus-credit-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calculus-engineering",
+          "label": "Calculus for engineers",
+          "slots": [
+            {
+              "id": "calculus-engineering-math-1910",
+              "label": "MATH 1910",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1910"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "codes": [
+                    "MATH 1910"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "fiber-calculus-credit-1"
+                }
+              ]
+            },
+            {
+              "id": "calculus-engineering-math-1920",
+              "label": "MATH 1920",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1920"
+                  ],
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "codes": [
+                    "MATH 1920"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "fiber-calculus-credit-2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics and sustainability path",
+      "options": [
+        {
+          "id": "one-course",
+          "label": "Single ethics or sustainability course",
+          "slots": [
+            {
+              "id": "ethics-elective",
+              "label": "Ethics or sustainability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 4220",
+                    "FSAD 4025",
+                    "FSAD 4682",
+                    "FSAD 4800"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "textiles-india",
+          "label": "Textile and apparel production in India",
+          "slots": [
+            {
+              "id": "textiles-india-fsad-4021",
+              "label": "FSAD 4021",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4021"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "textiles-india-fsad-4022",
+              "label": "FSAD 4022",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4022"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiber-focus",
+      "label": "Additional approved sequence",
+      "options": [
+        {
+          "id": "apparel",
+          "label": "Apparel Design",
+          "slots": [
+            {
+              "id": "focus-base",
+              "label": "Required focus course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1450"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional focus elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3370",
+                    "FSAD 3650",
+                    "FSAD 3990",
+                    "FSAD 6900"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "materials",
+          "label": "Materials Science and Engineering",
+          "slots": [
+            {
+              "id": "focus-base",
+              "label": "Required focus course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 2610"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional focus elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 2620",
+                    "MSE 3010",
+                    "MSE 3040",
+                    "MSE 3050"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomedical",
+          "label": "Biomedical",
+          "slots": [
+            {
+              "id": "focus-base",
+              "label": "Required focus course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MSE 4610"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "focus-elective",
+              "label": "Additional focus elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRI 1310",
+                    "CHEME 2880"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "environment-water",
+          "label": "Environment and Sustainability · water",
+          "slots": [
+            {
+              "id": "environment-water-ntres-1101",
+              "label": "NTRES 1101",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NTRES 1101"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "environment-water-ntres-1201",
+              "label": "NTRES 1201",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NTRES 1201"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "environment-design",
+          "label": "Environment and Sustainability · design",
+          "slots": [
+            {
+              "id": "environment-design-dea-2020",
+              "label": "DEA 2020",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 2020"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "environment-design-bee-3299",
+              "label": "BEE 3299",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3299"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "graduate-fsad",
+      "label": "6000-level FSAD course",
+      "slots": [
+        "advanced-fsad"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 6000,
+          "numberMax": 6999
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "outside-fiber",
+      "label": "Credits outside Fiber Science",
+      "unit": "credits",
+      "need": 11,
+      "options": [
+        {
+          "numberMin": 1500,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "subjects": [
+            "HE"
+          ]
+        },
+        {
+          "numberMin": 1000,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "subjects": [
+            "DEA",
+            "HD",
+            "NS",
+            "PUBPOL"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "ap-and-abroad",
+      "label": "Institutional credit caps",
+      "instruction": "Confirm the applicable 15-credit caps on exam and in-absentia credit and study-away electives. Verify calculus placement and any statistics equivalency with the college."
+    },
+    {
+      "id": "approved-overlap",
+      "label": "Outside-credit overlap",
+      "instruction": "Outside Fiber Science credits may overlap only with the requirement categories Cornell lists. Confirm any overlap outside the major with the college."
+    }
+  ]
+}

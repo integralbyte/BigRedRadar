@@ -1,0 +1,292 @@
+{
+  "programId": "engineering-communications-minor",
+  "name": "Engineering Communications Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Category A coursework and capstone, five credits of professionalism, and six credits of electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/engineering-communications-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/degree/engineering-communications-requirements-minor/"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Engineering communication core",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRC 3350",
+            "ENGRC 3500"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "comm",
+      "label": "Communication course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2450",
+            "COMM 2850"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "HADM 3670"
+          ],
+          "minGrade": "C",
+          "approval": "engrc-category-a-alternate"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Engineering Communications capstone",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRC 4900"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRG 4900"
+          ],
+          "minGrade": "C",
+          "approval": "engrc-capstone-approval"
+        }
+      ]
+    },
+    {
+      "id": "professionalism",
+      "label": "Engineering and technical professionalism",
+      "unit": "credits",
+      "need": 5,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2720",
+            "ENGRC 3023",
+            "ENGRC 3025",
+            "ENGRC 3026",
+            "ENGRC 3027",
+            "ENGRC 3700",
+            "ENGRG 3600",
+            "ENGRG 4990",
+            "ENGRG 2500",
+            "ENGRG 3010",
+            "ENGRC 3024",
+            "ENGRC 3030",
+            "ENGRG 3400",
+            "ENGRC 3600"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENGRC 3340",
+            "ENGRC 3341",
+            "ENGRG 3900",
+            "ENGRG 3910"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "engrc-professionalism-approval"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Engineering, technical or scientific communication electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "ENGRC 3111",
+            "ENGRC 3120",
+            "ENGRC 3152",
+            "ENGRC 3610",
+            "ENGRC 3640",
+            "ENGRC 4152",
+            "AEM 2500",
+            "AEM 3245",
+            "AEM 3249",
+            "BEE 4590",
+            "BME 4440",
+            "COMM 2850",
+            "COMM 3200",
+            "COMM 4450",
+            "ENGL 2880",
+            "ENVS 2000",
+            "ILROB 2230",
+            "INFO 2950",
+            "INFO 4240",
+            "INFO 4270",
+            "INFO 4310",
+            "INFO 4430",
+            "INFO 4561",
+            "MSE 3010",
+            "NTRES 3330",
+            "PHIL 3340",
+            "PSYCH 3420",
+            "STS 4451",
+            "ENGRC 4590",
+            "ILRLR 2060",
+            "ILRLR 2080",
+            "ILROB 2290",
+            "STS 4330",
+            "AEM 2100",
+            "CEE 3040",
+            "ENGRD 2700",
+            "ILRST 2100",
+            "ORIE 3500",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "BEE 4530",
+            "BEE 4730",
+            "CHEME 4320",
+            "COMM 2450",
+            "INFO 4200",
+            "MAE 4272",
+            "MSE 4030",
+            "MSE 4050"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "approval": "engrc-elective-offering-approval"
+        },
+        {
+          "numberMax": 4999,
+          "minGrade": "C",
+          "approval": "engrc-elective-approval"
+        },
+        {
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "minGrade": "C",
+          "approval": "engrc-language-approval"
+        },
+        {
+          "origins": [
+            "study_abroad"
+          ],
+          "minGrade": "C",
+          "approval": "engrc-abroad-approval"
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "excludePrograms": [
+    "science-communication-public-engagement-minor"
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "CEE 3040",
+            "ENGRD 2700",
+            "ILRST 2100",
+            "ORIE 3500",
+            "PUBPOL 2100",
+            "PUBPOL 2101",
+            "PSYCH 2500",
+            "SOC 3010",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "credits",
+      "max": 4,
+      "options": [
+        {
+          "approval": "engrc-language-approval"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "plan",
+      "label": "Approved plan, 2.00 minor GPA and e-portfolio",
+      "instruction": "Verify application approval, course and section restrictions, and the e-portfolio. The Catalog and department list different capstone choices. Confirm the version that applies to your plan."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    },
+    {
+      "id": "core-credits",
+      "label": "Engineering communications core credits",
+      "slots": [
+        "core",
+        "comm",
+        "capstone"
+      ],
+      "need": 7,
+      "unit": "credits"
+    }
+  ]
+}

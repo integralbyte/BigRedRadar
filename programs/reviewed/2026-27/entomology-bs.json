@@ -1,0 +1,2141 @@
+{
+  "programId": "entomology-bs",
+  "name": "Entomology (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory sciences and entomology courses with paired lab sequences and distinct credit.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/entomology-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "physical-statistics",
+      "label": "Statistics or biometry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENTOM 3030"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true
+        },
+        {
+          "codes": [
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "physical-physics",
+      "label": "One semester of physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "PHYS"
+          ],
+          "numberMin": 1300,
+          "numberMax": 4999,
+          "minGrade": "D-"
+        },
+        {
+          "codes": [
+            "EAS 1600"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "life-investigative",
+      "label": "Investigative biology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "life-evolution",
+      "label": "Evolutionary biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1780",
+            "BIOEE 1781",
+            "BIOSM 1780"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "life-genetics",
+      "label": "Genetics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 2800",
+            "NTRES 2830"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "life-genetics-lab",
+      "label": "Genetics laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 2801"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "life-ecology",
+      "label": "Ecology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOEE 1610"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ENTOM 4550"
+          ],
+          "minGrade": "C-",
+          "allowSatisfactory": true
+        }
+      ]
+    },
+    {
+      "id": "entom-insects",
+      "label": "Insect biology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENTOM 2120"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-",
+          "allowSatisfactory": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "physical-general",
+      "label": "General chemistry",
+      "options": [
+        {
+          "id": "standard",
+          "label": "General chemistry and laboratories",
+          "slots": [
+            {
+              "id": "physical-general-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "entom-approved-ap-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "physical-general-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "entom-approved-ap-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "physical-general-3",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "physical-general-4",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors general and inorganic chemistry",
+          "slots": [
+            {
+              "id": "physical-general-1",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-organic",
+      "label": "Organic chemistry",
+      "options": [
+        {
+          "id": "intro",
+          "label": "Introduction to organic chemistry",
+          "slots": [
+            {
+              "id": "physical-organic-1",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-sciences",
+          "label": "Organic chemistry for the life sciences",
+          "slots": [
+            {
+              "id": "physical-organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "physical-organic-2",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intro-life",
+      "label": "Two additional introductory life science areas",
+      "options": [
+        {
+          "id": "biochemistry-cell-biology",
+          "label": "Biochemistry / Cell-Biology",
+          "slots": [
+            {
+              "id": "life-biochem",
+              "label": "Biochemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3320",
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "life-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biochemistry-physiology",
+          "label": "Biochemistry / Physiology",
+          "slots": [
+            {
+              "id": "life-biochem",
+              "label": "Biochemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3310",
+                    "BIOMG 3320",
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "life-physiology",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell-biology-physiology",
+          "label": "Cell Biology / Physiology",
+          "slots": [
+            {
+              "id": "life-cell",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "life-physiology",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entom-group-a",
+      "label": "Select two Group A courses or paired sequences",
+      "options": [
+        {
+          "id": "3030-3410",
+          "label": "ENTOM 3030 / ENTOM 3410",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-4100",
+          "label": "ENTOM 3030 / ENTOM 4100",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-4550",
+          "label": "ENTOM 3030 / ENTOM 4550",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-4610",
+          "label": "ENTOM 3030 / ENTOM 4610",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-4830",
+          "label": "ENTOM 3030 / ENTOM 4830",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-3310",
+          "label": "ENTOM 3030 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3030-4520",
+          "label": "ENTOM 3030 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-3030",
+              "label": "ENTOM 3030",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-4100",
+          "label": "ENTOM 3410 / ENTOM 4100",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-4550",
+          "label": "ENTOM 3410 / ENTOM 4550",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-4610",
+          "label": "ENTOM 3410 / ENTOM 4610",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-4830",
+          "label": "ENTOM 3410 / ENTOM 4830",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-3310",
+          "label": "ENTOM 3410 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3410-4520",
+          "label": "ENTOM 3410 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-3410",
+              "label": "ENTOM 3410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4100-4550",
+          "label": "ENTOM 4100 / ENTOM 4550",
+          "slots": [
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4100-4610",
+          "label": "ENTOM 4100 / ENTOM 4610",
+          "slots": [
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4100-4830",
+          "label": "ENTOM 4100 / ENTOM 4830",
+          "slots": [
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4100-3310",
+          "label": "ENTOM 4100 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4100-4520",
+          "label": "ENTOM 4100 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-4100",
+              "label": "ENTOM 4100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4100"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4550-4610",
+          "label": "ENTOM 4550 / ENTOM 4610",
+          "slots": [
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4550-4830",
+          "label": "ENTOM 4550 / ENTOM 4830",
+          "slots": [
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4550-3310",
+          "label": "ENTOM 4550 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4550-4520",
+          "label": "ENTOM 4550 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-4550",
+              "label": "ENTOM 4550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4610-4830",
+          "label": "ENTOM 4610 / ENTOM 4830",
+          "slots": [
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4610-3310",
+          "label": "ENTOM 4610 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4610-4520",
+          "label": "ENTOM 4610 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-4610",
+              "label": "ENTOM 4610",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4830-3310",
+          "label": "ENTOM 4830 / ENTOM 3310 + ENTOM 3311",
+          "slots": [
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4830-4520",
+          "label": "ENTOM 4830 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-4830",
+              "label": "ENTOM 4830",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4830"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3310-4520",
+          "label": "ENTOM 3310 + ENTOM 3311 / ENTOM 4520 + ENTOM 4521",
+          "slots": [
+            {
+              "id": "entom-group-a-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-group-a-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entom-extra",
+      "label": "Two additional Entomology electives",
+      "options": [
+        {
+          "id": "two-standalone",
+          "label": "Two listed standalone electives",
+          "slots": [
+            {
+              "id": "entom-electives",
+              "label": "Additional Entomology electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030",
+                    "ENTOM 3410",
+                    "ENTOM 4100",
+                    "ENTOM 4550",
+                    "ENTOM 4610",
+                    "ENTOM 4830",
+                    "ENTOM 2030",
+                    "ENTOM 2300",
+                    "ENTOM 2440",
+                    "ENTOM 2500",
+                    "ENTOM 3150",
+                    "ENTOM 3350",
+                    "ENTOM 3440",
+                    "ENTOM 3630",
+                    "ENTOM 3690",
+                    "ENTOM 3755",
+                    "ENTOM 3800",
+                    "ENTOM 4000",
+                    "ENTOM 4700"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pair-3310",
+          "label": "Insect diversity and laboratory plus one elective",
+          "slots": [
+            {
+              "id": "entom-elective-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-elective-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-electives",
+              "label": "Additional Entomology elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030",
+                    "ENTOM 3410",
+                    "ENTOM 4100",
+                    "ENTOM 4550",
+                    "ENTOM 4610",
+                    "ENTOM 4830",
+                    "ENTOM 2030",
+                    "ENTOM 2300",
+                    "ENTOM 2440",
+                    "ENTOM 2500",
+                    "ENTOM 3150",
+                    "ENTOM 3350",
+                    "ENTOM 3440",
+                    "ENTOM 3630",
+                    "ENTOM 3690",
+                    "ENTOM 3755",
+                    "ENTOM 3800",
+                    "ENTOM 4000",
+                    "ENTOM 4700"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pair-4520",
+          "label": "Disease vectors and laboratory plus one elective",
+          "slots": [
+            {
+              "id": "entom-elective-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-elective-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-electives",
+              "label": "Additional Entomology elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3030",
+                    "ENTOM 3410",
+                    "ENTOM 4100",
+                    "ENTOM 4550",
+                    "ENTOM 4610",
+                    "ENTOM 4830",
+                    "ENTOM 2030",
+                    "ENTOM 2300",
+                    "ENTOM 2440",
+                    "ENTOM 2500",
+                    "ENTOM 3150",
+                    "ENTOM 3350",
+                    "ENTOM 3440",
+                    "ENTOM 3630",
+                    "ENTOM 3690",
+                    "ENTOM 3755",
+                    "ENTOM 3800",
+                    "ENTOM 4000",
+                    "ENTOM 4700"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "both-pairs",
+          "label": "Both paired lecture and laboratory sequences",
+          "slots": [
+            {
+              "id": "entom-elective-3310",
+              "label": "ENTOM 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-elective-3311",
+              "label": "ENTOM 3311",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3311"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-elective-4520",
+              "label": "ENTOM 4520",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4520"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            },
+            {
+              "id": "entom-elective-4521",
+              "label": "ENTOM 4521",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 4521"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "C-",
+                  "allowSatisfactory": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "entomology-credits",
+      "label": "Entomology coursework credits",
+      "need": 16,
+      "unit": "credits",
+      "slotPrefix": "entom-"
+    }
+  ],
+  "manual": [
+    {
+      "id": "credit-ranges",
+      "label": "Applicable course and credit range",
+      "instruction": "Confirm the official category credit ranges for the selected chemistry, physics and life science pathways and any approved electives outside the published list."
+    }
+  ]
+}

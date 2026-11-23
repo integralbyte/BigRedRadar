@@ -1,0 +1,109 @@
+{
+  "programId": "classics-minor",
+  "name": "Classics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two upper-level Classics courses and additional work in Classics, Latin or ancient Greek.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/classics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "upper",
+      "label": "3000-level or higher coursework",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "CLASS",
+            "LATIN",
+            "GREEK"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "GREEK 2144"
+          ],
+          "excludeApprovals": [
+            "classics-modern-greek"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other eligible Classics coursework",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "CLASS",
+            "LATIN",
+            "GREEK"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "GREEK 2144"
+          ],
+          "excludeApprovals": [
+            "classics-modern-greek"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "language",
+      "label": "Greek or Latin proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "LATIN"
+          ],
+          "numberMin": 1205,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "GREEK 2144"
+          ],
+          "excludeApprovals": [
+            "classics-modern-greek"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "GREEK"
+          ],
+          "numberMin": 2101,
+          "minGrade": "C-",
+          "excludeCodes": [
+            "GREEK 2144"
+          ],
+          "excludeApprovals": [
+            "classics-modern-greek"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "classics-language-proficiency"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "greek",
+      "label": "Ancient Greek coursework",
+      "instruction": "Check the subject and title for any older transcript entries that may be Modern Greek."
+    }
+  ]
+}

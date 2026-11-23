@@ -1,0 +1,93 @@
+{
+  "programId": "cognitive-science-minor",
+  "name": "Cognitive Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introductory Cognitive Science and four approved upper-level courses from at least two departments.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/cognitive-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Cognitive Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COGST 1101",
+            "COGST 2350"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Cognitive Science coursework",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "codes": [
+            "BIONB 3300",
+            "COGST 1101",
+            "COGST 2350",
+            "COGST 2415",
+            "COGST 3140",
+            "COGST 3420",
+            "COGST 4310",
+            "COGST 4700",
+            "COGST 4710",
+            "CS 2110",
+            "CS 3700",
+            "CS 4110",
+            "CS 4701",
+            "HD 2200",
+            "HD 4240",
+            "LING 3302",
+            "LING 3303",
+            "LING 4403",
+            "LING 4421",
+            "LING 4425",
+            "LING 6422",
+            "PSYCH 2150",
+            "PSYCH 3140",
+            "PSYCH 3220",
+            "PSYCH 3800",
+            "PSYCH 4270"
+          ],
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "cognitive-science-minor-approved-course",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "cognitive-science-ba"
+  ],
+  "manual": [
+    {
+      "id": "plan",
+      "label": "Coherent coursework across two departments",
+      "instruction": "Verify focused coursework in two departments, any highly variable topic, and prior approval for lower-level electives."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

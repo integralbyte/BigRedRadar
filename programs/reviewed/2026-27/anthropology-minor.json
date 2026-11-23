@@ -1,0 +1,149 @@
+{
+  "programId": "anthropology-minor",
+  "name": "Anthropology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five three-credit Anthropology courses with a 4000-level seminar and Cornell coursework.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/anthropology-minor/#curriculumtext",
+    "https://anthropology.cornell.edu/minors-anthropology"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "1000- or 2000-level Anthropology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ANTHR"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 1100,
+          "numberMax": 2999
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "label": "3000-level Anthropology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ANTHR"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "numberMax": 3999
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "label": "4000-level Anthropology seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ANTHR"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true,
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "approval": "anthropology-senior-seminar"
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Additional Anthropology coursework",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ANTHR"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "origins": [
+            "transfer"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "certificate",
+      "label": "Course plan certification",
+      "instruction": "Confirm the seminar, approved external course credit and the submitted course plan with Anthropology."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "cornell-courses",
+      "label": "Anthropology courses at Cornell",
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    }
+  ]
+}

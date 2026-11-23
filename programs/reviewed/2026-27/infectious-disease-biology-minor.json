@@ -1,0 +1,217 @@
+{
+  "programId": "infectious-disease-biology-minor",
+  "name": "Infectious Disease Biology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One foundation course and 12 further credits spanning all three elective areas.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/infectious-disease-biology-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Biology of Infectious Disease",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2950"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "group-1",
+      "label": "Group A: Infectious Agents",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2900",
+            "BIOMS 4310",
+            "BIOMS 3310",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "PLSCI 4300",
+            "PLSCI 6380"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "idb-approved-group-1",
+          "numberMin": 2000,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "label": "Group B: Host-Pathogen Interactions",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANSC 3700",
+            "BIOMS 4340",
+            "ENTOM 3630",
+            "BIOEE 4800",
+            "BIOMI 2600",
+            "BIOMI 3500",
+            "BIOMS 4150",
+            "BIOEE 4460"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "idb-approved-group-2",
+          "numberMin": 2000,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "label": "GROUP C: Disease and Health Management",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 4041",
+            "BIOMI 2500",
+            "BIOMI 3210",
+            "ENTOM 2100",
+            "ENTOM 3520",
+            "ENTOM 4000",
+            "ENTOM 4520",
+            "ENTOM 6520",
+            "ENTOM 6530",
+            "NS 2600",
+            "NTRES 4150",
+            "PLSCI 3010"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "idb-approved-group-3",
+          "numberMin": 2000,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "label": "Further approved electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "codes": [
+            "ANSC 3700",
+            "ANTHR 4041",
+            "BIOEE 4460",
+            "BIOEE 4800",
+            "BIOMI 2500",
+            "BIOMI 2600",
+            "BIOMI 2900",
+            "BIOMI 3210",
+            "BIOMI 3500",
+            "BIOMI 4040",
+            "BIOMI 4090",
+            "BIOMS 3310",
+            "BIOMS 4150",
+            "BIOMS 4310",
+            "BIOMS 4340",
+            "ENTOM 2100",
+            "ENTOM 3520",
+            "ENTOM 3630",
+            "ENTOM 4000",
+            "ENTOM 4520",
+            "ENTOM 6520",
+            "ENTOM 6530",
+            "NS 2600",
+            "NTRES 4150",
+            "PLSCI 3010",
+            "PLSCI 4300",
+            "PLSCI 6380"
+          ],
+          "numberMin": 2000,
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "idb-approved-elective",
+          "numberMin": 2000,
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMS 3310",
+            "BIOMS 4310"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "ANSC 3700",
+            "BIOMS 4150"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "courses",
+      "label": "Approval for restricted electives",
+      "instruction": "Confirm any substitution, special topic, independent study or seminar with the minor advisor in advance. Follow Cornell’s enrollment overlap rules for the two designated pairs."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "additional-credits",
+      "label": "Approved credits beyond the foundation",
+      "slots": [
+        "group-1",
+        "group-2",
+        "group-3",
+        "extra"
+      ],
+      "need": 12,
+      "unit": "credits"
+    }
+  ]
+}

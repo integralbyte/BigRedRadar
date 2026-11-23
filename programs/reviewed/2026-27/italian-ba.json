@@ -1,0 +1,171 @@
+{
+  "programId": "italian-ba",
+  "name": "Italian (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eight course equivalents, a five-course elective pool, and language and external-credit limits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/italian-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "language",
+      "label": "Italian IV",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ITAL 2202"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "B-"
+        },
+        {
+          "approval": "ital-approved-language",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "survey",
+      "label": "Literature and cinema gateway",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ITAL 2900",
+            "ITAL 2204"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "B-"
+        },
+        {
+          "approval": "ital-approved-survey",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "identities",
+      "label": "Languages, Literatures, Identities",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ITAL 2203"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "B-"
+        },
+        {
+          "approval": "ital-approved-identities",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "ital-electives",
+      "label": "2000-level and higher electives",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "approval": "ital-elective-english",
+          "minGrade": "B-"
+        },
+        {
+          "subjects": [
+            "ITAL"
+          ],
+          "numberMin": 2000,
+          "minCredits": 1.5,
+          "maxCredits": 2,
+          "approval": "ital-elective-english",
+          "courseWeight": 0.5,
+          "minGrade": "B-"
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "approval": "ital-elective-other",
+          "minGrade": "B-"
+        },
+        {
+          "subjects": [
+            "ITAL"
+          ],
+          "numberMin": 2000,
+          "minCredits": 1.5,
+          "maxCredits": 2,
+          "approval": "ital-elective-other",
+          "courseWeight": 0.5,
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "before-1800",
+      "label": "Elective on a period before the 1800s",
+      "slots": [
+        "ital-electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "ital-before-1800"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "ital-electives"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "ital-elective-english"
+        }
+      ]
+    },
+    {
+      "slots": [
+        "language",
+        "survey",
+        "identities",
+        "ital-electives"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "elective-language",
+      "label": "Affirm elective eligibility and instructional language",
+      "instruction": "Confirm eligible content, English versus other instructional language, and period. The gateway class unused in its main requirement can also count as an approved elective."
+    }
+  ]
+}

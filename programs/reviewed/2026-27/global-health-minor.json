@@ -1,0 +1,1264 @@
+{
+  "programId": "global-health-minor",
+  "name": "Global Health Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Introduction, an approved experiential learning opportunity, advanced coursework, and electives from three areas.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/global-health-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "ns-2600",
+      "label": "Introduction to Global Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "NS 2600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ns-4600",
+      "label": "Explorations in Global and Public Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true,
+          "codes": [
+            "NS 4600"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "distribution",
+      "label": "Three distinct Global Health elective areas",
+      "options": [
+        {
+          "id": "1--2--3",
+          "label": "Biomedical and epidemiological approaches / Social and ethical approaches / Political, economic and food systems",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-1",
+                "elective-2"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1--2--4",
+          "label": "Biomedical and epidemiological approaches / Social and ethical approaches / Health systems and programmatic approaches",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-1",
+                "elective-3"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1--2--5",
+          "label": "Biomedical and epidemiological approaches / Social and ethical approaches / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-1",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1--3--4",
+          "label": "Biomedical and epidemiological approaches / Political, economic and food systems / Health systems and programmatic approaches",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-2",
+                "elective-3"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1--3--5",
+          "label": "Biomedical and epidemiological approaches / Political, economic and food systems / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-2",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "1--4--5",
+          "label": "Biomedical and epidemiological approaches / Health systems and programmatic approaches / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-0",
+              "label": "Biomedical and epidemiological approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BIOMI 2500",
+                    "BIOMI 2600",
+                    "BIOMI 2950",
+                    "BIOMI 3210",
+                    "BIOMI 4040",
+                    "BIOMI 4090",
+                    "BIOMI 4310",
+                    "BIOMS 4150",
+                    "BIOMS 4340",
+                    "ENTOM 2100",
+                    "FDSC 4220",
+                    "NS 3030",
+                    "NS 3060",
+                    "NS 3150",
+                    "NS 3600",
+                    "NS 4200",
+                    "NS 4410",
+                    "NS 6140",
+                    "PLSCI 4070"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-0",
+                "elective-3",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2--3--4",
+          "label": "Social and ethical approaches / Political, economic and food systems / Health systems and programmatic approaches",
+          "slots": [
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-1",
+                "elective-2",
+                "elective-3"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2--3--5",
+          "label": "Social and ethical approaches / Political, economic and food systems / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-1",
+                "elective-2",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "2--4--5",
+          "label": "Social and ethical approaches / Health systems and programmatic approaches / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-1",
+              "label": "Social and ethical approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AMST 2225",
+                    "AMST 3141",
+                    "ANTHR 2245",
+                    "ANTHR 2421",
+                    "ANTHR 2468",
+                    "ANTHR 3465",
+                    "ANTHR 4682",
+                    "ASIAN 2262",
+                    "ASRC 4602",
+                    "BSOC 2051",
+                    "BSOC 2061",
+                    "BSOC 2071",
+                    "BSOC 3011",
+                    "GDEV 2010",
+                    "GDEV 3111",
+                    "GDEV 3700",
+                    "EDUC 2610",
+                    "HD 2510",
+                    "NS 2450",
+                    "NS 4420",
+                    "NS 4500",
+                    "NS 4510",
+                    "PUBPOL 3180",
+                    "PUBPOL 3280",
+                    "SOC 4120"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-1",
+                "elective-3",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "3--4--5",
+          "label": "Political, economic and food systems / Health systems and programmatic approaches / Area-specific studies by petition",
+          "slots": [
+            {
+              "id": "elective-2",
+              "label": "Political, economic and food systems",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 1600",
+                    "AEM 2000",
+                    "AEM 3385",
+                    "AEM 4450",
+                    "COMM 2850",
+                    "ECON 3710",
+                    "ECON 3910",
+                    "ECON 6410",
+                    "ECON 6420",
+                    "ECON 7711",
+                    "GDEV 3020",
+                    "GDEV 3400",
+                    "GDEV 4140",
+                    "NS 4480",
+                    "PUBPOL 2350",
+                    "PUBPOL 3870",
+                    "PUBPOL 4110",
+                    "PUBPOL 4370"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "elective-3",
+              "label": "Health systems and programmatic approaches",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4880",
+                    "BEE 2510",
+                    "BEE 3299",
+                    "ENGRG 3400",
+                    "DEA 2700",
+                    "DEA 5305",
+                    "ILROB 4710",
+                    "PUBPOL 5449",
+                    "PLSCI 2100",
+                    "PLSCI 3100"
+                  ]
+                },
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4030"
+                  ],
+                  "approval": "global-health-course-assistant-topic"
+                }
+              ]
+            },
+            {
+              "id": "elective-4",
+              "label": "Area-specific studies by petition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "origins": [
+                    "cornell"
+                  ],
+                  "acceptCrossListings": true,
+                  "approval": "global-health-area-specific"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "elective-credits",
+              "label": "Elective credits in three areas",
+              "slots": [
+                "elective-2",
+                "elective-3",
+                "elective-4"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "elo",
+      "label": "Experiential Learning Opportunity",
+      "instruction": "Finish NS 2600 before submitting the ELO for approval, complete the approved experience, then complete NS 4600. Confirm any area-specific elective petition or NS 4030 assignment."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

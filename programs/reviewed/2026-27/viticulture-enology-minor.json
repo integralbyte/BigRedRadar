@@ -1,0 +1,146 @@
+{
+  "programId": "viticulture-enology-minor",
+  "name": "Viticulture and Enology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Biology and chemistry prerequisites, three viticulture foundations, and six further elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/viticulture-enology-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "biology",
+      "label": "College-level general biology prerequisite",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOG 1500",
+            "BIOEE 1610",
+            "BIOEE 1780",
+            "PLSCI 1115"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "vien-approved-biology"
+        }
+      ],
+      "allocationGroup": "prerequisites"
+    },
+    {
+      "id": "chemistry",
+      "label": "College-level general chemistry prerequisite",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1560",
+            "CHEM 2070"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "vien-approved-chemistry"
+        }
+      ],
+      "allocationGroup": "prerequisites"
+    },
+    {
+      "id": "vien-1104",
+      "label": "Introduction to Wines and Vines",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 1104"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "vien-2204",
+      "label": "Principles and Practices of Growing Grapes and Making Wines",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2204"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "vien-2205",
+      "label": "Growing Grapes and Making Wines Laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2205"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Additional Viticulture and Enology electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "VIEN 2310",
+            "VIEN 2340",
+            "VIEN 2360",
+            "VIEN 2400",
+            "VIEN 4310",
+            "VIEN 4340",
+            "VIEN 4360",
+            "VIEN 4400",
+            "VIEN 4500",
+            "VIEN 4510",
+            "VIEN 4650",
+            "VIEN 4700",
+            "VIEN 4710"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "viticulture-enology-bs"
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Declaration prerequisites and laboratory credit",
+      "instruction": "Confirm the 2.5 GPA and complete VIEN 1104 before declaring. VIEN 2205 is in both published lists, and its two credits are applied once."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 14,
+      "unit": "credits"
+    }
+  ]
+}

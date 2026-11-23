@@ -1,0 +1,113 @@
+{
+  "programId": "sociology-ba",
+  "name": "Sociology (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Ten letter-graded courses totaling at least 30 credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/sociology-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Sociology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SOC 1101"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "label": "Classical or contemporary sociological theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SOC 3750",
+            "SOC 3190"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics for sociological research",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SOC 3010"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional sociology courses",
+      "unit": "courses",
+      "need": 7,
+      "options": [
+        {
+          "subjects": [
+            "SOC"
+          ],
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "SOC 4950",
+            "SOC 4960"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minGrade": "C-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "credits",
+      "label": "Sociology major credits",
+      "unit": "credits",
+      "need": 30
+    },
+    {
+      "id": "upper-electives",
+      "label": "Electives at or above 3000-level",
+      "slots": [
+        "electives"
+      ],
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "declaration",
+      "label": "Major declaration",
+      "instruction": "Complete at least one sociology course before applying to declare the major."
+    }
+  ]
+}

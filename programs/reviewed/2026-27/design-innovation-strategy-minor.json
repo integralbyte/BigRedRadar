@@ -1,0 +1,181 @@
+{
+  "programId": "design-innovation-strategy-minor",
+  "name": "Design Innovation and Strategy Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out. The Spring 2024 completion form specifies three foundations, a graphic or design course, and an approved studio.",
+  "sources": [
+    "https://courses.cornell.edu/programs/design-innovation-strategy-minor/design-innovation-strategy-minor.pdf",
+    "https://www.human.cornell.edu/sites/default/files/HCD/Undergraduate/application_to_graduate_with_a_minor_in_design_innovation_strategy_effective_Spring%202024.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "excludePrograms": [
+    "design-environmental-analysis-bs"
+  ],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2026",
+          "slots": [
+            {
+              "id": "design",
+              "label": "Design foundations",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "DEA 1110",
+                    "DEA 2200"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "psych",
+              "label": "Environmental Psychology · Writing in the Major",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "DEA 1501"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "computing",
+              "label": "Principles of Design Computing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "DEA 1140"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "graphics",
+              "label": "Approved graphic or design course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "DEA 1150",
+                    "DEA 2030",
+                    "DEA 3590"
+                  ],
+                  "minCredits": 3
+                },
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "AEM 3110",
+                    "AEM 4375"
+                  ],
+                  "minCredits": 3,
+                  "approval": "design-innovation-teachout-aem-substitution"
+                }
+              ]
+            },
+            {
+              "id": "studio",
+              "label": "Approved upper-level design studio",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "B-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "DEA 3301",
+                    "DEA 4402",
+                    "DEA 5210",
+                    "DEA 5305",
+                    "DEA 5520",
+                    "DEA 5540"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 17,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "passFailOnly": true
+                },
+                {
+                  "grades": [
+                    "S",
+                    "SX",
+                    "Satisfactory"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2026 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "edition",
+      "label": "Effective edition and any business elective approval",
+      "instruction": "Verify that the Spring 2024 completion form applies, and confirm any named AEM course with Human Centered Design because the archived Catalog describes DEA-only credit. DEA 5540 requires DEA 3590."
+    }
+  ]
+}

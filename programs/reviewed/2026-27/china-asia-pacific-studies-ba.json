@@ -1,0 +1,181 @@
+{
+  "programId": "china-asia-pacific-studies-ba",
+  "name": "China and Asia-Pacific Studies (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Gateway, core, electives, and credit floor. Beijing study, grade average, and language proficiency require confirmation.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/china-asia-pacific-studies-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "gateway",
+      "label": "CAPS gateway",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CAPS 2132",
+            "CAPS 2232",
+            "CAPS 2435",
+            "CAPS 3967"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "label": "China in transition or Experiencing Global China",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4001",
+            "CAPS 4003"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "beijing-core",
+      "label": "Chinese perspectives",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4002"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Capstone seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4030"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "additional-core",
+      "label": "Additional CAPS core courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "CAPS 4049",
+            "CAPS 4127",
+            "CAPS 4827",
+            "CAPS 4931",
+            "CAPS 4963",
+            "CAPS 4998"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "CAPS 4999"
+          ],
+          "minCredits": 3,
+          "maxCredits": 3,
+          "approval": "caps-independent-study"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "CAPS electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "CAPS"
+          ],
+          "numberMin": 1000,
+          "numberMax": 4999,
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "CAPS 4010",
+            "CAPS 4020",
+            "CAPS 4999"
+          ]
+        },
+        {
+          "codes": [
+            "CAPS 4010",
+            "CAPS 4020"
+          ],
+          "approval": "caps-honors-pair"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "major-credits",
+      "label": "CAPS coursework credits",
+      "slots": [
+        "gateway",
+        "transition",
+        "beijing-core",
+        "capstone",
+        "additional-core",
+        "electives"
+      ],
+      "need": 30,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "CAPS 4010",
+            "CAPS 4020"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "beijing",
+      "label": "CAPS study in Beijing",
+      "instruction": "Confirm the required semester and pre-departure language placement with CAPS."
+    },
+    {
+      "id": "chinese",
+      "label": "Chinese proficiency",
+      "instruction": "Verify the three-year sequence through 3000-level Chinese or an approved native speaker or placement exemption."
+    },
+    {
+      "id": "average",
+      "label": "Major grade average",
+      "instruction": "Confirm a C or better average across the selected CAPS coursework. If using the honors tutorials as one elective, confirm both tutorials and their credit treatment."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "programId": "cornell-undergraduate",
+  "name": "Cornell undergraduate graduation requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "University physical education and swimming requirements. Apply any posted exception with the college.",
+  "sources": [
+    "https://catalog.cornell.edu/enrollment-credit-requirements/graduation-requirements/",
+    "https://scl.cornell.edu/pe"
+  ],
+  "layer": "university",
+  "slots": [
+    {
+      "id": "physical-education",
+      "label": "Physical education courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "PE"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 1,
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "approval": "cornell-pe-credit"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "swimming",
+      "label": "Swimming requirement",
+      "instruction": "Confirm the recorded swim test, qualifying swimming courses, or approved alternate requirement."
+    },
+    {
+      "id": "transfer-exception",
+      "label": "University requirements for transfer students",
+      "instruction": "Confirm whether a prior transfer-entry waiver applies and whether PE and swimming have been marked complete on your record.",
+      "when": "transfer"
+    }
+  ],
+  "additionalCatalogYears": [
+    "2025-26",
+    "earlier"
+  ]
+}

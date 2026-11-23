@@ -1,0 +1,135 @@
+{
+  "programId": "russian-minor",
+  "name": "Russian Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Russian proficiency and four non-language courses, including two literature courses and one with reading in Russian.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/russian-minor/#curriculumtext",
+    "https://complit.cornell.edu/russian-minor"
+  ],
+  "slots": [
+    {
+      "id": "proficiency",
+      "label": "Russian language proficiency",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "RUSSA 2204",
+            "RUSSA 3305",
+            "RUSSA 3306"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "russian-minor-placement-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "Russian literature with reading in Russian",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "codes": [
+            "RUSSL 3331"
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "russian-minor-original-reading"
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "label": "Another Russian literature course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "RUSSL"
+          ],
+          "excludeCodes": [
+            "RUSSL 4492",
+            "RUSSL 6611"
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "russian-minor-literature"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Other non-language courses on Russia",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "subjects": [
+            "RUSSL"
+          ],
+          "excludeCodes": [
+            "RUSSL 4492",
+            "RUSSL 6611"
+          ]
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "russian-minor-literature"
+        },
+        {
+          "numberMin": 2000,
+          "minCredits": 3,
+          "minGrade": "D-",
+          "acceptCrossListings": true,
+          "approval": "russian-minor-approved-related"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language",
+      "label": "Proficiency, elective approval and credit minimum",
+      "instruction": "Confirm any CASE or outside proficiency and placement with Comparative Literature. Verify approved non-language content and how the proficiency route contributes to the credit minimum."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

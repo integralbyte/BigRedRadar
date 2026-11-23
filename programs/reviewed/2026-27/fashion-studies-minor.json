@@ -1,0 +1,129 @@
+{
+  "programId": "fashion-studies-minor",
+  "name": "Fashion Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five FSAD courses spanning introductory, intermediate and advanced study.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fashion-studies-minor/#curriculumtext",
+    "https://human.cornell.edu/degrees/fashion-studies-minor"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "FSAD 1250 or approved introductory alternative",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "codes": [
+            "FSAD 1250"
+          ]
+        },
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4,
+          "approval": "fashion-intro-alternative"
+        }
+      ]
+    },
+    {
+      "id": "intro-additional",
+      "label": "Another introductory FSAD course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "label": "2000- or 3000-level FSAD courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 2000,
+          "numberMax": 3999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "4000- or 6000-level FSAD course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4
+        },
+        {
+          "subjects": [
+            "FSAD"
+          ],
+          "numberMin": 6000,
+          "numberMax": 6999,
+          "minGrade": "B",
+          "minCredits": 3,
+          "maxCredits": 4
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "fashion-design-management-bs",
+    "fiber-science-bs"
+  ],
+  "manual": [
+    {
+      "id": "requirements",
+      "label": "Confirm the applicable course list and grade threshold",
+      "instruction": "The Catalog specifies two 1000-level FSAD courses and a minimum grade of B. Human Ecology lists FSAD 1250 specifically and a B- minimum. Confirm which requirements apply and any approved introductory alternative."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "programId": "spanish-ba",
+  "name": "Spanish (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Four Cornell core courses, one seminar and three electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/spanish-ba/#curriculumtext",
+    "https://romancestudies.cornell.edu/spanish-undergraduate"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "spain",
+      "label": "Modern Spain",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2140",
+            "SPAN 2235"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "latin-am",
+      "label": "Contemporary Latin America",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2150",
+            "SPAN 2205"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "early-modern",
+      "label": "Early Modern Iberian Survey",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2170"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "Advanced Spanish Writing Workshop",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "SPAN 2180"
+          ],
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "senior-seminar",
+      "label": "Approved senior seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "SPAN"
+          ],
+          "numberMin": 3000,
+          "approval": "span-senior-seminar",
+          "minGrade": "B-"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Eligible Spanish electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "subjects": [
+            "SPAN"
+          ],
+          "numberMin": 2096,
+          "minCredits": 3,
+          "minGrade": "B-",
+          "approval": "span-approved-elective",
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ],
+          "approval": "span-approved-external",
+          "minCredits": 3,
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "elective-credits",
+      "label": "Senior seminar and elective credits",
+      "slots": [
+        "senior-seminar",
+        "electives"
+      ],
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives",
+        "senior-seminar"
+      ],
+      "max": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligible-courses",
+      "label": "Elective and seminar approval",
+      "instruction": "Confirm the senior seminar and eligible courses with Romance Studies. Check study-abroad content and that each core course was taken at Cornell."
+    }
+  ]
+}

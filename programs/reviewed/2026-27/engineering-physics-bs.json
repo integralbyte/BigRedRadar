@@ -1,0 +1,240 @@
+{
+  "programId": "engineering-physics-bs",
+  "name": "Engineering Physics (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Required AEP core, advanced laboratory substitution and six approved technical courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/engineering-physics-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "slots": [
+    {
+      "id": "core-aep-3200",
+      "label": "AEP 3200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 3200"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-3330",
+      "label": "AEP 3330",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 3330"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-3550",
+      "label": "AEP 3550",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 3550"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-3610",
+      "label": "AEP 3610",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 3610"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-3630",
+      "label": "AEP 3630",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 3630"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-4200",
+      "label": "AEP 4200",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 4200"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-aep-4230",
+      "label": "AEP 4230",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEP 4230"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "upper-physics",
+      "label": "Advanced engineering physics",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "AEP 3620",
+            "AEP 3560",
+            "AEP 4340"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "any-technical",
+      "label": "Technical elective at any level",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "approval": "ep-approved-technical",
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "upper-technical",
+      "label": "Upper-level technical electives",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "approval": "ep-approved-technical",
+          "numberMin": 3000,
+          "minGrade": "D-",
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "lab",
+      "label": "Advanced experimental physics path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Advanced Experimental Physics",
+          "slots": [
+            {
+              "id": "advanced-experiments",
+              "label": "Advanced Experimental Physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4410"
+                  ],
+                  "acceptCrossListings": true,
+                  "minCredits": 4,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "split",
+          "label": "Approved lab plus non-overlapping PHYS 4400 experiments",
+          "slots": [
+            {
+              "id": "other-lab",
+              "label": "Approved first experimental course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ASTRO 4410",
+                    "PHYS 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "phys-4400",
+              "label": "Remaining experimental physics work",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 4400"
+                  ],
+                  "approval": "ep-non-overlapping-lab",
+                  "minGrade": "D-",
+                  "minCredits": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "ep-credits",
+      "label": "Engineering Common Curriculum and approved technical electives",
+      "instruction": "Confirm the 137-credit degree, the common curriculum, accepted technical electives and any individual research or laboratory approval."
+    }
+  ]
+}

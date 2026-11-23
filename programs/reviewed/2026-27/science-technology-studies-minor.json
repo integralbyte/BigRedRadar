@@ -1,0 +1,121 @@
+{
+  "programId": "science-technology-studies-minor",
+  "name": "Science and Technology Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two core selections, an advanced course and other eligible STS coursework.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/science-technology-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Science and Technology Studies core courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "STS 1101",
+            "STS 2011",
+            "STS 2051",
+            "STS 2061",
+            "STS 2071",
+            "STS 2921",
+            "STS 3111",
+            "STS 3181"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other approved Science and Technology Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "STS"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "approval": "sts-minor-approved-course"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Further eligible coursework if needed for the credit minimum",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "subjects": [
+            "STS"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "approval": "sts-minor-approved-course"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "numberMax": 1999
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "science-technology-studies-ba"
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Program credit overlap",
+      "instruction": "If you are in Biology and Society, apply no more than one course to both the major and this minor. Confirm approved substitutions with STS."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "One course at the 3000 or 4000 level",
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

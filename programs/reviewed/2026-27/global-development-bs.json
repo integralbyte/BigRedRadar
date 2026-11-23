@@ -1,0 +1,1145 @@
+{
+  "programId": "global-development-bs",
+  "name": "Global Development (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Global Development core, field experience and one of three thematic focus areas.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/global-development-bs/#curriculumtext",
+    "https://cals.cornell.edu/global-development/education-training/undergraduate/global-development-major-requirements"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-gdev-1102",
+      "label": "GDEV 1102",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 1102"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-1105",
+      "label": "GDEV 1105",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 1105"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-1300",
+      "label": "GDEV 1300",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 1300"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-2130",
+      "label": "GDEV 2130",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2130"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-4961",
+      "label": "GDEV 4961",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 4961"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-2105",
+      "label": "GDEV 2105",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2105"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "core-gdev-3105",
+      "label": "GDEV 3105",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 3105"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "environment-and-development",
+      "label": "Environment and development",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2065",
+            "NTRES 2010"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "policy-or-economics",
+      "label": "Ethics of technology or development economics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2202",
+            "GDEV 2450",
+            "GDEV 2305"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "label": "Additional research methods",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GDEV 2295",
+            "GDEV 3140",
+            "GDEV 3300",
+            "GDEV 3680",
+            "GDEV 3740",
+            "GDEV 4045",
+            "GDEV 4080",
+            "GDEV 4190",
+            "GDEV 4295"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "C"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "focus",
+      "label": "Global Development focus",
+      "options": [
+        {
+          "id": "social-economic",
+          "label": "Social and Economic Development",
+          "slots": [
+            {
+              "id": "focus-required-economics",
+              "label": "Development economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GDEV 2450"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-theory",
+              "label": "Theories of society and development",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GDEV 3010"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-choice",
+              "label": "Social and economic development electives",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 2000",
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 4300",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "CRP 4770",
+                    "EDUC 2155",
+                    "EDUC 2200",
+                    "EDUC 2210",
+                    "EDUC 2410",
+                    "EDUC 2710",
+                    "EDUC 3142",
+                    "EDUC 4010",
+                    "EDUC 4200",
+                    "EDUC 4223",
+                    "GDEV 2010",
+                    "GDEV 2100",
+                    "GDEV 2155",
+                    "GDEV 2202",
+                    "GDEV 2210",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2410",
+                    "GDEV 2710",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3142",
+                    "GDEV 3150",
+                    "GDEV 3240",
+                    "GDEV 3260",
+                    "GDEV 3280",
+                    "GDEV 3300",
+                    "GDEV 3390",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3700",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4011",
+                    "GDEV 4045",
+                    "GDEV 4050",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4200",
+                    "GDEV 4223",
+                    "GDEV 4295",
+                    "GDEV 4340",
+                    "GDEV 4450",
+                    "GDEV 4770",
+                    "PUBPOL 3280"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 2000",
+                    "AEM 2300",
+                    "AEM 2350",
+                    "AEM 2500",
+                    "AEM 4300",
+                    "AEM 4350",
+                    "AEM 4420",
+                    "CRP 4770",
+                    "EDUC 2155",
+                    "EDUC 2200",
+                    "EDUC 2210",
+                    "EDUC 2410",
+                    "EDUC 2710",
+                    "EDUC 3142",
+                    "EDUC 4010",
+                    "EDUC 4200",
+                    "EDUC 4223",
+                    "GDEV 2010",
+                    "GDEV 2100",
+                    "GDEV 2155",
+                    "GDEV 2202",
+                    "GDEV 2210",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2410",
+                    "GDEV 2710",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3142",
+                    "GDEV 3150",
+                    "GDEV 3240",
+                    "GDEV 3260",
+                    "GDEV 3280",
+                    "GDEV 3300",
+                    "GDEV 3390",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3700",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4011",
+                    "GDEV 4045",
+                    "GDEV 4050",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4200",
+                    "GDEV 4223",
+                    "GDEV 4295",
+                    "GDEV 4340",
+                    "GDEV 4450",
+                    "GDEV 4770",
+                    "PUBPOL 3280"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "GDEV 3500",
+                    "GDEV 3501"
+                  ],
+                  "courseWeight": 0.5,
+                  "approval": "gdev-3500-3501-pair"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Focused elective credits",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 15,
+              "unit": "credits"
+            },
+            {
+              "id": "gdev-courses",
+              "label": "Electives with a GDEV prefix",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "gdev-credits",
+              "label": "Credits with a GDEV prefix",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 9,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upper-focus",
+              "label": "Focused electives at 3000 level or higher",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-choice"
+              ],
+              "unit": "courses",
+              "max": 2,
+              "options": [
+                {
+                  "origins": [
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": []
+        },
+        {
+          "id": "agriculture-food",
+          "label": "Agriculture and Food Systems",
+          "slots": [
+            {
+              "id": "focus-required-food",
+              "label": "Food systems or sustainable agriculture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GDEV 2300",
+                    "GDEV 3400"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-agroecology",
+              "label": "Agroecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 4730"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-plant",
+              "label": "Foundational plant and agricultural sciences",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "ANSC 2000",
+                    "BIOEE 4690",
+                    "GDEV 4140",
+                    "PLSCI 2110",
+                    "PLSCI 2440",
+                    "PLSCI 3210",
+                    "PLSCI 4140"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "ANSC 2000",
+                    "BIOEE 4690",
+                    "GDEV 4140",
+                    "PLSCI 2110",
+                    "PLSCI 2440",
+                    "PLSCI 3210",
+                    "PLSCI 4140"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                }
+              ]
+            },
+            {
+              "id": "focus-social",
+              "label": "Social, economic and health electives",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4485",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3170",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4450",
+                    "GDEV 4880",
+                    "NS 3060",
+                    "NTRES 3330"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4485",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3170",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4450",
+                    "GDEV 4880",
+                    "NS 3060",
+                    "NTRES 3330"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "GDEV 3500",
+                    "GDEV 3501"
+                  ],
+                  "courseWeight": 0.5,
+                  "approval": "gdev-3500-3501-pair"
+                }
+              ]
+            },
+            {
+              "id": "focus-choice",
+              "label": "Additional agriculture or food systems elective",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4485",
+                    "ANSC 2000",
+                    "ANSC 2120",
+                    "BIOEE 4690",
+                    "BIOEE 4780",
+                    "ENTOM 2030",
+                    "ENTOM 2031",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3170",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4140",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4450",
+                    "GDEV 4880",
+                    "NS 3060",
+                    "NTRES 3330",
+                    "PLSCI 2110",
+                    "PLSCI 2440",
+                    "PLSCI 2600",
+                    "PLSCI 3010",
+                    "PLSCI 3025",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3550",
+                    "PLSCI 3800",
+                    "PLSCI 4020",
+                    "PLSCI 4140",
+                    "PLSCI 4175",
+                    "PLSCI 4230",
+                    "VIEN 3610"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "AEM 4485",
+                    "ANSC 2000",
+                    "ANSC 2120",
+                    "BIOEE 4690",
+                    "BIOEE 4780",
+                    "ENTOM 2030",
+                    "ENTOM 2031",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3170",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 3900",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4140",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4450",
+                    "GDEV 4880",
+                    "NS 3060",
+                    "NTRES 3330",
+                    "PLSCI 2110",
+                    "PLSCI 2440",
+                    "PLSCI 2600",
+                    "PLSCI 3010",
+                    "PLSCI 3025",
+                    "PLSCI 3150",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3550",
+                    "PLSCI 3800",
+                    "PLSCI 4020",
+                    "PLSCI 4140",
+                    "PLSCI 4175",
+                    "PLSCI 4230",
+                    "VIEN 3610"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "GDEV 3500",
+                    "GDEV 3501"
+                  ],
+                  "courseWeight": 0.5,
+                  "approval": "gdev-3500-3501-pair"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Focused elective credits",
+              "slots": [
+                "focus-plant",
+                "focus-social",
+                "focus-choice"
+              ],
+              "need": 15,
+              "unit": "credits"
+            },
+            {
+              "id": "gdev-courses",
+              "label": "Electives with a GDEV prefix",
+              "slots": [
+                "focus-plant",
+                "focus-social",
+                "focus-choice"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "gdev-credits",
+              "label": "Credits with a GDEV prefix",
+              "slots": [
+                "focus-plant",
+                "focus-social",
+                "focus-choice"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upper-focus",
+              "label": "Focused electives at 3000 level or higher",
+              "slots": [
+                "focus-plant",
+                "focus-social",
+                "focus-choice"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-plant",
+                "focus-social",
+                "focus-choice"
+              ],
+              "unit": "courses",
+              "max": 2,
+              "options": [
+                {
+                  "origins": [
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "agricultural-sciences-bs"
+          ]
+        },
+        {
+          "id": "environment",
+          "label": "Environment and Development",
+          "slots": [
+            {
+              "id": "focus-required-social",
+              "label": "Required social science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "GDEV 3150",
+                    "GDEV 3170",
+                    "GDEV 3240",
+                    "GDEV 3390",
+                    "GDEV 3680"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-biophysical",
+              "label": "Required biophysical science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "EAS 1101",
+                    "EAS 2680",
+                    "ENVS 1201",
+                    "GDEV 3260",
+                    "NTRES 3220",
+                    "NTRES 3240"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "C"
+                }
+              ]
+            },
+            {
+              "id": "focus-choice",
+              "label": "Environment and development electives",
+              "unit": "courses",
+              "need": 5,
+              "options": [
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BEE 2000",
+                    "EAS 1101",
+                    "EAS 2680",
+                    "ENVS 1201",
+                    "GDEV 2010",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3150",
+                    "GDEV 3170",
+                    "GDEV 3240",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3390",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4340",
+                    "GDEV 4850",
+                    "NTRES 3220",
+                    "NTRES 3240",
+                    "NTRES 3330",
+                    "PUBPOL 3670",
+                    "SOC 3650"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ]
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "BEE 2000",
+                    "EAS 1101",
+                    "EAS 2680",
+                    "ENVS 1201",
+                    "GDEV 2010",
+                    "GDEV 2202",
+                    "GDEV 2295",
+                    "GDEV 2300",
+                    "GDEV 2450",
+                    "GDEV 3020",
+                    "GDEV 3030",
+                    "GDEV 3140",
+                    "GDEV 3150",
+                    "GDEV 3170",
+                    "GDEV 3240",
+                    "GDEV 3260",
+                    "GDEV 3300",
+                    "GDEV 3390",
+                    "GDEV 3400",
+                    "GDEV 3502",
+                    "GDEV 3680",
+                    "GDEV 3740",
+                    "GDEV 4045",
+                    "GDEV 4080",
+                    "GDEV 4190",
+                    "GDEV 4295",
+                    "GDEV 4340",
+                    "GDEV 4850",
+                    "NTRES 3220",
+                    "NTRES 3240",
+                    "NTRES 3330",
+                    "PUBPOL 3670",
+                    "SOC 3650"
+                  ],
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "minCredits": 3,
+                  "origins": [
+                    "study_abroad"
+                  ],
+                  "approval": "gdev-approved-abroad"
+                },
+                {
+                  "minGrade": "C",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "GDEV 3500",
+                    "GDEV 3501"
+                  ],
+                  "courseWeight": 0.5,
+                  "approval": "gdev-3500-3501-pair"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Focused elective credits",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 15,
+              "unit": "credits"
+            },
+            {
+              "id": "gdev-courses",
+              "label": "Electives with a GDEV prefix",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 2,
+              "unit": "courses",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "gdev-credits",
+              "label": "Credits with a GDEV prefix",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "subjects": [
+                    "GDEV"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upper-focus",
+              "label": "Focused electives at 3000 level or higher",
+              "slots": [
+                "focus-choice"
+              ],
+              "need": 3,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 3000
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-choice"
+              ],
+              "unit": "courses",
+              "max": 2,
+              "options": [
+                {
+                  "origins": [
+                    "study_abroad"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "environment-sustainability-bs"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "field-experience",
+      "label": "Portfolio and field-based internship",
+      "instruction": "Submit the pre-departure portfolio, complete at least eight weeks of approved field-based experiential learning and confirm the prep and reflection sequence."
+    },
+    {
+      "id": "course-approvals",
+      "label": "Combined courses, study abroad and double majors",
+      "instruction": "Confirm both parts of a paired practicum before using its approval, the subject prefix used for each elective, and any study-away or double-major approval."
+    },
+    {
+      "id": "cohort",
+      "label": "Earlier cohorts",
+      "instruction": "Confirm any earlier methods-course waiver and accepted older course numbers with Global Development."
+    }
+  ]
+}

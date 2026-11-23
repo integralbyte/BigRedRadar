@@ -1,0 +1,143 @@
+{
+  "programId": "latina-o-studies-minor",
+  "name": "Latina/o Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses including an introduction, humanities and social science breadth, and two advanced courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/latina-o-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Introduction to Latina/o Studies",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "LSP 1802",
+            "LSP 2031",
+            "LSP 2100",
+            "LSP 2400",
+            "LSP 2720"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Approved Latina/o Studies humanities course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeCodes": [
+            "LSP 4210"
+          ],
+          "approval": "latina-studies-humanities"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Approved Latina/o Studies social science course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeCodes": [
+            "LSP 4210"
+          ],
+          "approval": "latina-studies-social-science"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Additional Latina/o Studies courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "LSP"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeCodes": [
+            "LSP 4210"
+          ]
+        },
+        {
+          "codes": [
+            "LSP 4210"
+          ],
+          "approval": "latina-studies-approved-independent-study",
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "electives",
+      "label": "Approved categories and elective allowance",
+      "instruction": "Confirm humanities and social-science classifications. Ask the program which additional course qualifies under its one-elective allowance and secure prior approval for LSP 4210."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "advanced",
+      "label": "Two courses at the 3000 or 4000 level",
+      "slots": [
+        "intro",
+        "humanities",
+        "social",
+        "electives"
+      ],
+      "need": 2,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

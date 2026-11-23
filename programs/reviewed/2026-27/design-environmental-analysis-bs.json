@@ -1,0 +1,632 @@
+{
+  "programId": "design-environmental-analysis-bs",
+  "name": "Design + Environmental Analysis (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Core design curriculum, nine thematic courses and science, statistics and breadth.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/design-environmental-analysis-bs/#curriculumtext",
+    "https://human.cornell.edu/degrees/design-environmental-analysis"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "core-dea-1101",
+      "label": "DEA 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-1110",
+      "label": "DEA 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-1141",
+      "label": "DEA 1141",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1141"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-1150",
+      "label": "DEA 1150",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-1500",
+      "label": "DEA 1500",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-1501",
+      "label": "DEA 1501",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 1501"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-2025",
+      "label": "DEA 2025",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2025"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-2510",
+      "label": "DEA 2510",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-2730",
+      "label": "DEA 2730",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2730"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-3550",
+      "label": "DEA 3550",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 3550"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-4040",
+      "label": "DEA 4040",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4040"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-4050",
+      "label": "DEA 4050",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4050"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-4590",
+      "label": "DEA 4590",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4590"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-dea-4800",
+      "label": "DEA 4800",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4800"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "theme-innovation",
+      "label": "Design innovation and strategy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2200",
+            "DEA 2201",
+            "DEA 2203",
+            "DEA 2750",
+            "DEA 3050",
+            "DEA 3301",
+            "DEA 3306",
+            "DEA 3530",
+            "DEA 4402",
+            "DEA 4403",
+            "DEA 4040",
+            "DEA 4375",
+            "DEA 4500",
+            "DEA 4990",
+            "DEA 5210",
+            "DEA 5520",
+            "DEA 5540"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-sustainability",
+      "label": "Sustainable futures",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2020",
+            "DEA 3030",
+            "DEA 3302",
+            "DEA 3500",
+            "DEA 4025",
+            "DEA 4220",
+            "DEA 4401",
+            "DEA 4990"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-health",
+      "label": "Health and well-being",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 2700",
+            "DEA 3308",
+            "DEA 3510",
+            "DEA 4700",
+            "DEA 4990",
+            "DEA 5500",
+            "DEA 5700"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme-additional",
+      "label": "Additional thematic courses",
+      "unit": "courses",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "DEA 2020",
+            "DEA 2200",
+            "DEA 2201",
+            "DEA 2203",
+            "DEA 2700",
+            "DEA 2750",
+            "DEA 3030",
+            "DEA 3050",
+            "DEA 3301",
+            "DEA 3302",
+            "DEA 3306",
+            "DEA 3308",
+            "DEA 3500",
+            "DEA 3510",
+            "DEA 3530",
+            "DEA 4025",
+            "DEA 4040",
+            "DEA 4220",
+            "DEA 4375",
+            "DEA 4401",
+            "DEA 4402",
+            "DEA 4403",
+            "DEA 4500",
+            "DEA 4700",
+            "DEA 4990",
+            "DEA 5210",
+            "DEA 5500",
+            "DEA 5520",
+            "DEA 5540",
+            "DEA 5700"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "dea-theme-substitution",
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "social-sciences",
+      "label": "Introductory psychology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HD 1130",
+            "PSYCH 1101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Historical, cultural, or literary analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "distributions": [
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "ALC-AAP",
+            "ALC-AS",
+            "ALC-HA",
+            "LA-AG",
+            "LAD-HE",
+            "CA-AG",
+            "CA-HE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "Quantitative analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2100",
+            "AEM 2100",
+            "ILRST 2100",
+            "PSYCH 2500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "science-one",
+      "label": "Introductory biology, chemistry, or physics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOG 1445",
+            "BIOMG 1350",
+            "BIOEE 1610",
+            "CHEM 1560",
+            "CHEM 2070",
+            "CHEM 2080",
+            "PHYS 2207",
+            "PHYS 2208"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "science-two",
+      "label": "Additional natural science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "PBS-HE",
+            "BIO-AS",
+            "PHS-AS",
+            "BIO-AG",
+            "BSC-AG"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional-distributions",
+      "label": "Additional distribution coursework",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "distributions": [
+            "PBS-HE",
+            "ALC-AS",
+            "ETM-AS",
+            "HST-AS",
+            "SCD-AS",
+            "SSC-AS",
+            "SDS-AS",
+            "SMR-AS",
+            "BIO-AS",
+            "BIO-AG",
+            "BSC-AG",
+            "SBA-AG",
+            "SBA-HE",
+            "KCM-AG",
+            "KCM-HE",
+            "MQR-HE",
+            "LA-AG",
+            "LAD-HE",
+            "CA-AG",
+            "CA-HE",
+            "HA-AG",
+            "HA-HE"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "dea-language-distribution",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "theme-",
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4990"
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "outside-dea",
+      "label": "Credits outside the DEA department",
+      "unit": "credits",
+      "need": 11,
+      "options": [
+        {
+          "minGrade": "D-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "subjects": [
+            "HE"
+          ],
+          "numberMin": 1500
+        },
+        {
+          "minGrade": "D-",
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "subjects": [
+            "FSAD",
+            "HD",
+            "NS",
+            "PUBPOL"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "studio-timing",
+      "label": "Studios by year and semester",
+      "instruction": "Confirm a studio at the student’s academic level in each of four years, with 5000-level studios eligible in the fourth year, and at most two studios per semester across departments."
+    },
+    {
+      "id": "outside-overlap",
+      "label": "Outside credits and college curriculum",
+      "instruction": "Confirm double counting is limited to the published categories, and apply the entering cohort’s Human Ecology requirements."
+    }
+  ]
+}

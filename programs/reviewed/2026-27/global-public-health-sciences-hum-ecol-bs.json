@@ -1,0 +1,1204 @@
+{
+  "programId": "global-public-health-sciences-hum-ecol-bs",
+  "name": "Global & Public Health Sciences (BS) · Human Ecology",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Required public-health courses, four selective areas, science prerequisites and approved experiential learning.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/global-public-health-sciences-hum-ecol-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "gphs-1600",
+      "label": "Introduction to public health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "gphs-2060",
+      "label": "Preparation for engaged learning",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 2060"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "gphs-2600",
+      "label": "Introduction to global health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 2600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "gphs-3600",
+      "label": "Epidemiology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 3600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "gphs-4600",
+      "label": "Explorations in global and public health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 4600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "elo-reflection",
+      "label": "Experiential learning reflection",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 4060",
+            "NS 4997"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "bio-lab",
+      "label": "Investigative biology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "label": "Physiology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1150",
+            "NS 1220",
+            "NS 3410",
+            "BIOG 1440",
+            "BIOG 1445"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "selective-social",
+      "label": "Social & Behavioral Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 2468",
+            "COMM 2850",
+            "COMM 4760",
+            "ECON 3710",
+            "ECON 3910",
+            "GDEV 3020",
+            "GDEV 3280",
+            "HD 4600",
+            "NS 2450",
+            "NS 4480",
+            "NS 4510",
+            "NS 4570",
+            "PUBPOL 3180",
+            "PUBPOL 3280",
+            "PUBPOL 4280",
+            "SOC 4120"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "gphs-selective-social",
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "selective-biology",
+      "label": "Biological Aspects of Public Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMG 4390",
+            "BIOMG 4870",
+            "BIOMI 2600",
+            "BIOMI 2950",
+            "BIOMI 3210",
+            "BIOMI 4040",
+            "BIONB 3920",
+            "ENTOM 4000",
+            "NS 3060",
+            "NS 3150",
+            "NS 4140",
+            "NS 4200",
+            "NS 4210",
+            "NS 4300",
+            "NS 4410",
+            "NS 5510",
+            "PLSCI 2100"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "gphs-selective-biology",
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "selective-environment",
+      "label": "Environmental Health",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOMI 2500",
+            "BIOMI 2950",
+            "BIOMI 4310",
+            "BIOMS 4310",
+            "BSOC 2101",
+            "COMM 2850",
+            "DEA 2700",
+            "ENTOM 2100",
+            "ENTOM 4520",
+            "FDSC 3960",
+            "GDEV 3020",
+            "GDEV 3400",
+            "PLSCI 2100",
+            "PLSCI 2400",
+            "PLSCI 4140",
+            "PLSCI 4450",
+            "STS 2851"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "gphs-selective-environment",
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "selective-policy",
+      "label": "Health Policy & Practice",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AMST 2225",
+            "ANTHR 4458",
+            "CRP 3430",
+            "GDEV 3020",
+            "GDEV 3700",
+            "GOVT 3032",
+            "HD 4600",
+            "NS 4450",
+            "NS 4500",
+            "NS 4510",
+            "NS 4570",
+            "PUBPOL 2030",
+            "PUBPOL 2050",
+            "PUBPOL 2208",
+            "PUBPOL 2350",
+            "PUBPOL 3110",
+            "PUBPOL 3230",
+            "PUBPOL 3320",
+            "PUBPOL 3650",
+            "PUBPOL 3780",
+            "PUBPOL 3870",
+            "PUBPOL 4370"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000,
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "gphs-selective-policy",
+          "minCredits": 3,
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "intro-chemistry",
+      "label": "Introductory chemistry path",
+      "options": [
+        {
+          "id": "full",
+          "label": "General chemistry I and II, with laboratories",
+          "slots": [
+            {
+              "id": "intro-chemistry-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-3",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-4",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-i",
+          "label": "General chemistry I and laboratory",
+          "slots": [
+            {
+              "id": "intro-chemistry-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "intro",
+          "label": "Introduction to general chemistry and laboratory",
+          "slots": [
+            {
+              "id": "intro-chemistry-1",
+              "label": "CHEM 1560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-2",
+              "label": "CHEM 1561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ap-general-ii",
+          "label": "AP chemistry plus general chemistry II",
+          "slots": [
+            {
+              "id": "intro-chemistry-1",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "intro-chemistry-2",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "ap-chemistry",
+              "label": "AP Chemistry score of 5",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-ap-chemistry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ap-honors",
+          "label": "AP chemistry plus honors general chemistry",
+          "slots": [
+            {
+              "id": "intro-chemistry-1",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "ap-chemistry",
+              "label": "AP Chemistry score of 5",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-ap-chemistry"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology-lectures",
+      "label": "Two introductory biology lecture areas",
+      "options": [
+        {
+          "id": "cell-biology-physiology",
+          "label": "Cell biology / Physiology",
+          "slots": [
+            {
+              "id": "biology-lecture-1",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-cell-biology"
+                }
+              ]
+            },
+            {
+              "id": "biology-lecture-2",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-physiology"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2",
+                "physiology"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell-biology-ecology-and-evolution",
+          "label": "Cell biology / Ecology and evolution",
+          "slots": [
+            {
+              "id": "biology-lecture-1",
+              "label": "Cell biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-cell-biology"
+                }
+              ]
+            },
+            {
+              "id": "biology-lecture-2",
+              "label": "Ecology and evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-ecology-and-evolution"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2",
+                "physiology"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology-ecology-and-evolution",
+          "label": "Physiology / Ecology and evolution",
+          "slots": [
+            {
+              "id": "biology-lecture-1",
+              "label": "Physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-physiology"
+                }
+              ]
+            },
+            {
+              "id": "biology-lecture-2",
+              "label": "Ecology and evolution",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell",
+                    "transfer"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "gphs-bio-ap-ecology-and-evolution"
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ]
+                }
+              ]
+            },
+            {
+              "slots": [
+                "biology-lecture-1",
+                "biology-lecture-2",
+                "physiology"
+              ],
+              "max": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry",
+      "options": [
+        {
+          "id": "intro",
+          "label": "Introduction to organic and biological chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 1570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "principles",
+          "label": "Principles of organic chemistry",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3530",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3530"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-course",
+          "label": "Organic chemistry for life sciences",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "life-sequence",
+          "label": "Organic chemistry for life sciences sequence",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors organic chemistry sequence",
+          "slots": [
+            {
+              "id": "organic-1",
+              "label": "CHEM 3590",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "organic-2",
+              "label": "CHEM 3600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry",
+      "label": "Biochemistry",
+      "options": [
+        {
+          "id": "human",
+          "label": "Human biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "NS 3200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "NS 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "individualized",
+          "label": "Individualized biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3300",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "molecular",
+          "label": "Biochemistry and molecular biology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "microbiology",
+          "label": "Biochemistry and microbiology",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "biochemistry-2",
+              "label": "BIOMI 2900",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMI 2900"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combined",
+          "label": "Combined biochemistry",
+          "slots": [
+            {
+              "id": "biochemistry-1",
+              "label": "BIOMG 3350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [],
+  "manual": [
+    {
+      "id": "elo",
+      "label": "Approved experiential learning",
+      "instruction": "Confirm the department-approved six-week, 150-hour experience was completed after NS 2060 and before senior fall."
+    },
+    {
+      "id": "credit-and-college",
+      "label": "Minimum credits and college requirements",
+      "instruction": "Confirm the 59-credit minimum as applied by the program and your college's graduation requirements. Check the AP credits, pre-health sequence and statistics policy with advising."
+    }
+  ]
+}

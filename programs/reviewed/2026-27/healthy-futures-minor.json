@@ -1,0 +1,484 @@
+{
+  "programId": "healthy-futures-minor",
+  "name": "Healthy Futures Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Seminar, fieldwork, design, health, hospitality and electives, with choices based on the student’s major.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/healthy-futures-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "seminar",
+      "label": "Hospitality, Health and Design Industry Immersion Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 3055",
+            "HADM 3055"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fieldwork",
+      "label": "Approved supervised fieldwork",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "DEA 4020"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 1
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Healthy Futures electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "codes": [
+            "AEM 3440",
+            "DEA 1110",
+            "DEA 1112",
+            "DEA 1500",
+            "DEA 2025",
+            "DEA 2200",
+            "DEA 2700",
+            "DEA 3308",
+            "DEA 3510",
+            "DEA 3530",
+            "DEA 4500",
+            "DEA 5700",
+            "HADM 2365",
+            "HADM 2560",
+            "HADM 3470",
+            "HADM 3510",
+            "HADM 4130",
+            "HADM 4145",
+            "HADM 4190",
+            "HADM 4315",
+            "HADM 4320",
+            "HADM 4500",
+            "HADM 4515",
+            "HADM 4530",
+            "HADM 5365",
+            "HADM 6033",
+            "NS 1600",
+            "NS 2600",
+            "PUBPOL 2301",
+            "PUBPOL 2350",
+            "PUBPOL 3180",
+            "PUBPOL 3230",
+            "PUBPOL 3280",
+            "PUBPOL 3650",
+            "PUBPOL 3730",
+            "PUBPOL 4370",
+            "PUBPOL 5500"
+          ],
+          "minGrade": "B-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "major",
+      "label": "Select the path that matches your major",
+      "options": [
+        {
+          "id": "hcd",
+          "label": "Human Centered Design",
+          "slots": [
+            {
+              "id": "design",
+              "label": "Health-related design course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 3308",
+                    "DEA 5540"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "health",
+              "label": "Public or population health course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2350",
+                    "PUBPOL 3280",
+                    "NS 2600",
+                    "NS 1600"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hospitality",
+              "label": "Hospitality course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 2365",
+                    "HADM 5365",
+                    "HADM 3510",
+                    "HADM 4130"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "outside",
+              "label": "At least one elective outside the program’s discipline",
+              "slots": [
+                "electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "DEA",
+                    "FSAD"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "public-policy-ba",
+            "public-policy-bs",
+            "health-care-policy-major-bs",
+            "policy-analysis-management-bs",
+            "hotel-management-bs"
+          ]
+        },
+        {
+          "id": "policy",
+          "label": "Public Policy or Health Care Policy",
+          "slots": [
+            {
+              "id": "design",
+              "label": "Health-related design course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 3308",
+                    "DEA 4500",
+                    "DEA 2700"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "health",
+              "label": "Public or population health course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2350",
+                    "PUBPOL 3280",
+                    "NS 2600"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hospitality",
+              "label": "Hospitality course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 2365",
+                    "HADM 5365",
+                    "HADM 3510",
+                    "HADM 4130"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "outside",
+              "label": "At least one elective outside the program’s discipline",
+              "slots": [
+                "electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "PUBPOL"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "design-environmental-analysis-bs",
+            "fashion-design-management-bs",
+            "fiber-science-bs",
+            "hotel-management-bs"
+          ]
+        },
+        {
+          "id": "nolan",
+          "label": "Nolan School",
+          "slots": [
+            {
+              "id": "design",
+              "label": "Health-related design course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 3308",
+                    "DEA 4500",
+                    "DEA 2700"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "health",
+              "label": "Public or population health course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2350",
+                    "PUBPOL 3280",
+                    "NS 2600",
+                    "NS 1600"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hospitality",
+              "label": "Hospitality course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 3510",
+                    "HADM 4145"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "outside",
+              "label": "At least one elective outside the program’s discipline",
+              "slots": [
+                "electives"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "excludeSubjects": [
+                    "HADM"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludePrograms": [
+            "design-environmental-analysis-bs",
+            "fashion-design-management-bs",
+            "fiber-science-bs",
+            "public-policy-ba",
+            "public-policy-bs",
+            "health-care-policy-major-bs",
+            "policy-analysis-management-bs"
+          ]
+        },
+        {
+          "id": "other",
+          "label": "Other major",
+          "slots": [
+            {
+              "id": "design",
+              "label": "Health-related design course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 3308",
+                    "DEA 4500",
+                    "DEA 2700"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "health",
+              "label": "Public or population health course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PUBPOL 2350",
+                    "PUBPOL 3280",
+                    "NS 2600",
+                    "NS 1600"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hospitality",
+              "label": "Hospitality course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 2365",
+                    "HADM 5365",
+                    "HADM 3510",
+                    "HADM 4130"
+                  ],
+                  "minGrade": "B-",
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [],
+          "excludePrograms": [
+            "design-environmental-analysis-bs",
+            "fashion-design-management-bs",
+            "fiber-science-bs",
+            "public-policy-ba",
+            "public-policy-bs",
+            "health-care-policy-major-bs",
+            "policy-analysis-management-bs",
+            "hotel-management-bs"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "verification",
+      "label": "Plan, fieldwork and elective outside the major",
+      "instruction": "Confirm the appropriate path and approved fieldwork with the program. At least one elective must be outside your major, even if your major falls under Other."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 17,
+      "unit": "credits"
+    }
+  ]
+}

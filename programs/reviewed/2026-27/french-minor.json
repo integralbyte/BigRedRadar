@@ -1,0 +1,92 @@
+{
+  "programId": "french-minor",
+  "name": "French Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses on France or the Francophone world at the FREN 2095 level or above.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/french-minor/#curriculumtext",
+    "https://romancestudies.cornell.edu/french-undergraduate"
+  ],
+  "slots": [
+    {
+      "id": "courses",
+      "label": "French and Francophone courses",
+      "unit": "courses",
+      "need": 5,
+      "options": [
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "subjects": [
+            "FREN"
+          ],
+          "numberMin": 2095,
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "approval": "french-minor-anglophone-content",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "minGrade": "B-",
+          "minCredits": 3,
+          "approval": "french-minor-external",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "french-ba"
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "approval": "french-minor-anglophone-content"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "language-and-content",
+      "label": "French content, language of instruction and external coursework",
+      "instruction": "Confirm which courses are in English and whether approved external courses devote at least half of their content to France or the Francophone world."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

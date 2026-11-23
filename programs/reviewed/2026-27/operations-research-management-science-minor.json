@@ -1,0 +1,98 @@
+{
+  "programId": "operations-research-management-science-minor",
+  "name": "Operations Research and Management Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three core courses and three additional ORIE or core courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/operations-research-management-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "Operations Research core courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2700",
+            "ORIE 3300",
+            "ORIE 3310",
+            "ORIE 3500",
+            "ORIE 3510",
+            "ORIE 4580"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Further Operations Research courses",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2700",
+            "ORIE 3300",
+            "ORIE 3310",
+            "ORIE 3500",
+            "ORIE 3510",
+            "ORIE 4580"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        },
+        {
+          "subjects": [
+            "ORIE"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "operations-research-engineering-bs",
+    "information-science-systems-technology-bs"
+  ],
+  "limits": [
+    {
+      "slots": [
+        "additional"
+      ],
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "codes": [
+            "ORIE 4900",
+            "ORIE 4999",
+            "ORIE 4990"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "grade",
+      "label": "Minor GPA and ORIE minor eligibility",
+      "instruction": "Maintain at least a 2.0 minor GPA, and verify the department’s limit on earning more than one ORIE minor."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

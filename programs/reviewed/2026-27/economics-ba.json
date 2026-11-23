@@ -1,0 +1,310 @@
+{
+  "programId": "economics-ba",
+  "name": "Economics (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The current 12-course path including four core courses and three advanced electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/economics-ba/#curriculumtext",
+    "https://economics.cornell.edu/undergraduate-economics-major"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "micro-intro",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "minGrade": "B-",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "approval": "econ-intro-credit",
+          "origins": [
+            "transfer",
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macro-intro",
+      "label": "Introductory macroeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "minGrade": "B-",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "ECON 1120"
+          ],
+          "approval": "econ-intro-credit",
+          "origins": [
+            "transfer",
+            "exam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro",
+      "label": "Intermediate microeconomic theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3030"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3030"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "econ-approved-core-transfer"
+        }
+      ]
+    },
+    {
+      "id": "macro",
+      "label": "Intermediate macroeconomic theory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3040"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3040"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "econ-approved-core-transfer"
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Probability and statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3110",
+            "ECON 3130"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3110",
+            "ECON 3130"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "econ-approved-core-transfer"
+        }
+      ]
+    },
+    {
+      "id": "econometrics",
+      "label": "Econometrics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3120",
+            "ECON 3140"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "ECON 3120",
+            "ECON 3140"
+          ],
+          "minGrade": "C-",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "econ-approved-core-transfer"
+        }
+      ]
+    },
+    {
+      "id": "econ-electives",
+      "label": "Economics electives",
+      "unit": "courses",
+      "need": 6,
+      "options": [
+        {
+          "subjects": [
+            "ECON"
+          ],
+          "numberMin": 2400,
+          "numberMax": 4999,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "excludeCodes": [
+            "ECON 4997",
+            "ECON 4998",
+            "ECON 4999",
+            "ECON 3010",
+            "ECON 3020",
+            "ECON 3030",
+            "ECON 3040",
+            "ECON 3110",
+            "ECON 3130",
+            "ECON 3120",
+            "ECON 3140"
+          ]
+        },
+        {
+          "subjects": [
+            "ECON"
+          ],
+          "numberMin": 5000,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "C-",
+          "approval": "econ-graduate-approval"
+        },
+        {
+          "approval": "econ-approved-elective",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ],
+          "minGrade": "C-",
+          "excludeCodes": [
+            "ECON 4997",
+            "ECON 4998",
+            "ECON 4999",
+            "ECON 3010",
+            "ECON 3020",
+            "ECON 3030",
+            "ECON 3040",
+            "ECON 3110",
+            "ECON 3130",
+            "ECON 3120",
+            "ECON 3140"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "4000-electives",
+      "label": "4000-level economics electives",
+      "slots": [
+        "econ-electives"
+      ],
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "ECON"
+          ],
+          "numberMin": 4000,
+          "numberMax": 4999,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "econ-electives"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "subjects": [
+            "ECON"
+          ],
+          "numberMin": 2400,
+          "numberMax": 2999,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "economics-admission",
+      "label": "Major prerequisites and approved placements",
+      "instruction": "Confirm the declaration course prerequisites, qualifying grades and any placement conditions."
+    },
+    {
+      "id": "economics-residency",
+      "label": "Minimum Cornell coursework",
+      "instruction": "Verify at least six counted courses at Cornell and which prior core work was accepted.",
+      "when": "transfer"
+    },
+    {
+      "id": "away-credit-approval",
+      "label": "Approved away and graduate courses",
+      "instruction": "Confirm any approved study-away courses and the three required graduate-course approvals."
+    }
+  ]
+}

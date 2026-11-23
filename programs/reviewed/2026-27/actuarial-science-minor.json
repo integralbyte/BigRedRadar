@@ -1,0 +1,96 @@
+{
+  "programId": "actuarial-science-minor",
+  "name": "Actuarial Science Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two foundation courses and three Cornell electives, each with a grade of C or better.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/actuarial-science-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "financial-math",
+      "label": "Financial mathematics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "STSCI 3090"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "Probability",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 3110",
+            "ECON 3130",
+            "MATH 4710",
+            "ORIE 3500",
+            "STSCI 3080"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Actuarial Science electives",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "AEM 4210",
+            "HADM 3230",
+            "AEM 4670",
+            "CS 3780",
+            "STSCI 3740",
+            "STSCI 4090",
+            "STSCI 4270",
+            "STSCI 4550",
+            "STSCI 4750",
+            "ORIE 3741",
+            "ORIE 4630"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "major-overlap",
+      "label": "Major credit overlap",
+      "instruction": "If you major in Biometry and Statistics or Statistical Science, apply only the probability course to both programs. Keep financial mathematics and the three minor electives separate."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "programId": "human-ecology-bs",
+  "name": "Human Ecology graduation requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "College core, distributions, academic and Human Ecology credits for students entering in Summer or Fall 2026 or later.",
+  "sources": [
+    "https://catalog.cornell.edu/human-ecology/",
+    "https://human.cornell.edu/student-services/registrar/requirements"
+  ],
+  "slots": [
+    {
+      "id": "he-intro",
+      "label": "Introduction to Human Ecology",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "HE 1850"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-justice",
+      "label": "Social Justice, Thriving, and the Human Experience",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "HE 2000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fws",
+      "label": "First-Year Writing Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "fws-second",
+      "label": "Second First-Year Writing Seminar or approved equivalent",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "approval": "as-writing-seminar",
+          "minCredits": 3
+        },
+        {
+          "approval": "he-approved-ap-ib-writing",
+          "origins": [
+            "exam"
+          ],
+          "minCredits": 3
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "ENGL 2880"
+          ],
+          "approval": "he-writing-2880-eligible",
+          "minCredits": 3
+        }
+      ]
+    },
+    {
+      "id": "natural",
+      "label": "Natural Sciences",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "BIO-AG",
+            "BIO-AS",
+            "BSC-AG",
+            "PBS-HE",
+            "PHS-AS",
+            "PSC-AG"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "minCredits": 3,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "he-approved-distribution-natural"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social Sciences",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "ETH-AG",
+            "ETM-AS",
+            "KCM-AG",
+            "KCM-HE",
+            "SBA-AG",
+            "SBA-HE",
+            "SSC-AAP",
+            "SSC-AS",
+            "SSC-HA"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "minCredits": 3,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "he-approved-distribution-social"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Humanities",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "ALC-AAP",
+            "ALC-AS",
+            "ALC-HA",
+            "CA-AG",
+            "CA-HE",
+            "HA-AG",
+            "HA-HE",
+            "HST-AS",
+            "LA-AG"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "minCredits": 3,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "he-approved-distribution-humanities"
+        }
+      ]
+    },
+    {
+      "id": "quant",
+      "label": "Quantitative Analysis",
+      "unit": "credits",
+      "need": 3,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "distributions": [
+            "DLG-AG",
+            "DLS-AG",
+            "MQL-AG",
+            "MQR-AAP",
+            "MQR-HE"
+          ],
+          "minCredits": 3,
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowPassFailOnly": true,
+          "minCredits": 3,
+          "origins": [
+            "transfer"
+          ],
+          "approval": "he-approved-distribution-quant"
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "layer": "college",
+  "totals": [
+    {
+      "id": "degree",
+      "label": "Academic credits applicable to graduation",
+      "unit": "credits",
+      "need": 120,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        },
+        {
+          "approval": "college-approved-academic-credit"
+        }
+      ]
+    },
+    {
+      "id": "college",
+      "label": "Human Ecology credit",
+      "unit": "credits",
+      "need": 45,
+      "options": [
+        {
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "HD",
+            "NS",
+            "PUBPOL"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "subjects": [
+            "HE"
+          ],
+          "numberMin": 1500,
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "approval": "he-approved-college-credit",
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Human Ecology entry route",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "Entered Human Ecology as a first-year student",
+          "slots": [
+            {
+              "id": "he-intro-first",
+              "label": "Blazing Your Trail in Human Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "codes": [
+                    "HE 1800"
+                  ]
+                }
+              ]
+            }
+          ],
+          "transfer": false
+        },
+        {
+          "id": "internal-transfer",
+          "label": "Internally transferred into Human Ecology",
+          "slots": [],
+          "transfer": false
+        },
+        {
+          "id": "external-transfer",
+          "label": "Entered Cornell as an external transfer student",
+          "slots": [],
+          "transfer": true,
+          "totals": [
+            {
+              "id": "residence",
+              "label": "Cornell credits for an external transfer",
+              "unit": "credits",
+              "need": 60,
+              "options": [
+                {
+                  "numberMin": 1100,
+                  "excludeSubjects": [
+                    "PE"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "approval": "college-approved-academic-credit",
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "degree"
+      ],
+      "unit": "credits",
+      "max": 12,
+      "options": [
+        {
+          "grades": [
+            "S",
+            "Satisfactory"
+          ],
+          "passFailOnly": false,
+          "excludeNumbers": [
+            4990
+          ],
+          "excludeApprovals": [
+            "he-only-pass-fail-required"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "degree"
+      ],
+      "unit": "credits",
+      "max": 12,
+      "options": [
+        {
+          "components": [
+            "IND",
+            "RSC"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "college"
+      ],
+      "unit": "credits",
+      "max": 12,
+      "options": [
+        {
+          "subjects": [
+            "DEA",
+            "FSAD",
+            "HD",
+            "NS",
+            "PUBPOL",
+            "HE"
+          ],
+          "approval": "he-special-study-series"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "requirements",
+      "label": "GPA, timing and credit policies",
+      "instruction": "Verify an overall 2.0 GPA and college core timing. Confirm any credit cap, post-matriculation external coursework, special studies classifications and grading exceptions with the Registrar."
+    },
+    {
+      "id": "outside-major",
+      "label": "Human Ecology credits outside the major",
+      "instruction": "Use the outside-major credit requirement shown in your program or official curriculum sheet. Confirm credits if your major or declaration cohort has a different rule."
+    }
+  ]
+}

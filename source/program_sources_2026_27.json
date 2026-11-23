@@ -1,0 +1,4363 @@
+{
+ "catalog_year": "2026-27",
+ "observations": {
+  "actuarial-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "d7ea06fa4e95ac8b6a825c5f68c75e94dcd733caf3f3b81cc94782ddacab26fa",
+     "table_count": 1,
+     "verified_course_link_count": 17
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "26682f12d72b5e0c1257c9c320c1c5c42b78b6155056b858b3a1e5466ef479e7",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/actuarial-science-minor/"
+  },
+  "aerospace-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 7,
+     "sha256": "10743eee459807aba21410db2d9971c308326854c966c44f900d1fb8eeae83e0",
+     "table_count": 3,
+     "verified_course_link_count": 46
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "f152e9ad27331ba8c06512e98eec98b2d95772c17067acf681ac35714e62c346",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/aerospace-engineering-minor/"
+  },
+  "africana-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "7ac0d89c0cbcc8b76692ba098bf13db7cc283a6c3251f0261ecb624170786f5a",
+     "table_count": 1,
+     "verified_course_link_count": 1
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "b7b85fd00a1218ebae3443e0b289f37cadd155b66b7d58333c3cf9237501657e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/africana-minor/"
+  },
+  "africana-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 37,
+     "sha256": "f1451afcc91700c848ec9f9b014a6c6a35c403be4c4b0a3f84c6f8b9c60d9b9b",
+     "table_count": 1,
+     "verified_course_link_count": 1
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "f71dd5f530ae45658c8f59ed1d36191169fe87e42d328e2dbf502396f315c65b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/africana-studies-ba/"
+  },
+  "agricultural-sciences-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 3,
+     "heading_count": 70,
+     "sha256": "e3b7d390ad113700f4b3355c995429d1afed4190c8a2c2b5c0e47cd0f07346c9",
+     "table_count": 15,
+     "verified_course_link_count": 111
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "26abe3e8ca5005b301ef01e6dd9a701be7c3468aab9303a2d5ca3f99741fce5e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/agricultural-sciences-bs/"
+  },
+  "american-indian-indigenous-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "cd79bfd73c45ddef6232a16bf319e798a42abfe198dd8516e1f37e04149feca8",
+     "table_count": 5,
+     "verified_course_link_count": 40
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "3a23e3a69e9b242b184524b8af2cf39aca8c0be82abd9bcf4f99cbbf9707e9e7",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/american-indian-indigenous-studies-minor/"
+  },
+  "american-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 40,
+     "sha256": "671b2e127b630eda25ba6dd3abd4455894478f679f1c72febfd245bd55e25f54",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "05e8f8251cd798e681ece1cfd7f658399649a5f433ae4c9bc6163e126f0f3fb8",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/american-studies-ba/"
+  },
+  "american-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "020e3e71024a928578ceb01669dfc56c8e07c5e8fdee091b9cea95b7983a5e81",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "88c8a826306e6257e001fa7be3f338e93e48bb90fa76ea8a01ba2a7a8a0a77a6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/american-studies-minor/"
+  },
+  "animal-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 5,
+     "heading_count": 60,
+     "sha256": "3289a896deee9c5430f214f5cdb096bf5c416249c41e2a4234e66458188a2f10",
+     "table_count": 6,
+     "verified_course_link_count": 165
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "e007a7794fa2b15961d3057c5cb728a77da4c6ef45fe67ff8f68eebbea0951d0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/animal-science-bs/"
+  },
+  "animal-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "509bbd7148d8c3c52a39f0ca4f41855506b7f1116642f4df29fc0b9a0f6b82a0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "adead79f32b2832e85360561ebc377e3a6180434ba94c10281e4e00d24a83d8e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/animal-science-minor/"
+  },
+  "anthropology-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "3794a1d0e4af97f4fe8e0f3679a29b1b1d0c8273f60dbac56445c269ebb5d495",
+     "table_count": 1,
+     "verified_course_link_count": 11
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 10,
+     "sha256": "036531877fbe51b3ff1f99796c8178334a2f9299f79cedbfb3cde9d37149a035",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/anthropology-ba/"
+  },
+  "anthropology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "4da67114900866c63fee3965173779228ecdcb1cc97b83be14cff11887fe84d8",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "bd5f322aad95f8857244c2211a0841010c60f6ffe7dde786176709e6d4c7abd4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/anthropology-minor/"
+  },
+  "applied-economics-management-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 3,
+     "heading_count": 55,
+     "sha256": "6feb84791d514cd65d2870782856056b5849e947e90ead9567caa6410bc09be9",
+     "table_count": 18,
+     "verified_course_link_count": 164
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "737068dfdda97eab3d7e19610bac3c357ed6c4028cfbdb1979eb7701a9113e40",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/applied-economics-management-bs/"
+  },
+  "applied-economics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 3,
+     "sha256": "9c600624e12a20cf21e50c807581f21506ae33ab4a7866056b403f512a28f059",
+     "table_count": 3,
+     "verified_course_link_count": 21
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "881848e2f59f3740868ff4f876e1e9c3c281e26575b5ff7567be2f73d0e38cd9",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/applied-economics-minor/"
+  },
+  "applied-exercise-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "b1d451cd3006b388d75f6210db8a7d1bc9c033c05f85971212033ddc5c291b6a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "ae129b068667bf3eab1c6663dad0fdbe741586a31aa5909fdba61b7fc3e96387",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/applied-exercise-science-minor/"
+  },
+  "applied-mathematics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "7dd5081daef84723407ca749c927da657cc7e5c1db5258d545de6d362a99f5d8",
+     "table_count": 10,
+     "verified_course_link_count": 36
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "d54cbefd44a532aa32db74f4024e94c18d436cbf95c62d717f9c39e0bc09c7e3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/applied-mathematics-minor/"
+  },
+  "arabic-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "66c5f9ff1715b61edb5957606ca5e092ff4836c985864fe47256de07ee7f4c7a",
+     "table_count": 2,
+     "verified_course_link_count": 10
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "fd9be2d90e3762639fb932d80078021c9abb52a3771c6df1c7dbcb0e9a1c1916",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/arabic-minor/"
+  },
+  "archaeology-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 49,
+     "sha256": "6119b619f96032c8e01d20d0c401652b2a704769084e19bce1d4304eb6340ef4",
+     "table_count": 8,
+     "verified_course_link_count": 264
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "166c64f6140f5f4f6515b1b9e12a986395c53043ac7a2301ec4bb4c262d99fca",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/archaeology-ba/"
+  },
+  "archaeology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "f011b65564b722d518025af18856d2590d1babc60273d3d370662cfb14251a91",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "f68402ce1f417b239f369369a72a030d84e685b44cb562f8652714396c527716",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/archaeology-minor/"
+  },
+  "architecture-barch": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 43,
+     "sha256": "70fd28cd94e38e2f1e5904618f62d721c201ca5772297796af4fe01940e454a8",
+     "table_count": 6,
+     "verified_course_link_count": 55
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 13,
+     "sha256": "97ca1cdb353fc06b25e97b5714f5bba7c11ef3055f06c14096897792eb1ab004",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/architecture-barch/"
+  },
+  "architecture-minor-for-non-departmental-students": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "3254e0c83900ec35cdcd8f8583d7dfa5e9e3aaf9ddbaf801181db6ee94f6b3e8",
+     "table_count": 1,
+     "verified_course_link_count": 6
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "d7d3ecdf7ba3a1509af8d46454b2ca97a175390df46e7eaad922c7f598e348e4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/architecture-minor-for-non-departmental-students/"
+  },
+  "art-bfa": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 7,
+     "heading_count": 33,
+     "sha256": "957ad4d79848137fc45a0c092b78aef6f8fbedcd51497a398b4f1a37afc4be1f",
+     "table_count": 6,
+     "verified_course_link_count": 141
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "e6fe271a3a83e37ac2c68c47a9d3ac27c7f22d9491aa39d1e3479e6a52a03735",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/art-bfa/"
+  },
+  "artificial-intelligence-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 7,
+     "sha256": "d0d5baf5a87010bb26068d924b6814bddd3ac0b72ff074826bea94b39eb75881",
+     "table_count": 1,
+     "verified_course_link_count": 70
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "3efc5d93023693fab6c1d332bc4997f78e6ead80ac4c57ffaf8acf39c3966d2d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/artificial-intelligence-minor/"
+  },
+  "asian-american-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "31528be44969efc8d48509c4d4cf360a60355c67ae35a6e7b479dcb493acd054",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "92d0acaed3e1001746f7f25c7fa8ac325e84803558f576e6896c05620abc967e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/asian-american-studies-minor/"
+  },
+  "asian-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 42,
+     "sha256": "d985edf41a3e78b0795b85e8bbf5e0102c6c303b11649ebb16217bce350fc8a4",
+     "table_count": 5,
+     "verified_course_link_count": 485
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "aa2957913c8351da941574c415d9c47ae479473947378b818f2a246ab7056282",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/asian-studies-ba/"
+  },
+  "asl-deaf-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 3,
+     "sha256": "0727891011c1d25e146e4de7c652f74ee4b0009544bc76af4bdb002a126354f1",
+     "table_count": 2,
+     "verified_course_link_count": 19
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "cc203f1507de0f8e82e0ca374f3ce96debdd6cced6a21d419905aceb03450b72",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/asl-deaf-studies-minor/"
+  },
+  "astrobiology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "6b575eb6cb3545a52ca697825f296b9bc759c99eaca9a5305954abe786f10cfe",
+     "table_count": 1,
+     "verified_course_link_count": 20
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e392bf00b7123e21bc593e1f2faaf37aa4843d8129c91cc5da1d12b505a9bf03",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/astrobiology-minor/"
+  },
+  "astronomy-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 3,
+     "heading_count": 42,
+     "sha256": "f788e61ca611431ee3290414134191b542188f3ff4891190b08896865c2e5fac",
+     "table_count": 5,
+     "verified_course_link_count": 39
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "f4a195df1d209a0c6013252d6eb3e96aefe0fc4b8e2687998ba3aad455a0e77f",
+     "table_count": 2,
+     "verified_course_link_count": 8
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/astronomy-ba/"
+  },
+  "astronomy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "82322fd02374699d586438dbedd3353a7fdb48ef70998f7b63ce20951d01cd06",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "d4981d3cc39b41b617f2e6eb0c7b042a3b12c48ffc33159bfe96fcc539fd7da5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/astronomy-minor/"
+  },
+  "atmospheric-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 53,
+     "sha256": "50513139ee452acf97a8623a71c694d04785e957928e4e28a50dbe6e972d159d",
+     "table_count": 4,
+     "verified_course_link_count": 32
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "47f585d7096de417c9d3bf8fae92f3c43b15a584e2de36bdae0f9041483ad6d0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/atmospheric-science-bs/"
+  },
+  "atmospheric-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "8487ec7f733f05cdffd6bff0beb38569a74ae113739de6ccb3f0d750dd8cdb92",
+     "table_count": 1,
+     "verified_course_link_count": 13
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "c6f2c62cd2042c7359d1efeb575a127bda1525cbd77e86827c2dc7ddcbdbace5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/atmospheric-science-minor/"
+  },
+  "biological-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 54,
+     "sha256": "2789f5c7729dc63deb0d76f97e54742f8d7560071aaf59eeee120c4f5e21d5fe",
+     "table_count": 18,
+     "verified_course_link_count": 79
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "8f0a90a4546822d7eb84a762465f9b1a086f9c103c84279a8fd30d1eb2f20d94",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biological-engineering-bs/"
+  },
+  "biological-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 7,
+     "sha256": "a4ed7e6b9e7e114adfb7cdcee99b85e9cf76a78cac3e9cbb8e749eca1a7f3fb7",
+     "table_count": 2,
+     "verified_course_link_count": 12
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "983e0de0b2ab6768cbb7d7d4c933bd1ddcd6a3dfdadc99ed5a521e9bef3337ca",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biological-engineering-minor/"
+  },
+  "biological-sciences-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 13,
+     "heading_count": 117,
+     "sha256": "c375e9552aa12161139bb09af958e96e4b22c48776d8d1eee3856ddada84172c",
+     "table_count": 39,
+     "verified_course_link_count": 255
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "393779dbed7361947a91cfa90256a2c5cfe8f6cd4cb8d0018c2186a81c5b6f40",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biological-sciences-ba/"
+  },
+  "biological-sciences-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 13,
+     "heading_count": 132,
+     "sha256": "7f6f95c56c861fb3fdd241e0f1438c27f0f71fae9594515a400c7d5001982c27",
+     "table_count": 39,
+     "verified_course_link_count": 255
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "2c95de9c3944bcf1a005365e5387293149046881bca126ec0114b78064961a27",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biological-sciences-bs/"
+  },
+  "biology-society-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 5,
+     "heading_count": 89,
+     "sha256": "f19c25c63f9ad470dd62c41c48a94a3878787a46ada54a8deb5ac6e33adc529d",
+     "table_count": 12,
+     "verified_course_link_count": 214
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "06bc2b9a2eaad3354fc5719d175a2e966b1c5d061d8b4c6ee0d2e41fe53029d8",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biology-society-ba/"
+  },
+  "biomedical-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 11,
+     "heading_count": 57,
+     "sha256": "f8dc5973ba9a3df5a960d10bd605122d331a0d0b9c0db24b22c917a706f31def",
+     "table_count": 15,
+     "verified_course_link_count": 121
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "1d4ffe8ca17d5c1400d0c2cc022e02215cc6d9883481778843745072575c27ec",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biomedical-engineering-bs/"
+  },
+  "biomedical-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 9,
+     "sha256": "402bfaaeebf4312f10665d46fff4170a8911311f963288ed223e8e3cee580d5a",
+     "table_count": 5,
+     "verified_course_link_count": 25
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "492495f869dabf5e89a4210ff9f5b82da944ef8faa95974f6f71bd2178283ac2",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biomedical-engineering-minor/"
+  },
+  "biomedical-sciences-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "9f742083fd0f8a762a1584936e7b4a6351fd75f0141b87e1ea6a73cb97580d0f",
+     "table_count": 2,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "c2992e44652abb12975d101b56c1ef5100cf1202504a899b478a1dc0eef8fc6e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biomedical-sciences-minor/"
+  },
+  "biometry-statistics-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 55,
+     "sha256": "8997079eabf32fcdb375d2c0737f5150a51f807ea42bd1a26e4fdedef296384b",
+     "table_count": 2,
+     "verified_course_link_count": 51
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "7dd8814f967276e25af972231802bc7363baced14c69d2c92724b5eaea0a7bbc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biometry-statistics-bs/"
+  },
+  "biometry-statistics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 3,
+     "sha256": "6906f0f53047c31ee645a8d94e80a67e0e2c56e233d713db3388b5c857e5aec5",
+     "table_count": 2,
+     "verified_course_link_count": 41
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "cad15d967f4648e98d07f3c1b1e3a543a06197d37fd73d77245235a6d3625d1e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/biometry-statistics-minor/"
+  },
+  "business-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "cd30bf4b8d084b57dfc64cc1d7b7d7c7bc126d42343a2708048e04e4b64fc679",
+     "table_count": 5,
+     "verified_course_link_count": 39
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "774bea530eb6b23fd2fe30f1aa4ab5225e5d7c73cc963205aa14861440118a2a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/business-minor/"
+  },
+  "caribbean-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "d5df977b11c5634f9a3bc0f933644e5f20c7728c32c8d7ba0e59f8530bb4eb67",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "89dac4fd0cbafaba8bab58b3ceca7bb857223352d0adab3207e7e5bcf4665980",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/caribbean-studies-minor/"
+  },
+  "chemical-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 7,
+     "heading_count": 50,
+     "sha256": "636d0c1c772da9e0847fa3997edd367feb38caf266fc7c0829a47adcb3095c8f",
+     "table_count": 11,
+     "verified_course_link_count": 107
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "b51f3a5cf7daea77077296d8065fa4eb4aec31d81dff05468e872c1db32774ad",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/chemical-engineering-bs/"
+  },
+  "chemistry-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 51,
+     "sha256": "fb667411de976e6956e0939676a5876135174ddd446e767c0d9aa66eabd81d30",
+     "table_count": 7,
+     "verified_course_link_count": 27
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 6,
+     "sha256": "90e57824d592d2db138ad8b984cd9131d5e3426e996d83c1c3acaffc554a7c1a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/chemistry-ba/"
+  },
+  "china-asia-pacific-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 41,
+     "sha256": "f58085cf8375d528606bc7eff876ebe868ff97ed31a6cd456ec8de60b265bd7b",
+     "table_count": 3,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "1d4e560ba4284e72b41b1a14b5daa8e243617474a1133e74d7aae7225f0775e4",
+     "table_count": 1,
+     "verified_course_link_count": 2
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/china-asia-pacific-studies-ba/"
+  },
+  "china-asia-pacific-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "ff54c2964b9fcae25062157bcb9c46745a9f1c81cfe02ec18dee4cada91d10b2",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "4f69b86dc55716cfe2938b8f265c58112f619a4d69bbd242549e09209d1f35e8",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/china-asia-pacific-studies-minor/"
+  },
+  "civil-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 7,
+     "heading_count": 52,
+     "sha256": "5fdf93c21b3c1ca804c248b9ab2e2ea06c944f4b92e62120f37f9021fc407dc4",
+     "table_count": 11,
+     "verified_course_link_count": 108
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 6,
+     "sha256": "32cd55f116c8d9e81e57c2259d42724f601f80edb68ef6a30f04c598e08ef35f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/civil-engineering-bs/"
+  },
+  "classical-civilization-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "29a3768807fcf93eeca1aa06b660d2983eae7265f0476048f24dcd4345952e2d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "5c73e125e75ea0308a850c47c3a03b70944a887aa8b977741d349216783fda5f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/classical-civilization-minor/"
+  },
+  "classics-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 4,
+     "heading_count": 41,
+     "sha256": "450e30c7c842be2851cd158b3f901f12da559bde17f30c13986700551e8cd1ba",
+     "table_count": 4,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "fc12815e52cf44304c1210a4afad22d48845984736d8cde1efca2d625b1cbe63",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/classics-ba/"
+  },
+  "classics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "9bb14dbd7e9865de351526de9d26e982afa0e5031e961dcbf005e395edd53f06",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "06f1a726dbe07ce15df04962ee75a458a1b41486027f43e64fdbbcd9a82a5e3e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/classics-minor/"
+  },
+  "climate-change-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "b73f6b44c4176765b13f916149dbd2bcc8c8eb2c1d8154cc43f7a34751475a56",
+     "table_count": 4,
+     "verified_course_link_count": 31
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "79694a18b269853335fb7e854cd4ea361a13fe199502f5ae8f5635240f35f14f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/climate-change-minor/"
+  },
+  "cognitive-science-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 49,
+     "sha256": "6015862eb5c99dfc2f5a1aecc68549792473aa912dd7bf725142344ea8f9aede",
+     "table_count": 9,
+     "verified_course_link_count": 185
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 10,
+     "sha256": "4e2d7d4b104f94d2e779417e50c0f3e0be39762b43995d967562967fdc9c9b8e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/cognitive-science-ba/"
+  },
+  "cognitive-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "12c9dbab3dbcbc3134b9ac5ba3c63fdfc52067abf40848d30d1ffbbe2a45d76f",
+     "table_count": 5,
+     "verified_course_link_count": 26
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "6948ebb62341f9d94168712e8672d89c76a38cf953d9da84a146556ef62619a4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/cognitive-science-minor/"
+  },
+  "college-scholar-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 37,
+     "sha256": "f9161b47e3fa0a0b7f70919ef4e363ad74d6387ebdc31453546ed4ab9cbba258",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "83015fe8e4f21e60903433b2fc50aa6439f7adce9ccefcedb589aa69b032be07",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/college-scholar-ba/"
+  },
+  "communication-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 52,
+     "sha256": "5aefdbcd322315dc410bd6869c4891211b2911deabd5028a7bc5ea9eeced5fb2",
+     "table_count": 1,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "36ae4c0e9c9bf3468d956fa4a646551b90cd90cb4253a0bb956b206e046056ee",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/communication-bs/"
+  },
+  "communications-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "ef4aaa13ca6d929e2243e14bb486777364b062b0106177f9a202505f3dff9185",
+     "table_count": 3,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "ccdfd5b180539eec0b2cccedc3a4c8ebca2c0982e3b031079d84df00c445acb4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/communications-minor/"
+  },
+  "community-food-systems-minor-cfs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "ea1005162e8d1efac258472fac00b246f9293f733f26389b8365603a9e3a3fb2",
+     "table_count": 2,
+     "verified_course_link_count": 20
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "fec98f18ef7abd4c2d3ddfaa0317b2d8c1b0e19edafab83a3a988dec91b28e51",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/community-food-systems-minor-cfs/"
+  },
+  "comparative-literature-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "ae2caab686f3e4d0bf76962bd540db695808c746c266768561ecee622512bf90",
+     "table_count": 1,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "2a78f8ee2656c3366a634af9732bea263788a07f50fd314ace5d2595152c07a6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/comparative-literature-ba/"
+  },
+  "comparative-literature-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "a4caa3bc49817bf9d06877d71a03230f9fffb16e3379f86127f8911678991155",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "a3cb19d81f07765982410ceb71968dbb0b26bfe52332e008133d12d37a926245",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/comparative-literature-minor/"
+  },
+  "computer-science-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 38,
+     "sha256": "08ea21a562ab84068874e4fbb692b039fa4c01c92e6a15f246c95457fad753e6",
+     "table_count": 1,
+     "verified_course_link_count": 40
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 5,
+     "sha256": "d9202d208cda63e3452eb1cfe15b1034774d3e49c2d19fd89f92b2b446f3c2af",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/computer-science-ba/"
+  },
+  "computer-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 50,
+     "sha256": "a911b98d68592a7e10c617f8e31e42c3861e2891d5f588ef8f8060a6cd092e87",
+     "table_count": 10,
+     "verified_course_link_count": 82
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 5,
+     "sha256": "241cd30c5cf49e1375d5df022189647d175e45d6d29cf62d5694a2be36541b6a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/computer-science-bs/"
+  },
+  "computer-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "deef0b51a0702e832b87495e8db8f8e3f9e0dc3d60887b2b2d940f684d0d5f88",
+     "table_count": 2,
+     "verified_course_link_count": 8
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "0fe66fc546c2431caed5c6f4292e4c0ebb4fb3f286a9b6896ceba8f9b249f2d9",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/computer-science-minor/"
+  },
+  "creative-writing-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "c1ec3058be21abfd4c2f957a1d1d46bbb6f182e809bfab9df08c04bd8b6cc0cd",
+     "table_count": 1,
+     "verified_course_link_count": 5
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "bff30006789db0decf16fd1b7371548c695fdca644fef3ff540d6d9f0fe3acaa",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/creative-writing-minor/"
+  },
+  "crime-prisons-education-justice-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "4f5c9744a3a9ac20eb3b860f8c4f917461ad2f8d4f1fa9dd8238975e273e8955",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "f7605e24aad9a780404748f32d82ccdc9f46eb4a318c8d947a29f809de5af4e6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/crime-prisons-education-justice-minor/"
+  },
+  "crop-management-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "520d98fa7b996daabd5f98c6d939bcbaaa35514becfa43862586cb0a3fd2e0ee",
+     "table_count": 1,
+     "verified_course_link_count": 10
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "902a6484ac6112922e918f239efaf8768ba88989e8a459d0b6b87ae37804ab23",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/crop-management-minor/"
+  },
+  "dance-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "88d00f706f035a0ccb1e1dcfdd4a3773391b2dcf58ef2919ddee9c8d0fe90040",
+     "table_count": 1,
+     "verified_course_link_count": 5
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "292a6ed4f92c49429c4d471be8b673e965eff808325f32bef0c2152a86bedffe",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/dance-minor/"
+  },
+  "data-science-astronomy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "5267c487524be9423abad569a9b1bf9ec289b6c7e741b2e5a8e05f5f84145dcf",
+     "table_count": 3,
+     "verified_course_link_count": 23
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "368b4fe013a81b48a47bd5e543be10c0b43f70e94df6bb7796ea9455ca2c653d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/data-science-astronomy-minor/"
+  },
+  "data-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "96c5e99f765fc1ac0ec4c2bff4c17e2a8520d14c67a9cc94ce23bb50424d8ecb",
+     "table_count": 6,
+     "verified_course_link_count": 166
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "d443ba83a929b4844063b8e84e019187f81a767ef6aa02f5cfbb02c31eca227e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/data-science-minor/"
+  },
+  "demography-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "65c2ad0f9166454c4602990ceb76af35af5e656c1c3ce59aa85cfcfd8078232e",
+     "table_count": 1,
+     "verified_course_link_count": 64
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "5055fb3e382033f7cd062c2efe0c53c44c24b2ae27c94b1bde9f3064f4196892",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/demography-minor/"
+  },
+  "design-environmental-analysis-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 41,
+     "sha256": "e3cb23654b11b724578ad820053401c210d774bd55993c30d66be64b7b1f5e34",
+     "table_count": 16,
+     "verified_course_link_count": 62
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "06357136d1efbb3835f0d1e161183ae15303da8498d040dcffb5ec22b468f918",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/design-environmental-analysis-bs/"
+  },
+  "design-environmental-analysis-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "c4578776a053ea6dbb788cb7af2c7259116a78928e5e0fd8abadc43ddec9a870",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "8888e44f9cb39dac2304d433d5f940a69e81a2603592ffbc7ea844b6d11e60ac",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/design-environmental-analysis-minor/"
+  },
+  "digital-agriculture-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "1d2111c9c51b94bdb21e291be5d08ec5e479f85101249c90a20d9c93c40ecdc6",
+     "table_count": 5,
+     "verified_course_link_count": 67
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e9e95264c9bfcbe541b6b1145f32250e2ad25eff19461ef676ada0cc792b2203",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/digital-agriculture-minor/"
+  },
+  "dyson-business-minor-engineers": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "6a0e16a3b056c79d5abfbdf20234bf65e3b4d4a6c707c8776efdee65d1787c41",
+     "table_count": 5,
+     "verified_course_link_count": 21
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "14220eebd1f7b786ef383bd2ff6e5d0b49348ee3228bf2022f6c1e1966dba4b6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/dyson-business-minor-engineers/"
+  },
+  "dyson-business-minor-life-sciences": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 5,
+     "sha256": "01d254edb742ea862a024dbe89ff0b53594ac27f24a6345e4da93d254c2f15d1",
+     "table_count": 9,
+     "verified_course_link_count": 41
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "38f2cfbc015f6ee06845fb21bb3f08b77788afbf7a3012c7ef07eecf9aa32277",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/dyson-business-minor-life-sciences/"
+  },
+  "earth-atmospheric-sciences-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "1d21f8c50d73f1cd14e2b02eed0bcba3335dba8d13e8c3c97e86ffb7a5385266",
+     "table_count": 1,
+     "verified_course_link_count": 10
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "0cd1efa8d83f3efc7c6afed603cc6bb730018a3fe12e522e7369d3376c83c86e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-minor/"
+  },
+  "earth-climate-sciences-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 4,
+     "heading_count": 51,
+     "sha256": "8ec8fd1530efe9b1cdccaa1d87620d360a7816f6c864a7efcea24a2ecb04f1f5",
+     "table_count": 9,
+     "verified_course_link_count": 59
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "2c024ba1a9d6369bb24f0bed9873c78eab5ccc84d83895eaed5441c6fa52bf0c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ba/"
+  },
+  "earth-climate-sciences-ecsag-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 4,
+     "heading_count": 66,
+     "sha256": "7bc76ff80e9148f164a32c0f1d82560b45e9db547b43b1af7b60b64749d9f2e1",
+     "table_count": 12,
+     "verified_course_link_count": 59
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "8577eabaa43d2c046af628298167cdad7860683bac8cddf6291d79fb21b49228",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ecsag-bs/"
+  },
+  "earth-climate-sciences-ecsen-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 10,
+     "heading_count": 62,
+     "sha256": "d2331e161db93cc7dc4fa610dc86ee5d6157915f3c08d32c46f73cf8402ff2f6",
+     "table_count": 21,
+     "verified_course_link_count": 100
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "4d4c61caf4537edc2f61e693491cc91e629e7191ff7c0319083ed2c031bede57",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/earth-climate-sciences-ecsen-bs/"
+  },
+  "east-asian-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "7e2c6e82689dcffe373e3ded94c5b94a6594c64cf14aef6ec60e4a46916f1f77",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "cb00758e7a326a212a18ac787710e8888d9d1f446eb5426454c0d97bfb1c1178",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/east-asian-studies-minor/"
+  },
+  "economics-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 39,
+     "sha256": "91990a941d985f5474727e53b4c3b555b7d4eb564d2677ee69051f9cbc62973e",
+     "table_count": 1,
+     "verified_course_link_count": 8
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "06b03f5892838c68b9e0c612b1b66838c8e215ccd362f805876ef73497dda924",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/economics-ba/"
+  },
+  "education-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 3,
+     "sha256": "e4e5fd38651df58cd83862683bc5c299266f99749edd2b9e1ff6afc233b1363d",
+     "table_count": 1,
+     "verified_course_link_count": 21
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "ec8244c8e00b0ce73a4baee3aa9c23aac575e4fe645e802246f9dc25f273f512",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/education-minor/"
+  },
+  "electrical-computer-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 7,
+     "heading_count": 50,
+     "sha256": "5b9d9adfb1899142b93568fc58787877db69318c6e278038d8e84ee0c5984b97",
+     "table_count": 14,
+     "verified_course_link_count": 62
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "1b2b376f8319134fa68e191df51641403ee8d6bfa412cb48879a9f7305678d99",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/electrical-computer-engineering-bs/"
+  },
+  "electrical-computer-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "1f090d2a4a2e72ff4c23f21d8c936282a13ca34491c1ac922987feb2f9b91313",
+     "table_count": 1,
+     "verified_course_link_count": 9
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "e3df102b8dc086b4cc33643f81044db491f4714be03c50a9837588056cbe7578",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/electrical-computer-engineering-minor/"
+  },
+  "engineering-communications-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 7,
+     "sha256": "789f998df06457b8c17088077b4d0a6417c7c7ec7a3a995823f8fbd8b8dd6458",
+     "table_count": 5,
+     "verified_course_link_count": 66
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e4acfd8c4c7e9195554e8f816cd3521c4d9bdb0273d40426b62bb805832a51eb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/engineering-communications-minor/"
+  },
+  "engineering-management-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "0886a18ac14e1001406b7ef04a3189adfdc93b5a8abf3716e6692951a7a402b9",
+     "table_count": 2,
+     "verified_course_link_count": 11
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "8be53f086d21a283ab390bde04203187c07ea169b5c41e162ab5f56b8f8a3238",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/engineering-management-minor/"
+  },
+  "engineering-physics-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 49,
+     "sha256": "23911be58f9d5f19953145ded54afc4dd2d8e200ae333ccab6bb0f40442bf157",
+     "table_count": 10,
+     "verified_course_link_count": 59
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "3630719034b583c1b6b8c33e4ae97fd224470a0da18ed7f71e9f81b7e79afebb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/engineering-physics-bs/"
+  },
+  "english-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 43,
+     "sha256": "16e3b8e4f8c2b300cf2f58e5ad41dc45cb8a376f55ffb37392b800c3f35b813a",
+     "table_count": 5,
+     "verified_course_link_count": 241
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "1c720198ac6582654d2c194c9b4d512824b713a3ca92426935fa994f87599669",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/english-ba/"
+  },
+  "english-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "79bb6c76c576fa751230fcb03140dc10e4c76a82ed61a725287c92214f87335b",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "893e386e1abb615068e81c0384c07d9ef49df3134b354f4c2d7e4146452bbced",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/english-minor/"
+  },
+  "entomology-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 55,
+     "sha256": "aa556dc66683ec016bc88bf7ca6718fb2afc9b6a0d4f980a3d4a0672f0cb20e2",
+     "table_count": 3,
+     "verified_course_link_count": 49
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "04ed181524cb65b14f152c14843a3b0829f71fa1aab383e17cb6990029d542b9",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/entomology-bs/"
+  },
+  "entomology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "c5e734a6395e5e8a0677a64231f438f92196722d517f91021a4c9759d85d6eb8",
+     "table_count": 1,
+     "verified_course_link_count": 24
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "6aba648645aad47beaef554b104925abd844505b505a2ccb2f772e2d1c8292d5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/entomology-minor/"
+  },
+  "entrepreneurship-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 7,
+     "sha256": "3b02e2693b06afe156564e07538c04b4c1ba4499e67095ace79b513e0fba2d12",
+     "table_count": 6,
+     "verified_course_link_count": 45
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "d7fc6807ee5ab5cf19ee54337a0029928ac155f2e1df86805fb241352f88b007",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/entrepreneurship-minor/"
+  },
+  "environment-sustainability-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 112,
+     "sha256": "63c67db38cc69526bd1f5b03a7e666763d9c1642a3dee9880a58363211ac050d",
+     "table_count": 56,
+     "verified_course_link_count": 249
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "af6218a6d6f0abe4f63087cbe2335d42c8ab6c5305fb804afe6e716feb8744bc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/environment-sustainability-ba/"
+  },
+  "environment-sustainability-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 126,
+     "sha256": "dc1f5af36b600f09c987e55e7dd4f62c0977b8085d63c91b6c7fb25e84a84e7d",
+     "table_count": 56,
+     "verified_course_link_count": 249
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "af6218a6d6f0abe4f63087cbe2335d42c8ab6c5305fb804afe6e716feb8744bc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/environment-sustainability-bs/"
+  },
+  "environment-sustainability-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "8857517b73fbb104cb72cbf9678e3303fb3bab7634e51cc4497225a851804d2d",
+     "table_count": 1,
+     "verified_course_link_count": 146
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "fbaeadff7123706cd46871190da4c4df34474f27c41e8ef0bbfb703762dd6411",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/environment-sustainability-minor/"
+  },
+  "environmental-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 49,
+     "sha256": "a59637a5cbff2355b965589a3fcf1627ba3d5e2422fb33f4df17ce904d1d86e8",
+     "table_count": 10,
+     "verified_course_link_count": 83
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "5b1a0b51ee48c4bf495d62043a1b714d6ada99ee3712ff166d396f5c45555385",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/environmental-engineering-bs/"
+  },
+  "european-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "185a06ec0a576182c47f49d157ee2c9c6e608ef1aa9edb0948b275117d446a81",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "63f1ecafe555d7da3f0c89a8776586be50fa8ef983f10efcca6a6964868fa6fc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/european-studies-minor/"
+  },
+  "fashion-design-management-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 11,
+     "heading_count": 56,
+     "sha256": "d7ae014f4eafc72cf093a8ea85fca93348cbd20a2970b3b0464c5987a16ff55d",
+     "table_count": 35,
+     "verified_course_link_count": 77
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "046206a81d3f8499e28cac878718b8c6e6e2c0edf1c50b562c819bcab9111ec1",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fashion-design-management-bs/"
+  },
+  "fashion-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "0fff1a19b3a607b8363e6b3e5481d6698ff3528da9c2a05fb3d5667f3d339854",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "48ff3048134c2a392d93a513fd6bacd0499208b48af31ab55c3ff163306b0639",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fashion-studies-minor/"
+  },
+  "fgss-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 38,
+     "sha256": "e51c4c648cb593574acf595b8a16535049f03e61153b2a2db4b7ed24d75c5507",
+     "table_count": 1,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "42679058c158a2de9ff9f2dd5fe84fe4c81e555693a6a0a3155383549f3f63d5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fgss-ba/"
+  },
+  "fgss-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "f6c097ab759319981aaf7724ff2513593f78dbb05c575df157bccdadef624012",
+     "table_count": 1,
+     "verified_course_link_count": 2
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "d62d804bcf59936e50a713b0083ecf5348fcc887304a67ed8554d8134a9f7fe2",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fgss-minor/"
+  },
+  "fiber-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 9,
+     "heading_count": 42,
+     "sha256": "2f7eb20090ebfb803e7dc232ae4512a8a2f75725f5c334aa74e3627e70d918db",
+     "table_count": 21,
+     "verified_course_link_count": 66
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "4f667ad0b59b8f0557a15422553b90bf3beb07acea872ad6abc52737691c4bd1",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fiber-science-bs/"
+  },
+  "fiber-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "bcc00a09dce0b5ee597091a8ba75bd4f428b3c9b92f27a1966025b1522d4754a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "ad8b066e7926c32a94ba0210ee749b526420a400d5f84b0182340340dc465e84",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fiber-science-minor/"
+  },
+  "film-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "6d20fcfee48d25175e35c3b5106819acb97f7aee0919b5b39c3ca3fc13c6d683",
+     "table_count": 1,
+     "verified_course_link_count": 7
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "6cd262767e8dbefd57054dd2a1f8a866d14d71c38d281102ef3e5017ef9547a6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/film-minor/"
+  },
+  "fine-arts-minor-for-non-departmental-students": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "eb47ccb00fa304f38378a4b14acbd2958dca0dd41ece01573f0ca1e0415d7ca6",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "81c6e10bf0efb51e9b80049072ca730090afd45e18cd6bd1be36768664e27bfb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fine-arts-minor-for-non-departmental-students/"
+  },
+  "food-agricultural-business-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "7989e62d2c3650bd1288f6e3ae2dc032980f3d10d4004dd7028e2790a5eaeb9a",
+     "table_count": 4,
+     "verified_course_link_count": 28
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "74c0d8fcebf6b00bf95d14abccd4b4ef55d3c401dbb33547ea5cca016cb4568c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/food-agricultural-business-minor/"
+  },
+  "food-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 3,
+     "heading_count": 58,
+     "sha256": "0424b769387b0b6f8d635dd302693f38273d9492a79dd0884f63431143e37fb4",
+     "table_count": 11,
+     "verified_course_link_count": 60
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "3cd8edf23eff45397150c39b96cb2920c4df334708c71b3281dc4118a3624bea",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/food-science-bs/"
+  },
+  "food-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "fbc410ea8d5e50d4968fb07761dff77c24f604d806dfbb384871ff39f2a009ed",
+     "table_count": 1,
+     "verified_course_link_count": 5
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "e2efafc985038e3c1cbb2819c4a45d07b869ef9c40c59411c0b41d89288c5296",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/food-science-minor/"
+  },
+  "french-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 37,
+     "sha256": "5c6ac50f16a0b737c8096624336c8dc32b3def43f18652bb67f8a336c7384fe5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "20c0b0f5a04488b6ded5e4c70d3e75c36b63ef36b3e8c3922a0804f0fb99b7ce",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/french-ba/"
+  },
+  "french-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "96304d33eafb51420a62ad9465ef73286775640441df273a09023b4579d4397c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "0b72aaf9068d2809828fbf07fce5195171aa020fa2300e67b5d3fb9e06a369dd",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/french-minor/"
+  },
+  "fungal-biology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "71c273dfd1df4e1e19a705a38f32221f523309bd73b59a8ff0a55513a11a6290",
+     "table_count": 1,
+     "verified_course_link_count": 7
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "0f6f1f20b74f604d1dd5d78e690ca66b09d5142e64dc29e45da6dde64c59689b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/fungal-biology-minor/"
+  },
+  "game-design-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 3,
+     "sha256": "3309b26fffe60161f7843fc403358c5c1d366bedc49f03e0d099a88ba6e02382",
+     "table_count": 2,
+     "verified_course_link_count": 174
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "ab5ff0c310ee4698f786437c83430e10be6859cd8f686cd2549d5374d540e42d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/game-design-minor/"
+  },
+  "german-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 39,
+     "sha256": "ac65106e8d74a365c95d99ef41e335e65d7310e4f22f0e1ea19d3158b7e7d4c2",
+     "table_count": 2,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 12,
+     "sha256": "8aa8f0e55320d45d68f3f4807b3c74aa060737c3c421cf8c38464f868e6cd128",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/german-studies-ba/"
+  },
+  "german-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "35d738d166c3deb38b0bd61e432efb4aa5bb08b1b9963bcac44df6131dbf30c7",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "7997f972b1aed7ad2cb92d81dc0e3b41268d6f028443ff6cc9e7d3e9041b8369",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/german-studies-minor/"
+  },
+  "gerontology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "31895cc9474eda66bf2360e20121085a4d43a101758036115901bc4f77aceda9",
+     "table_count": 2,
+     "verified_course_link_count": 23
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "5517b348b614a2dcb5f2b15754c372d535191438564626f6a1b119e6c689b340",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/gerontology-minor/"
+  },
+  "global-asia-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "168c771c240bce16dd65d459551fccf703abb6d52f68aec61eaa2a1df245906d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "cb00758e7a326a212a18ac787710e8888d9d1f446eb5426454c0d97bfb1c1178",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-asia-studies-minor/"
+  },
+  "global-development-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 64,
+     "sha256": "ac22dae427a0be76cb6c3af1e44ca08baa53ec3edf9393920c3718a6f7d37116",
+     "table_count": 12,
+     "verified_course_link_count": 77
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "904271427bf20bfb2746f661147a6b0eb123208a0e5102298cb8b63cd3498c42",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-development-bs/"
+  },
+  "global-development-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "b330b989032bdbcd4644fd8c24dd354f4c1ce7cfcfa657498b7940a243df1b3d",
+     "table_count": 1,
+     "verified_course_link_count": 6
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "8b848fb810946d9a6b3f253df0fb4311003ad4b7c529f81be82aff212a96edcf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-development-minor/"
+  },
+  "global-health-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 9,
+     "sha256": "d6ad482d8cc5002a59ddd7b64dd56fe7c17770ce86adb6e19bba6ac0509fbf42",
+     "table_count": 5,
+     "verified_course_link_count": 74
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "f6ea2c05cb0144a105712d1c6358aeb0a3d340f5ea0e709b969ac9d107931f12",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-health-minor/"
+  },
+  "global-public-health-sciences-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 65,
+     "sha256": "fc17ca41acef57635b4b16cdbd0f16f4ca9bab5433b0b4aea654e00fdf909370",
+     "table_count": 12,
+     "verified_course_link_count": 90
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "03c0f05ccb0bf3ca352b761cf1d10f6c55867754e6a5b919adf13f918dcb2803",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-public-health-sciences-bs/"
+  },
+  "global-public-health-sciences-hum-ecol-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 9,
+     "heading_count": 34,
+     "sha256": "d30df8f834a5eee849d35d944f920e5419e3b0895dea7e3883064ba2a3f789a1",
+     "table_count": 15,
+     "verified_course_link_count": 93
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "03c0f05ccb0bf3ca352b761cf1d10f6c55867754e6a5b919adf13f918dcb2803",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/global-public-health-sciences-hum-ecol-bs/"
+  },
+  "government-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 44,
+     "sha256": "c3c9ecc6ff5195ee0470fedb22c041fcc34e92353e4bbe37c30c519a0d9e2cbd",
+     "table_count": 6,
+     "verified_course_link_count": 230
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "6c0744da48256dfcad8cdb39ff3cf2453769962a9758ae3579dc495b7ff0b9b3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/government-ba/"
+  },
+  "health-care-policy-major-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 24,
+     "sha256": "4b72c14945f18d6fffa32f9edfc1808e6169e0b9481f2837291ac229657b3bfb",
+     "table_count": 4,
+     "verified_course_link_count": 61
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "58918e3299e92629097f4e4580b98c9eeb73d970d9e8419b1d2460af01211a3b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/health-care-policy-major-bs/"
+  },
+  "health-policy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 3,
+     "sha256": "2462c6ecf3a679b27af9790e67dd67c73fabaaf1c3a0226f213cfd0a3eb49dfc",
+     "table_count": 2,
+     "verified_course_link_count": 30
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "9505a66f8e77151e13bc864a510f962265aebe3d6bd35464f9b113b1872b73f4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/health-policy-minor/"
+  },
+  "healthy-futures-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 10,
+     "sha256": "efab7cd4a75bb835dc450056250b0efd1af1b5cb2316cff1287f643b45b05986",
+     "table_count": 8,
+     "verified_course_link_count": 35
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "5908d3701ff4cbdb7acfc6e601e46db500247956e378f616de9816caac56f242",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/healthy-futures-minor/"
+  },
+  "history-architecture-urban-development-bs-haud": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 17,
+     "sha256": "3cfc4289c0d4aa3e588880521e5de7ded22d7601da79d2c4075ded748f3d0517",
+     "table_count": 1,
+     "verified_course_link_count": 7
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "457d6f2d2ef967f3a1186c9f92a7bd84904d30dfaa49f5b53c18c5de9c716f9d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-architecture-urban-development-bs-haud/"
+  },
+  "history-art-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "31555986083cc79c7345d468a23eacab4c4b319a5e5a5aef478eadab1b9ce73a",
+     "table_count": 1,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "6ebfd5a690d30dc43ec26d5c9b0ca9afe987ae66483ce29b9a9acd49b81f9ffe",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-art-ba/"
+  },
+  "history-art-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "03faa6fd30ca5eb2644b09a65dcac6d743bf01f795a5aff1ba311db037ee286b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "f7ab3b57ab6083ca510b81067c5eecfc8f96a1b04c576ea034c7bd350cf53728",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-art-minor/"
+  },
+  "history-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 45,
+     "sha256": "65bd9b88789b54206266c056b205a3584258b0de11ced94b97f8a1cf98931660",
+     "table_count": 7,
+     "verified_course_link_count": 643
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "0e2abdc95e6d7a7aec9c5384d92bde963cd5e311f23d5bb0e9f426027830d9e3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-ba/"
+  },
+  "history-capitalism-interdisciplinary-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "c34894312dc5af6877512bfd999029592b81b2d890e5746d00d1616626067599",
+     "table_count": 1,
+     "verified_course_link_count": 10
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "1e0dcebe3871d262e1fd01cf069de405140db45df3ec753013a43ca633083d08",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-capitalism-interdisciplinary-minor/"
+  },
+  "history-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "862111b0db9a413522feaefd3ef29ac5ad64b12c6ca76495fd91c70465f26915",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "07f6056101c6f47519f92c009ef2b4c3f2d9a29fc673facf72286230c13f0adf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/history-minor/"
+  },
+  "horticulture-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "6f99011635335524f53ad88e0d4a1be684a47e8b90a1780d0f25d734c46f4b25",
+     "table_count": 1,
+     "verified_course_link_count": 16
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "e9edc669735b5209828cba9cde555e3f6d5048568419608ff6c0c829068edfbc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/horticulture-minor/"
+  },
+  "hotel-management-bs": {
+   "sections": {
+    "Admissions": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "b6e51c9e689eb2aa55f93a8b74fcd3f375f2c80f3117b3262fe6710372e65e25",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 28,
+     "sha256": "7c4257f9d0117c59af6531fdb7f5b7d00055581ab912a0b2eb1654e5128ff6ce",
+     "table_count": 1,
+     "verified_course_link_count": 19
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 12,
+     "sha256": "f6dc6dbc9eda73ebe9fa41c22e24c9a83852c525caf4cff3613fbf8345929f67",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/hotel-management-bs/"
+  },
+  "human-biology-health-society-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 11,
+     "heading_count": 39,
+     "sha256": "f6dd8e1654ba14363c0d540a1edbe3a3bc8a095c8275cc86f405ec05d061cfba",
+     "table_count": 20,
+     "verified_course_link_count": 105
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "f5f8e5074ece1bee0a62d53ba0301eb609b660780600685de73d7ff7cdd900ff",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/human-biology-health-society-bs/"
+  },
+  "human-development-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 7,
+     "heading_count": 41,
+     "sha256": "f7a78807c944dbb98f3f718ad03bf88cc5deca706630db5e419c200f1c48643c",
+     "table_count": 16,
+     "verified_course_link_count": 57
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "56da59d646a52aa8b3f5bf4330a130279877aeedd0ea57b49332a0ecc6e64403",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/human-development-bs/"
+  },
+  "human-development-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 1,
+     "sha256": "979cbd2ace61be42423b7a526c304c734f7e30c99e2bec7245d5d26f235c6d6f",
+     "table_count": 1,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e9836b04e43754fe36a3061d128645791189ed9fcb0e3df19ef953e427cc1fdf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/human-development-minor/"
+  },
+  "independent-major": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 5,
+     "heading_count": 49,
+     "sha256": "8394d5cf1db54a4d11769d524fe4fa6da9dfc2a858665f881d6817a55e8dfb49",
+     "table_count": 9,
+     "verified_course_link_count": 48
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "0262d92b6c80e33d5acecfa19a30bf627040f3bb5b6774d6188a5019febe8358",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/independent-major/"
+  },
+  "industrial-labor-relations-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 18,
+     "sha256": "b9a615a2eec96df0dffcc04566785834cd35f19fe72e32eb88c8f5bf06093860",
+     "table_count": 8,
+     "verified_course_link_count": 13
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "16476c94928349997906b78303d3265efe18031b531daf264d7fa0f32f70ccd4",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/industrial-labor-relations-bs/"
+  },
+  "inequality-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "54ef555b9a448eda67578bd03c918e9827bfad7e9b15253aa7439825a2b1ea4f",
+     "table_count": 2,
+     "verified_course_link_count": 20
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "572cd008f9b52d680079475b409e2e5d06cd5ec2c3a4b058f7ffb6910a02df97",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/inequality-studies-minor/"
+  },
+  "infectious-disease-biology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "97b6e7fedbd7976d48023ee188017f032bc88a6cb6e3848867111526b1ceb6db",
+     "table_count": 1,
+     "verified_course_link_count": 23
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "063b1f82d6a030ab7de006aa4aa5b0e3c3f68bf55a73f7f0b189a42a38aac2b5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/infectious-disease-biology-minor/"
+  },
+  "information-science-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 21,
+     "heading_count": 81,
+     "sha256": "d6da9f727932e92222b97cb78653b33a9c2e071a00276245a34f2adf1fc1c4d8",
+     "table_count": 29,
+     "verified_course_link_count": 107
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 10,
+     "sha256": "783e56eb4bd24feb99cbf025d798d4829fc49505363d91aeabdbcfdbfca2410d",
+     "table_count": 3,
+     "verified_course_link_count": 23
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/information-science-ba/"
+  },
+  "information-science-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 21,
+     "heading_count": 96,
+     "sha256": "894b599a1c47c8a1fbb04e8ee222bce752dc6cb67905599e4c19f9a969a7ed8f",
+     "table_count": 29,
+     "verified_course_link_count": 107
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 10,
+     "sha256": "339e01398ea102aab6ef566bcb4b6b3943e418af90ba4f50241cdbdecf8d4a63",
+     "table_count": 3,
+     "verified_course_link_count": 23
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/information-science-bs/"
+  },
+  "information-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 11,
+     "heading_count": 15,
+     "sha256": "2b5e3716c540076c2b7fb287b32601fd5566e53a19f777a89b8b6a4c728e3537",
+     "table_count": 10,
+     "verified_course_link_count": 97
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "8048587a386a3f5e40d2a74da0b13029d33e53624e970851c713fc6d66ce359a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/information-science-minor/"
+  },
+  "information-science-systems-technology-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 13,
+     "heading_count": 60,
+     "sha256": "08989baaf7c2170fdc466cb6f953530797c988dfa60b4f37237a0aaeb90af24b",
+     "table_count": 17,
+     "verified_course_link_count": 138
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "c3f4a114b229c5d1686c4ee281a931164099decccd006b0b00eea19608ab1da3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/information-science-systems-technology-bs/"
+  },
+  "interdisciplinary-studies-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 52,
+     "sha256": "cb659f926d950b87f27cb116dafc23f023133f37a9a8e0ebc5dce059be5d25d3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "cff2378c2e726d52d73cc1b9028460a36af73c9b37b88430814298f17935cc6e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/interdisciplinary-studies-bs/"
+  },
+  "international-markets-development-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "d8b89b38b1b35757c3543c3de17c9374e083d68d5ff7310ab813a4c28040d72b",
+     "table_count": 5,
+     "verified_course_link_count": 27
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "54f0332cc510ce520980f0062000aafafd08eb1b6ce4e02e094f34f8af400d45",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/international-markets-development-minor/"
+  },
+  "international-relations-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "057238a7fcf58e056cf41acfea9140b81a418bd23eda8a2517e362f5347563d8",
+     "table_count": 4,
+     "verified_course_link_count": 116
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "e1c5ccba167f1ee1581512ed2dd9626181a812cb8697c51bd545a0b0d885f090",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/international-relations-minor/"
+  },
+  "italian-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 39,
+     "sha256": "24fa0f54e6b706892f4fcc26936b3d7e9cd0563f89685043389f21a9f5459e59",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "36efa370e133ee74ea98e8ce75064354bac61d63bb0772f9ba1e2d3f02554a1c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/italian-ba/"
+  },
+  "italian-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "9a7205b7f979824f0e3afc4be72b327bec1d47414a19d8ea10fb69ee8f3b9c0e",
+     "table_count": 1,
+     "verified_course_link_count": 3
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "69c0abed848549867ea83fe83e267c4f852a880187cd9e4f749a4ee2f479de91",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/italian-minor/"
+  },
+  "jewish-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 48,
+     "sha256": "5b483eb27645209ae02f87da6722e26096a4a046ed39f24f77b08af0d345b673",
+     "table_count": 8,
+     "verified_course_link_count": 16
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "37a6edee1e886947cb6280b7a6385fbd8de11f99a4d26a281dc9073ddbddd544",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/jewish-studies-ba/"
+  },
+  "jewish-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "4d6db21116447068e622c3d37d26baa851d1de6d2d132566ad0d76d5e5a4bf03",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "913afc64ed649f0fe947acf7103a8ad296a54900bd30377a3644e6ecf7f5c556",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/jewish-studies-minor/"
+  },
+  "labor-social-justice-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "b85fc7c6ef76d81f11d625fca073143aa5b341a3053226bf785c42f822951611",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "56bfd16ecb5889878f1ccf6977e46e6ef1e681b7111221f059455f6c7a7bdd8d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/labor-social-justice-minor/"
+  },
+  "landscape-architecture-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 56,
+     "sha256": "9109bd4a1be18691f16238f555d7a4a334c12a24d5379ea9cf5fb613b985372d",
+     "table_count": 4,
+     "verified_course_link_count": 19
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "c4e74e8830928ba482270854bdf3fbd199b45048dd38fe4405aeab3077718783",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/landscape-architecture-bs/"
+  },
+  "landscape-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "81a76ec382914ac46e22612357fe7862782dfeacfa177b473047e30a2bedb564",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "5155e938a0e4f21942d87c512a4d2150be79fc30dd3482f76976f8515c3e58b0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/landscape-studies-minor/"
+  },
+  "latin-american-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "e95d1f6fd6d779169d04c82d755ae130f7477eda251a90b67090d3b9d29dd728",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "4acf2ebf944ba9960f0a9d0d501839948b128df5ebbfb3d3b5ab7b02e56d46f8",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/latin-american-studies-minor/"
+  },
+  "latina-o-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "f69ce3517ceac008821a012a39459a75ac094499c4159e109becbb8a52f16da1",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "40be6e04b25c9580ffa3ce6357c278d13682ea98dade95ae10407ada3745ff07",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/latina-o-studies-ba/"
+  },
+  "latina-o-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "ea82c26a2095f300ac567ead81053315c05ab1531c0cface3cf01a14e5acb950",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "5f422e223ba9b46e01373588d3b404b33f8e9ccc9178d34567f2d7a6b7363920",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/latina-o-studies-minor/"
+  },
+  "law-society-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "5792fb6de9a4c527ffba31428b360657964842d7dae7a54d86d737930683a48e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "3b5e7d48a668bf7fbdb02ebcbd7919c7ea7957f9846ad55cc1e719e9c779fd83",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/law-society-minor/"
+  },
+  "leadership-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "408a0f1c1c3244660004cb492fa0905efd377f21be21c185af8d373115db2a09",
+     "table_count": 3,
+     "verified_course_link_count": 69
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "a25e2fd9d4c87a688821cd0582d4efc143ddb3cd83a7d9d81b749e5aa0035c40",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/leadership-minor/"
+  },
+  "lgbt-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "ac5e399f36a5ad9d13a8da1d21f718a80a4affdd9f58cce0cd04ed88ae6c1362",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "8f930693d35e1307a20f19f8f84fd6496ea9d7c86478403666a75d0d5935e53f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/lgbt-minor/"
+  },
+  "linguistics-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 40,
+     "sha256": "2357ef0d2266b21d8996e081cc9c7106231e1c93f0892a80457774cdae7dcf91",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 6,
+     "sha256": "69b47d8d914c82a0a006f19e4325c8d7c87f5eb813efcedabd0f8f5f5950f7bc",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/linguistics-ba/"
+  },
+  "linguistics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 5,
+     "sha256": "369e9a4f4f080cbaccdcd2c001812f356f4a14f08d898f82558e468a5ae13225",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "fdc4602e9d9a7b3be7b8ab8f6a49aae47d1eda2ccd34f668bb0559239e0222fa",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/linguistics-minor/"
+  },
+  "marine-biology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "dd261c2ccea140da9a5a8a920bd6736b6c7f0d243284055d0cc39e6a8ac65cb8",
+     "table_count": 1,
+     "verified_course_link_count": 20
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "c6ac02c09d400129e0b8b5936392c3a0db264ff4aab130dd6daa86f4baca108f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/marine-biology-minor/"
+  },
+  "materials-science-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 49,
+     "sha256": "b4c6b9f2a3477402b76d6d18000bfe89cfd63707d314ec3f0a30be786dad6ed4",
+     "table_count": 10,
+     "verified_course_link_count": 62
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "2867ed04f3cd2613c61f7b03d6eba31cb35bb7fc90ac248435668d1a7102ad10",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/materials-science-engineering-bs/"
+  },
+  "materials-science-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "0357497fede5aaf8df88b9b339ee8d88032b9832406cb3b35dba15c5434528ad",
+     "table_count": 1,
+     "verified_course_link_count": 9
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "bb5a6e88a94bb9e9fde4ddb7d7789d1751a8d99af357cbd467825d639a90b42c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/materials-science-engineering-minor/"
+  },
+  "mathematics-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 5,
+     "heading_count": 46,
+     "sha256": "4e7eab857205c4b23cc93fccf6e82654b900bb385f3e091774146eae313dd726",
+     "table_count": 10,
+     "verified_course_link_count": 126
+    },
+    "Overview": {
+     "footnote_block_count": 2,
+     "heading_count": 9,
+     "sha256": "68727e93ffd651b844f01cf252c14bced1eddd4904a3dc59537dda9e8018e90a",
+     "table_count": 1,
+     "verified_course_link_count": 11
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/mathematics-ba/"
+  },
+  "mathematics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 4,
+     "sha256": "c41c53425a0a75cb68a03a50ef870ea4f3a404a57d66dda541a4aa454b9cb1b6",
+     "table_count": 2,
+     "verified_course_link_count": 27
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "171808c495a3b7da00b278cbcc68a26b5f224066a24ec49d62db53cd3ddee918",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/mathematics-minor/"
+  },
+  "mechanical-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 8,
+     "heading_count": 58,
+     "sha256": "40e95b97d14689ad28f885f74ac02f040c837f2ec70b6f7f2145a32d81f2df02",
+     "table_count": 22,
+     "verified_course_link_count": 125
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "0f7a8aa5b8dc259bd6be59cf6de2c0dd782ecdbd62e1de1f26933d75e4920655",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/mechanical-engineering-bs/"
+  },
+  "mechanical-engineering-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "2fe71d279f90f1c1527ffc8397fbdee846d7cf655e0a34469d23f8a9f233f8f1",
+     "table_count": 1,
+     "verified_course_link_count": 2
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e224c16ee008e3b236bebacfdbcb84a63e5a7e48f53f4a4b6890580a6c7ff080",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/mechanical-engineering-minor/"
+  },
+  "media-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 6,
+     "sha256": "87a6c315e13c29def78c7f1ef8cea380cdbb9f6882f547677b84d1f15659d00c",
+     "table_count": 3,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "3c29062b1f988f151d33de93e60484daa7157ca4d41b84bfc24b287688ffc685",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/media-studies-minor/"
+  },
+  "medieval-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "64a589e781ffd200f2b597f2b0d01604400e8c4f3d94a861bb29a88e2e3e84f1",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "f404e48c52ec700f83e6a663d062e8ebe6c58a9efed5f306bdf77a1d0bb38dd5",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/medieval-studies-minor/"
+  },
+  "microbial-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "82aa01c875f111aa9822fb659045f1cc742f4107f1a3e5d6b7e71bac40d81131",
+     "table_count": 3,
+     "verified_course_link_count": 18
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "d5315ce68da624b4fd58372f4ba23474e0d50ebab44b18bdedeec8e40e64df12",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/microbial-science-minor/"
+  },
+  "migration-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 6,
+     "sha256": "0e2faa18f63821d4e191c1dbec9188ddaa98cfb80a90baa60d2636d440eccbb1",
+     "table_count": 2,
+     "verified_course_link_count": 72
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "5fc2555f1af66c458f906205dfe8e6b981c2ede7e8b292d69be37fe181f34d21",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/migration-studies-minor/"
+  },
+  "mitws-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "62ee851d6805fe470249f9d689b8c7427866e1c93ffee78d93732beea181d67e",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "493ecc572ceedd4f0a78e90edf468e28f8992c88ba0a0ccc501fd38162eb6634",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/mitws-minor/"
+  },
+  "moral-psychology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "a90fe0aa5e23177ab4da9142a190fec315ea5bc27c73224a2e1cd10f5023cb04",
+     "table_count": 1,
+     "verified_course_link_count": 9
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "1909f4ba799055e5da5e5ae6d4e3b6cbbee03e706fe35b55855de59b5c8a4a69",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/moral-psychology-minor/"
+  },
+  "music-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 41,
+     "sha256": "ef0364e51e774f639221543fc48ef2ac13b713fcd717a57f4180394a30097b34",
+     "table_count": 4,
+     "verified_course_link_count": 163
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 15,
+     "sha256": "35fcd568a02509a068a5f818ac05d4600a347b56e2dfb81abfcc70a986ec2d7f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/music-ba/"
+  },
+  "music-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "e974022f86db26355470216e9cbbe3f7711a2c825697a6a806d1bf4e0a2227fe",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "03898673f5daaa2f1bfff5cb33f4b9e40e5af813536c325c514675aa8b7774eb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/music-minor/"
+  },
+  "near-eastern-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 44,
+     "sha256": "bbb13b66d8044c4a727e6e42a227de9ce8b6b0ea516dd4adb0be3542a994f0e2",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "5ac30d94c33aef8fc5c55903d5082028bb8f84d65e655e42f7f6c8335ef8c9d1",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/near-eastern-studies-ba/"
+  },
+  "near-eastern-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "046ce929d7b146d99922d85be041f9dce4cf28313c79d9e93d1717a955924520",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "1a594889a159e151091406178ca1a30ef1293c80549fd3aea46999ca7de6f336",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/near-eastern-studies-minor/"
+  },
+  "nutrition-health-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "022fc9aa0985ae03ebc75c444f353be0c1cf8b9bb1b933d2262e77382ffc6af9",
+     "table_count": 2,
+     "verified_course_link_count": 26
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "70669aec26f06d5a7f206334896e677b0ffb93e500b9f94512a4bf678039b8af",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/nutrition-health-minor/"
+  },
+  "nutritional-sciences-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 11,
+     "heading_count": 77,
+     "sha256": "c3c5cbb8424f74b0c827ba0516c898fa5d90782d29be8247ba7e79428c9f56b1",
+     "table_count": 16,
+     "verified_course_link_count": 67
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "b3202b49386b8d7350d56ac55ff2bbb00242b053e158dbad00c3c01123cfc4b6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/nutritional-sciences-bs/"
+  },
+  "operations-research-engineering-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 6,
+     "heading_count": 54,
+     "sha256": "4ef640ced0c6aa4ec5abd1a7cd99db54c47858f39396d7d8abac95830bff1574",
+     "table_count": 14,
+     "verified_course_link_count": 77
+    },
+    "Overview": {
+     "footnote_block_count": 1,
+     "heading_count": 8,
+     "sha256": "c21604af52c9934ee4921e5651e6c2873a4a743d40942fe472de7f111711823c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/operations-research-engineering-bs/"
+  },
+  "operations-research-management-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "a2ba4f60bb29bdda0c50d17f46f0adf20d328149ae7a6d207833f30939463e9d",
+     "table_count": 1,
+     "verified_course_link_count": 6
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "1ebed296818ddccbc54f3c166999ee2b99dc0d4b562ff8a64a3e74d5d17663e6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/operations-research-management-science-minor/"
+  },
+  "org-human-resource-management-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "2a825a2359065c3d096e240742638d9eb43237b298b3faa056b8b32fac1f5f23",
+     "table_count": 2,
+     "verified_course_link_count": 1
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "6ddaf413e7ec25ca7416ed435a0dd1661afa0d97ee7ea0d00792adc8a8c2fecf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/org-human-resource-management-minor/"
+  },
+  "performing-media-arts-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 43,
+     "sha256": "0bd4ebca48190fc9b9782c21c18f505916623d252905e0a5b24f569cb0d47e89",
+     "table_count": 5,
+     "verified_course_link_count": 198
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "e47ecdb5d898a7ff2c09a407689c64bb2b8317d409bf7aa2f9b4d5deb56af592",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/performing-media-arts-ba/"
+  },
+  "performing-media-arts-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "addc39b2084a9cc3727b0ae0d21f6065ce10c8ac3d00b50c9b6db8c791d69214",
+     "table_count": 1,
+     "verified_course_link_count": 6
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "0a38ebe7ca7d6397b8ccad3f82086e20708e567390adbbd07888ad5bbe578c21",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/performing-media-arts-minor/"
+  },
+  "philosophy-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "e7801e09cc028df568073ca12bc8d0ed29bb9f9782a68b65c95149b7fe41fd25",
+     "table_count": 1,
+     "verified_course_link_count": 2
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "a1111a800905406d3c259bbc7bb5a14022af89163040ae167473650baa893a0b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/philosophy-ba/"
+  },
+  "philosophy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "4f202d1121c65a0ada5fe3f9a66645bfba6aeea4f4ecbc4cc167953ab1fa32cf",
+     "table_count": 1,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "7f227fdfc42874985f26530715d19f8337a47fa04a79bf4d46855c1742337d45",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/philosophy-minor/"
+  },
+  "physics-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 47,
+     "sha256": "14693a2a364658c4d34d4a18bd639a8c7fa9553e011868252bc448770cab1092",
+     "table_count": 7,
+     "verified_course_link_count": 42
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "d0a6367c61af3f7ca35689a0d75a6d78fce92013e2ff41b05c0a52a3b3d26a82",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/physics-ba/"
+  },
+  "physics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "1f4e0de5b07cff2e348cd18f86d19ad73d779f67bdd4f67027020ae988017a96",
+     "table_count": 1,
+     "verified_course_link_count": 19
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "aff277aebec3dd59aaccd8ebecbc0bde817a42aacc18191046c3fa4a4230e52b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/physics-minor/"
+  },
+  "plant-breeding-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "e7af9c6dd3680a7767eb9d41fbd3364b7498b5e5970bf3486b495c414217a199",
+     "table_count": 1,
+     "verified_course_link_count": 8
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "a1e767427edbc9d62038c99fd3aa09c9eb7ede566a6aa400717843deb8f64f29",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/plant-breeding-minor/"
+  },
+  "plant-sciences-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 59,
+     "sha256": "5912a63e2c5e247a1c883441091d998fd064dacbf0cee4ef46da631f881bbf44",
+     "table_count": 6,
+     "verified_course_link_count": 29
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "7b20b27169696ae0f52ebde663f58a9e0d79b3481216085bfb861e73f13e5139",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/plant-sciences-bs/"
+  },
+  "plant-sciences-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "7627f2e68dfd0a11592f56c31fde8aa8e6a823adc04e3881046da6010c8f2f4e",
+     "table_count": 1,
+     "verified_course_link_count": 11
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "0f6f1f20b74f604d1dd5d78e690ca66b09d5142e64dc29e45da6dde64c59689b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/plant-sciences-minor/"
+  },
+  "policy-analysis-management-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "27558fe0819c34f363e352d8ddd00d6034649a48e6f2bb8b3728bd111ace70e1",
+     "table_count": 1,
+     "verified_course_link_count": 1
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "96ff848fb6b26e002a2faeac952524c26f724ff1f3508073a2f52c8080f7770b",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/policy-analysis-management-minor/"
+  },
+  "portuguese-brazilian-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "0d7e079d9c3d1fbbf680c4343913ebfa02f67eba6ae47ff81824587bba689bf0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "912959920bc23f451c61b66ae14045fe8326edfb5a42591f2b3f9a660d2cc68c",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/portuguese-brazilian-studies-minor/"
+  },
+  "psychology-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 45,
+     "sha256": "c9bb2a4f2bc07f8d757690647e12288e33bbad019c434136b00c3bee648b4cba",
+     "table_count": 5,
+     "verified_course_link_count": 39
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "0dd26bb8c62757475cbf196eb193c89e3a403ff4ec745015bfa5abe4d9d2e087",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/psychology-ba/"
+  },
+  "psychology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "fc501d10fdea74b850fc2b72fbe87f09a50ec47ab46d22212bd1e057527674ef",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "0eb4ae52bec775f006834bb1d8475382fd3c61bbfafa5ca31d1d66e4440d05ef",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/psychology-minor/"
+  },
+  "public-history-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "20696f4bf7660eb9aac2199e7417974ef14a56ba90484a6fa550fa7c872cdeab",
+     "table_count": 1,
+     "verified_course_link_count": 2
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "5ab46aa7200cb44e902edefc75133c54ac709b8b35eb4ab928073fd5b64e63ff",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/public-history-minor/"
+  },
+  "public-policy-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 39,
+     "sha256": "07c0beeafa98ebfcb01cfca165f35a955265c7908d985cf5f2c1b726264dbe8d",
+     "table_count": 2,
+     "verified_course_link_count": 21
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "a4e12ddd8b0d660f8c416faa9815e4f9a0e2d09731dd0e8436c203e4921bdfdf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/public-policy-ba/"
+  },
+  "public-policy-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 21,
+     "sha256": "778f3b432af3449270150a8896827ecb73363154390ecec7bd3056a4fc92d2cf",
+     "table_count": 6,
+     "verified_course_link_count": 19
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 11,
+     "sha256": "e12eb3f32847cfd1407a463eac87ebd6b8aae4283248c8d05d0f96c816be424a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/public-policy-bs/"
+  },
+  "public-policy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "fcb57c457339697bcd84f024908cab7b8175e383ca97c8316f94eacdb2e67015",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "e4f25be4b6ccfd6b7545a1c9a1111afb7f63ec336ed0323d6d983ff15b4b68eb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/public-policy-minor/"
+  },
+  "real-estate-minor-nolan-school-ug-students": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 13,
+     "sha256": "1292351498b1dd2b361379321c71bc3adca5b4eabd771c57ef859c65fe142b0e",
+     "table_count": 7,
+     "verified_course_link_count": 73
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "deef02d861724875d6797f694610bf0bb2a83d66cdaec152c5315f798fd91c5f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/real-estate-minor-nolan-school-ug-students/"
+  },
+  "religious-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 42,
+     "sha256": "5ec07b100a033f0a8240692bfb9d33ed12397ab2b9d1c7da2c935c7253b30e45",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 12,
+     "sha256": "2d7f6a8f2f215a39797c4be1b5983505d7aa81f94b930a3746e83ca81c390cfb",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/religious-studies-ba/"
+  },
+  "religious-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "e8479530c2d964648d33da93e02b691b9b1dea3e690a81f07d6c1d6e896e4dfd",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "507099c8da46b2dffab0fdbb4b091519331b51d9bd1fdd3095f1a50a5cca8450",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/religious-studies-minor/"
+  },
+  "robotics-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 3,
+     "sha256": "15088d899beaec889840f03dd42bc6f0df64aedcabaeb086a4f269275b7204a6",
+     "table_count": 5,
+     "verified_course_link_count": 53
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "e7cb4bd6fc589dbe54e40a938f5b4e2d95f4171a504921cbf9d867ef8b37550a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/robotics-minor/"
+  },
+  "russian-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "a15acba07a9e7085fc962795795d652b68260d30c5964ddd1e0221641ac6d07f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "186181b83bdc41c58dc42b823d1137600fbe0d4342ad66c6bb81c7ac020fcc8d",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/russian-minor/"
+  },
+  "sanskrit-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "9c00b645ee98ed770dc821a74a3cb034c9a96ffd0b1efc834e37f6b462c89a52",
+     "table_count": 1,
+     "verified_course_link_count": 15
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "01be37f1c709bd499e26190e39255746aeadf19366b570d914ecbc407a7f66c9",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/sanskrit-studies-minor/"
+  },
+  "science-communication-public-engagement-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "c5cd7ebe2f95fe583f8e10dc48148ab666a5f07341d8de92f79f432ce97c2c44",
+     "table_count": 1,
+     "verified_course_link_count": 31
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "6bcfc58563f0b6b4d7fe9f98bdeea081cbcd7c3e556e174e545298348847c29f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/science-communication-public-engagement-minor/"
+  },
+  "science-technology-studies-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "bbe30f79939be493e2a58c690be60aea5bd1f684503aa4978cc5423c20707054",
+     "table_count": 1,
+     "verified_course_link_count": 69
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 7,
+     "sha256": "3a1f48d3166b9ddf7c6c3d4ceb5ba9194eb6b7189ba67c6fb681306af69d1951",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/science-technology-studies-ba/"
+  },
+  "science-technology-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "2081b46656208394a6fabb81b0c5cfe41ed175b05e0b6d12ec1d000e2d71c20a",
+     "table_count": 1,
+     "verified_course_link_count": 8
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "1ec6c381e56e5148ae94995841990f3d1eec76071a4c81f0711fae8bd65412b2",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/science-technology-studies-minor/"
+  },
+  "smart-cities-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "eb83f549a7cd095f6ea8aa825a6155055369ae7ed22f94d17900937a4d3b992d",
+     "table_count": 4,
+     "verified_course_link_count": 22
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 1,
+     "sha256": "5f225e311e479962f00ad9300f6e257e7b810257132e97b8c8fc4bb88f70bd11",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/smart-cities-minor/"
+  },
+  "sociology-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 37,
+     "sha256": "56d3eea20214b84cfb00a8e80efcc6250a7a4a3d782cb2d21f2a5a5d5a59a1be",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "3e6b5dddb7a9860791fa1586dd27833625f84a9665a5388a5a213a3ab62de5d7",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/sociology-ba/"
+  },
+  "soil-science-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "3ebadb28505dea7f9d6be2c15b33cad4e1f5100eef97abf55851a7072aa4f42f",
+     "table_count": 1,
+     "verified_course_link_count": 7
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "a1e767427edbc9d62038c99fd3aa09c9eb7ede566a6aa400717843deb8f64f29",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/soil-science-minor/"
+  },
+  "south-asian-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "8cdd79a82a2ed37bbd01f21dabc406d192223c284ddde0b73498610c4d29a014",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "cb00758e7a326a212a18ac787710e8888d9d1f446eb5426454c0d97bfb1c1178",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/south-asian-studies-minor/"
+  },
+  "southeast-asian-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "459664c373d772b97497f98f2a9444e573c68d5ffa94b880ec76b76d5f287cec",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "cb00758e7a326a212a18ac787710e8888d9d1f446eb5426454c0d97bfb1c1178",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/southeast-asian-studies-minor/"
+  },
+  "spanish-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 39,
+     "sha256": "0feb0922592b9b1441285e1d3edc83b6057695a153dbdd6aec256dae4766387b",
+     "table_count": 1,
+     "verified_course_link_count": 6
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "817220cc8fe9aef590b11533fc1e111098132864786652a9bd98ec2c1f28fbf0",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/spanish-ba/"
+  },
+  "spanish-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "e6472929203133418774cccc4848533e57417d5e58390494e292a62591ed411c",
+     "table_count": 1,
+     "verified_course_link_count": 7
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 8,
+     "sha256": "70c1de4f3a0912e62d4b41c3d38eed6d780397d29a402598ab5b67a6f42c58f3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/spanish-minor/"
+  },
+  "statistics-data-science-ba": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 40,
+     "sha256": "f780fa3f2cdf022e4e1aa553fedca62d5ac41e17ad51aca12de5cb184f55c706",
+     "table_count": 2,
+     "verified_course_link_count": 49
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 10,
+     "sha256": "3cc90e1775feb4a5d87804f19c5bb6a3deb76348376425aa672779d419b77002",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/statistics-data-science-ba/"
+  },
+  "sustainable-ag-food-system-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "c2782ba5c9da016b771d01c482ba7f7c046b924d004bc5e61a33c14464bb69a5",
+     "table_count": 3,
+     "verified_course_link_count": 33
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "fa307671090dd169e97c9efd1fe8c4fcde5bcdb6570afed8bb6b18eada1887c6",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/sustainable-ag-food-system-minor/"
+  },
+  "sustainable-business-economic-policy-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 4,
+     "sha256": "a54cf4bc207264ed421fc287bc99f77dcc6b982e9d34c074d1602028a864b2bf",
+     "table_count": 2,
+     "verified_course_link_count": 50
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "eba9bf2993abc16dfd9f97ec047eb59a990ec103ffea52a3c1b8d77c60695775",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/sustainable-business-economic-policy-minor/"
+  },
+  "sustainable-energy-systems-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 9,
+     "sha256": "a310bb4ab4c65806426ea5e329dda5319aeb9a74194fbe590b74ef8c511f486c",
+     "table_count": 4,
+     "verified_course_link_count": 72
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "ef11f835a200d30b9788421cd3849c102922e3f32231e0c6846170384549d590",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/sustainable-energy-systems-minor/"
+  },
+  "theatre-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "55d762d00ea2a2fb03816fa331fefb8896fe2029e371041c59c258cf36869d37",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 5,
+     "sha256": "4ba7a675802e583c8bf04c38d1d9a17027df99d9bfb973b6efbbb83d9f24619f",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/theatre-minor/"
+  },
+  "translational-research-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 2,
+     "heading_count": 2,
+     "sha256": "f3c7879174585173a1c41cac804892c483ad7292bf613a0509efa00ffde80c02",
+     "table_count": 4,
+     "verified_course_link_count": 64
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "c9b588a30018765cc9e48f0077c95e928eebf17b95128c8d75768a58ebe7c5a3",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/translational-research-minor/"
+  },
+  "urban-regional-studies-bs-urs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 20,
+     "sha256": "553f9ac2ca430faf95ee6711c8a543cc1177b322d0e7c1004531d9f5cc380329",
+     "table_count": 6,
+     "verified_course_link_count": 35
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 10,
+     "sha256": "e7fccc75f8e71b6ec10ee7fd948235e6619dbdc4d096f992cac152f62ebeab8e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/urban-regional-studies-bs-urs/"
+  },
+  "urban-regional-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "65bb8533dca179a1e4724a84ead4d2178885139d94b383b3a9e865c83f47b4df",
+     "table_count": 1,
+     "verified_course_link_count": 4
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "b93221e2f21db47a769bc5e541c6faafa97beeba355d72062ae33e6518cda51a",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/urban-regional-studies-minor/"
+  },
+  "viking-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 2,
+     "sha256": "2006f2aa85fcdfbfc54b8b8d2e71bfe43497a03a000e27076287366131aa1598",
+     "table_count": 2,
+     "verified_course_link_count": 8
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "9397404f3468befdd30f374c2665710d5d42d479408b041c60f19a45892cef67",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/viking-studies-minor/"
+  },
+  "visual-studies-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "2c204b6f73add5f29c2447be008186203dd3cbcccf35f96a5b83d0fde2774088",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 4,
+     "sha256": "e29b02fd15663f6b47e28ba5b6dc84db250a3569b080289394233b0b1d8ca81e",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/visual-studies-minor/"
+  },
+  "viticulture-enology-bs": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 1,
+     "heading_count": 55,
+     "sha256": "eeaefea3c89bdcb47e1cad8b725fa55b41e33683f32837cbcc20e6ac192bb6ee",
+     "table_count": 8,
+     "verified_course_link_count": 65
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 2,
+     "sha256": "6d7fa341ea65385990fa34077e27c586aa9d5fe7d0223149f1e8828779b40737",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/viticulture-enology-bs/"
+  },
+  "viticulture-enology-minor": {
+   "sections": {
+    "Curriculum": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "9387579b1c9aef93ec0ef3965d3864efb96ffd940f3ee59d88d21301e577663e",
+     "table_count": 2,
+     "verified_course_link_count": 16
+    },
+    "Overview": {
+     "footnote_block_count": 0,
+     "heading_count": 3,
+     "sha256": "6bbd6a88f0e876836da370e26c6432258879e2809db2d08b0be5b87df15c69cf",
+     "table_count": 0,
+     "verified_course_link_count": 0
+    }
+   },
+   "url": "https://catalog.cornell.edu/programs/viticulture-enology-minor/"
+  }
+ }
+}

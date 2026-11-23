@@ -1,0 +1,124 @@
+{
+  "programId": "college-scholar-ba",
+  "name": "College Scholar (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The shared seminars and capstone paths. The student's interdisciplinary curriculum is approved individually.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/college-scholar-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "college-scholar-seminar",
+      "label": "College Scholar Seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COLLS 3001"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "breadth-seminar",
+      "label": "Approved high-level seminar",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "approval": "colls-breadth-seminar"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "project",
+      "label": "College Scholar capstone",
+      "options": [
+        {
+          "id": "senior-project",
+          "label": "One-semester senior project",
+          "slots": [
+            {
+              "id": "capstone",
+              "label": "Senior project",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COLLS 3970"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors-research",
+          "label": "Two-semester honors research",
+          "slots": [
+            {
+              "id": "honors-i",
+              "label": "Honors research I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COLLS 4990"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "honors-ii",
+              "label": "Honors research II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "COLLS 4991"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "honors-enrollment",
+              "label": "Honors eligibility",
+              "instruction": "Confirm the required seminar status and GPA of at least 3.5 before enrolling."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "custom-curriculum",
+      "label": "Advisor-approved individualized curriculum",
+      "instruction": "Confirm the interdisciplinary course plan and senior project or honors thesis with the program."
+    },
+    {
+      "id": "college-requirements",
+      "label": "College Scholar graduation policy",
+      "instruction": "Check 120 academic credits with 100 A&S credits, first-year writing, university physical education and college residency against this program's graduation policy."
+    }
+  ]
+}

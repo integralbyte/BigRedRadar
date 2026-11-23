@@ -1,0 +1,1639 @@
+{
+  "programId": "agricultural-sciences-bs",
+  "name": "Agricultural Sciences (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Shared agricultural coursework, five concentration paths and internship.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/agricultural-sciences-bs/#curriculumtext"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-1101",
+      "label": "PLSCI 1101",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1101"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-1900",
+      "label": "PLSCI 1900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 1900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-2110",
+      "label": "PLSCI 2110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-2440",
+      "label": "PLSCI 2440",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2440"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-2600",
+      "label": "PLSCI 2600",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-biology",
+      "label": "Introductory biology",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "BIOAP 1100",
+            "BIOEE 1610",
+            "BIOEE 1780",
+            "BIOG 1140",
+            "BIOG 1440",
+            "BIOG 1445",
+            "BIOMG 1350",
+            "PLSCI 1115",
+            "PLSCI 1130",
+            "PLSCI 1420",
+            "PLSCI 2400",
+            "PLSCI 2410",
+            "PLSCI 2470"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "agsci-biology-exam"
+        }
+      ]
+    },
+    {
+      "id": "core-statistics",
+      "label": "Data literacy",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "ENTOM 3030",
+            "PLSCI 2200",
+            "STSCI 2100",
+            "STSCI 2150"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "origins": [
+            "cornell",
+            "transfer"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "agsci-statistics-five"
+        }
+      ]
+    },
+    {
+      "id": "core-food-systems",
+      "label": "Food Systems",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2310",
+            "FDSC 1200",
+            "FDSC 2000",
+            "PLSCI 1300",
+            "PLSCI 2020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-education-extension",
+      "label": "Education / Extension",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "COMM 2850",
+            "EDUC 2200",
+            "EDUC 2210",
+            "EDUC 2410",
+            "EDUC 3510",
+            "EDUC 4223",
+            "ENTOM 3350"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-agribusiness",
+      "label": "Agribusiness",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 1200",
+            "AEM 2050",
+            "AEM 3020",
+            "AEM 3260"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "core-animal-science",
+      "label": "Animal Science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANSC 2120",
+            "ANSC 2500",
+            "ANSC 2650",
+            "ANSC 3300",
+            "ANSC 3500",
+            "ANSC 3600",
+            "ANSC 3800"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "internship",
+      "label": "Internship reflection",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4900"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": true,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Entry path",
+      "options": [
+        {
+          "id": "fall-first-year",
+          "label": "Fall-entry first-year student",
+          "slots": [
+            {
+              "id": "core-pathways",
+              "label": "Pathways to Success",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transfer-other",
+          "label": "Transfer or other entry",
+          "slots": [],
+          "manual": [
+            {
+              "id": "entry-confirm",
+              "label": "Pathways applicability",
+              "instruction": "Verify that the first-fall Pathways requirement is waived for your entry path and confirm applicable core credits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-physical",
+      "label": "Chemistry or physics path",
+      "options": [
+        {
+          "id": "intro-chem",
+          "label": "Introductory chemistry and lab",
+          "slots": [
+            {
+              "id": "core-physical-1",
+              "label": "CHEM 1560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            },
+            {
+              "id": "core-physical-2",
+              "label": "CHEM 1561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gen-chem",
+          "label": "General Chemistry I and lab",
+          "slots": [
+            {
+              "id": "core-physical-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            },
+            {
+              "id": "core-physical-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "heavens",
+          "label": "Physics of the heavens and earth",
+          "slots": [
+            {
+              "id": "core-physical-1",
+              "label": "PHYS 1203",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1203"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1203"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fundamentals",
+          "label": "Fundamentals of physics",
+          "slots": [
+            {
+              "id": "core-physical-1",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "agsci-approved-physical-exam"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "label": "International agriculture path",
+      "options": [
+        {
+          "id": "individual",
+          "label": "Standalone international agriculture course",
+          "slots": [
+            {
+              "id": "core-international",
+              "label": "International agriculture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4880",
+                    "GDEV 2300",
+                    "GDEV 4140",
+                    "GDEV 4450"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "food-systems",
+          "label": "Agriculture and food systems sequence",
+          "slots": [
+            {
+              "id": "core-international-1",
+              "label": "ANSC 2550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-international-2",
+              "label": "ANSC 2551",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2551"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dairy",
+          "label": "International dairy study trip",
+          "slots": [
+            {
+              "id": "core-international-1",
+              "label": "ANSC 3560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-international-2",
+              "label": "ANSC 3561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3561"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-international-3",
+              "label": "ANSC 3562",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3562"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Focused elective area",
+      "options": [
+        {
+          "id": "animal-2120-2400",
+          "label": "Animal Science · ANSC 2120 and ANSC 2400 + ANSC 2410",
+          "slots": [
+            {
+              "id": "focus-2120",
+              "label": "ANSC 2120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-2400",
+              "label": "ANSC 2400",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-2410",
+              "label": "ANSC 2410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-2120",
+                "focus-2400",
+                "focus-2410"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "animal-2120-3540",
+          "label": "Animal Science · ANSC 2120 and ANSC 3540",
+          "slots": [
+            {
+              "id": "focus-2120",
+              "label": "ANSC 2120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-3540",
+              "label": "ANSC 3540",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3540"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-2120",
+                "focus-3540"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "animal-2120-3550",
+          "label": "Animal Science · ANSC 2120 and ANSC 3550",
+          "slots": [
+            {
+              "id": "focus-2120",
+              "label": "ANSC 2120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-3550",
+              "label": "ANSC 3550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-2120",
+                "focus-3550"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "animal-2400-3540",
+          "label": "Animal Science · ANSC 2400 + ANSC 2410 and ANSC 3540",
+          "slots": [
+            {
+              "id": "focus-2400",
+              "label": "ANSC 2400",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-2410",
+              "label": "ANSC 2410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-3540",
+              "label": "ANSC 3540",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3540"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-2400",
+                "focus-2410",
+                "focus-3540"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "animal-2400-3550",
+          "label": "Animal Science · ANSC 2400 + ANSC 2410 and ANSC 3550",
+          "slots": [
+            {
+              "id": "focus-2400",
+              "label": "ANSC 2400",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-2410",
+              "label": "ANSC 2410",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-3550",
+              "label": "ANSC 3550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-2400",
+                "focus-2410",
+                "focus-3550"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "animal-3540-3550",
+          "label": "Animal Science · ANSC 3540 and ANSC 3550",
+          "slots": [
+            {
+              "id": "focus-3540",
+              "label": "ANSC 3540",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3540"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-3550",
+              "label": "ANSC 3550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-genetics",
+              "label": "Animal genetics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-animal-more",
+              "label": "Animal sciences second list",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3300",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "animal-first-credits",
+              "label": "Animal Science first-list credits",
+              "slots": [
+                "focus-3540",
+                "focus-3550"
+              ],
+              "need": 8,
+              "unit": "credits"
+            },
+            {
+              "id": "animal-second-credits",
+              "label": "Animal Science second-list credits",
+              "slots": [
+                "focus-animal-more"
+              ],
+              "need": 6,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "track-one-business-management",
+          "label": "Track One: Business Management",
+          "slots": [
+            {
+              "id": "focus-required-1200",
+              "label": "AEM 1200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-2310",
+              "label": "AEM 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-1110",
+              "label": "ECON 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-management",
+              "label": "Management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3020",
+                    "AEM 3260"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-marketing-strategy",
+              "label": "Marketing / Strategy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2480",
+                    "AEM 3270",
+                    "AEM 3385",
+                    "AEM 4420"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-finance",
+              "label": "Finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2050",
+                    "AEM 4060",
+                    "AEM 4210"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "track-two-policy-analysis",
+          "label": "Track Two: Policy Analysis",
+          "slots": [
+            {
+              "id": "focus-required-1200",
+              "label": "AEM 1200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-2310",
+              "label": "AEM 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-required-1110",
+              "label": "ECON 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ECON 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-applied-economics",
+              "label": "Applied Economics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2300",
+                    "AEM 2310",
+                    "AEM 2350",
+                    "AEM 2500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-policy-issues-and-communication",
+              "label": "Policy Issues and Communication",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2000",
+                    "AEM 2805",
+                    "AEM 3310",
+                    "BSOC 3311",
+                    "COMM 2200",
+                    "PUBPOL 2040"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-policy-analysis",
+              "label": "Policy Analysis",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 4350",
+                    "AEM 4450",
+                    "NS 4480"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cropping",
+          "label": "Sustainable Cropping Systems Management",
+          "slots": [
+            {
+              "id": "focus-crop-2250",
+              "label": "PLSCI 2250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-crop-2940",
+              "label": "PLSCI 2940",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2940"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-cropping-systems",
+              "label": "Cropping Systems",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3025",
+                    "PLSCI 3210",
+                    "PLSCI 3350",
+                    "PLSCI 3520",
+                    "PLSCI 4020",
+                    "PLSCI 4030",
+                    "PLSCI 4140",
+                    "PLSCI 4175",
+                    "PLSCI 4230",
+                    "PLSCI 4500",
+                    "PLSCI 4551",
+                    "PLSCI 4730",
+                    "NTRES 3250",
+                    "VIEN 2400"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-pest-management",
+              "label": "Pest Management",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "ENTOM 3410",
+                    "PLSCI 3010",
+                    "PLSCI 3150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "focus-soil-science",
+              "label": "Soil Science",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4120",
+                    "PLSCI 2200",
+                    "PLSCI 3210",
+                    "PLSCI 4200",
+                    "PLSCI 4660",
+                    "PLSCI 4720"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "soils",
+          "label": "Soil Health Management",
+          "slots": [
+            {
+              "id": "focus-soils",
+              "label": "Soil Health approved coursework",
+              "unit": "credits",
+              "need": 15,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4120",
+                    "PLSCI 2200",
+                    "PLSCI 3210",
+                    "PLSCI 3630",
+                    "PLSCI 3650",
+                    "PLSCI 4200",
+                    "PLSCI 4720"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "PLSCI 4660"
+                  ],
+                  "minGrade": "D-",
+                  "allowPassFailOnly": true,
+                  "approval": "agsci-soils-lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "core-credits",
+      "label": "Agricultural Sciences core credits",
+      "unit": "credits",
+      "need": 48,
+      "slotPrefix": "core-"
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs"
+  ],
+  "manual": [
+    {
+      "id": "internship-verification",
+      "label": "Approved six-week internship",
+      "instruction": "Confirm an approved full-time agricultural internship, learning agreement and reflection."
+    },
+    {
+      "id": "credit-allocation",
+      "label": "Focused coursework and permitted overlap",
+      "instruction": "Confirm the applicable focus credit total and major overlap policy. The major disallows reusing major courses for a minor."
+    },
+    {
+      "id": "transfer",
+      "label": "Transfer preparation",
+      "instruction": "Check required pre-transfer biology, writing or speaking and statistics, plus relevant core coursework for junior transfers.",
+      "when": "transfer"
+    }
+  ]
+}

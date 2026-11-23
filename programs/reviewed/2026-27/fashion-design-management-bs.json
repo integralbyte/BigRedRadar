@@ -1,0 +1,1217 @@
+{
+  "programId": "fashion-design-management-bs",
+  "name": "Fashion Design and Management (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two program paths with distinct studios, additional coursework and breadth requirements.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fashion-design-management-bs/#curriculumtext",
+    "https://human.cornell.edu/student-services/registrar/degree-progress"
+  ],
+  "colleges": [
+    "HE"
+  ],
+  "slots": [
+    {
+      "id": "social-science",
+      "label": "Social science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ANTHR",
+            "SOC",
+            "GDEV"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "label": "Introductory microeconomics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ECON 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Art history",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ARTH"
+          ],
+          "minCredits": 3,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "label": "Cornell quantitative analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PUBPOL 2100",
+            "AEM 2100",
+            "ILRST 2100"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "science-two",
+      "label": "Additional Cornell natural science",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "distributions": [
+            "PBS-HE",
+            "BIO-AS",
+            "PHS-AS",
+            "BIO-AG",
+            "BSC-AG"
+          ],
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "fashion-path",
+      "label": "Fashion Design and Management path",
+      "options": [
+        {
+          "id": "design",
+          "label": "Fashion Design",
+          "slots": [
+            {
+              "id": "core-fsad-1140",
+              "label": "FSAD 1140",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1140"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1170",
+              "label": "FSAD 1170",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1170"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1250",
+              "label": "FSAD 1250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1350",
+              "label": "FSAD 1350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1360",
+              "label": "FSAD 1360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1450",
+              "label": "FSAD 1450",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1450"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2310",
+              "label": "FSAD 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2370",
+              "label": "FSAD 2370",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2370"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2640",
+              "label": "FSAD 2640",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2640"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2650",
+              "label": "FSAD 2650",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2650"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2660",
+              "label": "FSAD 2660",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2660"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-3320",
+              "label": "FSAD 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-3770",
+              "label": "FSAD 3770",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3770"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "studios",
+              "label": "Advanced FSAD studios",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3250",
+                    "FSAD 3370",
+                    "FSAD 3650",
+                    "FSAD 3770",
+                    "FSAD 3990",
+                    "FSAD 4370",
+                    "FSAD 4700",
+                    "FSAD 4770"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "graduate-fsad",
+              "label": "6000-level FSAD",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "FSAD"
+                  ],
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "numberMin": 6000,
+                  "numberMax": 6999
+                }
+              ]
+            },
+            {
+              "id": "upper-fsad",
+              "label": "Additional upper-level FSAD",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "FSAD"
+                  ],
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4990
+                  ],
+                  "minGrade": "D-",
+                  "numberMin": 4000,
+                  "numberMax": 6999
+                }
+              ]
+            },
+            {
+              "id": "psychology",
+              "label": "Psychology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 1130",
+                    "HD 2310",
+                    "PSYCH 1101",
+                    "DEA 1500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "extra-distributions",
+              "label": "Additional distribution coursework",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "distributions": [
+                    "PBS-HE",
+                    "ALC-AS",
+                    "ETM-AS",
+                    "HST-AS",
+                    "SCD-AS",
+                    "SSC-AS",
+                    "SDS-AS",
+                    "SMR-AS",
+                    "BIO-AG",
+                    "BSC-AG",
+                    "SBA-AG",
+                    "SBA-HE",
+                    "KCM-AG",
+                    "KCM-HE",
+                    "MQR-HE",
+                    "LA-AG",
+                    "LAD-HE",
+                    "CA-AG",
+                    "CA-HE",
+                    "HA-AG",
+                    "HA-HE"
+                  ],
+                  "minGrade": "D-"
+                },
+                {
+                  "approval": "fashion-approved-language",
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "management",
+          "label": "Fashion Design Management",
+          "slots": [
+            {
+              "id": "core-fsad-1140",
+              "label": "FSAD 1140",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1140"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1250",
+              "label": "FSAD 1250",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1250"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1350",
+              "label": "FSAD 1350",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1360",
+              "label": "FSAD 1360",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1360"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-1450",
+              "label": "FSAD 1450",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 1450"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2310",
+              "label": "FSAD 2310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2370",
+              "label": "FSAD 2370",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2370"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-2660",
+              "label": "FSAD 2660",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 2660"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-3200",
+              "label": "FSAD 3200",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3200"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-3320",
+              "label": "FSAD 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-3330",
+              "label": "FSAD 3330",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 3330"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-4440",
+              "label": "FSAD 4440",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4440"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "core-fsad-4660",
+              "label": "FSAD 4660",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4660"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "fsad-additional",
+              "label": "Additional FSAD courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "subjects": [
+                    "FSAD"
+                  ],
+                  "excludeNumbers": [
+                    4000,
+                    4010,
+                    4020,
+                    4030,
+                    4990
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "management",
+              "label": "Introduction to management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "HADM 1810",
+                    "ILRID 1700"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "marketing",
+              "label": "Marketing",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2400",
+                    "HADM 2410"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "communications",
+              "label": "Communications course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "subjects": [
+                    "COMM"
+                  ],
+                  "excludeNumbers": [
+                    4970,
+                    4980,
+                    4990
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "strategy",
+              "label": "Business strategy",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 3110",
+                    "AEM 3121",
+                    "AEM 3249",
+                    "AEM 4080",
+                    "ILROB 4260"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "accounting",
+              "label": "Accounting",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2210",
+                    "HADM 2230",
+                    "NBA 5530",
+                    "NCC 5500"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "psychology",
+              "label": "Psychology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HD 1130",
+                    "PSYCH 1101"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "data",
+              "label": "Data analysis",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2820",
+                    "AEM 2831",
+                    "AEM 2841",
+                    "AEM 2850",
+                    "AEM 4410",
+                    "HD 2930",
+                    "INFO 2950",
+                    "INFO 2951",
+                    "PUBPOL 2070",
+                    "SOC 3740",
+                    "STSCI 1380"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "management-fsad-level",
+              "label": "Additional upper-level FSAD course",
+              "slots": [
+                "fsad-additional"
+              ],
+              "need": 1,
+              "unit": "courses",
+              "options": [
+                {
+                  "numberMin": 4000,
+                  "numberMax": 6999
+                }
+              ]
+            },
+            {
+              "id": "management-fsad-credits",
+              "label": "Additional FSAD credits",
+              "slots": [
+                "fsad-additional"
+              ],
+              "need": 9,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "First natural science course",
+      "options": [
+        {
+          "id": "biology",
+          "label": "Biology",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "Introductory biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1140",
+                    "BIOG 1440",
+                    "BIOG 1445",
+                    "BIOMG 1350",
+                    "BIOEE 1610"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "label": "Physics",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "Fundamentals of physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207",
+                    "PHYS 2208"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "intro-chemistry",
+          "label": "Introductory general chemistry",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "Introductory general chemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chemistry-2070",
+          "label": "General chemistry I with laboratory",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "General chemistry I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "science-lab",
+              "label": "General chemistry laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chemistry-2080",
+          "label": "General chemistry II with laboratory",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "General chemistry II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "science-lab",
+              "label": "General chemistry laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "origins": [
+                    "cornell"
+                  ],
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exam",
+          "label": "Accepted AP Biology, Chemistry or Physics score of 5",
+          "slots": [
+            {
+              "id": "science-one",
+              "label": "Approved natural science exam credit",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "fashion-ap-science-five"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics and sustainability",
+      "options": [
+        {
+          "id": "design-single",
+          "label": "Single approved ethics or sustainability course",
+          "slots": [
+            {
+              "id": "ethics-course",
+              "label": "Ethics or sustainability",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 4220",
+                    "FSAD 3200",
+                    "FSAD 4025",
+                    "FSAD 4682",
+                    "FSAD 4800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "onlyWhen": {
+            "fashion-path": [
+              "design"
+            ]
+          }
+        },
+        {
+          "id": "management-single",
+          "label": "Single approved ethics course",
+          "slots": [
+            {
+              "id": "ethics-course",
+              "label": "Ethics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "DEA 4220",
+                    "FSAD 4025",
+                    "FSAD 4682",
+                    "FSAD 4800"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "onlyWhen": {
+            "fashion-path": [
+              "management"
+            ]
+          }
+        },
+        {
+          "id": "sequence",
+          "label": "Textile and Apparel Production in India sequence",
+          "slots": [
+            {
+              "id": "ethics-one",
+              "label": "Textile and Apparel Production in India I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4021"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "ethics-two",
+              "label": "Textile and Apparel Production in India II",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FSAD 4022"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "outside-fashion",
+      "label": "Credits outside Fashion Design and Management",
+      "unit": "credits",
+      "need": 11,
+      "options": [
+        {
+          "minGrade": "D-",
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "HE"
+          ],
+          "numberMin": 1500
+        },
+        {
+          "minGrade": "D-",
+          "excludeCodes": [
+            "PUBPOL 2100",
+            "PUBPOL 3120",
+            "DEA 3550",
+            "HD 2830",
+            "HE 3400"
+          ],
+          "excludeNumbers": [
+            4000,
+            4010,
+            4020,
+            4030
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "subjects": [
+            "DEA",
+            "HD",
+            "NS",
+            "PUBPOL"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "curriculum",
+      "label": "Human Ecology curriculum and overlap",
+      "instruction": "Confirm college and cohort-specific graduation requirements, studio sequencing, study-away approvals and restrictions on sharing the 11 outside credits with other categories."
+    }
+  ]
+}

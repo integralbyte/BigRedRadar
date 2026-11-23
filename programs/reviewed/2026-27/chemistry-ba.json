@@ -1,0 +1,865 @@
+{
+  "programId": "chemistry-ba",
+  "name": "Chemistry (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Chemistry core and laboratory credits, with a separate class-of-2027 path.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/chemistry-ba/#curriculumtext",
+    "https://chemistry.cornell.edu/information-majors"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "chem-inorganic",
+      "label": "Inorganic Chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 4100"
+          ],
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "chem-org-lab",
+      "label": "Organic Chemistry laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510"
+          ],
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "chem-phys-lab",
+      "label": "Physical Chemistry laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2900",
+            "CHEM 3030"
+          ],
+          "acceptCrossListings": true,
+          "allowSatisfactory": true,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "chem-electives",
+      "label": "Other approved Chemistry elective credits",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "subjects": [
+            "CHEM"
+          ],
+          "numberMin": 4000,
+          "numberMax": 7999,
+          "excludeCodes": [
+            "CHEM 4210",
+            "CHEM 4330",
+            "CHEM 4430",
+            "CHEM 4610",
+            "CHEM 4770"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "codes": [
+            "CHEM 4210",
+            "CHEM 4330",
+            "CHEM 4430",
+            "CHEM 4610",
+            "CHEM 4770",
+            "CHEM 3010",
+            "CHEM 3020",
+            "CHEM 3030",
+            "CHEM 2900"
+          ]
+        },
+        {
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "approval": "chem-approved-elective"
+        },
+        {
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "approval": "chem-approved-lab",
+          "excludeCodes": [
+            "CHEM 4210",
+            "CHEM 4330",
+            "CHEM 4430",
+            "CHEM 4610",
+            "CHEM 4770"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "graduation",
+      "label": "Expected degree conferral",
+      "options": [
+        {
+          "id": "by-fall-2027",
+          "label": "Before December 2027",
+          "slots": [],
+          "checks": [
+            {
+              "id": "chem-major-credits",
+              "label": "Chemistry and related credits",
+              "need": 57,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "dec-2027-or-later",
+          "label": "December 2027 or later",
+          "slots": [],
+          "checks": [
+            {
+              "id": "chem-major-credits",
+              "label": "Chemistry and related credits",
+              "need": 60,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-general",
+      "label": "General chemistry",
+      "options": [
+        {
+          "id": "standard",
+          "label": "General chemistry and laboratories",
+          "slots": [
+            {
+              "id": "chem-general-1",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-ap-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "chem-general-2",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-ap-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "chem-general-3",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-ap-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "chem-general-4",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-ap-chemistry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors chemistry",
+          "slots": [
+            {
+              "id": "chem-general-1",
+              "label": "CHEM 2150",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "CHEM 2150"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-ap-chemistry"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-organic",
+      "label": "Organic chemistry",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Organic chemistry for the life sciences",
+          "slots": [
+            {
+              "id": "chem-organic-1",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-organic-2",
+              "label": "CHEM 3580",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3580"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors Organic Chemistry",
+          "slots": [
+            {
+              "id": "chem-organic-1",
+              "label": "CHEM 3590",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3590"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-organic-2",
+              "label": "CHEM 3600",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3600"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-physical",
+      "label": "Physical chemistry",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Physical chemistry I and II",
+          "slots": [
+            {
+              "id": "chem-physical-1",
+              "label": "CHEM 3870",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3870"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-physical-2",
+              "label": "CHEM 3880",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3880"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors Physical Chemistry",
+          "slots": [
+            {
+              "id": "chem-physical-1",
+              "label": "CHEM 3890",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3890"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "chem-physical-2",
+              "label": "CHEM 3900",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3900"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cohort-single",
+          "label": "One semester of physical chemistry",
+          "slots": [
+            {
+              "id": "chem-physical-1",
+              "label": "CHEM 3870",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3870"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ],
+          "onlyWhen": {
+            "graduation": [
+              "by-fall-2027"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chem-calculus",
+      "label": "Calculus path",
+      "options": [
+        {
+          "id": "standard",
+          "label": "Calculus I and II",
+          "slots": [
+            {
+              "id": "chem-calculus-1",
+              "label": "MATH 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "MATH 1110"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-math-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-calculus-2",
+              "label": "MATH 1120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1120"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "MATH 1120"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-math-placement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "engineers",
+          "label": "Approved placement with calculus for engineers",
+          "slots": [
+            {
+              "id": "chem-calculus-1",
+              "label": "MATH 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1110"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-math-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-calculus-2",
+              "label": "MATH 1910",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "MATH 1910"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "MATH 1910"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-math-placement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-physics",
+      "label": "Physics path",
+      "options": [
+        {
+          "id": "fundamentals",
+          "label": "Fundamentals of Physics",
+          "slots": [
+            {
+              "id": "chem-physics-1",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-physics-2",
+              "label": "PHYS 2208",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "engineering",
+          "label": "Mechanics, experimental physics and electromagnetism",
+          "slots": [
+            {
+              "id": "chem-physics-1",
+              "label": "PHYS 1112",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1112"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-physics-2",
+              "label": "PHYS 1110",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1110"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-physics-3",
+              "label": "PHYS 2213",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2213"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honors",
+          "label": "Honors physics",
+          "slots": [
+            {
+              "id": "chem-physics-1",
+              "label": "PHYS 1116",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 1116"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 1116"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            },
+            {
+              "id": "chem-physics-2",
+              "label": "PHYS 2217",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2217"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": true,
+                  "minGrade": "D-"
+                },
+                {
+                  "codes": [
+                    "PHYS 2217"
+                  ],
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "chem-approved-physics-placement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "chem-lab-credits",
+      "label": "Chemistry laboratory credits beyond general chemistry",
+      "slots": [
+        "chem-org-lab",
+        "chem-phys-lab",
+        "chem-electives"
+      ],
+      "need": 8,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "CHEM 2510",
+            "CHEM 2900",
+            "CHEM 3010",
+            "CHEM 3020",
+            "CHEM 3030"
+          ]
+        },
+        {
+          "approval": "chem-approved-lab",
+          "excludeCodes": [
+            "CHEM 4210",
+            "CHEM 4330",
+            "CHEM 4430",
+            "CHEM 4610",
+            "CHEM 4770"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "chem-electives"
+      ],
+      "max": 4,
+      "unit": "credits",
+      "options": [
+        {
+          "codes": [
+            "CHEM 4210",
+            "CHEM 4330",
+            "CHEM 4430",
+            "CHEM 4610",
+            "CHEM 4770"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "advanced-and-cohort",
+      "label": "Elective, lab and conferral approval",
+      "instruction": "Confirm approved outside electives, lab credit, acceptable exams, and eligibility for the 57-credit catalog path. The department specifies graduation before December 2027; consult the advisor if the catalog class year differs."
+    },
+    {
+      "id": "major-admission",
+      "label": "Chemistry major admission and honors",
+      "instruction": "Confirm the usual C-level admission grades. The honors requirements for chemistry and lab courses are a separate department review."
+    }
+  ]
+}

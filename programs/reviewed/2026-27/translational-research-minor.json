@@ -1,0 +1,341 @@
+{
+  "programId": "translational-research-minor",
+  "name": "Translational Research Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two core courses, six elective credits, approved field experience and a capstone.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/translational-research-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "he-2300",
+      "label": "Introduction to Translational Research",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "HE 2300"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "he-3400",
+      "label": "Community-Engaged Translational Research Methods",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "HE 3400"
+          ],
+          "origins": [
+            "cornell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elective",
+      "label": "Translational Research electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "DEA 2020",
+            "DEA 2025",
+            "DEA 2203",
+            "DEA 2700",
+            "DEA 3308",
+            "DEA 3510",
+            "DEA 3530",
+            "FSAD 4025",
+            "DEA 4500",
+            "DEA 4590",
+            "FSAD 4800",
+            "FSAD 3200",
+            "FSAD 3990",
+            "NS 2450",
+            "NS 2600",
+            "NS 3060",
+            "NS 4450",
+            "NS 4500",
+            "NS 4510",
+            "NS 4570",
+            "NS 4998",
+            "HD 2180",
+            "HD 2400",
+            "HD 2510",
+            "HD 2650",
+            "HD 3150",
+            "HD 3190",
+            "HD 3250",
+            "HD 3290",
+            "HD 3300",
+            "HD 3310",
+            "HD 3490",
+            "HD 3530",
+            "HD 4240",
+            "HD 4310",
+            "HD 4530",
+            "HD 4540",
+            "HD 4560",
+            "HD 4670",
+            "HD 4720",
+            "HD 4850",
+            "HD 4940",
+            "HE 2222",
+            "HE 4060",
+            "COMM 2760",
+            "COMM 3189",
+            "COMM 3760",
+            "COMM 4201",
+            "COMM 4760",
+            "COMM 4860",
+            "PUBPOL 2050",
+            "PUBPOL 2120",
+            "PUBPOL 2250",
+            "PUBPOL 2350",
+            "PUBPOL 3180",
+            "GDEV 3280",
+            "PUBPOL 3320",
+            "PUBPOL 3330",
+            "GDEV 3030",
+            "PUBPOL 3280"
+          ]
+        },
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "approval": "translational-research-approved-elective"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "label": "Translational Research capstone",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "minGrade": "C-",
+          "allowPassFailOnly": true,
+          "acceptCrossListings": true,
+          "codes": [
+            "HE 4400"
+          ]
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "field-experience",
+      "label": "Approved field experience route",
+      "options": [
+        {
+          "id": "internship",
+          "label": "Approved internship with preparation and reflection",
+          "slots": [
+            {
+              "id": "prep",
+              "label": "Internship Preparation",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HE 2400"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reflect",
+              "label": "Internship Reflection",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HE 3301"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "field-credits",
+              "label": "Field experience credits",
+              "slots": [
+                "prep",
+                "reflect"
+              ],
+              "need": 2,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "immersion",
+          "label": "Geriatric palliative immersion",
+          "slots": [
+            {
+              "id": "prep",
+              "label": "Professional Development in Geriatric and Palliative Research",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HD 4600"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reflect",
+              "label": "Community and Residential Services",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "HD 4610"
+                  ]
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "field-credits",
+              "label": "Field experience credits",
+              "slots": [
+                "prep",
+                "reflect"
+              ],
+              "need": 2,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "named",
+          "label": "Cornell in Washington or PRYDE pathway",
+          "slots": [
+            {
+              "id": "named-field",
+              "label": "Approved Cornell in Washington or PRYDE coursework",
+              "unit": "credits",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "codes": [
+                    "NS 4997",
+                    "HD 4860"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supervised",
+          "label": "Approved supervised research",
+          "slots": [
+            {
+              "id": "research",
+              "label": "Approved supervised research credits",
+              "unit": "credits",
+              "need": 2,
+              "options": [
+                {
+                  "minGrade": "C-",
+                  "allowPassFailOnly": true,
+                  "acceptCrossListings": true,
+                  "numberMin": 4010,
+                  "numberMax": 4010,
+                  "approval": "translational-research-supervised"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 3,
+      "options": [
+        {
+          "passFailOnly": true
+        },
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Field approval, sequencing and program overlap",
+      "instruction": "Obtain field experience approval and submit completion before the capstone. Complete at least one core course first. Confirm any outside course, older edition, and maximum three-credit overlap with another program."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "program",
+      "max": 3,
+      "unit": "credits"
+    }
+  ]
+}

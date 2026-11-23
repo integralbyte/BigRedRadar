@@ -1,0 +1,259 @@
+{
+  "programId": "fungal-biology-minor",
+  "name": "Fungal Biology Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three courses in fungal biology with a main or advanced track.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/fungal-biology-minor/#curriculumtext",
+    "https://cals.cornell.edu/school-integrative-plant-science/degrees-programs/undergraduate-plant-sciences-major/sips-undergraduate-minors"
+  ],
+  "slots": [
+    {
+      "id": "plsci-3010",
+      "label": "Biology and Management of Plant Diseases",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 3010"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 3010"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-3190",
+      "label": "Mushrooms of Field and Forest",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 3190"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 3190"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-4300",
+      "label": "Mycology, with lab",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4300"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 4300"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "track",
+      "label": "Fungal Biology track",
+      "options": [
+        {
+          "id": "main-single",
+          "label": "Main track · Mushrooms, Molds and More",
+          "slots": [
+            {
+              "id": "plsci-2013",
+              "label": "Mushrooms, Molds and More",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2013"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PLSCI 2013"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "sips-transfer-equivalent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "main-combination",
+          "label": "Main track · Mycology and food fermentation",
+          "slots": [
+            {
+              "id": "plsci-2010",
+              "label": "Magical Mushrooms, Mischievous Molds",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 2010"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PLSCI 2010"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "sips-transfer-equivalent"
+                }
+              ]
+            },
+            {
+              "id": "fdsc-2206",
+              "label": "Fermentation of Food",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "FDSC 2206"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "FDSC 2206"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "sips-transfer-equivalent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Advanced track · Fungal genetics",
+          "slots": [
+            {
+              "id": "plsci-6380",
+              "label": "Fungal Genetics and Genomics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 6380"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "PLSCI 6380"
+                  ],
+                  "minGrade": "C",
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "sips-transfer-equivalent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "crop-management-minor",
+    "horticulture-minor",
+    "plant-breeding-minor",
+    "plant-sciences-minor",
+    "soil-science-minor"
+  ],
+  "manual": [
+    {
+      "id": "lab",
+      "label": "Lab, in-person instruction and credit overlap",
+      "instruction": "Use the laboratory component for PLSCI 4300 and confirm in-person delivery. Keep the courses separate from major requirements and verify any transfer equivalency."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 13,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

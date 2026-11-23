@@ -1,0 +1,218 @@
+{
+  "programId": "american-indian-indigenous-studies-minor",
+  "name": "American Indian and Indigenous Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five courses with breadth in the humanities and the social or natural sciences.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/american-indian-indigenous-studies-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Foundational AIIS course",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AIIS 1100",
+            "AIIS 1110"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "label": "Group A · Arts and humanities",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "HIST 1950",
+            "AIIS 2240",
+            "AIIS 2600",
+            "AIIS 2660",
+            "AIIS 3324",
+            "AIIS 3325",
+            "AIIS 3560",
+            "AIIS 4000",
+            "AIIS 4200",
+            "AIIS 4300",
+            "AIIS 4450",
+            "AIIS 4625",
+            "AIIS 4670",
+            "ARTH 2255",
+            "ARTH 4556",
+            "ENGL 4630"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "sciences",
+      "label": "Group B · Social and natural sciences",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ANTHR 1200",
+            "AIIS 2350",
+            "AIIS 2420",
+            "AIIS 2720",
+            "ANTHR 3245",
+            "ANTHR 3255",
+            "ANTHR 3256",
+            "AIIS 3330",
+            "AIIS 3422",
+            "ANTHR 4216",
+            "ANTHR 4268",
+            "ANTHR 4725"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Two more AIIS electives",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "AIIS 2240",
+            "AIIS 2350",
+            "AIIS 2420",
+            "AIIS 2600",
+            "AIIS 2660",
+            "AIIS 2720",
+            "AIIS 3324",
+            "AIIS 3325",
+            "AIIS 3330",
+            "AIIS 3422",
+            "AIIS 3560",
+            "AIIS 4000",
+            "AIIS 4200",
+            "AIIS 4300",
+            "AIIS 4450",
+            "AIIS 4625",
+            "AIIS 4670",
+            "AIIS 6000",
+            "AIIS 6010",
+            "AIIS 6200",
+            "AIIS 6240",
+            "AIIS 6300",
+            "ANTHR 1200",
+            "ANTHR 3245",
+            "ANTHR 3255",
+            "ANTHR 3256",
+            "ANTHR 4216",
+            "ANTHR 4268",
+            "ANTHR 4725",
+            "ANTHR 7256",
+            "ANTHR 7268",
+            "ARTH 2255",
+            "ARTH 4556",
+            "ARTH 6556",
+            "ENGL 4630",
+            "ENGL 6625",
+            "HIST 1950"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "AIIS 4970",
+            "AIIS 6970"
+          ],
+          "minGrade": "C",
+          "minCredits": 3,
+          "maxCredits": 3
+        }
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "slots": [
+        "electives"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "AIIS 4970",
+            "AIIS 6970"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "upper",
+      "label": "One 3000- or 4000-level Group A or B course",
+      "slots": [
+        "humanities",
+        "sciences",
+        "electives"
+      ],
+      "need": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "codes": [
+            "HIST 1950",
+            "AIIS 2240",
+            "AIIS 2600",
+            "AIIS 2660",
+            "AIIS 3324",
+            "AIIS 3325",
+            "AIIS 3560",
+            "AIIS 4000",
+            "AIIS 4200",
+            "AIIS 4300",
+            "AIIS 4450",
+            "AIIS 4625",
+            "AIIS 4670",
+            "ARTH 2255",
+            "ARTH 4556",
+            "ENGL 4630",
+            "ANTHR 1200",
+            "AIIS 2350",
+            "AIIS 2420",
+            "AIIS 2720",
+            "ANTHR 3245",
+            "ANTHR 3255",
+            "ANTHR 3256",
+            "AIIS 3330",
+            "AIIS 3422",
+            "ANTHR 4216",
+            "ANTHR 4268",
+            "ANTHR 4725"
+          ],
+          "numberMin": 3000,
+          "numberMax": 4999,
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ]
+}

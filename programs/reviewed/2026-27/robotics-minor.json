@@ -1,0 +1,377 @@
+{
+  "programId": "robotics-minor",
+  "name": "Robotics Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Three fundamentals and three eligible courses in one robotics specialization.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/robotics-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundations",
+      "label": "Robotics fundamentals",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "CS 3700",
+            "CS 3780",
+            "ECE 4200",
+            "ECE 5420",
+            "CS 4756",
+            "CS 5756",
+            "INFO 4410",
+            "INFO 6420",
+            "MAE 4180",
+            "MAE 5180",
+            "MAE 4190",
+            "MAE 5190",
+            "MAE 4760",
+            "CS 5750",
+            "MAE 4810",
+            "MAE 5810",
+            "MAE 5780"
+          ],
+          "minGrade": "C",
+          "acceptCrossListings": true
+        },
+        {
+          "codes": [
+            "MAE 3780",
+            "MAE 3783"
+          ],
+          "minGrade": "C",
+          "approval": "robotics-mechatronics-eligible"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "specialization",
+      "label": "Choose a Robotics specialization",
+      "options": [
+        {
+          "id": "intelligence",
+          "label": "Intelligence",
+          "slots": [
+            {
+              "id": "focus",
+              "label": "Intelligence coursework",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4756",
+                    "CS 5756",
+                    "CS 5780",
+                    "CS 6756",
+                    "CS 6758",
+                    "MAE 4180",
+                    "MAE 5180",
+                    "MAE 4760",
+                    "CS 5750",
+                    "MAE 6730",
+                    "CS 6751",
+                    "MAE 6710",
+                    "MAE 6770"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECE 6970",
+                    "ECE 5960",
+                    "ECE 6950"
+                  ],
+                  "approval": "robotics-approved-topic-intelligence",
+                  "minGrade": "C"
+                },
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ],
+                  "approval": "robotics-approved-research",
+                  "minGrade": "C",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "modeling-dynamics-and-control",
+          "label": "Modeling, Dynamics and Control",
+          "slots": [
+            {
+              "id": "focus",
+              "label": "Modeling, Dynamics and Control coursework",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "MAE 4190",
+                    "MAE 5190",
+                    "MAE 4730",
+                    "MAE 5730",
+                    "MAE 4760",
+                    "CS 5750",
+                    "MAE 4780",
+                    "MAE 5780",
+                    "MAE 6730",
+                    "CS 6751",
+                    "MAE 6760",
+                    "MAE 6770",
+                    "MAE 6780",
+                    "MAE 6800"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECE 6970",
+                    "ECE 5960",
+                    "ECE 6950"
+                  ],
+                  "approval": "robotics-approved-topic-modeling-dynamics-and-control",
+                  "minGrade": "C"
+                },
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ],
+                  "approval": "robotics-approved-research",
+                  "minGrade": "C",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "perception",
+          "label": "Perception",
+          "slots": [
+            {
+              "id": "focus",
+              "label": "Perception coursework",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4670",
+                    "CS 5670",
+                    "CS 6670",
+                    "ECE 5470",
+                    "CS 6758",
+                    "MAE 4180",
+                    "MAE 5180",
+                    "MAE 4190",
+                    "MAE 5190",
+                    "MAE 4320",
+                    "MAE 4810",
+                    "MAE 5810",
+                    "MAE 6760"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECE 6970",
+                    "ECE 5960",
+                    "ECE 6950"
+                  ],
+                  "approval": "robotics-approved-topic-perception",
+                  "minGrade": "C"
+                },
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ],
+                  "approval": "robotics-approved-research",
+                  "minGrade": "C",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "systems-and-design",
+          "label": "Systems and Design",
+          "slots": [
+            {
+              "id": "focus",
+              "label": "Systems and Design coursework",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3900",
+                    "BEE 5900",
+                    "CS 4754",
+                    "INFO 6420",
+                    "CS 5755",
+                    "INFO 5755",
+                    "INFO 6755",
+                    "DEA 5210",
+                    "DEA 6210",
+                    "ECE 4760",
+                    "ECE 5725",
+                    "ECE 6680",
+                    "INFO 4320",
+                    "INFO 4420",
+                    "MAE 3780",
+                    "MAE 3783",
+                    "MAE 4190",
+                    "MAE 5190",
+                    "MAE 4320",
+                    "MAE 6710",
+                    "MAE 6800"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                },
+                {
+                  "codes": [
+                    "ECE 6970",
+                    "ECE 5960",
+                    "ECE 6950"
+                  ],
+                  "approval": "robotics-approved-topic-systems-and-design",
+                  "minGrade": "C"
+                },
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ],
+                  "approval": "robotics-approved-research",
+                  "minGrade": "C",
+                  "minCredits": 3
+                }
+              ]
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus"
+              ],
+              "unit": "courses",
+              "max": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CS 4999",
+                    "ECE 4999",
+                    "INFO 4900",
+                    "MAE 4900"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "electrical-computer-engineering-minor",
+    "mechanical-engineering-minor",
+    "computer-science-minor"
+  ],
+  "manual": [
+    {
+      "id": "approval",
+      "label": "Plan approval, Mechatronics eligibility and research",
+      "instruction": "Seek preapproval for the plan, any rotating topic and a research substitution. Mechanical Engineering majors cannot use Mechatronics here if it fills their circuits requirement."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

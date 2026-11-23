@@ -1,0 +1,102 @@
+{
+  "programId": "european-studies-minor",
+  "name": "European Studies Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "A Europe-wide survey, language competency, and at least three specialized courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/european-studies-minor/#curriculumtext",
+    "https://einaudi.cornell.edu/programs/institute-european-studies/academics/european-studies-minor"
+  ],
+  "slots": [
+    {
+      "id": "core",
+      "label": "A European history, politics, philosophy or society survey",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "GOVT 2553",
+            "HIST 1511",
+            "GOVT 3437",
+            "PHIL 2240",
+            "STS 1942"
+          ],
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "european-studies-approved-core"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "language",
+      "label": "European language competency route",
+      "options": [
+        {
+          "id": "coursework",
+          "label": "Third-semester or higher language course",
+          "slots": [
+            {
+              "id": "language-course",
+              "label": "Approved European language competency course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "approval": "european-language-competency"
+                }
+              ]
+            },
+            {
+              "id": "electives",
+              "label": "Europe-focused elective courses",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "approval": "european-studies-approved-elective"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "certified",
+          "label": "Competency exam or native speaker",
+          "slots": [
+            {
+              "id": "electives",
+              "label": "Europe-focused elective courses",
+              "unit": "courses",
+              "need": 4,
+              "options": [
+                {
+                  "approval": "european-studies-approved-elective"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "proficiency",
+              "label": "Language proficiency certification",
+              "instruction": "Provide evidence of a qualifying competency exam or native speaker status to the Institute for European Studies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "courses",
+      "label": "European Studies approved course list",
+      "instruction": "Check the current list of approved courses with the Institute. Petition any other candidate elective or core survey."
+    }
+  ]
+}

@@ -1,0 +1,2890 @@
+{
+  "programId": "animal-science-bs",
+  "name": "Animal Science (BS)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five concentrations, separate first-year and external transfer coursework, and the Cornell Animal Science credit floor.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/animal-science-bs/#curriculumtext",
+    "https://cals.cornell.edu/animal-science/degrees-programs/undergraduate-studies/major-requirements",
+    "https://cals.cornell.edu/animal-science/degrees-programs/undergraduate-studies/major-requirements/transfer-curriculum"
+  ],
+  "colleges": [
+    "AG"
+  ],
+  "slots": [
+    {
+      "id": "core-statistics",
+      "label": "Statistics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 2100",
+            "STSCI 2100",
+            "STSCI 2150",
+            "STSCI 2200"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "ansc-course-equivalency-core-statistics"
+        },
+        {
+          "distributions": [
+            "DLS-AG"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "approval": "ansc-data-literacy-statistics"
+        }
+      ]
+    },
+    {
+      "id": "core-sustainability",
+      "label": "Sustainability challenges",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "AEM 1500",
+            "ANSC 1120",
+            "ANSC 2000",
+            "ANSC 4120",
+            "ANSC 4880",
+            "BIOEE 4690",
+            "EAS 1108",
+            "ENTOM 3440",
+            "FDSC 1200",
+            "GDEV 2300",
+            "NS 4450",
+            "NTRES 1101",
+            "NTRES 2010",
+            "NTRES 3240",
+            "NTRES 3250",
+            "NTRES 4600",
+            "PLSCI 1900",
+            "PLSCI 2400",
+            "PLSCI 4730"
+          ],
+          "origins": [
+            "cornell",
+            "study_abroad"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "acceptCrossListings": true
+        },
+        {
+          "origins": [
+            "transfer"
+          ],
+          "approval": "ansc-course-equivalency-core-sustainability"
+        },
+        {
+          "distributions": [
+            "SCH-AG"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "entry",
+      "label": "Animal Science entry path",
+      "options": [
+        {
+          "id": "first-year",
+          "label": "First-year student",
+          "slots": [
+            {
+              "id": "core-ansc-1101",
+              "label": "ANSC 1101",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 1101"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-1101"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-1105",
+              "label": "ANSC 1105",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 1105"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-1105"
+                }
+              ]
+            },
+            {
+              "id": "core-bioap-1100",
+              "label": "BIOAP 1100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 1100"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-bioap-1100"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2120",
+              "label": "ANSC 2120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2120"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2120"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2210",
+              "label": "ANSC 2210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2210"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2400",
+              "label": "ANSC 2400",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2400"
+                }
+              ]
+            },
+            {
+              "id": "core-ethics",
+              "label": "Ethics and animal welfare",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3100",
+                    "ANSC 4140"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ethics"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "id": "ansc-credit",
+              "label": "Cornell Animal Science credits",
+              "unit": "credits",
+              "need": 36,
+              "options": [
+                {
+                  "subjects": [
+                    "ANSC"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "BIOAP 1100"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "transfer": false,
+          "limits": [
+            {
+              "slots": [
+                "ansc-credit"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4960",
+                    "ANSC 4970",
+                    "ANSC 4980",
+                    "ANSC 4990"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sophomore-transfer",
+          "label": "External sophomore transfer",
+          "slots": [
+            {
+              "id": "core-bioap-1100",
+              "label": "BIOAP 1100",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 1100"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-bioap-1100"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2120",
+              "label": "ANSC 2120",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2120"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2120"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2210",
+              "label": "ANSC 2210",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2210"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2210"
+                }
+              ]
+            },
+            {
+              "id": "core-ansc-2400",
+              "label": "ANSC 2400",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2400"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ansc-2400"
+                }
+              ]
+            },
+            {
+              "id": "core-ethics",
+              "label": "Ethics and animal welfare",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3100",
+                    "ANSC 4140"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-ethics"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "id": "ansc-credit",
+              "label": "Cornell Animal Science credits",
+              "unit": "credits",
+              "need": 36,
+              "options": [
+                {
+                  "subjects": [
+                    "ANSC"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "BIOAP 1100"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "transfer": true,
+          "limits": [
+            {
+              "slots": [
+                "ansc-credit"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4960",
+                    "ANSC 4970",
+                    "ANSC 4980",
+                    "ANSC 4990"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "junior-transfer",
+          "label": "External junior transfer",
+          "slots": [
+            {
+              "id": "core-foundations",
+              "label": "Three Animal Science foundations",
+              "unit": "courses",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 1100",
+                    "ANSC 2120",
+                    "ANSC 2210",
+                    "ANSC 2400"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-foundations"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "id": "ansc-credit",
+              "label": "Cornell Animal Science credits",
+              "unit": "credits",
+              "need": 26,
+              "options": [
+                {
+                  "subjects": [
+                    "ANSC"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                },
+                {
+                  "codes": [
+                    "BIOAP 1100"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "origins": [
+                    "cornell"
+                  ]
+                }
+              ]
+            }
+          ],
+          "transfer": true,
+          "manual": [
+            {
+              "id": "junior-plan",
+              "label": "Junior transfer concentration and substitutions",
+              "instruction": "Confirm the intended concentration requirements, management exemption, replacement Animal Science courses and previously completed chemistry and statistics with the department."
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "ansc-credit"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4960",
+                    "ANSC 4970",
+                    "ANSC 4980",
+                    "ANSC 4990"
+                  ],
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "label": "Animal Science concentration",
+      "options": [
+        {
+          "id": "pre-vet",
+          "label": "Pre-Veterinary Medicine",
+          "slots": [
+            {
+              "id": "core-management",
+              "label": "Fundamentals of animal management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3000",
+                    "ANSC 3450",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-cell",
+              "label": "Introductory cell and developmental biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-cell"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-cell"
+                }
+              ]
+            },
+            {
+              "id": "focus-bio-lab",
+              "label": "Investigative biology laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-bio-lab"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-bio-lab"
+                }
+              ]
+            },
+            {
+              "id": "focus-nutrition",
+              "label": "Animal nutrition credits",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550",
+                    "ANSC 4110",
+                    "ANSC 4200",
+                    "ANSC 4280"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-nutrition"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-nutrition"
+                }
+              ]
+            },
+            {
+              "id": "focus-physiology",
+              "label": "Animal physiology credits",
+              "unit": "credits",
+              "need": 6,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3450",
+                    "ANSC 3540",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4310",
+                    "ANSC 4270",
+                    "ANSC 4410",
+                    "ANSC 4500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physiology"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physiology"
+                }
+              ]
+            },
+            {
+              "id": "focus-flex",
+              "label": "Other eligible animal nutrition or physiology credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550",
+                    "ANSC 4110",
+                    "ANSC 4200",
+                    "ANSC 4280",
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3450",
+                    "ANSC 3540",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4310",
+                    "ANSC 4270",
+                    "ANSC 4410",
+                    "ANSC 4500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-flex"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-flex"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-2070",
+              "label": "CHEM 2070",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-2070"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-2070"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-2071",
+              "label": "CHEM 2071",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-2071"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-2071"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-2080",
+              "label": "CHEM 2080",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2080"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-2080"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-2080"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-2081",
+              "label": "CHEM 2081",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2081"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-2081"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-2081"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-3570",
+              "label": "CHEM 3570",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 3570"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-3570"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-3570"
+                }
+              ]
+            },
+            {
+              "id": "focus-phys-2207",
+              "label": "PHYS 2207",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2207"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-phys-2207"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-phys-2207"
+                }
+              ]
+            },
+            {
+              "id": "focus-phys-2208",
+              "label": "PHYS 2208",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PHYS 2208"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-phys-2208"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-phys-2208"
+                }
+              ]
+            },
+            {
+              "id": "focus-life-science",
+              "label": "Advanced life sciences",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOAP 3110",
+                    "BIOAP 3190",
+                    "BIOAP 4130",
+                    "BIOEE 4700",
+                    "BIOMG 3850",
+                    "BIOMI 2900",
+                    "BIOMI 2911",
+                    "BIOMS 3160",
+                    "NS 3410"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-life-science"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-life-science"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "prev-upper",
+              "label": "Advanced Animal Science credits",
+              "slots": [
+                "focus-nutrition",
+                "focus-physiology",
+                "focus-flex"
+              ],
+              "need": 11,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "unit": "courses",
+              "max": 0,
+              "options": [
+                {
+                  "maxGrade": "D+"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "prev-standing",
+              "label": "Pre-veterinary standing",
+              "instruction": "Verify a cumulative GPA of at least 2.8, approved equivalencies and any coursework required by the veterinary schools you’re considering."
+            }
+          ]
+        },
+        {
+          "id": "dairy",
+          "label": "Dairy Management",
+          "slots": [
+            {
+              "id": "core-management",
+              "label": "Dairy cattle principles · also the Dairy Management prerequisite",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-dairy-reproduction",
+              "label": "Dairy reproductive physiology or facilities",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3450",
+                    "ANSC 4040"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-dairy-reproduction"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-dairy-reproduction"
+                }
+              ]
+            },
+            {
+              "id": "focus-ansc-3510",
+              "label": "ANSC 3510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3510"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ansc-3510"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ansc-3510"
+                }
+              ]
+            },
+            {
+              "id": "focus-ansc-3540",
+              "label": "ANSC 3540",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3540"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ansc-3540"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ansc-3540"
+                }
+              ]
+            },
+            {
+              "id": "focus-ansc-3550",
+              "label": "ANSC 3550",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ansc-3550"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ansc-3550"
+                }
+              ]
+            },
+            {
+              "id": "focus-ansc-4510",
+              "label": "ANSC 4510",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4510"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ansc-4510"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ansc-4510"
+                }
+              ]
+            },
+            {
+              "id": "focus-ansc-4560",
+              "label": "ANSC 4560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4560"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ansc-4560"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ansc-4560"
+                }
+              ]
+            },
+            {
+              "id": "focus-als-3020",
+              "label": "ALS 3020",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ALS 3020"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-als-3020"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-als-3020"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-1560",
+              "label": "CHEM 1560",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-1560"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-1560"
+                }
+              ]
+            },
+            {
+              "id": "focus-chem-1561",
+              "label": "CHEM 1561",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chem-1561"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chem-1561"
+                }
+              ]
+            },
+            {
+              "id": "focus-econ",
+              "label": "Economics and finance",
+              "unit": "courses",
+              "need": 2,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 1500",
+                    "AEM 2210",
+                    "AEM 2220",
+                    "AEM 2241",
+                    "ALS 2050",
+                    "ECON 1110",
+                    "ECON 1120",
+                    "HADM 2230",
+                    "HADM 2250"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-econ"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-econ"
+                }
+              ]
+            },
+            {
+              "id": "focus-additional",
+              "label": "Additional Dairy Management course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 2011",
+                    "AEM 2310",
+                    "AEM 2400",
+                    "AEM 2480",
+                    "AEM 2820",
+                    "AEM 2830",
+                    "AEM 2850",
+                    "AEM 3040",
+                    "ALS 1110",
+                    "ANSC 4110",
+                    "ANSC 4120",
+                    "ANSC 4880",
+                    "HADM 4150",
+                    "ILRHR 2600",
+                    "NBA 3000",
+                    "PLSCI 2110",
+                    "PLSCI 2200",
+                    "PLSCI 2600",
+                    "PLSCI 3030",
+                    "PLSCI 3150",
+                    "PLSCI 3210"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-additional"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-additional"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ecology",
+          "label": "Animal Ecology and Conservation",
+          "slots": [
+            {
+              "id": "core-management",
+              "label": "Fundamentals of animal management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3000",
+                    "ANSC 3450",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-biology",
+              "label": "Ecology or evolutionary biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780",
+                    "BIOSM 1610",
+                    "BIOSM 1780"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-biology"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-biology"
+                }
+              ]
+            },
+            {
+              "id": "focus-physiology",
+              "label": "Core physiological principles",
+              "unit": "credits",
+              "need": 12,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2300",
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4200",
+                    "ANSC 4270",
+                    "ANSC 4280",
+                    "ANSC 4310",
+                    "ANSC 4410",
+                    "ANSC 4500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physiology"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physiology"
+                }
+              ]
+            },
+            {
+              "id": "focus-diversity",
+              "label": "Species diversity and evolution",
+              "unit": "credits",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 1130",
+                    "BIOEE 1780",
+                    "BIOEE 2740",
+                    "BIOEE 3730",
+                    "BIOEE 4530",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOEE 4751",
+                    "BIOSM 1640",
+                    "BIOSM 1650",
+                    "BIOSM 2780",
+                    "BIOSM 3210",
+                    "BIOSM 3450",
+                    "BIOSM 3740",
+                    "BIOSM 4650",
+                    "ENTOM 2030",
+                    "ENTOM 2120"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-diversity"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-diversity"
+                },
+                {
+                  "codes": [
+                    "ENTOM 3310",
+                    "ENTOM 3311"
+                  ],
+                  "minGrade": "D-",
+                  "approval": "ansc-ecology-entom-pair"
+                }
+              ]
+            },
+            {
+              "id": "focus-ecosystem",
+              "label": "Ecosystems and conservation",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 4880",
+                    "BIOEE 3610",
+                    "BIOEE 4660",
+                    "BIOEE 4780",
+                    "BIOMI 3500",
+                    "BIOSM 2800",
+                    "BIOSM 3750",
+                    "EAS 2680",
+                    "NTRES 2010",
+                    "NTRES 3220",
+                    "NTRES 4600"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-ecosystem"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-ecosystem"
+                }
+              ]
+            },
+            {
+              "id": "focus-physics-organic",
+              "label": "Organic chemistry or physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570",
+                    "CHEM 3570",
+                    "EAS 1600",
+                    "PHYS 1203"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physics-organic"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physics-organic"
+                }
+              ]
+            },
+            {
+              "id": "focus-econ",
+              "label": "Economics and finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 1500",
+                    "AEM 2210",
+                    "AEM 2220",
+                    "ALS 2050",
+                    "ECON 1110",
+                    "ECON 1120",
+                    "HADM 2230"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-econ"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-econ"
+                }
+              ]
+            },
+            {
+              "id": "focus-lab",
+              "label": "Applied laboratory and research techniques",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2410",
+                    "ANSC 4020",
+                    "ANSC 4310",
+                    "BIOG 1500",
+                    "BIOEE 3611",
+                    "BIOMI 2911",
+                    "BIOMG 4810",
+                    "BIOSM 1500",
+                    "BIOSM 2350",
+                    "BIOSM 2450",
+                    "BIOSM 3750",
+                    "ENTOM 3030",
+                    "NTRES 2100",
+                    "NTRES 2400",
+                    "NTRES 3100",
+                    "NTRES 3150",
+                    "NTRES 3400",
+                    "NTRES 4100",
+                    "NTRES 4120"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-lab"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-lab"
+                },
+                {
+                  "numberMin": 4990,
+                  "numberMax": 4990,
+                  "minGrade": "D-",
+                  "approval": "ansc-approved-research",
+                  "maxCountedCredits": 3
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "id": "entom-pair",
+              "label": "Paired insect diversity option",
+              "instruction": "Confirm that both ENTOM 3310 and ENTOM 3311 were taken before applying the paired elective approval."
+            }
+          ]
+        },
+        {
+          "id": "applied",
+          "label": "Applied Animal Biology and Management",
+          "slots": [
+            {
+              "id": "core-management",
+              "label": "Fundamentals of animal management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3000",
+                    "ANSC 3450",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-nutrition",
+              "label": "Animal nutrition",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550",
+                    "ANSC 4110",
+                    "ANSC 4200",
+                    "ANSC 4280"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-nutrition"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-nutrition"
+                }
+              ]
+            },
+            {
+              "id": "focus-physiology",
+              "label": "Animal physiology",
+              "unit": "credits",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4270",
+                    "ANSC 4310",
+                    "ANSC 4410",
+                    "ANSC 4500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physiology"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physiology"
+                }
+              ]
+            },
+            {
+              "id": "focus-management",
+              "label": "Animal management electives",
+              "unit": "credits",
+              "need": 9,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 1130",
+                    "ANSC 2100",
+                    "ANSC 2300",
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3000",
+                    "ANSC 3100",
+                    "ANSC 3310",
+                    "ANSC 3450",
+                    "ANSC 3500",
+                    "ANSC 3510",
+                    "ANSC 3540",
+                    "ANSC 3600",
+                    "ANSC 3800",
+                    "ANSC 4120"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-management"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-physics-organic",
+              "label": "Organic chemistry or physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570",
+                    "CHEM 3570",
+                    "EAS 1600",
+                    "PHYS 1203"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physics-organic"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physics-organic"
+                }
+              ]
+            },
+            {
+              "id": "focus-econ",
+              "label": "Economics and finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 1500",
+                    "AEM 2210",
+                    "AEM 2220",
+                    "ALS 2050",
+                    "ALS 3020",
+                    "ECON 1110",
+                    "ECON 1120",
+                    "HADM 2230"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-econ"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-econ"
+                }
+              ]
+            },
+            {
+              "id": "focus-additional",
+              "label": "Additional concentration course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780",
+                    "BIOEE 2740",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOMI 2900",
+                    "BIOSM 1500",
+                    "BIOSM 1610",
+                    "BIOSM 1780",
+                    "EAS 1600",
+                    "ENTOM 2030",
+                    "ENTOM 2120",
+                    "FDSC 2000",
+                    "NS 1150",
+                    "NS 2750",
+                    "NS 3410",
+                    "NTRES 1101",
+                    "NTRES 2010",
+                    "NTRES 2100",
+                    "NTRES 2201",
+                    "PLSCI 1101",
+                    "PLSCI 1115",
+                    "PLSCI 2410",
+                    "PLSCI 2600",
+                    "PLSCI 3440"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-additional"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-additional"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integrative",
+          "label": "Integrative Physiology and Nutrition",
+          "slots": [
+            {
+              "id": "core-management",
+              "label": "Fundamentals of animal management",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2500",
+                    "ANSC 2650",
+                    "ANSC 3000",
+                    "ANSC 3450",
+                    "ANSC 3600",
+                    "ANSC 3800"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-core-management"
+                }
+              ]
+            },
+            {
+              "id": "focus-physiology",
+              "label": "Animal physiology",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3450",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4270",
+                    "ANSC 4310",
+                    "ANSC 4410",
+                    "ANSC 4500"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physiology"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physiology"
+                }
+              ]
+            },
+            {
+              "id": "focus-nutrition",
+              "label": "Animal nutrition",
+              "unit": "credits",
+              "need": 3,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3550",
+                    "ANSC 4110",
+                    "ANSC 4200",
+                    "ANSC 4280"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-nutrition"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-nutrition"
+                }
+              ]
+            },
+            {
+              "id": "focus-flex",
+              "label": "Other eligible animal nutrition or physiology credits",
+              "unit": "credits",
+              "need": 0,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 3000",
+                    "ANSC 3300",
+                    "ANSC 3400",
+                    "ANSC 3410",
+                    "ANSC 3450",
+                    "ANSC 3700",
+                    "ANSC 3920",
+                    "ANSC 4270",
+                    "ANSC 4310",
+                    "ANSC 4410",
+                    "ANSC 4500",
+                    "ANSC 3550",
+                    "ANSC 4110",
+                    "ANSC 4200",
+                    "ANSC 4280"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-flex"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-flex"
+                }
+              ]
+            },
+            {
+              "id": "focus-physics-organic",
+              "label": "Organic chemistry or physics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1570",
+                    "CHEM 3570",
+                    "EAS 1600",
+                    "PHYS 1203"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-physics-organic"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-physics-organic"
+                }
+              ]
+            },
+            {
+              "id": "focus-econ",
+              "label": "Economics and finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "AEM 1200",
+                    "AEM 1500",
+                    "AEM 2210",
+                    "AEM 2220",
+                    "ALS 2050",
+                    "ECON 1110",
+                    "ECON 1120",
+                    "HADM 2230"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-econ"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-econ"
+                }
+              ]
+            },
+            {
+              "id": "focus-lab",
+              "label": "Applied laboratory and research techniques",
+              "unit": "credits",
+              "need": 5,
+              "options": [
+                {
+                  "codes": [
+                    "ANSC 2410",
+                    "ANSC 3310",
+                    "ANSC 4020",
+                    "ANSC 4310",
+                    "BIOG 1500",
+                    "BIOAP 3190",
+                    "BIOMI 2911",
+                    "BIOEE 3611",
+                    "BIOMG 4810",
+                    "ENTOM 3030",
+                    "NTRES 2100",
+                    "NTRES 3100",
+                    "NTRES 3150",
+                    "NTRES 3400"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-lab"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-lab"
+                },
+                {
+                  "numberMin": 4990,
+                  "numberMax": 4990,
+                  "minGrade": "D-",
+                  "approval": "ansc-approved-research",
+                  "maxCountedCredits": 3
+                }
+              ]
+            },
+            {
+              "id": "focus-additional",
+              "label": "Additional concentration course",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOEE 1780",
+                    "BIOEE 2740",
+                    "BIOEE 4700",
+                    "BIOEE 4750",
+                    "BIOMI 2900",
+                    "BIOSM 1500",
+                    "BIOSM 1610",
+                    "BIOSM 1780",
+                    "EAS 1600",
+                    "ENTOM 2030",
+                    "ENTOM 2120",
+                    "FDSC 2000",
+                    "NS 1150",
+                    "NS 2750",
+                    "NS 3410",
+                    "NTRES 1101",
+                    "NTRES 2010",
+                    "NTRES 2100",
+                    "NTRES 2201",
+                    "PLSCI 1101",
+                    "PLSCI 1115",
+                    "PLSCI 2410",
+                    "PLSCI 3440",
+                    "PLSCI 2600"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-additional"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-additional"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "integrative-upper",
+              "label": "Animal physiology and nutrition credits",
+              "slots": [
+                "focus-nutrition",
+                "focus-physiology",
+                "focus-flex"
+              ],
+              "need": 12,
+              "unit": "credits"
+            }
+          ],
+          "limits": [
+            {
+              "slots": [
+                "focus-lab"
+              ],
+              "unit": "credits",
+              "max": 3,
+              "options": [
+                {
+                  "numberMin": 4990,
+                  "numberMax": 4990
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-vet-biochemistry",
+      "label": "Pre-veterinary biochemistry",
+      "options": [
+        {
+          "id": "sequence",
+          "label": "Biochemistry sequence",
+          "slots": [
+            {
+              "id": "bio-one",
+              "label": "Proteins and metabolism",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-bio-one"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-bio-one"
+                }
+              ]
+            },
+            {
+              "id": "bio-two",
+              "label": "Molecular biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-bio-two"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-bio-two"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "single",
+          "label": "Single approved biochemistry course",
+          "slots": [
+            {
+              "id": "bio-one",
+              "label": "Approved biochemistry credit minimum",
+              "unit": "credits",
+              "need": 4,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "NS 3200",
+                    "BIOMG 3350"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-bio-one"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-bio-one"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "concentration": [
+          "pre-vet"
+        ]
+      }
+    },
+    {
+      "id": "focus-chemistry",
+      "label": "General chemistry and laboratory",
+      "options": [
+        {
+          "id": "intro",
+          "label": "Introductory general chemistry and lab",
+          "slots": [
+            {
+              "id": "focus-chemistry",
+              "label": "Introductory general chemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1560"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chemistry"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "focus-chemistry-lab",
+              "label": "Introductory lab",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 1561"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chemistry-lab"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chemistry-lab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general",
+          "label": "General chemistry and lab",
+          "slots": [
+            {
+              "id": "focus-chemistry",
+              "label": "General chemistry I",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2070"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chemistry"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chemistry"
+                }
+              ]
+            },
+            {
+              "id": "focus-chemistry-lab",
+              "label": "General chemistry I lab",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEM 2071"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "allowSatisfactory": true,
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "transfer"
+                  ],
+                  "approval": "ansc-course-equivalency-focus-chemistry-lab"
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "ansc-approved-exam-focus-chemistry-lab"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onlyWhen": {
+        "concentration": [
+          "ecology",
+          "applied",
+          "integrative"
+        ]
+      }
+    }
+  ],
+  "limits": [
+    {
+      "unit": "credits",
+      "max": 6,
+      "options": [
+        {
+          "grades": [
+            "S",
+            "SX",
+            "Satisfactory"
+          ]
+        },
+        {
+          "passFailOnly": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "animal-credit-overlap",
+      "label": "Credits shared with other programs",
+      "instruction": "Confirm no more than six shared Animal Science credits with a second major and no more than three with a minor. Check any substitution and earlier curriculum with the department."
+    }
+  ]
+}

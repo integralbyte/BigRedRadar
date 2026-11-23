@@ -1,0 +1,129 @@
+{
+  "programId": "history-art-minor",
+  "name": "History of Art Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Five History of Art courses including 2000-level and advanced coursework.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/history-art-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "2000",
+      "label": "2000-level History of Art",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ARTH",
+            "VISST"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "numberMax": 2999
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 2999,
+          "minGrade": "B-",
+          "approval": "arth-minor-approved-course"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "History of Art at the 3000 level or above",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ARTH",
+            "VISST"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "numberMin": 3000,
+          "numberMax": 9999
+        },
+        {
+          "numberMin": 3000,
+          "numberMax": 9999,
+          "minGrade": "B-",
+          "approval": "arth-minor-approved-course"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "label": "Additional History of Art courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "ARTH",
+            "VISST"
+          ],
+          "minGrade": "B-",
+          "acceptCrossListings": true,
+          "numberMin": 2000,
+          "numberMax": 9999
+        },
+        {
+          "numberMin": 2000,
+          "numberMax": 9999,
+          "minGrade": "B-",
+          "approval": "arth-minor-approved-course"
+        },
+        {
+          "codes": [
+            "ARTH 1100"
+          ],
+          "minGrade": "B-"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "history-art-ba"
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 2,
+      "options": [
+        {
+          "origins": [
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "overlap",
+      "label": "Course approval and overlap",
+      "instruction": "Obtain approval for courses outside ARTH and VISST. Confirm the two-course limit on overlap with major requirements or courses taken in study abroad."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 2,
+      "unit": "courses"
+    }
+  ]
+}

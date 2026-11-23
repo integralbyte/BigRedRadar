@@ -1,0 +1,1028 @@
+{
+  "programId": "biological-engineering-bs",
+  "name": "Biological Engineering (BS) · Engineering",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Joint engineering curriculum with college-specific chemistry for Fall 2025 and later entrants.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/biological-engineering-bs/#curriculumtext",
+    "https://beadvised.bee.cornell.edu/curricula-fall-2025-and-later/",
+    "https://beadvised.bee.cornell.edu/full-list-of-focus-areas-1-5-fall-2025-or-later/",
+    "https://beadvised.bee.cornell.edu/chemistry-7-credits-2025/",
+    "https://beadvised.bee.cornell.edu/additional-requirements/"
+  ],
+  "colleges": [
+    "EN"
+  ],
+  "variantId": "engineering",
+  "slots": [
+    {
+      "id": "math-math-1910",
+      "label": "MATH 1910",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1910"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-1920",
+      "label": "MATH 1920",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 1920"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2930",
+      "label": "MATH 2930",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2930"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "math-math-2940",
+      "label": "MATH 2940",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "MATH 2940"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "C-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1112",
+      "label": "PHYS 1112",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-1110",
+      "label": "PHYS 1110",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 1110"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "physics-phys-2213",
+      "label": "PHYS 2213",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PHYS 2213"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic chemistry",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 1570",
+            "CHEM 3570"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "label": "Introductory computing",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CS 1110",
+            "CS 1112"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "bio-lab",
+      "label": "Introductory biology laboratory",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BIOG 1500",
+            "BIOSM 1500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "bio-biological-science",
+      "label": "Approved advanced biological science electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "approval": "bio-biological-science",
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "eng-intro",
+      "label": "Introduction to Engineering",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ENGRI"
+          ],
+          "numberMin": 1000,
+          "numberMax": 1999,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-solids",
+      "label": "Mechanics of solids",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRD 2020"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-thermodynamics",
+      "label": "Thermodynamics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 2220",
+            "ENGRD 2210",
+            "CHEME 3130",
+            "MSE 3030"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-intro-distribution",
+      "label": "Biological engineering distribution",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 2600",
+            "BEE 2510"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-fluids",
+      "label": "Fluid mechanics",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 3310",
+            "CHEME 3230"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-bee-3400",
+      "label": "BEE 3400",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 3400"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-bee-3500",
+      "label": "BEE 3500",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 3500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-bee-3600",
+      "label": "BEE 3600",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 3600"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-bee-4500",
+      "label": "BEE 4500",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4500"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-probability",
+      "label": "Statistics and uncertainty analysis",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CEE 3040",
+            "ENGRD 2700"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-capstone",
+      "label": "Biological Engineering capstone",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4530",
+            "BEE 4590"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-focus",
+      "label": "Additional focus area electives",
+      "unit": "credits",
+      "need": 12,
+      "options": [
+        {
+          "codes": [
+            "BEE 3280",
+            "BEE 3900",
+            "BEE 4310",
+            "BEE 4530",
+            "BEE 4550",
+            "BEE 4560",
+            "BEE 4590",
+            "BEE 4630",
+            "BEE 4850",
+            "BEE 6400",
+            "BEE 6740",
+            "BIOCB 3620",
+            "BIOEE 3550",
+            "BME 3010",
+            "BME 3020",
+            "BME 3110",
+            "BME 3210",
+            "BME 5810",
+            "BME 5830",
+            "BME 5850",
+            "BME 6130",
+            "CEE 4370",
+            "CEE 6550",
+            "CEE 6570",
+            "CHEME 4840",
+            "CHEME 5430",
+            "CHEME 5440",
+            "CS 4775",
+            "EAS 3340",
+            "MAE 4480",
+            "MAE 4700",
+            "MAE 4721",
+            "MAE 5135",
+            "MAE 5640",
+            "MSE 3010",
+            "MSE 5230",
+            "MSE 5240",
+            "MSE 5620",
+            "NTRES 3100",
+            "NTRES 4120"
+          ],
+          "minGrade": "D-",
+          "acceptCrossListings": true
+        },
+        {
+          "approval": "be-other-technical-focus",
+          "numberMin": 2000,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "eng-additional",
+      "label": "Other engineering courses toward the credit minimum",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "approval": "eng-additional",
+          "minGrade": "D-",
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "be-advisor-elective",
+      "label": "Advisor-approved electives",
+      "unit": "credits",
+      "need": 6,
+      "options": [
+        {
+          "approval": "be-advisor-elective",
+          "minGrade": "D-",
+          "numberMin": 1100
+        }
+      ]
+    },
+    {
+      "id": "orientation",
+      "label": "Engineering orientation",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "ENGRG 1050"
+          ],
+          "minGrade": "D-",
+          "allowPassFailOnly": true
+        }
+      ]
+    },
+    {
+      "id": "chemistry-chem-2090",
+      "label": "CHEM 2090",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2090"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "chemistry-chem-2091",
+      "label": "CHEM 2091",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "CHEM 2091"
+          ],
+          "acceptCrossListings": true,
+          "allowPassFailOnly": false,
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "id": "biology",
+      "label": "Two introductory biology courses",
+      "options": [
+        {
+          "id": "cell--physiology",
+          "label": "Cell and developmental biology / Comparative physiology",
+          "slots": [
+            {
+              "id": "bio-cell",
+              "label": "Cell and developmental biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-cell"
+                }
+              ]
+            },
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-physiology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cell--ecology",
+          "label": "Cell and developmental biology / Ecology",
+          "slots": [
+            {
+              "id": "bio-cell",
+              "label": "Cell and developmental biology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 1350"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-cell"
+                }
+              ]
+            },
+            {
+              "id": "bio-ecology",
+              "label": "Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-ecology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physiology--ecology",
+          "label": "Comparative physiology / Ecology",
+          "slots": [
+            {
+              "id": "bio-physiology",
+              "label": "Comparative physiology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOG 1440",
+                    "BIOG 1445"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-physiology"
+                }
+              ]
+            },
+            {
+              "id": "bio-ecology",
+              "label": "Ecology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOEE 1610",
+                    "BIOSM 1610"
+                  ],
+                  "origins": [
+                    "cornell",
+                    "transfer",
+                    "study_abroad"
+                  ],
+                  "minGrade": "D-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "origins": [
+                    "exam"
+                  ],
+                  "approval": "be-biology-placement-ecology"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry",
+      "label": "Biochemistry path",
+      "options": [
+        {
+          "id": "single",
+          "label": "Single biochemistry course",
+          "slots": [
+            {
+              "id": "bio-biochemistry",
+              "label": "Biochemistry",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3300",
+                    "BIOMG 3350"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sequence",
+          "label": "Two-course biochemistry sequence",
+          "slots": [
+            {
+              "id": "bio-biomg-3310",
+              "label": "BIOMG 3310",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3310"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            },
+            {
+              "id": "bio-biomg-3320",
+              "label": "BIOMG 3320",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BIOMG 3320"
+                  ],
+                  "acceptCrossListings": true,
+                  "allowPassFailOnly": false,
+                  "minGrade": "D-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Focus area for at least six credits",
+      "options": [
+        {
+          "id": "ecological-and-agricultural-systems",
+          "label": "Ecological and Agricultural Systems",
+          "slots": [],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Ecological and Agricultural Systems credits",
+              "slots": [
+                "eng-capstone",
+                "eng-focus"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3900",
+                    "BEE 4560",
+                    "BEE 4590",
+                    "BEE 6740",
+                    "BIOCB 3620",
+                    "BIOEE 3550",
+                    "CEE 4370",
+                    "CEE 6550",
+                    "CEE 6570",
+                    "CHEME 5430",
+                    "EAS 3340",
+                    "NTRES 3100",
+                    "NTRES 4120"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "be-focus-ecological-and-agricultural-systems"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomechanics-and-biotransport",
+          "label": "Biomechanics and Biotransport",
+          "slots": [],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Biomechanics and Biotransport credits",
+              "slots": [
+                "eng-capstone",
+                "eng-focus"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3900",
+                    "BEE 4530",
+                    "BEE 4550",
+                    "BEE 4560",
+                    "BEE 4590",
+                    "BEE 4630"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "be-focus-biomechanics-and-biotransport"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biomaterials-engineering",
+          "label": "Biomaterials Engineering",
+          "slots": [],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Biomaterials Engineering credits",
+              "slots": [
+                "eng-capstone",
+                "eng-focus"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BEE 6400",
+                    "BME 3210",
+                    "BME 5810",
+                    "BME 5830",
+                    "BME 5850",
+                    "MAE 4480",
+                    "MAE 4700",
+                    "MAE 4721",
+                    "MAE 5135",
+                    "MAE 5640",
+                    "MSE 3010",
+                    "MSE 5230",
+                    "MSE 5240",
+                    "MSE 5620"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "be-focus-biomaterials-engineering"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cellular-and-molecular-biotechnology",
+          "label": "Cellular and Molecular Biotechnology",
+          "slots": [],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Cellular and Molecular Biotechnology credits",
+              "slots": [
+                "eng-capstone",
+                "eng-focus"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BEE 3280",
+                    "BEE 4550",
+                    "BME 3010",
+                    "BME 3020",
+                    "BME 3110",
+                    "BME 6130",
+                    "CHEME 4840",
+                    "CHEME 5430",
+                    "CHEME 5440"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "be-focus-cellular-and-molecular-biotechnology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "modeling-and-computation-in-bioengineering",
+          "label": "Modeling and Computation in Bioengineering",
+          "slots": [],
+          "checks": [
+            {
+              "id": "focus-credits",
+              "label": "Modeling and Computation in Bioengineering credits",
+              "slots": [
+                "eng-capstone",
+                "eng-focus"
+              ],
+              "need": 6,
+              "unit": "credits",
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4310",
+                    "BEE 4530",
+                    "BEE 4630",
+                    "BEE 4850",
+                    "BIOCB 3620",
+                    "CS 4775"
+                  ],
+                  "acceptCrossListings": true
+                },
+                {
+                  "approval": "be-focus-modeling-and-computation-in-bioengineering"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "bio-credit",
+      "label": "Biological sciences credits",
+      "slotPrefix": "bio-",
+      "need": 15,
+      "unit": "credits"
+    },
+    {
+      "id": "eng-credit",
+      "label": "Engineering distribution and field credits",
+      "slotPrefix": "eng-",
+      "need": 48,
+      "unit": "credits"
+    },
+    {
+      "id": "focus-total",
+      "label": "Focus-area and capstone credits",
+      "slots": [
+        "eng-capstone",
+        "eng-focus"
+      ],
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "maxGrade": "D+"
+        }
+      ]
+    }
+  ],
+  "totals": [
+    {
+      "id": "engineering-communications",
+      "label": "Engineering communications",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "BEE 4530",
+            "BEE 4590",
+            "BEE 4730",
+            "ENGRC 3500",
+            "ENGRC 3350",
+            "ENGRC 3023"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "engineering-communications",
+          "minGrade": "D-"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "lab-and-degree",
+      "label": "Lab training and Engineering graduation requirements",
+      "instruction": "Confirm EHS 2555, the 128-credit total, engineering writing and liberal studies, and the departmental checklist for students who entered before Fall 2025."
+    },
+    {
+      "id": "electives",
+      "label": "Approval for advanced and experiential courses",
+      "instruction": "Confirm the prerequisite and subject content for the advanced biology elective, any nonlisted focus course, a documented substitute for the engineering lab and allowed research or project team credits."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "programId": "nutrition-health-minor",
+  "name": "Nutrition and Health Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "One introductory nutrition course and nine credits of named Nutritional Sciences electives.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/nutrition-health-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "foundation",
+      "label": "Introductory nutrition",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "NS 1150",
+            "NS 1220"
+          ],
+          "origins": [
+            "cornell"
+          ],
+          "minGrade": "D-"
+        },
+        {
+          "approval": "dns-nutrition-transfer-equivalent",
+          "origins": [
+            "transfer"
+          ],
+          "minGrade": "D-"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Approved Nutritional Sciences courses",
+      "unit": "credits",
+      "need": 9,
+      "options": [
+        {
+          "codes": [
+            "NS 3060",
+            "NS 4450",
+            "NS 4480",
+            "NS 4570",
+            "NS 3600",
+            "NS 4500",
+            "NS 4510",
+            "NS 2470",
+            "NS 3450",
+            "NS 3150",
+            "NS 3410",
+            "NS 4140",
+            "NS 4200",
+            "NS 4210",
+            "NS 4330",
+            "NS 4410",
+            "NS 4420",
+            "NS 5510",
+            "NS 3200",
+            "NS 3310",
+            "NS 3320",
+            "NS 4300",
+            "NS 2450",
+            "NS 4250"
+          ],
+          "minGrade": "D-",
+          "origins": [
+            "cornell"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "nutritional-sciences-bs",
+    "global-public-health-sciences-bs",
+    "global-public-health-sciences-hum-ecol-bs",
+    "human-biology-health-society-bs"
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Concentration eligibility and transfer approval",
+      "instruction": "Students concentrating in Human Nutrition within Biological Sciences are ineligible. Only external transfer students may petition for a foundation substitution."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 12,
+      "unit": "credits"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "programId": "ilr-bs",
+  "name": "Industrial and Labor Relations graduation requirements",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Total academic credits and the ILR letter-graded credit minimum.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/industrial-labor-relations-bs/#curriculumtext",
+    "https://catalog.cornell.edu/industrial-labor-relations/"
+  ],
+  "slots": [
+    {
+      "id": "degree",
+      "label": "Academic credits applicable to graduation",
+      "unit": "credits",
+      "need": 120,
+      "options": [
+        {
+          "numberMin": 1100,
+          "excludeSubjects": [
+            "PE"
+          ],
+          "minGrade": "D-",
+          "allowSatisfactory": true,
+          "excludeApprovals": [
+            "ilr-non-academic-credit"
+          ]
+        },
+        {
+          "approval": "ilr-accepted-test-credit",
+          "origins": [
+            "exam"
+          ]
+        },
+        {
+          "approval": "ilr-accepted-transfer-credit",
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    }
+  ],
+  "colleges": [
+    "IL"
+  ],
+  "layer": "college",
+  "checks": [
+    {
+      "id": "graded",
+      "label": "Letter-graded or approved test credits",
+      "slots": [
+        "degree"
+      ],
+      "need": 105,
+      "unit": "credits",
+      "options": [
+        {
+          "minGrade": "D-"
+        },
+        {
+          "origins": [
+            "exam"
+          ],
+          "approval": "ilr-accepted-test-credit"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "acceptance",
+      "label": "Transfer grade, campus credit and graduation standing",
+      "instruction": "Confirm transfer credit, original grading and approved test credit with ILR. The overall graduation minimum excludes Physical Education and 1000–1099 supplemental coursework."
+    }
+  ]
+}

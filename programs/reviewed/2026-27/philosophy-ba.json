@@ -1,0 +1,239 @@
+{
+  "programId": "philosophy-ba",
+  "name": "Philosophy (BA)",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Eight core courses and two approved electives with the published exclusions.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/philosophy-ba/#curriculumtext"
+  ],
+  "colleges": [
+    "AS"
+  ],
+  "slots": [
+    {
+      "id": "phil-ancient",
+      "label": "Ancient philosophy including Plato or Aristotle",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "PHIL 2200"
+          ]
+        },
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "phil-ancient-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "phil-modern",
+      "label": "History of modern philosophy before 1900",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "codes": [
+            "PHIL 2220"
+          ]
+        },
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "approval": "phil-modern-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "phil-upper",
+      "label": "Additional 2000-level and higher philosophy",
+      "unit": "courses",
+      "need": 4,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "numberMin": 2000
+        }
+      ]
+    },
+    {
+      "id": "phil-open",
+      "label": "Philosophy at any level",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ]
+        },
+        {
+          "codes": [
+            "PHIL 1110",
+            "PHIL 1111",
+            "PHIL 1112"
+          ],
+          "approval": "phil-earlier-cohort-fws",
+          "minGrade": "C"
+        }
+      ]
+    },
+    {
+      "id": "adjacent",
+      "label": "Additional philosophy or related courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "PHIL"
+          ],
+          "acceptCrossListings": true,
+          "minGrade": "C",
+          "excludeNumberPatterns": [
+            "X9XX"
+          ],
+          "excludeApprovals": [
+            "as-writing-seminar"
+          ],
+          "minCredits": 3
+        },
+        {
+          "approval": "phil-approved-adjacent",
+          "minGrade": "C",
+          "minCredits": 3
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "core-credits",
+      "label": "Core philosophy credits",
+      "need": 24,
+      "unit": "credits",
+      "slotPrefix": "phil-"
+    },
+    {
+      "id": "upper",
+      "label": "Philosophy courses at 3000 level or above",
+      "slots": [
+        "phil-ancient",
+        "phil-modern",
+        "phil-upper"
+      ],
+      "need": 3,
+      "unit": "courses",
+      "options": [
+        {
+          "numberMin": 3000
+        }
+      ]
+    },
+    {
+      "id": "related-credits",
+      "label": "Additional approved credits",
+      "slots": [
+        "adjacent"
+      ],
+      "need": 6,
+      "unit": "credits"
+    }
+  ],
+  "limits": [
+    {
+      "slotPrefix": "phil-",
+      "max": 4,
+      "unit": "courses",
+      "options": [
+        {
+          "origins": [
+            "transfer",
+            "study_abroad"
+          ]
+        }
+      ]
+    },
+    {
+      "slots": [
+        "phil-open"
+      ],
+      "max": 1,
+      "unit": "courses",
+      "options": [
+        {
+          "approval": "phil-earlier-cohort-fws"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "equivalents",
+      "label": "Approvals and cohort exceptions",
+      "instruction": "Confirm any allowed Fall 2024-or-earlier first-year writing seminar, double-counting restrictions and equivalent philosophy or related courses."
+    }
+  ]
+}

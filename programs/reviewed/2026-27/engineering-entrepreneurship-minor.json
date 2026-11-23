@@ -1,0 +1,171 @@
+{
+  "programId": "engineering-entrepreneurship-minor",
+  "name": "Engineering Entrepreneurship Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Teach-out. Six courses in entrepreneurship foundations, ethics, history, finance, design and capstone.",
+  "sources": [
+    "https://courses.cornell.edu/programs/engineering-entrepreneurship-minor/engineering-entrepreneurship-minor.pdf",
+    "https://catalog.cornell.edu/policies-disclosures/discontinued-programs/"
+  ],
+  "slots": [],
+  "colleges": [
+    "EN"
+  ],
+  "choices": [
+    {
+      "id": "teach-out",
+      "label": "Do you meet Cornell’s teach-out eligibility?",
+      "options": [
+        {
+          "id": "documented",
+          "label": "Confirm eligibility by Spring 2026",
+          "slots": [
+            {
+              "id": "intro",
+              "label": "Introduction to Entrepreneurship for Engineers",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRG 2270"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-intro-petition"
+                }
+              ]
+            },
+            {
+              "id": "ethics",
+              "label": "Engineering ethics",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "ENGRG 3600",
+                    "INFO 4301"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-ethics-petition"
+                }
+              ]
+            },
+            {
+              "id": "history",
+              "label": "History of capitalism and technology",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HIST 2920",
+                    "HIST 3022"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-history-petition"
+                }
+              ]
+            },
+            {
+              "id": "accounting",
+              "label": "Accounting and finance",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "HADM 4211",
+                    "ORIE 3150"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-accounting-petition"
+                }
+              ]
+            },
+            {
+              "id": "ideation",
+              "label": "Ideation and design thinking",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "CHEME 4630",
+                    "MAE 4340",
+                    "MSE 5070",
+                    "SYSEN 5740"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-ideation-petition"
+                }
+              ]
+            },
+            {
+              "id": "capstone",
+              "label": "Entrepreneurship capstone",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "BEE 4890",
+                    "ORIE 4152"
+                  ],
+                  "minGrade": "C-",
+                  "acceptCrossListings": true
+                },
+                {
+                  "minGrade": "C-",
+                  "approval": "engineering-entrepreneurship-capstone-petition"
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "minor-credits",
+              "label": "Credits applicable to the minor",
+              "need": 18,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "eligibility",
+      "label": "Confirm continuing-student eligibility",
+      "instruction": "Check with the offering program that you were eligible by Spring 2026 and that its archived requirements apply to your record."
+    },
+    {
+      "id": "edition",
+      "label": "Teach-out approval and alternate courses",
+      "instruction": "Cornell’s discontinuation list gives Spring 2026 as last admission and the archived curriculum describes the program as unavailable to new students in 2024–25. Confirm prior declaration and certify course substitutions and totals with Engineering."
+    }
+  ]
+}

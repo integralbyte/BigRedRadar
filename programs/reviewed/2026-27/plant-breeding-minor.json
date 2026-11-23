@@ -1,0 +1,207 @@
+{
+  "programId": "plant-breeding-minor",
+  "name": "Plant Breeding Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Plant genetics and crop improvement, with eight approved elective credits.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/plant-breeding-minor/#curriculumtext",
+    "https://cals.cornell.edu/school-integrative-plant-science/degrees-programs/undergraduate-plant-sciences-major/sips-undergraduate-minors"
+  ],
+  "slots": [
+    {
+      "id": "plsci-2250",
+      "label": "PLSCI 2250",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 2250"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 2250"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "plsci-4030",
+      "label": "PLSCI 4030",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "PLSCI 4030"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "cornell"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 4030"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    },
+    {
+      "id": "electives",
+      "label": "Plant Breeding electives",
+      "unit": "credits",
+      "need": 0,
+      "options": [
+        {
+          "minGrade": "C",
+          "acceptCrossListings": true,
+          "origins": [
+            "cornell"
+          ],
+          "codes": [
+            "PLSCI 3010",
+            "PLSCI 4070",
+            "PLSCI 4080",
+            "PLSCI 4540",
+            "PLSCI 4620"
+          ]
+        },
+        {
+          "codes": [
+            "PLSCI 3010",
+            "PLSCI 4070",
+            "PLSCI 4080",
+            "PLSCI 4540",
+            "PLSCI 4620"
+          ],
+          "minGrade": "C",
+          "origins": [
+            "transfer"
+          ],
+          "approval": "sips-transfer-equivalent"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "format",
+      "label": "In-person instruction, approvals and exclusive credits",
+      "instruction": "Use in-person coursework, confirm equivalents and laboratory requirements with SIPS, and keep the courses separate from your major. Complete at most one SIPS minor."
+    }
+  ],
+  "excludePrograms": [
+    "plant-sciences-bs",
+    "plant-sciences-minor",
+    "crop-management-minor",
+    "fungal-biology-minor",
+    "horticulture-minor",
+    "soil-science-minor"
+  ],
+  "choices": [
+    {
+      "id": "genetics-elective",
+      "label": "Use the paired molecular genetics elective?",
+      "options": [
+        {
+          "id": "other",
+          "label": "Use other approved electives",
+          "slots": [],
+          "checks": [
+            {
+              "id": "eight",
+              "label": "Plant Breeding elective credits",
+              "slots": [
+                "electives"
+              ],
+              "need": 8,
+              "unit": "credits"
+            }
+          ]
+        },
+        {
+          "id": "paired",
+          "label": "Use the molecular genetics lecture and laboratory",
+          "slots": [
+            {
+              "id": "lecture",
+              "label": "Molecular genetics lecture",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3430"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            },
+            {
+              "id": "laboratory",
+              "label": "Molecular genetics laboratory",
+              "unit": "courses",
+              "need": 1,
+              "options": [
+                {
+                  "codes": [
+                    "PLSCI 3431"
+                  ],
+                  "minGrade": "C",
+                  "acceptCrossListings": true
+                }
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "id": "eight",
+              "label": "Plant Breeding elective credits",
+              "slots": [
+                "electives",
+                "lecture",
+                "laboratory"
+              ],
+              "need": 8,
+              "unit": "credits"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 15,
+      "unit": "credits"
+    }
+  ],
+  "overlaps": [
+    {
+      "with": "major",
+      "max": 0,
+      "unit": "courses"
+    }
+  ]
+}

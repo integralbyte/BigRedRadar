@@ -1,0 +1,137 @@
+{
+  "programId": "electrical-computer-engineering-minor",
+  "name": "Electrical and Computer Engineering Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "Two introductory topics, two advanced foundations, one technical 3000-level course and one technical 4000-level course or above.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/electrical-computer-engineering-minor/#curriculumtext",
+    "https://www.duffield.cornell.edu/ece/degree/electrical-computer-engineering-minor-requirements/"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "Electrical and Computer Engineering introductory courses",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ECE 2100",
+            "ECE 2720",
+            "ECE 2300",
+            "CS 3410"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "foundations",
+      "label": "Electromagnetics, signals, systems and devices",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "codes": [
+            "ECE 3030",
+            "ECE 3100",
+            "ECE 3140",
+            "ECE 3250",
+            "ECE 3150"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "Technical ECE course at the 3000 level or above",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ECE"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "ece-project"
+          ],
+          "excludeNumberPatterns": [
+            "49XX",
+            "59XX"
+          ],
+          "numberMin": 3000,
+          "approval": "ece-minor-technical-lecture"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Technical ECE course at the 4000 level or above",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "subjects": [
+            "ECE"
+          ],
+          "minCredits": 3,
+          "minGrade": "C-",
+          "acceptCrossListings": true,
+          "excludeApprovals": [
+            "ece-project"
+          ],
+          "excludeNumberPatterns": [
+            "49XX",
+            "59XX"
+          ],
+          "numberMin": 4000,
+          "approval": "ece-minor-technical-lecture"
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "electrical-computer-engineering-bs"
+  ],
+  "limits": [
+    {
+      "slots": [
+        "intro"
+      ],
+      "unit": "courses",
+      "max": 1,
+      "options": [
+        {
+          "codes": [
+            "ECE 2300",
+            "CS 3410"
+          ],
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "id": "certification",
+      "label": "Technical lecture and minor GPA",
+      "instruction": "Confirm the two non-project technical lectures and at least a 2.3 minor GPA. The department lists CS 3410 as the alternative to ECE 2300, consistent with a six-course minor. Confirm the applicable option with ECE."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}

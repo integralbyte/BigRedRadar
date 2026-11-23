@@ -1,0 +1,86 @@
+{
+  "programId": "earth-atmospheric-sciences-minor",
+  "name": "Earth and Climate Sciences Minor",
+  "catalogYear": "2026-27",
+  "version": "2026-27.1",
+  "reviewedOn": "2026-11-23",
+  "scope": "The Earth System, three core courses, and two additional upper-level EAS courses.",
+  "sources": [
+    "https://catalog.cornell.edu/programs/earth-atmospheric-sciences-minor/#curriculumtext"
+  ],
+  "slots": [
+    {
+      "id": "intro",
+      "label": "The Earth System",
+      "unit": "courses",
+      "need": 1,
+      "options": [
+        {
+          "codes": [
+            "EAS 2250"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "label": "Earth and Climate Sciences core",
+      "unit": "courses",
+      "need": 3,
+      "options": [
+        {
+          "codes": [
+            "EAS 3050",
+            "EAS 3410",
+            "EAS 3420",
+            "EAS 3090",
+            "EAS 3880",
+            "EAS 3010",
+            "EAS 3030",
+            "EAS 3530"
+          ],
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "label": "Additional EAS coursework at the 3000 level or above",
+      "unit": "courses",
+      "need": 2,
+      "options": [
+        {
+          "subjects": [
+            "EAS"
+          ],
+          "numberMin": 3000,
+          "minGrade": "C-",
+          "acceptCrossListings": true
+        }
+      ]
+    }
+  ],
+  "excludePrograms": [
+    "earth-climate-sciences-ba",
+    "earth-climate-sciences-ecsag-bs",
+    "earth-climate-sciences-ecsen-bs"
+  ],
+  "manual": [
+    {
+      "id": "gpa",
+      "label": "Minor GPA and approved fieldwork",
+      "instruction": "Confirm a minor GPA over 2.3 and any approved outside field course with the department."
+    }
+  ],
+  "checks": [
+    {
+      "id": "minor-credits",
+      "label": "Credits applicable to the minor",
+      "need": 18,
+      "unit": "credits"
+    }
+  ]
+}
