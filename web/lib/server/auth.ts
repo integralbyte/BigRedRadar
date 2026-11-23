@@ -1,6 +1,6 @@
 import crypto from 'node:crypto'
 import { OAuth2Client } from 'google-auth-library'
-import { sql } from './db'
+import { databaseConfigured, getDatabase } from './db'
 
 export const COOKIE_NAME = 'brr_session'
 export const SESSION_DAYS = 60
@@ -9,7 +9,7 @@ const CLIENT_ID = process.env.GOOGLE_CLIENT_ID ?? ''
 const google = new OAuth2Client(CLIENT_ID)
 
 export function googleClientId(): string {
-  return CLIENT_ID
+  return databaseConfigured ? CLIENT_ID : ''
 }
 
 function hash(token: string): string {
@@ -26,6 +26,7 @@ export type SessionUser = {
 
 export async function signInWithGoogle(credential: string) {
   if (!CLIENT_ID) throw new Error('GOOGLE_CLIENT_ID is not set on this server')
+  const sql = getDatabase()
 
   const ticket = await google.verifyIdToken({ idToken: credential, audience: CLIENT_ID })
   const p = ticket.getPayload()
@@ -59,7 +60,8 @@ export async function signInWithGoogle(credential: string) {
 }
 
 export async function userFromToken(token: string | undefined): Promise<SessionUser | null> {
-  if (!token) return null
+  if (!token || !databaseConfigured) return null
+  const sql = getDatabase()
 
   const rows = await sql`
     select u.id, u.email, u.name, u.picture_url, u.is_cornell
@@ -73,11 +75,13 @@ export async function userFromToken(token: string | undefined): Promise<SessionU
 }
 
 export async function signOut(token: string | undefined) {
-  if (!token) return
+  if (!token || !databaseConfigured) return
+  const sql = getDatabase()
   await sql`delete from sessions where token_hash = ${hash(token)}`
 }
 
 export async function getFollows(userId: number): Promise<string[]> {
+  const sql = getDatabase()
   const rows = await sql`
     select o.slug
     from subscriptions sub
@@ -90,6 +94,7 @@ export async function getFollows(userId: number): Promise<string[]> {
 }
 
 export async function setFollows(userId: number, slugs: string[]): Promise<string[]> {
+  const sql = getDatabase()
   const clean = [...new Set(slugs.map((s) => String(s).trim()).filter(Boolean))].slice(0, 500)
 
   await sql.begin(async (tx) => {
@@ -108,5 +113,6 @@ export async function setFollows(userId: number, slugs: string[]): Promise<strin
 }
 
 export async function purgeExpiredSessions() {
+  const sql = getDatabase()
   await sql`delete from sessions where expires_at < now()`
 }

@@ -1,7 +1,8 @@
 import { runIngest } from '../lib/server/ingest'
-import { sql } from '../lib/server/db'
+import { databaseConfigured, getDatabase } from '../lib/server/db'
 
 async function main() {
+  const sql = getDatabase()
   const result = await runIngest()
 
   const summary = await sql`
@@ -27,4 +28,4 @@ main()
     console.error(err)
     process.exitCode = 1
   })
-  .finally(() => sql.end())
+  .finally(() => databaseConfigured ? getDatabase().end() : undefined)

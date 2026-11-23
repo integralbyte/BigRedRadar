@@ -1,4 +1,4 @@
-import { sql } from './db'
+import { getDatabase } from './db'
 import type { IngestResult } from './ingest'
 
 export type RefreshRecord = {
@@ -11,11 +11,13 @@ export type RefreshRecord = {
 const STALE_MINUTES = 10
 
 export async function readRefresh(): Promise<RefreshRecord | null> {
+  const sql = getDatabase()
   const rows = await sql`select value from app_state where key = 'last_refresh'`
   return (rows[0]?.value as RefreshRecord) ?? null
 }
 
 export async function writeRefresh(record: RefreshRecord) {
+  const sql = getDatabase()
   await sql`
     insert into app_state (key, value, updated_at)
     values ('last_refresh', ${sql.json(record as never)}, now())

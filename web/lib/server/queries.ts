@@ -1,4 +1,4 @@
-import { sql } from './db'
+import { databaseConfigured, getDatabase } from './db'
 
 export function parseSlugs(raw: string | null): string[] | null {
   if (!raw) return null
@@ -8,6 +8,7 @@ export function parseSlugs(raw: string | null): string[] | null {
 }
 
 export async function listOrgs() {
+  const sql = getDatabase()
   const rows = await sql`
     select
       o.slug,
@@ -29,6 +30,7 @@ export async function listOrgs() {
 }
 
 export async function listEvents(slugs: string[] | null) {
+  const sql = getDatabase()
   const rows = await sql`
     select
       e.id, e.title, e.starts_at, e.ends_at, e.all_day, e.time_tba,
@@ -50,6 +52,7 @@ export async function listEvents(slugs: string[] | null) {
 }
 
 export async function listForCalendar(slugs: string[] | null) {
+  const sql = getDatabase()
   const rows = await sql`
     select
       e.id, e.title, e.description, e.starts_at, e.ends_at, e.all_day,
@@ -69,6 +72,8 @@ export async function listForCalendar(slugs: string[] | null) {
 }
 
 export async function findOrg(slug: string) {
+  if (!databaseConfigured) return null
+  const sql = getDatabase()
   const rows = await sql`
     select slug, name, category, is_student_org
     from organizations

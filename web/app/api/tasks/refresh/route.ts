@@ -1,6 +1,7 @@
 import { NextResponse, after } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { runIngest } from '@/lib/server/ingest'
+import { databaseConfigured } from '@/lib/server/db'
 import { readRefresh, writeRefresh, isRunning } from '@/lib/server/state'
 import type { RefreshRecord } from '@/lib/server/state'
 
@@ -22,6 +23,7 @@ async function handle(request: NextRequest) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
   }
 
+  if (!databaseConfigured) return NextResponse.json({ error: 'The events database is unconfigured.' }, { status: 503 })
   const previous = await readRefresh()
 
   if (isRunning(previous)) {

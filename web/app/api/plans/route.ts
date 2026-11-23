@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 
 import { readPlanStore } from "@/lib/academics/plan-store";
 import { COOKIE_NAME, userFromToken } from "@/lib/server/auth";
-import { sql } from "@/lib/server/db";
+import { getDatabase } from "@/lib/server/db";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -15,6 +15,7 @@ async function signedIn() {
 export async function GET() {
   const user = await signedIn();
   if (!user) return Response.json({ error: "Sign in to use account plans." }, { status: 401 });
+  const sql = getDatabase();
   const [row] = await sql`select revision, data from academic_plans where user_id = ${user.id}`;
   return Response.json({ revision: row?.revision ?? 0, data: row?.data ?? null },
     { headers: { "Cache-Control": "private, no-store" } });
@@ -57,6 +58,7 @@ export async function PUT(request: Request) {
     return Response.json({ error: "Invalid plan backup." }, { status: 400 });
   }
 
+  const sql = getDatabase();
   const rows = revision === 0
     ? await sql`insert into academic_plans (user_id, data) values (${user.id}, ${sql.json(data as never)})
         on conflict (user_id) do nothing returning revision`

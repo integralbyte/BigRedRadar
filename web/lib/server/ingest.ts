@@ -1,4 +1,4 @@
-import { sql } from './db'
+import { getDatabase } from './db'
 import { fetchAllLocalist, LOCALIST_FEED } from './sources/localist'
 import type { ParsedEvent } from './sources/localist'
 import { fetchCampusGroups, CAMPUSGROUPS_FEED } from './sources/campusgroups'
@@ -18,6 +18,7 @@ async function getOrgId(name: string): Promise<number> {
   const hit = orgCache.get(name)
   if (hit !== undefined) return hit
 
+  const sql = getDatabase()
   const rows = await sql`
     insert into organizations (slug, name)
     values (${slugify(name)}, ${name})
@@ -31,6 +32,7 @@ async function getOrgId(name: string): Promise<number> {
 }
 
 async function getSourceId(orgId: number, kind: string, url: string): Promise<number> {
+  const sql = getDatabase()
   const rows = await sql`
     insert into sources (org_id, kind, url)
     values (${orgId}, ${kind}, ${url})
@@ -42,6 +44,7 @@ async function getSourceId(orgId: number, kind: string, url: string): Promise<nu
 }
 
 async function saveEvents(rows: Record<string, unknown>[]) {
+  const sql = getDatabase()
   const CHUNK = 500
 
   for (let i = 0; i < rows.length; i += CHUNK) {
@@ -70,6 +73,7 @@ async function saveEvents(rows: Record<string, unknown>[]) {
 }
 
 async function retireVanished(sourceId: number): Promise<number> {
+  const sql = getDatabase()
   const rows = await sql`
     update events
     set status = 'cancelled', updated_at = now()
@@ -110,6 +114,7 @@ export type IngestResult = {
 }
 
 export async function runIngest(log = console.log): Promise<IngestResult> {
+  const sql = getDatabase()
   const started = Date.now()
   const results: SourceResult[] = []
 
