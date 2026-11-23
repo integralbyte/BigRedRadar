@@ -16,7 +16,7 @@ import styles from "./planner.module.css";
 
 const emptyStore: PlanStore = { version: 2, active: null, plans: [] };
 const tabs = ["Courses", "Progress", "Schedule"] as const;
-const layouts = { terms: "Term overview", workspace: "Course workspace", schedule: "Schedule first" } as const;
+const layouts = { workspace: "Course workspace", terms: "Term overview", schedule: "Schedule first" } as const;
 const noCredit = new Set(["F", "U", "UX", "W", "I", "INC", "NGR", "AUD"]);
 const rosterTimestamp = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium", timeStyle: "short", timeZone: "America/New_York",
@@ -96,7 +96,7 @@ export default function Planner() {
   const [overview, setOverview] = useState<AcademicOverview>();
   const [rules, setRules] = useState<ProgramRules[]>([]);
   const [details, setDetails] = useState<Record<string, CourseDetail | null>>({});
-  const [layout, chooseLayout] = useLayoutPreference("brr.planner.layout", layouts, "terms");
+  const [layout, chooseLayout] = useLayoutPreference("brr.planner.layout", layouts, "workspace");
   const [view, setView] = useState<typeof tabs[number]>();
   const tab = view ?? (layout === "schedule" ? "Schedule" : "Courses");
   const wideWorkspace = useSyncExternalStore(subscribeWorkspaceWidth, () => window.matchMedia(workspaceQuery).matches, () => false);
