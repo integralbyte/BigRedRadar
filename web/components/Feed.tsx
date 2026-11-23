@@ -2,14 +2,14 @@
 
 import Link from 'next/link'
 import { useEffect, useMemo, useState } from 'react'
-import LayoutSwitcher, { useLayoutPreference } from './LayoutSwitcher'
+import LayoutSwitcher from './LayoutSwitcher'
+import { feedLayouts, useFeedLayout } from './feed-layout'
 import { apiGet, eventsPath } from '@/lib/api'
 import { CATEGORIES, categoryLabel } from '@/lib/categories'
 import { dayKeys, fmtKey, fmtTime, fmtWkShort, gcalUrl, ITHACA, keyToDate, matches } from '@/lib/dates'
 import type { EventItem } from '@/lib/types'
 import styles from './feed.module.css'
 
-const layouts = { cards: 'Event cards', agenda: 'Agenda', week: 'Weekly view' } as const
 const dateLabel = new Intl.DateTimeFormat('en-US', { timeZone: ITHACA, weekday: 'long', month: 'long', day: 'numeric' })
 const shortDate = new Intl.DateTimeFormat('en-US', { timeZone: ITHACA, month: 'short', day: 'numeric' })
 const batchSize = 18
@@ -85,18 +85,19 @@ function WeeklyFeed({ events }: { events: EventItem[] }) {
   </section>
 }
 
-export default function Feed({ slugs, followedCount }: { slugs: string[]; followedCount: number }) {
-  const [layout, chooseLayout] = useLayoutPreference('brr.feed.layout', layouts, 'cards')
+export default function Feed({ slugs, followedCount }: { slugs?: string[]; followedCount: number }) {
+  const [layout, chooseLayout] = useFeedLayout()
   const [state, setState] = useState<{ path: string; events?: EventItem[]; failed?: boolean }>()
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('')
   const [limit, setLimit] = useState(batchSize)
   const [attempt, setAttempt] = useState(0)
-  const path = eventsPath([...slugs].sort())
+  const path = slugs && eventsPath([...slugs].sort())
   const current = state?.path === path ? state : undefined
   const events = current?.events
 
   useEffect(() => {
+    if (!path) return
     let active = true
     apiGet<{ events: EventItem[] }>(path)
       .then((result) => { if (active) setState({ path, events: result.events ?? [] }) })
@@ -114,9 +115,11 @@ export default function Feed({ slugs, followedCount }: { slugs: string[]; follow
     <header className={styles.header}>
       <div>
         <h1>My feed</h1>
-        <p>{followedCount} followed {followedCount === 1 ? 'club' : 'clubs'}{events && ' · ' + events.length + ' upcoming'}</p>
+        <p>{followedCount
+          ? followedCount + (followedCount === 1 ? ' followed club' : ' followed clubs') + (events ? ' · ' + events.length + ' upcoming' : '')
+          : 'Upcoming Cornell events. Follow clubs to personalize your feed.'}</p>
       </div>
-      <Link className={styles.button} href="/clubs">Edit clubs</Link>
+      <Link className={styles.button} href="/clubs">{followedCount ? 'Edit clubs' : 'Find clubs'}</Link>
     </header>
     <div className={styles.toolbar}>
       <input type="search" aria-label="Search events" placeholder="Search events or clubs" value={search}
@@ -138,7 +141,7 @@ export default function Feed({ slugs, followedCount }: { slugs: string[]; follow
       <p role="alert">Events couldn’t be loaded.</p>
       <button className={styles.button} type="button" onClick={() => { setState(undefined); setAttempt(attempt + 1) }}>Try again</button>
     </div> : !shown ? <p className={styles.empty} role="status">Loading events…</p> : !shown.length ? <div className={styles.empty}>
-      <p>{filtered ? 'No events match these filters.' : 'Nothing coming up from your followed clubs.'}</p>
+      <p>{filtered ? 'No events match these filters.' : followedCount ? 'Nothing coming up from your followed clubs.' : 'No upcoming events are available.'}</p>
       {filtered ? <button className={styles.button} type="button" onClick={() => { setSearch(''); setCategory(''); setLimit(batchSize) }}>Clear filters</button> :
         <Link className={styles.button} href="/explore">Explore events</Link>}
     </div> : layout === 'week' ? <WeeklyFeed key={selectedCategory + '|' + query} events={shown} /> : <>
@@ -147,6 +150,6 @@ export default function Feed({ slugs, followedCount }: { slugs: string[]; follow
       </div> : <Agenda events={shown.slice(0, limit)} />}
       {shown.length > limit && <button type="button" className={styles.button} onClick={() => setLimit(limit + batchSize)}>Show more events</button>}
     </>}
-    <LayoutSwitcher name="Feed" value={layout} layouts={layouts} onChange={chooseLayout} />
+    <LayoutSwitcher name="Feed" value={layout} layouts={feedLayouts} onChange={chooseLayout} />
   </div>
 }

@@ -1,117 +1,119 @@
 'use client'
 
-import { useState } from 'react'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import CategoryPills from './CategoryPills'
+import { useState } from 'react'
 import { useFollows } from '@/lib/follows'
+import { CATEGORIES, categoryLabel } from '@/lib/categories'
+import LayoutSwitcher from './LayoutSwitcher'
+import { feedLayouts, useFeedLayout } from './feed-layout'
+import feedStyles from './feed.module.css'
+import styles from './club-picker.module.css'
+
+const batchSize = 12
 
 export default function ClubPicker() {
   const router = useRouter()
   const { ready, orgs, follows, followedCount, toggle, setMany, clearAll } = useFollows()
-  const [q, setQ] = useState('')
-  const [picks, setPicks] = useState<Set<string>>(new Set())
-
-  if (!ready) return <p className="status">Loading…</p>
-
-  if (orgs.length === 0) {
-    return <div className="status">No clubs in the database yet.<br /><code>npm run ingest</code></div>
-  }
-
+  const [layout, chooseLayout] = useFeedLayout()
+  const [search, setSearch] = useState('')
+  const [filters, setFilters] = useState<Set<string>>(new Set())
+  const [limit, setLimit] = useState(batchSize)
   const n = followedCount()
-  const first = n === 0
-  const query = q.trim().toLowerCase()
-  const everything = !picks.size && !query
-
-  function inPicks(category: string | null, slug: string) {
-    if (!picks.size) return true
-    if (picks.has('following') && follows.has(slug)) return true
-    return picks.has(category ?? '')
-  }
-
-  const list = (query
-    ? orgs.filter((o) => o.name.toLowerCase().includes(query))
-    : orgs.filter((o) => inPicks(o.category, o.slug))
-  ).slice().sort((a, b) => {
-    const fa = follows.has(a.slug) ? 1 : 0
-    const fb = follows.has(b.slug) ? 1 : 0
-    return (fb - fa) || (b.upcoming - a.upcoming) || a.name.localeCompare(b.name)
-  })
-
+  const query = search.trim().toLowerCase()
   const counts = new Map<string, number>()
-  for (const o of orgs) {
-    if (!o.category) continue
-    counts.set(o.category, (counts.get(o.category) ?? 0) + 1)
+  for (const org of orgs) {
+    if (org.category) counts.set(org.category, (counts.get(org.category) ?? 0) + 1)
   }
+  const visible = orgs.filter((org) =>
+    (!query || org.name.toLowerCase().includes(query)) &&
+    (!filters.size || filters.has(org.category ?? '') || (filters.has('following') && follows.has(org.slug))),
+  ).sort((a, b) => (b.upcoming - a.upcoming) || a.name.localeCompare(b.name))
+  const filtered = filters.size > 0 || Boolean(query)
+  const shown = visible.slice(0, limit)
 
-  function togglePick(k: string) {
-    setPicks((prev) => {
-      const next = new Set(prev)
-      if (k === 'all') next.clear()
-      else if (next.has(k)) next.delete(k)
-      else next.add(k)
+  function setFilter(key: string, checked: boolean) {
+    setFilters((current) => {
+      const next = new Set(current)
+      if (checked) next.add(key)
+      else next.delete(key)
       return next
     })
-    setQ('')
+    setLimit(batchSize)
   }
 
-  const word = everything ? 'All' : 'These'
+  function clearFilters() {
+    setSearch('')
+    setFilters(new Set())
+    setLimit(batchSize)
+  }
 
-  return (
-    <>
-      <div className="head">
-        <div>
-          <h2>{first ? 'Pick Your Clubs' : 'My Clubs'}</h2>
-          <p className="sub">{first
-            ? 'Your feed shows only these. Change it whenever.'
-            : 'Tap to follow or unfollow.'}</p>
+  return <div className={feedStyles.feed + ' ' + styles.picker}>
+    <header className={feedStyles.header}>
+      <div>
+        <h1>{n ? 'My clubs' : 'Find clubs'}</h1>
+        <p>Follow clubs to see their events in My Feed.</p>
+      </div>
+      <Link className={feedStyles.button} href="/">Open My Feed</Link>
+    </header>
+
+    <div className={feedStyles.toolbar}>
+      <input type="search" aria-label="Search clubs" value={search}
+        placeholder={orgs.length ? 'Search ' + orgs.length + ' clubs' : 'Search clubs'}
+        onChange={(event) => { setSearch(event.target.value); setLimit(batchSize) }} />
+      <details className={feedStyles.filters}>
+        <summary>Filters{filters.size > 0 && <span> · {filters.size} active</span>}</summary>
+        <div className={styles.filterPanel}>
+          {(n > 0 || filters.has('following')) && <label>
+            <input type="checkbox" checked={filters.has('following')}
+              onChange={(event) => setFilter('following', event.target.checked)} />
+            Following <small>{n}</small>
+          </label>}
+          {CATEGORIES.filter(([key]) => counts.has(key)).map(([key, label]) => <label key={key}>
+            <input type="checkbox" checked={filters.has(key)}
+              onChange={(event) => setFilter(key, event.target.checked)} />
+            {label} <small>{counts.get(key)}</small>
+          </label>)}
         </div>
-      </div>
+      </details>
+    </div>
 
-      <input
-        className="field"
-        type="search"
-        placeholder={`Search ${orgs.length} clubs`}
-        value={q}
-        onChange={(ev) => setQ(ev.target.value)}
-      />
+    <div className={styles.listHeading}>
+      <p role="status">{ready ? visible.length + ' ' + (visible.length === 1 ? 'club' : 'clubs') + ' · ' + n + ' following' : 'Loading clubs…'}</p>
+      {filtered && <button type="button" className={styles.textButton} onClick={clearFilters}>Clear filters</button>}
+      {visible.length > 0 && <details className={feedStyles.filters + ' ' + styles.bulk}>
+        <summary>Bulk actions</summary>
+        <div>
+          <button type="button" className={feedStyles.button}
+            onClick={() => setMany(visible.map((org) => org.slug), true)}>{filtered ? 'Follow matching clubs' : 'Follow all clubs'}</button>
+          <button type="button" className={feedStyles.button}
+            onClick={() => filtered ? setMany(visible.map((org) => org.slug), false) : clearAll()}>{filtered ? 'Unfollow matching clubs' : 'Unfollow all clubs'}</button>
+        </div>
+      </details>}
+    </div>
 
-      <CategoryPills
-        counts={counts}
-        picks={picks}
-        onToggle={togglePick}
-        allCount={orgs.length}
-        extra={n ? [{ key: 'following', label: 'Following', count: n }] : []}
-      />
+    {ready && !visible.length && <p className={styles.empty}>{filtered ? 'No clubs match these filters.' : 'No clubs have upcoming events.'}</p>}
+    {shown.length > 0 && <ul className={styles.clubs} aria-label="Clubs">
+      {shown.map((org) => {
+        const following = follows.has(org.slug)
+        const category = categoryLabel(org.category)
+        return <li key={org.slug}>
+          <div>
+            <Link href={'/clubs/' + org.slug}>{org.name}</Link>
+            <p>{category && category + ' · '}{org.upcoming} upcoming {org.upcoming === 1 ? 'event' : 'events'}</p>
+          </div>
+          <button type="button" className={feedStyles.button + ' ' + styles.follow} aria-pressed={following}
+            aria-label={(following ? 'Unfollow ' : 'Follow ') + org.name} onClick={() => toggle(org.slug)}>
+            {following ? 'Following' : 'Follow'}
+          </button>
+        </li>
+      })}
+    </ul>}
+    {visible.length > limit && <button type="button" className={feedStyles.button} onClick={() => setLimit(limit + batchSize)}>Show more clubs</button>}
 
-      <div className="bulk">
-        <button className="bulkbtn" onClick={() => setMany(list.map((o) => o.slug), true)}>Select {word}</button>
-        <button
-          className="bulkbtn"
-          onClick={() => everything ? clearAll() : setMany(list.map((o) => o.slug), false)}
-        >
-          Clear {word}
-        </button>
-      </div>
-
-      <div className="chips">
-        {list.length
-          ? list.map((o) => (
-              <button
-                key={o.slug}
-                className={`chip ${follows.has(o.slug) ? 'on' : ''}`}
-                onClick={() => toggle(o.slug)}
-              >
-                {o.name}<span className="n">{o.upcoming}</span>
-              </button>
-            ))
-          : <p className="sub">Nothing here.</p>}
-      </div>
-
-      <div className="bar">
-        <button className="primary" disabled={n === 0} onClick={() => router.push('/')}>
-          {n ? `See My Feed (${n})` : 'Pick At Least One'}
-        </button>
-      </div>
-    </>
-  )
+    <LayoutSwitcher name="Feed" value={layout} layouts={feedLayouts} onChange={(choice) => {
+      chooseLayout(choice)
+      router.push('/')
+    }} />
+  </div>
 }

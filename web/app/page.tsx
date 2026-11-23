@@ -1,22 +1,10 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
-import { useEffect } from 'react'
 import Feed from '@/components/Feed'
 import { useFollows } from '@/lib/follows'
 
 export default function FeedPage() {
-  const router = useRouter()
   const { ready, follows, followedCount } = useFollows()
-
   const n = followedCount()
-
-  useEffect(() => {
-    if (ready && n === 0) router.replace('/clubs')
-  }, [ready, n, router])
-
-  if (!ready) return <p className="status">Loading…</p>
-  if (n === 0) return <p className="status">Loading…</p>
-
-  return <Feed slugs={[...follows]} followedCount={n} />
+  return <Feed slugs={ready ? (n ? [...follows] : []) : undefined} followedCount={n} />
 }
