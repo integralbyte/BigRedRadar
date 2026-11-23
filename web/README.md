@@ -48,6 +48,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 1. Import `integralbyte/BigRedRadar` into Vercel. Select **Next.js** and set **Root Directory** to `web`. Use `main` as the production branch and the default build and output settings.
-2. The planner works with local browser saves and the checked-in catalog. To enable club events and account backups, set `DATABASE_URL` to a Postgres database. For a new database, apply `db/migrations/001_init.sql` through `009_academic_plans.sql` in order. For an existing Big Red Radar database, apply its pending migrations, including `009_academic_plans.sql` for plan backups.
+2. The planner works with local browser saves and the checked-in catalog. To enable club events and account backups, set `DATABASE_URL` to a Postgres database. For a new database, apply `db/migrations/001_init.sql` through `010_organization_classifications.sql` in order. For an existing Big Red Radar database, apply its pending migrations. Migration `009` adds plan backups, and `010` classifies known clubs already in the database and on future imports.
 3. For Google sign-in, set `GOOGLE_CLIENT_ID` and add the deployment origin to the OAuth client's authorized JavaScript origins in Google Cloud. Set `REFRESH_TOKEN` if you use the existing events ingest endpoint.
 4. After deploying, open `/plan` and `/api/academics`. The API should report term `SP27` and the latest packaged roster timestamp.
